@@ -10,8 +10,8 @@ import { descriptionFixture, fakeLlm, testCtx } from './helpers.js';
 
 const FIXTURE = descriptionFixture('084');
 
-/** Only the chain, so the test never needs a feed or a fetch stub. */
-const CHAIN_ONLY = { before: [], chain: registry.chain, after: [] };
+/** Only parse, so parse-focused runner tests never need audio or a fetch stub. */
+const PARSE_ONLY = { before: [], chain: [parse], after: [] };
 
 const LATER_STEP_COLUMNS = {
   note_spoken: 'сказал в эфире',
@@ -199,7 +199,7 @@ test('a re-parse rewrites owned columns and deletes only the positions that vani
 test('an episode with no tracklist parses to zero rows and still advances', async (t) => {
   const { ctx, db, guid } = setup(t, { description: null });
 
-  const { failures } = await runPipeline(ctx, CHAIN_ONLY, { episode: guid });
+  const { failures } = await runPipeline(ctx, PARSE_ONLY, { episode: guid });
   assert.equal(failures, 0);
   assert.deepEqual(ctx.lines, [`${guid}: parse 0 tracks, 0 warned`]);
   assert.equal(tracks(db, guid).length, 0);
@@ -227,7 +227,7 @@ test('a description that loses its tracklist drops every row', async (t) => {
 test('the whole chain parses an episode that is still at new', async (t) => {
   const { ctx, db, guid } = setup(t);
 
-  const { selected, failures } = await runPipeline(ctx, CHAIN_ONLY, {});
+  const { selected, failures } = await runPipeline(ctx, PARSE_ONLY, {});
   assert.equal(selected, 1);
   assert.equal(failures, 0);
   assert.equal(db.prepare('SELECT status FROM episode WHERE guid = ?').get(guid).status, 'parsed');
@@ -383,7 +383,7 @@ test('an unrepairable reply fails the episode cleanly and keeps the raw output',
   const fake = fakeLlm(t, { reply: '{"entries": "marker-not-an-array"}' });
   wireLlm(ctx, fake);
 
-  const { failures } = await runPipeline(ctx, CHAIN_ONLY, { episode: guid });
+  const { failures } = await runPipeline(ctx, PARSE_ONLY, { episode: guid });
   assert.equal(failures, 1);
   assert.equal(fake.calls().length, 3, 'three attempts before it gives up');
 
@@ -404,7 +404,7 @@ test('an auth failure fails every episode without spawning the CLI again', async
   const fake = fakeLlm(t, { exit: 1, stderr: 'Not logged in. Please run /login.' });
   wireLlm(ctx, fake);
 
-  const { selected, failures } = await runPipeline(ctx, CHAIN_ONLY, {});
+  const { selected, failures } = await runPipeline(ctx, PARSE_ONLY, {});
   assert.equal(selected, 2);
   assert.equal(failures, 2, 'an auth failure fails both episodes');
   assert.equal(fake.calls().length, 1, 'the CLI is spawned once, not once per episode');

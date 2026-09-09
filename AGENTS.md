@@ -8,7 +8,7 @@ Not a product. No multi-user, no auth, no server, no re-hosting audio. If a chan
 
 ## Hard boundaries
 
-- Pipeline: single CLI, runs from cron on Ubuntu, idempotent and resumable. Per-episode steps form one linear chain and each advances `episode.status` to its own state: `new → parsed → downloaded → segmented → transcribed → extracted → aligned → genred → linked → published → notified`. `export` and `publish` are run-level steps over the whole database, not per-episode transitions. A failure must not block other episodes.
+- Pipeline: single CLI, runs from cron on Ubuntu, idempotent and resumable. Per-episode steps form one linear chain and each advances `episode.status` to its own state: `new → parsed → downloaded → segmented → transcribed → extracted → aligned → genred → linked → published → notified`. `prune`, `export` and `publish` are run-level steps over the whole database, not per-episode transitions. A failure must not block other episodes.
 - Failure keeps `status` at the last good state and records `error` + `failed_step`. There is no `failed` status; the next run retries from where it stopped.
 - `--step <step>` runs that step regardless of status and sets `status = max(status, step target)`. It never regresses an episode.
 - Column ownership: every `track` column is written by exactly one step (the table lives with the schema). Rows are keyed by `(episode_guid, position)`; `parse` upserts and never wipes downstream columns.
