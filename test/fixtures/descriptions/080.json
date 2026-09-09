@@ -1,0 +1,163 @@
+{
+  "guid": "49f955e9-fb24-43e5-b863-b33a0ec4ae4c",
+  "number": 80,
+  "title": "🎶 Стереоплан Троицкого* #80 - «Запахи, фолк-рок и американская электрическая память»",
+  "tracks": [
+    {
+      "position": 1,
+      "artist": "Jenny Hval",
+      "country": "Norway",
+      "track": "To be a rose",
+      "format": "LP",
+      "album": "IRIS SILVER MIST",
+      "label": "4AD",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Новый альбом главной норвежской альтернативной звезды посвящён теме запахов."
+    },
+    {
+      "position": 2,
+      "artist": "Atomic Rooster",
+      "country": "UK",
+      "track": "Pillow",
+      "format": "LP",
+      "album": "CIRCLE THE SUN",
+      "label": "Esoteric Antenna",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Классики британского прог-рока вновь объединились и записали восьмой (с 1970 года) альбом."
+    },
+    {
+      "position": 3,
+      "artist": "Angine de Poitrine",
+      "country": "Canada",
+      "track": "Sahardnieh",
+      "format": "LP",
+      "album": "VOL.1",
+      "label": "Self-released",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Микротональный инструментальный дуэт, любимцы Тик-Тока."
+    },
+    {
+      "position": 4,
+      "artist": "Angine de Poitrine",
+      "country": "Canada",
+      "track": "Sarniezz",
+      "format": "LP",
+      "album": "VOL.2",
+      "label": "Spectacles Bonzai",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Микротональный инструментальный дуэт, любимцы Тик-Тока."
+    },
+    {
+      "position": 5,
+      "artist": "The Mamas & The Papas",
+      "country": "USA",
+      "track": "Crequee Alley",
+      "format": "LP",
+      "album": "WHEN WILL THEY EVER LEARN? A STORY OF U.S. FOLK MUSIC 1963-1969",
+      "label": "Strawberry",
+      "section": "Американский фолк и фолк-рок шестидесятых, часть вторая.",
+      "is_cherished": true,
+      "note_desc": "Классики поп-фолка, 1967 год. Заветная песня!"
+    },
+    {
+      "position": 6,
+      "artist": "Scott McKenzie",
+      "country": "USA",
+      "track": "Like an old time movie",
+      "format": "LP",
+      "album": "WHEN WILL THEY EVER LEARN? A STORY OF U.S. FOLK MUSIC 1963-1969",
+      "label": "Strawberry",
+      "section": "Американский фолк и фолк-рок шестидесятых, часть вторая.",
+      "is_cherished": false,
+      "note_desc": "Исполнитель хиппового хита \"San Francisco\". Шикарный голос!"
+    },
+    {
+      "position": 7,
+      "artist": "Nico",
+      "country": "USA/Germany",
+      "track": "I'll keep it with mine",
+      "format": "LP",
+      "album": "WHEN WILL THEY EVER LEARN? A STORY OF U.S. FOLK MUSIC 1963-1969",
+      "label": "Strawberry",
+      "section": "Американский фолк и фолк-рок шестидесятых, часть вторая.",
+      "is_cherished": false,
+      "note_desc": "Та самая - из VELVET UNDERGROUND. На своём первом сольном альбоме (1967) спела песню Боба Дилана."
+    },
+    {
+      "position": 8,
+      "artist": "The Grateful Dead",
+      "country": "USA",
+      "track": "Cold rain and snow",
+      "format": "LP",
+      "album": "WHEN WILL THEY EVER LEARN? A STORY OF U.S. FOLK MUSIC 1963-1969",
+      "label": "Strawberry",
+      "section": "Американский фолк и фолк-рок шестидесятых, часть вторая.",
+      "is_cherished": false,
+      "note_desc": "Дедушки психоделика тоже начинали с фолк-рока."
+    },
+    {
+      "position": 9,
+      "artist": "H.P.Lovecraft",
+      "country": "USA",
+      "track": "Spin, spin, spin",
+      "format": "LP",
+      "album": "WHEN WILL THEY EVER LEARN? A STORY OF U.S. FOLK MUSIC 1963-1969",
+      "label": "Strawberry",
+      "section": "Американский фолк и фолк-рок шестидесятых, часть вторая.",
+      "is_cherished": false,
+      "note_desc": "Очень странная и любимая мною группа из Чикаго. Тёмный-тёмный фолк, 1968."
+    },
+    {
+      "position": 10,
+      "artist": "Pearls Before Swine",
+      "country": "USA",
+      "track": "These things too",
+      "format": "LP",
+      "album": "WHEN WILL THEY EVER LEARN? A STORY OF U.S. FOLK MUSIC 1963-1969",
+      "label": "Strawberry",
+      "section": "Американский фолк и фолк-рок шестидесятых, часть вторая.",
+      "is_cherished": false,
+      "note_desc": "«Жемчуг Перед Свиньями» - блестящая экспериментальная рок-фолк группа Тома Рэппа."
+    },
+    {
+      "position": 11,
+      "artist": "Mickey Newbury",
+      "country": "USA",
+      "track": "Just dropped in",
+      "format": "LP",
+      "album": "WHEN WILL THEY EVER LEARN? A STORY OF U.S. FOLK MUSIC 1963-1969",
+      "label": "Strawberry",
+      "section": "Американский фолк и фолк-рок шестидесятых, часть вторая.",
+      "is_cherished": false,
+      "note_desc": "Оригинальное авторское исполнение будущего хита Кенни Роджерса. Один из символов эпохи, 1968."
+    },
+    {
+      "position": 12,
+      "artist": "Arlo Guthrie",
+      "country": "USA",
+      "track": "Coming in to Los Angeles",
+      "format": "LP",
+      "album": "WHEN WILL THEY EVER LEARN? A STORY OF U.S. FOLK MUSIC 1963-1969",
+      "label": "Strawberry",
+      "section": "Американский фолк и фолк-рок шестидесятых, часть вторая.",
+      "is_cherished": false,
+      "note_desc": "Сын знаменитого Вуди Гатри - основоположника фолк-сцены. Новое поколение - 1969."
+    },
+    {
+      "position": 13,
+      "artist": "Afenginn",
+      "country": "Denmark",
+      "track": "Undertryk",
+      "format": "LP",
+      "album": "MOVEMENTS 1",
+      "label": "Tutl",
+      "section": "Американский фолк и фолк-рок шестидесятых, часть вторая.",
+      "is_cherished": false,
+      "note_desc": "Композитор Ким Рафаэль Нюберг и его пост-классический ансамбль."
+    }
+  ]
+}
