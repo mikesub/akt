@@ -6,7 +6,7 @@ import { join } from 'node:path';
 import test from 'node:test';
 import { parseCli, UsageError } from '../src/cli.js';
 import { openDb } from '../src/db.js';
-import { fakeFfmpeg, fakeLlm, fixtureFeed, mediaBytes, tempDir } from './helpers.js';
+import { fakeFfmpeg, fakeLlm, fakeWhisper, fixtureFeed, mediaBytes, tempDir } from './helpers.js';
 
 const BIN = join(import.meta.dirname, '..', 'bin', 'akt.js');
 
@@ -99,19 +99,27 @@ function feedServer(t) {
   });
 }
 
-/** The env a full run needs: a local feed, a temp media dir and a fake ffmpeg. */
+/**
+ * The env a full run needs: a local feed, a temp media dir, a fake ffmpeg and
+ * a fake whisper-cli with stand-in weights. Both fakes want to be first on
+ * PATH, so the two directories are spliced onto it together.
+ */
 function runEnv(t, url) {
   const mediaDir = join(tempDir(t), 'media');
   const ffmpeg = fakeFfmpeg(tempDir(t));
   const llm = fakeLlm(t, { reply: '{"entries": []}' });
+  const whisper = fakeWhisper(t);
   return {
     mediaDir,
     ffmpeg,
+    whisper,
     env: {
       AKT_FEED_URL: url,
       AKT_MEDIA_DIR: mediaDir,
       AKT_FFMPEG: ffmpeg.bin,
       ...llm.env,
+      ...whisper.env,
+      PATH: `${whisper.binDir}:${llm.bin}:${process.env.PATH}`,
     },
   };
 }
@@ -138,7 +146,7 @@ test('akt run ingests the feed, downloads the audio, and repeats nothing', async
   const dir = tempDir(t);
   const dbPath = join(dir, 'akt.db');
   const { url, hits, mediaHits } = await feedServer(t);
-  const { mediaDir, ffmpeg, env } = runEnv(t, url);
+  const { mediaDir, ffmpeg, whisper, env } = runEnv(t, url);
 
   const first = await runCli(['run', '--db', dbPath], { cwd: dir, env });
   assert.equal(first.code, 0, first.stderr);
@@ -149,9 +157,10 @@ test('akt run ingests the feed, downloads the audio, and repeats nothing', async
   assert.equal(after1.length, 3);
   assert.deepEqual(
     after1.map((row) => row.status),
-    ['downloaded', 'downloaded', 'downloaded'],
-    'the chain parses and downloads every ingested episode in the same run',
+    ['transcribed', 'transcribed', 'transcribed'],
+    'the chain parses, downloads and transcribes every ingested episode in one run',
   );
+  assert.equal(db.prepare('SELECT count(*) AS n FROM transcript').get().n, 3);
   assert.equal(db.prepare("SELECT value FROM meta WHERE key = 'feed_url'").get().value, url);
   db.close();
 
@@ -161,6 +170,7 @@ test('akt run ingests the feed, downloads the audio, and repeats nothing', async
     assert.equal(existsSync(join(mediaDir, `${row.guid}.mp3.part`)), false);
   }
   assert.equal(ffmpeg.calls().length, 3, 'one decode per episode');
+  assert.equal(whisper.calls().length, 3, 'one transcription per episode');
   const mediaHitsAfterFirst = mediaHits.length;
 
   const second = await runCli(['run', '--db', dbPath], { cwd: dir, env });
@@ -173,6 +183,7 @@ test('akt run ingests the feed, downloads the audio, and repeats nothing', async
   assert.equal(hits.length, 2, 'one feed request per run');
   assert.equal(mediaHits.length, mediaHitsAfterFirst, 'nothing is transferred twice');
   assert.equal(ffmpeg.calls().length, 3, 'nothing is decoded twice');
+  assert.equal(whisper.calls().length, 3, 'an episode at transcribed is never transcribed again');
   assert.equal(existsSync(`${dbPath}.lock`), false, 'the lock is released on exit');
 });
 
@@ -260,9 +271,40 @@ test('a bad LLM_CLI exits 2 with the usage text, before anything else runs', asy
   assert.equal(existsSync(`${dbPath}.lock`), false, 'a usage error never takes the lock');
 });
 
+test('a missing whisper-cli exits 2 and blames the box, not the episodes', async (t) => {
+  const dir = tempDir(t);
+  const dbPath = join(dir, 'akt.db');
+  const { url } = await feedServer(t);
+  const { env } = runEnv(t, url);
+
+  const result = await runCli(['run', '--db', dbPath], {
+    cwd: dir,
+    env: { ...env, WHISPER_CLI: join(dir, 'no-such-whisper-cli') },
+  });
+
+  assert.equal(result.code, 2);
+  assert.match(result.stderr, /whisper-cli.*not found|no such/i);
+  assert.doesNotMatch(result.stderr, /Usage: akt run/, 'a missing binary is not a bad invocation');
+
+  const db = openDb(dbPath);
+  const rows = db.prepare('SELECT * FROM episode').all();
+  assert.equal(rows.length, 3, 'the run got as far as ingest');
+  assert.deepEqual(
+    rows.filter((row) => row.error !== null),
+    [],
+    'no episode is blamed for a prerequisite the box is missing',
+  );
+  db.close();
+  assert.equal(existsSync(`${dbPath}.lock`), false, 'the lock is released on the way out');
+});
+
 test('.env.example documents every key the adapter reads', () => {
   const text = readFileSync(join(import.meta.dirname, '..', '.env.example'), 'utf8');
   assert.match(text, /^LLM_CLI=/m, 'LLM_CLI selects the CLI the adapter spawns');
   assert.match(text, /^LLM_TIMEOUT=/m, 'LLM_TIMEOUT bounds a single call');
   assert.match(text, /ANTHROPIC_API_KEY/, 'the optional API-billing key is listed as optional');
+  assert.match(text, /^WHISPER_MODEL=/m, 'WHISPER_MODEL is the one model, chosen once');
+  assert.match(text, /^WHISPER_MODEL_DIR=/m, 'WHISPER_MODEL_DIR is where the weights live');
+  assert.match(text, /^WHISPER_CLI=/m, 'WHISPER_CLI is the binary the adapter spawns');
+  assert.match(text, /^WHISPER_TIMEOUT=/m, 'WHISPER_TIMEOUT bounds one episode');
 });

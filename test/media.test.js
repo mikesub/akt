@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import test from 'node:test';
+import { SetupError } from '../src/errors.js';
 import { decodeWav, downloadMp3, mediaPaths, removeMedia } from '../src/media.js';
 import { fakeFfmpeg, mediaServer, tempDir } from './helpers.js';
 
@@ -115,6 +116,21 @@ test('a failing ffmpeg surfaces its stderr and leaves no wav', async (t) => {
   );
   assert.equal(existsSync(wav), false);
   assert.equal(existsSync(`${wav}.part`), false);
+});
+
+test('an ffmpeg that is not installed is a setup error, not a bad episode', async (t) => {
+  const dir = tempDir(t);
+  const mp3 = join(dir, `${GUID}.mp3`);
+  const wav = join(dir, `${GUID}.wav`);
+  writeFileSync(mp3, 'mp3');
+  const missing = join(dir, 'no-such-ffmpeg');
+
+  await assert.rejects(() => decodeWav(missing, mp3, wav), SetupError);
+  await assert.rejects(
+    () => decodeWav(missing, mp3, wav),
+    new RegExp(`ffmpeg not found \\(AKT_FFMPEG=${missing}\\)`),
+  );
+  assert.equal(existsSync(wav), false);
 });
 
 test('removeMedia counts what it removed and ignores what is missing', async (t) => {

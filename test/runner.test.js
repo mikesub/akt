@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { openDb } from '../src/db.js';
-import { UsageError } from '../src/errors.js';
+import { SetupError, UsageError } from '../src/errors.js';
 import { runPipeline } from '../src/runner.js';
 import { testCtx } from './helpers.js';
 
@@ -81,6 +81,56 @@ test('a throwing step isolates the failure to its episode', async (t) => {
   assert.equal(b.error, null);
   assert.equal(b.failed_step, null);
   assert.deepEqual(download.seen, ['b'], 'the rest of a failed episode chain is not run');
+});
+
+test('a SetupError aborts the run instead of being recorded on an episode', async (t) => {
+  const ctx = setup(t, [
+    { guid: 'a', published_at: '2025-09-01T00:00:00.000Z' },
+    { guid: 'b', published_at: '2025-08-01T00:00:00.000Z' },
+  ]);
+  const parse = {
+    name: 'parse',
+    target: 'parsed',
+    seen: [],
+    run(_ctx, episode) {
+      parse.seen.push(episode.guid);
+      throw new SetupError('ffmpeg not found (AKT_FFMPEG=ffmpeg): install it, see README');
+    },
+  };
+
+  await assert.rejects(
+    () => runPipeline(ctx, fakeRegistry({ chain: [parse] })),
+    (err) => err instanceof SetupError && /ffmpeg not found/.test(err.message),
+  );
+
+  assert.deepEqual(parse.seen, ['a'], 'no later episode is even attempted');
+  const a = status(ctx.db, 'a');
+  assert.equal(a.status, 'new');
+  assert.equal(a.error, null, 'the box is at fault, not the episode');
+  assert.equal(a.failed_step, null);
+});
+
+test('a SetupError under --step and at run level also aborts', async (t) => {
+  const ctx = setup(t, [{ guid: 'a', published_at: '2025-09-01T00:00:00.000Z' }]);
+  const boom = (name, target) => ({
+    name,
+    target,
+    run() {
+      throw new SetupError('whisper-cli not found (WHISPER_CLI=whisper-cli): see README');
+    },
+  });
+
+  const forced = fakeRegistry({ chain: [boom('segment', 'segmented')] });
+  await assert.rejects(
+    () => runPipeline(ctx, forced, { step: 'segment' }),
+    (err) => err instanceof SetupError,
+  );
+  assert.equal(status(ctx.db, 'a').error, null);
+
+  await assert.rejects(
+    () => runPipeline(ctx, fakeRegistry({ before: [boom('ingest')] })),
+    (err) => err instanceof SetupError,
+  );
 });
 
 test('a later success clears error and failed_step', async (t) => {

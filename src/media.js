@@ -1,6 +1,7 @@
 import { execFile } from 'node:child_process';
 import { rename, stat, unlink, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { SetupError } from './errors.js';
 
 export const DEFAULT_MEDIA_DIR = './media';
 
@@ -95,6 +96,12 @@ function ffmpeg(bin, args) {
   return new Promise((resolve, reject) => {
     execFile(bin, args, { maxBuffer: 4 * 1024 * 1024 }, (err, _stdout, stderr) => {
       if (!err) return resolve();
+      // No ffmpeg is the box's problem, not this episode's: every other
+      // episode would fail identically, so the run stops instead.
+      if (err.code === 'ENOENT') {
+        const where = `AKT_FFMPEG=${bin}`;
+        return reject(new SetupError(`ffmpeg not found (${where}): install it, see README`));
+      }
       const detail = String(stderr ?? '').trim() || err.message;
       reject(new Error(`ffmpeg exited ${err.code ?? err.signal ?? 'unknown'}: ${detail}`));
     });

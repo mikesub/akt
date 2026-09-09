@@ -19,6 +19,16 @@ export const DESCRIPTIONS_PATH = join(import.meta.dirname, 'fixtures', 'descript
 /** The fake `claude`/`codex` the suite puts on PATH instead of the real CLI. */
 export const FAKE_LLM_PATH = join(import.meta.dirname, 'fixtures', 'fake-llm.sh');
 
+/** The fake `whisper-cli` the suite puts on PATH instead of whisper.cpp. */
+export const FAKE_WHISPER_PATH = join(import.meta.dirname, 'fixtures', 'fake-whisper-cli.sh');
+
+/** A realistic `whisper-cli -oj` document, as the fake prints it. */
+export const WHISPER_OUTPUT_PATH = join(import.meta.dirname, 'fixtures', 'whisper-output.json');
+
+export function whisperOutput() {
+  return JSON.parse(readFileSync(WHISPER_OUTPUT_PATH, 'utf8'));
+}
+
 export function fixtureFeed() {
   return readFileSync(FIXTURE_PATH, 'utf8');
 }
@@ -149,12 +159,78 @@ export function fakeLlm(t, options = {}) {
   return { bin, store, env, calls: () => readFakeCalls(store) };
 }
 
+/** The `call.N` files the fake whisper wrote, oldest first. */
+function readWhisperCalls(store) {
+  const calls = [];
+  while (existsSync(join(store, `call.${calls.length + 1}`))) {
+    const text = readFileSync(join(store, `call.${calls.length + 1}`), 'utf8');
+    const cut = text.indexOf('\n');
+    const argv = text.slice(cut + 1).split('\0');
+    // Every recorded argument is NUL-terminated, so the tail is always empty.
+    argv.pop();
+    calls.push({ cwd: text.slice(0, cut), argv });
+  }
+  return calls;
+}
+
+/**
+ * A fake `whisper-cli` on PATH plus zero-byte stand-ins for the two weight
+ * files, so the suite runs offline with no model on disk: the adapter only
+ * checks that they exist and the fake never opens them. `json` replaces the
+ * canned document, and `exit`, `stderr`, `sleep`, `signal` and `noJson` make
+ * the fake fail, complain, hang, die on a signal or write nothing.
+ */
+export function fakeWhisper(t, options = {}) {
+  const {
+    json = null,
+    exit = null,
+    stderr = null,
+    sleep = null,
+    signal = null,
+    noJson = false,
+    model = 'large-v3',
+  } = options;
+
+  const dir = tempDir(t);
+  const binDir = join(dir, 'bin');
+  const store = join(dir, 'calls');
+  const modelDir = join(dir, 'models');
+  for (const made of [binDir, store, modelDir]) mkdirSync(made);
+
+  const bin = join(binDir, 'whisper-cli');
+  copyFileSync(FAKE_WHISPER_PATH, bin);
+  chmodSync(bin, 0o755);
+
+  const document = json ?? readFileSync(WHISPER_OUTPUT_PATH, 'utf8');
+  writeFileSync(
+    join(store, 'output.json'),
+    typeof document === 'string' ? document : JSON.stringify(document),
+  );
+  for (const name of [`ggml-${model}.bin`, 'ggml-silero-v5.1.2.bin']) {
+    writeFileSync(join(modelDir, name), '');
+  }
+
+  const env = {
+    PATH: `${binDir}:${process.env.PATH}`,
+    FAKE_WHISPER_DIR: store,
+    WHISPER_MODEL_DIR: modelDir,
+  };
+  if (exit !== null) env.FAKE_WHISPER_EXIT = String(exit);
+  if (stderr !== null) env.FAKE_WHISPER_STDERR = stderr;
+  if (sleep !== null) env.FAKE_WHISPER_SLEEP = String(sleep);
+  if (signal !== null) env.FAKE_WHISPER_SIGNAL = String(signal);
+  if (noJson) env.FAKE_WHISPER_NO_JSON = '1';
+
+  return { bin, binDir, store, modelDir, env, calls: () => readWhisperCalls(store) };
+}
+
 export function testCtx(
   db,
   {
     feedUrl,
     fetch,
     llm = null,
+    whisper = null,
     now = '2026-09-09T00:00:00.000Z',
     mediaDir,
     keepMedia = false,
@@ -167,6 +243,7 @@ export function testCtx(
     fetch,
     feedUrl,
     llm,
+    whisper,
     mediaDir,
     keepMedia,
     ffmpeg,

@@ -1,4 +1,4 @@
-import { UsageError } from './errors.js';
+import { SetupError, UsageError } from './errors.js';
 import { maxStatus, rank } from './steps/registry.js';
 
 const SELECT_PENDING = `
@@ -44,6 +44,7 @@ async function runLevelStep(ctx, step) {
     await step.run(ctx);
     return 0;
   } catch (err) {
+    if (err instanceof SetupError) throw err;
     ctx.log(`${step.name} failed: ${err?.message ?? err}`);
     return 1;
   }
@@ -53,7 +54,9 @@ async function runLevelStep(ctx, step) {
  * Walk the chain for one episode, as far as it can go. A step is a no-op when
  * the episode is already at or past its target status. A throwing step leaves
  * `status` where it was, records `error` + `failed_step`, and ends this
- * episode — never the run.
+ * episode — never the run. The one exception is a `SetupError`: a missing
+ * prerequisite of the box is nobody's episode, and every remaining one would
+ * fail the same way, so it propagates out of the run unrecorded.
  */
 async function runChain(ctx, chain, row) {
   for (const step of chain) {
@@ -61,6 +64,7 @@ async function runChain(ctx, chain, row) {
     try {
       await step.run(ctx, row);
     } catch (err) {
+      if (err instanceof SetupError) throw err;
       recordFailure(ctx, row, step.name, err);
       return 1;
     }
@@ -75,6 +79,7 @@ async function runForcedStep(ctx, step, row) {
   try {
     await step.run(ctx, row);
   } catch (err) {
+    if (err instanceof SetupError) throw err;
     recordFailure(ctx, row, step.name, err);
     return 1;
   }
