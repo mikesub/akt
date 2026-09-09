@@ -71,6 +71,21 @@ export const PARSE_WARNINGS = [
 ];
 
 /**
+ * The codes that name a field the parser could not read, and the column each
+ * one names. The rest of `PARSE_WARNINGS` record something about the entry
+ * that re-reading its line cannot settle — the host miscounted, or an `Ibid`
+ * has nothing before it to inherit from — so the LLM fallback is neither
+ * asked about them nor allowed to clear them.
+ */
+export const FIELD_WARNINGS = {
+  no_track: 'track',
+  no_country: 'country',
+  no_format: 'format',
+  no_album: 'album',
+  no_label: 'label',
+};
+
+/**
  * Raw `description_raw` to ordered, clean text lines.
  *
  * Tags go first so that entities can never produce one, then entities, then
@@ -258,6 +273,9 @@ export function parseTracklist(lines) {
     const warn = new Set();
     const printed = line.match(NUMBERED_ENTRY);
     let text = printed === null ? line : line.slice(printed[0].length);
+    // What the host actually wrote, kept whole: the LLM fallback repairs a
+    // flagged row from this and nothing else.
+    let raw = line;
     if (printed !== null && Number(printed[1]) !== tracks.length + 1) warn.add('number_mismatch');
 
     const head = readHead(text, warn);
@@ -268,6 +286,7 @@ export function parseTracklist(lines) {
       index++;
       after = lines[index];
       text += ` ${after}`;
+      raw += ` ${after}`;
     }
 
     const previous = tracks[tracks.length - 1] ?? null;
@@ -295,6 +314,7 @@ export function parseTracklist(lines) {
       is_cherished: CHERISHED.test(text),
       note_desc: null,
       parse_warning: PARSE_WARNINGS.filter((code) => warn.has(code)).join(',') || null,
+      raw,
     });
   }
 
