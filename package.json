@@ -1,0 +1,8 @@
+{
+  "name": "akt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "verify": "exit 1"
+  }
+}
