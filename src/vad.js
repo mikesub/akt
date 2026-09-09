@@ -31,6 +31,9 @@ const HEADER = /^Detected\s+(\d+)\s+speech segments?:/m;
 
 const SEGMENT = /^Speech segment\s+\d+:\s*start\s*=\s*(-?[\d.]+),\s*end\s*=\s*(-?[\d.]+)/;
 
+/** whisper.cpp's standalone VAD example prints timestamps in centiseconds. */
+const CENTISECONDS_PER_SECOND = 100;
+
 function round2(seconds) {
   return Math.round(seconds * 100) / 100;
 }
@@ -74,16 +77,22 @@ export function vadModelTag(vad) {
 }
 
 /**
- * Read `Speech segment <i>: start = <f>, end = <f>` lines. The `Detected <n>`
- * header has to agree with them: a truncated or reformatted reply is an error,
- * never a silently empty episode.
+ * Read `Speech segment <i>: start = <f>, end = <f>` lines and convert the
+ * binary's centiseconds to the seconds used everywhere in the database. The
+ * `Detected <n>` header has to agree with them: a truncated or reformatted
+ * reply is an error, never a silently empty episode.
  */
 export function parseSpeechSegments(stdout) {
   const text = String(stdout ?? '');
   const segments = [];
   for (const line of text.split('\n')) {
     const match = SEGMENT.exec(line.trim());
-    if (match) segments.push({ start: Number(match[1]), end: Number(match[2]) });
+    if (match) {
+      segments.push({
+        start: Number(match[1]) / CENTISECONDS_PER_SECOND,
+        end: Number(match[2]) / CENTISECONDS_PER_SECOND,
+      });
+    }
   }
   const header = HEADER.exec(text);
   if (!header || Number(header[1]) !== segments.length) {

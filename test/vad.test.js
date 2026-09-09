@@ -183,9 +183,9 @@ test('parseSpeechSegments reads what the binary prints', () => {
   const stdout = [
     '',
     'Detected 2 speech segments:',
-    'Speech segment 0: start = 0.32, end = 4.16',
+    'Speech segment 0: start = 32.00, end = 416.00',
     '',
-    'Speech segment 1: start = 12.00, end = 130.48',
+    'Speech segment 1: start = 1200.00, end = 13048.00',
     '',
   ].join('\n');
 

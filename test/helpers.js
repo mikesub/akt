@@ -362,8 +362,9 @@ export const FAKE_WAV = wavBytes(1);
 export function vadOutput(segments) {
   const lines = [`Detected ${segments.length} speech segments:`];
   for (const [index, seg] of segments.entries()) {
-    const start = seg.start.toFixed(2);
-    lines.push(`Speech segment ${index}: start = ${start}, end = ${seg.end.toFixed(2)}`);
+    const start = (seg.start * 100).toFixed(2);
+    const end = (seg.end * 100).toFixed(2);
+    lines.push(`Speech segment ${index}: start = ${start}, end = ${end}`);
   }
   return `${lines.join('\n')}\n`;
 }
