@@ -24,7 +24,7 @@ export const transcribe = {
     }
 
     const startedAt = Date.now();
-    const segments = await transcribeWav(ctx.whisper, wav);
+    const segments = await transcribeWav(ctx.whisper, ctx.vad, wav);
     const model = ctx.whisper.model;
     ctx.db.prepare(UPSERT).run(row.guid, JSON.stringify(segments), model);
 

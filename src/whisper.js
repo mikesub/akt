@@ -1,8 +1,9 @@
 import { spawn } from 'node:child_process';
-import { existsSync, mkdtempSync, readFileSync, rmSync } from 'node:fs';
+import { accessSync, constants, existsSync, mkdtempSync, readFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
-import { join } from 'node:path';
+import { delimiter, join } from 'node:path';
 import { SetupError, UsageError } from './errors.js';
+import { requireVadModel, vadArgs } from './vad.js';
 
 /**
  * The one place in the codebase that spawns whisper.cpp.
@@ -11,8 +12,9 @@ import { SetupError, UsageError } from './errors.js';
  * nothing downstream uses, so the binary is always driven with its own VAD:
  * `--vad` makes it transcribe speech intervals only and map the timestamps
  * back to episode time itself, which is why the stored seconds are episode
- * seconds and not offsets into a cut. `segment` reuses the same model and the
- * same thresholds from here, so there is exactly one place they are written.
+ * seconds and not offsets into a cut. `segment` and `transcribe` receive the
+ * same VAD config from `vad.js`, so there is one model path and one spelling
+ * of the threshold flags.
  *
  * One configured model, no automatic fallback: a fallback would spend the
  * whole budget before starting over with a smaller model, on every slow
@@ -26,48 +28,16 @@ export const DEFAULT_WHISPER_MODEL = 'large-v3';
 export const DEFAULT_MODEL_DIR = './models';
 export const DEFAULT_TIMEOUT_SEC = 3600;
 
-/** The VAD weights whisper.cpp bundles; every build with VAD support loads it. */
-export const VAD_MODEL = 'silero-v5.1.2';
-
-/** Shared with `segment`, so both hear the same speech intervals. */
-export const VAD_PARAMS = {
-  threshold: 0.5,
-  minSpeechMs: 250,
-  minSilenceMs: 100,
-  speechPadMs: 30,
-  samplesOverlap: 0.1,
-};
-
 /** A ggml model name, as it appears in `ggml-<name>.bin`. */
 const MODEL_PATTERN = /^[a-z0-9][a-z0-9._-]*$/i;
 
 /** Enough of a failing run's complaint to act on, without the whole log. */
 const STDERR_TAIL = 800;
 
-/** The VAD flags, identical for `transcribe` and `segment`. */
-export function vadArgs(vadModelPath) {
-  return [
-    '--vad',
-    '--vad-model',
-    vadModelPath,
-    '--vad-threshold',
-    String(VAD_PARAMS.threshold),
-    '--vad-min-speech-duration-ms',
-    String(VAD_PARAMS.minSpeechMs),
-    '--vad-min-silence-duration-ms',
-    String(VAD_PARAMS.minSilenceMs),
-    '--vad-speech-pad-ms',
-    String(VAD_PARAMS.speechPadMs),
-    '--vad-samples-overlap',
-    String(VAD_PARAMS.samplesOverlap),
-  ];
-}
-
-/** Where the two weight files live. The pipeline never downloads them. */
+/** Where the transcription weight file lives. The pipeline never downloads it. */
 export function modelFiles(whisper) {
   return {
     model: join(whisper.modelDir, `ggml-${whisper.model}.bin`),
-    vad: join(whisper.modelDir, `ggml-${VAD_MODEL}.bin`),
   };
 }
 
@@ -75,6 +45,25 @@ function requireModelFile(path, command) {
   if (existsSync(path)) return;
   const how = `run \`sh ./models/${command}\` in the whisper.cpp checkout`;
   throw new Error(`no model at ${path}: ${how}`);
+}
+
+function requireWhisperCli(whisper) {
+  const candidates = whisper.bin.includes('/')
+    ? [whisper.bin]
+    : String(whisper.env.PATH ?? process.env.PATH ?? '')
+        .split(delimiter)
+        .filter(Boolean)
+        .map((dir) => join(dir, whisper.bin));
+  for (const candidate of candidates) {
+    try {
+      accessSync(candidate, constants.X_OK);
+      return;
+    } catch {
+      // Keep looking through PATH.
+    }
+  }
+  const where = `WHISPER_CLI=${whisper.bin}`;
+  throw new SetupError(`whisper-cli not found (${where}): build whisper.cpp, see README`);
 }
 
 /**
@@ -126,15 +115,22 @@ function runWhisper(whisper, args, cwd) {
     });
     let stdout = '';
     let stderr = '';
+    let spawnError = null;
     child.stdout.on('data', (chunk) => {
       stdout += chunk;
     });
     child.stderr.on('data', (chunk) => {
       stderr += chunk;
     });
-    child.on('error', reject);
+    // Wait for `close` even after a spawn error: it is emitted only after the
+    // synthetic stdio pipes have closed, so the CLI cannot retain them after
+    // reporting a missing binary.
+    child.on('error', (err) => {
+      spawnError = err;
+    });
     child.on('close', (code, signal) => {
-      resolve({ stdout, stderr, code, signal, elapsedMs: Date.now() - startedAt });
+      if (spawnError) reject(spawnError);
+      else resolve({ stdout, stderr, code, signal, elapsedMs: Date.now() - startedAt });
     });
   });
 }
@@ -168,10 +164,11 @@ function signalFailure(whisper, wav, { signal, elapsedMs, stderr }) {
  * that goes away with the call: the database is the source of truth, so the
  * raw document is never kept.
  */
-export async function transcribeWav(whisper, wav) {
+export async function transcribeWav(whisper, vad, wav) {
   const files = modelFiles(whisper);
   requireModelFile(files.model, `download-ggml-model.sh ${whisper.model} ${whisper.modelDir}`);
-  requireModelFile(files.vad, `download-vad-model.sh ${VAD_MODEL} ${whisper.modelDir}`);
+  await requireVadModel(vad);
+  requireWhisperCli(whisper);
 
   const dir = mkdtempSync(join(tmpdir(), 'akt-whisper-'));
   const prefix = join(dir, 'out');
@@ -189,7 +186,8 @@ export async function transcribeWav(whisper, wav) {
     '-np',
     '-ng',
     ...(whisper.threads === null ? [] : ['-t', String(whisper.threads)]),
-    ...vadArgs(files.vad),
+    '--vad',
+    ...vadArgs(vad),
   ];
 
   try {

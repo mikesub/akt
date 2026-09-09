@@ -174,9 +174,9 @@ function readWhisperCalls(store) {
 }
 
 /**
- * A fake `whisper-cli` on PATH plus zero-byte stand-ins for the two weight
- * files, so the suite runs offline with no model on disk: the adapter only
- * checks that they exist and the fake never opens them. `json` replaces the
+ * A fake `whisper-cli` on PATH plus zero-byte stand-ins for its weight and the
+ * shared Silero weight, so the suite runs offline with no real model on disk.
+ * The adapters only check that they exist and the fakes never open them. `json` replaces the
  * canned document, and `exit`, `stderr`, `sleep`, `signal` and `noJson` make
  * the fake fail, complain, hang, die on a signal or write nothing.
  */
@@ -206,7 +206,7 @@ export function fakeWhisper(t, options = {}) {
     join(store, 'output.json'),
     typeof document === 'string' ? document : JSON.stringify(document),
   );
-  for (const name of [`ggml-${model}.bin`, 'ggml-silero-v5.1.2.bin']) {
+  for (const name of [`ggml-${model}.bin`, 'ggml-silero-v6.2.0.bin']) {
     writeFileSync(join(modelDir, name), '');
   }
 
@@ -214,6 +214,7 @@ export function fakeWhisper(t, options = {}) {
     PATH: `${binDir}:${process.env.PATH}`,
     FAKE_WHISPER_DIR: store,
     WHISPER_MODEL_DIR: modelDir,
+    AKT_VAD_MODEL: join(modelDir, 'ggml-silero-v6.2.0.bin'),
   };
   if (exit !== null) env.FAKE_WHISPER_EXIT = String(exit);
   if (stderr !== null) env.FAKE_WHISPER_STDERR = stderr;
@@ -231,6 +232,7 @@ export function testCtx(
     fetch,
     llm = null,
     whisper = null,
+    vad = null,
     now = '2026-09-09T00:00:00.000Z',
     mediaDir,
     keepMedia = false,
@@ -244,6 +246,7 @@ export function testCtx(
     feedUrl,
     llm,
     whisper,
+    vad,
     mediaDir,
     keepMedia,
     ffmpeg,
@@ -306,6 +309,144 @@ export function mediaServer(t, options = {}) {
 }
 
 /**
+ * A 16 kHz mono PCM WAV holding `seconds` of silence — the shape `download`
+ * leaves behind. `list` inserts the LIST/INFO chunk ffmpeg writes between
+ * `fmt ` and `data`, so a reader that assumes a 44-byte header is caught.
+ */
+export function wavBytes(seconds, { list = false } = {}) {
+  const sampleRate = 16000;
+  const byteRate = sampleRate * 2;
+
+  const fmt = Buffer.alloc(24);
+  fmt.write('fmt ', 0, 'latin1');
+  fmt.writeUInt32LE(16, 4);
+  fmt.writeUInt16LE(1, 8);
+  fmt.writeUInt16LE(1, 10);
+  fmt.writeUInt32LE(sampleRate, 12);
+  fmt.writeUInt32LE(byteRate, 16);
+  fmt.writeUInt16LE(2, 20);
+  fmt.writeUInt16LE(16, 22);
+  const chunks = [fmt];
+
+  if (list) {
+    const value = Buffer.alloc(14);
+    value.write('Lavf60.16.100', 0, 'latin1');
+    const info = Buffer.alloc(8 + value.length);
+    info.write('ISFT', 0, 'latin1');
+    info.writeUInt32LE(value.length, 4);
+    value.copy(info, 8);
+    const head = Buffer.alloc(8);
+    head.write('LIST', 0, 'latin1');
+    head.writeUInt32LE(4 + info.length, 4);
+    chunks.push(head, Buffer.from('INFO', 'latin1'), info);
+  }
+
+  const samples = Buffer.alloc(Math.round(seconds * byteRate));
+  const dataHead = Buffer.alloc(8);
+  dataHead.write('data', 0, 'latin1');
+  dataHead.writeUInt32LE(samples.length, 4);
+  chunks.push(dataHead, samples);
+
+  const body = Buffer.concat(chunks);
+  const riff = Buffer.alloc(12);
+  riff.write('RIFF', 0, 'latin1');
+  riff.writeUInt32LE(4 + body.length, 4);
+  riff.write('WAVE', 8, 'latin1');
+  return Buffer.concat([riff, body]);
+}
+
+/** One second of that WAV: what the fake ffmpeg writes for every episode. */
+export const FAKE_WAV = wavBytes(1);
+
+/** What `vad-speech-segments` prints for a list of speech intervals. */
+export function vadOutput(segments) {
+  const lines = [`Detected ${segments.length} speech segments:`];
+  for (const [index, seg] of segments.entries()) {
+    const start = (seg.start * 100).toFixed(2);
+    const end = (seg.end * 100).toFixed(2);
+    lines.push(`Speech segment ${index}: start = ${start}, end = ${end}`);
+  }
+  return `${lines.join('\n')}\n`;
+}
+
+/**
+ * A fake `vad-speech-segments`, so the suite never needs whisper.cpp's binary
+ * or the Silero model. It appends its argv to a log and prints `segments` in
+ * the binary's format, unless `stdout` replaces the whole reply. `exit`,
+ * `stderr` and `sleep` make it fail, complain or hang; `failFor` limits the
+ * failure to the calls whose argv contains that string, so one fake can fail
+ * for a single episode of a run.
+ */
+export function fakeVad(t, options = {}) {
+  const { segments = [], exit = 0, stderr = '', sleep = null, failFor = null } = options;
+  const dir = tempDir(t);
+  const bin = join(dir, 'vad-speech-segments');
+  const argsLog = join(dir, 'vad.args');
+  const reply = join(dir, 'vad.stdout');
+  writeFileSync(reply, options.stdout ?? vadOutput(segments));
+
+  const complain = stderr ? `printf '%s\\n' ${JSON.stringify(stderr)} >&2` : ':';
+  const script = [
+    '#!/bin/sh',
+    `for arg in "$@"; do printf '%s\\0' "$arg"; done >> ${JSON.stringify(argsLog)}`,
+    `printf '\\n' >> ${JSON.stringify(argsLog)}`,
+  ];
+  if (failFor !== null) {
+    script.push(
+      'for arg in "$@"; do',
+      `  case "$arg" in *${failFor}*) ${complain}; exit ${exit || 1} ;; esac`,
+      'done',
+    );
+  }
+  if (sleep !== null) {
+    // Redirected so an orphaned sleep cannot hold stdout open past the kill.
+    script.push(`sleep ${sleep} </dev/null >/dev/null 2>&1`);
+  }
+  script.push(`cat ${JSON.stringify(reply)}`);
+  script.push(failFor === null ? complain : ':', `exit ${failFor === null ? exit : 0}`, '');
+  writeFileSync(bin, script.join('\n'));
+  chmodSync(bin, 0o755);
+
+  return {
+    bin,
+    dir,
+    env: { PATH: `${dir}:${process.env.PATH}` },
+    /** One entry per call, each the argv the fake was given. */
+    calls() {
+      try {
+        return readFileSync(argsLog, 'utf8')
+          .split('\n')
+          .filter(Boolean)
+          .map((line) => line.split('\0').filter((arg) => arg !== ''));
+      } catch (err) {
+        if (err.code === 'ENOENT') return [];
+        throw err;
+      }
+    },
+  };
+}
+
+/**
+ * The VAD config a step gets: the fake binary, a touched model file beside it
+ * and a music floor short enough for test-length audio.
+ */
+export function vadConfig(fake, overrides = {}) {
+  const model = join(fake.dir, 'silero-v6.2.0.bin');
+  writeFileSync(model, 'GGML');
+  return {
+    bin: fake.bin,
+    model,
+    threshold: 0.5,
+    minSpeechMs: 250,
+    minSilenceMs: 100,
+    speechPadMs: 30,
+    minMusicSec: 5,
+    timeoutMs: 15 * 60 * 1000,
+    ...overrides,
+  };
+}
+
+/**
  * An ffmpeg that records its argv and writes a fixed payload to its last
  * argument. ffmpeg is a prerequisite of the box, not an npm dependency, so
  * tests substitute it through AKT_FFMPEG / ctx.ffmpeg.
@@ -313,6 +454,10 @@ export function mediaServer(t, options = {}) {
 export function fakeFfmpeg(dir, { exitCode = 0, stderr = '' } = {}) {
   const bin = join(dir, 'ffmpeg');
   const argsLog = join(dir, 'ffmpeg.args');
+  // A real WAV, not a marker string: `segment` reads the duration out of the
+  // RIFF header, so every fake decode has to produce a readable one.
+  const payload = join(dir, 'decoded.wav');
+  writeFileSync(payload, FAKE_WAV);
   writeFileSync(
     bin,
     [
@@ -320,7 +465,7 @@ export function fakeFfmpeg(dir, { exitCode = 0, stderr = '' } = {}) {
       `echo "$@" >> ${JSON.stringify(argsLog)}`,
       stderr ? `printf '%s' ${JSON.stringify(stderr)} >&2` : ':',
       'for out; do :; done',
-      `if [ ${exitCode} -eq 0 ]; then printf 'FAKEWAVDATA' > "$out"; fi`,
+      `if [ ${exitCode} -eq 0 ]; then cat ${JSON.stringify(payload)} > "$out"; fi`,
       `exit ${exitCode}`,
       '',
     ].join('\n'),

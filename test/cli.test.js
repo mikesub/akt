@@ -2,11 +2,19 @@ import assert from 'node:assert/strict';
 import { spawn } from 'node:child_process';
 import { existsSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { createServer } from 'node:http';
-import { join } from 'node:path';
+import { basename, join } from 'node:path';
 import test from 'node:test';
 import { parseCli, UsageError } from '../src/cli.js';
 import { openDb } from '../src/db.js';
-import { fakeFfmpeg, fakeLlm, fakeWhisper, fixtureFeed, mediaBytes, tempDir } from './helpers.js';
+import {
+  fakeFfmpeg,
+  fakeLlm,
+  fakeVad,
+  fakeWhisper,
+  fixtureFeed,
+  mediaBytes,
+  tempDir,
+} from './helpers.js';
 
 const BIN = join(import.meta.dirname, '..', 'bin', 'akt.js');
 
@@ -101,25 +109,28 @@ function feedServer(t) {
 
 /**
  * The env a full run needs: a local feed, a temp media dir, a fake ffmpeg and
- * a fake whisper-cli with stand-in weights. Both fakes want to be first on
- * PATH, so the two directories are spliced onto it together.
+ * fake VAD and Whisper binaries sharing one PATH. The decoded WAV is one
+ * second long, so the music floor has to be shorter than that.
  */
 function runEnv(t, url) {
   const mediaDir = join(tempDir(t), 'media');
   const ffmpeg = fakeFfmpeg(tempDir(t));
   const llm = fakeLlm(t, { reply: '{"entries": []}' });
   const whisper = fakeWhisper(t);
+  const vad = fakeVad(t, { segments: [{ start: 0, end: 0.4 }] });
   return {
     mediaDir,
     ffmpeg,
     whisper,
+    vad,
     env: {
       AKT_FEED_URL: url,
       AKT_MEDIA_DIR: mediaDir,
       AKT_FFMPEG: ffmpeg.bin,
       ...llm.env,
       ...whisper.env,
-      PATH: `${whisper.binDir}:${llm.bin}:${process.env.PATH}`,
+      PATH: `${vad.dir}:${whisper.binDir}:${llm.bin}:${process.env.PATH}`,
+      AKT_MIN_MUSIC_SEC: '0.2',
     },
   };
 }
@@ -142,11 +153,11 @@ function runCli(args, { cwd, env = {} }) {
   });
 }
 
-test('akt run ingests the feed, downloads the audio, and repeats nothing', async (t) => {
+test('akt run completes segmentation and transcription, then repeats nothing', async (t) => {
   const dir = tempDir(t);
   const dbPath = join(dir, 'akt.db');
   const { url, hits, mediaHits } = await feedServer(t);
-  const { mediaDir, ffmpeg, whisper, env } = runEnv(t, url);
+  const { mediaDir, ffmpeg, whisper, vad, env } = runEnv(t, url);
 
   const first = await runCli(['run', '--db', dbPath], { cwd: dir, env });
   assert.equal(first.code, 0, first.stderr);
@@ -158,10 +169,16 @@ test('akt run ingests the feed, downloads the audio, and repeats nothing', async
   assert.deepEqual(
     after1.map((row) => row.status),
     ['transcribed', 'transcribed', 'transcribed'],
-    'the chain parses, downloads and transcribes every ingested episode in one run',
+    'the chain segments before transcribing every ingested episode in one run',
   );
   assert.equal(db.prepare('SELECT count(*) AS n FROM transcript').get().n, 3);
   assert.equal(db.prepare("SELECT value FROM meta WHERE key = 'feed_url'").get().value, url);
+  const intervals = db.prepare('SELECT * FROM segmentation ORDER BY episode_guid').all();
+  assert.deepEqual(
+    intervals.map((entry) => entry.episode_guid),
+    after1.map((row) => row.guid),
+    'one segmentation row per episode',
+  );
   db.close();
 
   for (const row of after1) {
@@ -171,6 +188,34 @@ test('akt run ingests the feed, downloads the audio, and repeats nothing', async
   }
   assert.equal(ffmpeg.calls().length, 3, 'one decode per episode');
   assert.equal(whisper.calls().length, 3, 'one transcription per episode');
+
+  const vadCalls = vad.calls();
+  assert.deepEqual(
+    vadCalls.map((argv) => basename(argv.at(-1))).sort(),
+    after1.map((row) => `${row.guid}.wav`).sort(),
+    'the vad is run once per episode, over its wav',
+  );
+  for (const argv of vadCalls) {
+    assert.ok(argv.includes('--vad-model'), 'the Silero model is passed to the binary');
+    assert.equal(argv[argv.indexOf('--vad-threshold') + 1], '0.5', 'the documented default');
+  }
+  const sharedVadFlags = [
+    '--vad-model',
+    '--vad-threshold',
+    '--vad-min-speech-duration-ms',
+    '--vad-min-silence-duration-ms',
+    '--vad-speech-pad-ms',
+  ];
+  for (const { argv } of whisper.calls()) {
+    assert.ok(argv.includes('--vad'), 'transcription skips the music');
+    for (const flag of sharedVadFlags) {
+      assert.equal(
+        argv[argv.indexOf(flag) + 1],
+        vadCalls[0][vadCalls[0].indexOf(flag) + 1],
+        `${flag} is identical for segmentation and transcription`,
+      );
+    }
+  }
   const mediaHitsAfterFirst = mediaHits.length;
 
   const second = await runCli(['run', '--db', dbPath], { cwd: dir, env });
@@ -184,6 +229,7 @@ test('akt run ingests the feed, downloads the audio, and repeats nothing', async
   assert.equal(mediaHits.length, mediaHitsAfterFirst, 'nothing is transferred twice');
   assert.equal(ffmpeg.calls().length, 3, 'nothing is decoded twice');
   assert.equal(whisper.calls().length, 3, 'an episode at transcribed is never transcribed again');
+  assert.equal(vad.calls().length, 3, 'nothing is segmented twice');
   assert.equal(existsSync(`${dbPath}.lock`), false, 'the lock is released on exit');
 });
 
@@ -298,6 +344,19 @@ test('a missing whisper-cli exits 2 and blames the box, not the episodes', async
   assert.equal(existsSync(`${dbPath}.lock`), false, 'the lock is released on the way out');
 });
 
+test('a bad AKT_VAD_THRESHOLD exits 2 with the usage text, before the lock', async (t) => {
+  const dir = tempDir(t);
+  const dbPath = join(dir, 'akt.db');
+
+  const result = await runCli(['run', '--db', dbPath], {
+    cwd: dir,
+    env: { AKT_VAD_THRESHOLD: 'loud' },
+  });
+  assert.equal(result.code, 2);
+  assert.match(result.stderr, /Usage: akt run/);
+  assert.equal(existsSync(`${dbPath}.lock`), false, 'a usage error never takes the lock');
+});
+
 test('.env.example documents every key the adapter reads', () => {
   const text = readFileSync(join(import.meta.dirname, '..', '.env.example'), 'utf8');
   assert.match(text, /^LLM_CLI=/m, 'LLM_CLI selects the CLI the adapter spawns');
@@ -307,4 +366,7 @@ test('.env.example documents every key the adapter reads', () => {
   assert.match(text, /^WHISPER_MODEL_DIR=/m, 'WHISPER_MODEL_DIR is where the weights live');
   assert.match(text, /^WHISPER_CLI=/m, 'WHISPER_CLI is the binary the adapter spawns');
   assert.match(text, /^WHISPER_TIMEOUT=/m, 'WHISPER_TIMEOUT bounds one episode');
+  assert.match(text, /^AKT_VAD_BIN=/m, 'AKT_VAD_BIN names the whisper.cpp vad binary');
+  assert.match(text, /^AKT_VAD_MODEL=/m, 'AKT_VAD_MODEL points at the Silero model');
+  assert.match(text, /^AKT_MIN_MUSIC_SEC=/m, 'AKT_MIN_MUSIC_SEC is the music floor');
 });
