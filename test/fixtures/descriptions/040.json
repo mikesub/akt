@@ -1,0 +1,163 @@
+{
+  "guid": "b481765b-6aba-403c-a715-bff7a3781356",
+  "number": 40,
+  "title": "🎶 Стереоплан Троицкого* #40 - «От панка до романса»",
+  "tracks": [
+    {
+      "position": 1,
+      "artist": "Half Japanese",
+      "country": "USA",
+      "track": "That's fate",
+      "format": "LP",
+      "album": "Adventure",
+      "label": "Fire",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Новый (22-й) альбом американских арт-панковых примитивистов. Весело, как обычно."
+    },
+    {
+      "position": 2,
+      "artist": "KaS Product",
+      "country": "France",
+      "track": "Pussy X",
+      "format": "LP",
+      "album": "Try Out",
+      "label": "RCA",
+      "section": null,
+      "is_cherished": true,
+      "note_desc": "Заветная песня! Кошачий хоррор в исполнении блестящей группы из Нанси. Мороз по коже!"
+    },
+    {
+      "position": 3,
+      "artist": "KaS Product",
+      "country": "France",
+      "track": "Troubled girl",
+      "format": "LP",
+      "album": "Reloaded",
+      "label": "Verycords",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Солистка Мона Сойок перезагрузила KaS спустя 35 лет. Неплохо."
+    },
+    {
+      "position": 4,
+      "artist": "Other Lives",
+      "country": "USA",
+      "track": "Lost day",
+      "format": "LP",
+      "album": "For Their Love",
+      "label": "PIAS",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Альтернативная americana — даже Уэйтсом слегка отдаёт."
+    },
+    {
+      "position": 5,
+      "artist": "Lenhart Tapes",
+      "country": "Serbia",
+      "track": "Vodu brala",
+      "format": "LP",
+      "album": "Dens",
+      "label": "Glitterbeat",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Владимир Ленарт — электронщик с этническим уклоном из Белграда. Любопытный второй альбом."
+    },
+    {
+      "position": 6,
+      "artist": "Marc Almond",
+      "country": "UK",
+      "track": "Trouble of the World",
+      "format": "LP",
+      "album": "I'm Not Anyone",
+      "label": "BMG",
+      "section": "Тема: Марк Алмонд — новый альбом и архивные переиздания.",
+      "is_cherished": false,
+      "note_desc": "Альбом кавер-версий, притом, как правило, малоизвестных песен. Этот трек — спиричуэл из репертуара Махалии Джексон."
+    },
+    {
+      "position": 7,
+      "artist": "Marc Almond, Jools Holland & The Rhythm & Blues Orchestra",
+      "country": "UK",
+      "track": "Tainted love",
+      "format": "LP",
+      "album": "Hits & Pieces – The Best Of",
+      "label": "UMC",
+      "section": "Тема: Марк Алмонд — новый альбом и архивные переиздания.",
+      "is_cherished": false,
+      "note_desc": "Главный хит Soft Cell в концертном исполнении с Джулсом Холландом и оркестром."
+    },
+    {
+      "position": 8,
+      "artist": "Marc Almond",
+      "country": "UK",
+      "track": "Deadly serenade",
+      "format": "LP",
+      "album": "Tenement Symphony / B-Sides",
+      "label": "SFE",
+      "section": "Тема: Марк Алмонд — новый альбом и архивные переиздания.",
+      "is_cherished": false,
+      "note_desc": "Обратная сторона сингла 1991 года."
+    },
+    {
+      "position": 9,
+      "artist": "Marc Almond",
+      "country": "UK",
+      "track": "Dancing in a golden cage",
+      "format": "LP",
+      "album": "Tenement Symphony / Bonus Tracks & Remixes",
+      "label": "SFE",
+      "section": "Тема: Марк Алмонд — новый альбом и архивные переиздания.",
+      "is_cherished": false,
+      "note_desc": "Ремикс сингла 1992 года."
+    },
+    {
+      "position": 10,
+      "artist": "Marc Almond & Michael Cashmore",
+      "country": "UK",
+      "track": "Hotel de France & poetry",
+      "format": "LP",
+      "album": "Feasting with Panthers",
+      "label": "SFE",
+      "section": "Тема: Марк Алмонд — новый альбом и архивные переиздания.",
+      "is_cherished": false,
+      "note_desc": "Переиздан с бонусами альбом авант-романсов 2011 года."
+    },
+    {
+      "position": 11,
+      "artist": "Trust The Mask",
+      "country": "Italy",
+      "track": "Otaku",
+      "format": "LP",
+      "album": "Idiom",
+      "label": "Bronson",
+      "section": "Тема: Марк Алмонд — новый альбом и архивные переиздания.",
+      "is_cherished": false,
+      "note_desc": "Две итальянки исполняют загадочный cold wave. Дебют."
+    },
+    {
+      "position": 12,
+      "artist": "Vladimir Mišik",
+      "country": "Czechia",
+      "track": "Šedesata leta",
+      "format": "LP",
+      "album": "Noční Obraz",
+      "label": "Animal Music",
+      "section": "Тема: Марк Алмонд — новый альбом и архивные переиздания.",
+      "is_cherished": false,
+      "note_desc": "Легендарный пражский рокер (Uragan, Matadors, Flamengo…) и его ностальгический альбом о 60-х годах."
+    },
+    {
+      "position": 13,
+      "artist": "Solar X ft. Lydia Kavina",
+      "country": "UK/Russia",
+      "track": "Cycler",
+      "format": "LP",
+      "album": "Divergent Sequences",
+      "label": "Art-Tek",
+      "section": "Тема: Марк Алмонд — новый альбом и архивные переиздания.",
+      "is_cherished": false,
+      "note_desc": "Роман Белавкин давно живёт в Лондоне, занимается большой наукой, но иногда вспоминает о рейвовой юности."
+    }
+  ]
+}

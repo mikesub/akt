@@ -94,7 +94,8 @@ test('akt run ingests the feed and a second run changes nothing', async (t) => {
   assert.equal(after1.length, 3);
   assert.deepEqual(
     after1.map((row) => row.status),
-    ['new', 'new', 'new'],
+    ['parsed', 'parsed', 'parsed'],
+    'the chain parses every ingested episode in the same run',
   );
   assert.equal(db.prepare("SELECT value FROM meta WHERE key = 'feed_url'").get().value, url);
   db.close();

@@ -1,0 +1,151 @@
+{
+  "guid": "4f4e655a-9f90-4e6c-b3c3-ed12b310a545",
+  "number": 81,
+  "title": "🎶 Стереоплан Троицкого* #81 - «Тёмный постпанк, пустынный блюз и Venus Fly Trap»",
+  "tracks": [
+    {
+      "position": 1,
+      "artist": "Ganser",
+      "country": "USA",
+      "track": "Speaking of the Future",
+      "format": "LP",
+      "album": "ANIMAL HOSPITAL",
+      "label": "Felte",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Одна из лучших молодых американских групп. Странное сочетание no wave и арт-рока."
+    },
+    {
+      "position": 2,
+      "artist": "Ringsgwandl",
+      "country": "Germany",
+      "track": "Götterbote",
+      "format": "LP",
+      "album": "SCHAWUMM!",
+      "label": "Galileo",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Известный немецкий литератор Георг Рингсвандль иногда записывает песни в стиле рок-кабаре."
+    },
+    {
+      "position": 3,
+      "artist": "Noura Mint Seymali",
+      "country": "Mauritania",
+      "track": "Lehjibb",
+      "format": "LP",
+      "album": "YENBETT",
+      "label": "Glitterbeat",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "«Пустынный блюз» и фантастический голос! Первый с 2016 года альбом великолепной певицы."
+    },
+    {
+      "position": 4,
+      "artist": "Timo Kaukolampi",
+      "country": "Finland",
+      "track": "Last Drive for Max",
+      "format": "LP",
+      "album": "STRIVE (OST)",
+      "label": "Öm Sound",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Участник электронных Opel Bastards и K-X-P нашёл себя в драматичной киномузыке."
+    },
+    {
+      "position": 5,
+      "artist": "The Venus Fly Trap",
+      "country": "UK",
+      "track": "Morphine",
+      "format": "LP",
+      "album": "MARS",
+      "label": "Danceteria",
+      "section": "Центральная часть посвящена Алексу Новаку и его группе The Venus Fly Trap.",
+      "is_cherished": false,
+      "note_desc": "Дебютный альбом (1988). Стиль — мрачный постпанк."
+    },
+    {
+      "position": 6,
+      "artist": "The Venus Fly Trap",
+      "country": "UK",
+      "track": "Achilles Heel",
+      "format": "LP",
+      "album": "PANDORA'S BOX",
+      "label": "Danceteria",
+      "section": "Центральная часть посвящена Алексу Новаку и его группе The Venus Fly Trap.",
+      "is_cherished": false,
+      "note_desc": "Третий альбом (1991) и готик-рок."
+    },
+    {
+      "position": 7,
+      "artist": "The Venus Fly Trap",
+      "country": "UK",
+      "track": "Moscow Menagerie",
+      "format": "LP",
+      "album": "LUNA TIDE",
+      "label": "Spectre",
+      "section": "Центральная часть посвящена Алексу Новаку и его группе The Venus Fly Trap.",
+      "is_cherished": false,
+      "note_desc": "Группа выступала в России даже в советские (1990) времена. Возможно, впечатления от «московского зверинца» ещё оттуда."
+    },
+    {
+      "position": 8,
+      "artist": "The Venus Fly Trap",
+      "country": "UK",
+      "track": "Pulp Sister",
+      "format": "LP",
+      "album": "DARK AMOUR",
+      "label": "Soundbutcher",
+      "section": "Центральная часть посвящена Алексу Новаку и его группе The Venus Fly Trap.",
+      "is_cherished": false,
+      "note_desc": "В континентальной Европе группа всегда была популярнее, чем в Англии. Шестой альбом (1997) — на немецком лейбле."
+    },
+    {
+      "position": 9,
+      "artist": "The Venus Fly Trap",
+      "country": "UK",
+      "track": "Human Fly",
+      "format": "LP",
+      "album": "NEMESIS",
+      "label": "Big Blue",
+      "section": "Центральная часть посвящена Алексу Новаку и его группе The Venus Fly Trap.",
+      "is_cherished": false,
+      "note_desc": "Седьмой альбом (2011) — на польском лейбле."
+    },
+    {
+      "position": 10,
+      "artist": "The Venus Fly Trap",
+      "country": "UK",
+      "track": "Vitesse",
+      "format": "LP",
+      "album": "ICON",
+      "label": "Glass Modern",
+      "section": "Центральная часть посвящена Алексу Новаку и его группе The Venus Fly Trap.",
+      "is_cherished": false,
+      "note_desc": "В группе остались двое — вокалист и автор Алекс Новак и ударник/электронщик Энди Дентон."
+    },
+    {
+      "position": 11,
+      "artist": "Guesch Patti",
+      "country": "France",
+      "track": "Etienne",
+      "format": "LP",
+      "album": "LABYRINTHE",
+      "label": "EMI",
+      "section": "Центральная часть посвящена Алексу Новаку и его группе The Venus Fly Trap.",
+      "is_cherished": true,
+      "note_desc": "Заветная песня — незабываемый эрото-хит исполнительницы «альтернативного шансона»."
+    },
+    {
+      "position": 12,
+      "artist": "Crossing",
+      "country": "Italy/Burkina Faso",
+      "track": "Bobo Sira",
+      "format": "LP",
+      "album": "THE PATH BEFORE US",
+      "label": "Circular Music",
+      "section": "Центральная часть посвящена Алексу Новаку и его группе The Venus Fly Trap.",
+      "is_cherished": false,
+      "note_desc": "Дебют итало-африканского трио: этнический ambient."
+    }
+  ]
+}

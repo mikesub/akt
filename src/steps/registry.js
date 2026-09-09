@@ -1,4 +1,5 @@
 import { ingest } from './ingest.js';
+import { parse } from './parse.js';
 
 /**
  * The linear status chain. Every per-episode step owns exactly one state and
@@ -38,7 +39,7 @@ export function maxStatus(a, b) {
  */
 export const registry = {
   before: [ingest],
-  chain: [],
+  chain: [parse],
   after: [],
 };
 

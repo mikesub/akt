@@ -1,0 +1,163 @@
+{
+  "guid": "ba1e492c-0fe9-4458-ae6e-d7f66d4700c0",
+  "number": 77,
+  "title": "🎶 Стереоплан Троицкого* #77 - «Новые огни Fire Records»",
+  "tracks": [
+    {
+      "position": 1,
+      "artist": "Marc Ribot",
+      "country": "USA",
+      "track": "Say my name",
+      "format": "LP",
+      "album": "MAP OF A BLUE CITY",
+      "label": "New West",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Грустный полу-акустический альбом великого гитариста (Tom Waits etc)"
+    },
+    {
+      "position": 2,
+      "artist": "Oh! Gunquit",
+      "country": "UK",
+      "track": "Shark bait",
+      "format": "LP",
+      "album": "FLEX",
+      "label": "Beluga",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Великолепная гараж-роковая группа из Лондона, поёт Тина Суэйси."
+    },
+    {
+      "position": 3,
+      "artist": "Beirut",
+      "country": "USA",
+      "track": "Garbo's face",
+      "format": "LP",
+      "album": "A STUDY OF LOSSES",
+      "label": "Pompeii",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Камерный инди-фолк, меланхолия зашкаливает."
+    },
+    {
+      "position": 4,
+      "artist": "Maria João & André Mehmari",
+      "country": "Portugal/Brazil",
+      "track": "Alcachofra",
+      "format": "LP",
+      "album": "ALGODÃO",
+      "label": "Galileo",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Первая совместная запись португальской джазовой дивы и бразильского композитора."
+    },
+    {
+      "position": 5,
+      "artist": "The Lemonheads",
+      "country": "USA",
+      "track": "Roky",
+      "format": "LP",
+      "album": "LOVE CHANT",
+      "label": "Fire",
+      "section": "Экскурсия по новым релизам авторитетного британского лейбла Fire Records.",
+      "is_cherished": false,
+      "note_desc": "Первый за 6 лет альбом бостонской группы п/у Эвана Дандо."
+    },
+    {
+      "position": 6,
+      "artist": "Lucy Gooch",
+      "country": "UK",
+      "track": "Like clay",
+      "format": "LP",
+      "album": "DESERT WINDOW",
+      "label": "Fire",
+      "section": "Экскурсия по новым релизам авторитетного британского лейбла Fire Records.",
+      "is_cherished": false,
+      "note_desc": "Дебютантка в стиле мечтательного электро-фолка."
+    },
+    {
+      "position": 7,
+      "artist": "The Saints",
+      "country": "Australia",
+      "track": "Empires (Sometimes we fall)",
+      "format": "LP",
+      "album": "LONG MARCH THROUGH THE JAZZ AGE",
+      "label": "Fire",
+      "section": "Экскурсия по новым релизам авторитетного британского лейбла Fire Records.",
+      "is_cherished": false,
+      "note_desc": "Пятнадцатый и финальный альбом первой австралийской панк-группы. Лидер Крис Бейли умер."
+    },
+    {
+      "position": 8,
+      "artist": "Marta Del Grandi",
+      "country": "Italy",
+      "track": "Shoe shaped cloud",
+      "format": "LP",
+      "album": "DREAM LIFE",
+      "label": "Fire",
+      "section": "Экскурсия по новым релизам авторитетного британского лейбла Fire Records.",
+      "is_cherished": false,
+      "note_desc": "Третий альбом автора/исполнителя из Милана. Стиль - арт поп."
+    },
+    {
+      "position": 9,
+      "artist": "Nightingales",
+      "country": "UK",
+      "track": "Same old riff",
+      "format": "LP",
+      "album": "THE AWFUL TRUTH",
+      "label": "Fire",
+      "section": "Экскурсия по новым релизам авторитетного британского лейбла Fire Records.",
+      "is_cherished": false,
+      "note_desc": "Роберт Ллойд не изменяет анархо-панку с 1979 года."
+    },
+    {
+      "position": 10,
+      "artist": "Hater",
+      "country": "Sweden",
+      "track": "This guy?",
+      "format": "LP",
+      "album": "MOSQUITO",
+      "label": "Fire",
+      "section": "Экскурсия по новым релизам авторитетного британского лейбла Fire Records.",
+      "is_cherished": false,
+      "note_desc": "Симпатичный шведский инди-поп квартет; второй LP."
+    },
+    {
+      "position": 11,
+      "artist": "Jan Bêtak & Hoste",
+      "country": "Czechia",
+      "track": "Svet",
+      "format": "LP",
+      "album": "JAZYKEM KVETIN",
+      "label": "Galen",
+      "section": "Экскурсия по новым релизам авторитетного британского лейбла Fire Records.",
+      "is_cherished": false,
+      "note_desc": "Качественный славянский фолк-блюз."
+    },
+    {
+      "position": 12,
+      "artist": "Deefait",
+      "country": "France/Mexico",
+      "track": "We love each other so much…",
+      "format": "LP",
+      "album": "DEEFAIT",
+      "label": "Ici D'Ailleurs",
+      "section": "Экскурсия по новым релизам авторитетного британского лейбла Fire Records.",
+      "is_cherished": false,
+      "note_desc": "Молодая парижская kraut-noise группа с солисткой мексиканкой по имени Рики Лара."
+    },
+    {
+      "position": 13,
+      "artist": "Пан Пропал Оркестр",
+      "country": "Беларусь",
+      "track": "I'm just a poor boy",
+      "format": "LP",
+      "album": "ХЛОПОТНОЕ ДЕЛЬЦЕ",
+      "label": "ППО",
+      "section": "Экскурсия по новым релизам авторитетного британского лейбла Fire Records.",
+      "is_cherished": false,
+      "note_desc": "Первый альбом нового ретро-дадаистичного проекта Максима Вовчинского (ПОНЯТЫХ, БАБС БАБЕРЛЕЙ)."
+    }
+  ]
+}
