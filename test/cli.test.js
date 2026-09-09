@@ -18,6 +18,9 @@ import {
 
 const BIN = join(import.meta.dirname, '..', 'bin', 'akt.js');
 
+/** The fixture episode with no tracklist: the one extract has nothing to ask about. */
+const SPECIAL_GUID = '33333333-3333-4333-8333-333333333333';
+
 /** Every enclosure in the fixture is rewritten to this many served bytes. */
 const MEDIA_BYTES = 2048;
 
@@ -107,15 +110,28 @@ function feedServer(t) {
   });
 }
 
+/** A repair reply that repairs nothing: both numbered fixture entries are flagged. */
+const REPAIR_EMPTY = '{"entries": []}';
+
+/** An extract reply for a one-track episode: nothing said, no episode tags. */
+const EXTRACT_ONE = JSON.stringify({
+  tracks: [{ position: 1, note_spoken: null, genre_raw: null, tags: [], intro_segment: null }],
+  episode_tags: [],
+});
+
 /**
  * The env a full run needs: a local feed, a temp media dir, a fake ffmpeg and
- * fake VAD and Whisper binaries sharing one PATH. The decoded WAV is one
+ * fake VAD, Whisper and LLM binaries sharing one PATH. The decoded WAV is one
  * second long, so the music floor has to be shorter than that.
+ *
+ * The LLM replies are positional, and the chain's call order is deterministic:
+ * newest first, episode 84's parse repair then its extract, then episode 75's,
+ * and the tracklist-less special calls the CLI for neither step.
  */
 function runEnv(t, url) {
   const mediaDir = join(tempDir(t), 'media');
   const ffmpeg = fakeFfmpeg(tempDir(t));
-  const llm = fakeLlm(t, { reply: '{"entries": []}' });
+  const llm = fakeLlm(t, { replies: [REPAIR_EMPTY, EXTRACT_ONE, REPAIR_EMPTY, EXTRACT_ONE] });
   const whisper = fakeWhisper(t);
   const vad = fakeVad(t, { segments: [{ start: 0, end: 0.4 }] });
   return {
@@ -123,6 +139,7 @@ function runEnv(t, url) {
     ffmpeg,
     whisper,
     vad,
+    llm,
     env: {
       AKT_FEED_URL: url,
       AKT_MEDIA_DIR: mediaDir,
@@ -131,6 +148,7 @@ function runEnv(t, url) {
       ...whisper.env,
       PATH: `${vad.dir}:${whisper.binDir}:${llm.bin}:${process.env.PATH}`,
       AKT_MIN_MUSIC_SEC: '0.2',
+      KEEP_MEDIA: '1',
     },
   };
 }
@@ -153,11 +171,11 @@ function runCli(args, { cwd, env = {} }) {
   });
 }
 
-test('akt run completes segmentation and transcription, then repeats nothing', async (t) => {
+test('akt run completes segmentation, transcription and extraction, then repeats nothing', async (t) => {
   const dir = tempDir(t);
   const dbPath = join(dir, 'akt.db');
   const { url, hits, mediaHits } = await feedServer(t);
-  const { mediaDir, ffmpeg, whisper, vad, env } = runEnv(t, url);
+  const { mediaDir, ffmpeg, whisper, vad, llm, env } = runEnv(t, url);
 
   const first = await runCli(['run', '--db', dbPath], { cwd: dir, env });
   assert.equal(first.code, 0, first.stderr);
@@ -168,10 +186,15 @@ test('akt run completes segmentation and transcription, then repeats nothing', a
   assert.equal(after1.length, 3);
   assert.deepEqual(
     after1.map((row) => row.status),
-    ['transcribed', 'transcribed', 'transcribed'],
-    'the chain segments before transcribing every ingested episode in one run',
+    ['extracted', 'extracted', 'extracted'],
+    'the chain segments before transcribing and extracting every ingested episode in one run',
   );
   assert.equal(db.prepare('SELECT count(*) AS n FROM transcript').get().n, 3);
+  assert.equal(
+    db.prepare('SELECT tags FROM episode WHERE guid = ?').get(SPECIAL_GUID).tags,
+    '[]',
+    'an episode with no tracklist still finishes extract, with no episode tags',
+  );
   assert.equal(db.prepare("SELECT value FROM meta WHERE key = 'feed_url'").get().value, url);
   const intervals = db.prepare('SELECT * FROM segmentation ORDER BY episode_guid').all();
   assert.deepEqual(
@@ -181,6 +204,8 @@ test('akt run completes segmentation and transcription, then repeats nothing', a
   );
   db.close();
 
+  // This test inspects the media after the chain, so KEEP_MEDIA keeps prune
+  // from removing it once extract advances the episodes past transcribed.
   for (const row of after1) {
     assert.equal(statSync(join(mediaDir, `${row.guid}.mp3`)).size, MEDIA_BYTES);
     assert.equal(existsSync(join(mediaDir, `${row.guid}.wav`)), true);
@@ -216,6 +241,7 @@ test('akt run completes segmentation and transcription, then repeats nothing', a
       );
     }
   }
+  assert.equal(llm.calls().length, 4, 'a repair and an extract for each of the two tracklists');
   const mediaHitsAfterFirst = mediaHits.length;
 
   const second = await runCli(['run', '--db', dbPath], { cwd: dir, env });
@@ -228,8 +254,9 @@ test('akt run completes segmentation and transcription, then repeats nothing', a
   assert.equal(hits.length, 2, 'one feed request per run');
   assert.equal(mediaHits.length, mediaHitsAfterFirst, 'nothing is transferred twice');
   assert.equal(ffmpeg.calls().length, 3, 'nothing is decoded twice');
-  assert.equal(whisper.calls().length, 3, 'an episode at transcribed is never transcribed again');
+  assert.equal(whisper.calls().length, 3, 'an episode at extracted is never transcribed again');
   assert.equal(vad.calls().length, 3, 'nothing is segmented twice');
+  assert.equal(llm.calls().length, 4, 'an episode at extracted is never sent to the CLI again');
   assert.equal(existsSync(`${dbPath}.lock`), false, 'the lock is released on exit');
 });
 

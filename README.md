@@ -29,6 +29,7 @@ akt run --limit 5
 akt run --episode <guid> --step download
 akt run --episode <guid> --step segment
 akt run --episode <guid> --step transcribe
+akt run --episode <guid> --step extract
 ```
 
 ## Choosing the whisper model

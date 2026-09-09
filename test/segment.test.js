@@ -73,7 +73,7 @@ test('segment owns the segmented status and runs after download', () => {
   assert.equal(segment.name, 'segment');
   assert.equal(segment.target, 'segmented');
   const names = registry.chain.map((step) => step.name);
-  assert.deepEqual(names, ['parse', 'download', 'segment', 'transcribe']);
+  assert.deepEqual(names, ['parse', 'download', 'segment', 'transcribe', 'extract']);
 });
 
 test('a downloaded episode gets one row of speech and music intervals', async (t) => {
