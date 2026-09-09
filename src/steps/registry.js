@@ -1,4 +1,5 @@
 import { rank } from '../status.js';
+import { align } from './align.js';
 import { download } from './download.js';
 import { ingest } from './ingest.js';
 import { parse } from './parse.js';
@@ -13,10 +14,20 @@ export { maxStatus, rank, STATUSES } from '../status.js';
  *   before — run-level, once, ahead of the episode loop (ingest)
  *   chain  — per-episode, in order, each owning one status
  *   after  — run-level, once, over the whole database (prune, export, publish)
+ *
+ * The chain has a hole where `extracted` belongs: the step that owns that
+ * status is not written yet, so `align` follows `transcribe` directly. A step
+ * is skipped once an episode has passed its status, so every episode aligned
+ * before that step lands will skip it for good unless the archive is walked
+ * once with `--step extract`. The README says so where it can be acted on;
+ * `validateRegistry` deliberately checks only that targets increase, because
+ * the alternative — a placeholder step that advances episodes to `extracted`
+ * without extracting anything — would make them skip the real step just the
+ * same, while hiding the fact that it is owed.
  */
 export const registry = {
   before: [ingest],
-  chain: [parse, download, segment, transcribe],
+  chain: [parse, download, segment, transcribe, align],
   after: [prune],
 };
 

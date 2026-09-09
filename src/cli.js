@@ -7,6 +7,7 @@ import { acquireLock, LockHeldError } from './lock.js';
 import { DEFAULT_MEDIA_DIR } from './media.js';
 import { runPipeline } from './runner.js';
 import { registry } from './steps/registry.js';
+import { DEFAULT_SYNONYMS_PATH, loadSynonyms } from './synonyms.js';
 import { vadFromEnv } from './vad.js';
 import { whisperFromEnv } from './whisper.js';
 
@@ -94,14 +95,16 @@ export async function main(argv, env = process.env) {
   let llm;
   let whisper;
   let vad;
+  let synonyms;
   try {
     options = parseCli(argv);
     // A bad LLM_CLI or LLM_TIMEOUT is as much a usage error as a bad flag,
-    // and worth learning about before the run takes the lock. Whisper and VAD
-    // config are validated here for the same reason.
+    // and worth learning about before the run takes the lock. Whisper, VAD
+    // config and the alias file are validated here for the same reason.
     llm = llmFromEnv(env, log);
     whisper = whisperFromEnv(env);
     vad = vadFromEnv(env);
+    synonyms = loadSynonyms(env.AKT_SYNONYMS ?? DEFAULT_SYNONYMS_PATH);
   } catch (err) {
     if (err instanceof UsageError) return reportUsage(err.message);
     throw err;
@@ -136,6 +139,7 @@ export async function main(argv, env = process.env) {
     llm,
     whisper,
     vad,
+    synonyms,
     now: () => new Date().toISOString(),
     fetch: globalThis.fetch,
     feedUrl: env.AKT_FEED_URL ?? FEED_START_URL,

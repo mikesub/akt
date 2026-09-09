@@ -111,6 +111,11 @@ function feedServer(t) {
  * The env a full run needs: a local feed, a temp media dir, a fake ffmpeg and
  * fake VAD and Whisper binaries sharing one PATH. The decoded WAV is one
  * second long, so the music floor has to be shorter than that.
+ *
+ * KEEP_MEDIA is set because the chain now ends at `aligned`, which is past
+ * `transcribed`: the default would have `prune` delete the audio in the same
+ * run, leaving nothing for the assertions below about what `download` wrote.
+ * That retention sweep is what test/prune.test.js is for.
  */
 function runEnv(t, url) {
   const mediaDir = join(tempDir(t), 'media');
@@ -131,6 +136,7 @@ function runEnv(t, url) {
       ...whisper.env,
       PATH: `${vad.dir}:${whisper.binDir}:${llm.bin}:${process.env.PATH}`,
       AKT_MIN_MUSIC_SEC: '0.2',
+      KEEP_MEDIA: '1',
     },
   };
 }
@@ -168,8 +174,8 @@ test('akt run completes segmentation and transcription, then repeats nothing', a
   assert.equal(after1.length, 3);
   assert.deepEqual(
     after1.map((row) => row.status),
-    ['transcribed', 'transcribed', 'transcribed'],
-    'the chain segments before transcribing every ingested episode in one run',
+    ['aligned', 'aligned', 'aligned'],
+    'the chain segments, transcribes and aligns every ingested episode in one run',
   );
   assert.equal(db.prepare('SELECT count(*) AS n FROM transcript').get().n, 3);
   assert.equal(db.prepare("SELECT value FROM meta WHERE key = 'feed_url'").get().value, url);

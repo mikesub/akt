@@ -38,8 +38,8 @@ function round2(seconds) {
   return Math.round(seconds * 100) / 100;
 }
 
-/** Seconds as `h:mm:ss`, the shape the log lists music ranges in. */
-function clock(seconds) {
+/** Seconds as `h:mm:ss`, the shape the logs list a position in the audio in. */
+export function clock(seconds) {
   const whole = Math.max(0, Math.floor(seconds));
   const minutes = String(Math.floor((whole % 3600) / 60)).padStart(2, '0');
   const secs = String(whole % 60).padStart(2, '0');

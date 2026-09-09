@@ -1,0 +1,19 @@
+# Artist aliases. Every name in a group is the same artist: `align` matches a
+# transcript mention against all of them, and the site's search treats a query
+# for any one of them as a query for the whole group.
+#
+# Two shapes, both read the same way:
+#
+#   Name: [alias, another alias]
+#   Name:
+#     - alias
+#
+# Names are compared after docs/lib/translit.js folds them, so case,
+# punctuation and Latin-versus-Cyrillic spelling do not matter here. Add a
+# group when the rule-based transliteration cannot get there on its own —
+# «Битлз» is not what letter-by-letter gives for Beatles.
+
+The Beatles: [Beatles, Битлз]
+
+Depeche Mode:
+  - Депеш Мод
