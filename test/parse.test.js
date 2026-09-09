@@ -1,10 +1,12 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { openDb } from '../src/db.js';
+import { createLlm } from '../src/llm.js';
+import { REPAIR_SCHEMA } from '../src/repair.js';
 import { runPipeline } from '../src/runner.js';
 import { parse } from '../src/steps/parse.js';
 import { findStep, registry } from '../src/steps/registry.js';
-import { descriptionFixture, testCtx } from './helpers.js';
+import { descriptionFixture, fakeLlm, testCtx } from './helpers.js';
 
 const FIXTURE = descriptionFixture('084');
 
@@ -32,11 +34,11 @@ function seed(db, { guid, description, status = 'new' }) {
   return db.prepare('SELECT * FROM episode WHERE guid = ?').get(guid);
 }
 
-function setup(t, { guid = FIXTURE.expected.guid, description = FIXTURE.html, status } = {}) {
+function setup(t, { guid = FIXTURE.expected.guid, description = FIXTURE.html, status, llm } = {}) {
   const db = openDb(':memory:');
   t.after(() => db.close());
   const episode = seed(db, { guid, description, status });
-  return { ctx: testCtx(db, {}), db, episode, guid };
+  return { ctx: testCtx(db, { llm }), db, episode, guid };
 }
 
 /** A column expected to hold the same value on every row. */
@@ -59,7 +61,7 @@ test('parse writes one row per entry of a real description and logs one line', a
   const { ctx, db, episode, guid } = setup(t);
 
   const result = await parse.run(ctx, episode);
-  assert.deepEqual(result, { tracks: 13, warned: 0 });
+  assert.deepEqual(result, { tracks: 13, warned: 0, sent: 0, repaired: 0 });
   assert.deepEqual(ctx.lines, [`${guid}: parse 13 tracks, 0 warned`]);
 
   const rows = tracks(db, guid);
@@ -110,7 +112,7 @@ test('parse stores the warning of an entry it could not read, and counts it', as
   });
 
   const result = await parse.run(ctx, episode);
-  assert.deepEqual(result, { tracks: 3, warned: 1 });
+  assert.deepEqual(result, { tracks: 3, warned: 1, sent: 0, repaired: 0 });
   assert.deepEqual(ctx.lines, [`${guid}: parse 3 tracks, 1 warned`]);
 
   const rows = tracks(db, guid);
@@ -168,7 +170,7 @@ test('a re-parse rewrites owned columns and deletes only the positions that vani
     guid,
   );
   const result = await parse.run(ctx, db.prepare('SELECT * FROM episode WHERE guid = ?').get(guid));
-  assert.deepEqual(result, { tracks: 2, warned: 0 });
+  assert.deepEqual(result, { tracks: 2, warned: 0, sent: 0, repaired: 0 });
 
   const after = tracks(db, guid);
   assert.deepEqual(
@@ -218,7 +220,7 @@ test('a description that loses its tracklist drops every row', async (t) => {
     guid,
   );
   const result = await parse.run(ctx, db.prepare('SELECT * FROM episode WHERE guid = ?').get(guid));
-  assert.deepEqual(result, { tracks: 0, warned: 0 });
+  assert.deepEqual(result, { tracks: 0, warned: 0, sent: 0, repaired: 0 });
   assert.equal(tracks(db, guid).length, 0);
 });
 
@@ -230,4 +232,262 @@ test('the whole chain parses an episode that is still at new', async (t) => {
   assert.equal(failures, 0);
   assert.equal(db.prepare('SELECT status FROM episode WHERE guid = ?').get(guid).status, 'parsed');
   assert.equal(tracks(db, guid).length, 13);
+});
+
+/*
+ * The LLM fallback. It runs inside the parse step, after the deterministic
+ * upsert has committed, and only ever sees the entries the parser flagged.
+ */
+
+/** Two entries the parser reads cleanly around one it cannot read at all. */
+const MIXED =
+  '<p>1. Clean Alpha (UK) — «Alpha Song» LP *ALPHA ALBUM* (Alpha Label)</p>' +
+  '<p>2. Некая группа без разметки</p>' +
+  '<p>3. Clean Gamma (UK) — «Gamma Song» LP *GAMMA ALBUM* (Gamma Label)</p>';
+
+/** Two flagged entries, so a reply can repair one and skip the other. */
+const TWO_FLAGGED =
+  '<p>1. Первая группа без разметки</p>' +
+  '<p>2. Вторая группа без разметки</p>' +
+  '<p>3. Clean Gamma (UK) — «Gamma Song» LP *GAMMA ALBUM* (Gamma Label)</p>';
+
+const SECOND_GUID = 'b0b0b0b0-0000-4000-8000-000000000002';
+
+/** One reply entry: the six columns parse owns, keyed by position. */
+function repairEntry(position, fields = {}) {
+  return {
+    position,
+    artist: null,
+    track: null,
+    album: null,
+    label: null,
+    country: null,
+    format: null,
+    ...fields,
+  };
+}
+
+/** An adapter over a fake CLI, logging into the same lines the step uses. */
+function wireLlm(ctx, fake, cli = 'claude') {
+  ctx.llm = createLlm({ cli, env: { ...process.env, ...fake.env }, log: ctx.log });
+  return ctx.llm;
+}
+
+test('the fallback sends the flagged entry only, and never a clean one', async (t) => {
+  const { ctx, db, episode, guid } = setup(t, { description: MIXED });
+  const reply = {
+    entries: [
+      repairEntry(2, {
+        artist: 'Invented Artist',
+        track: 'Без разметки',
+        album: 'BETA ALBUM',
+        label: 'Beta Label',
+        country: 'Russia',
+        format: 'LP',
+      }),
+    ],
+  };
+  const fake = fakeLlm(t, { replies: [JSON.stringify(reply)] });
+  wireLlm(ctx, fake);
+
+  const result = await parse.run(ctx, episode);
+  assert.deepEqual(result, { tracks: 3, warned: 1, sent: 1, repaired: 1 });
+
+  const calls = fake.calls();
+  assert.equal(calls.length, 1, 'one call per episode, not one per entry');
+  const { prompt } = calls[0];
+  assert.ok(prompt.includes('2. Некая группа без разметки'), 'the flagged raw line is sent');
+  for (const clean of ['Clean Alpha', 'Alpha Song', 'ALPHA ALBUM', 'Clean Gamma', 'Gamma Song']) {
+    assert.ok(!prompt.includes(clean), `a cleanly parsed entry is never sent: ${clean}`);
+  }
+
+  const rows = tracks(db, guid);
+  assert.equal(rows[1].artist, 'Некая группа без разметки', 'a filled field is never overwritten');
+  assert.equal(rows[1].track, 'Без разметки');
+  assert.equal(rows[1].album, 'BETA ALBUM');
+  assert.equal(rows[1].label, 'Beta Label');
+  assert.equal(rows[1].country, 'Russia');
+  assert.equal(rows[1].format, 'LP');
+  assert.equal(rows[1].parse_warning, null, 'a repaired row is no longer flagged');
+  assert.equal(rows[0].artist, 'Clean Alpha');
+  assert.equal(rows[2].artist, 'Clean Gamma');
+
+  const expected = `${guid}: parse 3 tracks, 1 warned, 1 sent to claude, 1 repaired`;
+  assert.equal(ctx.lines.at(-1), expected);
+  assert.ok(ctx.lines.some((line) => /llm parse claude ok/.test(line)));
+
+  // parse owns no episode column, fallback or not.
+  assert.deepEqual(db.prepare('SELECT * FROM episode WHERE guid = ?').get(guid), episode);
+});
+
+test('an episode the parser read cleanly never spawns the CLI', async (t) => {
+  const { ctx, episode, guid } = setup(t);
+  const fake = fakeLlm(t, { reply: '{"entries": []}' });
+  wireLlm(ctx, fake);
+
+  const result = await parse.run(ctx, episode);
+  assert.deepEqual(result, { tracks: 13, warned: 0, sent: 0, repaired: 0 });
+  assert.equal(fake.calls().length, 0, 'nothing flagged, nothing to repair');
+  assert.deepEqual(ctx.lines, [`${guid}: parse 13 tracks, 0 warned`]);
+});
+
+test('a flagged entry keeps its warning when no adapter is configured', async (t) => {
+  const { ctx, db, episode, guid } = setup(t, { description: MIXED });
+  assert.equal(ctx.llm, null);
+
+  const result = await parse.run(ctx, episode);
+  assert.deepEqual(result, { tracks: 3, warned: 1, sent: 0, repaired: 0 });
+  assert.deepEqual(ctx.lines, [`${guid}: parse 3 tracks, 1 warned`]);
+  assert.match(tracks(db, guid)[1].parse_warning, /no_track/);
+});
+
+test('a position the reply skips keeps its warning, and an invented one is ignored', async (t) => {
+  const seen = [];
+  const llm = {
+    cli: 'stub',
+    call: async (request) => {
+      seen.push(request);
+      return {
+        entries: [
+          repairEntry(1, { track: 'Первая песня' }),
+          repairEntry(99, { track: 'Не существует' }),
+        ],
+      };
+    },
+  };
+  const { ctx, db, episode, guid } = setup(t, { description: TWO_FLAGGED, llm });
+
+  const result = await parse.run(ctx, episode);
+  assert.deepEqual(result, { tracks: 3, warned: 2, sent: 2, repaired: 1 });
+
+  assert.equal(seen.length, 1);
+  assert.equal(seen[0].step, 'parse');
+  assert.equal(seen[0].guid, guid);
+  assert.equal(seen[0].schema, REPAIR_SCHEMA);
+  assert.equal(typeof seen[0].prompt, 'string');
+
+  const rows = tracks(db, guid);
+  assert.equal(rows.length, 3, 'a position the reply invented is not a new row');
+  assert.equal(rows[0].track, 'Первая песня');
+  assert.equal(
+    rows[0].parse_warning,
+    'no_country,no_format,no_album,no_label',
+    'the codes for the fields still missing outlive the one that was filled',
+  );
+  assert.match(rows[1].parse_warning, /no_track/, 'an unanswered position stays flagged');
+  assert.equal(ctx.lines.at(-1), `${guid}: parse 3 tracks, 2 warned, 2 sent to stub, 1 repaired`);
+});
+
+test('an unrepairable reply fails the episode cleanly and keeps the raw output', async (t) => {
+  const { ctx, db, guid } = setup(t, { description: MIXED });
+  const fake = fakeLlm(t, { reply: '{"entries": "marker-not-an-array"}' });
+  wireLlm(ctx, fake);
+
+  const { failures } = await runPipeline(ctx, CHAIN_ONLY, { episode: guid });
+  assert.equal(failures, 1);
+  assert.equal(fake.calls().length, 3, 'three attempts before it gives up');
+
+  const row = db.prepare('SELECT * FROM episode WHERE guid = ?').get(guid);
+  assert.equal(row.status, 'new', 'a failed step leaves the status where it was');
+  assert.equal(row.failed_step, 'parse');
+  assert.match(row.error, /marker-not-an-array/, 'the raw stdout is retained for debugging');
+
+  const rows = tracks(db, guid);
+  assert.equal(rows.length, 3, 'the deterministic rows survive a failed repair');
+  assert.match(rows[1].parse_warning, /no_track/);
+  assert.equal(rows[0].artist, 'Clean Alpha');
+});
+
+test('an auth failure fails every episode without spawning the CLI again', async (t) => {
+  const { ctx, db } = setup(t, { description: MIXED });
+  seed(db, { guid: SECOND_GUID, description: MIXED });
+  const fake = fakeLlm(t, { exit: 1, stderr: 'Not logged in. Please run /login.' });
+  wireLlm(ctx, fake);
+
+  const { selected, failures } = await runPipeline(ctx, CHAIN_ONLY, {});
+  assert.equal(selected, 2);
+  assert.equal(failures, 2, 'an auth failure fails both episodes');
+  assert.equal(fake.calls().length, 1, 'the CLI is spawned once, not once per episode');
+
+  const rows = db.prepare('SELECT * FROM episode ORDER BY guid').all();
+  for (const row of rows) {
+    assert.equal(row.status, 'new', 'the next run retries from where this one stopped');
+    assert.equal(row.failed_step, 'parse');
+    assert.match(row.error, /LlmAuthError|not logged in/i);
+  }
+  const latched = rows.filter((row) => /disabled for the rest of this run/.test(row.error));
+  assert.equal(latched.length, 1, 'the second episode fails on the latch, not on a new spawn');
+});
+
+/** Fully parsed entries whose printed numbers disagree with their ordinals. */
+const MISNUMBERED =
+  '<p>1. Clean Alpha (UK) — «Alpha Song» LP *ALPHA ALBUM* (Alpha Label)</p>' +
+  '<p>3. Clean Beta (UK) — «Beta Song» LP *BETA ALBUM* (Beta Label)</p>' +
+  '<p>4. Clean Gamma (UK) — «Gamma Song» LP *GAMMA ALBUM* (Gamma Label)</p>';
+
+/** A line the parser cannot read, on an entry that is also misnumbered. */
+const MISNUMBERED_AND_UNREADABLE =
+  '<p>1. Clean Alpha (UK) — «Alpha Song» LP *ALPHA ALBUM* (Alpha Label)</p>' +
+  '<p>3. Некая группа без разметки</p>';
+
+test('a warning no re-reading can settle is never sent and never cleared', async (t) => {
+  const { ctx, db, episode, guid } = setup(t, { description: MISNUMBERED });
+  const fake = fakeLlm(t, { reply: '{"entries": []}' });
+  wireLlm(ctx, fake);
+
+  const result = await parse.run(ctx, episode);
+  assert.deepEqual(result, { tracks: 3, warned: 2, sent: 0, repaired: 0 });
+  assert.equal(fake.calls().length, 0, 'the regex already read every field of these rows');
+
+  const rows = tracks(db, guid);
+  assert.deepEqual(
+    rows.map((row) => row.parse_warning),
+    [null, 'number_mismatch', 'number_mismatch'],
+    'the printed number still disagrees, so the flag stands',
+  );
+  assert.deepEqual(ctx.lines, [`${guid}: parse 3 tracks, 2 warned`]);
+});
+
+test('a reply that fills nothing leaves the warning in place and repairs nothing', async (t) => {
+  const seen = [];
+  const llm = {
+    cli: 'stub',
+    call: async (request) => {
+      seen.push(request);
+      return { entries: [repairEntry(2)] };
+    },
+  };
+  const { ctx, db, episode, guid } = setup(t, { description: MIXED, llm });
+
+  const result = await parse.run(ctx, episode);
+  assert.deepEqual(result, { tracks: 3, warned: 1, sent: 1, repaired: 0 });
+  assert.equal(seen.length, 1, 'the entry was flagged for a field, so it was sent');
+
+  const row = tracks(db, guid)[1];
+  assert.equal(row.track, null, 'the model answered null, as it is told to when a field is absent');
+  assert.equal(
+    row.parse_warning,
+    'no_track,no_country,no_format,no_album,no_label',
+    'an echoed position is not a repair',
+  );
+  assert.equal(ctx.lines.at(-1), `${guid}: parse 3 tracks, 1 warned, 1 sent to stub, 0 repaired`);
+});
+
+test('a partial repair clears the codes it filled and keeps the rest', async (t) => {
+  const llm = {
+    cli: 'stub',
+    call: async () => ({ entries: [repairEntry(2, { track: 'Без разметки' })] }),
+  };
+  const { ctx, db, episode, guid } = setup(t, { description: MISNUMBERED_AND_UNREADABLE, llm });
+
+  const result = await parse.run(ctx, episode);
+  assert.deepEqual(result, { tracks: 2, warned: 1, sent: 1, repaired: 1 });
+
+  const row = tracks(db, guid)[1];
+  assert.equal(row.track, 'Без разметки');
+  assert.equal(
+    row.parse_warning,
+    'no_country,no_format,no_album,no_label,number_mismatch',
+    'the fields still missing keep their codes, and the misprinted number keeps its own',
+  );
 });

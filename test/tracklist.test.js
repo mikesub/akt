@@ -114,6 +114,7 @@ test('the newer one-line entry shape parses into every field', () => {
     is_cherished: false,
     note_desc: null,
     parse_warning: null,
+    raw: '1. The Black Keys (USA) — «Man on a Mission» LP *NO RAIN, NO FLOWERS* (Easy Eye)',
   });
 });
 
@@ -134,7 +135,24 @@ test('the older two-line entry shape parses into every field', () => {
     is_cherished: false,
     note_desc: 'Новый (22-й) альбом американских арт-панковых примитивистов.',
     parse_warning: null,
+    raw: "1. Half Japanese (USA) «That's fate» LP Adventure (Fire)",
   });
+});
+
+test('every row carries the raw entry text the LLM fallback repairs', () => {
+  const rows = tracksOf('<p>1. A (UK) — «T» LP *X* (L)</p><p>2. Некая группа без разметки</p>');
+  assert.deepEqual(
+    rows.map((row) => row.raw),
+    ['1. A (UK) — «T» LP *X* (L)', '2. Некая группа без разметки'],
+    'the fallback sends the raw line, printed number included',
+  );
+});
+
+test('a two-line entry keeps both of its lines in raw', () => {
+  const [track] = tracksOf(
+    '<p><b>5. Lenhart Tapes (Serbia) «Vodu brala» </b><br />LP Dens (Glitterbeat)</p>',
+  );
+  assert.equal(track.raw, '5. Lenhart Tapes (Serbia) «Vodu brala» LP Dens (Glitterbeat)');
 });
 
 test('every observed quote style yields the same track name', () => {

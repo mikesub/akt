@@ -1,12 +1,12 @@
 import assert from 'node:assert/strict';
 import { spawn } from 'node:child_process';
-import { existsSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { join } from 'node:path';
 import test from 'node:test';
 import { parseCli, UsageError } from '../src/cli.js';
 import { openDb } from '../src/db.js';
-import { fixtureFeed, tempDir } from './helpers.js';
+import { fakeLlm, fixtureFeed, tempDir } from './helpers.js';
 
 const BIN = join(import.meta.dirname, '..', 'bin', 'akt.js');
 
@@ -84,10 +84,11 @@ test('akt run ingests the feed and a second run changes nothing', async (t) => {
   const dir = tempDir(t);
   const dbPath = join(dir, 'akt.db');
   const { url, hits } = await feedServer(t);
-  const env = { AKT_FEED_URL: url };
+  const env = { AKT_FEED_URL: url, ...fakeLlm(t, { reply: '{"entries": []}' }).env };
 
   const first = await runCli(['run', '--db', dbPath], { cwd: dir, env });
   assert.equal(first.code, 0, first.stderr);
+  assert.match(first.stderr, /llm claude: /, 'the run reports how often the fallback fired');
 
   const db = openDb(dbPath);
   const after1 = db.prepare('SELECT * FROM episode ORDER BY guid').all();
@@ -132,7 +133,11 @@ test('AKT_DB is used when --db is absent', async (t) => {
   const dbPath = join(dir, 'from-env.db');
   const { url } = await feedServer(t);
 
-  const result = await runCli(['run'], { cwd: dir, env: { AKT_FEED_URL: url, AKT_DB: dbPath } });
+  const llmEnv = fakeLlm(t, { reply: '{"entries": []}' }).env;
+  const result = await runCli(['run'], {
+    cwd: dir,
+    env: { AKT_FEED_URL: url, AKT_DB: dbPath, ...llmEnv },
+  });
   assert.equal(result.code, 0, result.stderr);
   assert.equal(existsSync(dbPath), true);
 });
@@ -155,7 +160,10 @@ test('a lock left by a dead process is broken', async (t) => {
   // A pid that cannot be running: process.kill rejects 2147483647 as unknown.
   writeFileSync(`${dbPath}.lock`, '2147483647\n');
 
-  const result = await runCli(['run', '--db', dbPath], { cwd: dir, env: { AKT_FEED_URL: url } });
+  const result = await runCli(['run', '--db', dbPath], {
+    cwd: dir,
+    env: { AKT_FEED_URL: url, ...fakeLlm(t, { reply: '{"entries": []}' }).env },
+  });
   assert.equal(result.code, 0, result.stderr);
   assert.equal(existsSync(`${dbPath}.lock`), false);
 });
@@ -181,4 +189,21 @@ test('--help exits 0 and an unknown flag exits 2', async (t) => {
   const bogus = await runCli(['run', '--bogus'], { cwd: dir });
   assert.equal(bogus.code, 2);
   assert.match(bogus.stderr, /Usage: akt run/);
+});
+
+test('a bad LLM_CLI exits 2 with the usage text, before anything else runs', async (t) => {
+  const dir = tempDir(t);
+  const dbPath = join(dir, 'akt.db');
+
+  const result = await runCli(['run', '--db', dbPath], { cwd: dir, env: { LLM_CLI: 'gpt' } });
+  assert.equal(result.code, 2);
+  assert.match(result.stderr, /Usage: akt run/);
+  assert.equal(existsSync(`${dbPath}.lock`), false, 'a usage error never takes the lock');
+});
+
+test('.env.example documents every key the adapter reads', () => {
+  const text = readFileSync(join(import.meta.dirname, '..', '.env.example'), 'utf8');
+  assert.match(text, /^LLM_CLI=/m, 'LLM_CLI selects the CLI the adapter spawns');
+  assert.match(text, /^LLM_TIMEOUT=/m, 'LLM_TIMEOUT bounds a single call');
+  assert.match(text, /ANTHROPIC_API_KEY/, 'the optional API-billing key is listed as optional');
 });
