@@ -1,0 +1,163 @@
+{
+  "guid": "c845a19a-f562-4886-b4ba-378d27446f01",
+  "number": 78,
+  "title": "🎶 Стереоплан Троицкого* #78 - «20 лет Nordic Notes»",
+  "tracks": [
+    {
+      "position": 1,
+      "artist": "Gina Birch",
+      "country": "UK",
+      "track": "Sleep",
+      "format": "LP",
+      "album": "TROUBLE",
+      "label": "Third Man",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Второй сольный альбом со-основательницы RAINCOATS."
+    },
+    {
+      "position": 2,
+      "artist": "Buzz Kull",
+      "country": "Australia",
+      "track": "Dead inside",
+      "format": "LP",
+      "album": "FASCINATION",
+      "label": "Avant!",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "DarkWave из Сиднея."
+    },
+    {
+      "position": 3,
+      "artist": "Shivaree",
+      "country": "USA",
+      "track": "Goodnight Moon",
+      "format": "SP",
+      "album": "GOODNIGHT MOON",
+      "label": "Capitol",
+      "section": null,
+      "is_cherished": true,
+      "note_desc": "Роскошная «заветная песня» из 1999 года. Солирует Амброзия Парсли."
+    },
+    {
+      "position": 4,
+      "artist": "Truck Violence",
+      "country": "Canada",
+      "track": "Along the ditch till town",
+      "format": "LP",
+      "album": "VIOLENCE",
+      "label": "Mothland",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Приз за лучшее название песни: «По этой канаве до самого города». Монреальский хардкор."
+    },
+    {
+      "position": 5,
+      "artist": "Aššu",
+      "country": "Finland",
+      "track": "Allbas",
+      "format": "LP",
+      "album": "NORDIC NOTES 200 - GREAT TUNES FROM NORTHERN EUROPE",
+      "label": "Nordic Notes",
+      "section": "Центральный разворот посвящён немецкому лейблу Nordic Notes, отметившему 20-летие и выпустившему компиляцию в честь двухсотого релиза.",
+      "is_cherished": false,
+      "note_desc": "Заполярное пение «йоик», аналог горлового в тундре."
+    },
+    {
+      "position": 6,
+      "artist": "Tuuletar",
+      "country": "Finland",
+      "track": "Hyvanyon loitsu",
+      "format": "LP",
+      "album": "NORDIC NOTES 200 - GREAT TUNES FROM NORTHERN EUROPE",
+      "label": "Nordic Notes",
+      "section": "Центральный разворот посвящён немецкому лейблу Nordic Notes, отметившему 20-летие и выпустившему компиляцию в честь двухсотого релиза.",
+      "is_cherished": false,
+      "note_desc": "Девичий вокальный квартет, невероятно заводной!"
+    },
+    {
+      "position": 7,
+      "artist": "Venla Ilona Blom",
+      "country": "Finland",
+      "track": "Sea of sensations",
+      "format": "LP",
+      "album": "NORDIC NOTES 200 - GREAT TUNES FROM NORTHERN EUROPE",
+      "label": "Nordic Notes",
+      "section": "Центральный разворот посвящён немецкому лейблу Nordic Notes, отметившему 20-летие и выпустившему компиляцию в честь двухсотого релиза.",
+      "is_cherished": false,
+      "note_desc": "Финская композитор и электронщица."
+    },
+    {
+      "position": 8,
+      "artist": "Elakelaised",
+      "country": "Finland",
+      "track": "Humppasafari",
+      "format": "LP",
+      "album": "NORDIC NOTES 200 - GREAT TUNES FROM NORTHERN EUROPE",
+      "label": "Nordic Notes",
+      "section": "Центральный разворот посвящён немецкому лейблу Nordic Notes, отметившему 20-летие и выпустившему компиляцию в честь двухсотого релиза.",
+      "is_cherished": false,
+      "note_desc": "Пенсионеры (так переводится название группы) играют и поют в местном стиле «хумппа»."
+    },
+    {
+      "position": 9,
+      "artist": "Wishamalii",
+      "country": "Jordan/Ethiopia/Finland",
+      "track": "Impressions of Deir Al Balah",
+      "format": "LP",
+      "album": "NORDIC NOTES 200 - GREAT TUNES FROM NORTHERN EUROPE",
+      "label": "Nordic Notes",
+      "section": "Центральный разворот посвящён немецкому лейблу Nordic Notes, отметившему 20-летие и выпустившему компиляцию в честь двухсотого релиза.",
+      "is_cherished": false,
+      "note_desc": "Межконтинентальное (Европа/Азия/Африка) трио играет этно-джаз."
+    },
+    {
+      "position": 10,
+      "artist": "Tav Falco",
+      "country": "USA",
+      "track": "Cuban Rebel Girl",
+      "format": "LP",
+      "album": "DESIRE ON ICE",
+      "label": "Frenzi",
+      "section": "Центральный разворот посвящён немецкому лейблу Nordic Notes, отметившему 20-летие и выпустившему компиляцию в честь двухсотого релиза.",
+      "is_cherished": false,
+      "note_desc": "Последний (2025) альбом американского рокенрольного эксцентрика."
+    },
+    {
+      "position": 11,
+      "artist": "Tav Falco & The Unapproachable Panther Burns",
+      "country": "USA/France",
+      "track": "Conjuration of masques",
+      "format": "LP",
+      "album": "CONJURATIONS: SEANCE FOR DERANGED LOVERS",
+      "label": "Stag-O-Lee",
+      "section": "Центральный разворот посвящён немецкому лейблу Nordic Notes, отметившему 20-летие и выпустившему компиляцию в честь двухсотого релиза.",
+      "is_cherished": false,
+      "note_desc": "Альбом 2010 года, записан во Франции с тамошними музыкантами."
+    },
+    {
+      "position": 12,
+      "artist": "Silvia Tarozzi",
+      "country": "Italy",
+      "track": "Distratta",
+      "format": "LP",
+      "album": "LUCCIDE",
+      "label": "Unseen Worlds",
+      "section": "Центральный разворот посвящён немецкому лейблу Nordic Notes, отметившему 20-летие и выпустившему компиляцию в честь двухсотого релиза.",
+      "is_cherished": false,
+      "note_desc": "Скрипачка, певица и композитор из Болоньи. Интересная музыка."
+    },
+    {
+      "position": 13,
+      "artist": "Those Who Walk Away",
+      "country": "Canada",
+      "track": "Eighth degraded hymn",
+      "format": "LP",
+      "album": "AFTERLIFE REQUIEM",
+      "label": "Constellation",
+      "section": "Центральный разворот посвящён немецкому лейблу Nordic Notes, отметившему 20-летие и выпустившему компиляцию в честь двухсотого релиза.",
+      "is_cherished": false,
+      "note_desc": "Он же Мэтью Паттон. Пост-классика с дрон-полётами. Темно."
+    }
+  ]
+}

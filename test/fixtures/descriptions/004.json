@@ -1,0 +1,163 @@
+{
+  "guid": "416bb7e7-9042-42c4-bc9f-2587fe7c8bc0",
+  "number": 4,
+  "title": "Стереоплан Троицкого* #4 - Меланхолия, панк и морские песни",
+  "tracks": [
+    {
+      "position": 1,
+      "artist": "DECISIVE PINK",
+      "country": "Russia/USA",
+      "track": "Destiny",
+      "format": "LP",
+      "album": "TICKET TO FAME",
+      "label": "Fire",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Дебют дуэта москвички Кати Шилохвостовой (группа ГШ), она же Kate NV, и американки Энджел Дедуриан из DIRTY PROJECTORS. Меланхоличный поп-футуризм."
+    },
+    {
+      "position": 2,
+      "artist": "EDGAR BROUGHTON",
+      "country": "UK",
+      "track": "Almost dancing",
+      "format": "LP",
+      "album": "BREAK THE DARK",
+      "label": "Esoteric Antenna",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "77-летний ветеран британской психоделии начала 70-х, вокалист EDGAR BROUGHTON BAND, выпустил — после паузы почти в 50 лет! — сольный альбом. Трогательно."
+    },
+    {
+      "position": 3,
+      "artist": "TENNISCOATS",
+      "country": "Japan",
+      "track": "Donna Donna",
+      "format": "LP",
+      "album": "TOTEMO AIMASHO",
+      "label": "Room 40",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Переиздание пятого альбома (2007 года) культового японского авант-фолкового дуэта."
+    },
+    {
+      "position": 4,
+      "artist": "EL PONY PISADOR",
+      "country": "Spain",
+      "track": "L'Abordatge",
+      "format": "LP",
+      "album": "IT'S NEVER TOO LATE FOR SEA SHANTIES",
+      "label": "Guspira",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Мужской вокальный квинтет из Барселоны выпустил целую пластинку старинных моряцких и пиратских песен «шанти»."
+    },
+    {
+      "position": 5,
+      "artist": "STRUKTURNE PTICE",
+      "country": "Croatia",
+      "track": "Hramovi",
+      "format": "LP",
+      "album": "RIJECKI NOVI VAL",
+      "label": "Dallas",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Одна из ранних записей Фокса: экстремальная перформанс-группа из Риеки. Студийных альбомов от неё, к сожалению, не осталось."
+    },
+    {
+      "position": 6,
+      "artist": "LET 3",
+      "country": "Croatia",
+      "track": "U rupi od smole",
+      "format": "LP",
+      "album": "RIJECKI NOVI VAL",
+      "label": "Dallas",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Дамир Мартинович и его брутальный авант-панковый ансамбль LET 3. Запись 1987 года, начало карьеры."
+    },
+    {
+      "position": 7,
+      "artist": "LET 3",
+      "country": "Croatia",
+      "track": "Mama ŠČ!",
+      "format": "EP",
+      "album": "MAMA ŠČ",
+      "label": "Dallas",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "В 2023 году те же радикальные LET 3 представили Хорватию на… конкурсе «Евровидение»! Не победили, но шуму на шлягер-конкурсе наделали."
+    },
+    {
+      "position": 8,
+      "artist": "MR LEE & IVANESKY",
+      "country": "Croatia",
+      "track": "Seagull",
+      "format": "LP",
+      "album": "SAILOR",
+      "label": "Dallas",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Ещё один проект многостороннего Мартиновича: дуэт с партнёршей Иванкой Мазуркевич. Стиль, как они сами представляются, — рок-кабаре."
+    },
+    {
+      "position": 9,
+      "artist": "GRČ",
+      "country": "Croatia",
+      "track": "Gospoda 'Satanska'",
+      "format": "LP",
+      "album": "JOŠ IMA KRVI",
+      "label": "Dallas",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Тоже давние клиенты Фокса — отчаянный пост-панк GRČ (СПАЗМ) с мощным фронтменом Зораном Зоффом."
+    },
+    {
+      "position": 10,
+      "artist": "MIZAR",
+      "country": "North Macedonia",
+      "track": "Den",
+      "format": "LP",
+      "album": "POGLED KON CVETNATA GRADINA",
+      "label": "Dallas",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Есть в каталоге Dallas и группа из Северной Македонии — готик-рок MIZAR из Скопье. Трек из их четвёртого альбома."
+    },
+    {
+      "position": 11,
+      "artist": "KILEDJIAN ft. SAKO WANA",
+      "country": "France/Burkina Faso",
+      "track": "2600",
+      "format": "LP",
+      "album": "THE OTIUM MIXTAPE",
+      "label": "Underdog",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Электронщик и DJ, участник группы из Лиона DOWDELIN, выпустил дебютный сольный альбом. Среди многих приглашённых солистов — роскошный певец из Буркина-Фасо по имени Сако Вана."
+    },
+    {
+      "position": 12,
+      "artist": "MIRANDA",
+      "country": "Portugal",
+      "track": "Bomba",
+      "format": "LP",
+      "album": "A LISBON WOMAN",
+      "label": "JARO",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Первый альбом бывшей солистки лиссабонского квинтета ORQUESTRADA Марты Миранда. Песня «Бомба» — редкий прецедент, когда меланхоличный фадо исполняется в быстром темпе."
+    },
+    {
+      "position": 13,
+      "artist": "THE SURE FIRE SOUL ENSEMBLE",
+      "country": "USA",
+      "track": "Don't trip",
+      "format": "LP",
+      "album": "GEMINI",
+      "label": "Colemine",
+      "section": null,
+      "is_cherished": false,
+      "note_desc": "Релиз 2025 года: пятый альбом инструментального соул-фанк ансамбля из калифорнийского Сан-Диего."
+    }
+  ]
+}

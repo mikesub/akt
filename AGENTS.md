@@ -24,7 +24,6 @@ Not a product. No multi-user, no auth, no server, no re-hosting audio. If a chan
 
 - Deterministic first, LLM fallback second. Log how often the fallback fires.
 - Every pipeline step must be re-runnable on a single episode: `run --episode <guid> --step <step>`.
-- The chain is only as long as the steps that have landed: `runChain` skips a step whose target the episode already outranks, so a plain run advances an episode across statuses no step owns yet (today `new → downloaded`, because no step targets `parsed`). A step that lands later but sits earlier in the chain must therefore select on work not done — `parse` on episodes with no `track` rows — or be backfilled once over the archive with `akt run --step <step>`.
 - `akt run` is newest-first with `--limit`. The archive backfill is the same command run nightly, not a separate mode.
 - Export must be deterministic (stable ordering) so git diffs of `docs/data/` are readable.
 - Keep dependencies minimal and boring. Prefer stdlib. Justify any new dependency in the PR description.

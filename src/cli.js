@@ -2,6 +2,7 @@ import { parseArgs } from 'node:util';
 import { DEFAULT_DB_PATH, openDb } from './db.js';
 import { UsageError } from './errors.js';
 import { FEED_START_URL } from './feed.js';
+import { llmFromEnv } from './llm.js';
 import { acquireLock, LockHeldError } from './lock.js';
 import { DEFAULT_MEDIA_DIR } from './media.js';
 import { runPipeline } from './runner.js';
@@ -88,8 +89,12 @@ function reportUsage(message) {
 /** Returns the process exit code; never calls process.exit itself. */
 export async function main(argv, env = process.env) {
   let options;
+  let llm;
   try {
     options = parseCli(argv);
+    // A bad LLM_CLI or LLM_TIMEOUT is as much a usage error as a bad flag,
+    // and worth learning about before the run takes the lock.
+    llm = llmFromEnv(env, log);
   } catch (err) {
     if (err instanceof UsageError) return reportUsage(err.message);
     throw err;
@@ -121,6 +126,7 @@ export async function main(argv, env = process.env) {
   const ctx = {
     db,
     log,
+    llm,
     now: () => new Date().toISOString(),
     fetch: globalThis.fetch,
     feedUrl: env.AKT_FEED_URL ?? FEED_START_URL,
@@ -131,6 +137,7 @@ export async function main(argv, env = process.env) {
 
   try {
     const { failures } = await runPipeline(ctx, registry, options);
+    log(llm.summary());
     return failures > 0 ? 1 : 0;
   } catch (err) {
     if (err instanceof UsageError) return reportUsage(err.message);
