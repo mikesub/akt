@@ -3,6 +3,7 @@ import { DEFAULT_DB_PATH, openDb } from './db.js';
 import { UsageError } from './errors.js';
 import { FEED_START_URL } from './feed.js';
 import { acquireLock, LockHeldError } from './lock.js';
+import { DEFAULT_MEDIA_DIR } from './media.js';
 import { runPipeline } from './runner.js';
 import { registry } from './steps/registry.js';
 
@@ -123,6 +124,9 @@ export async function main(argv, env = process.env) {
     now: () => new Date().toISOString(),
     fetch: globalThis.fetch,
     feedUrl: env.AKT_FEED_URL ?? FEED_START_URL,
+    mediaDir: env.AKT_MEDIA_DIR ?? DEFAULT_MEDIA_DIR,
+    keepMedia: /^(1|true|yes)$/i.test(env.KEEP_MEDIA ?? ''),
+    ffmpeg: env.AKT_FFMPEG ?? 'ffmpeg',
   };
 
   try {

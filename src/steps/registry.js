@@ -1,45 +1,20 @@
+import { rank } from '../status.js';
+import { download } from './download.js';
 import { ingest } from './ingest.js';
+import { prune } from './prune.js';
 
-/**
- * The linear status chain. Every per-episode step owns exactly one state and
- * advances the episode to it. There is no `failed` status: a step that throws
- * leaves the status alone and records `error` + `failed_step`.
- */
-export const STATUSES = [
-  'new',
-  'parsed',
-  'downloaded',
-  'segmented',
-  'transcribed',
-  'extracted',
-  'aligned',
-  'genred',
-  'linked',
-  'published',
-  'notified',
-];
-
-export function rank(status) {
-  const index = STATUSES.indexOf(status);
-  if (index === -1) throw new Error(`unknown status: ${status}`);
-  return index;
-}
-
-/** The later of two statuses. Used so `--step` never regresses an episode. */
-export function maxStatus(a, b) {
-  return rank(a) >= rank(b) ? a : b;
-}
+export { maxStatus, rank, STATUSES } from '../status.js';
 
 /**
  * Steps come in three kinds:
  *   before — run-level, once, ahead of the episode loop (ingest)
  *   chain  — per-episode, in order, each owning one status
- *   after  — run-level, once, over the whole database (export, publish)
+ *   after  — run-level, once, over the whole database (prune, export, publish)
  */
 export const registry = {
   before: [ingest],
-  chain: [],
-  after: [],
+  chain: [download],
+  after: [prune],
 };
 
 export function findStep(name) {

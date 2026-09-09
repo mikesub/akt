@@ -1,14 +1,17 @@
 import assert from 'node:assert/strict';
 import { spawn } from 'node:child_process';
-import { existsSync, writeFileSync } from 'node:fs';
+import { existsSync, statSync, writeFileSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { join } from 'node:path';
 import test from 'node:test';
 import { parseCli, UsageError } from '../src/cli.js';
 import { openDb } from '../src/db.js';
-import { fixtureFeed, tempDir } from './helpers.js';
+import { fakeFfmpeg, fixtureFeed, mediaBytes, tempDir } from './helpers.js';
 
 const BIN = join(import.meta.dirname, '..', 'bin', 'akt.js');
+
+/** Every enclosure in the fixture is rewritten to this many served bytes. */
+const MEDIA_BYTES = 2048;
 
 test('parseCli maps the documented flags', () => {
   assert.deepEqual(parseCli(['run']), {
@@ -44,22 +47,67 @@ test('parseCli rejects bad invocations', () => {
   }
 });
 
-/** Serve the fixture, with its canonical URL pointing back at this server. */
+/**
+ * Serve the fixture and its enclosures: the canonical feed URL and every
+ * enclosure point back at this server, `/api/` answering a 302 to `/cdn/` the
+ * way api.mave.digital does.
+ */
 function feedServer(t) {
-  const hits = [];
+  const feedHits = [];
+  const mediaHits = [];
   const server = createServer((req, res) => {
-    hits.push(req.url);
-    const url = `http://127.0.0.1:${server.address().port}/feed.xml`;
-    const xml = fixtureFeed().replace('https://feeds.example.test/stereoplan', url);
+    const origin = `http://127.0.0.1:${server.address().port}`;
+    const path = req.url.split('?')[0];
+
+    if (path.startsWith('/api/')) {
+      mediaHits.push(path);
+      res.writeHead(302, { location: `${path.replace('/api/', '/cdn/')}?v=7` });
+      res.end();
+      return;
+    }
+    if (path.startsWith('/cdn/')) {
+      mediaHits.push(path);
+      res.writeHead(200, {
+        'content-type': 'audio/mpeg',
+        'content-length': String(MEDIA_BYTES),
+        'accept-ranges': 'bytes',
+      });
+      res.end(mediaBytes(MEDIA_BYTES));
+      return;
+    }
+
+    feedHits.push(req.url);
+    const xml = fixtureFeed()
+      .replace('https://feeds.example.test/stereoplan', `${origin}/feed.xml`)
+      .replaceAll('https://media.example.test/', `${origin}/api/`)
+      .replaceAll(/length="\d+"/g, `length="${MEDIA_BYTES}"`);
     res.writeHead(200, { 'content-type': 'application/rss+xml' });
     res.end(xml);
   });
-  t.after(() => server.close());
+  t.after(() => {
+    server.closeAllConnections();
+    server.close();
+  });
   return new Promise((resolve) => {
     server.listen(0, '127.0.0.1', () => {
-      resolve({ url: `http://127.0.0.1:${server.address().port}/feed.xml`, hits });
+      resolve({
+        url: `http://127.0.0.1:${server.address().port}/feed.xml`,
+        hits: feedHits,
+        mediaHits,
+      });
     });
   });
+}
+
+/** The env a full run needs: a local feed, a temp media dir and a fake ffmpeg. */
+function runEnv(t, url) {
+  const mediaDir = join(tempDir(t), 'media');
+  const ffmpeg = fakeFfmpeg(tempDir(t));
+  return {
+    mediaDir,
+    ffmpeg,
+    env: { AKT_FEED_URL: url, AKT_MEDIA_DIR: mediaDir, AKT_FFMPEG: ffmpeg.bin },
+  };
 }
 
 function runCli(args, { cwd, env = {} }) {
@@ -80,11 +128,11 @@ function runCli(args, { cwd, env = {} }) {
   });
 }
 
-test('akt run ingests the feed and a second run changes nothing', async (t) => {
+test('akt run ingests the feed, downloads the audio, and repeats nothing', async (t) => {
   const dir = tempDir(t);
   const dbPath = join(dir, 'akt.db');
-  const { url, hits } = await feedServer(t);
-  const env = { AKT_FEED_URL: url };
+  const { url, hits, mediaHits } = await feedServer(t);
+  const { mediaDir, ffmpeg, env } = runEnv(t, url);
 
   const first = await runCli(['run', '--db', dbPath], { cwd: dir, env });
   assert.equal(first.code, 0, first.stderr);
@@ -94,10 +142,18 @@ test('akt run ingests the feed and a second run changes nothing', async (t) => {
   assert.equal(after1.length, 3);
   assert.deepEqual(
     after1.map((row) => row.status),
-    ['new', 'new', 'new'],
+    ['downloaded', 'downloaded', 'downloaded'],
   );
   assert.equal(db.prepare("SELECT value FROM meta WHERE key = 'feed_url'").get().value, url);
   db.close();
+
+  for (const row of after1) {
+    assert.equal(statSync(join(mediaDir, `${row.guid}.mp3`)).size, MEDIA_BYTES);
+    assert.equal(existsSync(join(mediaDir, `${row.guid}.wav`)), true);
+    assert.equal(existsSync(join(mediaDir, `${row.guid}.mp3.part`)), false);
+  }
+  assert.equal(ffmpeg.calls().length, 3, 'one decode per episode');
+  const mediaHitsAfterFirst = mediaHits.length;
 
   const second = await runCli(['run', '--db', dbPath], { cwd: dir, env });
   assert.equal(second.code, 0, second.stderr);
@@ -106,7 +162,9 @@ test('akt run ingests the feed and a second run changes nothing', async (t) => {
   assert.deepEqual(db2.prepare('SELECT * FROM episode ORDER BY guid').all(), after1);
   db2.close();
 
-  assert.equal(hits.length, 2, 'one request per run');
+  assert.equal(hits.length, 2, 'one feed request per run');
+  assert.equal(mediaHits.length, mediaHitsAfterFirst, 'nothing is transferred twice');
+  assert.equal(ffmpeg.calls().length, 3, 'nothing is decoded twice');
   assert.equal(existsSync(`${dbPath}.lock`), false, 'the lock is released on exit');
 });
 
@@ -131,7 +189,8 @@ test('AKT_DB is used when --db is absent', async (t) => {
   const dbPath = join(dir, 'from-env.db');
   const { url } = await feedServer(t);
 
-  const result = await runCli(['run'], { cwd: dir, env: { AKT_FEED_URL: url, AKT_DB: dbPath } });
+  const { env } = runEnv(t, url);
+  const result = await runCli(['run'], { cwd: dir, env: { ...env, AKT_DB: dbPath } });
   assert.equal(result.code, 0, result.stderr);
   assert.equal(existsSync(dbPath), true);
 });
@@ -154,7 +213,8 @@ test('a lock left by a dead process is broken', async (t) => {
   // A pid that cannot be running: process.kill rejects 2147483647 as unknown.
   writeFileSync(`${dbPath}.lock`, '2147483647\n');
 
-  const result = await runCli(['run', '--db', dbPath], { cwd: dir, env: { AKT_FEED_URL: url } });
+  const { env } = runEnv(t, url);
+  const result = await runCli(['run', '--db', dbPath], { cwd: dir, env });
   assert.equal(result.code, 0, result.stderr);
   assert.equal(existsSync(`${dbPath}.lock`), false);
 });
