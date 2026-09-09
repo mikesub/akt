@@ -1,12 +1,13 @@
 import { parseArgs } from 'node:util';
 import { DEFAULT_DB_PATH, openDb } from './db.js';
-import { UsageError } from './errors.js';
+import { SetupError, UsageError } from './errors.js';
 import { FEED_START_URL } from './feed.js';
 import { llmFromEnv } from './llm.js';
 import { acquireLock, LockHeldError } from './lock.js';
 import { DEFAULT_MEDIA_DIR } from './media.js';
 import { runPipeline } from './runner.js';
 import { registry } from './steps/registry.js';
+import { whisperFromEnv } from './whisper.js';
 
 export { UsageError };
 
@@ -90,11 +91,14 @@ function reportUsage(message) {
 export async function main(argv, env = process.env) {
   let options;
   let llm;
+  let whisper;
   try {
     options = parseCli(argv);
     // A bad LLM_CLI or LLM_TIMEOUT is as much a usage error as a bad flag,
-    // and worth learning about before the run takes the lock.
+    // and worth learning about before the run takes the lock. The same goes
+    // for WHISPER_MODEL and its neighbours.
     llm = llmFromEnv(env, log);
+    whisper = whisperFromEnv(env);
   } catch (err) {
     if (err instanceof UsageError) return reportUsage(err.message);
     throw err;
@@ -127,6 +131,7 @@ export async function main(argv, env = process.env) {
     db,
     log,
     llm,
+    whisper,
     now: () => new Date().toISOString(),
     fetch: globalThis.fetch,
     feedUrl: env.AKT_FEED_URL ?? FEED_START_URL,
@@ -141,6 +146,12 @@ export async function main(argv, env = process.env) {
     return failures > 0 ? 1 : 0;
   } catch (err) {
     if (err instanceof UsageError) return reportUsage(err.message);
+    // A missing prerequisite is not a bug to read a stack trace for: say what
+    // is missing and stop, with nothing recorded against any episode.
+    if (err instanceof SetupError) {
+      process.stderr.write(`${err.message}\n`);
+      return 2;
+    }
     process.stderr.write(`${err?.stack ?? err}\n`);
     return 1;
   } finally {
