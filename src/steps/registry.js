@@ -3,6 +3,7 @@ import { download } from './download.js';
 import { ingest } from './ingest.js';
 import { parse } from './parse.js';
 import { prune } from './prune.js';
+import { segment } from './segment.js';
 import { transcribe } from './transcribe.js';
 
 export { maxStatus, rank, STATUSES } from '../status.js';
@@ -15,7 +16,7 @@ export { maxStatus, rank, STATUSES } from '../status.js';
  */
 export const registry = {
   before: [ingest],
-  chain: [parse, download, transcribe],
+  chain: [parse, download, segment, transcribe],
   after: [prune],
 };
 

@@ -6,9 +6,9 @@ Pipeline CLI for the «Стереоплан Троицкого» podcast archive
 
 - Node.js >= 22.13 (`node:sqlite`, `parseArgs`)
 - `ffmpeg` on `PATH` (decodes each episode to 16 kHz mono PCM WAV; override with `AKT_FFMPEG`)
-- [whisper.cpp](https://github.com/ggml-org/whisper.cpp) built on this box, with `whisper-cli` on
-  `PATH` (override with `WHISPER_CLI`). A CPU build is what this pipeline expects; transcription
-  always runs with `-ng`.
+- [whisper.cpp](https://github.com/ggml-org/whisper.cpp) built on this box, with `whisper-cli` and
+  the `vad-speech-segments` example on `PATH` (override with `WHISPER_CLI` and `AKT_VAD_BIN`). A
+  CPU build is what this pipeline expects; transcription always runs with `-ng`.
 
 The two model files are downloaded once by hand — the pipeline never fetches them, and a missing
 one is reported as an error naming the command below. From a whisper.cpp checkout, with `<akt>`
@@ -16,16 +16,18 @@ the directory holding this README:
 
 ```sh
 sh ./models/download-ggml-model.sh large-v3 <akt>/models
-sh ./models/download-vad-model.sh silero-v5.1.2 <akt>/models
+sh ./models/download-vad-model.sh silero-v6.2.0 <akt>/models
 ```
 
-`models/` is git-ignored; point `WHISPER_MODEL_DIR` elsewhere if the weights live outside the repo.
+Build the VAD example with `cmake --build build -j --target vad-speech-segments`. `models/` is
+git-ignored; set `WHISPER_MODEL_DIR` and `AKT_VAD_MODEL` if the weights live outside the repo.
 
 Copy `.env.example` and adjust. `akt run` is newest-first and idempotent:
 
 ```sh
 akt run --limit 5
 akt run --episode <guid> --step download
+akt run --episode <guid> --step segment
 akt run --episode <guid> --step transcribe
 ```
 

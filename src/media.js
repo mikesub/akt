@@ -1,5 +1,5 @@
 import { execFile } from 'node:child_process';
-import { rename, stat, unlink, writeFile } from 'node:fs/promises';
+import { open, rename, stat, unlink, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { SetupError } from './errors.js';
 
@@ -127,6 +127,51 @@ export async function decodeWav(ffmpegBin, mp3, wav) {
   } catch (err) {
     await remove(part).catch(() => {});
     throw err;
+  }
+}
+
+/**
+ * Seconds of audio in a WAV, read from its own header.
+ *
+ * `segment` needs the exact length of what the VAD saw, and the feed's
+ * `duration_sec` is metadata this project does not trust. ffmpeg writes a
+ * LIST/INFO chunk between `fmt ` and `data`, so the chunks are walked rather
+ * than a 44-byte header assumed.
+ */
+export async function wavDuration(path) {
+  const handle = await open(path);
+  try {
+    const { size } = await handle.stat();
+    const head = Buffer.alloc(12);
+    await handle.read(head, 0, 12, 0);
+    if (head.toString('latin1', 0, 4) !== 'RIFF' || head.toString('latin1', 8, 12) !== 'WAVE') {
+      throw new Error(`not a RIFF/WAVE file: ${path}`);
+    }
+
+    let byteRate = null;
+    let offset = 12;
+    const chunk = Buffer.alloc(8);
+    while (offset + 8 <= size) {
+      await handle.read(chunk, 0, 8, offset);
+      const id = chunk.toString('latin1', 0, 4);
+      const declared = chunk.readUInt32LE(4);
+      const body = offset + 8;
+      if (id === 'fmt ') {
+        const fmt = Buffer.alloc(16);
+        await handle.read(fmt, 0, 16, body);
+        byteRate = fmt.readUInt32LE(8);
+      } else if (id === 'data') {
+        // A streamed WAV leaves the size unwritten; the rest of the file is it.
+        const bytes = declared === 0 || declared === 0xffffffff ? size - body : declared;
+        if (!byteRate) throw new Error(`no fmt chunk before data in ${path}`);
+        return Math.round((bytes / byteRate) * 100) / 100;
+      }
+      // Chunks are word-aligned: an odd size is followed by a pad byte.
+      offset = body + declared + (declared % 2);
+    }
+    throw new Error(`no data chunk in ${path}`);
+  } finally {
+    await handle.close();
   }
 }
 

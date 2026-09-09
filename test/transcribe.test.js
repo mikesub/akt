@@ -5,6 +5,7 @@ import test from 'node:test';
 import { openDb } from '../src/db.js';
 import { runPipeline } from '../src/runner.js';
 import { transcribe } from '../src/steps/transcribe.js';
+import { vadFromEnv } from '../src/vad.js';
 import { whisperFromEnv } from '../src/whisper.js';
 import { fakeWhisper, tempDir, testCtx } from './helpers.js';
 
@@ -34,8 +35,10 @@ function setup(t, options = {}, overrides = {}) {
   const mediaDir = join(tempDir(t), 'media');
   mkdirSync(mediaDir, { recursive: true });
   const fake = fakeWhisper(t, options);
-  const whisper = whisperFromEnv({ ...process.env, ...fake.env, ...overrides });
-  return { ctx: testCtx(db, { mediaDir, whisper }), db, mediaDir, fake };
+  const env = { ...process.env, ...fake.env, ...overrides };
+  const whisper = whisperFromEnv(env);
+  const vad = vadFromEnv(env);
+  return { ctx: testCtx(db, { mediaDir, whisper, vad }), db, mediaDir, fake };
 }
 
 /** The WAV `download` would have left behind. Its bytes are never read. */

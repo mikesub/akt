@@ -5,7 +5,7 @@ import test from 'node:test';
 import { openDb } from '../src/db.js';
 import { runPipeline } from '../src/runner.js';
 import { download } from '../src/steps/download.js';
-import { fakeFfmpeg, mediaServer, tempDir, testCtx } from './helpers.js';
+import { FAKE_WAV, fakeFfmpeg, mediaServer, tempDir, testCtx } from './helpers.js';
 
 const GUID = '11111111-1111-4111-8111-111111111111';
 const OTHER = '22222222-2222-4222-8222-222222222222';
@@ -54,7 +54,7 @@ test('a fresh episode is transferred, verified and decoded once', async (t) => {
 
   assert.deepEqual(result, { transferred: true, decoded: true });
   assert.equal(readFileSync(join(mediaDir, `${GUID}.mp3`)).length, SIZE);
-  assert.equal(readFileSync(join(mediaDir, `${GUID}.wav`), 'utf8'), 'FAKEWAVDATA');
+  assert.deepEqual(readFileSync(join(mediaDir, `${GUID}.wav`)), FAKE_WAV);
   assert.equal(existsSync(join(mediaDir, `${GUID}.mp3.part`)), false);
   assert.equal(ffmpeg.calls().length, 1);
 });
@@ -84,7 +84,7 @@ test('an mp3 of the wrong size is refetched and its wav regenerated', async (t) 
 
   assert.deepEqual(result, { transferred: true, decoded: true });
   assert.equal(readFileSync(join(mediaDir, `${GUID}.mp3`)).length, SIZE);
-  assert.equal(readFileSync(join(mediaDir, `${GUID}.wav`), 'utf8'), 'FAKEWAVDATA');
+  assert.deepEqual(readFileSync(join(mediaDir, `${GUID}.wav`)), FAKE_WAV);
   assert.equal(ffmpeg.calls().length, 1);
   assert.match(ctx.lines.join('\n'), /mp3 is 9 bytes, expected 4096/);
 });

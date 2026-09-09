@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import test from 'node:test';
 import { SetupError } from '../src/errors.js';
 import { decodeWav, downloadMp3, mediaPaths, removeMedia } from '../src/media.js';
-import { fakeFfmpeg, mediaServer, tempDir } from './helpers.js';
+import { FAKE_WAV, fakeFfmpeg, mediaServer, tempDir } from './helpers.js';
 
 const GUID = '11111111-1111-4111-8111-111111111111';
 
@@ -93,7 +93,7 @@ test('decodeWav asks ffmpeg for 16 kHz mono PCM and renames on success', async (
 
   await decodeWav(ffmpeg.bin, mp3, wav);
 
-  assert.equal(readFileSync(wav, 'utf8'), 'FAKEWAVDATA');
+  assert.deepEqual(readFileSync(wav), FAKE_WAV);
   assert.equal(existsSync(`${wav}.part`), false);
   const calls = ffmpeg.calls();
   assert.equal(calls.length, 1);
