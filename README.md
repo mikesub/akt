@@ -29,25 +29,15 @@ akt run --limit 5
 akt run --episode <guid> --step download
 akt run --episode <guid> --step segment
 akt run --episode <guid> --step transcribe
+akt run --episode <guid> --step extract
 akt run --episode <guid> --step align
 ```
 
-`align` gives each track the second its music starts on, taken from the speech/music
+`align` gives each track the exact second its music starts on, taken from the speech/music
 boundaries `segment` found — never from the transcript text and never from a model. When the
 host's Cyrillic rendering of a name is not what letter-by-letter transliteration produces
 («Битлз» for Beatles), add the artist to `synonyms.yaml`; the same groups are what the site's
 search treats as one artist.
-
-The chain skips the `extracted` status: the step that owns it — spoken notes, genre residue and
-the `intro_segment` that `align` falls back on — is not written yet, so `align` runs straight
-after `transcribe`. A step is never re-run for an episode that has passed its status, so when
-that step lands the whole archive has to be walked once by hand. `--step` is the only thing that
-ignores status, and without `--episode` it runs over every episode in the database.
-
-```sh
-akt run --step extract   # fill in what the chain skipped
-akt run --step align     # re-align now that intro_segment exists
-```
 
 ## Choosing the whisper model
 

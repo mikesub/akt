@@ -421,9 +421,7 @@ function starts(db, guid = GUID) {
 /** The constraint the whole issue turns on, checked against what was stored. */
 function assertSecondsComeFromTheAudio(db, intervals, guid = GUID) {
   const musicStarts = new Set(
-    intervals
-      .filter((interval) => interval.label === 'music')
-      .map((interval) => Math.floor(interval.start)),
+    intervals.filter((interval) => interval.label === 'music').map((interval) => interval.start),
   );
   let previous = -1;
   for (const row of trackRows(db, guid)) {
@@ -431,7 +429,7 @@ function assertSecondsComeFromTheAudio(db, intervals, guid = GUID) {
       assert.equal(row.start_confidence, null, `position ${row.position}`);
       continue;
     }
-    assert.ok(Number.isInteger(row.start_sec), `position ${row.position}: whole seconds`);
+    assert.equal(typeof row.start_sec, 'number', `position ${row.position}: numeric seconds`);
     assert.ok(musicStarts.has(row.start_sec), `${row.start_sec} is no music interval start`);
     assert.ok(row.start_sec > previous, `position ${row.position} starts after the one before`);
     previous = row.start_sec;
@@ -474,7 +472,7 @@ test('the log lists every track at the second it was placed', async (t) => {
   assert.match(line, /3@0:09:00 high/);
 });
 
-test('a start is floored to the second the music interval begins on', async (t) => {
+test('a start preserves the exact music interval boundary', async (t) => {
   const { ctx, db } = setup(t);
   const tracks = [trackOf(1, 'Аквариум', 'Стаканы'), trackOf(2, 'Пикник', 'Иероглиф', 1)];
   const segments = [
@@ -486,8 +484,8 @@ test('a start is floored to the second the music interval begins on', async (t) 
   const result = await align.run(ctx, episode(db, GUID));
 
   assert.deepEqual(starts(db), [
-    [1, 60, 'high'],
-    [2, 300, 'medium'],
+    [1, 60.4, 'high'],
+    [2, 300.75, 'medium'],
   ]);
   assert.equal(result.intro, 1, 'the intro_segment fallback is counted');
   assert.match(ctx.lines.at(-1), /intro fallback 1/);
@@ -509,7 +507,7 @@ test('an alias from synonyms.yaml turns a cyrillic mention into a high-confidenc
   seed(aliased.db, { tracks, segments, intervals });
   await align.run(aliased.ctx, episode(aliased.db, GUID));
 
-  assert.deepEqual(starts(aliased.db), [[1, 60, 'high']]);
+  assert.deepEqual(starts(aliased.db), [[1, 60.4, 'high']]);
 });
 
 test('a missing segmentation names the step that produces it and writes nothing', async (t) => {

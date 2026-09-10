@@ -13,7 +13,10 @@ const GUIDS = {
   notified: '44444444-4444-4444-8444-444444444444',
 };
 
-function setup(t, { keepMedia = false, withFiles = Object.keys(GUIDS) } = {}) {
+function setup(
+  t,
+  { keepMedia = false, withFiles = Object.keys(GUIDS), segmented = Object.keys(GUIDS) } = {},
+) {
   const db = openDb(':memory:');
   t.after(() => db.close());
   const mediaDir = tempDir(t);
@@ -21,6 +24,11 @@ function setup(t, { keepMedia = false, withFiles = Object.keys(GUIDS) } = {}) {
     db.prepare(
       "INSERT INTO episode (guid, status, updated_at) VALUES (?, ?, '2026-01-01T00:00:00.000Z')",
     ).run(guid, status);
+    if (segmented.includes(status)) {
+      db.prepare(
+        "INSERT INTO segmentation (episode_guid, intervals, model) VALUES (?, '[]', 'silero')",
+      ).run(guid);
+    }
     if (!withFiles.includes(status)) continue;
     writeFileSync(join(mediaDir, `${guid}.mp3`), 'mp3');
     writeFileSync(join(mediaDir, `${guid}.wav`), 'wav');
@@ -42,6 +50,18 @@ test('media is dropped only once an episode is past transcribed', async (t) => {
   assert.equal(hasMedia(mediaDir, GUIDS.transcribed), true, 'transcribed still needs its audio');
   assert.equal(hasMedia(mediaDir, GUIDS.downloaded), true);
   assert.match(ctx.lines.join('\n'), /prune: removed 4 files for 2 episodes/);
+});
+
+test('an episode past transcribed but never segmented keeps its audio', async (t) => {
+  // A forced step or imported database can have a later status without the
+  // segmentation that align reads.
+  const { ctx, mediaDir } = setup(t, { segmented: ['notified'] });
+
+  assert.deepEqual(await prune.run(ctx), { episodes: 1, files: 2 });
+
+  assert.equal(hasMedia(mediaDir, GUIDS.extracted), true, 'its segmentation was never computed');
+  assert.equal(hasMedia(mediaDir, GUIDS.notified), false, 'this one has one, so the audio can go');
+  assert.match(ctx.lines.join('\n'), /prune: removed 2 files for 1 episodes/);
 });
 
 test('KEEP_MEDIA leaves every file alone', async (t) => {

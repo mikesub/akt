@@ -19,10 +19,11 @@ function requireRow(ctx, sql, guid, missing) {
 /**
  * Give every track the second its music starts on.
  *
- * The second is never computed: it is `Math.floor` of a music interval the VAD
- * found, and this is the only place that conversion happens — `alignTracks`
- * answers in interval indices precisely so that no reading of the transcript,
- * and no model, can put a number here that the audio does not back.
+ * The second is never computed: it is the exact start of a music interval the
+ * VAD found, and this is the only place that conversion happens —
+ * `alignTracks` answers in interval indices precisely so that no reading of
+ * the transcript, and no model, can put a number here that the audio does not
+ * back.
  *
  * Every row of the episode is rewritten from scratch in one transaction, so a
  * re-run after a better transcript replaces what was there, including
@@ -52,7 +53,7 @@ export const align = {
 
     const placements = alignTracks({ tracks, segments, intervals, synonyms: ctx.synonyms ?? null });
     const seconds = placements.map((placement) =>
-      placement.interval === null ? null : Math.floor(music[placement.interval].start),
+      placement.interval === null ? null : music[placement.interval].start,
     );
 
     ctx.db.exec('BEGIN');

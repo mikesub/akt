@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import test from 'node:test';
 import { openDb } from '../src/db.js';
 import { runPipeline } from '../src/runner.js';
-import { registry } from '../src/steps/registry.js';
+import { registry, validateRegistry } from '../src/steps/registry.js';
 import { segment } from '../src/steps/segment.js';
 import { fakeVad, tempDir, testCtx, vadConfig, wavBytes } from './helpers.js';
 
@@ -75,8 +75,21 @@ test('segment owns the segmented status and runs after download', () => {
   const names = registry.chain.map((step) => step.name);
   assert.deepEqual(
     names,
-    ['parse', 'download', 'segment', 'transcribe', 'align'],
+    ['parse', 'download', 'segment', 'transcribe', 'extract', 'align'],
     'align is the last step of the chain',
+  );
+  assert.throws(
+    () =>
+      validateRegistry({
+        before: [],
+        chain: [
+          { name: 'parse', target: 'parsed' },
+          { name: 'align', target: 'aligned' },
+        ],
+        after: [],
+      }),
+    /status gap/,
+    'a missing chain state is rejected before any episodes run',
   );
 });
 
