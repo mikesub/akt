@@ -54,7 +54,7 @@ jq -r '.[] | select(.number == 89) | .tracks[] | select(.apple_id == null) | "\(
 
 Misses are normal (about 14% overall): songs not in the Dutch store, or names Apple writes differently. List them in the report; don't fix them by hand.
 
-Do not edit `episodes.json` by hand. If the parse is wrong, report it and stop: the fix belongs in `src/`, followed by `node bin/akt.js --episode <guid>`.
+Do not edit `episodes.json` by hand. If the parse is wrong, report it and stop: the fix belongs in `src/`, followed by `node bin/akt.js --episode <guid>`. A wrong year (Apple only has a reissue) is fixed in `overrides.json` with its source in `why`, then `node bin/akt.js` applies it.
 
 ## 4. Commit, push, confirm the site
 

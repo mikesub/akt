@@ -5,6 +5,7 @@ import { dirname, join } from 'node:path';
 import { parseArgs } from 'node:util';
 import { appleStats, findOnApple } from '../src/apple.js';
 import { fetchFeed } from '../src/feed.js';
+import { applyOverrides } from '../src/overrides.js';
 import { parseTracklist } from '../src/parse.js';
 
 /** The whole archive: the only file this writes, and the file the site loads. */
@@ -86,7 +87,7 @@ const episodes = feed.map((item) => {
     mp3_url: item.mp3_url,
     duration_sec: item.duration_sec,
     description_hash: previous?.description_hash ?? null,
-    tracks: previous?.tracks ?? null,
+    tracks: previous?.tracks?.map(applyOverrides) ?? null,
   };
 });
 save(episodes);
@@ -115,7 +116,7 @@ for (const item of todo) {
     for (const [i, track] of episode.tracks.entries()) {
       if ('year' in track && !opts.relink) continue;
       const { artist, track: title, album } = track;
-      episode.tracks[i] = { artist, track: title, album, ...(await findOnApple(track)) };
+      episode.tracks[i] = applyOverrides({ artist, track: title, album, ...(await findOnApple(track)) });
       save(episodes);
     }
     const found = episode.tracks.filter((track) => track.apple_id !== null).length;
