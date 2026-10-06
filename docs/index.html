@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Стереоплан Троицкого — tracks</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fff;
+    --fg: #1b1b1b;
+    --muted: #707070;
+    --line: #e6e6e6;
+    --chip: #f1f1f1;
+    --chip-on: #1b1b1b;
+    --chip-on-fg: #fff;
+    --link: #0b57d0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141414;
+      --fg: #e6e6e6;
+      --muted: #9a9a9a;
+      --line: #2e2e2e;
+      --chip: #242424;
+      --chip-on: #e6e6e6;
+      --chip-on-fg: #141414;
+      --link: #8ab4f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 16px;
+    background: var(--bg);
+    color: var(--fg);
+    font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .facet { margin: 16px 0 0; }
+  .facet-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 6px; }
+  .facet-head h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; margin: 0; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    font: inherit; font-size: 13px; padding: 3px 10px; border: 0; border-radius: 999px;
+    background: var(--chip); color: var(--fg); cursor: pointer;
+  }
+  .chip span { color: var(--muted); margin-left: 4px; }
+  .chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-fg); }
+  .chip[aria-pressed="true"] span { color: inherit; opacity: .7; }
+  .link-button { font: inherit; font-size: 13px; background: none; border: 0; padding: 0; color: var(--link); cursor: pointer; }
+  .status { display: flex; gap: 16px; align-items: baseline; margin: 20px 0 8px; }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 6px 10px 6px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 12px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+  td.num { white-space: nowrap; }
+  #rows a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+  #rows a:hover { text-decoration: none; }
+  th .sort { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+  th[aria-sort] .sort { color: var(--fg); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Стереоплан Троицкого</h1>
+</header>
+
+<section class="facet" id="decade">
+  <div class="facet-head"><h2>Decade</h2></div>
+  <div class="chips"></div>
+</section>
+<section class="facet" id="genre">
+  <div class="facet-head"><h2>Genre</h2></div>
+  <div class="chips"></div>
+</section>
+<section class="facet" id="episode">
+  <div class="facet-head"><h2>Episode</h2></div>
+  <div class="chips"></div>
+</section>
+
+<div class="status">
+  <strong id="count"></strong>
+  <button class="link-button" id="clear" hidden>Clear filters</button>
+</div>
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th><button class="sort" data-sort="artist">Artist</button></th><th>Track</th>
+        <th><button class="sort" data-sort="album">Album</button></th>
+        <th><button class="sort" data-sort="year">Year</button></th>
+        <th><button class="sort" data-sort="genre">Genre</button></th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</div>
+
+<script type="module">
+  const UNKNOWN = 'Unknown';
+
+  const episodes = await (await fetch('data/episodes.json')).json();
+
+  const rows = episodes.flatMap((episode) =>
+    (episode.tracks ?? []).map((track) => ({
+      ...track,
+      episode: episode.number === null ? episode.title : `#${episode.number}`,
+      decade: track.year ? `${Math.floor(track.year / 10) * 10}s` : UNKNOWN,
+      genre: track.genres?.[0] ?? UNKNOWN,
+    })),
+  );
+
+  // Sorting ignores case, accents and punctuation. Ties go by artist, then title.
+  const collator = new Intl.Collator(undefined, { sensitivity: 'base', numeric: true, ignorePunctuation: true });
+  const byArtist = (a, b) => collator.compare(a.artist ?? '', b.artist ?? '') || collator.compare(a.track ?? '', b.track ?? '');
+
+  /** Each sortable column: its order and when a row has no value, which sorts last either way. */
+  const sorts = {
+    artist: { compare: byArtist, missing: (row) => !row.artist },
+    album: { compare: (a, b) => collator.compare(a.album, b.album), missing: (row) => !row.album },
+    year: { compare: (a, b) => a.year - b.year, missing: (row) => !row.year },
+    genre: { compare: (a, b) => collator.compare(a.genre, b.genre), missing: (row) => row.genre === UNKNOWN },
+  };
+  let sort = { key: 'artist', dir: 1 };
+
+  function compareRows(a, b) {
+    const { compare, missing } = sorts[sort.key];
+    return missing(a) - missing(b) || sort.dir * compare(a, b) || byArtist(a, b);
+  }
+
+  /**
+   * Each facet: the row value it filters on and how its chips are ordered.
+   * One value at a time per facet (`selected`, null for all).
+   */
+  const facets = {
+    decade: { value: (row) => row.decade, order: (a, b) => byUnknownLast(a, b) || a.name.localeCompare(b.name) },
+    genre: { value: (row) => row.genre, order: (a, b) => byUnknownLast(a, b) || b.count - a.count || a.name.localeCompare(b.name) },
+    // Newest first, so a new episode's tracks are one click away.
+    episode: { value: (row) => row.episode, order: (a, b) => collator.compare(b.name, a.name) },
+  };
+  for (const facet of Object.values(facets)) facet.selected = null;
+
+  function byUnknownLast(a, b) {
+    return (a.name === UNKNOWN) - (b.name === UNKNOWN);
+  }
+
+  const escape = (text) =>
+    String(text ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+
+  /** A row matches when every facet with a selection (bar `except`) has that value. */
+  function matches(row, except = null) {
+    return Object.entries(facets).every(
+      ([key, facet]) => key === except || facet.selected === null || facet.value(row) === facet.selected,
+    );
+  }
+
+  function renderFacet(key) {
+    const facet = facets[key];
+    const counts = new Map();
+    for (const row of rows) {
+      if (!matches(row, key)) continue;
+      const value = facet.value(row);
+      counts.set(value, (counts.get(value) ?? 0) + 1);
+    }
+    if (facet.selected !== null && !counts.has(facet.selected)) counts.set(facet.selected, 0);
+
+    const chips = [...counts].map(([name, count]) => ({ name, count })).sort(facet.order);
+    document.getElementById(key).querySelector('.chips').innerHTML = chips
+      .map(
+        (chip) =>
+          `<button class="chip" data-value="${escape(chip.name)}" aria-pressed="${chip.name === facet.selected}">` +
+          `${escape(chip.name)}<span>${chip.count}</span></button>`,
+      )
+      .join('');
+  }
+
+  function renderRows() {
+    const shown = rows.filter((row) => matches(row)).sort(compareRows);
+    document.getElementById('rows').innerHTML = shown
+      .map((row) => {
+        // The title opens the song on Apple Music when there is a match.
+        const title = row.apple_id
+          ? `<a href="https://music.apple.com/song/${row.apple_id}" target="_blank" rel="noopener">${escape(row.track)}</a>`
+          : escape(row.track);
+        return `<tr><td>${escape(row.artist)}</td><td>${title}</td><td>${escape(row.album)}</td>` +
+          `<td class="num">${escape(row.year)}</td><td>${escape(row.genres?.join(', '))}</td></tr>`;
+      })
+      .join('');
+    document.getElementById('count').textContent = `${shown.length} of ${rows.length} tracks`;
+    document.getElementById('clear').hidden = Object.values(facets).every((facet) => facet.selected === null);
+  }
+
+  function renderSort() {
+    for (const button of document.querySelectorAll('th .sort')) {
+      const active = button.dataset.sort === sort.key;
+      const th = button.parentElement;
+      if (active) th.setAttribute('aria-sort', sort.dir > 0 ? 'ascending' : 'descending');
+      else th.removeAttribute('aria-sort');
+      button.textContent = button.textContent.replace(/ [▲▼]$/, '') + (active ? (sort.dir > 0 ? ' ▲' : ' ▼') : '');
+    }
+  }
+
+  function render() {
+    for (const key of Object.keys(facets)) renderFacet(key);
+    renderSort();
+    renderRows();
+  }
+
+  document.querySelector('thead').addEventListener('click', (event) => {
+    const button = event.target.closest('.sort');
+    if (!button) return;
+    const key = button.dataset.sort;
+    sort = { key, dir: sort.key === key ? -sort.dir : 1 };
+    renderSort();
+    renderRows();
+  });
+
+  for (const key of Object.keys(facets)) {
+    document.getElementById(key).querySelector('.chips').addEventListener('click', (event) => {
+      const chip = event.target.closest('.chip');
+      if (!chip) return;
+      // Picking a value replaces the previous one; picking it again clears the facet.
+      const facet = facets[key];
+      facet.selected = facet.selected === chip.dataset.value ? null : chip.dataset.value;
+      render();
+    });
+  }
+  document.getElementById('clear').addEventListener('click', () => {
+    for (const facet of Object.values(facets)) facet.selected = null;
+    render();
+  });
+
+  render();
+</script>
+</body>
+</html>

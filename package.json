@@ -1,0 +1,16 @@
+{
+  "name": "akt",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tracklist archive for the «Стереоплан Троицкого» podcast",
+  "type": "module",
+  "bin": {
+    "akt": "bin/akt.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node bin/akt.js"
+  }
+}
