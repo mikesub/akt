@@ -41,8 +41,13 @@
   a { color: var(--link); text-decoration: none; }
   a:hover { text-decoration: underline; }
   .facet { margin: 16px 0 0; }
-  .facet-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 6px; }
-  .facet-head h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; margin: 0; color: var(--muted); }
+  .facet summary { list-style: none; cursor: pointer; display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; }
+  .facet summary::-webkit-details-marker { display: none; }
+  .facet h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; margin: 0; color: var(--muted); }
+  .facet h2::after { content: " ▾"; }
+  .facet:not([open]) h2::after { content: " ▸"; }
+  .facet .picked { font-size: 13px; }
+  .facet[open] .picked { display: none; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; }
   .chip {
     font: inherit; font-size: 13px; padding: 3px 10px; border: 0; border-radius: 999px;
@@ -69,18 +74,18 @@
   <h1>Стереоплан Троицкого</h1>
 </header>
 
-<section class="facet" id="decade">
-  <div class="facet-head"><h2>Decade</h2></div>
+<details class="facet" id="decade" open>
+  <summary><h2>Decade</h2><span class="picked"></span></summary>
   <div class="chips"></div>
-</section>
-<section class="facet" id="genre">
-  <div class="facet-head"><h2>Genre</h2></div>
+</details>
+<details class="facet" id="genre" open>
+  <summary><h2>Genre</h2><span class="picked"></span></summary>
   <div class="chips"></div>
-</section>
-<section class="facet" id="episode">
-  <div class="facet-head"><h2>Episode</h2></div>
+</details>
+<details class="facet" id="episode" open>
+  <summary><h2>Episode</h2><span class="picked"></span></summary>
   <div class="chips"></div>
-</section>
+</details>
 
 <div class="status">
   <strong id="count"></strong>
@@ -169,7 +174,10 @@
     if (facet.selected !== null && !counts.has(facet.selected)) counts.set(facet.selected, 0);
 
     const chips = [...counts].map(([name, count]) => ({ name, count })).sort(facet.order);
-    document.getElementById(key).querySelector('.chips').innerHTML = chips
+    const section = document.getElementById(key);
+    // Shown beside the title while the facet is collapsed, so a filter is never hidden.
+    section.querySelector('.picked').textContent = facet.selected ?? '';
+    section.querySelector('.chips').innerHTML = chips
       .map(
         (chip) =>
           `<button class="chip" data-value="${escape(chip.name)}" aria-pressed="${chip.name === facet.selected}">` +
