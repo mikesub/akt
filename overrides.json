@@ -22,5 +22,65 @@
     "album": "Alan Vega",
     "year": 1980,
     "why": "Alan Vega, the solo debut, 1980 on PVC/ZE (Wikipedia, discogs); Apple only has the 2026 deluxe reissue"
+  },
+  {
+    "artist": "Afenginn",
+    "track": "Undertryk",
+    "apple_id": 1835505975,
+    "why": "Apple lists the album track as \"Part 3: Undertryk\" on Movements I (2025); the search finds only the single edit"
+  },
+  {
+    "artist": "Swans",
+    "track": "Away",
+    "apple_id": 1795933027,
+    "why": "Apple lists the studio track as \"(Rope) Away\" on Birthing (2025); the search finds only the LIVE ROPE version"
+  },
+  {
+    "artist": "Maria Kalaniemi",
+    "track": "Suden tuutu",
+    "apple_id": 1782324701,
+    "why": "The version on Nouse Luonto - Lauluja Monimuotoisuudesta (2025), the host's album; the link was the 2020 duet with Eero Grundström on Mielo"
+  },
+  {
+    "artist": "Anna B. Savage",
+    "track": "In/Flux",
+    "apple_id": 1721078967,
+    "why": "inFLUX on the album inFLUX (2023), the host's album; the link was Dan Deacon's remix single"
+  },
+  {
+    "artist": "The Blues Project",
+    "track": "I Can’t Keep from Crying Sometimes",
+    "year": 1966,
+    "why": "Projections (Verve Folkways, November 1966), where MusicBrainz lists it as \"I Can't Keep From Crying\"; its same-title recordings start in 1997"
+  },
+  {
+    "artist": "Alan Vega",
+    "track": "Wipeout Beat",
+    "year": 1983,
+    "why": "Saturn Strip (Elektra, 1983): MusicBrainz has the release group dated 1983-01 but without its tracks, so its earliest recording of the song is the 2004 reissue; Apple dates it 1983"
+  },
+  {
+    "artist": "The Coasters",
+    "track": "Besame mucho",
+    "year": 1960,
+    "why": "Atco single, 1960 (Apple's Bésame Mucho / Run Red Run EP is dated 1960); MusicBrainz's earliest is a 1980 compilation"
+  },
+  {
+    "artist": "Marlene Dietrich",
+    "track": "Falling in love again",
+    "year": 1930,
+    "why": "Recorded for The Blue Angel (1930, Wikipedia); MusicBrainz's earliest is a 1957 release, Apple's a 1940 compilation"
+  },
+  {
+    "artist": "Anton LaVey",
+    "track": "The Satanic Mass",
+    "year": 1968,
+    "why": "The Satanic Mass LP (Murgenstrumm, 1968; Apple dates it 1968); MusicBrainz only has the 2019 reissue"
+  },
+  {
+    "artist": "David Bowie",
+    "track": "’Tis a pity she was a whore",
+    "year": 2014,
+    "why": "B-side of the \"Sue (Or in a Season of Crime)\" single, November 2014 (Apple dates it 2014); MusicBrainz's earliest is Blackstar (2016)"
   }
 ]

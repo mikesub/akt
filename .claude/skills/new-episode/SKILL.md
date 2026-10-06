@@ -21,11 +21,13 @@ Stop and ask if the tree has uncommitted changes: they are not yours to commit.
 node bin/akt.js
 ```
 
-It fetches the feed, sends every new or edited episode's description to `claude` (about 20 s each), then looks each track up on Apple Music (3 s apart), writing `docs/data/episodes.json` after every step. Read its output:
+It fetches the feed, sends every new or edited episode's description to `claude` (about 20 s each), then looks each track up on Apple Music (3 s apart) and on MusicBrainz (about 3 s a track), writing `docs/data/episodes.json` after every step. Read its output:
 
 - `88 episodes in the feed, 1 to do, doing 1`: how many episodes were new or edited.
-- `#89: 13 tracks, 11 on Apple Music`: one line per episode done.
+- `#89: 13 tracks, 11 on Apple Music, 10 on MusicBrainz`: one line per episode done.
+- `#89: Artist — Title: was …, now …`: an Apple link that looked wrong (another artist, a live version, gone from the store) and was searched for again.
 - `apple: 10 by search, 1 from the artist's catalog, 0 by a near title, 2 not found`: how the matches were made.
+- `musicbrainz: 9 by search, 1 through the artist, 0 by a near title, 3 not found`: the same for MusicBrainz, which gives the original release year.
 - Anything else on stderr (`… failed`, `retrying in …`) is a failure or throttling. A failed episode keeps its old tracks and is retried by running the command again; do that once, and stop and report if it fails again.
 
 If it says `0 to do`, there is nothing new: say so and stop.

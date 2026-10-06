@@ -48,8 +48,9 @@ function noteLimits(host, headers) {
 
 /**
  * The body of `url` as JSON (or text, with `as: 'text'`), or null on 404.
- * A 429 or 503 waits as its Retry-After says (else 5, 10, 15… s) and tries
- * again; a network error waits 5 s; up to five requests in all.
+ * A 429 or 503 waits as its Retry-After says, but never less than 2, 4, 6… s
+ * (MusicBrainz answers a busy 503 with "Retry-After: 0"), and tries again; a
+ * network error waits 5 s; up to five requests in all.
  */
 export async function get(url, { as = 'json' } = {}) {
   const host = new URL(url).hostname;
@@ -73,7 +74,7 @@ export async function get(url, { as = 'json' } = {}) {
     noteLimits(host, res.headers);
     if (res.status === 404) return null;
     if ((res.status === 429 || res.status === 503) && attempt < TRIES) {
-      const pause = Math.min(RETRY_MAX, retryAfter(res.headers, 5_000 * attempt));
+      const pause = Math.min(RETRY_MAX, Math.max(retryAfter(res.headers, 0), 2_000 * attempt));
       console.error(`${host}: HTTP ${res.status}, retrying in ${Math.round(pause / 1000)} s`);
       until.set(host, Date.now() + pause);
       continue;

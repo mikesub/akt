@@ -110,12 +110,25 @@
 
   const episodes = await (await fetch('data/episodes.json')).json();
 
+  // A track's genres are Apple Music's one (first, when Apple has the song) and then MusicBrainz's.
+  // The genre filter uses Apple's broad ones: a track Apple lacks files under the first of its
+  // MusicBrainz genres that Apple uses elsewhere ("Blues Rock" as "Blues-Rock"), else its first.
+  const genreKey = (name) => name.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]/g, '');
+  const appleGenres = new Map();
+  for (const track of episodes.flatMap((episode) => episode.tracks ?? [])) {
+    if (track.apple_id && track.genres?.[0]) appleGenres.set(genreKey(track.genres[0]), track.genres[0]);
+  }
+  const broadGenre = (track) => {
+    if (track.apple_id) return track.genres?.[0];
+    return track.genres?.map((name) => appleGenres.get(genreKey(name))).find(Boolean) ?? track.genres?.[0];
+  };
+
   const rows = episodes.flatMap((episode) =>
     (episode.tracks ?? []).map((track) => ({
       ...track,
       episode: episode.number === null ? episode.title : `#${episode.number}`,
       decade: track.year ? `${Math.floor(track.year / 10) * 10}s` : UNKNOWN,
-      genre: track.genres?.[0] ?? UNKNOWN,
+      genre: broadGenre(track) ?? UNKNOWN,
     })),
   );
 

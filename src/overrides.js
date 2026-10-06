@@ -5,7 +5,8 @@ import { join } from 'node:path';
  * Hand corrections, for what no source gets right (a song Apple only has on
  * a reissue). Each entry names an artist and a track, an album, or both, and
  * the fields to set; `why` says where the value comes from. Applied on every
- * run, after the Apple lookup, so a --relink never undoes them.
+ * run, after the Apple Music and MusicBrainz lookups, so a --relink never
+ * undoes them.
  */
 const FILE = join(import.meta.dirname, '..', 'overrides.json');
 const KEYS = ['artist', 'track', 'album', 'why'];

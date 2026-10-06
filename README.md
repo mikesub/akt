@@ -15,7 +15,11 @@ episode's tracklist out of its description, and publish the result as a static s
 node bin/akt.js               # parse every new or edited episode
 node bin/akt.js --limit 5     # at most 5, newest first
 node bin/akt.js --episode <guid>   # parse one episode again
+node bin/akt.js --musicbrainz # look every track up on MusicBrainz again
 ```
+
+Each track is found on Apple Music (the link, a genre) and on MusicBrainz (the original release
+year, more genres); `overrides.json` fixes what neither gets right.
 
 Everything lands in `docs/data/episodes.json`. Review its diff, commit, push: GitHub Pages serves
 `docs/`.
