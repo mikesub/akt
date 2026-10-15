@@ -1,0 +1,771 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Музыка из программ А. К. Троицкого</title>
+<meta name="description" content="Все треки из радиопрограмм и подкастов Артемия Троицкого с 1997 года: FM Достоевский, Stereo Voodoo, Песни и пляски, Записки из подполья, Музыка на Свободе, Стереоплан. С годами выпуска и ссылками на Apple Music.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Музыка из программ А. К. Троицкого">
+<meta property="og:title" content="Музыка из программ А. К. Троицкого">
+<meta property="og:description" content="Все треки из радиопрограмм и подкастов Артемия Троицкого с 1997 года, с годами выпуска и ссылками на Apple Music.">
+<meta property="og:url" content="https://akt.mksb.me/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231b1b1b'/%3E%3Cpath d='M13 8v12.2a4 4 0 1 0 2 3.5V12l8-2V5z' fill='%23fff'/%3E%3C/svg%3E">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fff;
+    --fg: #1b1b1b;
+    --muted: #707070;
+    --line: #e6e6e6;
+    --chip: #f1f1f1;
+    --chip-on: #1b1b1b;
+    --chip-on-fg: #fff;
+    --link: #0b57d0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141414;
+      --fg: #e6e6e6;
+      --muted: #9a9a9a;
+      --line: #2e2e2e;
+      --chip: #242424;
+      --chip-on: #e6e6e6;
+      --chip-on-fg: #141414;
+      --link: #8ab4f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 16px;
+    background: var(--bg);
+    color: var(--fg);
+    font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  /* One line on a phone too: the size follows the screen's width, 20px at most. */
+  h1 { font-size: clamp(15px, 4.6vw, 20px); margin: 0 0 4px; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .facet { margin: 16px 0 0; }
+  .facet h2, .program .name { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; margin: 0; color: var(--muted); }
+  .facet h2 { margin-bottom: 6px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    font: inherit; font-size: 13px; padding: 3px 10px; border: 0; border-radius: 999px;
+    background: var(--chip); color: var(--fg); cursor: pointer;
+  }
+  .chip span { color: var(--muted); margin-left: 4px; }
+  .chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-fg); }
+  .chip[aria-pressed="true"] span { color: inherit; opacity: .7; }
+  .chip:disabled { opacity: .4; cursor: default; }
+  .summary { margin: 4px 0 0; color: var(--muted); }
+  /* A program to a row: its name and its episode menu; on a phone, one under the other. */
+  .programs { display: grid; grid-template-columns: max-content minmax(0, 360px); gap: 6px 16px; align-items: center; margin: 16px 0 0; }
+  .program { display: contents; }
+  /* What the archive holds of each program, folded away under the title. */
+  .archive { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+  .archive summary { cursor: pointer; width: max-content; }
+  .archive ul { margin: 6px 0 0; padding: 0; list-style: none; }
+  .archive li { margin: 2px 0; }
+  .archive b { font-weight: 600; color: var(--fg); }
+  .program[hidden] { display: none; } /* no episode parsed yet */
+  /* The contact line: under the title, or on a phone inside «Что есть в архиве» (and in the footer). */
+  .archive .contact { margin: 6px 0 0; }
+  @media (min-width: 641px) { .archive .contact { display: none; } }
+  @media (max-width: 640px) {
+    .summary.contact { display: none; }
+    /* The title's gap below matches the one between programs (4px + a name's 8px). */
+    .programs { grid-template-columns: minmax(0, 1fr); gap: 4px; margin-top: 0; }
+    .program .name { margin-top: 8px; }
+  }
+  /* The menu and its clear button, which keeps its room while hidden so the menu never changes width. */
+  .pick { display: flex; align-items: center; gap: 2px; min-width: 0; }
+  .pick button {
+    font: inherit; font-size: 20px; line-height: 1; padding: 0 4px; border: 0; background: none; color: var(--fg); cursor: pointer;
+  }
+  .pick button.off { visibility: hidden; }
+  .program select {
+    font: inherit; font-size: 13px; padding: 4px 8px; width: 100%; min-width: 0;
+    border: 1px solid var(--line); border-radius: 6px; background: var(--chip); color: var(--fg);
+  }
+  .link-button { font: inherit; font-size: 13px; background: none; border: 0; padding: 0; color: var(--link); cursor: pointer; }
+  .status { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: center; margin: 0 0 8px; }
+  .status label { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; cursor: pointer; }
+  .status input { margin: 0; } /* a checkbox's own margin and baseline sit it high beside its text */
+  .search { margin: 20px 0 6px; }
+  .count { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; margin: 0 0 4px; }
+  .search input {
+    font: inherit; font-size: 13px; padding: 4px 8px;
+    border: 1px solid var(--line); border-radius: 6px; background: var(--chip); color: var(--fg);
+  }
+  /* The browser's own clear button only shows on hover and takes the accent colour: ours always shows, in the text's. */
+  .search-box { position: relative; display: flex; width: 50%; min-width: min(100%, 320px); }
+  .search-box input { width: 100%; padding-right: 30px; }
+  .search-box input::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+  .search-box button {
+    position: absolute; right: 4px; top: 50%; transform: translateY(-50%);
+    font: inherit; font-size: 20px; line-height: 1; padding: 0 4px; border: 0; background: none; color: var(--fg); cursor: pointer;
+  }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 6px 10px 6px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 12px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+  td.num { white-space: nowrap; }
+  #rows a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+  #rows a:hover { text-decoration: none; }
+  th .sort { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+  th[aria-sort] .sort { color: var(--fg); }
+  /*
+   * On a phone a track is a card, not five columns to scroll sideways:
+   *   artist      year
+   *   track       episode
+   *   album
+   * and the column heads are a line of sort buttons above the list.
+   */
+  @media (max-width: 640px) {
+    table, thead, tbody { display: block; }
+    thead tr { display: flex; flex-wrap: wrap; gap: 4px 14px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+    thead th { display: block; padding: 0; border: 0; }
+    #rows tr {
+      display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 12px;
+      grid-template-areas: "artist year" "track episode" "album album";
+      padding: 8px 0; border-bottom: 1px solid var(--line);
+    }
+    #rows td { padding: 0; border: 0; min-width: 0; }
+    #rows td:nth-child(1) { grid-area: artist; font-weight: 600; }
+    #rows td:nth-child(2) { grid-area: track; }
+    #rows td:nth-child(3) { grid-area: album; font-size: 13px; color: var(--muted); }
+    #rows td:nth-child(4) { grid-area: year; text-align: right; color: var(--muted); }
+    #rows td:nth-child(5) { grid-area: episode; text-align: right; font-size: 13px; }
+  }
+  footer { margin: 24px 0 8px; font-size: 12px; color: var(--muted); }
+  /* Back to the top, once the page is scrolled past its first screen. */
+  #to-top {
+    position: fixed; top: 12px; right: 16px; z-index: 1;
+    font: inherit; font-size: 13px; padding: 6px 12px; border: 0; border-radius: 999px; cursor: pointer;
+    background: var(--chip-on); color: var(--chip-on-fg); box-shadow: 0 2px 8px rgb(0 0 0 / .2);
+    opacity: 0; visibility: hidden; transform: translateY(-4px); transition: opacity .2s, transform .2s, visibility .2s;
+  }
+  #to-top.shown { opacity: 1; visibility: visible; transform: none; }
+  @media (prefers-reduced-motion: reduce) { #to-top { transition: none; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Музыка из программ А.&nbsp;К.&nbsp;Троицкого</h1>
+</header>
+<p class="summary contact">
+  Нашли ошибку или хотите помочь? Пишите на <a href="mailto:akt@mksb.me">akt@mksb.me</a>
+</p>
+<details class="archive">
+  <summary>Что есть в архиве</summary>
+  <ul id="archive"><!-- a line per program, Ковчег дядюшки Ко first --></ul>
+  <p class="contact">Нашли ошибку или хотите помочь? Пишите на <a href="mailto:akt@mksb.me">akt@mksb.me</a></p>
+</details>
+
+<p class="summary" id="loading">Загрузка…</p>
+<div class="programs"><!-- a row per program, from PROGRAMS --></div>
+
+<div class="facet" id="decade">
+  <h2>Декада</h2>
+  <div class="chips"></div>
+</div>
+
+<div class="search">
+  <span class="search-box">
+    <input type="search" id="search" placeholder="Поиск: артист, трек, альбом, год" aria-label="Поиск по трекам" autocomplete="off">
+    <button id="search-clear" aria-label="Очистить поиск" hidden>×</button>
+  </span>
+</div>
+<p class="count" aria-live="polite">
+  <strong id="count"></strong>
+  <button class="link-button" id="unfiltered" title="Сбросить все фильтры, оставив поиск" hidden></button>
+  <button class="link-button" id="csv" title="Треки, которые показывает таблица, в её порядке">Скачать CSV</button>
+</p>
+<div class="status">
+  <label><input type="checkbox" id="apple-only">Только со ссылками на Apple Music</label>
+  <button class="link-button" id="clear" hidden>Сбросить все фильтры</button>
+</div>
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th><button class="sort" data-sort="artist">Артист</button></th>
+        <th><button class="sort" data-sort="track">Трек</button></th>
+        <th><button class="sort" data-sort="album">Альбом</button></th>
+        <th><button class="sort" data-sort="year">Год</button></th>
+        <th><button class="sort" data-sort="episode">Эпизод</button></th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</div>
+<div id="more"></div>
+
+<button id="to-top" aria-label="Наверх">↑ Наверх</button>
+
+<footer>
+  Нашли ошибку или хотите помочь с недостающими плейлистами? Пишите на <a href="mailto:akt@mksb.me">akt@mksb.me</a>.<br>
+  Годы выпуска — по данным <a href="https://musicbrainz.org">MusicBrainz</a>, <a href="https://www.discogs.com">Discogs</a> и Apple Music.
+  Плейлисты составлены Артемием Троицким; остальные данные — <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.ru">CC0</a>.<br>
+  Огромное спасибо авторам <a href="https://radar.lv/fmd">radar.lv/fmd</a>: значительная часть архива «FM Достоевского» держится на их многолетней работе.<br>
+  Исходный код (<a href="https://github.com/mikesub/akt/blob/main/LICENSE">MIT</a>) и <a href="https://github.com/mikesub/akt/tree/main/docs/data">данные в JSON</a> — на <a href="https://github.com/mikesub/akt">GitHub</a>; пулл-реквесты приветствуются.
+</footer>
+
+<script type="module">
+  const UNKNOWN = 'Год неизвестен';
+
+  /**
+   * His programs with a data file, oldest first: the id that tags their
+   * episodes ("svoboda#141"), keys their menu and names their file
+   * (data/<id>.json), the name on the menu and the summary line, when they
+   * ran (shown until there is data), when they started if their first
+   * episode has no date (FM Достоевский's first years: 1997, not the first
+   * dated episode's 1998), and whether it is still running (its summary then
+   * names the latest episode).
+   */
+  const PROGRAMS = [
+    { id: 'fmd', name: 'FM Достоевский', period: '1997\u00a0— 27 янв 2013, №\u00a01–820', started: '1997', pending: 'в работе' }, // pending: until its data is in
+    { id: 'voodoo', name: 'Stereo Voodoo', period: 'мар 2013\u00a0— дек 2015' },
+    { id: 'pesni', name: 'Песни и пляски', period: 'фев 2016\u00a0— июл 2017' },
+    { id: 'zapiski', name: 'Записки из подполья', period: 'фев 2016\u00a0— июл 2017' },
+    { id: 'svoboda', name: 'Музыка на Свободе', period: 'янв 2017\u00a0— фев 2025' },
+    { id: 'stereoplan', name: 'Стереоплан', period: 'с янв 2025', running: true },
+  ];
+
+  // One data file per program; a missing or unreadable one is just no tracks, never a blank page.
+  const load = async (path) => {
+    try {
+      const res = await fetch(path);
+      return res.ok ? await res.json() : [];
+    } catch {
+      return [];
+    }
+  };
+  const data = Object.fromEntries(await Promise.all(PROGRAMS.map(async ({ id }) => [id, await load(`data/${id}.json`)])));
+  document.getElementById('loading').remove();
+
+  /**
+   * Every track of one program's episodes, tagged with its program and its
+   * episode's name there: "#141", or the date of an episode outside the
+   * numbering (Svoboda's antiwar specials). `episode` names both,
+   * "svoboda#141", and links to where it is heard or read.
+   */
+  const tracksOf = (episodes, program) =>
+    episodes.flatMap((episode) => {
+      const name = episode.number === null ? (episode.published_at ?? '').slice(0, 10) || episode.title : `#${episode.number}`;
+      return (episode.tracks ?? []).map((track, index) => ({
+        ...track,
+        program,
+        position: index + 1,
+        episode_number: episode.number,
+        episode_date: (episode.published_at ?? '').slice(0, 10),
+        episode_title: episode.title ?? '',
+        episode_name: name,
+        episode: `${program}${name.startsWith('#') ? '' : ' '}${name}`,
+        episode_url: episode.url ?? episode.mp3_url ?? null,
+        decade: track.year ? `${Math.floor(track.year / 10) * 10}-е` : UNKNOWN,
+      }));
+    });
+  const rows = PROGRAMS.flatMap(({ id }) => tracksOf(data[id], id));
+
+  /** Text as search compares it: lower case, accents dropped ("Gültekin" is found by "gultekin", "ё" by "е"). */
+  const fold = (text) => text.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
+  // Each row's searchable columns, apart so that a query never matches across two of them.
+  for (const row of rows) row.search = fold([row.artist, row.track, row.album, row.year].filter(Boolean).join('\n'));
+
+  // Dates as "25 мар 2013": three-letter months, no dots ("май", not "мая").
+  const MONTHS = ['янв', 'фев', 'мар', 'апр', 'май', 'июн', 'июл', 'авг', 'сен', 'окт', 'ноя', 'дек'];
+  const day = (value) => {
+    const date = new Date(value);
+    return `${date.getUTCDate()} ${MONTHS[date.getUTCMonth()]} ${date.getUTCFullYear()}`;
+  };
+
+  /** Each program's episodes by the name its filter uses: the air date (to order the menu by), and the date and title it shows. */
+  const episodeInfo = (episodes) =>
+    new Map(
+      episodes.map((episode) => [
+        episode.number === null ? (episode.published_at ?? '').slice(0, 10) : `#${episode.number}`,
+        {
+          published: episode.published_at ?? '',
+          date: episode.published_at ? day(episode.published_at) : '',
+          title: titleOf(episode.title),
+        },
+      ]),
+    );
+  const info = Object.fromEntries(PROGRAMS.map(({ id }) => [id, episodeInfo(data[id])]));
+
+  /**
+   * An episode's title without what the menu already says. Feed titles repeat the show's name and
+   * number: Stereoplan's "🎶 Стереоплан Троицкого* #89 - "…"." or "#3: …".", Stereo Voodoo's
+   * "Stereo Voodoo — Программа А. Троицкого #12 (10.06.13)" (nothing left of it); Apple's copies
+   * end in their own count, "(040)". Quotes go only when they enclose the whole title.
+   */
+  function titleOf(title) {
+    return (title ?? '')
+      .replace(/\s*\(\d+\)$/, '')
+      .replace(/^.*?#\d+\*?\s*(?:\([\d.]+\)\s*)?(?:[-–—:]\s*|$)/, '')
+      .replace(/^["«“](.*)["»”]\.?$/, '$1')
+      .replace(/(?<!\.)\.$/, '');
+  }
+
+  /**
+   * A program's line in «Что есть в архиве». One with data shows its first
+   * and last date and its numbering, naming any number it lacks (a running
+   * one: its first date and its latest episode); one without shows when it
+   * ran, and "нет данных" until its playlists are found and parsed. Numbers
+   * take "№", as Russian writes them; the table's episode tags keep "#".
+   */
+  function summary(period, episodes = [], running = false, started = null, pending = null) {
+    const dates = episodes.map((e) => e.published_at).filter(Boolean).sort();
+    if (dates.length === 0) return `${period} (${pending ?? 'нет данных'})`;
+    const first = episodes.find((e) => e.number === 1);
+    const start = started && first && !first.published_at ? started : day(dates[0]);
+    if (running) {
+      const newest = episodes.reduce((a, b) => ((b.number ?? 0) > (a.number ?? 0) ? b : a));
+      const missing = missingOf(episodes);
+      const latest = `последний №\u00a0${newest.number} от ${day(newest.published_at)}`;
+      const which = missing.length === 0 ? `все, ${latest}` : `${latest}, нет ${gapsOf(missing, 'выпуска', 'выпусков')}`;
+      return `${start}\u00a0— по сей день (${which})`;
+    }
+    return `${start}\u00a0— ${day(dates.at(-1))} (${all(episodes)})`;
+  }
+  /** The numbers up to the highest that a program's episodes lack. */
+  function missingOf(episodes) {
+    const numbers = new Set(episodes.map((e) => e.number).filter((n) => n !== null));
+    const top = numbers.size > 0 ? Math.max(...numbers) : 0;
+    return Array.from({ length: top }, (_, i) => i + 1).filter((n) => !numbers.has(n));
+  }
+  /** Missing numbers after "нет" or "кроме": "№ 3, 7", or past ten their count in the genitive, "45 выпусков". */
+  function gapsOf(missing, one, many) {
+    return missing.length > 10 ? `${missing.length} ${plural(missing.length, one, many, many)}` : `№\u00a0${missing.join(', ')}`;
+  }
+  /**
+   * "все № 1–362", "№ 1–65, нет № 29" ("нет № 3, 7"), or past ten gaps their count, "№ 1–802, нет 45 выпусков";
+   * episodes outside the numbering counted as specials, "все № 1–362 и 5 спецвыпусков". One "№" for a
+   * range or a list, as Russian sets it, and a no-break space after it.
+   */
+  function all(episodes) {
+    const top = Math.max(...episodes.map((e) => e.number ?? 0));
+    const missing = missingOf(episodes);
+    const gaps = gapsOf(missing, 'выпуска', 'выпусков');
+    const specials = episodes.filter((e) => e.number === null).length;
+    return (
+      (missing.length === 0 ? `все №\u00a01–${top}` : `№\u00a01–${top}, нет ${gaps}`) +
+      // "нет 45 выпусков и 1 спецвыпуск" would read as both missing.
+      (specials ? `${missing.length === 0 ? ' и' : '; плюс'} ${specials} ${plural(specials, 'спецвыпуск', 'спецвыпуска', 'спецвыпусков')}` : '')
+    );
+  }
+
+  // Sorting ignores case, accents and punctuation. Ties go by artist, then title.
+  const collator = new Intl.Collator(undefined, { sensitivity: 'base', numeric: true, ignorePunctuation: true });
+  const byArtist = (a, b) => collator.compare(a.artist ?? '', b.artist ?? '') || collator.compare(a.track ?? '', b.track ?? '');
+
+  /** Each sortable column: its order and when a row has no value, which sorts last either way. */
+  const sorts = {
+    artist: { compare: byArtist, missing: (row) => !row.artist },
+    track: { compare: (a, b) => collator.compare(a.track, b.track), missing: (row) => !row.track },
+    album: { compare: (a, b) => collator.compare(a.album, b.album), missing: (row) => !row.album },
+    year: { compare: (a, b) => a.year - b.year, missing: (row) => !row.year },
+    episode: { compare: (a, b) => collator.compare(a.episode, b.episode), missing: () => false },
+  };
+  let sort = { key: 'artist', dir: 1 };
+
+  function compareRows(a, b) {
+    const { compare, missing } = sorts[sort.key];
+    return missing(a) - missing(b) || sort.dir * compare(a, b) || byArtist(a, b);
+  }
+
+  /**
+   * Each facet: the row value it filters on and how its choices are ordered:
+   * chips for the decade, a menu for each program's episodes. One value at a
+   * time per facet (`selected`, null for all). A program's episode facet has
+   * no value for the other programs' rows, so picking an episode shows that
+   * episode alone (and clears the other menus); the decade facet spans them all.
+   */
+  // A menu goes by air date, so specials sit where they aired; the two parts of a two-part article
+  // share a date and go by number. An undated episode (FM Достоевский's first years) takes the date
+  // of the one before it by number. A finished program reads from № 1; a running one newest first,
+  // so a new episode is one pick away.
+  const airDates = (episodes) => {
+    const dates = new Map();
+    let last = '';
+    for (const episode of episodes.filter((e) => e.number !== null).sort((a, b) => a.number - b.number)) {
+      last = episode.published_at || last;
+      dates.set(`#${episode.number}`, last);
+    }
+    for (const episode of episodes) if (episode.number === null) dates.set((episode.published_at ?? '').slice(0, 10), episode.published_at ?? '');
+    return dates;
+  };
+  const byAirDate = (program, running) => {
+    const dates = airDates(data[program]);
+    const direction = running ? -1 : 1;
+    return (a, b) => direction * ((dates.get(a.name) ?? '').localeCompare(dates.get(b.name) ?? '') || collator.compare(a.name, b.name));
+  };
+  const facets = {
+    decade: { value: (row) => row.decade, order: (a, b) => byUnknownLast(a, b) || a.name.localeCompare(b.name) },
+    ...Object.fromEntries(
+      PROGRAMS.map(({ id, running }) => [
+        id,
+        { value: (row) => (row.program === id ? row.episode_name : null), order: byAirDate(id, running) },
+      ]),
+    ),
+  };
+  for (const facet of Object.values(facets)) facet.selected = null;
+  let appleOnly = false; // only the tracks with an Apple Music link, alongside the facets
+  let query = ''; // the search box, folded: narrows the table after the filters, not the facets' counts
+
+  const search = document.getElementById('search');
+  const searchClear = document.getElementById('search-clear');
+
+  /** Set the sort, filters and search. Anything that no longer fits the data (a renamed column, a value no row has) is dropped. */
+  function applyView({ sort: sorted, selected = {}, appleOnly: linked = false, text = '' }) {
+    sort = sorted && sorts[sorted.key] && [1, -1].includes(sorted.dir) ? sorted : { key: 'artist', dir: 1 };
+    let episode = false; // one episode at a time across all programs
+    for (const [key, facet] of Object.entries(facets)) {
+      const value = selected[key];
+      const fits = typeof value === 'string' && !(info[key] && episode) && rows.some((row) => facet.value(row) === value);
+      facet.selected = fits ? value : null;
+      if (fits && info[key]) episode = true;
+    }
+    appleOnly = linked === true;
+    search.value = text;
+    query = fold(text.trim());
+    searchClear.hidden = text === '';
+  }
+
+  /**
+   * The view in the URL, to share: ?q=cohen&decade=1980&pesni=12&link=1&sort=-year (a special by its
+   * date, svoboda=2022-03-10; decade=unknown for no year; sort left out when by artist, A to Z).
+   */
+  const URL_KEYS = ['q', 'decade', ...Object.keys(info), 'link', 'sort'];
+  function viewFromUrl() {
+    const params = new URLSearchParams(location.search);
+    const decade = params.get('decade');
+    const selected = { decade: decade === 'unknown' ? UNKNOWN : /^\d{4}$/.test(decade ?? '') ? `${decade}-е` : null };
+    for (const id of Object.keys(info)) {
+      const value = params.get(id);
+      selected[id] = value === null ? null : /^\d+$/.test(value) ? `#${Number(value)}` : value;
+    }
+    const sorted = params.get('sort') ?? '';
+    return {
+      sort: { key: sorted.replace(/^-/, ''), dir: sorted.startsWith('-') ? -1 : 1 },
+      selected,
+      appleOnly: params.get('link') === '1',
+      text: params.get('q') ?? '',
+    };
+  }
+  function urlOfView() {
+    const params = new URLSearchParams();
+    if (query) params.set('q', search.value.trim());
+    const decade = facets.decade.selected;
+    if (decade) params.set('decade', decade === UNKNOWN ? 'unknown' : decade.replace(/-е$/, ''));
+    for (const id of Object.keys(info)) {
+      const episode = facets[id].selected;
+      if (episode) params.set(id, episode.replace(/^#/, ''));
+    }
+    if (appleOnly) params.set('link', '1');
+    if (sort.key !== 'artist' || sort.dir !== 1) params.set('sort', `${sort.dir < 0 ? '-' : ''}${sort.key}`);
+    const string = params.toString();
+    return string ? `?${string}` : '';
+  }
+
+  /**
+   * The URL follows the view, each change a history entry, so Back undoes it; the search box's
+   * once typing stops for a second. Before the first render it is only brought in line.
+   */
+  let ready = false;
+  let typing = null;
+  function syncUrl() {
+    clearTimeout(typing);
+    const url = urlOfView();
+    if (url !== location.search) history[ready ? 'pushState' : 'replaceState'](null, '', url || location.pathname);
+  }
+  window.addEventListener('popstate', () => {
+    applyView(viewFromUrl());
+    render();
+  });
+
+  // A link with a view opens it; otherwise the sort and filters this browser saved (not the search),
+  // stored only here; storage may be unavailable.
+  const VIEW = 'akt.view';
+  if (URL_KEYS.some((key) => new URLSearchParams(location.search).has(key))) applyView(viewFromUrl());
+  else {
+    try {
+      applyView(JSON.parse(localStorage.getItem(VIEW) ?? 'null') ?? {});
+    } catch {}
+  }
+  function saveView() {
+    try {
+      const selected = Object.fromEntries(Object.entries(facets).map(([key, facet]) => [key, facet.selected]));
+      localStorage.setItem(VIEW, JSON.stringify({ sort, selected, appleOnly }));
+    } catch {}
+    syncUrl();
+  }
+
+  function byUnknownLast(a, b) {
+    return (a.name === UNKNOWN) - (b.name === UNKNOWN);
+  }
+
+  /** The Russian word form for a count: plural(21, 'трек', 'трека', 'треков') is 'трек'. */
+  function plural(count, one, few, many) {
+    return { one, few, many }[new Intl.PluralRules('ru').select(count)] ?? many;
+  }
+
+  function escape(text) {
+    return String(text ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+  }
+
+  /** A row matches when every facet with a selection (bar those in `except`) has that value, and has a link if asked. */
+  function matches(row, except = []) {
+    return (!appleOnly || row.apple_id) && Object.entries(facets).every(
+      ([key, facet]) => except.includes(key) || facet.selected === null || facet.value(row) === facet.selected,
+    );
+  }
+
+  function renderFacet(key) {
+    const facet = facets[key];
+    const counts = new Map();
+    for (const row of rows) {
+      const value = facet.value(row);
+      if (value === null) continue;
+      // An episode menu lists all its episodes, whatever the filters: one with no track under them shows 0 rows.
+      if (info[key] || matches(row, [key])) counts.set(value, (counts.get(value) ?? 0) + 1);
+      else if (!info[key] && !counts.has(value)) counts.set(value, 0); // every decade stays, greyed at 0
+    }
+    if (facet.selected !== null && !counts.has(facet.selected)) counts.set(facet.selected, 0);
+
+    const chips = [...counts].map(([name, count]) => ({ name, count })).sort(facet.order);
+    const section = document.getElementById(key);
+    section.hidden = chips.length === 0; // a program with no episode parsed yet has no menu
+    if (info[key]) section.querySelector('.pick button').classList.toggle('off', facet.selected === null);
+    if (info[key]) {
+      const label = (chip) => {
+        const { date, title } = info[key].get(chip.name) ?? {};
+        const name = chip.name.startsWith('#') ? `№\u00a0${chip.name.slice(1)}` : 'Спецвыпуск';
+        const short = title && title.length > 60 ? `${title.slice(0, 60).replace(/\s+\S*$/, '')}…` : title;
+        return [name, date, short].filter(Boolean).join(' · ');
+      };
+      section.querySelector('select').innerHTML =
+        `<option value="">${escape(everyEpisode[key])}</option>` +
+        chips
+          .map((chip) => `<option value="${escape(chip.name)}"${chip.name === facet.selected ? ' selected' : ''}>${escape(label(chip))}</option>`)
+          .join('');
+      return;
+    }
+    section.querySelector('.chips').innerHTML = chips
+      .map(
+        (chip) =>
+          `<button class="chip" data-value="${escape(chip.name)}" aria-pressed="${chip.name === facet.selected}"` +
+          `${chip.count === 0 && chip.name !== facet.selected ? ' disabled' : ''}>` +
+          `${escape(chip.name)}<span>${chip.count}</span></button>`,
+      )
+      .join('');
+  }
+
+  const found = (row) => row.search.includes(query);
+  const filtered = () => appleOnly || Object.values(facets).some((facet) => facet.selected !== null);
+
+  /** The text, linked to its page on Apple Music when there is one ("song", "album" or "artist"). */
+  const apple = (kind, id, text) =>
+    id ? `<a href="https://music.apple.com/${kind}/${id}" target="_blank" rel="noopener">${escape(text)}</a>` : escape(text);
+
+  function rowHtml(row) {
+    // The song, its album and its artist open on Apple Music when there is a match (the album and
+    // artist only where Apple's name is the playlist's).
+    const title = apple('song', row.apple_id, row.track);
+    const episode = row.episode_url
+      ? `<a href="${escape(row.episode_url)}" target="_blank" rel="noopener">${escape(row.episode)}</a>`
+      : escape(row.episode);
+    return `<tr><td>${apple('artist', row.apple_artist_id, row.artist)}</td><td>${title}</td><td>${apple('album', row.apple_album_id, row.album)}</td>` +
+      `<td class="num">${escape(row.year)}</td><td class="num">${episode}</td></tr>`;
+  }
+
+  // The table is drawn PAGE rows at a time, the next ones as its end nears the screen:
+  // tens of thousands of rows at once would make every click slow.
+  const PAGE = 500;
+  let shown = [];
+  let drawn = 0;
+  function drawMore() {
+    const next = shown.slice(drawn, drawn + PAGE);
+    document.getElementById('rows').insertAdjacentHTML('beforeend', next.map(rowHtml).join(''));
+    drawn += next.length;
+  }
+  const more = document.getElementById('more');
+  const observer = new IntersectionObserver((entries) => entries[0].isIntersecting && drawMore(), { rootMargin: '1500px' });
+
+  function renderRows() {
+    shown = rows.filter((row) => matches(row) && found(row)).sort(compareRows);
+    document.getElementById('rows').innerHTML = '';
+    drawn = 0;
+    drawMore();
+    // Observing again reports where the end is now, even if it never left the screen.
+    observer.unobserve(more);
+    observer.observe(more);
+    const number = (n) => n.toLocaleString('ru-RU');
+    document.getElementById('count').textContent = `${number(shown.length)} из ${number(rows.length)} ${plural(rows.length, 'трека', 'треков', 'треков')}`;
+    document.querySelector('.table-wrap').hidden = shown.length === 0;
+    document.getElementById('csv').hidden = shown.length === 0;
+    // While searching with a filter set: "340 без фильтров", the search alone over every program; a click shows them.
+    const unfiltered = document.getElementById('unfiltered');
+    const unfilteredCount = query && filtered() ? rows.filter(found).length : shown.length;
+    unfiltered.hidden = unfilteredCount === shown.length; // only when the filters hide some
+    unfiltered.textContent = `${number(unfilteredCount)} без фильтров`;
+    document.getElementById('apple-only').checked = appleOnly;
+    document.getElementById('clear').hidden = !filtered();
+  }
+
+  function renderSort() {
+    for (const button of document.querySelectorAll('th .sort')) {
+      const active = button.dataset.sort === sort.key;
+      const th = button.parentElement;
+      if (active) th.setAttribute('aria-sort', sort.dir > 0 ? 'ascending' : 'descending');
+      else th.removeAttribute('aria-sort');
+      button.textContent = button.textContent.replace(/ [▲▼]$/, '') + (active ? (sort.dir > 0 ? ' ▲' : ' ▼') : '');
+    }
+  }
+
+  function render() {
+    saveView();
+    for (const key of Object.keys(facets)) renderFacet(key);
+    renderSort();
+    renderRows();
+  }
+
+  document.querySelector('thead').addEventListener('click', (event) => {
+    const button = event.target.closest('.sort');
+    if (!button) return;
+    const key = button.dataset.sort;
+    sort = { key, dir: sort.key === key ? -sort.dir : 1 };
+    saveView();
+    renderSort();
+    renderRows();
+  });
+
+  // Each menu's first choice, naming what it lacks: «Все эпизоды, кроме № 29».
+  const everyEpisode = Object.fromEntries(
+    PROGRAMS.map(({ id }) => {
+      const missing = missingOf(data[id].filter((episode) => (episode.tracks ?? []).length > 0));
+      return [id, missing.length === 0 ? 'Все эпизоды' : `Все эпизоды, кроме ${gapsOf(missing, 'эпизода', 'эпизодов')}`];
+    }),
+  );
+
+  // A row per program with episodes parsed: its name and its episode menu.
+  document.querySelector('.programs').innerHTML = PROGRAMS.map(
+    ({ id, name }) =>
+      `<div class="program" id="${id}"><label class="name" for="${id}-episodes">${escape(name)}</label>` +
+      `<span class="pick"><select id="${id}-episodes"></select><button class="off" aria-label="Сбросить выбор эпизода">×</button></span></div>`,
+  ).join('');
+  // What the archive holds of each, Ковчег дядюшки Ко first (no data, no menu). A summary counts only episodes
+  // already parsed: a pipeline lists every playlist in the data file before it has its tracks.
+  document.getElementById('archive').innerHTML = [
+    ['Ковчег дядюшки Ко', summary('1990–1996')],
+    ...PROGRAMS.map(({ id, name, period, running, started, pending }) => [
+      name,
+      summary(period, data[id].filter((episode) => (episode.tracks ?? []).length > 0), running, started, pending),
+    ]),
+  ]
+    .map(([name, text]) => `<li><b>${escape(name)}</b>: ${escape(text)}</li>`)
+    .join('');
+  for (const key of Object.keys(info)) {
+    document.getElementById(key).querySelector('select').addEventListener('change', (event) => {
+      // One episode at a time across all programs: picking one clears the other menus.
+      for (const other of Object.keys(info)) facets[other].selected = null;
+      facets[key].selected = event.target.value || null;
+      render();
+    });
+    document.getElementById(key).querySelector('.pick button').addEventListener('click', () => {
+      facets[key].selected = null;
+      render();
+    });
+  }
+  for (const key of Object.keys(facets).filter((key) => !info[key])) {
+    document.getElementById(key).querySelector('.chips').addEventListener('click', (event) => {
+      const chip = event.target.closest('.chip');
+      if (!chip || chip.disabled) return;
+      // Picking a value replaces the previous one; picking it again clears the facet.
+      const facet = facets[key];
+      facet.selected = facet.selected === chip.dataset.value ? null : chip.dataset.value;
+      render();
+    });
+  }
+  search.addEventListener('input', () => {
+    query = fold(search.value.trim());
+    searchClear.hidden = search.value === '';
+    renderRows();
+    clearTimeout(typing);
+    typing = setTimeout(syncUrl, 1000);
+  });
+  searchClear.addEventListener('click', () => {
+    search.value = '';
+    search.dispatchEvent(new Event('input'));
+    search.focus();
+  });
+  document.getElementById('apple-only').addEventListener('change', (event) => {
+    appleOnly = event.target.checked;
+    render();
+  });
+  // Both clear the filters, never the search.
+  for (const id of ['clear', 'unfiltered']) {
+    document.getElementById(id).addEventListener('click', () => {
+      for (const facet of Object.values(facets)) facet.selected = null;
+      appleOnly = false;
+      render();
+    });
+  }
+
+  // «Скачать CSV»: the rows the table shows, in its order (every track when nothing is filtered or searched),
+  // one per track, the ids as links. Built here from the loaded data: the page has no server to ask.
+  const programName = Object.fromEntries(PROGRAMS.map(({ id, name }) => [id, name]));
+  const link = (base, id) => (id ? `${base}${id}` : '');
+  const CSV_COLUMNS = [
+    ['program', (row) => programName[row.program]],
+    ['episode', (row) => row.episode_number],
+    ['date', (row) => row.episode_date],
+    ['episode_title', (row) => row.episode_title],
+    ['episode_url', (row) => row.episode_url],
+    ['position', (row) => row.position],
+    ['artist', (row) => row.artist],
+    ['track', (row) => row.track],
+    ['album', (row) => row.album],
+    ['year', (row) => row.year],
+    ['apple_music_url', (row) => link('https://music.apple.com/song/', row.apple_id)],
+    ['apple_album_url', (row) => link('https://music.apple.com/album/', row.apple_album_id)],
+    ['apple_artist_url', (row) => link('https://music.apple.com/artist/', row.apple_artist_id)],
+    ['musicbrainz_url', (row) => link('https://musicbrainz.org/recording/', row.mb_id)],
+    ['discogs_url', (row) => link('https://www.discogs.com/release/', row.discogs_id)],
+  ];
+  /** A CSV field (RFC 4180): quoted when it holds a comma, a quote, a line break or edge spaces, its quotes doubled. */
+  const csvField = (value) => {
+    const text = value == null ? '' : String(value);
+    return /[",\r\n]|^\s|\s$/.test(text) ? `"${text.replaceAll('"', '""')}"` : text;
+  };
+  document.getElementById('csv').addEventListener('click', () => {
+    const lines = [CSV_COLUMNS.map(([name]) => name), ...shown.map((row) => CSV_COLUMNS.map(([, value]) => value(row)))];
+    // The byte order mark tells Excel the file is UTF-8: without it, Cyrillic opens as mojibake.
+    const csv = '﻿' + lines.map((fields) => fields.map(csvField).join(',')).join('\r\n') + '\r\n';
+    const download = document.createElement('a');
+    download.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
+    download.download = 'troitsky.csv';
+    download.click();
+    setTimeout(() => URL.revokeObjectURL(download.href), 1000);
+  });
+
+  const toTop = document.getElementById('to-top');
+  const placeToTop = () => toTop.classList.toggle('shown', window.scrollY > window.innerHeight);
+  window.addEventListener('scroll', placeToTop, { passive: true });
+  window.addEventListener('resize', placeToTop);
+  toTop.addEventListener('click', () => {
+    const smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: smooth ? 'smooth' : 'auto' });
+  });
+
+  render();
+  ready = true;
+</script>
+</body>
+</html>

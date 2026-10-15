@@ -1,0 +1,19 @@
+date: 2000-02-23
+title: FM Достоевский #157
+note: From the XLS export of radar.lv's dead playlist database (fmd/sources/radar.lv/fmd_up499.xls), the least trusted source. Its track number 13 appears twice; its rows give two dates, 2000-02-23 and 2000-03-15.
+
+1. Air & Francoise Hardy (France) "Jeanne" CD "Pop Romantique" (Emperor Norton)
+2. Fountains Of Wayne (USA) "Denise" CD "Utopia Parkway" (Atlantic)
+3. Kandia Konyate (Mali) "Kandali" CD "Kita Kan" (Stern`s)
+4. Richie Hawtin with Rhythm & Sound (Canada/USA) "Never Tell You" CD "Decks, Efx & 909" (Nova Mute)
+5. Dream City Film Club (UK) "Close Watch" CD "Stranger Blues" (Beggars Banquet)
+6. Samuca De Mangueira (Brazil) "Dance Comigo" CD "Casa De Mae Joana" (Natasha)
+7. Madder Rose (USA) "Fade" CD "Hello June Fool" (Cooking Vinyl)
+8. Monsieur Leroc (Germany) "Le Odensaque" CD "Le Slow Motion Boogie Woogie" (Payola)
+9. Mark Lanegan (USA) "Creeping Coastline Of Lights" CD "I`ll Take Care Of You" (Sub Pop)
+10. Archive (UK) "You Make Me Feel" CD "Take My Head" (Independiente)
+11. Cul De Sac (USA) "Into The Cone Of Cold" CD "Crashes to Light, Moments To Its Fall" (Thirsty Ear)
+12. Polar (Switzerland) "City Angst" CD "Bi-" (Em)
+13. Nina Hagen (Germany) "" CD "Return Of The Mother"
+13. Hoven Droven (Sweden) "Moss Och Manniskor" CD "More Happy Moments With Hoven Droven" (Home)
+14. The Caretaker (UK) "You And The Night" CD "Selected Memories From The Haunted Ballroom" (V/Vm)

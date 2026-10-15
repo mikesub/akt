@@ -1,0 +1,21 @@
+url: https://radar.lv/files/FM_Dostoevsky_N674_21.02.2010.cue
+date: 2010-02-21
+title: FM Достоевский #674
+note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end. radar.lv's second sheet for #675 (FM_Dostoevsky_N675_2010.02.28_0.cue) names these same 16 songs and a 17th after them, «zakopower "kiebys ty"»: perhaps this episode's last song, which this sheet lacks.
+
+1. ceu "comadi" CD "vagarosa"
+2. ceu "cangote" CD "vagarosa"
+3. ryuichi sakamoto "firewater" CD "playing the piano/out of noise"
+4. left lane cruiser "broke ass blues" CD "all you can eat!!"
+5. maria grazia buccella "dove vai tutta nuda?" CD "commedia sexy all' italiana"
+6. the lonesome valley singers "children's death march through a grey november pts 1&2" CD "corpse circus revue"
+7. eva hren & sladcore "ne ori, ne sejaj" CD "eva hren & sladcore"
+8. 1000 robota "oh oh" CD "du nicht er nicht sie nicht"
+9. cinta hermo "tangos del agua" CD "el canto de la sirena"
+10. honkeyfinger "margarine man" CD "invocation of the demon other"
+11. dark tooth encounter "weeping pines" CD "soft monsters"
+12. daby balde "lale kouma" CD "le marigot club dakar"
+13. strike the colours "cat" CD "seven roads"
+14. sweet trip "song about a sea" CD "you will never know why"
+15. sweet trip "air supply" CD "you will never know why"
+16. psychic tv/ptv3 "foggy notion" CD "mr. alien brain vs. the skinwalkers"

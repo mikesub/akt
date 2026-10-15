@@ -1,0 +1,19 @@
+{
+  "name": "akt",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Tracklist archive for Artemy Troitsky's radio programs and podcast, from «FM Достоевский» to «Стереоплан Троицкого»",
+  "type": "module",
+  "bin": {
+    "stereoplan": "bin/stereoplan.js",
+    "svoboda": "bin/svoboda.js",
+    "playlists": "bin/playlists.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node bin/stereoplan.js"
+  }
+}
