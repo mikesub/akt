@@ -1,0 +1,373 @@
+[
+  {
+    "artist": "7Б",
+    "track": "Rammstein",
+    "restore": {
+      "track": "Раммштайн"
+    },
+    "why": "FM Достоевский #255, from the XLS: transliterated; MusicBrainz has 7Б’s recording «Раммштайн»"
+  },
+  {
+    "artist": "Peter Mamonov",
+    "track": "Ljuljaki Bab",
+    "restore": {
+      "artist": "Пётр Мамонов",
+      "track": "Люляки баб"
+    },
+    "why": "FM Достоевский #62, from the XLS: transliterated; MusicBrainz has Пётр Мамонов’s recording «Люляки баб»"
+  },
+  {
+    "artist": "Neschastny Sluchay",
+    "track": "Balalayetchka",
+    "restore": {
+      "artist": "Несчастный случай",
+      "track": "Балалаечка",
+      "album": "Это любовь"
+    },
+    "why": "FM Достоевский #59, from the XLS: transliterated; MusicBrainz has Несчастный случай’s recording «Балалаечка» and their 1997 album «Это любовь» (This Is Love)"
+  },
+  {
+    "artist": "Neschastnyi Sluchay",
+    "track": "Babe",
+    "restore": {
+      "artist": "Несчастный случай",
+      "album": "Межсезонье"
+    },
+    "why": "FM Достоевский #27, from the XLS: translated; MusicBrainz has Несчастный случай’s 1996 album «Межсезонье» (Out Of Season); the song is not identified, so its title stays as printed"
+  },
+  {
+    "artist": "Tantsy Na Vole",
+    "track": "Zveri",
+    "restore": {
+      "artist": "Танцы на воле",
+      "track": "Звери"
+    },
+    "why": "FM Достоевский #36, from the XLS: transliterated; MusicBrainz has Танцы на воле’s recording «Звери»"
+  },
+  {
+    "artist": "Sobaki Kachalova",
+    "track": "Nebo",
+    "restore": {
+      "artist": "Собаки Качалова",
+      "track": "Небо"
+    },
+    "why": "FM Достоевский #9, from the XLS: transliterated; MusicBrainz has Собаки Качалова’s recording «Небо»"
+  },
+  {
+    "artist": "Alexey Kozlov & Andrey Makarevich",
+    "track": "V Kepke Nabok i Zub zolotoy",
+    "restore": {
+      "artist": "Алексей Козлов & Андрей Макаревич",
+      "track": "В кепке на бок и зуб золотой"
+    },
+    "why": "FM Достоевский #11, from the XLS: transliterated; MusicBrainz has Алексей Козлов’s recording «В кепке на бок и зуб золотой», and Андрей Макаревич under that name"
+  },
+  {
+    "artist": "Zvuki Mu",
+    "track": "Liuliaki Bab",
+    "restore": {
+      "artist": "Звуки Му",
+      "track": "Люляки баб",
+      "album": "Простые вещи"
+    },
+    "why": "FM Достоевский #7, from the XLS: transliterated; MusicBrainz has Звуки Му’s recording «Люляки баб»; the archive has it on «Простые вещи» (Simple Things)"
+  },
+  {
+    "artist": "Zvuki Mu",
+    "track": "Honey Baby",
+    "restore": {
+      "artist": "Звуки Му"
+    },
+    "why": "FM Достоевский #25, from the XLS: the artist transliterated; «Honey Baby» is the band’s own English title (MusicBrainz), so it stays"
+  },
+  {
+    "artist": "Aquarium",
+    "track": "Beautiful Dilettante",
+    "restore": {
+      "artist": "Аквариум",
+      "track": "Прекрасный дилетант",
+      "album": "Арокс и Штёр"
+    },
+    "why": "FM Достоевский #22, from the XLS: translated; the archive has Аквариум’s «Прекрасный дилетант», and MusicBrainz their 1982 album «Арокс и Штёр»"
+  },
+  {
+    "artist": "Auquarium",
+    "track": "Captain Africa",
+    "restore": {
+      "artist": "Аквариум",
+      "album": "Радио Африка"
+    },
+    "why": "FM Достоевский #15, from the XLS: the artist misspelt; MusicBrainz has Аквариум’s 1983 album «Радио Африка»; the song’s own title is not confirmed by a source, so it stays as printed"
+  },
+  {
+    "artist": "Ludmila Gurchenko",
+    "track": "Good Mood",
+    "restore": {
+      "artist": "Людмила Гурченко",
+      "track": "Хорошее настроение",
+      "album": "Хорошее настроение"
+    },
+    "why": "FM Достоевский #18, from the XLS: translated; MusicBrainz has Людмила Гурченко’s recording and 1995 album «Хорошее настроение»"
+  },
+  {
+    "artist": "Ludmila Gurchenko",
+    "track": "Coming To Visit",
+    "restore": {
+      "artist": "Людмила Гурченко",
+      "track": "В гостях",
+      "album": "Хорошее настроение"
+    },
+    "why": "FM Достоевский #18, from the XLS: translated; MusicBrainz has Людмила Гурченко’s recording «В гостях» and her 1995 album «Хорошее настроение» (Good Mood)"
+  },
+  {
+    "artist": "Ludmila Gurchenko",
+    "track": "For A long Trip",
+    "restore": {
+      "artist": "Людмила Гурченко"
+    },
+    "why": "FM Достоевский #18, from the XLS: the artist transliterated; the song is not identified, so its title stays as printed"
+  },
+  {
+    "artist": "Ludmila Gurchenko",
+    "track": "Tender Song",
+    "restore": {
+      "artist": "Людмила Гурченко"
+    },
+    "why": "FM Достоевский #18, from the XLS: the artist transliterated; the song is not identified, so its title stays as printed"
+  },
+  {
+    "artist": "Splin",
+    "track": "First Snow",
+    "restore": {
+      "artist": "Сплин",
+      "track": "Первый снег",
+      "album": "Фонарь под глазом"
+    },
+    "why": "FM Достоевский #35, from the XLS: translated; MusicBrainz has Сплин’s recording «Первый снег» and their 1997 album «Фонарь под глазом»"
+  },
+  {
+    "artist": "Kvartal",
+    "track": "Rare Guest",
+    "restore": {
+      "artist": "Квартал",
+      "track": "Редкий гость",
+      "album": "Вход для посторонних"
+    },
+    "why": "FM Достоевский #29, from the XLS: translated; MusicBrainz has Квартал’s recording «Редкий гость» and their 1996 album «Вход для посторонних» (Entrance For Strangers)"
+  },
+  {
+    "artist": "Sector Gaza",
+    "track": "The Very Best Wheels",
+    "restore": {
+      "artist": "Сектор Газа",
+      "track": "Самые лучшие тачки",
+      "album": "Наркологический университет миллионов"
+    },
+    "why": "FM Достоевский #31, from the XLS: translated; MusicBrainz has Сектор Газа’s recording «Самые лучшие тачки» and their 1997 album «Наркологический университет миллионов»"
+  },
+  {
+    "artist": "Anatoly Krupnov",
+    "track": "I'm Staying",
+    "restore": {
+      "artist": "Анатолий Крупнов",
+      "track": "Я остаюсь"
+    },
+    "why": "FM Достоевский #47, from the XLS: translated; MusicBrainz has Анатолий Крупнов’s recording «Я остаюсь»"
+  },
+  {
+    "artist": "Vezhlivy Otkaz",
+    "track": "Stripes Of Misfortunes",
+    "restore": {
+      "artist": "Вежливый отказ",
+      "track": "Полоса неудач",
+      "album": "Коса на камень"
+    },
+    "why": "FM Достоевский #45, from the XLS: translated; MusicBrainz has Вежливый отказ’s recording «Полоса неудач» and their 1997 album «Коса на камень»"
+  },
+  {
+    "artist": "Kirpichi",
+    "track": "Pop Is Doomed",
+    "restore": {
+      "artist": "Кирпичи",
+      "track": "Поп приговорён",
+      "album": "Кирпичи тяжелы"
+    },
+    "why": "FM Достоевский #20, from the XLS: translated; MusicBrainz has Кирпичи’s recording «Поп приговорён» and their 1996 album «Кирпичи тяжелы» (The Bricks Are Heavy)"
+  },
+  {
+    "artist": "Black Obelisk",
+    "track": "What happened in Africa",
+    "restore": {
+      "artist": "Чёрный обелиск",
+      "track": "Песенка ни про что, или что случилось в Африке"
+    },
+    "why": "FM Достоевский #21, from the XLS: translated; MusicBrainz has Чёрный обелиск’s recording «Песенка ни про что, или что случилось в Африке» (Высоцкий’s song)"
+  },
+  {
+    "artist": "Komitet Ohrani Tepla",
+    "track": "Jailhouse Rock",
+    "restore": {
+      "artist": "Комитет охраны тепла",
+      "track": "Тюремный рок"
+    },
+    "why": "FM Достоевский #37, from the XLS: translated; MusicBrainz has Комитет охраны тепла’s recording «Тюремный рок», and none called «Jailhouse Rock»"
+  },
+  {
+    "artist": "Alexey Khvostenko",
+    "track": "Nostalgic Song",
+    "restore": {
+      "artist": "Алексей Хвостенко",
+      "track": "Ностальгическая песня",
+      "album": "Прощание со степью"
+    },
+    "why": "FM Достоевский #2, from the XLS: translated; MusicBrainz has Алексей Хвостенко’s recording «Ностальгическая песня» and his 1981 album «Прощание со степью» (Farewell To Steppes)"
+  },
+  {
+    "artist": "Bakhyt-Kompot",
+    "track": "Blue Wagon",
+    "restore": {
+      "artist": "Бахыт-Компот",
+      "track": "Голубой вагон"
+    },
+    "why": "FM Достоевский #78, from the XLS: translated; MusicBrainz has Бахыт-Компот’s recording «Голубой вагон»"
+  },
+  {
+    "artist": "Bakhyt-Kompot",
+    "track": "Sorry Dear",
+    "restore": {
+      "artist": "Бахыт-Компот",
+      "track": "Извини, дорогая",
+      "album": "Раздень меня по телефону"
+    },
+    "why": "FM Достоевский #14, from the XLS: translated; MusicBrainz has Бахыт-Компот’s recording «Извини, дорогая» and their 1996 album «Раздень меня по телефону» (Strip Me Naked On A Phone)"
+  },
+  {
+    "artist": "NOM",
+    "track": "Love Of An Engineer",
+    "restore": {
+      "artist": "НОМ",
+      "track": "Любовь инженера",
+      "album": "Во имя разума"
+    },
+    "why": "FM Достоевский #3, from the XLS: translated; MusicBrainz has НОМ’s recording «Любовь инженера» and their 1996 album «Во имя разума» (In The Name Of Sensibility)"
+  },
+  {
+    "artist": "NOM",
+    "track": "Ukrblues",
+    "restore": {
+      "artist": "НОМ",
+      "track": "Укрблюз",
+      "album": "Во имя разума"
+    },
+    "why": "FM Достоевский #3, from the XLS: transliterated; MusicBrainz has НОМ’s recording «Укрблюз» and their 1996 album «Во имя разума» (In The Name Of Sensibility)"
+  },
+  {
+    "artist": "NOM",
+    "track": "You Will Howl, Germany!",
+    "restore": {
+      "artist": "НОМ"
+    },
+    "why": "FM Достоевский #72, from the XLS: the artist transliterated; the song is not identified, so its title stays as printed"
+  },
+  {
+    "artist": "Colibri",
+    "track": "All About Us",
+    "restore": {
+      "artist": "Колибри",
+      "track": "Всё о нас",
+      "album": "Бес сахара"
+    },
+    "why": "FM Достоевский #33, from the XLS: translated; MusicBrainz has Колибри’s recording «Всё о нас» and their 1997 album «Бес сахара» (Sugar-Free)"
+  },
+  {
+    "artist": "Mummy Troll",
+    "track": "Siamese Hearts",
+    "restore": {
+      "artist": "Мумий Тролль",
+      "album": "Икра"
+    },
+    "why": "FM Достоевский #57, from the XLS: the artist translated; MusicBrainz has Мумий Тролль’s 1997 album «Икра» (Caviar); the song is not identified, so its title stays as printed"
+  },
+  {
+    "artist": "Mummy Troll",
+    "track": "Kicks",
+    "restore": {
+      "artist": "Мумий Тролль",
+      "album": "Морская"
+    },
+    "why": "FM Достоевский #30, from the XLS: the artist translated; MusicBrainz has Мумий Тролль’s 1997 album «Морская» (Marine); the song is not identified, so its title stays as printed"
+  },
+  {
+    "artist": "Mummy Troll",
+    "track": "Skip Away",
+    "restore": {
+      "artist": "Мумий Тролль"
+    },
+    "why": "FM Достоевский #16, from the XLS: the artist translated; the song is not identified, so its title stays as printed"
+  },
+  {
+    "artist": "Dva Samoliota",
+    "track": "As Long As Big Ben Stands",
+    "restore": {
+      "artist": "2ва самолёта",
+      "album": "Пчёлы и мёд"
+    },
+    "why": "FM Достоевский #24, from the XLS: the artist transliterated (MusicBrainz writes it «2ва самолёта»); MusicBrainz has their 1996 album «Пчёлы и мёд» (Bees & Honey); the song is not identified, so its title stays as printed"
+  },
+  {
+    "artist": "Daddooshki",
+    "track": "A Shumelo!",
+    "restore": {
+      "artist": "Deadушки"
+    },
+    "why": "FM Достоевский #23, from the XLS: the artist transliterated (MusicBrainz: Deadушки); the song is not identified, so its title stays as printed"
+  },
+  {
+    "artist": "Devushkin Son",
+    "track": "Doors To Savoy",
+    "restore": {
+      "artist": "Девушкин сон"
+    },
+    "why": "FM Достоевский #26, from the XLS: the artist transliterated; the song is not identified, so its title stays as printed"
+  },
+  {
+    "artist": "Devushkin Son",
+    "track": "Galadriel",
+    "restore": {
+      "artist": "Девушкин сон"
+    },
+    "why": "FM Достоевский #1, from the XLS: the artist transliterated (MusicBrainz: Девушкин сон)"
+  },
+  {
+    "artist": "Russian-Abyssinian Orchestra",
+    "track": "Bar-Do",
+    "restore": {
+      "artist": "Русско-абиссинский оркестр"
+    },
+    "why": "FM Достоевский #40, from the XLS: the artist translated (MusicBrainz: Русско-абиссинский оркестр); «Bar-do» is the band’s own title (MusicBrainz), so it stays"
+  },
+  {
+    "artist": "Obermaneken",
+    "track": "Mossad Agent-Girl",
+    "restore": {
+      "artist": "Оберманекен"
+    },
+    "why": "FM Достоевский #10, from the XLS: the artist transliterated (MusicBrainz: Оберманекен); «Mossad Agent-girl» is the band’s own title (MusicBrainz), so it stays"
+  },
+  {
+    "artist": "Ivan-Kaif",
+    "track": "Che Guevara’s Adventures",
+    "restore": {
+      "artist": "Иван-Кайф"
+    },
+    "why": "FM Достоевский #75, from the XLS: the artist transliterated (MusicBrainz: Иван-Кайф); the song is not identified, so its title stays as printed"
+  },
+  {
+    "artist": "Terem Quartet",
+    "track": "Winter Morning",
+    "restore": {
+      "artist": "Терем-квартет"
+    },
+    "why": "FM Достоевский #12, from the XLS: the artist translated (MusicBrainz: Терем-квартет); «Winter Morning» is the ensemble’s own title (MusicBrainz), so it stays"
+  }
+]

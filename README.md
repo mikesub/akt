@@ -56,7 +56,9 @@ is sometimes wrong; such a file is renumbered by hand, by date, with a `note:` l
 `programs/fmd/NOTES.md`): never edit them by hand.
 
 Each track is found on Apple Music (the link) and on MusicBrainz (the original release year);
-Discogs fills a year both leave out, and `overrides.json` fixes what none gets right. A year after
+Discogs fills a year both leave out, and `overrides.json` fixes what none gets right.
+`titles.json` restores names a playlist prints in another form, such as the XLS's Russian names in
+Latin letters, from the artist's own titles on MusicBrainz or elsewhere in the archive. A year after
 the episode aired (a reissue's) is ignored and the track looked up again. No genres: MusicBrainz's
 are CC BY-NC-SA, which would bind the data's license.
 
@@ -82,7 +84,7 @@ The playlists are compiled and written by Artemy Troitsky, for his programs; the
 publishers'. Neither license below covers them.
 
 - Code: [MIT](LICENSE).
-- Data (`docs/data/`, `overrides.json`): years and links found for those tracks, dedicated to
+- Data (`docs/data/`, `overrides.json`, `titles.json`): years and links found for those tracks, dedicated to
   the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Keep
   it that way: nothing under a license with conditions (MusicBrainz's genres and tags are
   CC BY-NC-SA) goes into it.

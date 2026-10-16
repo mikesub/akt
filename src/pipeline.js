@@ -7,6 +7,7 @@ import { findOnMusicBrainz, mbStats } from './musicbrainz.js';
 import { applyOverrides } from './overrides.js';
 import { parsePlaylist } from './parse.js';
 import { keyOf, readPlaylists } from './playlists.js';
+import { restoreTitle } from './titles.js';
 
 /**
  * One program's playlists to its data file: every new or edited playlist
@@ -73,6 +74,9 @@ function aired(episode, year) {
   const latest = Number(episode.published_at?.slice(0, 4)) || airedBy.get(episode.number) || 0;
   return year !== null && latest > 0 && year > latest ? null : year;
 }
+
+/** A track under its restored names (titles.json), then with its hand fixes (overrides.json). */
+const corrected = (track) => applyOverrides(shape(restoreTitle(track)));
 
 /** A track's fields in their stored order; each source's id is left out until that source has been asked. */
 const shape = ({ artist, track, album, apple_id, apple_album_id, apple_artist_id, mb_id, discogs_id, year }) => ({
@@ -190,7 +194,7 @@ export async function run(
     const episode = { ...fields, playlist_hash: before?.playlist_hash ?? null, tracks: null };
     // A track dated after its episode got a later release's year: looked up again, under `aired` below.
     episode.tracks =
-      before?.tracks?.map((t) => applyOverrides(aired(episode, t.year) === t.year ? t : { artist: t.artist, track: t.track, album: t.album, year: null })) ?? null;
+      before?.tracks?.map((t) => corrected(aired(episode, t.year) === t.year ? t : { artist: t.artist, track: t.track, album: t.album, year: null })) ?? null;
     return episode;
   });
 
@@ -205,7 +209,7 @@ export async function run(
         if (doubt) console.log(`${episode.number === null ? episode.published_at : `#${episode.number}`}: ${t.artist} — ${t.track}: was ${doubt}, searching again`);
         // The doubted song's link and the year it may have given; MusicBrainz is asked again anyway.
         const { apple_id, apple_album_id, apple_artist_id, ...unlinked } = t;
-        return applyOverrides(shape(forget(doubt ? { ...unlinked, year: null } : t, options)));
+        return corrected(shape(forget(doubt ? { ...unlinked, year: null } : t, options)));
       }) ?? null;
     }
   }
@@ -230,7 +234,7 @@ export async function run(
     for (const episode of toParse) {
       try {
         const tracks = await parse(textOf(episode));
-        episode.tracks = tracks.map((track) => applyOverrides(shape(track)));
+        episode.tracks = tracks.map((track) => corrected(shape(track)));
         episode.playlist_hash = hash(textOf(episode));
         save(episodes);
         console.log(`${nameOf(episode)}: ${tracks.length} tracks`);
