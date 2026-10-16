@@ -180,6 +180,10 @@
     #rows td:nth-child(6) { grid-area: episode; text-align: right; font-size: 13px; padding-left: 12px; }
   }
   footer { margin: 24px 0 8px; font-size: 12px; color: var(--muted); }
+  /* Until the data is in: the title, a line in the middle of the screen, the footer; nothing empty in between. */
+  #loading { display: none; }
+  body.loading #loading { display: block; margin: 0; padding: 30vh 0; text-align: center; font-size: 20px; color: var(--muted); }
+  body.loading :is(.archive, .programs, .facet, .search, .count, .status, .table-wrap, #more) { display: none; }
   /* Back to the top, once the page is scrolled past its first screen. */
   #to-top {
     position: fixed; top: 12px; right: 16px; z-index: 1;
@@ -191,7 +195,7 @@
   @media (prefers-reduced-motion: reduce) { #to-top { transition: none; } }
 </style>
 </head>
-<body>
+<body class="loading">
 <header>
   <h1>Музыка из программ А.&nbsp;К.&nbsp;Троицкого</h1>
 </header>
@@ -204,7 +208,7 @@
   <p class="contact">Нашли ошибку или хотите помочь? Пишите на <a href="mailto:akt@mksb.me">akt@mksb.me</a></p>
 </details>
 
-<p class="summary" id="loading">Загрузка…</p>
+<p id="loading">Подгрузка списка композиций…</p>
 <div class="programs"><!-- a row per program, from PROGRAMS --></div>
 
 <div class="facet" id="decade">
@@ -331,7 +335,6 @@
     }
   };
   const data = Object.fromEntries(await Promise.all(PROGRAMS.map(async ({ id }) => [id, await load(`data/${id}.json`)])));
-  document.getElementById('loading').remove();
 
   /**
    * Every track of one program's episodes, tagged with its program and its
@@ -912,6 +915,7 @@
   });
 
   render();
+  document.body.classList.remove('loading');
   ready = true;
 </script>
 </body>
