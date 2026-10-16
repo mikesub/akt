@@ -1,5 +1,5 @@
 import { get } from './http.js';
-import { credited, main, nearTitles, plain, sameAlbum, sameArtist, sameTitle } from './match.js';
+import { credited, main, nearTitles, plain, sameAlbum, sameArtist, sameTitle, searchable } from './match.js';
 
 /**
  * The year of a track Apple Music and MusicBrainz leave without one, from
@@ -22,7 +22,7 @@ const NOT_FOUND = { discogs_id: null, year: null };
 export const discogsStats = { track: 0, album: 0, missed: 0 };
 
 async function search(params) {
-  const query = new URLSearchParams({ ...params, type: 'release', per_page: '100' });
+  const query = new URLSearchParams({ ...searchable(params), type: 'release', per_page: '100' });
   return (await get(`${API}/database/search?${query}`))?.results ?? [];
 }
 

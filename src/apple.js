@@ -1,5 +1,5 @@
 import { get } from './http.js';
-import { bare, close, lead, main, nearTitles, plain, sameAlbum, sameArtist, sameTitle, squash } from './match.js';
+import { bare, close, lead, main, nearTitles, plain, sameAlbum, sameArtist, sameTitle, searchable, squash } from './match.js';
 
 /**
  * Apple Music ids through the public iTunes Search API (no key, no login,
@@ -29,7 +29,7 @@ const NOT_STUDIO = /\b(live|demo|edit|remix|mix|instrumental|acoustic|karaoke|se
 const isStudio = (r) => !NOT_STUDIO.test(r.trackName ?? '') && !/\blive\b/i.test(r.collectionName ?? '');
 
 async function itunes(path, params) {
-  const query = new URLSearchParams({ ...params, country: STORE, lang: LANG });
+  const query = new URLSearchParams({ ...searchable(params), country: STORE, lang: LANG });
   return (await get(`https://itunes.apple.com/${path}?${query}`))?.results ?? [];
 }
 

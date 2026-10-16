@@ -1,5 +1,5 @@
 import { get } from './http.js';
-import { close, credited, lead, main, nearTitles, plain, sameAlbum, sameArtist, sameTitle } from './match.js';
+import { close, credited, lead, main, nearTitles, plain, sameAlbum, sameArtist, sameTitle, searchable } from './match.js';
 
 /**
  * The original release year of a track from MusicBrainz (no key,
@@ -35,7 +35,7 @@ const NOT_STUDIO = /\b(live|demo|remix|rmx|karaoke|rehearsal|re-?recording|instr
 const NOT_STUDIO_TYPES = new Set(['Live', 'Demo', 'Remix', 'DJ-mix']);
 
 async function mb(path, params = {}) {
-  return get(`${API}/${path}?${new URLSearchParams({ ...params, fmt: 'json' })}`);
+  return get(`${API}/${path}?${new URLSearchParams({ ...searchable(params), fmt: 'json' })}`);
 }
 
 /** Lucene: a quoted phrase, and loose words with every special character escaped. */

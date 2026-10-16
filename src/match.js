@@ -11,13 +11,42 @@ const CYRILLIC = {
   ш: 'sh', щ: 'shch', ъ: '', ы: 'y', ь: '', э: 'e', ю: 'yu', я: 'ya', і: 'i', ї: 'yi', є: 'ye', ґ: 'g', ў: 'u',
 };
 
+/** Letters that look alike in the two scripts, each way. */
+const TO_LATIN = {
+  а: 'a', е: 'e', о: 'o', р: 'p', с: 'c', у: 'y', х: 'x', і: 'i', ј: 'j', ѕ: 's', г: 'r', п: 'n',
+  А: 'A', В: 'B', Е: 'E', К: 'K', М: 'M', Н: 'H', О: 'O', Р: 'P', С: 'C', Т: 'T', Х: 'X', І: 'I', Ј: 'J', Ѕ: 'S',
+};
+const TO_CYRILLIC = {
+  a: 'а', e: 'е', o: 'о', p: 'р', c: 'с', y: 'у', x: 'х', i: 'і', ï: 'ї',
+  A: 'А', B: 'В', E: 'Е', K: 'К', M: 'М', H: 'Н', O: 'О', P: 'Р', C: 'С', T: 'Т', X: 'Х', I: 'І', Ï: 'Ї',
+};
+
+/**
+ * Each word that mixes the two scripts in one: a Latin word with Cyrillic
+ * look-alikes («Мооn Safari», «Pour Cole Рortег», «Son оf») is written in
+ * Latin, a Cyrillic one with Latin look-alikes («Воплi Вiдоплясова»,
+ * «Украïни») in Cyrillic, whichever every letter allows; a word neither
+ * allows («Deadушки», «Zубкерман») stays as it is.
+ */
+export function unmixed(text) {
+  return text.replace(/[\p{L}'’`]+/gu, (word) => {
+    const cyrillic = [...word].filter((c) => /\p{Script=Cyrillic}/u.test(c));
+    const latin = [...word].filter((c) => /\p{Script=Latin}/u.test(c));
+    if (!cyrillic.length || !latin.length) return word;
+    const swap = (table) => [...word].map((c) => table[c] ?? c).join('');
+    if (cyrillic.every((c) => c in TO_LATIN)) return swap(TO_LATIN);
+    if (latin.every((c) => c in TO_CYRILLIC)) return swap(TO_CYRILLIC);
+    return word;
+  });
+}
+
 /**
  * Lowercase Latin letters and digits only: Cyrillic transliterated (the Dutch
  * store lists Звуки Му as Zvuki Mu), "&" read as "and", accents, punctuation
  * and a bracketed or "- Remastered"-style suffix dropped.
  */
 export function plain(text) {
-  return [...(text ?? '').toLowerCase()]
+  return [...unmixed(text ?? '').toLowerCase()]
     .map((c) => CYRILLIC[c] ?? c)
     .join('')
     .normalize('NFKD')
@@ -28,6 +57,15 @@ export function plain(text) {
     .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .trim();
 }
+
+/**
+ * A request's parameters as a source is searched for them: a backtick read
+ * as the apostrophe it stands for (FM Достоевский's playlists print «Don`t»),
+ * which the sources' searches do not take for one, and each word in one
+ * script (see unmixed).
+ */
+export const searchable = (params) =>
+  Object.fromEntries(Object.entries(params).map(([key, value]) => [key, unmixed(String(value)).replaceAll('`', "'")]));
 
 /** The credit without its guests: "A ft B" is A. */
 export const main = (artist) => (artist ?? '').split(/\s+(?:ft\.?|feat\.?|featuring)\s+/i)[0].trim();
