@@ -614,5 +614,54 @@
       "track": "Пистолет (Dying ... Is EASY mix)"
     },
     "why": "FM Достоевский #44, from the XLS: translated; the owner (who knows the program’s Russian repertoire) confirmed it: «Пистолет»; MusicBrainz has Tequilajazzz’s recording «Пистолет (Dying ... Is EASY mix)», from «Virus Versus Virus» (1997)"
+  },
+  {
+    "artist": "Posledny Shans",
+    "track": "Little Cat & Little Rat",
+    "restore": {
+      "artist": "Последний Шанс",
+      "track": "Кисуня И Крысуня",
+      "album": "Кисуня И Крысуня"
+    },
+    "why": "FM Достоевский #4, from the XLS: translated; the owner pointed to Последний Шанс’s 1996 album «Кисуня И Крысуня» (SoLyd, discogs.com/release/2814002), whose title track it is"
+  },
+  {
+    "artist": "Posledny Shans",
+    "track": "Piggy In The Clouds",
+    "restore": {
+      "artist": "Последний Шанс",
+      "track": "Свинка В Облаках",
+      "album": "Кисуня И Крысуня"
+    },
+    "why": "FM Достоевский #4, from the XLS: translated; the owner pointed to Последний Шанс’s 1996 album «Кисуня И Крысуня» (SoLyd, discogs.com/release/2814002), track 23 «Свинка В Облаках»"
+  },
+  {
+    "artist": "Posledny Shans",
+    "track": "Coffee Shop",
+    "restore": {
+      "artist": "Последний Шанс",
+      "track": "Кофейня",
+      "album": "А За Углом - Кофейня..."
+    },
+    "why": "FM Достоевский #4, from the XLS: translated; Последний Шанс’s 1996 album «А За Углом - Кофейня...» (Solyd, discogs.com/release/5207603), track 12 «Кофейня»"
+  },
+  {
+    "artist": "Posledny Shans",
+    "track": "Samovar Ivan Ivanych",
+    "restore": {
+      "artist": "Последний Шанс",
+      "track": "Самовар",
+      "album": "А За Углом - Кофейня..."
+    },
+    "why": "FM Достоевский #4, from the XLS: transliterated; Последний Шанс’s 1996 album «А За Углом - Кофейня...» (Solyd, discogs.com/release/5207603), track 16 «Самовар» (the XLS adds «Ivan Ivanych», no title on the release)"
+  },
+  {
+    "artist": "Posledny Shans",
+    "track": "Song About Vania",
+    "restore": {
+      "artist": "Последний Шанс",
+      "track": "Vanya’s Song (Однажды Под Пасху...)"
+    },
+    "why": "FM Достоевский #4, from the XLS: translated; Последний Шанс’s 1993 album «Unknown Bather» (Cue Sound Service, discogs.com/release/4604009) prints its titles in both languages, track 6 «Vanya's Song (Однажды Под Пасху...)»"
   }
 ]
