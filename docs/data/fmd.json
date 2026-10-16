@@ -14749,7 +14749,9 @@
         "track": "ready to fall",
         "album": "fall of spring",
         "printed_country": "europe",
-        "country": null,
+        "country": [
+          "EU"
+        ],
         "apple_id": 363997672,
         "apple_album_id": 363997117,
         "apple_artist_id": 276995227,
@@ -14761,7 +14763,9 @@
         "track": "wondrous ways",
         "album": "fall of spring",
         "printed_country": "europe",
-        "country": null,
+        "country": [
+          "EU"
+        ],
         "apple_id": 363998005,
         "apple_album_id": 363997117,
         "apple_artist_id": 276995227,
@@ -108355,7 +108359,9 @@
         "track": "in the pale blue moolight",
         "album": "the men from o.r.g.a.n.",
         "printed_country": "eu",
-        "country": null,
+        "country": [
+          "EU"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -129485,7 +129491,8 @@
         "album": "Incwadi Yothando",
         "printed_country": "South Africa/Europe",
         "country": [
-          "ZA"
+          "ZA",
+          "EU"
         ],
         "apple_id": null,
         "mb_id": null,
@@ -140963,7 +140970,9 @@
         "track": "Cocker Fascination Act",
         "album": "Una Producion Pop",
         "printed_country": "Europe",
-        "country": null,
+        "country": [
+          "EU"
+        ],
         "apple_id": null,
         "mb_id": "d9ef412c-5f8b-4144-8558-f0ef7a147fc1",
         "year": 1998
@@ -162740,7 +162749,9 @@
         "track": "April's Song",
         "album": "Stained Glass Soma Fountains",
         "printed_country": "Europe",
-        "country": null,
+        "country": [
+          "EU"
+        ],
         "apple_id": 156140798,
         "apple_album_id": null,
         "apple_artist_id": 6562709,
@@ -162752,7 +162763,9 @@
         "track": "A Message From Our Sponsor",
         "album": "Stained Glass Soma Fountains",
         "printed_country": "Europe",
-        "country": null,
+        "country": [
+          "EU"
+        ],
         "apple_id": 78372763,
         "apple_album_id": null,
         "apple_artist_id": 6562709,
@@ -162764,7 +162777,9 @@
         "track": "Harvest Babies",
         "album": "Hallway Of The Gods",
         "printed_country": "Europe",
-        "country": null,
+        "country": [
+          "EU"
+        ],
         "apple_id": 211814585,
         "apple_album_id": 211814511,
         "apple_artist_id": 6562709,
@@ -162776,7 +162791,9 @@
         "track": "Destined To Repeat",
         "album": "Hallway Of The Gods",
         "printed_country": "Europe",
-        "country": null,
+        "country": [
+          "EU"
+        ],
         "apple_id": 211814593,
         "apple_album_id": 211814511,
         "apple_artist_id": 6562709,

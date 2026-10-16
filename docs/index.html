@@ -269,7 +269,7 @@
    * the codes it names wrongly or not at all; a former state shows its successor's flag, Northern
    * Ireland the Union flag, Wales its own.
    */
-  const COUNTRY_NAMES = { SU: 'СССР', CS: 'Чехословакия', YU: 'Югославия', DD: 'ГДР', VD: 'Южный Вьетнам', 'GB-WLS': 'Уэльс', 'GB-NIR': 'Северная Ирландия' };
+  const COUNTRY_NAMES = { EU: 'Европа', SU: 'СССР', CS: 'Чехословакия', YU: 'Югославия', DD: 'ГДР', VD: 'Южный Вьетнам', 'GB-WLS': 'Уэльс', 'GB-NIR': 'Северная Ирландия' };
   const FLAG_OF = { SU: 'RU', CS: 'CZ', YU: 'RS', DD: 'DE', VD: 'VN', 'GB-NIR': 'GB' };
   const regionNames = new Intl.DisplayNames('ru', { type: 'region' });
   const countryName = (code) => {
@@ -295,6 +295,26 @@
     GB: 'Великобритания/Северная Ирландия',
   };
   const chipName = (chip) => CHIP_NAMES[chip] ?? countryName(chip);
+  /**
+   * 🇪🇺 «Европа», first among the chips: every European country at once, beside each one's own chip
+   * (picked with one, it shows both, as any two chips do). Europe as the UN's regions (M49) have it,
+   * Russia in, Turkey, Cyprus and the Caucasus out; plus the former states, Kosovo, the UK's nations,
+   * and a playlist's own "Europe" (EU).
+   */
+  const EUROPE = new Set([
+    'BY', 'BG', 'CZ', 'HU', 'MD', 'PL', 'RO', 'RU', 'SK', 'UA',
+    'AX', 'DK', 'EE', 'FO', 'FI', 'GG', 'IS', 'IE', 'IM', 'JE', 'LV', 'LT', 'NO', 'SJ', 'SE', 'GB',
+    'AL', 'AD', 'BA', 'HR', 'GI', 'GR', 'VA', 'IT', 'MT', 'ME', 'MK', 'PT', 'SM', 'RS', 'SI', 'ES',
+    'AT', 'BE', 'FR', 'DE', 'LI', 'LU', 'MC', 'NL', 'CH',
+    'GB-WLS', 'GB-NIR', 'SU', 'CS', 'YU', 'DD', 'XK', 'EU',
+  ]);
+  /** A track's chips: one per flag, and Europe's when one of its countries is European. */
+  const chipsOf = (codes) => {
+    if (!codes?.length) return [NO_COUNTRY];
+    const chips = new Set(codes.map(chipOf));
+    if (codes.some((code) => EUROPE.has(code))) chips.add('EU');
+    return [...chips];
+  };
   /** Where a country not printed in the playlist comes from, for its flag's hover text. */
   const COUNTRY_FROM = { archive: 'по другим выпускам', musicbrainz: 'по данным MusicBrainz' };
 
@@ -349,7 +369,7 @@
         episode_url: episode.url ?? episode.mp3_url ?? null,
         decade: track.year ? `${Math.floor(track.year / 10) * 10}-е` : UNKNOWN,
         countries: track.country?.length ? track.country : [NO_COUNTRY],
-        countryChips: track.country?.length ? [...new Set(track.country.map(chipOf))] : [NO_COUNTRY],
+        countryChips: chipsOf(track.country),
       }));
     });
   const rows = PROGRAMS.flatMap(({ id }) => tracksOf(data[id], id));
@@ -491,7 +511,7 @@
     const direction = running ? -1 : 1;
     return (a, b) => direction * ((dates.get(a.name) ?? '').localeCompare(dates.get(b.name) ?? '') || collator.compare(a.name, b.name));
   };
-  // Countries go by how many tracks the whole archive has from each, so the chips keep their places; none last.
+  // Countries go by how many tracks the whole archive has from each, so the chips keep their places; Europe first, none last.
   const countryTotals = new Map();
   for (const row of rows) for (const chip of row.countryChips) countryTotals.set(chip, (countryTotals.get(chip) ?? 0) + 1);
   const facets = {
@@ -499,7 +519,8 @@
     country: {
       multi: true,
       values: (row) => row.countryChips,
-      order: (a, b) => (a.name === NO_COUNTRY) - (b.name === NO_COUNTRY) || countryTotals.get(b.name) - countryTotals.get(a.name),
+      order: (a, b) =>
+        (b.name === 'EU') - (a.name === 'EU') || (a.name === NO_COUNTRY) - (b.name === NO_COUNTRY) || countryTotals.get(b.name) - countryTotals.get(a.name),
     },
     ...Object.fromEntries(
       PROGRAMS.map(({ id, running }) => [

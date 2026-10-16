@@ -9,6 +9,8 @@ Routine updates (a new Стереоплан episode, a single fix) are not liste
 
 ## 2026-10-16
 
+- `country` can hold `EU` (ISO 3166-1's reserved code), for a playlist's own "Europe" or "EU": 8 tracks
+  in `fmd.json`, `null` before.
 - **Format:** three new track fields, after `album`:
   - `printed_country`: the artist's country as the playlist prints it, `"UK/USA"`, `"РФ"`, `"czech rep."`;
     `null` when it prints none.
