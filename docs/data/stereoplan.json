@@ -4109,7 +4109,10 @@
         "track": "My Flickering Gift to You",
         "album": "Disiniblud",
         "printed_country": null,
-        "country": null,
+        "country": [
+          "US"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1800324656,
         "apple_album_id": 1800324434,
         "apple_artist_id": null,
@@ -4135,7 +4138,11 @@
         "track": "Latir",
         "album": "Reflejos",
         "printed_country": null,
-        "country": null,
+        "country": [
+          "AR",
+          "DE"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1854918125,
         "apple_album_id": 1854917777,
         "apple_artist_id": null,
@@ -13744,7 +13751,10 @@
         "track": "Kinky Love",
         "album": "Dreams",
         "printed_country": null,
-        "country": null,
+        "country": [
+          "GB"
+        ],
+        "country_from": "archive",
         "apple_id": 1641159507,
         "apple_album_id": 1641159505,
         "apple_artist_id": 32404339,
@@ -13757,6 +13767,7 @@
         "album": "Junkshop Melodies",
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -13767,7 +13778,10 @@
         "track": "When I’m in Love",
         "album": "Winter Warmers",
         "printed_country": null,
-        "country": null,
+        "country": [
+          "GB"
+        ],
+        "country_from": "archive",
         "apple_id": null,
         "mb_id": "d763409e-caa9-4c47-951a-40bb354ed892",
         "year": 2023
@@ -13777,7 +13791,10 @@
         "track": "Requiem for Crow",
         "album": "Songs for Crow",
         "printed_country": null,
-        "country": null,
+        "country": [
+          "GB"
+        ],
+        "country_from": "archive",
         "apple_id": null,
         "mb_id": "a0f6c05e-9bda-468c-8d58-6364f883afed",
         "year": 2024
@@ -13787,7 +13804,10 @@
         "track": "Summertime",
         "album": "Cheap Thrills",
         "printed_country": null,
-        "country": null,
+        "country": [
+          "US"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 203773955,
         "apple_album_id": 203773381,
         "apple_artist_id": null,

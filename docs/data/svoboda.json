@@ -42649,7 +42649,10 @@
         "track": "Drogenzug",
         "album": "Koenig der Moewen",
         "printed_country": null,
-        "country": null,
+        "country": [
+          "DE"
+        ],
+        "country_from": "archive",
         "apple_id": 1395430378,
         "apple_album_id": 1395430205,
         "apple_artist_id": null,
@@ -61384,7 +61387,10 @@
         "track": "We No Who U R",
         "album": "Lovely Creatures",
         "printed_country": null,
-        "country": null,
+        "country": [
+          "AU"
+        ],
+        "country_from": "archive",
         "apple_id": 1439673299,
         "apple_album_id": 1439673197,
         "apple_artist_id": 1698460,
@@ -69518,7 +69524,10 @@
         "track": "Я расскажу вам про страну",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "archive",
         "apple_id": 1718188358,
         "apple_album_id": null,
         "apple_artist_id": 658212865,
@@ -69530,7 +69539,10 @@
         "track": "Марш Обречённых (Гойда, орки!)",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -69541,7 +69553,10 @@
         "track": "Страна дождей",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "archive",
         "apple_id": 1652323474,
         "apple_album_id": null,
         "apple_artist_id": 292138099,
@@ -69553,7 +69568,10 @@
         "track": "Никто не пострадал",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1799079687,
         "apple_album_id": null,
         "apple_artist_id": 292138099,
@@ -69567,6 +69585,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -69577,7 +69596,10 @@
         "track": "Не ходи на площадь, не ходи!",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "archive",
         "apple_id": 1652855648,
         "apple_album_id": null,
         "apple_artist_id": 1083524133,
@@ -69589,7 +69611,10 @@
         "track": "Из нашего окна",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1649966089,
         "apple_album_id": null,
         "apple_artist_id": 1245686618,
@@ -69601,7 +69626,10 @@
         "track": "Безвременье",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1819580729,
         "apple_album_id": null,
         "apple_artist_id": 377379426,
@@ -69613,7 +69641,10 @@
         "track": "Как это, бл***, возможно?!",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1819580732,
         "apple_album_id": null,
         "apple_artist_id": 377379426,
@@ -69626,6 +69657,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -69637,6 +69669,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -69647,7 +69680,10 @@
         "track": "Лебединое озеро",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "archive",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -69658,7 +69694,10 @@
         "track": "Украина",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1627065494,
         "apple_album_id": null,
         "apple_artist_id": 583750231,
@@ -69889,7 +69928,10 @@
         "track": "То, что я должен сказать",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "archive",
         "apple_id": 1585066393,
         "apple_album_id": null,
         "apple_artist_id": null,
@@ -69901,7 +69943,10 @@
         "track": "Голос Земли",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "SU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1642705340,
         "apple_album_id": null,
         "apple_artist_id": 1453872087,
@@ -69913,7 +69958,10 @@
         "track": "Тот, который не стрелял",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "SU"
+        ],
+        "country_from": "archive",
         "apple_id": 1743496240,
         "apple_album_id": null,
         "apple_artist_id": 79218585,
@@ -69925,7 +69973,10 @@
         "track": "Песня из к/ф \"Бумбараш\"",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "SU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -69936,7 +69987,10 @@
         "track": "Не стреляй!",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1739768314,
         "apple_album_id": null,
         "apple_artist_id": null,
@@ -69948,7 +70002,10 @@
         "track": "Подвиг разведчика",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "SU"
+        ],
+        "country_from": "archive",
         "apple_id": 1437650848,
         "apple_album_id": null,
         "apple_artist_id": 1437650834,
@@ -69960,7 +70017,10 @@
         "track": "Безъядерная зона",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 36723727,
@@ -69971,7 +70031,11 @@
         "track": "То, что я должен сказать",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU",
+          "GB"
+        ],
+        "country_from": "archive",
         "apple_id": null,
         "mb_id": "5dd79606-e38d-4e91-a0d2-7335cd507856",
         "year": 1993
@@ -69981,7 +70045,10 @@
         "track": "Мы уходим…",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "SU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": "6ffde2a0-e14b-4da4-8648-285fa49bd844",
         "year": 1988
@@ -69991,7 +70058,10 @@
         "track": "Моя Чечня",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 3616022,
@@ -70003,6 +70073,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -70013,7 +70084,11 @@
         "track": "Остановите войну!",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "KZ",
+          "RU"
+        ],
+        "country_from": "archive",
         "apple_id": 1099206374,
         "apple_album_id": null,
         "apple_artist_id": 586585814,
@@ -70025,7 +70100,10 @@
         "track": "Моя страна ушла на войну",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "archive",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -70037,6 +70115,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -70047,7 +70126,10 @@
         "track": "744",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "archive",
         "apple_id": 1834478506,
         "apple_album_id": null,
         "apple_artist_id": 1050708302,
@@ -70068,7 +70150,10 @@
         "track": "Give Peace a Chance",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "GB"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 721283091,
         "apple_album_id": null,
         "apple_artist_id": null,
@@ -70080,7 +70165,10 @@
         "track": "What Have They Done to the Rain",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "US"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 118427081,
         "apple_album_id": null,
         "apple_artist_id": 1365062,
@@ -70092,7 +70180,10 @@
         "track": "Хотят ли русские войны",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "SU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 912790315,
         "apple_album_id": null,
         "apple_artist_id": 729159111,
@@ -70104,7 +70195,10 @@
         "track": "Masters of War",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "US"
+        ],
+        "country_from": "archive",
         "apple_id": 717447553,
         "apple_album_id": null,
         "apple_artist_id": 462006,
@@ -70116,7 +70210,10 @@
         "track": "Eve of destruction",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "US"
+        ],
+        "country_from": "archive",
         "apple_id": 1442439941,
         "apple_album_id": null,
         "apple_artist_id": 1398841,
@@ -70128,7 +70225,10 @@
         "track": "Fortunate Son",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "US"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1440956152,
         "apple_album_id": null,
         "apple_artist_id": 2083606,
@@ -70140,7 +70240,10 @@
         "track": "Unknown Soldier",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "US"
+        ],
+        "country_from": "archive",
         "apple_id": 1401556096,
         "apple_album_id": null,
         "apple_artist_id": 1248588,
@@ -70152,7 +70255,11 @@
         "track": "Pisen neznameho vojina",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "CS",
+          "CZ"
+        ],
+        "country_from": "archive",
         "apple_id": 1380697246,
         "apple_album_id": null,
         "apple_artist_id": 287266332,
@@ -70164,7 +70271,10 @@
         "track": "War",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "US"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1444049092,
         "apple_album_id": null,
         "apple_artist_id": 410266,
@@ -70176,7 +70286,10 @@
         "track": "War Pigs",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "GB"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1439958671,
         "apple_album_id": null,
         "apple_artist_id": 165907,
@@ -70188,7 +70301,10 @@
         "track": "Shipbuilding",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "GB"
+        ],
+        "country_from": "archive",
         "apple_id": 293741038,
         "apple_album_id": null,
         "apple_artist_id": 5618169,
@@ -70200,7 +70316,10 @@
         "track": "Zombie",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "IE"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1440735264,
         "apple_album_id": null,
         "apple_artist_id": 122615,
@@ -70212,7 +70331,11 @@
         "track": "Manhattan – Kaboul",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "FR",
+          "BE"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1449625251,
         "apple_album_id": null,
         "apple_artist_id": null,
@@ -70224,7 +70347,10 @@
         "track": "Russians",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "GB"
+        ],
+        "country_from": "archive",
         "apple_id": 1440922956,
         "apple_album_id": null,
         "apple_artist_id": 94804,
@@ -70236,7 +70362,10 @@
         "track": "War",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "JM"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1452860229,
         "apple_album_id": null,
         "apple_artist_id": 3174628,
@@ -70258,6 +70387,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -70269,6 +70399,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -70280,6 +70411,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "year": 2018
@@ -70290,6 +70422,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": "d3869ea3-5693-46ce-b645-f2816ee26ce5",
         "year": 2012
@@ -70299,7 +70432,10 @@
         "track": "Тихо прийшов, тихо пiшов",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "UA"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1671849831,
         "apple_album_id": null,
         "apple_artist_id": 252191486,
@@ -70312,6 +70448,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": 1614320673,
         "apple_album_id": null,
         "apple_artist_id": 989965127,
@@ -70323,7 +70460,10 @@
         "track": "Я не хочу",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "UA"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1714475495,
         "apple_album_id": null,
         "apple_artist_id": 722153061,
@@ -70335,7 +70475,10 @@
         "track": "Подай зброю",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "UA"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1714634831,
         "apple_album_id": null,
         "apple_artist_id": 623951344,
@@ -70347,7 +70490,10 @@
         "track": "Пташечка",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "UA"
+        ],
+        "country_from": "archive",
         "apple_id": 1725488328,
         "apple_album_id": null,
         "apple_artist_id": 924243294,
@@ -70360,6 +70506,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -70370,7 +70517,10 @@
         "track": "Червона калина",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "UA"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1622177553,
         "apple_album_id": null,
         "apple_artist_id": 1040180885,
@@ -70383,6 +70533,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": 1679657595,
         "apple_album_id": null,
         "apple_artist_id": 953419108,
@@ -70394,7 +70545,11 @@
         "track": "TerOborona",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "US",
+          "UA"
+        ],
+        "country_from": "archive",
         "apple_id": 1852758180,
         "apple_album_id": null,
         "apple_artist_id": 6808996,
@@ -70407,6 +70562,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "year": 2021
@@ -70417,6 +70573,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -70427,7 +70584,10 @@
         "track": "Шо ви браття",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "UA"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1613356666,
         "apple_album_id": null,
         "apple_artist_id": 1613347784,
@@ -70440,6 +70600,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": 1638164039,
         "apple_album_id": null,
         "apple_artist_id": null,
@@ -70451,7 +70612,10 @@
         "track": "ПНХ",
         "album": null,
         "printed_country": null,
-        "country": null,
+        "country": [
+          "UA"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1613734838,
         "apple_album_id": null,
         "apple_artist_id": 1602298103,

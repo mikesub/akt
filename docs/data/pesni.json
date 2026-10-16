@@ -1837,6 +1837,7 @@
         "album": "Venezuela 70: Cosmic visions of a Latin American Earth",
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -11885,6 +11886,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": "b0badac9-27bd-4d8b-a168-0528a7031fc7",
         "year": 2012
@@ -11895,6 +11897,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -11906,6 +11909,7 @@
         "album": null,
         "printed_country": null,
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": "13354584-1676-4ab9-812b-ca938c01b682",
         "year": 2010

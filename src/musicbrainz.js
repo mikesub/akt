@@ -234,3 +234,60 @@ export async function findOnMusicBrainz(track) {
     year: years.length > 0 ? Math.min(...years) : null,
   };
 }
+
+/**
+ * MusicBrainz's country codes that are not ours (countries.json): its own
+ * codes for Czechoslovakia and East Germany, and its Serbia and Montenegro
+ * (CS, which is our Czechoslovakia), Worldwide, Europe and unknown, which
+ * name no one country.
+ */
+const MB_CODES = { XC: 'CS', XG: 'DD', CS: null, XW: null, XE: null, XU: null };
+
+const countries = new Map();
+
+/** An artist's country code, by id, asked once per run: its country, else its area's (a subdivision's, GB-ENG → GB). */
+async function artistCountry(id) {
+  if (!countries.has(id)) {
+    const artist = await mb(`artist/${id}`);
+    const area = artist?.area?.['iso-3166-1-codes']?.[0] ?? artist?.area?.['iso-3166-2-codes']?.[0]?.slice(0, 2) ?? null;
+    const code = artist?.country ?? area;
+    countries.set(id, code && code in MB_CODES ? MB_CODES[code] : code);
+  }
+  return countries.get(id);
+}
+
+/** How each country lookup ended, for the run's summary line. */
+export const mbCountryStats = { recording: 0, name: 0, missed: 0 };
+
+/**
+ * A track's artist country codes from MusicBrainz (CC0), for a track whose
+ * playlist prints none: each credited artist's, in credit order, through the
+ * recording already found (mb_id); else the artist found by name, only when
+ * exactly one artist has that name or alias. [] when nothing is certain.
+ */
+export async function findArtistCountry(track) {
+  let ids = [];
+  if (track.mb_id) {
+    const recording = await mb(`recording/${track.mb_id}`, { inc: 'artists' });
+    if (recording && hostArtist(track.artist ?? '', recording)) ids = (recording['artist-credit'] ?? []).map((c) => c.artist?.id).filter(Boolean);
+  }
+  let via = 'recording';
+  if (ids.length === 0 && track.artist) {
+    via = 'name';
+    for (const name of credited(main(track.artist)).map((n) => n.trim()).filter(Boolean)) {
+      const found = await findArtists(name);
+      if (found.length !== 1) {
+        ids = [];
+        break;
+      }
+      ids.push(found[0]);
+    }
+  }
+  const codes = [];
+  for (const id of ids) {
+    const code = await artistCountry(id);
+    if (code && !codes.includes(code)) codes.push(code);
+  }
+  mbCountryStats[codes.length > 0 ? via : 'missed']++;
+  return codes;
+}

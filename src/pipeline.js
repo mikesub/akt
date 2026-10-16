@@ -90,23 +90,31 @@ function aired(episode, year) {
 /** A track with the codes of the country its playlist prints (countries.json), under its restored names (titles.json), then with its hand fixes (overrides.json). */
 export const corrected = (track) => applyOverrides(shape(restoreTitle(coded(track))));
 
-/** A track's country codes, from its printed country whenever it has one, the table having maybe changed since. */
-const coded = (track) =>
-  track.printed_country === undefined ? track : { ...track, country: track.printed_country ? countryCodes(track.printed_country) : (track.country ?? null) };
+/**
+ * A track's country codes, from its printed country whenever it has one, the
+ * table having maybe changed since; else as bin/countries.js inferred them
+ * (`country_from`: the same artist elsewhere in the archive, or MusicBrainz).
+ */
+const coded = (track) => {
+  if (track.printed_country === undefined) return track;
+  if (track.printed_country) return { ...track, country: countryCodes(track.printed_country), country_from: undefined };
+  return { ...track, country: track.country ?? null };
+};
 
 /** What the parse gives a track: its names and its printed country, with that country's codes. */
-const parsed = ({ artist, track, album, printed_country, country }) => ({ artist, track, album, printed_country, country });
+const parsed = ({ artist, track, album, printed_country, country, country_from }) => ({ artist, track, album, printed_country, country, country_from });
 
 /**
  * A track's fields in their stored order; each source's id is left out until
  * that source has been asked, and the country until the playlist was read
  * for it (bin/countries.js for tracks parsed before the parse read it).
  */
-const shape = ({ artist, track, album, printed_country, country, apple_id, apple_album_id, apple_artist_id, mb_id, discogs_id, year }) => ({
+const shape = ({ artist, track, album, printed_country, country, country_from, apple_id, apple_album_id, apple_artist_id, mb_id, discogs_id, year }) => ({
   artist,
   track,
   album,
   ...(printed_country !== undefined && { printed_country, country: country ?? null }),
+  ...(country_from !== undefined && { country_from }),
   ...(apple_id !== undefined && { apple_id }),
   ...(apple_album_id !== undefined && { apple_album_id }),
   ...(apple_artist_id !== undefined && { apple_artist_id }),

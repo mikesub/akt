@@ -47,7 +47,8 @@ node bin/svoboda.js           # the same run as node bin/playlists.js svoboda
 ```
 
 `node bin/countries.js` reads with `claude` the country each playlist prints for tracks parsed
-before the parse read it, and codes every printed country from `countries.json` (`--recode` asks nothing).
+before the parse read it, and codes every printed country from `countries.json` (`--recode` asks nothing). A track whose playlist prints none
+gets its artist's country from elsewhere in the archive, else (`--musicbrainz`) from MusicBrainz.
 
 Both take the same options. Run one program at a time: the lookups are paced per process
 (`--parse-only` makes no requests, so it can run beside another). A run is resumable: interrupted,
