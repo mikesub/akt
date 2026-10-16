@@ -722,5 +722,15 @@
       "album": "Скит"
     },
     "why": "FM Достоевский #39, from the XLS: transliterated; the owner pointed to Скит’s 1997 album «Скит» (Alba, discogs.com/release/6819266), track 3 «Вереск»"
+  },
+  {
+    "artist": "Biosintez",
+    "track": "The Contest (edit)",
+    "restore": {
+      "artist": "Биосинтез",
+      "track": "Противоборство",
+      "album": "Божество"
+    },
+    "why": "FM Достоевский #27, from the XLS: translated; the owner pointed to Биосинтез’s 1996 album «Божество» (Deity; SoLyd, discogs.com/release/6283638) and, probably, its last track, «Противоборство» (6:26; the XLS notes an edit)"
   }
 ]
