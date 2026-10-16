@@ -790,5 +790,15 @@
       "album": "Балалайка In Rock"
     },
     "why": "FM Достоевский #41, from the XLS: the artist transliterated; the owner pointed to Белый День’s 1996 album «Балалайка In Rock» (discogs.com/master/1070750), whose track 6 is «ABBA», as printed"
+  },
+  {
+    "artist": "Waves Of Amour",
+    "track": "He Fell In Love",
+    "restore": {
+      "artist": "Амурские Волны",
+      "track": "Он влюбился",
+      "album": "Вечером"
+    },
+    "why": "FM Достоевский #68, from the XLS: translated; the owner pointed to Амурские Волны’s 1997 album «Вечером» (In The Evening, discogs.com/master/1746724), track 5 «Он влюбился»"
   }
 ]
