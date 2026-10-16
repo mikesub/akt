@@ -830,5 +830,94 @@
       "album": "Ты и Двое Молодых"
     },
     "why": "FM Достоевский #603, from fmd.soyuz.ru: transliterated; the owner pointed to 4 Позиции Бруно’s 2008 album «Ты и Двое Молодых» (discogs.com/master/756773), whose tracks 10–12 these are, played together"
+  },
+  {
+    "artist": "netslov",
+    "track": "tishina",
+    "restore": {
+      "artist": "Netslov",
+      "track": "Tishina",
+      "album": "Все Свободны"
+    },
+    "why": "FM Достоевский #446, from fmd.soyuz.ru: the owner pointed to Netslov’s 2005 album «Все Свободны» (discogs.com/master/1157931), which prints the band and its songs in Latin, track 4 «Tishina»"
+  },
+  {
+    "artist": "nikolay kopernik",
+    "track": "dymki",
+    "restore": {
+      "artist": "Николай Коперник",
+      "track": "Дымки",
+      "album": "Родина"
+    },
+    "why": "FM Достоевский #454, from fmd.soyuz.ru: transliterated; the owner pointed to Николай Коперник’s 2005 album «Родина» (discogs.com/release/1117845), track 3 «Дымки»"
+  },
+  {
+    "artist": "nezhnoye eto",
+    "track": "pistolet odinochestva",
+    "restore": {
+      "artist": "Нежное Это",
+      "track": "Пистолет Одиночества",
+      "album": "Совершенный Пустяк"
+    },
+    "why": "FM Достоевский #441, from fmd.soyuz.ru: transliterated; the owner pointed to Нежное Это’s 2005 album «Совершенный Пустяк» (discogs.com/release/2421295), track 11 «Пистолет Одиночества»"
+  },
+  {
+    "artist": "alyosha paltsev",
+    "track": "v chas kogda...",
+    "restore": {
+      "artist": "Алеша Пальцевъ",
+      "track": "В Час Когда",
+      "album": "Артисть"
+    },
+    "why": "FM Достоевский #438, from fmd.soyuz.ru: transliterated; the owner pointed to Алеша Пальцевъ’s 2005 album «Артисть» (so Discogs spells it; discogs.com/release/14069455), track 6 «В Час Когда»"
+  },
+  {
+    "artist": "rada & ternovnik",
+    "track": "a ne byt' vetram",
+    "restore": {
+      "artist": "Рада & Терновник",
+      "track": "А Не Быть Ветрам · Говорили Говорили",
+      "album": "Женитьба"
+    },
+    "why": "FM Достоевский #437, from fmd.soyuz.ru: transliterated; the owner pointed to Рада & Терновник и Ясный День’s 2005 album «Женитьба» (discogs.com/release/2742917), whose track 5 is «А Не Быть Ветрам · Говорили Говорили»"
+  },
+  {
+    "artist": "arkhip i jego alisa",
+    "track": "10 B",
+    "restore": {
+      "artist": "Архип И Его Алиса",
+      "track": "10 \"Б\"",
+      "album": "Так И Случилось..."
+    },
+    "why": "FM Достоевский #426, from fmd.soyuz.ru: transliterated; the owner pointed to Архип И Его Алиса’s 2005 album «Так И Случилось...» (discogs.com/release/3349995), track 2 «10 \"Б\"»"
+  },
+  {
+    "artist": "nozh dlja frau muller vs dina verny",
+    "track": "koshmary",
+    "restore": {
+      "artist": "Нож Для Frau Muller vs Dina Verny",
+      "track": "Кошмары (Нож Для Frau Muller Remix)",
+      "album": "Remixodelica"
+    },
+    "why": "FM Достоевский #432, from fmd.soyuz.ru: transliterated; the owner pointed to Нож Для Frau Muller’s 2005 album «Remixodelica» (discogs.com/master/37977), track 5 «Кошмары (Нож Для Frau Muller Remix)»"
+  },
+  {
+    "artist": "nebesnaya kantseljarija",
+    "track": "cosmos",
+    "restore": {
+      "artist": "Небесная Канцелярия",
+      "track": "Космос"
+    },
+    "why": "FM Достоевский #436, from fmd.soyuz.ru: translated; the owner pointed to Небесная Канцелярия’s 2006 album «Эфир» (discogs.com/release/3767021), track 1 «Космос»; the playlist names another album, «samizdat», which stays"
+  },
+  {
+    "artist": "zulya & the children of the underground",
+    "track": "ne vsjo-l' ravno?",
+    "restore": {
+      "artist": "Zulya & The Children Of The Underground",
+      "track": "Не Всё Ль Равно?",
+      "album": "The Waltz Of Emptiness"
+    },
+    "why": "FM Достоевский #429, from fmd.soyuz.ru: transliterated; the owner pointed to «The Waltz Of Emptiness (And Other Songs On Russian Themes)» (2004, discogs.com/master/688394), whose track 3 is «Does It Matter? = Не Всё Ль Равно?»"
   }
 ]
