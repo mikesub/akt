@@ -4276,14 +4276,14 @@
         "year": 2008
       },
       {
-        "artist": "oyme",
-        "track": "kudan'kou kiyaksova",
+        "artist": "Oyme",
+        "track": "Kudankon Kiyaksova (On The Floor At Matchmakers)",
         "album": "oyme",
         "apple_id": 1191886872,
         "apple_album_id": null,
         "apple_artist_id": 961643593,
         "mb_id": null,
-        "discogs_id": null,
+        "discogs_id": 31699151,
         "year": null
       },
       {
@@ -29302,13 +29302,13 @@
         "year": 2006
       },
       {
-        "artist": "4 positions of bruno",
-        "track": "summa of love /grehovnaya sleza / vkljuchi i posmotri v zerkalo",
-        "album": "ty i dvoe molodyh",
+        "artist": "4 Позиции Бруно",
+        "track": "Самма Оф Лав / Греховная Слеза / Включи и Посмотри в Зеркало",
+        "album": "Ты и Двое Молодых",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 5710505,
+        "year": 2008
       },
       {
         "artist": "emily loizeau",
@@ -43540,9 +43540,9 @@
         "year": 2006
       },
       {
-        "artist": "inquisitorum",
-        "track": "gop-stop",
-        "album": "it's my life: 1997 - 2006",
+        "artist": "Inquisitorum",
+        "track": "Гоп-Стоп",
+        "album": "It's My Life: 1997-2006",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 1386857,
@@ -48460,6 +48460,7 @@
         "track": "падружкi",
         "album": "вясна красна",
         "apple_id": null,
+        "mb_id": null,
         "discogs_id": 8379451,
         "year": 2004
       },
@@ -54950,13 +54951,12 @@
         "year": null
       },
       {
-        "artist": "nikolay kopernik",
-        "track": "dymki",
-        "album": "rodina",
+        "artist": "Николай Коперник",
+        "track": "Дымки",
+        "album": "Родина",
         "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "mb_id": "c6640e91-ffb1-4230-957e-005f82c25621",
+        "year": 1986
       },
       {
         "artist": "colleen",
@@ -56330,9 +56330,9 @@
         "year": 2005
       },
       {
-        "artist": "netslov",
-        "track": "tishina",
-        "album": "vse svobodny",
+        "artist": "Netslov",
+        "track": "Tishina",
+        "album": "Все Свободны",
         "apple_id": 1528178591,
         "apple_album_id": null,
         "apple_artist_id": 96942672,
@@ -57043,13 +57043,13 @@
         "year": 2004
       },
       {
-        "artist": "nezhnoye eto",
-        "track": "pistolet odinochestva",
-        "album": "sovershennyi pustiak",
+        "artist": "Нежное Это",
+        "track": "Пистолет Одиночества",
+        "album": "Совершенный Пустяк",
         "apple_id": 1759414744,
         "apple_album_id": null,
         "apple_artist_id": 842604660,
-        "mb_id": null,
+        "mb_id": "c7cacdc6-29da-45d0-ab24-71b03f97d051",
         "year": 2005
       },
       {
@@ -57570,13 +57570,14 @@
         "year": 2002
       },
       {
-        "artist": "alyosha paltsev",
-        "track": "v chas kogda...",
-        "album": "artist",
-        "apple_id": null,
+        "artist": "Алеша Пальцевъ",
+        "track": "В Час Когда",
+        "album": "Артисть",
+        "apple_id": 1750019499,
+        "apple_album_id": 1750019490,
+        "apple_artist_id": 1163248963,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "year": 2005
       },
       {
         "artist": "snax",
@@ -57714,13 +57715,14 @@
         "year": 2005
       },
       {
-        "artist": "rada & ternovnik",
-        "track": "a ne byt' vetram",
-        "album": "zhenit'ba",
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "artist": "Рада & Терновник",
+        "track": "А Не Быть Ветрам · Говорили Говорили",
+        "album": "Женитьба",
+        "apple_id": 1079515640,
+        "apple_album_id": 1079515265,
+        "apple_artist_id": null,
+        "mb_id": "ec368921-bce0-4d22-9e42-401debd53011",
+        "year": 2005
       },
       {
         "artist": "la tchoucrav'",
@@ -57878,12 +57880,12 @@
         "year": 2004
       },
       {
-        "artist": "nebesnaya kantseljarija",
-        "track": "cosmos",
+        "artist": "Небесная Канцелярия",
+        "track": "Космос",
         "album": "samizdat",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
+        "discogs_id": 3767021,
         "year": null
       },
       {
@@ -58536,13 +58538,12 @@
         "year": null
       },
       {
-        "artist": "nozh dlja frau muller vs dina verny",
-        "track": "koshmary",
-        "album": "remixodelica",
+        "artist": "Нож Для Frau Muller vs Dina Verny",
+        "track": "Кошмары (Нож Для Frau Muller Remix)",
+        "album": "Remixodelica",
         "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "mb_id": "166d8060-fe1b-4ffe-b278-287ee03ea2ca",
+        "year": 1999
       },
       {
         "artist": "sheetal",
@@ -59186,9 +59187,9 @@
         "year": 2003
       },
       {
-        "artist": "zulya & the children of the underground",
-        "track": "ne vsjo-l' ravno?",
-        "album": "the waltz of emptiness",
+        "artist": "Zulya & The Children Of The Underground",
+        "track": "Не Всё Ль Равно?",
+        "album": "The Waltz Of Emptiness",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 5675083,
@@ -59619,13 +59620,12 @@
         "year": 2004
       },
       {
-        "artist": "arkhip i jego alisa",
-        "track": "10 B",
-        "album": "tak i sluchilos'",
+        "artist": "Архип И Его Алиса",
+        "track": "10 \"Б\"",
+        "album": "Так И Случилось...",
         "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "mb_id": "8e3edc6c-d0ec-4074-969e-b66030e138e5",
+        "year": 2005
       },
       {
         "artist": "the hellblinki sextet",
@@ -81818,6 +81818,8 @@
         "track": "A Day In Christofer`s Bedroom",
         "album": "Impractical Guide To Opposite Sex",
         "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -83324,6 +83326,8 @@
         "track": "Une Ile Dans Une Ile",
         "album": "L`Humanite Et Moi",
         "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -83635,6 +83639,8 @@
         "track": "Autumn`s Vicar",
         "album": "Is A Woman",
         "apple_id": 1721049346,
+        "apple_album_id": 1721049317,
+        "apple_artist_id": 5046590,
         "mb_id": "224f27c1-b1b6-4961-9e5a-f1a60ee45f71",
         "year": 2002
       },
@@ -85561,6 +85567,8 @@
         "track": "O Amor Daqui De Casa",
         "album": "As Cancones De Eu, Tu, Eles",
         "apple_id": 1516019841,
+        "apple_album_id": null,
+        "apple_artist_id": 117440,
         "mb_id": "5e3249f9-888b-45cb-b4ca-c615a7d852d0",
         "year": 2000
       },
@@ -85578,6 +85586,8 @@
         "track": "Cold Cold Eyes",
         "album": "Always Say Please And Thank You",
         "apple_id": 951253257,
+        "apple_album_id": 951253245,
+        "apple_artist_id": 13420201,
         "mb_id": "355e36f4-d122-4167-bd06-51e1bb4ed3ab",
         "year": 2000
       },
@@ -85619,6 +85629,8 @@
         "track": "Ride, Cowboy",
         "album": "Muerte Del Toro",
         "apple_id": 282679731,
+        "apple_album_id": 282679575,
+        "apple_artist_id": 60297359,
         "mb_id": "5ecf6dcc-7c1e-4211-adf9-63013c90c209",
         "year": 2000
       },
@@ -85627,6 +85639,9 @@
         "track": "Dices Que Soy",
         "album": "En Familia",
         "apple_id": 93606455,
+        "apple_album_id": 93606530,
+        "apple_artist_id": 35417742,
+        "mb_id": "0a01bc25-a410-4b9e-a425-6bfa925e6b4b",
         "year": 2000
       },
       {
@@ -85634,6 +85649,8 @@
         "track": "Outer Space/Inner Space",
         "album": "Inner Space/Outer Space",
         "apple_id": 416341034,
+        "apple_album_id": null,
+        "apple_artist_id": 3632073,
         "mb_id": "a8dad20e-e39d-4bfe-9517-4d7156d35bf1",
         "year": 2001
       },
@@ -85642,6 +85659,8 @@
         "track": "You Were So Crazy",
         "album": "Transparent Mask",
         "apple_id": 526618406,
+        "apple_album_id": 526618394,
+        "apple_artist_id": 5207291,
         "mb_id": "dd37e0fb-f766-4802-b7e8-8bf565f5e5e3",
         "year": 2001
       },
@@ -85650,6 +85669,9 @@
         "track": "Adiamento",
         "album": "Terras Do Risco",
         "apple_id": 1378872450,
+        "apple_album_id": 1378872431,
+        "apple_artist_id": null,
+        "mb_id": null,
         "year": 2001
       },
       {
@@ -86224,6 +86246,8 @@
         "track": "Kua N`Congo",
         "album": "D`Melhor De Bonda",
         "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       }
     ]
@@ -87688,6 +87712,8 @@
         "track": "Kazoo III",
         "album": "L`Incroyable Verite",
         "apple_id": 1742763697,
+        "apple_album_id": 1742763695,
+        "apple_artist_id": 15025750,
         "mb_id": "bdb5df27-05f0-486d-b3c9-28a1e568ecaf",
         "year": 2001
       },
@@ -89081,6 +89107,10 @@
         "track": "Can`t Stand The Way You Love Me",
         "album": "This Is",
         "apple_id": 6768812450,
+        "apple_album_id": null,
+        "apple_artist_id": 1864742765,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -90105,7 +90135,8 @@
         "track": "The Return Of Prokov",
         "album": "The Psychedelic Mochi Case",
         "apple_id": null,
-        "year": null
+        "mb_id": "4b51a0fc-07ac-4470-9811-885845af4b56",
+        "year": 2000
       },
       {
         "artist": "The Fall",
@@ -90499,6 +90530,8 @@
         "track": "Ain`t No Stoppin` The Poppin`",
         "album": "The Entertainist",
         "apple_id": 310021230,
+        "apple_album_id": 310021130,
+        "apple_artist_id": 47422330,
         "mb_id": null,
         "year": 2000
       },
@@ -90902,6 +90935,8 @@
         "track": "You Always Get What`s Coming",
         "album": "Samsara",
         "apple_id": 286942737,
+        "apple_album_id": null,
+        "apple_artist_id": null,
         "mb_id": "24c0c8a7-1417-42a5-b834-48fc36b7ed57",
         "year": 2000
       }
@@ -91439,6 +91474,7 @@
         "track": "Nen` Na",
         "album": "Le Melange Sans Appel",
         "apple_id": null,
+        "mb_id": null,
         "discogs_id": 13640659,
         "year": 1999
       },
@@ -91557,6 +91593,9 @@
         "artist": "Hurleurs",
         "track": "Hotel Varlin",
         "album": "Ciel D`encre",
+        "apple_id": 1442622137,
+        "apple_album_id": 1442621851,
+        "apple_artist_id": null,
         "mb_id": "3c374cd1-27c8-40fb-9db7-43c54b6eee59",
         "year": 2000
       },
@@ -91884,6 +91923,7 @@
         "artist": "Elixir",
         "track": "Devil`s Eyeball",
         "album": "Music Mathematics Magic",
+        "apple_id": null,
         "mb_id": "ad434244-265d-427a-b170-85098a63edcf",
         "discogs_id": 1148634,
         "year": 2000
@@ -91960,6 +92000,7 @@
         "artist": "Maria Napoleon",
         "track": "I`m In Love With David Candy",
         "album": "Dreams & Reveries",
+        "apple_id": null,
         "mb_id": "28dfb6b7-c9ac-47fe-aa00-5b6ebe1f9b55",
         "year": 2000
       },
@@ -92235,6 +92276,7 @@
         "artist": "Vera Clouzot",
         "track": "L`Idiot",
         "album": "Kachina",
+        "apple_id": null,
         "mb_id": null,
         "discogs_id": 12652584,
         "year": 2000
@@ -92475,6 +92517,7 @@
         "artist": "The Vanity Set",
         "track": "Don`t Be Afraid",
         "album": "The Vanity Set",
+        "apple_id": null,
         "mb_id": "4fe527f9-82f9-495d-b000-8e1010945c7a",
         "year": 2000
       },
@@ -92677,6 +92720,9 @@
         "artist": "Logan`s Sanctuary",
         "track": "Islands In The Sky",
         "album": "Logan`s Sanctuary",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -92747,6 +92793,7 @@
         "artist": "Anna Karina & Katerine",
         "track": "Aimons L`Amour",
         "album": "Une Histoire D`Amour",
+        "apple_id": null,
         "mb_id": "b4c92f83-bd45-4984-be05-3fd703cbcaef",
         "year": 2000
       },
@@ -92971,6 +93018,7 @@
         "artist": "Sam & Valley",
         "track": "Let`s Go To Hawaii",
         "album": "A Miracle Is Simple",
+        "apple_id": null,
         "mb_id": null,
         "discogs_id": 127171,
         "year": 2000
@@ -93231,6 +93279,9 @@
         "artist": "Godspeed You! Black Emperor",
         "track": "They Don`t Sleep Anymore On The Beach/Monheim",
         "album": "Levez Vos Skinny Fists Comme Antennas To Heaven",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -93638,6 +93689,7 @@
         "artist": "Ursula 1000 / The Scammers",
         "track": "Sally`s Walk",
         "album": "All Systems Are Go Go",
+        "apple_id": null,
         "mb_id": "40a8bd4d-d75d-4dcd-9e81-be1ee152701e",
         "discogs_id": 58565,
         "year": null
@@ -93665,6 +93717,9 @@
         "artist": "Dr. Snout & His Hogs Of Rhythm",
         "track": "Hi-Fi Baby",
         "album": "Goofin` Around",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -93977,6 +94032,7 @@
         "artist": "Tango Fernandez",
         "track": "Hard Input",
         "album": "L`Anonima Roylcott",
+        "apple_id": null,
         "mb_id": null,
         "discogs_id": 2471968,
         "year": 2000
@@ -94005,6 +94061,9 @@
         "artist": "Frank Black & The Catholics",
         "track": "I`ve Seen Your Picture",
         "album": "Dog In The Sand",
+        "apple_id": 1853045835,
+        "apple_album_id": 1853045832,
+        "apple_artist_id": 2730206,
         "mb_id": "fc906ed2-5f08-4ff0-b8d0-17bb09f1fe3f",
         "year": 2000
       },
@@ -94059,6 +94118,7 @@
         "artist": "Quickspace",
         "track": "They Shoot Horse Don`t They",
         "album": "The Death Of Quickspace",
+        "apple_id": null,
         "mb_id": "28c4749a-a9c0-48c4-9e45-d4601f4d5b77",
         "year": 2000
       },
@@ -94494,6 +94554,7 @@
         "artist": "Lily Margot",
         "track": "L`Amour Se Touche",
         "album": "Apres 22h",
+        "apple_id": null,
         "mb_id": "ea405bc6-b130-4877-91ba-14f79be1eef1",
         "year": 1999
       },
@@ -94700,6 +94761,7 @@
         "artist": "Zuno Men",
         "track": "Golden Boy",
         "album": "I`m Going To Like You Even If You Hate Me",
+        "apple_id": null,
         "mb_id": "bb3379e8-2610-4e02-b308-f769dbdc6da5",
         "year": 1999
       },
@@ -95203,6 +95265,7 @@
         "artist": "Mount Vernon Arts Lab",
         "track": "Scooby Don`t",
         "album": "E For Experimental",
+        "apple_id": null,
         "mb_id": "e29349b9-91fd-4a1b-b922-fc950ef2afe3",
         "year": 1999
       },
@@ -95268,6 +95331,7 @@
         "artist": "Jad Fair & The Shapir-O-Rama",
         "track": "The Helmut Maker`s Wife`s Sister",
         "album": "I Like Your Face",
+        "apple_id": null,
         "mb_id": "4ba5a14d-af40-4a41-b9be-995e1ff0663d",
         "year": 1999
       },
@@ -95343,6 +95407,7 @@
         "artist": "Ninotchka",
         "track": "I`ve Got Wings",
         "album": "Do Not Fear The Future",
+        "apple_id": null,
         "mb_id": "9760c63e-e520-4a3e-a64b-ff0e0e9f55ac",
         "year": 1999
       },
@@ -95350,6 +95415,7 @@
         "artist": "Osymyso",
         "track": "Won`t Lovers Revolt Now?",
         "album": "Welcome To The Palindrome",
+        "apple_id": null,
         "mb_id": "bbfba56e-d5ac-4c04-96f5-5d6c98742af1",
         "year": 1999
       }
@@ -95396,6 +95462,8 @@
         "artist": "Mad Sheer Khan / Fela Ababsa",
         "track": "Nuit D`Algerie",
         "album": "1001 Nights",
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 2892889,
         "year": 1999
       },
@@ -95574,6 +95642,7 @@
         "artist": "Bob Neuwirth",
         "track": "Dead Man`s Clothes",
         "album": "Havana Midnight",
+        "apple_id": null,
         "mb_id": "bd567e0d-992b-4a7d-933b-5e1e7cf35856",
         "year": 1999
       },
@@ -95639,6 +95708,7 @@
         "artist": "Le Soldat Inconnu",
         "track": "Personne Ne T`oubliera",
         "album": "A Travers Vous",
+        "apple_id": null,
         "mb_id": "0b825309-a81c-4bbe-a81b-992cfcf3a441",
         "year": 1994
       },
@@ -95665,6 +95735,7 @@
         "artist": "Girlfrendo",
         "track": "Homework",
         "album": "Surprise! Surprise! It`s Girlfrendo",
+        "apple_id": null,
         "mb_id": "4d372b33-0797-423e-8e53-7f518a4937cd",
         "year": 1999
       },
@@ -96454,6 +96525,7 @@
         "artist": "Gonzales",
         "track": "Real Motherfuckin` Music",
         "album": "Gonzales Uber Alles",
+        "apple_id": null,
         "mb_id": "b576ad5f-f62c-4208-9a54-1f515cfeba86",
         "year": 2000
       },
@@ -96536,6 +96608,7 @@
         "artist": "Norma Waterson",
         "track": "Al Bowlly`s In Heaven",
         "album": "The Very Thought Of You",
+        "apple_id": null,
         "mb_id": null,
         "discogs_id": 17194957,
         "year": 1999
@@ -96855,6 +96928,7 @@
         "apple_id": 1074234313,
         "apple_album_id": null,
         "apple_artist_id": 790312529,
+        "mb_id": "db493144-f4aa-47fd-9aa4-77a2b8c8210d",
         "year": 1999
       },
       {
@@ -97328,6 +97402,7 @@
         "artist": "Yoshinori Sunahara",
         "track": "Sun Song`70",
         "album": "Panam – The Sound Of 70’s",
+        "apple_id": null,
         "mb_id": "c824f3ca-4308-4888-8ada-5b3a713732e1",
         "year": 1998
       },
@@ -97363,6 +97438,7 @@
         "artist": "Somatic",
         "track": "Walters` Theme",
         "album": "The Bob Apocalypse",
+        "apple_id": null,
         "mb_id": "f557cb55-a65b-4cff-bf5e-49f18659ab42",
         "year": 1999
       },
@@ -98076,6 +98152,7 @@
         "artist": "Pablo`s Eye",
         "track": "Delay Horizon",
         "album": "All She Wants Grows Blue",
+        "apple_id": null,
         "mb_id": "fa01d1d2-b76c-404c-ae62-29294d09b77c",
         "year": 1998
       },
@@ -98559,8 +98636,10 @@
         "artist": "Terry Edwards / Lydia Lunch",
         "track": "Cesspool Called History/Harlem Nocturno",
         "album": "Yesterday`s Zeitgeist",
+        "apple_id": null,
         "mb_id": null,
-        "year": null
+        "discogs_id": 11210093,
+        "year": 1999
       },
       {
         "artist": "Holosud",
@@ -98592,6 +98671,9 @@
         "artist": "Gorky`s Zygotic Munci",
         "track": "Poodle Rockin`",
         "album": "Spanish Dance Troupe",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -98644,7 +98726,9 @@
         "artist": "Mo` Horizons Feat",
         "track": "Foto Viva",
         "album": "Women`s World Voices",
+        "apple_id": null,
         "mb_id": null,
+        "discogs_id": null,
         "year": null
       }
     ]
@@ -98823,7 +98907,9 @@
         "artist": "Алим Касимов",
         "track": "Iraq Tasnifi",
         "album": "Love`s Deep Ocean",
+        "apple_id": null,
         "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -98960,6 +99046,9 @@
         "artist": "John Mayall & The Bluesbreakers",
         "track": "I`ve Got To Talk To You",
         "album": "Padlock On The Blues",
+        "apple_id": 1813300593,
+        "apple_album_id": null,
+        "apple_artist_id": 2206264,
         "mb_id": "37c7ccb8-598d-471f-8157-cfd972e4e4a5",
         "year": 1999
       },
@@ -99506,6 +99595,7 @@
         "apple_id": 600757896,
         "apple_album_id": 600757685,
         "apple_artist_id": 1454693781,
+        "mb_id": null,
         "year": 1997
       },
       {
@@ -99822,6 +99912,7 @@
         "artist": "Tomovsky",
         "track": "Let`s Do It On The Phone",
         "album": "Leisure",
+        "apple_id": null,
         "mb_id": "8fe805ad-a7c8-408e-8146-e485341a3b3c",
         "year": 1999
       },
@@ -99877,6 +99968,7 @@
         "artist": "The Styrenes",
         "track": "Silver Daggers",
         "album": "We Care, So You Don`t Have To",
+        "apple_id": null,
         "mb_id": "e52babbe-411d-472c-bcc1-7da6ba2888a8",
         "year": 1998
       }
@@ -100222,6 +100314,9 @@
         "artist": "Monica Vasconcelos & Nois",
         "track": "Xo`timo",
         "album": "Nois Dois",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -101658,6 +101753,9 @@
         "artist": "Scarlett`s Well",
         "track": "Why Do Spirits Haunt Ruby Auburn?",
         "album": "Strange Letters",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -101690,6 +101788,9 @@
         "artist": "Reverend Horton Heat",
         "track": "Baby I`m Drunk",
         "album": "Space Heater",
+        "apple_id": 667045255,
+        "apple_album_id": null,
+        "apple_artist_id": 105453,
         "mb_id": "f2092695-1555-4db2-b8e2-8c9aa5634ae0",
         "year": 1998
       },
@@ -101840,6 +101941,7 @@
         "apple_id": 658673909,
         "apple_album_id": 658673635,
         "apple_artist_id": 30738696,
+        "mb_id": null,
         "year": 1998
       },
       {
@@ -102094,6 +102196,7 @@
         "apple_id": 1610301022,
         "apple_album_id": 1610301015,
         "apple_artist_id": 5662433,
+        "mb_id": "4e21d357-3837-46a3-a81a-bf6d215b403c",
         "year": 1999
       },
       {
@@ -102110,6 +102213,7 @@
         "artist": "Montepulciano",
         "track": "Sugar Daddy",
         "album": "You`re Always Welcome",
+        "apple_id": null,
         "mb_id": "df9be261-369a-4fa3-91c0-18b10d5f5590",
         "year": 1998
       },
@@ -105510,6 +105614,7 @@
         "artist": "Скрябiн",
         "track": "Behind The Wheel",
         "album": "Депеша для Depeche Mode",
+        "apple_id": null,
         "mb_id": "a00eeae0-a423-4657-8939-e2f8411aa7f3",
         "year": 1998
       },
@@ -106262,6 +106367,7 @@
         "artist": "БГ & Deadушки",
         "track": "Змея",
         "album": "БГ & Deadушки",
+        "apple_id": null,
         "mb_id": "02ffeaf7-c2e5-43cc-85af-62579ab07e8f",
         "year": 1998
       },
@@ -106703,13 +106809,13 @@
         "year": 1997
       },
       {
-        "artist": "Gasan Mamedov & Leena Malak",
-        "track": "Arabic Tango edit",
+        "artist": "Leena Malak Feat. Gasan Mamedov",
+        "track": "Arabic Tango Ya Zahratan Fi Khayali",
         "album": "Arabic Tango",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 5363085,
+        "year": 1998
       },
       {
         "artist": "Love Shop",
@@ -108193,6 +108299,8 @@
         "artist": "John Wesley Harding",
         "track": "Your Ghost Don`t Scare Me No More",
         "album": "Awake",
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 4592557,
         "year": 1998
       },
@@ -108270,6 +108378,7 @@
         "apple_id": 159111063,
         "apple_album_id": 159110207,
         "apple_artist_id": 525167877,
+        "mb_id": null,
         "year": 1998
       },
       {
@@ -108308,6 +108417,7 @@
         "apple_id": 1514150533,
         "apple_album_id": 1514150528,
         "apple_artist_id": 1450149684,
+        "mb_id": null,
         "year": 1998
       },
       {
@@ -108363,6 +108473,7 @@
         "apple_id": 1786078458,
         "apple_album_id": 1786078452,
         "apple_artist_id": 74863933,
+        "mb_id": null,
         "year": 1997
       },
       {
@@ -108402,6 +108513,7 @@
         "apple_id": 287833277,
         "apple_album_id": 287833266,
         "apple_artist_id": 287833268,
+        "mb_id": "6ea81767-28dd-49d3-a002-1e42bc667eec",
         "discogs_id": 5838232,
         "year": 1997
       },
@@ -108460,6 +108572,9 @@
         "artist": "Alien Sex Fiend",
         "track": "Can`t Stop Smoking",
         "album": "Wardance",
+        "apple_id": 1485740772,
+        "apple_album_id": null,
+        "apple_artist_id": 6515424,
         "mb_id": "20e1c8c6-64cb-4bfd-9b6f-f2b402c5bc21",
         "year": 1990
       },
@@ -108718,6 +108833,7 @@
         "apple_id": 312360875,
         "apple_album_id": 312360873,
         "apple_artist_id": 81174016,
+        "mb_id": null,
         "year": 1997
       },
       {
@@ -110084,6 +110200,9 @@
         "artist": "Бахыт-Компот",
         "track": "Голубой вагон",
         "album": "Favourite Songs Of Ghildhood",
+        "apple_id": null,
+        "mb_id": "9e8b3b0b-84d3-41a6-a57d-42b7cc783eb1",
+        "discogs_id": 10380485,
         "year": null
       },
       {
@@ -110582,6 +110701,9 @@
         "artist": "Иван-Кайф",
         "track": "Che Guevara’s Adventures",
         "album": "Walk Alone",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -110753,6 +110875,9 @@
         "artist": "РяБа Mutant",
         "track": "Mutango",
         "album": "Cyber Couture",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -110863,13 +110988,13 @@
     "playlist_hash": "f1a2b86c97b21df9",
     "tracks": [
       {
-        "artist": "Unterwasser",
-        "track": "Shapiro On Rhein",
-        "album": "Pyramid Aliosha",
+        "artist": "Унтервассер",
+        "track": "Шапиро На Рейне",
+        "album": "Пирамида Алеша",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 15330712,
+        "year": 1996
       },
       {
         "artist": "Sierra Maestra",
@@ -111003,13 +111128,13 @@
         "year": 1998
       },
       {
-        "artist": "Unterwasser",
-        "track": "Little Fisherman",
-        "album": "Pyramid Aliosha",
+        "artist": "Унтервассер",
+        "track": "Рыбачок",
+        "album": "Пирамида Алеша",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 15330712,
+        "year": 1996
       }
     ]
   },
@@ -111032,7 +111157,11 @@
         "artist": "НОМ",
         "track": "Ты будешь выть, Германия!",
         "album": "Евро",
-        "year": null
+        "apple_id": 1471393754,
+        "apple_album_id": 1471393736,
+        "apple_artist_id": 1090405536,
+        "mb_id": "5b00f662-9fd5-44a3-8f98-c44eecd2cf32",
+        "year": 1997
       },
       {
         "artist": "Carl Craig",
@@ -111257,31 +111386,49 @@
         "artist": "Центр",
         "track": "Новая земля",
         "album": "Centromania I",
-        "year": null
+        "apple_id": 1524057553,
+        "apple_album_id": null,
+        "apple_artist_id": 583623416,
+        "mb_id": "790c3960-7d40-48f8-8869-a64401a885c0",
+        "year": 1982
       },
       {
         "artist": "Центр",
         "track": "Морелла",
         "album": "Centromania I",
-        "year": null
+        "apple_id": 1524064853,
+        "apple_album_id": null,
+        "apple_artist_id": 583623416,
+        "mb_id": "92c06c11-eafa-42bd-90e4-1ce08c5ef8b4",
+        "year": 1983
       },
       {
         "artist": "Центр",
         "track": "Звёзды всегда хороши особенно ночью",
         "album": "Centromania I",
-        "year": null
+        "apple_id": 1524064844,
+        "apple_album_id": null,
+        "apple_artist_id": 583623416,
+        "mb_id": "483bf7fe-0aff-48ca-8a68-2ad9cd7829ff",
+        "year": 1983
       },
       {
         "artist": "Центр",
         "track": "Пятна зловещих узоров",
         "album": "Centromania II",
-        "year": null
+        "apple_id": null,
+        "mb_id": "31c03bc5-a211-4d14-acc8-92c2def05d18",
+        "year": 1997
       },
       {
         "artist": "Центр",
         "track": "Фотолаборатория",
         "album": "Tectonica",
-        "year": null
+        "apple_id": 1524057565,
+        "apple_album_id": null,
+        "apple_artist_id": 583623416,
+        "mb_id": "c457ef71-e9c9-43c1-8e2e-2f299eaa9ad0",
+        "year": 1982
       },
       {
         "artist": "Choying Drolma & Steve Tibbets",
@@ -111634,9 +111781,9 @@
         "year": 1997
       },
       {
-        "artist": "Sergei De Rocambole",
-        "track": "Spirit Annoying",
-        "album": "Bastard Alchemist Dr. Faust",
+        "artist": "Сергей де Рокамболь",
+        "track": "Дух Назойливый",
+        "album": "НезаконНоРожденный АльХимик Доктор Фауст - Пернатый Змей",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -111670,13 +111817,14 @@
         "year": 1997
       },
       {
-        "artist": "Waves Of Amour",
-        "track": "He Fell In Love",
-        "album": "In The Evening",
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "artist": "Амурские Волны",
+        "track": "Он влюбился",
+        "album": "Вечером",
+        "apple_id": 1704420303,
+        "apple_album_id": 1704420293,
+        "apple_artist_id": 1697762020,
+        "mb_id": "ed9d8cc1-42e2-474b-ada0-5ac6a190b709",
+        "year": 1996
       },
       {
         "artist": "Encounter",
@@ -112244,6 +112392,9 @@
         "artist": "The Orchestre Murphy",
         "track": "Pour Cole Рortег On It",
         "album": "Bogtrotting",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -112394,6 +112545,8 @@
         "apple_id": 724773586,
         "apple_album_id": 724773565,
         "apple_artist_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -112429,6 +112582,9 @@
         "artist": "Sun Ra&Solar Infinity Arkestra",
         "track": "Blues Оn Planet Mars",
         "album": "Sun Ra: The Singles",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -112693,7 +112849,8 @@
         "apple_id": 867602998,
         "apple_album_id": 867602971,
         "apple_artist_id": 331649663,
-        "year": null
+        "mb_id": "2a6e9ef4-f2d0-4587-83f3-1c4f138733a7",
+        "year": 1997
       },
       {
         "artist": "Young Gods",
@@ -112842,7 +112999,11 @@
         "artist": "Настя",
         "track": "Река желаний",
         "album": "Море Сиам",
-        "year": null
+        "apple_id": 1814418853,
+        "apple_album_id": 1814418852,
+        "apple_artist_id": null,
+        "mb_id": "79181a95-8f10-4b82-a29f-fa116402aeb7",
+        "year": 1997
       },
       {
         "artist": "Faze Action",
@@ -113015,7 +113176,11 @@
         "artist": "Настя",
         "track": "Море Сиам",
         "album": "Море Сиам",
-        "year": null
+        "apple_id": 1442138490,
+        "apple_album_id": null,
+        "apple_artist_id": 751221316,
+        "mb_id": "cd6abf22-3ba8-4443-a84f-15d809f00010",
+        "year": 1997
       }
     ]
   },
@@ -113222,6 +113387,7 @@
         "apple_id": 692727651,
         "apple_album_id": null,
         "apple_artist_id": 690482391,
+        "mb_id": "0d269beb-8c47-4d83-8036-57f15239db3f",
         "year": 1997
       },
       {
@@ -113397,7 +113563,10 @@
         "artist": "Солдат Семёнов",
         "track": "Тополь",
         "album": "Never A Step Back!",
-        "year": null
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": 5457522,
+        "year": 1997
       },
       {
         "artist": "Peach",
@@ -113596,7 +113765,11 @@
         "artist": "Мумий Тролль",
         "track": "Сиамские сердца",
         "album": "Икра",
-        "year": null
+        "apple_id": 869027932,
+        "apple_album_id": 869027888,
+        "apple_artist_id": 268782751,
+        "mb_id": "38746a2e-5719-4344-aafb-c3d232779359",
+        "year": 1997
       },
       {
         "artist": "Tarkomaz & Spiralman",
@@ -114163,25 +114336,41 @@
         "artist": "Настя",
         "track": "Клипсо-калипсо",
         "album": "Тацу",
-        "year": null
+        "apple_id": 1442138435,
+        "apple_album_id": null,
+        "apple_artist_id": 751221316,
+        "mb_id": "f26a8f23-fd59-4147-8cb6-54618746a452",
+        "year": 1987
       },
       {
         "artist": "Настя",
         "track": "Летучий фрегат",
         "album": "Невеста",
-        "year": null
+        "apple_id": 1814244121,
+        "apple_album_id": 1814244097,
+        "apple_artist_id": null,
+        "mb_id": "96e076f3-17a7-40fb-9138-b14bb8df5829",
+        "year": 1992
       },
       {
         "artist": "Настя",
         "track": "Хороводная",
         "album": "Танец на цыпочках",
-        "year": null
+        "apple_id": 1814362160,
+        "apple_album_id": 1814361963,
+        "apple_artist_id": null,
+        "mb_id": "d9a48cba-ae0c-4984-9e6c-8d37cb2ba008",
+        "year": 1994
       },
       {
         "artist": "Настя",
         "track": "Голоса",
         "album": "Танец на цыпочках",
-        "year": null
+        "apple_id": 1814362177,
+        "apple_album_id": 1814361963,
+        "apple_artist_id": null,
+        "mb_id": "a2e9ccc4-1f9c-4367-ac3f-52398a8b03d2",
+        "year": 1994
       },
       {
         "artist": "Salaryman",
@@ -114314,7 +114503,11 @@
         "artist": "Ва-Банкъ",
         "track": "Робинзон Крузо",
         "album": "Домой!!",
-        "year": null
+        "apple_id": 1461491226,
+        "apple_album_id": 1461491224,
+        "apple_artist_id": 593533767,
+        "mb_id": "759748a2-d4b6-4bdf-b0c3-2fa0a6d42c6f",
+        "year": 1997
       },
       {
         "artist": "Diamanda Galas&John Paul Jones",
@@ -114435,13 +114628,14 @@
         "year": 1997
       },
       {
-        "artist": "K. U. Street Spring",
+        "artist": "Весна На Улице Карла Юхана",
         "track": "Swing Moon",
-        "album": "K.U. Street Spring",
-        "apple_id": null,
+        "album": "K.U.Street Spring",
+        "apple_id": 1812897176,
+        "apple_album_id": 1812897175,
+        "apple_artist_id": 1469687268,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "year": 1997
       },
       {
         "artist": "George Thorogood&The Destroyers",
@@ -114631,13 +114825,15 @@
         "year": 1997
       },
       {
-        "artist": "Yehoo",
-        "track": "Sakhalin",
-        "album": "Seven Golden Lamps",
-        "apple_id": null,
+        "artist": "Йеху",
+        "track": "Сахалин",
+        "album": "СЕМЬ ЗОЛОТЫХ СВЕТИЛЬНИКОВ",
+        "apple_id": 1838233476,
+        "apple_album_id": null,
+        "apple_artist_id": 1567722437,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 4849198,
+        "year": 1995
       },
       {
         "artist": "Sugar Plant",
@@ -115177,9 +115373,9 @@
         "year": 1996
       },
       {
-        "artist": "A. P. Zubarev",
-        "track": "Pavlov's Waltz",
-        "album": "International Liautenant's Notes",
+        "artist": "А.П.Зубарев",
+        "track": "Павловский Вальс",
+        "album": "Тайные Записки Международного Лейтенанта",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -115468,6 +115664,11 @@
         "artist": "Анатолий Крупнов",
         "track": "Я остаюсь",
         "album": "Krupsky Sotovarischy",
+        "apple_id": 1747806077,
+        "apple_album_id": null,
+        "apple_artist_id": 898244662,
+        "mb_id": "3c284df9-04b0-43be-bdad-76709ef934bb",
+        "discogs_id": 15007269,
         "year": null
       },
       {
@@ -115730,7 +115931,11 @@
         "artist": "Вежливый отказ",
         "track": "Полоса неудач",
         "album": "Коса на камень",
-        "year": null
+        "apple_id": 1066042794,
+        "apple_album_id": 1066042782,
+        "apple_artist_id": 677574100,
+        "mb_id": "fd5fe3c7-4ddd-471a-aa94-1b44116db977",
+        "year": 1997
       },
       {
         "artist": "Exit 13",
@@ -115869,10 +116074,12 @@
       },
       {
         "artist": "Tequilajazzz & Species Of Fishes",
-        "track": "The Pistol (Dying Is Easy Mix)",
+        "track": "Пистолет (Dying ... Is EASY mix)",
         "album": "Virus Versus Virus",
-        "apple_id": null,
-        "mb_id": null,
+        "apple_id": 1779141524,
+        "apple_album_id": 1779141522,
+        "apple_artist_id": null,
+        "mb_id": "4b7c2121-5614-41c1-b7b8-478f8b31a291",
         "discogs_id": 2306988,
         "year": 1997
       },
@@ -116393,13 +116600,13 @@
         "year": 1995
       },
       {
-        "artist": "Bely Den",
+        "artist": "Белый День",
         "track": "ABBA",
-        "album": "Balalaika In Rock",
+        "album": "Балалайка In Rock",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 4874839,
+        "year": 1996
       },
       {
         "artist": "Compromise Blue",
@@ -116596,6 +116803,9 @@
         "artist": "Русско-абиссинский оркестр",
         "track": "Bar-Do",
         "album": "Bardo",
+        "apple_id": 1804976817,
+        "apple_album_id": 1804976629,
+        "apple_artist_id": 933370298,
         "mb_id": "851ce53b-a86c-4571-8b41-d5cf39164612",
         "year": 1997
       },
@@ -116754,13 +116964,13 @@
         "year": 1997
       },
       {
-        "artist": "Skit",
-        "track": "Veresk",
-        "album": "Skit",
+        "artist": "Скит",
+        "track": "Вереск",
+        "album": "Скит",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 6819266,
+        "year": 1997
       },
       {
         "artist": "Freddie Wadling",
@@ -116935,13 +117145,15 @@
         "year": 1997
       },
       {
-        "artist": "Constantin Belyayev",
-        "track": "Bachelors' Hymn",
-        "album": "Regards From The Years Of Stagnation",
-        "apple_id": null,
+        "artist": "Константин Беляев",
+        "track": "Гимн Холостяков",
+        "album": "Озорной Привет Из Застойных Лет",
+        "apple_id": 6769893641,
+        "apple_album_id": null,
+        "apple_artist_id": 901371595,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 11646527,
+        "year": 1973
       },
       {
         "artist": "Lilys",
@@ -117084,109 +117296,172 @@
         "artist": "Marie France",
         "track": "Le P`tit Bordel",
         "album": "Marie France",
-        "year": null
+        "apple_id": 75389304,
+        "apple_album_id": null,
+        "apple_artist_id": 75389201,
+        "mb_id": null,
+        "year": 1997
       },
       {
         "artist": "Radiohead",
         "track": "Lucky",
         "album": "OK Computer",
-        "year": null
+        "apple_id": 1097861843,
+        "apple_album_id": 1097861387,
+        "apple_artist_id": 657515,
+        "mb_id": "79047824-f821-4b1a-9893-e0cea1c947dd",
+        "year": 1995
       },
       {
         "artist": "Die Anarchistische Abendunterhaltung",
         "track": "ler Drieslagstelsel",
         "album": "Magisches Theater",
-        "year": null
+        "apple_id": 1705967495,
+        "apple_album_id": null,
+        "apple_artist_id": 153572585,
+        "mb_id": "cbd47158-b092-42be-b788-5f354cd9790c",
+        "year": 1996
       },
       {
         "artist": "Tonis Magi",
         "track": "Joogilaul",
         "album": "Huudja Haal",
-        "year": null
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": 14025498,
+        "year": 1994
       },
       {
         "artist": "Blue Eyes Of Fortune",
         "track": "Vivienne",
         "album": "Sweeter Than Suit",
-        "year": null
+        "apple_id": null,
+        "mb_id": "38f6fd2f-501a-4b21-9da7-efb451453342",
+        "year": 1994
       },
       {
         "artist": "Tarnation",
         "track": "An Awful Shade Of Blue",
         "album": "Mirador",
-        "year": null
+        "apple_id": 311182233,
+        "apple_album_id": 311182221,
+        "apple_artist_id": 5835006,
+        "mb_id": "82c3e6ba-cbb9-4738-8911-2aa92f1e8062",
+        "year": 1997
       },
       {
         "artist": "Mau Mau",
         "track": "Bass Paradis",
         "album": "Bass Paradis",
-        "year": null
+        "apple_id": 724316588,
+        "apple_album_id": null,
+        "apple_artist_id": 14568682,
+        "mb_id": "00ad1464-bfe9-4afe-86cc-e715b407e707",
+        "year": 1994
       },
       {
         "artist": "Tortoise",
         "track": "Along The Banks Of Rivers",
         "album": "Millions Now Living Will Never Die",
-        "year": null
+        "apple_id": 308750271,
+        "apple_album_id": 308750184,
+        "apple_artist_id": 5506415,
+        "mb_id": "d87da37d-b83b-40e2-931b-ba63c2a9ec35",
+        "year": 1996
       },
       {
         "artist": "John Mooney",
         "track": "U Told Me",
         "album": "Dealing With The Devil",
-        "year": null
+        "apple_id": 493034518,
+        "apple_album_id": 493034410,
+        "apple_artist_id": 2544067,
+        "mb_id": "6ab4f0cf-da02-485d-ab74-1cc37d9561b8",
+        "year": 1996
       },
       {
         "artist": "Can / Brian Eno",
         "track": "Pnoom",
         "album": "Sacriledge",
-        "year": null
+        "apple_id": null,
+        "mb_id": "cc01c1b6-297c-4cc8-bcb5-0e8c03fa930a",
+        "year": 1981
       },
       {
         "artist": "Can / Sonic Youth",
         "track": "Spoon",
         "album": "Sacriledge",
-        "year": null
+        "apple_id": 709161189,
+        "apple_album_id": null,
+        "apple_artist_id": null,
+        "mb_id": "7bfb3e8b-9d67-4eb9-8607-eafdea35d309",
+        "year": 1971
       },
       {
         "artist": "Can / U. N. K. L. E.",
         "track": "Vitamine C",
         "album": "Sacriledge",
-        "year": null
+        "apple_id": null,
+        "mb_id": "6a882e6c-c944-4347-8e29-163d238413aa",
+        "year": 1972
       },
       {
         "artist": "Can / Blade Runner",
         "track": "Future Days",
         "album": "Sacriledge",
-        "year": null
+        "apple_id": 709161629,
+        "apple_album_id": null,
+        "apple_artist_id": null,
+        "mb_id": "60817679-045f-4cf4-92f7-6929c9ed108c",
+        "year": 1973
       },
       {
         "artist": "Can / 3P",
         "track": "Yoo Doo Right",
         "album": "Sacriledge",
-        "year": null
+        "apple_id": 709162128,
+        "apple_album_id": null,
+        "apple_artist_id": null,
+        "mb_id": "cdae5cf4-62db-4e39-be35-8f9432a1ee5e",
+        "year": 1969
       },
       {
         "artist": "Комитет охраны тепла",
         "track": "Тюремный Рок (Jailhouse Rock)",
         "album": "K.O.T.",
-        "year": null
+        "apple_id": 1700248941,
+        "apple_album_id": null,
+        "apple_artist_id": 1132158016,
+        "mb_id": "ba79b1ee-8f5b-4cfe-a7d6-6257cb19a039",
+        "year": 1992
       },
       {
         "artist": "Nanaco",
         "track": "Flowers Of Hell",
         "album": "Sweeter Than Suite",
-        "year": null
+        "apple_id": null,
+        "mb_id": "39e14218-d47c-4363-ade7-5e074ce466a3",
+        "year": 1996
       },
       {
         "artist": "Billy Strange",
         "track": "Sing Halleluiah",
         "album": "Strange Country",
-        "year": null
+        "apple_id": 1538708529,
+        "apple_album_id": 1538708376,
+        "apple_artist_id": 172728,
+        "mb_id": "de87a1b7-27df-4124-ae2b-84ef31836378",
+        "year": 1965
       },
       {
         "artist": "Marie France",
         "track": "Les Bras Grands Ouverts",
         "album": "Marie France",
-        "year": null
+        "apple_id": 75389199,
+        "apple_album_id": null,
+        "apple_artist_id": 75389201,
+        "mb_id": null,
+        "year": 1997
       }
     ]
   },
@@ -117260,7 +117535,10 @@
         "artist": "Танцы на воле",
         "track": "Звери",
         "album": "TV Snow",
-        "year": null
+        "apple_id": null,
+        "mb_id": "fc2bb52b-9965-4331-8a29-a3b5941ad219",
+        "discogs_id": 929561,
+        "year": 1996
       },
       {
         "artist": "Mad Juana",
@@ -117422,7 +117700,10 @@
         "artist": "Сплин",
         "track": "Первый снег",
         "album": "Фонарь под глазом",
-        "year": null
+        "apple_id": null,
+        "mb_id": "0aa49557-05e8-48ec-a05a-2fc8cd9d2298",
+        "discogs_id": 15172877,
+        "year": 1997
       },
       {
         "artist": "Pizzicato Five",
@@ -117769,7 +118050,11 @@
         "artist": "Колибри",
         "track": "Всё о нас",
         "album": "Бес сахара",
-        "year": null
+        "apple_id": 1608884616,
+        "apple_album_id": 1608884254,
+        "apple_artist_id": 1544614187,
+        "mb_id": "e475211d-3933-4416-9edb-0dc928aa61f9",
+        "year": 1997
       },
       {
         "artist": "Wilco",
@@ -118082,7 +118367,11 @@
         "artist": "Сектор Газа",
         "track": "Самые лучшие тачки",
         "album": "Наркологический университет миллионов",
-        "year": null
+        "apple_id": 1398353531,
+        "apple_album_id": null,
+        "apple_artist_id": 531116017,
+        "mb_id": "b44324b5-4abe-44dc-8d1e-8aa3bd19e075",
+        "year": 1997
       },
       {
         "artist": "S-Tone lnc",
@@ -118343,7 +118632,11 @@
         "artist": "Мумий Тролль",
         "track": "Забавы",
         "album": "Морская",
-        "year": null
+        "apple_id": 865978830,
+        "apple_album_id": 865978813,
+        "apple_artist_id": 268782751,
+        "mb_id": "252391bd-f288-46b8-81b8-7372779c5a9a",
+        "year": 1997
       },
       {
         "artist": "R.O.C.",
@@ -118416,7 +118709,9 @@
         "artist": "Квартал",
         "track": "Редкий гость",
         "album": "Вход для посторонних",
-        "year": null
+        "apple_id": null,
+        "mb_id": "f12d4d24-f64d-4c0b-b8cd-c96c9cb62852",
+        "year": 1996
       },
       {
         "artist": "Julian Cope",
@@ -118523,10 +118818,13 @@
         "year": 1996
       },
       {
-        "artist": "Tekhnika Lubvi",
-        "track": "The Exile",
-        "album": "Big Cities` Air",
-        "year": null
+        "artist": "Техника Любви",
+        "track": "Ссыльный",
+        "album": "Воздух Больших Городов",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": 16443267,
+        "year": 1996
       },
       {
         "artist": "The Confusions",
@@ -118609,7 +118907,11 @@
         "artist": "Манго-Манго",
         "track": "Ассс (Щель в самолёте)",
         "album": "Полный Щорс",
-        "year": null
+        "apple_id": 1518967271,
+        "apple_album_id": 1518966657,
+        "apple_artist_id": 1518798654,
+        "mb_id": "18243082-7654-4e78-8fe2-4cb8603ecfbf",
+        "year": 1997
       },
       {
         "artist": "Evil Mothers",
@@ -118696,7 +118998,11 @@
         "artist": "Эдипов Комплекс",
         "track": "Melodic Old Minor",
         "album": "Egoism",
-        "year": null
+        "apple_id": 1593429825,
+        "apple_album_id": 1593429560,
+        "apple_artist_id": 1593429562,
+        "mb_id": "28aa30bf-91c0-4367-a34f-26fb017455f2",
+        "year": 1996
       },
       {
         "artist": "Squarepusher",
@@ -118741,6 +119047,9 @@
         "artist": "Marcus Brown",
         "track": "I`m On Mars, In My Russian Car",
         "album": "The Big Backyard # 5",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -118770,9 +119079,9 @@
         "year": 1997
       },
       {
-        "artist": "Biosintez",
-        "track": "The Contest (edit)",
-        "album": "Deity",
+        "artist": "Биосинтез",
+        "track": "Противоборство",
+        "album": "Божество",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -118850,7 +119159,11 @@
         "artist": "Несчастный случай",
         "track": "Малышка",
         "album": "Межсезонье",
-        "year": null
+        "apple_id": 690658382,
+        "apple_album_id": 690657476,
+        "apple_artist_id": 690482391,
+        "mb_id": "ded56378-010e-4e1a-9f60-06f71732ff2a",
+        "year": 1996
       },
       {
         "artist": "Railroad Jerk",
@@ -118914,6 +119227,7 @@
         "artist": "Deine Lakainen",
         "track": "Cupid`s Disease",
         "album": "Winter Fish Testosterone",
+        "apple_id": null,
         "mb_id": "5d7c73d0-668a-44be-9145-04e03e2d8ac7",
         "year": 1996
       },
@@ -118941,6 +119255,9 @@
         "artist": "Девушкин сон",
         "track": "Doors To Savoy",
         "album": "Ray Of Golden Sun",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -119007,6 +119324,7 @@
         "artist": "Robin Hitchcock",
         "track": "Man With A Woman`s Shadow",
         "album": "Moss Elixir",
+        "apple_id": null,
         "mb_id": "503ea423-54b8-49db-b2b8-5f75c97f6573",
         "year": 1995
       },
@@ -119276,6 +119594,9 @@
         "artist": "2ва самолёта",
         "track": "Пока стоит Биг Бэн",
         "album": "Пчёлы и мёд",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -119402,9 +119723,13 @@
       },
       {
         "artist": "Deadушки",
-        "track": "A Shumelo!",
+        "track": "Шумела-гремела",
         "album": "Daddooshki!",
-        "year": null
+        "apple_id": 1160885208,
+        "apple_album_id": null,
+        "apple_artist_id": 632582052,
+        "mb_id": "66d7cd1a-2d25-49b6-8888-a92dec993ac9",
+        "year": 1998
       },
       {
         "artist": "Curtis Mayfield",
@@ -119544,7 +119869,11 @@
         "artist": "Аквариум",
         "track": "Прекрасный дилетант",
         "album": "Арокс и Штёр",
-        "year": null
+        "apple_id": 1797543829,
+        "apple_album_id": null,
+        "apple_artist_id": 466873036,
+        "mb_id": "985dd5b1-f7e9-43a3-856b-dc02110b7baf",
+        "year": 1981
       },
       {
         "artist": "Gary Moscheles",
@@ -119706,7 +120035,11 @@
         "artist": "Чёрный обелиск",
         "track": "Песенка ни про что, или что случилось в Африке",
         "album": "Strange Races (Tribute to Vysotsky)",
-        "year": null
+        "apple_id": 1823155663,
+        "apple_album_id": null,
+        "apple_artist_id": 742088007,
+        "mb_id": "e702124c-0801-4b5e-af0b-9f7f94b4bec9",
+        "year": 1996
       },
       {
         "artist": "Paolo Achenza Trio",
@@ -119754,7 +120087,8 @@
         "apple_id": 1272711078,
         "apple_album_id": null,
         "apple_artist_id": 1126033340,
-        "year": 1996
+        "mb_id": "64df0f68-941e-4a62-9aa8-3c1e30f7b466",
+        "year": 1986
       },
       {
         "artist": "Clara Rockmore",
@@ -119861,7 +120195,11 @@
         "artist": "Кирпичи",
         "track": "Поп приговорён",
         "album": "Кирпичи тяжелы",
-        "year": null
+        "apple_id": 583162296,
+        "apple_album_id": 583162185,
+        "apple_artist_id": 378458286,
+        "mb_id": "f0a17ac6-1bc9-41c9-be4c-ef4d18d0bd30",
+        "year": 1996
       },
       {
         "artist": "Novi Fosili",
@@ -120181,6 +120519,7 @@
         "apple_id": 1709488287,
         "apple_album_id": 1709487956,
         "apple_artist_id": 7582718,
+        "mb_id": null,
         "year": 1996
       }
     ]
@@ -120245,7 +120584,9 @@
         "artist": "Elvis Isn`t Dead",
         "track": "Stuck On You",
         "album": "Italian Dance",
-        "year": null
+        "apple_id": null,
+        "mb_id": "d2a5a14b-e42e-4884-9434-bfc344b471e1",
+        "year": 1997
       },
       {
         "artist": "TearGarden",
@@ -120269,31 +120610,45 @@
         "artist": "Людмила Гурченко",
         "track": "Хорошее настроение",
         "album": "Хорошее настроение",
-        "year": null
+        "apple_id": null,
+        "mb_id": "87701ed0-35a3-4ad3-a2f5-4fd8cbbd4818",
+        "year": 1995
       },
       {
         "artist": "Людмила Гурченко",
         "track": "В гостях",
         "album": "Хорошее настроение",
-        "year": null
+        "apple_id": null,
+        "mb_id": "36bd0ae9-4133-4efc-b875-cf6ac5c34347",
+        "year": 1995
       },
       {
         "artist": "Людмила Гурченко & Митьки",
         "track": "И кто его знает",
         "album": "Митьковские песни",
-        "year": null
+        "apple_id": 6796756418,
+        "apple_album_id": null,
+        "apple_artist_id": null,
+        "mb_id": "32609a84-aea2-4f74-b747-8f979a6dc7b6",
+        "year": 1996
       },
       {
         "artist": "Людмила Гурченко",
         "track": "For A long Trip",
         "album": "Sad Record",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
         "artist": "Людмила Гурченко",
         "track": "Tender Song",
         "album": "Sad Record",
-        "year": null
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": 38710236,
+        "year": 1984
       },
       {
         "artist": "Peace, Love & Pitbulls",
@@ -120328,6 +120683,8 @@
         "artist": "DJ Shadow",
         "track": "Organ Donor / Why Hip Hop Sucks In `96?",
         "album": "Endtroducing",
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 3333887,
         "year": 1996
       }
@@ -120342,12 +120699,12 @@
     "tracks": [
       {
         "artist": "Pep-See",
-        "track": "Love, Love",
-        "album": "Three Stars In The Sky",
+        "track": "Любовь, любовь",
+        "album": "Три звезды на небе",
         "apple_id": 1118597830,
         "apple_album_id": null,
         "apple_artist_id": 1118597709,
-        "mb_id": null,
+        "mb_id": "8f34ed82-4a94-4824-9a52-d07d35c70042",
         "year": 1996
       },
       {
@@ -120487,12 +120844,12 @@
       },
       {
         "artist": "Pep-See",
-        "track": "Catch My Kisses",
-        "album": "Three Stars In The Sky",
+        "track": "Лови мои поцелуи",
+        "album": "Три звезды на небе",
         "apple_id": 1118597807,
         "apple_album_id": null,
         "apple_artist_id": 1118597709,
-        "mb_id": null,
+        "mb_id": "36b3b91e-0a03-475a-8581-1f1f239a6b25",
         "year": 1996
       }
     ]
@@ -120528,7 +120885,11 @@
         "artist": "Мумий Тролль",
         "track": "Утекай",
         "album": "Mummy Troll",
-        "year": null
+        "apple_id": 865978825,
+        "apple_album_id": null,
+        "apple_artist_id": 268782751,
+        "mb_id": "0c5bd196-fa63-449e-80b4-978921f42fc0",
+        "year": 1997
       },
       {
         "artist": "The 3rd & The Mortal",
@@ -120724,7 +121085,11 @@
         "artist": "Аквариум",
         "track": "Капитан Африка",
         "album": "Радио Африка",
-        "year": null
+        "apple_id": 1803373863,
+        "apple_album_id": 1803373861,
+        "apple_artist_id": 466873036,
+        "mb_id": "44007964-38af-4012-9945-cfdb9eb69640",
+        "year": 1983
       },
       {
         "artist": "John Cale",
@@ -120916,6 +121281,7 @@
         "artist": "Giant Ant Farm",
         "track": "Eva`s Warning",
         "album": "Eyesore: A Stab At The Residents",
+        "apple_id": null,
         "mb_id": "e2742ebf-9ed6-4e4d-a140-e9ef94142d5f",
         "year": 1996
       },
@@ -120932,7 +121298,9 @@
         "artist": "Бахыт-Компот",
         "track": "Извини, дорогая",
         "album": "Раздень меня по телефону",
-        "year": null
+        "apple_id": null,
+        "mb_id": "e60f1113-09ff-4002-ae41-06a0298d98f6",
+        "year": 1996
       },
       {
         "artist": "George Martin",
@@ -121060,13 +121428,16 @@
         "apple_id": 1440688726,
         "apple_album_id": null,
         "apple_artist_id": 1351652254,
+        "mb_id": null,
         "year": 1992
       },
       {
         "artist": "Tokyo`s Coolest Combo",
         "track": "Comment Те Dire Adieu",
         "album": "Sushi 3003: A Spectacular Collection Of Japanese Clubpop",
-        "year": null
+        "apple_id": null,
+        "mb_id": "7a4369b4-859b-4e3e-b559-c8b8b397e381",
+        "year": 1996
       },
       {
         "artist": "Hiroshi Takano",
@@ -121151,6 +121522,8 @@
         "artist": "Терем-квартет",
         "track": "Winter Morning",
         "album": "1000th Concert. Live",
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 4602111,
         "year": 1994
       },
@@ -121168,7 +121541,11 @@
         "artist": "Мегаполис",
         "track": "Баллада о воске и мёде",
         "album": "Гроза в деревне",
-        "year": null
+        "apple_id": 1180784531,
+        "apple_album_id": 1180784449,
+        "apple_artist_id": 679149300,
+        "mb_id": "9b871dc4-3829-4d4c-bdbb-83c9d1f4d481",
+        "year": 1996
       },
       {
         "artist": "VV",
@@ -121203,6 +121580,7 @@
         "artist": "U2",
         "track": "Night And Day (Youth`s Remix)",
         "album": "Out Loud",
+        "apple_id": null,
         "mb_id": "3ad12110-f890-4b37-9cff-a165be8f14a9",
         "year": 1990
       },
@@ -121295,7 +121673,11 @@
         "artist": "Алёна Свиридова",
         "track": "Старый полковник",
         "album": "Ночью всё иначе",
-        "year": null
+        "apple_id": 1343802325,
+        "apple_album_id": 1343801810,
+        "apple_artist_id": 340419689,
+        "mb_id": "2d20bec5-1581-4c18-b029-77a961c6f66a",
+        "year": 1997
       },
       {
         "artist": "Die Knodel",
@@ -121399,7 +121781,11 @@
         "artist": "Алексей Козлов & Андрей Макаревич",
         "track": "В кепке на бок и зуб золотой",
         "album": "Illegal Songs Of Young Pioneers",
-        "year": null
+        "apple_id": 742032142,
+        "apple_album_id": null,
+        "apple_artist_id": null,
+        "mb_id": "a4164305-10e4-4846-aab0-f07324775346",
+        "year": 1996
       },
       {
         "artist": "Moleque De Rua",
@@ -121484,7 +121870,8 @@
         "apple_id": 1120063068,
         "apple_album_id": 1120061649,
         "apple_artist_id": 14944099,
-        "year": 1996
+        "mb_id": "db0b49f7-fa2c-480e-ba27-a310305db679",
+        "year": 1995
       },
       {
         "artist": "The JP`s",
@@ -121493,13 +121880,18 @@
         "apple_id": 1074224637,
         "apple_album_id": 1074224414,
         "apple_artist_id": 790312529,
-        "year": 1996
+        "mb_id": "bd51adb2-d6cb-4e08-9656-26cee3eea458",
+        "year": 1997
       },
       {
         "artist": "Центр",
         "track": "Смутное пятно неизвестно чего",
         "album": null,
-        "year": null
+        "apple_id": 1045974420,
+        "apple_album_id": null,
+        "apple_artist_id": 583623416,
+        "mb_id": "e1ee2548-9cef-4f8c-9429-5ccc15450ea8",
+        "year": 1997
       },
       {
         "artist": "The Red Elvises",
@@ -121515,13 +121907,14 @@
         "artist": "Оберманекен",
         "track": "Mossad Agent-Girl",
         "album": "5:30 am",
+        "apple_id": null,
         "mb_id": "b4936323-d2a4-43fa-bc72-4b3d9005960e",
         "year": 1995
       },
       {
-        "artist": "Alexei Slepak",
-        "track": "Marihuana",
-        "album": "Green Album",
+        "artist": "Леша Слепак Встречает Обер-Манекен",
+        "track": "Марихуана",
+        "album": "Зелёный Альбом",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -121611,7 +122004,9 @@
         "apple_id": 1442117041,
         "apple_album_id": null,
         "apple_artist_id": 876674338,
-        "year": null
+        "mb_id": "6cf291f7-e65d-4acb-8362-e4a658c3b920",
+        "discogs_id": 3670567,
+        "year": 1996
       },
       {
         "artist": "Tim Booth & Andgelo Badalamenti",
@@ -121748,13 +122143,15 @@
         "year": 1996
       },
       {
-        "artist": "Proschai, Molodost",
-        "track": "I Forgive All...",
-        "album": "Songs Of Adult Boys",
-        "apple_id": null,
+        "artist": "Прощай, Молодость!",
+        "track": "Прощаю Все...",
+        "album": "Песни Взрослых Мальчиков",
+        "apple_id": 1770272066,
+        "apple_album_id": 1770271818,
+        "apple_artist_id": 1768654412,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 7670955,
+        "year": 1996
       },
       {
         "artist": "Chris & Cosey",
@@ -121849,6 +122246,7 @@
         "artist": "Sixteen Horsepower",
         "track": "Heel On The Shovel",
         "album": "Slackcloth `n` Ashes",
+        "apple_id": null,
         "mb_id": "aacfea77-86da-49c9-a1e0-12ad3c03c2be",
         "year": 1995
       },
@@ -121908,6 +122306,7 @@
         "apple_id": 1456143014,
         "apple_album_id": null,
         "apple_artist_id": 764019967,
+        "mb_id": "834b5732-d4db-46e3-ab0f-de96690e10f0",
         "year": 1988
       },
       {
@@ -122066,6 +122465,7 @@
         "apple_id": 1456143014,
         "apple_album_id": null,
         "apple_artist_id": 764019967,
+        "mb_id": "834b5732-d4db-46e3-ab0f-de96690e10f0",
         "year": 1988
       }
     ]
@@ -122168,17 +122568,17 @@
         "artist": "Flesh Quartet",
         "track": "Matter Doesn`t Matter",
         "album": null,
+        "apple_id": null,
         "mb_id": "f82bbebd-92f1-41d0-9a85-6897958c1e5c",
         "year": 1992
       },
       {
-        "artist": "Ulitsy",
-        "track": "Tequilamix",
-        "album": "Armenian Acid",
+        "artist": "Улицы",
+        "track": "Текиламикс (Камикадзеджаззз)",
+        "album": "Армянская Кислота",
         "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "mb_id": "ac7dd24d-b009-49ce-89c0-f10689b32c50",
+        "year": 1996
       },
       {
         "artist": "Current 93",
@@ -122405,6 +122805,7 @@
         "apple_id": 1860373748,
         "apple_album_id": 1860373740,
         "apple_artist_id": 26273167,
+        "mb_id": null,
         "year": 1995
       },
       {
@@ -122446,49 +122847,49 @@
         "year": 1996
       },
       {
-        "artist": "Posledny Shans",
-        "track": "Little Cat & Little Rat",
-        "album": "Kisunia & Krysunia",
+        "artist": "Последний Шанс",
+        "track": "Кисуня И Крысуня",
+        "album": "Кисуня И Крысуня",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 2814002,
+        "year": 1996
       },
       {
-        "artist": "Posledny Shans",
-        "track": "Piggy In The Clouds",
-        "album": "Kisunia & Krysunia",
+        "artist": "Последний Шанс",
+        "track": "Свинка В Облаках",
+        "album": "Кисуня И Крысуня",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 37749939,
+        "year": 1986
       },
       {
-        "artist": "Posledny Shans",
-        "track": "Coffee Shop",
-        "album": "Za uglom Kofeinia",
+        "artist": "Последний Шанс",
+        "track": "Кофейня",
+        "album": "А За Углом - Кофейня...",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 37750506,
+        "year": 1984
       },
       {
-        "artist": "Posledny Shans",
-        "track": "Samovar Ivan Ivanych",
-        "album": "Za uglom Kofeinia",
+        "artist": "Последний Шанс",
+        "track": "Самовар",
+        "album": "А За Углом - Кофейня...",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 5207603,
+        "year": 1996
       },
       {
-        "artist": "Posledny Shans",
-        "track": "Song About Vania",
+        "artist": "Последний Шанс",
+        "track": "Vanya's Song (Однажды Под Пасху...)",
         "album": "Unknown Bather",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 4604009,
+        "year": 1993
       },
       {
         "artist": "The Treble Spankers",
@@ -122543,7 +122944,11 @@
         "artist": "НОМ",
         "track": "Любовь инженера",
         "album": "Во имя разума",
-        "year": null
+        "apple_id": 1472998081,
+        "apple_album_id": 1472998076,
+        "apple_artist_id": 1090405536,
+        "mb_id": "e8ee9ba7-597a-408c-95e2-31104e6d2b2c",
+        "year": 1996
       },
       {
         "artist": "Melanie Garside",
@@ -122636,6 +123041,9 @@
         "artist": "Multplexe",
         "track": "Track # 15",
         "album": "What`s Sound Vol. 1",
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -122670,7 +123078,11 @@
         "artist": "НОМ",
         "track": "Укрблюз",
         "album": "Во имя разума",
-        "year": null
+        "apple_id": 1472998078,
+        "apple_album_id": 1472998076,
+        "apple_artist_id": 1090405536,
+        "mb_id": "dec19b08-15e7-4cf2-a8b3-2b9d2427a211",
+        "year": 1996
       }
     ]
   },
@@ -122743,7 +123155,11 @@
         "artist": "БГ",
         "track": "У кошки четыре ноги",
         "album": "Чубчик",
-        "year": null
+        "apple_id": 1799692057,
+        "apple_album_id": 1799692051,
+        "apple_artist_id": null,
+        "mb_id": "6a0e5bdf-e6b1-45ad-973a-e6108359d588",
+        "year": 1996
       },
       {
         "artist": "Antonella Ruggiero",
@@ -122777,6 +123193,7 @@
         "artist": "Aksak Maboul",
         "track": "Palmiers En Pots: a. Trio, b. Tango",
         "album": "Un peu de I`ame des bandits",
+        "apple_id": null,
         "mb_id": "927e19d5-bfeb-4b9d-9d23-71b09beca76c",
         "year": 1980
       },
@@ -122784,7 +123201,11 @@
         "artist": "Алексей Хвостенко",
         "track": "Ностальгическая песня",
         "album": "Прощание со степью",
-        "year": null
+        "apple_id": 1463383811,
+        "apple_album_id": 1463383801,
+        "apple_artist_id": 927898691,
+        "mb_id": "41ac44e5-c20d-448e-a50e-f226e9d371c4",
+        "year": 1981
       },
       {
         "artist": "Anitas Livs",
@@ -122941,7 +123362,10 @@
         "artist": "Солдат Семёнов",
         "track": "Сын полка",
         "album": "Constantinople Rescue Project",
-        "year": null
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": 5451013,
+        "year": 1996
       },
       {
         "artist": "Altan",
