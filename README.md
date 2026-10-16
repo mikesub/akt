@@ -80,6 +80,10 @@ A considerable part of the «FM Достоевский» archive is built on the
 [radar.lv/fmd](https://radar.lv/fmd), who collected its playlists for years: their episode posts
 and their playlist database's export. Huge thanks to them.
 
+## Data changelog
+
+[CHANGELOG.md](CHANGELOG.md): what changed in the data files and their format, for anyone who keeps a copy.
+
 ## License
 
 The playlists are compiled and written by Artemy Troitsky, for his programs; the files in
