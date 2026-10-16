@@ -60,8 +60,7 @@ Each track is found on Apple Music (the link) and on MusicBrainz (the original r
 Discogs fills a year both leave out, and `overrides.json` fixes what none gets right.
 `titles.json` restores names a playlist prints in another form, such as the XLS's Russian names in
 Latin letters, from the artist's own titles on MusicBrainz or elsewhere in the archive. A year after
-the episode aired (a reissue's) is ignored and the track looked up again. No genres: MusicBrainz's
-are CC BY-NC-SA, which would bind the data's license.
+the episode aired (a reissue's) is ignored and the track looked up again.
 
 This application uses Discogs' API but is not affiliated with, sponsored or endorsed by Discogs.
 'Discogs' is a trademark of Zink Media, LLC.
@@ -85,7 +84,7 @@ The playlists are compiled and written by Artemy Troitsky, for his programs; the
 publishers'. Neither license below covers them.
 
 - Code: [MIT](LICENSE).
-- Data (`docs/data/`, `overrides.json`, `titles.json`): years and links found for those tracks, dedicated to
-  the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Keep
-  it that way: nothing under a license with conditions (MusicBrainz's genres and tags are
-  CC BY-NC-SA) goes into it.
+- Data (`docs/data/`, `overrides.json`, `titles.json`, `countries.json`): what was found for those
+  tracks (years, links, countries), under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), so that MusicBrainz's genres
+  (CC BY-NC-SA 3.0, whose ShareAlike allows later versions) can join it. Until 2026-10-16 it was
+  CC0 1.0, and the versions published until then stay so.

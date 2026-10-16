@@ -18,8 +18,7 @@ import { close, credited, lead, main, nearTitles, plain, sameAlbum, sameArtist, 
  * The year is the earliest first release among the matching studio
  * recordings (live, demo and remixed ones left out): MusicBrainz keeps each
  * recording once with every release it is on, so a reissue does not hide the
- * original. No genres: MusicBrainz's are CC BY-NC-SA, which would bind the
- * data's license (it is CC0).
+ * original.
  */
 
 const API = 'https://musicbrainz.org/ws/2';

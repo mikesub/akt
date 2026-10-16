@@ -43,7 +43,7 @@ Not a product. No multi-user, no auth, no server, no re-hosting audio. If a chan
 
 ## Working rules
 
-- Data license: the data files, `overrides.json` and `titles.json` are CC0. Years and links only: never genres, tags or anything else under a license with conditions (MusicBrainz's genres are CC BY-NC-SA). The playlists themselves are Troitsky's, under no license of ours.
+- Data license: the data files, `overrides.json`, `titles.json` and `countries.json` are CC BY-NC-SA 4.0 (CC0 until 2026-10-16), so that MusicBrainz's genres (CC BY-NC-SA 3.0, whose ShareAlike allows later versions) can go in: per recording, else the album's, else the artist's, several a track, MusicBrainz's genre names as they are (its genres, not its free tags). The page credits MusicBrainz for them once they are in. Nothing under a license stricter than that (no commercial-use or no-derivatives terms). The playlists themselves are Troitsky's, under no license of ours.
 - No runtime dependencies: Node stdlib only. Justify any new one in the commit message.
 - Russian content is displayed as-is, and so is everything else from the sources (titles, artists, albums). The page's own interface is in Russian. Don't translate the host's notes.
 - Work directly on `main`: no feature branches, no worktrees. Push to `origin/main` right after every commit.
