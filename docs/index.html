@@ -646,11 +646,13 @@
     renderRows();
   });
 
-  // Each menu's first choice, naming what it lacks: «Все эпизоды, кроме № 29».
+  // Each menu's first choice, naming what it lacks: «Все эпизоды, кроме № 29», or past ten gaps
+  // «Все, кроме 45 эпизодов» (not «Все эпизоды, кроме 45 эпизодов»).
   const everyEpisode = Object.fromEntries(
     PROGRAMS.map(({ id }) => {
       const missing = missingOf(data[id].filter((episode) => (episode.tracks ?? []).length > 0));
-      return [id, missing.length === 0 ? 'Все эпизоды' : `Все эпизоды, кроме ${gapsOf(missing, 'эпизода', 'эпизодов')}`];
+      if (missing.length === 0) return [id, 'Все эпизоды'];
+      return [id, `${missing.length > 10 ? 'Все' : 'Все эпизоды'}, кроме ${gapsOf(missing, 'эпизода', 'эпизодов')}`];
     }),
   );
 
