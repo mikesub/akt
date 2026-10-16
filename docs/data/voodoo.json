@@ -9129,10 +9129,11 @@
         "artist": "//Eleven",
         "track": "Украiна",
         "album": "Течение",
-        "apple_id": null,
+        "apple_id": 1563187568,
+        "apple_album_id": 1563187226,
+        "apple_artist_id": 826010429,
         "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "year": 2012
       },
       {
         "artist": "Wayo",
@@ -11780,9 +11781,8 @@
         "track": "bugs build a house",
         "album": "retro zone",
         "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "mb_id": "04de29a6-2a08-42b5-b929-99ffa59caef3",
+        "year": 2013
       }
     ]
   },

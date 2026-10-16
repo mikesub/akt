@@ -1166,9 +1166,10 @@
         "artist": "Son оf The Velvet Rat",
         "track": "Stardust",
         "album": "SOLITARY COMPANY",
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
+        "apple_id": 1728334056,
+        "apple_album_id": 1728333851,
+        "apple_artist_id": 128417549,
+        "mb_id": "5567710e-f1e9-43a6-983b-3a508ea93aed",
         "year": 2021
       },
       {
@@ -2694,9 +2695,10 @@
         "artist": "LА Priest",
         "track": "It’s you",
         "album": "FASE LUNA",
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
+        "apple_id": 1670994226,
+        "apple_album_id": 1670994012,
+        "apple_artist_id": 268603973,
+        "mb_id": "e2da4e74-94e4-45dd-9bfe-99d7436a41fc",
         "year": 2023
       },
       {
@@ -6614,9 +6616,10 @@
         "artist": "Квiткiс",
         "track": "Привиди",
         "album": null,
-        "apple_id": null,
+        "apple_id": 1649532423,
+        "apple_album_id": null,
+        "apple_artist_id": 1513219851,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2022
       },
       {
@@ -14929,7 +14932,6 @@
         "album": "Elagu Ukraina/Слава Украiнi!",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2022
       },
       {
@@ -16464,9 +16466,10 @@
         "artist": "Witch’n’Monk",
         "track": "The Сage",
         "album": "Witch’n’Monk",
-        "apple_id": null,
+        "apple_id": 1514036844,
+        "apple_album_id": 1514036605,
+        "apple_artist_id": 1514036610,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2020
       },
       {
@@ -18174,7 +18177,6 @@
         "album": null,
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2022
       },
       {
@@ -18319,7 +18321,7 @@
         "apple_id": 1622620687,
         "apple_album_id": null,
         "apple_artist_id": 362306254,
-        "mb_id": null,
+        "mb_id": "7f5d65fe-fa52-4e3f-9dad-008470ef430c",
         "year": 2022
       },
       {
@@ -21608,7 +21610,6 @@
         "album": "A Separation оf Being",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2020
       },
       {
@@ -29508,7 +29509,6 @@
         "album": "Mirror",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
         "year": 1991
       },
       {
@@ -29517,7 +29517,6 @@
         "album": "Beauty Will Save The World",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2015
       },
       {
@@ -30271,7 +30270,7 @@
         "apple_id": 1457356419,
         "apple_album_id": 1457356410,
         "apple_artist_id": 205399579,
-        "mb_id": null,
+        "mb_id": "2e00ee9b-6ada-43a6-806d-57f987e3082c",
         "year": 2019
       },
       {
@@ -31362,8 +31361,8 @@
         "apple_id": 1438983211,
         "apple_album_id": 1438983199,
         "apple_artist_id": 1438983022,
-        "mb_id": null,
-        "year": 2018
+        "mb_id": "103bf2f8-8953-4521-b5ba-a7ee39bb85dd",
+        "year": 2019
       },
       {
         "artist": "Лявон Вольский",
@@ -31380,7 +31379,6 @@
         "album": "Бясконцы красавiк",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2015
       },
       {
@@ -36684,7 +36682,9 @@
         "artist": "Невидимки, cмотрящие на ботинки",
         "track": "Канифоль",
         "album": "Канифоль",
-        "apple_id": null,
+        "apple_id": 1550112942,
+        "apple_album_id": 1550112938,
+        "apple_artist_id": 790454860,
         "mb_id": "8d567321-1aff-4ac1-b5ae-377aa4e15914",
         "year": 2018
       },
@@ -41345,7 +41345,7 @@
         "apple_id": 1378978081,
         "apple_album_id": 1378978074,
         "apple_artist_id": 954164845,
-        "mb_id": null,
+        "mb_id": "bb71d100-52bb-41d9-bb09-bc4aba0b879f",
         "year": 2017
       },
       {
@@ -48438,7 +48438,6 @@
         "album": "Abbey Roadъ",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2014
       },
       {
@@ -48455,7 +48454,6 @@
         "album": "Abbey Roadъ",
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2014
       },
       {
@@ -48564,7 +48562,9 @@
         "artist": "Воплi Вiдоплясова",
         "track": "Мана",
         "album": "Чудовий свiт",
-        "apple_id": null,
+        "apple_id": 1860286281,
+        "apple_album_id": 1860286271,
+        "apple_artist_id": 732791918,
         "mb_id": "62a530c5-e2f2-4f8d-91c9-e42cb976a0cd",
         "year": 2013
       },
@@ -48986,9 +48986,10 @@
         "artist": "Моjo Juju",
         "track": "I Put A Spell on You",
         "album": "Mojo Juju",
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
+        "apple_id": 1583384612,
+        "apple_album_id": 1583384332,
+        "apple_artist_id": null,
+        "mb_id": "1101992a-50d1-44ca-b0c0-7b8bc6e0d82f",
         "year": 2012
       },
       {
@@ -48996,8 +48997,7 @@
         "track": "They Come аnd They Go",
         "album": "Seeing Red/Feeling Blue",
         "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
+        "mb_id": "d77a2602-e049-4e7f-b622-54acfafb0cfa",
         "year": 2015
       },
       {
@@ -49005,8 +49005,7 @@
         "track": "Ain't gonna wait",
         "album": "Seeing Red/Feeling Blue",
         "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
+        "mb_id": "fa429af5-d8c0-4c6c-b7cf-4b23a3732d1e",
         "year": 2015
       },
       {
@@ -49946,7 +49945,6 @@
         "album": null,
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2022
       },
       {
@@ -49955,7 +49953,6 @@
         "album": null,
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2022
       },
       {
@@ -50013,7 +50010,6 @@
         "album": null,
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2022
       },
       {
@@ -50414,7 +50410,6 @@
         "album": null,
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2018
       },
       {
@@ -50433,7 +50428,6 @@
         "apple_album_id": null,
         "apple_artist_id": 252191486,
         "mb_id": "e398044d-ac08-4d53-b1c2-60d1bc239b46",
-        "discogs_id": null,
         "year": 2017
       },
       {
@@ -50521,7 +50515,6 @@
         "album": null,
         "apple_id": null,
         "mb_id": null,
-        "discogs_id": null,
         "year": 2021
       },
       {

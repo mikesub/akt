@@ -2272,10 +2272,11 @@
         "artist": "ВоплI Biдоплясова",
         "track": "Мана",
         "album": "Чудовий свiт",
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "apple_id": 1860286281,
+        "apple_album_id": 1860286271,
+        "apple_artist_id": 732791918,
+        "mb_id": "62a530c5-e2f2-4f8d-91c9-e42cb976a0cd",
+        "year": 2013
       },
       {
         "artist": "Аkapulko",
@@ -4113,9 +4114,8 @@
         "track": "Шiдi-Рiдi",
         "album": "Хiпан",
         "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "mb_id": "13a79949-6dcd-4338-9ce7-43928fcc4ecd",
+        "year": 2002
       },
       {
         "artist": "Vasya Club",
@@ -8310,8 +8310,8 @@
         "apple_id": 1804733738,
         "apple_album_id": 1804733730,
         "apple_artist_id": 259063809,
-        "mb_id": null,
-        "year": 2012
+        "mb_id": "90179a6f-e37b-4ff4-a10d-a9dbe7824328",
+        "year": 2014
       },
       {
         "artist": "Trans Bangla",
