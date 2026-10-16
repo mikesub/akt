@@ -4,7 +4,7 @@ import { dirname } from 'node:path';
 import { appleStats, doubtLink, findAppleLinks, findOnApple, lookupSongs } from './apple.js';
 import { discogsStats, findOnDiscogs } from './discogs.js';
 import { findOnMusicBrainz, mbStats } from './musicbrainz.js';
-import { countryCodes } from './countries.js';
+import { countryCodes, vague } from './countries.js';
 import { applyOverrides } from './overrides.js';
 import { parsePlaylist } from './parse.js';
 import { keyOf, readPlaylists } from './playlists.js';
@@ -92,13 +92,17 @@ export const corrected = (track) => applyOverrides(shape(restoreTitle(coded(trac
 
 /**
  * A track's country codes, from its printed country whenever it has one, the
- * table having maybe changed since; else as bin/countries.js inferred them
- * (`country_from`: the same artist elsewhere in the archive, or MusicBrainz).
+ * table having maybe changed since; else, or when the printed one is vague
+ * ("Europe", "?"), as bin/countries.js inferred them (`country_from`: the
+ * same artist elsewhere in the archive, or MusicBrainz), the vague one's
+ * codes when it found none.
  */
 const coded = (track) => {
-  if (track.printed_country === undefined) return track;
-  if (track.printed_country) return { ...track, country: countryCodes(track.printed_country), country_from: undefined };
-  return { ...track, country: track.country ?? null };
+  const printed = track.printed_country;
+  if (printed === undefined) return track;
+  if (printed && !vague(printed)) return { ...track, country: countryCodes(printed), country_from: undefined };
+  if (track.country_from && track.country) return track;
+  return { ...track, country: printed ? countryCodes(printed) : (track.country ?? null) };
 };
 
 /** What the parse gives a track: its names and its printed country, with that country's codes. */

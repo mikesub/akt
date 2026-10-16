@@ -9,6 +9,10 @@ Routine updates (a new Стереоплан episode, a single fix) are not liste
 
 ## 2026-10-16
 
+- A track whose playlist prints only "Europe" or a placeholder (`"?"`, `"..."`) gets its artist's
+  country as one that prints none does: `country_from` can now be set beside a `printed_country`.
+  Legendary Pink Dots' "Europe" (#46) is now `NL`, `GB`, as its other episodes print. 10 tracks in
+  `fmd.json`, `svoboda.json`, `zapiski.json`; one "(Same)" in `pesni.json` set by hand (`overrides.json`).
 - `country` can hold `EU` (ISO 3166-1's reserved code), for a playlist's own "Europe" or "EU": 8 tracks
   in `fmd.json`, `null` before.
 - **Format:** three new track fields, after `album`:

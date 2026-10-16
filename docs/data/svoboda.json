@@ -9338,6 +9338,7 @@
         "album": "THE BEAT FROM 20.000 GARAGES",
         "printed_country": "?",
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": "87a205e5-f0d3-4864-be95-b639b4873521",
         "year": 2021
@@ -10603,6 +10604,7 @@
         "album": null,
         "printed_country": "?",
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -10727,7 +10729,10 @@
         "track": "Моя страна сошла с ума",
         "album": null,
         "printed_country": "?",
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1687165408,
         "apple_album_id": null,
         "apple_artist_id": 1132952297,
@@ -10739,7 +10744,10 @@
         "track": "Мир!! Вашему!! Дому!!",
         "album": null,
         "printed_country": "?",
-        "country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 1713766868,
         "apple_album_id": null,
         "apple_artist_id": null,
@@ -10752,6 +10760,7 @@
         "album": null,
         "printed_country": "?",
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,

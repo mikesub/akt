@@ -6239,7 +6239,10 @@
         "track": "Vyewo",
         "album": "Zanni nou",
         "printed_country": "Same",
-        "country": null,
+        "country": [
+          "HT",
+          "FR"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,

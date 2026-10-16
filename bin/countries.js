@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto';
 import { existsSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseArgs } from 'node:util';
-import { unmapped } from '../src/countries.js';
+import { unmapped, vague } from '../src/countries.js';
 import { findArtistCountry, mbCountryStats } from '../src/musicbrainz.js';
 import { readCountries } from '../src/parse.js';
 import { corrected } from '../src/pipeline.js';
@@ -17,7 +17,8 @@ Read with \`claude\` the country each playlist prints for its tracks parsed befo
 countries, one call a playlist, into docs/data/<program>.json: as printed (printed_country) and as
 codes (country, from countries.json). Stereoplan's descriptions are read from
 programs/stereoplan/descriptions/. A track whose playlist prints no country gets the one the same artist
-has most often elsewhere in the archive (country_from: archive); with --musicbrainz, one still without
+has most often elsewhere in the archive (country_from: archive), and so does one that prints only
+"Europe" or a placeholder ("?"); with --musicbrainz, one still without
 gets its artists' countries from MusicBrainz (country_from: musicbrainz), asked once. Then lists the
 printed countries countries.json has no codes for.
 Every program by default. Never run it beside another run of the same program: both write its data file;
@@ -121,15 +122,15 @@ for (const program of loaded) {
   program.episodes = program.episodes.map((e) => ({ ...e, tracks: e.tracks?.map((t) => ('printed_country' in t ? corrected(t) : t)) ?? null }));
 }
 
-// A track that prints no country: the codes its artist has most often where the archive prints one
-// (every program's, a tie left out), which wins over MusicBrainz; one filled so before and no longer
-// is asked again.
+// A track that prints no country, or only a vague one ("Europe", "?"): the codes its artist has most
+// often where the archive prints a clear one (every program's, a tie left out), which wins over
+// MusicBrainz; one filled so before and no longer is asked again.
 const artistKey = (name) => name?.toLowerCase().replace(/^the\s+/, '').replace(/\s+/g, ' ').trim() || null;
 const printedBy = new Map();
 for (const id of [...programs(), 'stereoplan']) {
   const episodes = loaded.find((p) => p.id === id)?.episodes ?? JSON.parse(readFileSync(join(ROOT, 'docs', 'data', `${id}.json`), 'utf8'));
   for (const t of episodes.flatMap((e) => e.tracks ?? [])) {
-    if (!t.printed_country || !t.country || !artistKey(t.artist)) continue;
+    if (!t.printed_country || vague(t.printed_country) || !t.country || !artistKey(t.artist)) continue;
     const counts = printedBy.get(artistKey(t.artist)) ?? new Map();
     const codes = t.country.join('/');
     printedBy.set(artistKey(t.artist), counts.set(codes, (counts.get(codes) ?? 0) + 1));
@@ -139,7 +140,7 @@ function fromArchive(artist) {
   const counts = [...(printedBy.get(artistKey(artist)) ?? [])].sort((a, b) => b[1] - a[1]);
   return counts.length > 0 && counts[0][1] > (counts[1]?.[1] ?? 0) ? counts[0][0].split('/') : null;
 }
-const unprinted = (t) => 'printed_country' in t && !t.printed_country;
+const unprinted = (t) => 'printed_country' in t && (!t.printed_country || vague(t.printed_country));
 for (const program of loaded) {
   for (const e of program.episodes) {
     e.tracks = e.tracks?.map((t) => {

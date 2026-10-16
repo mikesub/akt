@@ -2521,5 +2521,11 @@
     "track": "Don`t Tell",
     "apple_id": 300859588,
     "why": "Dicte, «Don’t Tell» on This Is Cool (2000), music.apple.com/nl/song/dont-tell/300859588 (found by hand); Apple’s search answers HTTP 500 for the title as the playlist prints it, with a backtick"
+  },
+  {
+    "artist": "J.C.Martineau-Beethova Obas-Ti Corn",
+    "track": "Vyewo",
+    "country": ["HT", "FR"],
+    "why": "«Песни и пляски» #32 prints its country as \"(Same)\": the line above's, Bob Bovano's (Haiti/France)"
   }
 ]

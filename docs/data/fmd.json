@@ -14752,6 +14752,7 @@
         "country": [
           "EU"
         ],
+        "country_from": "musicbrainz",
         "apple_id": 363997672,
         "apple_album_id": 363997117,
         "apple_artist_id": 276995227,
@@ -14766,6 +14767,7 @@
         "country": [
           "EU"
         ],
+        "country_from": "musicbrainz",
         "apple_id": 363998005,
         "apple_album_id": 363997117,
         "apple_artist_id": 276995227,
@@ -95878,6 +95880,7 @@
         "album": "Feeds You!",
         "printed_country": "?",
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 2200990,
@@ -99219,7 +99222,10 @@
         "track": "gagarin",
         "album": "standards",
         "printed_country": "fuck knows",
-        "country": null,
+        "country": [
+          "DE"
+        ],
+        "country_from": "archive",
         "apple_id": null,
         "mb_id": "63d8ac18-f2ad-4f04-bbd9-22097f2c38a1",
         "year": 2003
@@ -104813,6 +104819,7 @@
         "album": "it's fan-dabi-dozy!",
         "printed_country": "?",
         "country": null,
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": "d9cbd17f-7167-4f86-9f0c-aaddc45adb7a",
         "year": 2002
@@ -104850,7 +104857,10 @@
         "track": "penis=aura",
         "album": "it's fan-dabi-dozi!",
         "printed_country": "?",
-        "country": null,
+        "country": [
+          "US"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": "6ae2690e-9803-4b9e-b745-0264ff16338c",
         "year": 2003
@@ -108362,6 +108372,7 @@
         "country": [
           "EU"
         ],
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -140971,8 +140982,9 @@
         "album": "Una Producion Pop",
         "printed_country": "Europe",
         "country": [
-          "EU"
+          "DE"
         ],
+        "country_from": "musicbrainz",
         "apple_id": null,
         "mb_id": "d9ef412c-5f8b-4144-8558-f0ef7a147fc1",
         "year": 1998
@@ -162750,8 +162762,10 @@
         "album": "Stained Glass Soma Fountains",
         "printed_country": "Europe",
         "country": [
-          "EU"
+          "NL",
+          "GB"
         ],
+        "country_from": "archive",
         "apple_id": 156140798,
         "apple_album_id": null,
         "apple_artist_id": 6562709,
@@ -162764,8 +162778,10 @@
         "album": "Stained Glass Soma Fountains",
         "printed_country": "Europe",
         "country": [
-          "EU"
+          "NL",
+          "GB"
         ],
+        "country_from": "archive",
         "apple_id": 78372763,
         "apple_album_id": null,
         "apple_artist_id": 6562709,
@@ -162778,8 +162794,10 @@
         "album": "Hallway Of The Gods",
         "printed_country": "Europe",
         "country": [
-          "EU"
+          "NL",
+          "GB"
         ],
+        "country_from": "archive",
         "apple_id": 211814585,
         "apple_album_id": 211814511,
         "apple_artist_id": 6562709,
@@ -162792,8 +162810,10 @@
         "album": "Hallway Of The Gods",
         "printed_country": "Europe",
         "country": [
-          "EU"
+          "NL",
+          "GB"
         ],
+        "country_from": "archive",
         "apple_id": 211814593,
         "apple_album_id": 211814511,
         "apple_artist_id": 6562709,
