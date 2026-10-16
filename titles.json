@@ -369,5 +369,196 @@
       "artist": "Терем-квартет"
     },
     "why": "FM Достоевский #12, from the XLS: the artist translated (MusicBrainz: Терем-квартет); «Winter Morning» is the ensemble’s own title (MusicBrainz), so it stays"
+  },
+  {
+    "artist": "Notchnoy Prospekt",
+    "track": "Sonechka",
+    "restore": {
+      "artist": "Ночной Проспект",
+      "track": "Сонечка",
+      "album": "Гуманитарная Жизнь"
+    },
+    "why": "FM Достоевский #21, from the XLS: transliterated; MusicBrainz has Ночной Проспект’s recording «Сонечка» and their 1986 album «Гуманитарная Жизнь» (Humanitarian Life)"
+  },
+  {
+    "artist": "Ludmila Gurchenko & Mit`ki",
+    "track": "Who The Hell Knows?",
+    "restore": {
+      "artist": "Людмила Гурченко & Митьки",
+      "track": "И кто его знает",
+      "album": "Митьковские песни"
+    },
+    "why": "FM Достоевский #18, from the XLS: translated; MusicBrainz has Митьки’s recording «И кто его знает» and their 1996 album «Митьковские песни»"
+  },
+  {
+    "artist": "B. G.",
+    "track": "U koshki Chetyre Nogi",
+    "restore": {
+      "artist": "БГ",
+      "album": "Чубчик"
+    },
+    "why": "FM Достоевский #2, from the XLS: the artist transliterated (the archive credits him «БГ»); MusicBrainz has Борис Гребенщиков’s 1996 album «Чубчик»; the song is not among his recordings there, so its title stays as printed"
+  },
+  {
+    "artist": "Aliona Sviridova",
+    "track": "Old Colonel",
+    "restore": {
+      "artist": "Алёна Свиридова",
+      "track": "Старый полковник",
+      "album": "Ночью всё иначе"
+    },
+    "why": "FM Достоевский #11, from the XLS: translated; MusicBrainz has Алёна Свиридова’s recording «Старый полковник» and her 1997 album «Ночью всё иначе» (Night Changes All)"
+  },
+  {
+    "artist": "Va-Banque",
+    "track": "Robinson Crusoe",
+    "restore": {
+      "artist": "Ва-Банкъ",
+      "track": "Робинзон Крузо",
+      "album": "Домой!!"
+    },
+    "why": "FM Достоевский #53, from the XLS: translated; MusicBrainz has Ва-Банкъ’s recording «Робинзон Крузо» and their 1997 album «Домой!!»"
+  },
+  {
+    "artist": "Nastia",
+    "track": "River Of Desire",
+    "restore": {
+      "artist": "Настя",
+      "track": "Река желаний",
+      "album": "Море Сиам"
+    },
+    "why": "FM Достоевский #61, from the XLS: translated; MusicBrainz has Настя’s recording «Река желаний» and her 1997 album «Море Сиам» (Sea Of Siam)"
+  },
+  {
+    "artist": "Nastia",
+    "track": "Sea Of Siam",
+    "restore": {
+      "artist": "Настя",
+      "track": "Море Сиам",
+      "album": "Море Сиам"
+    },
+    "why": "FM Достоевский #61, from the XLS: translated; MusicBrainz has Настя’s recording and 1997 album «Море Сиам»"
+  },
+  {
+    "artist": "Nastia",
+    "track": "Clypso Calypso",
+    "restore": {
+      "artist": "Настя",
+      "track": "Клипсо-калипсо",
+      "album": "Тацу"
+    },
+    "why": "FM Достоевский #54, from the XLS: transliterated; MusicBrainz has Настя’s recording «Клипсо-калипсо» and her 1987 album «Тацу»"
+  },
+  {
+    "artist": "Nastia",
+    "track": "Flying Fregatte",
+    "restore": {
+      "artist": "Настя",
+      "track": "Летучий фрегат",
+      "album": "Невеста"
+    },
+    "why": "FM Достоевский #54, from the XLS: translated; MusicBrainz has Настя’s recording «Летучий фрегат» and her 1992 album «Невеста» (The Bride)"
+  },
+  {
+    "artist": "Nastia",
+    "track": "The Go-Round Song",
+    "restore": {
+      "artist": "Настя",
+      "track": "Хороводная",
+      "album": "Танец на цыпочках"
+    },
+    "why": "FM Достоевский #54, from the XLS: translated; MusicBrainz has Настя’s recording «Хороводная» and her 1994 album «Танец на цыпочках» (Dancing on Tiptoe)"
+  },
+  {
+    "artist": "Nastia",
+    "track": "Voices",
+    "restore": {
+      "artist": "Настя",
+      "track": "Голоса",
+      "album": "Танец на цыпочках"
+    },
+    "why": "FM Достоевский #54, from the XLS: translated; MusicBrainz has Настя’s recording «Голоса» and her 1994 album «Танец на цыпочках» (Dancing on Tiptoe)"
+  },
+  {
+    "artist": "Center",
+    "track": "New Land",
+    "restore": {
+      "artist": "Центр",
+      "track": "Новая земля"
+    },
+    "why": "FM Достоевский #71, from the XLS: translated; MusicBrainz has Центр’s recording «Новая земля»"
+  },
+  {
+    "artist": "Center",
+    "track": "Morella",
+    "restore": {
+      "artist": "Центр",
+      "track": "Морелла"
+    },
+    "why": "FM Достоевский #71, from the XLS: transliterated; MusicBrainz has Центр’s recording «Морелла»"
+  },
+  {
+    "artist": "Center",
+    "track": "Stars Are Always Nice…",
+    "restore": {
+      "artist": "Центр",
+      "track": "Звёзды всегда хороши особенно ночью"
+    },
+    "why": "FM Достоевский #71, from the XLS: translated; MusicBrainz has Центр’s recording «Звёзды всегда хороши особенно ночью»"
+  },
+  {
+    "artist": "Center",
+    "track": "Evil Spots",
+    "restore": {
+      "artist": "Центр",
+      "track": "Пятна зловещих узоров"
+    },
+    "why": "FM Достоевский #71, from the XLS: translated; MusicBrainz has Центр’s recording «Пятна зловещих узоров»"
+  },
+  {
+    "artist": "Center",
+    "track": "Photo Lab",
+    "restore": {
+      "artist": "Центр",
+      "track": "Фотолаборатория"
+    },
+    "why": "FM Достоевский #71, from the XLS: translated; MusicBrainz has Центр’s recording «Фотолаборатория»"
+  },
+  {
+    "artist": "Centre",
+    "track": "Uncertain Blur Of God-Knows-What",
+    "restore": {
+      "artist": "Центр",
+      "track": "Смутное пятно неизвестно чего"
+    },
+    "why": "FM Достоевский #10, from the XLS: translated; MusicBrainz has Центр’s recording «Смутное пятно неизвестно чего»"
+  },
+  {
+    "artist": "Megapolis",
+    "track": "The Ballad Of Wax And Honey",
+    "restore": {
+      "artist": "Мегаполис",
+      "track": "Баллада о воске и мёде",
+      "album": "Гроза в деревне"
+    },
+    "why": "FM Достоевский #12, from the XLS: translated; MusicBrainz has Мегаполис’s recording «Баллада о воске и мёде» and their 1996 album «Гроза в деревне» (Storm In A Village)"
+  },
+  {
+    "artist": "Mango Mango",
+    "track": "Hole In The Plane",
+    "restore": {
+      "artist": "Манго-Манго",
+      "track": "Ассс (Щель в самолёте)",
+      "album": "Полный Щорс"
+    },
+    "why": "FM Достоевский #28, from the XLS: translated; MusicBrainz has Манго-Манго’s recording «Ассс (Щель в самолёте)» and their 1997 album «Полный Щорс»"
+  },
+  {
+    "artist": "Oedipus Complex",
+    "track": "Melodic Old Minor",
+    "restore": {
+      "artist": "Эдипов Комплекс"
+    },
+    "why": "FM Достоевский #28, from the XLS: the artist translated (MusicBrainz: Эдипов Комплекс, whose 1996 album is «Egoism»); «Melodic Old Minor» is the band’s own title (MusicBrainz), so it stays"
   }
 ]
