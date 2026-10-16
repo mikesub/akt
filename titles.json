@@ -732,5 +732,15 @@
       "album": "Божество"
     },
     "why": "FM Достоевский #27, from the XLS: translated; the owner pointed to Биосинтез’s 1996 album «Божество» (Deity; SoLyd, discogs.com/release/6283638) and, probably, its last track, «Противоборство» (6:26; the XLS notes an edit)"
+  },
+  {
+    "artist": "Constantin Belyayev",
+    "track": "Bachelors' Hymn",
+    "restore": {
+      "artist": "Константин Беляев",
+      "track": "Гимн Холостяков",
+      "album": "Озорной Привет Из Застойных Лет"
+    },
+    "why": "FM Достоевский #38, from the XLS: translated; the owner pointed to Константин Беляев’s 1997 album «Озорной Привет Из Застойных Лет» (Regards From The Years Of Stagnation, discogs.com/master/1440485), track 13 «Гимн Холостяков»"
   }
 ]
