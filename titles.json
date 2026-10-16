@@ -800,5 +800,15 @@
       "album": "Вечером"
     },
     "why": "FM Достоевский #68, from the XLS: translated; the owner pointed to Амурские Волны’s 1997 album «Вечером» (In The Evening, discogs.com/master/1746724), track 5 «Он влюбился»"
+  },
+  {
+    "artist": "Sergei De Rocambole",
+    "track": "Spirit Annoying",
+    "restore": {
+      "artist": "Сергей де Рокамболь",
+      "track": "Дух Назойливый",
+      "album": "НезаконНоРожденный АльХимик Доктор Фауст - Пернатый Змей"
+    },
+    "why": "FM Достоевский #69, from the XLS: translated; the owner pointed to Вячеслав Бутусов / Георгий Каспарян’s 1997 album «НезаконНоРожденный АльХимик Доктор Фауст - Пернатый Змей» (RDM, discogs.com/master/295264), track 2 «Дух Назойливый»; Сергей де Рокамболь, whom the playlist credits, is among its vocalists"
   }
 ]
