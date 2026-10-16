@@ -22,7 +22,9 @@ const USER_AGENTS = { 'musicbrainz.org': 'akt/0.1 ( akt@mksb.me )' };
  * no limit and its robots.txt no Crawl-delay: 2 s, as a courtesy to a news
  * site. radar.lv, a fan site's FM Достоевский archive: 10 s, its robots.txt
  * Crawl-delay (checked 2026-10-14). web.archive.org publishes no limit and
- * answers 429 when pushed: 4 s, as a courtesy. Any other host: 1 s.
+ * answers 429 when pushed: 4 s, as a courtesy. music.apple.com (the web
+ * player's API, unofficial, for the one-off playlists) publishes none: 2 s,
+ * as a courtesy. Any other host: 1 s.
  */
 const GAPS = {
   'itunes.apple.com': 3_000,
@@ -31,6 +33,7 @@ const GAPS = {
   'svoboda.org': 2_000,
   'radar.lv': 10_000,
   'web.archive.org': 4_000,
+  'music.apple.com': 2_000,
 };
 const DISCOGS_WINDOW = 60_000; // Discogs counts requests over a moving minute
 const DEFAULT_GAP = 1_000;
@@ -80,7 +83,13 @@ function noteLimits(host, headers) {
  * (MusicBrainz answers a busy 503 with "Retry-After: 0"), and tries again; a
  * network error waits 5 s; up to five requests in all.
  */
-export async function get(url, { as = 'json' } = {}) {
+export const get = (url, { as = 'json' } = {}) => request(url, { as });
+
+/**
+ * As `get`, with a method, extra headers and a body (an object is sent as JSON).
+ * A 204 is null. Only the one-off Apple Music playlists need it (AGENTS.md).
+ */
+export async function request(url, { method = 'GET', headers = {}, body, as = 'json' } = {}) {
   const host = new URL(url).hostname;
   for (let attempt = 1; ; attempt++) {
     const wait = Math.max((last.get(host) ?? 0) + gapFor(host), until.get(host) ?? 0) - Date.now();
@@ -89,7 +98,16 @@ export async function get(url, { as = 'json' } = {}) {
 
     let res;
     try {
-      res = await fetch(url, { headers: { 'User-Agent': forHost(USER_AGENTS, host) ?? USER_AGENT }, signal: AbortSignal.timeout(30_000) });
+      res = await fetch(url, {
+        method,
+        headers: {
+          'User-Agent': forHost(USER_AGENTS, host) ?? USER_AGENT,
+          ...(body && typeof body === 'object' ? { 'Content-Type': 'application/json' } : {}),
+          ...headers,
+        },
+        body: body && typeof body === 'object' ? JSON.stringify(body) : body,
+        signal: AbortSignal.timeout(30_000),
+      });
     } catch (err) {
       if (attempt < TRIES) {
         console.error(`${host}: ${err.message}, retrying in 5 s`);
@@ -108,6 +126,7 @@ export async function get(url, { as = 'json' } = {}) {
       continue;
     }
     if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText} (${host})`);
+    if (res.status === 204) return null;
     if (as === 'bytes') return Buffer.from(await res.arrayBuffer());
     return as === 'text' ? res.text() : res.json();
   }
