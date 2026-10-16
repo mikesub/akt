@@ -1,13 +1,5 @@
 [
   {
-    "artist": "7Б",
-    "track": "Rammstein",
-    "restore": {
-      "track": "Раммштайн"
-    },
-    "why": "FM Достоевский #255, from the XLS: transliterated; MusicBrainz has 7Б’s recording «Раммштайн»"
-  },
-  {
     "artist": "Peter Mamonov",
     "track": "Ljuljaki Bab",
     "restore": {
@@ -31,9 +23,10 @@
     "track": "Babe",
     "restore": {
       "artist": "Несчастный случай",
+      "track": "Малышка",
       "album": "Межсезонье"
     },
-    "why": "FM Достоевский #27, from the XLS: translated; MusicBrainz has Несчастный случай’s 1996 album «Межсезонье» (Out Of Season); the song is not identified, so its title stays as printed"
+    "why": "FM Достоевский #27, from the XLS: translated; the owner (who knows the program’s Russian repertoire) confirmed it: «Малышка»; MusicBrainz has the recording and Несчастный случай’s 1996 album «Межсезонье» (Out Of Season)"
   },
   {
     "artist": "Tantsy Na Vole",
@@ -95,9 +88,10 @@
     "track": "Captain Africa",
     "restore": {
       "artist": "Аквариум",
+      "track": "Капитан Африка",
       "album": "Радио Африка"
     },
-    "why": "FM Достоевский #15, from the XLS: the artist misspelt; MusicBrainz has Аквариум’s 1983 album «Радио Африка»; the song’s own title is not confirmed by a source, so it stays as printed"
+    "why": "FM Достоевский #15, from the XLS: translated, the artist misspelt; the owner (who knows the program’s Russian repertoire) confirmed it: «Капитан Африка», the second track of «Радио Африка» (Аквариум’s 1983 album, MusicBrainz)"
   },
   {
     "artist": "Ludmila Gurchenko",
@@ -208,9 +202,9 @@
     "track": "Jailhouse Rock",
     "restore": {
       "artist": "Комитет охраны тепла",
-      "track": "Тюремный рок"
+      "track": "Тюремный Рок (Jailhouse Rock)"
     },
-    "why": "FM Достоевский #37, from the XLS: translated; MusicBrainz has Комитет охраны тепла’s recording «Тюремный рок», and none called «Jailhouse Rock»"
+    "why": "FM Достоевский #37, from the XLS: translated; Discogs lists the song as «Тюремный Рок (Jailhouse Rock)» on Комитет Охраны Тепла’s «Охуенная Страна» (discogs.com/release/24400730), and MusicBrainz has their recording «Тюремный рок»"
   },
   {
     "artist": "Alexey Khvostenko",
@@ -265,9 +259,11 @@
     "artist": "NOM",
     "track": "You Will Howl, Germany!",
     "restore": {
-      "artist": "НОМ"
+      "artist": "НОМ",
+      "track": "Ты будешь выть, Германия!",
+      "album": "Евро"
     },
-    "why": "FM Достоевский #72, from the XLS: the artist transliterated; the song is not identified, so its title stays as printed"
+    "why": "FM Достоевский #72, from the XLS: translated; the owner (who knows the program’s Russian repertoire) confirmed it: «Ты будешь выть, Германия!» from НОМ’s album «Евро» (Euro)"
   },
   {
     "artist": "Colibri",
@@ -284,35 +280,39 @@
     "track": "Siamese Hearts",
     "restore": {
       "artist": "Мумий Тролль",
+      "track": "Сиамские сердца",
       "album": "Икра"
     },
-    "why": "FM Достоевский #57, from the XLS: the artist translated; MusicBrainz has Мумий Тролль’s 1997 album «Икра» (Caviar); the song is not identified, so its title stays as printed"
+    "why": "FM Достоевский #57, from the XLS: translated; the owner (who knows the program’s Russian repertoire) confirmed it: «Сиамские сердца»; MusicBrainz has Мумий Тролль’s 1997 album «Икра» (Caviar)"
   },
   {
     "artist": "Mummy Troll",
     "track": "Kicks",
     "restore": {
       "artist": "Мумий Тролль",
+      "track": "Забавы",
       "album": "Морская"
     },
-    "why": "FM Достоевский #30, from the XLS: the artist translated; MusicBrainz has Мумий Тролль’s 1997 album «Морская» (Marine); the song is not identified, so its title stays as printed"
+    "why": "FM Достоевский #30, from the XLS: translated; the owner (who knows the program’s Russian repertoire) confirmed it: «Забавы»; MusicBrainz has the recording and Мумий Тролль’s 1997 album «Морская» (Marine)"
   },
   {
     "artist": "Mummy Troll",
     "track": "Skip Away",
     "restore": {
-      "artist": "Мумий Тролль"
+      "artist": "Мумий Тролль",
+      "track": "Утекай"
     },
-    "why": "FM Достоевский #16, from the XLS: the artist translated; the song is not identified, so its title stays as printed"
+    "why": "FM Достоевский #16, from the XLS: translated; the owner (who knows the program’s Russian repertoire) confirmed it: «Утекай», on «Морская» (released 24 April 1997, MusicBrainz)"
   },
   {
     "artist": "Dva Samoliota",
     "track": "As Long As Big Ben Stands",
     "restore": {
       "artist": "2ва самолёта",
+      "track": "Пока стоит Биг Бэн",
       "album": "Пчёлы и мёд"
     },
-    "why": "FM Достоевский #24, from the XLS: the artist transliterated (MusicBrainz writes it «2ва самолёта»); MusicBrainz has their 1996 album «Пчёлы и мёд» (Bees & Honey); the song is not identified, so its title stays as printed"
+    "why": "FM Достоевский #24, from the XLS: translated; the owner (who knows the program’s Russian repertoire) confirmed it: «Пока стоит Биг Бэн»; MusicBrainz writes the band «2ва самолёта» and has their 1996 album «Пчёлы и мёд» (Bees & Honey)"
   },
   {
     "artist": "Daddooshki",
@@ -395,9 +395,10 @@
     "track": "U koshki Chetyre Nogi",
     "restore": {
       "artist": "БГ",
+      "track": "У кошки четыре ноги",
       "album": "Чубчик"
     },
-    "why": "FM Достоевский #2, from the XLS: the artist transliterated (the archive credits him «БГ»); MusicBrainz has Борис Гребенщиков’s 1996 album «Чубчик»; the song is not among his recordings there, so its title stays as printed"
+    "why": "FM Достоевский #2, from the XLS: transliterated; the owner (who knows the program’s Russian repertoire) confirmed it: «У кошки четыре ноги»; the archive credits him «БГ», and MusicBrainz has Борис Гребенщиков’s 1996 album «Чубчик»"
   },
   {
     "artist": "Aliona Sviridova",
@@ -560,5 +561,31 @@
       "artist": "Эдипов Комплекс"
     },
     "why": "FM Достоевский #28, from the XLS: the artist translated (MusicBrainz: Эдипов Комплекс, whose 1996 album is «Egoism»); «Melodic Old Minor» is the band’s own title (MusicBrainz), so it stays"
+  },
+  {
+    "artist": "Soldat Semionov",
+    "track": "Topol",
+    "restore": {
+      "artist": "Солдат Семёнов",
+      "track": "Тополь"
+    },
+    "why": "FM Достоевский #58, from the XLS: transliterated; the owner (who knows the program’s Russian repertoire) confirmed it: «Тополь» (“probably”); the archive, #116, and MusicBrainz have the artist as Солдат Семёнов"
+  },
+  {
+    "artist": "Soldat Semenov",
+    "track": "Syn Polka",
+    "restore": {
+      "artist": "Солдат Семёнов",
+      "track": "Сын полка"
+    },
+    "why": "FM Достоевский #1, from the XLS: transliterated; the owner (who knows the program’s Russian repertoire) confirmed it: «Сын полка»; the archive, #116, and MusicBrainz have the artist as Солдат Семёнов"
+  },
+  {
+    "artist": "Rjaba Mutant",
+    "track": "Mutango",
+    "restore": {
+      "artist": "РяБа Mutant"
+    },
+    "why": "FM Достоевский #74, from the XLS: the artist transliterated; the owner (who knows the program’s Russian repertoire) confirmed it: «РяБа Mutant»; the song is not identified, so its title stays as printed"
   }
 ]

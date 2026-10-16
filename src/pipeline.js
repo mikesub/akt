@@ -34,6 +34,7 @@ export const OPTIONS = {
   misses: { type: 'boolean' },
   musicbrainz: { type: 'boolean' },
   relink: { type: 'boolean' },
+  only: { type: 'string' },
 };
 
 /** Their lines in a command's usage text. */
@@ -46,12 +47,21 @@ export const OPTIONS_USAGE = `  --limit <n>        Parse at most n playlists, ne
   --musicbrainz      Look every track up on MusicBrainz again, and search Apple Music
                      again for each link that looks wrong
   --relink           Look every track up again from scratch (no new claude calls)
+  --only <pattern>   With --misses, --musicbrainz or --relink: only the tracks whose
+                     artist, title or album matches the pattern (a regular expression)
 `;
 export function checkOptions(values) {
   const limit = values.limit === undefined ? Infinity : Number(values.limit);
   if (!(limit > 0 && (Number.isInteger(limit) || limit === Infinity))) {
     throw new Error(`--limit must be a positive integer, got: ${values.limit}`);
   }
+  let only = null;
+  try {
+    if (values.only !== undefined) only = new RegExp(values.only, 'u');
+  } catch (err) {
+    throw new Error(`--only must be a regular expression: ${err.message}`);
+  }
+  if (only && !(values.misses || values.musicbrainz || values.relink)) throw new Error('--only goes with --misses, --musicbrainz or --relink');
   const episode = values.episode === undefined ? null : Number(values.episode);
   if (episode !== null && !(Number.isInteger(episode) && episode > 0)) {
     throw new Error(`--episode must be a playlist number, got: ${values.episode}`);
@@ -63,6 +73,7 @@ export function checkOptions(values) {
     misses: values.misses ?? false,
     musicbrainz: values.musicbrainz ?? false,
     relink: values.relink ?? false,
+    matching: only,
   };
 }
 
@@ -146,7 +157,7 @@ function forget(track, { misses, musicbrainz, relink }) {
  * even if unchanged, at most `limit` of them; with `parseOnly`, no lookups
  * (they make no requests, so it can run beside another program's lookups);
  * with `misses`, `musicbrainz` or `relink`, tracks asked again (see
- * forget). A program is src/playlists.js `program`; one whose playlists are
+ * forget), only those whose names match `matching` if given. A program is src/playlists.js `program`; one whose playlists are
  * not files (Stereoplan) also gives `read`, its playlists as readPlaylists
  * returns them, each with `fields`, the episode's fields in their stored
  * order (a `guid` among them keys it), and `parse`. Returns how many parses
@@ -154,7 +165,7 @@ function forget(track, { misses, musicbrainz, relink }) {
  */
 export async function run(
   { id, playlists: dir, data, read = () => readPlaylists(dir), parse = parsePlaylist },
-  { limit = Infinity, episode: only = null, parseOnly = false, misses = false, musicbrainz = false, relink = false } = {},
+  { limit = Infinity, episode: only = null, parseOnly = false, misses = false, musicbrainz = false, relink = false, matching = null } = {},
 ) {
   let saved = 0;
   /** Stable key order, newest episode first. Written whole and renamed into place, so a killed run leaves the previous file. */
@@ -202,9 +213,12 @@ export async function run(
     const options = { misses, musicbrainz, relink };
     // With `musicbrainz`, each Apple Music link is checked too, by id in batches: one that looks wrong
     // (another artist or title, a live version, gone) is forgotten and searched for again.
-    const songs = musicbrainz ? await lookupSongs(episodes.flatMap((e) => e.tracks ?? []).map((t) => t.apple_id).filter(Boolean)) : null;
+    // With `matching` (--only), only the tracks whose names match.
+    const asked = (t) => !matching || matching.test(`${t.artist}\n${t.track}\n${t.album ?? ''}`);
+    const songs = musicbrainz ? await lookupSongs(episodes.flatMap((e) => e.tracks ?? []).filter(asked).map((t) => t.apple_id).filter(Boolean)) : null;
     for (const episode of episodes) {
       episode.tracks = episode.tracks?.map((t) => {
+        if (!asked(t)) return t;
         const doubt = songs && t.apple_id ? doubtLink(t, songs.get(t.apple_id)) : null;
         if (doubt) console.log(`${episode.number === null ? episode.published_at : `#${episode.number}`}: ${t.artist} — ${t.track}: was ${doubt}, searching again`);
         // The doubted song's link and the year it may have given; MusicBrainz is asked again anyway.

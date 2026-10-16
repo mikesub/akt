@@ -22,11 +22,19 @@ const same = (a, b) => (a ?? '').trim().toLowerCase() === (b ?? '').trim().toLow
 
 const titles = JSON.parse(readFileSync(FILE, 'utf8'));
 
-/** The track under its restored names, if an entry names it as printed. */
+/** Whether a track's name is the entry's, as printed or as the entry restores it. */
+const named = (entry, track, key) => entry[key] === undefined || same(entry[key], track[key]) || same(entry.restore[key], track[key]);
+
+/**
+ * The track under its restored names, if an entry names it: as printed, or
+ * partly restored already (an entry that has since restored the title too
+ * still finds a track that has only its artist restored). One of its names
+ * must still be as printed, so a track that already had the restored names
+ * (the same song elsewhere in the archive) is never touched.
+ */
 export function restoreTitle(track) {
-  const entry = titles.find(
-    (e) => same(e.artist, track.artist) && (e.track === undefined || same(e.track, track.track)) && (e.album === undefined || same(e.album, track.album)),
-  );
+  const printed = (e) => NAMES.some((key) => e[key] !== undefined && same(e[key], track[key]));
+  const entry = titles.find((e) => printed(e) && NAMES.every((key) => named(e, track, key)));
   if (!entry) return track;
   const restored = { ...track, ...Object.fromEntries(NAMES.filter((key) => key in entry.restore).map((key) => [key, entry.restore[key]])) };
   if (NAMES.every((key) => restored[key] === track[key])) return track;

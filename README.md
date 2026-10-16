@@ -32,6 +32,7 @@ node bin/playlists.js pesni --limit 5               # at most 5 playlists, newes
 node bin/playlists.js zapiski --episode 1 --limit 1 # playlist 1 again, and only it
 node bin/playlists.js fmd --parse-only              # parse, look nothing up
 node bin/playlists.js svoboda --misses              # look up again what Apple Music or MusicBrainz missed
+node bin/playlists.js fmd --misses --only '`'      # only the misses whose names match the pattern
 ```
 
 `--musicbrainz` asks MusicBrainz again for every track (and searches Apple Music again for each
