@@ -285,6 +285,16 @@
     if (code === 'GB-WLS') return '🏴\u{E0067}\u{E0062}\u{E0077}\u{E006C}\u{E0073}\u{E007F}';
     return [...(FLAG_OF[code] ?? code)].map((c) => String.fromCodePoint(0x1f1e6 + c.charCodeAt(0) - 65)).join('');
   };
+  /**
+   * The filter's chips: one per flag, so a former state goes with its successor (the data and the
+   * table keep them apart); a chip that stands for two names both.
+   */
+  const chipOf = (code) => FLAG_OF[code] ?? code;
+  const CHIP_NAMES = {
+    RU: 'Россия/СССР', CZ: 'Чехия/Чехословакия', RS: 'Сербия/Югославия', DE: 'Германия/ГДР', VN: 'Вьетнам/Южный Вьетнам',
+    GB: 'Великобритания/Северная Ирландия',
+  };
+  const chipName = (chip) => CHIP_NAMES[chip] ?? countryName(chip);
   /** Where a country not printed in the playlist comes from, for its flag's hover text. */
   const COUNTRY_FROM = { archive: 'по другим выпускам', musicbrainz: 'по данным MusicBrainz' };
 
@@ -339,6 +349,7 @@
         episode_url: episode.url ?? episode.mp3_url ?? null,
         decade: track.year ? `${Math.floor(track.year / 10) * 10}-е` : UNKNOWN,
         countries: track.country?.length ? track.country : [NO_COUNTRY],
+        countryChips: track.country?.length ? [...new Set(track.country.map(chipOf))] : [NO_COUNTRY],
       }));
     });
   const rows = PROGRAMS.flatMap(({ id }) => tracksOf(data[id], id));
@@ -482,12 +493,12 @@
   };
   // Countries go by how many tracks the whole archive has from each, so the chips keep their places; none last.
   const countryTotals = new Map();
-  for (const row of rows) for (const code of row.countries) countryTotals.set(code, (countryTotals.get(code) ?? 0) + 1);
+  for (const row of rows) for (const chip of row.countryChips) countryTotals.set(chip, (countryTotals.get(chip) ?? 0) + 1);
   const facets = {
     decade: { values: (row) => [row.decade], order: (a, b) => byUnknownLast(a, b) || a.name.localeCompare(b.name) },
     country: {
       multi: true,
-      values: (row) => row.countries,
+      values: (row) => row.countryChips,
       order: (a, b) => (a.name === NO_COUNTRY) - (b.name === NO_COUNTRY) || countryTotals.get(b.name) - countryTotals.get(a.name),
     },
     ...Object.fromEntries(
@@ -537,7 +548,7 @@
     const decade = params.get('decade');
     const selected = {
       decade: decade === 'unknown' ? UNKNOWN : /^\d{4}$/.test(decade ?? '') ? `${decade}-е` : null,
-      country: params.get('country')?.split(',') ?? null,
+      country: params.get('country')?.split(',').map(chipOf) ?? null, // SU, a link from before the chips merged, is RU's
     };
     for (const id of Object.keys(info)) {
       const value = params.get(id);
@@ -660,12 +671,12 @@
       if (facet.selected !== null) section.open = true;
       const picked = facet.selected ?? [];
       section.querySelector('.picked').textContent =
-        picked.length === 1 ? `${flag(picked[0])} ${countryName(picked[0])}` : picked.map(flag).join(' ');
+        picked.length === 1 ? `${flag(picked[0])} ${chipName(picked[0])}` : picked.map(flag).join(' ');
       section.querySelector('.chips').innerHTML = chips
         .map(
           (chip) =>
             `<button class="chip flag" data-value="${escape(chip.name)}" aria-pressed="${isPicked(facet, chip.name)}"` +
-            ` title="${escape(countryName(chip.name))}" aria-label="${escape(`${countryName(chip.name)}: ${chip.count}`)}">` +
+            ` title="${escape(chipName(chip.name))}" aria-label="${escape(`${chipName(chip.name)}: ${chip.count}`)}">` +
             `<span class="emoji" aria-hidden="true">${flag(chip.name)}</span><span aria-hidden="true">${chip.count}</span></button>`,
         )
         .join('');
