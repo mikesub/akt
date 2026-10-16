@@ -742,5 +742,25 @@
       "album": "Озорной Привет Из Застойных Лет"
     },
     "why": "FM Достоевский #38, from the XLS: translated; the owner pointed to Константин Беляев’s 1997 album «Озорной Привет Из Застойных Лет» (Regards From The Years Of Stagnation, discogs.com/master/1440485), track 13 «Гимн Холостяков»"
+  },
+  {
+    "artist": "Alexei Slepak",
+    "track": "Marihuana",
+    "restore": {
+      "artist": "Леша Слепак Встречает Обер-Манекен",
+      "track": "Марихуана",
+      "album": "Зелёный Альбом"
+    },
+    "why": "FM Достоевский #10, from the XLS: transliterated; the owner pointed to «Зелёный Альбом» (1996, Bliss Records, discogs.com/release/7351487), credited «Леша Слепак Встречает Обер-Манекен», track 3 «Марихуана»"
+  },
+  {
+    "artist": "A. P. Zubarev",
+    "track": "Pavlov's Waltz",
+    "restore": {
+      "artist": "А.П.Зубарев",
+      "track": "Павловский Вальс",
+      "album": "Тайные Записки Международного Лейтенанта"
+    },
+    "why": "FM Достоевский #48, from the XLS: translated; the owner pointed to А.П.Зубарев’s 1997 album «Тайные Записки Международного Лейтенанта» (International Lieutenant's Notes, discogs.com/master/477609), track 21 «Павловский Вальс»"
   }
 ]
