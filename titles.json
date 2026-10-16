@@ -781,5 +781,14 @@
       "track": "Arabic Tango Ya Zahratan Fi Khayali"
     },
     "why": "FM Достоевский #98, from the XLS: the owner pointed to «Arabic Tango» (1998, discogs.com/master/1419250), credited «Leena Malak Feat. Gasan Mamedov», whose track 1 is «Arabic Tango Ya Zahratan Fi Khayali» (the XLS notes an edit)"
+  },
+  {
+    "artist": "Bely Den",
+    "track": "ABBA",
+    "restore": {
+      "artist": "Белый День",
+      "album": "Балалайка In Rock"
+    },
+    "why": "FM Достоевский #41, from the XLS: the artist transliterated; the owner pointed to Белый День’s 1996 album «Балалайка In Rock» (discogs.com/master/1070750), whose track 6 is «ABBA», as printed"
   }
 ]
