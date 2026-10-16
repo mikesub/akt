@@ -663,5 +663,25 @@
       "track": "Vanya's Song (Однажды Под Пасху...)"
     },
     "why": "FM Достоевский #4, from the XLS: translated; Последний Шанс’s 1993 album «Unknown Bather» (Cue Sound Service, discogs.com/release/4604009) prints its titles in both languages, track 6 «Vanya's Song (Однажды Под Пасху...)»"
+  },
+  {
+    "artist": "Unterwasser",
+    "track": "Shapiro On Rhein",
+    "restore": {
+      "artist": "Унтервассер",
+      "track": "Шапиро На Рейне",
+      "album": "Пирамида Алеша"
+    },
+    "why": "FM Достоевский #73, from the XLS: translated; the owner pointed to Унтервассер’s 1996 album «Пирамида Алеша» (discogs.com/release/15330712; other artists share the Latin name), track 3 «Шапиро На Рейне»"
+  },
+  {
+    "artist": "Unterwasser",
+    "track": "Little Fisherman",
+    "restore": {
+      "artist": "Унтервассер",
+      "track": "Рыбачок",
+      "album": "Пирамида Алеша"
+    },
+    "why": "FM Достоевский #73, from the XLS: translated; the owner pointed to Унтервассер’s 1996 album «Пирамида Алеша» (discogs.com/release/15330712; other artists share the Latin name), track 1 «Рыбачок»"
   }
 ]
