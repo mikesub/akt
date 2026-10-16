@@ -302,7 +302,7 @@
       "artist": "Мумий Тролль",
       "track": "Утекай"
     },
-    "why": "FM Достоевский #16, from the XLS: translated; the owner (who knows the program’s Russian repertoire) confirmed it: «Утекай», on «Морская» (released 24 April 1997, MusicBrainz)"
+    "why": "FM Достоевский #16, from the XLS: translated; the owner (who knows the program’s Russian repertoire) confirmed it: «Утекай», on «Морская» (released 24 April 1997, MusicBrainz); #16 likely aired it before the release"
   },
   {
     "artist": "Dva Samoliota",
@@ -318,9 +318,10 @@
     "artist": "Daddooshki",
     "track": "A Shumelo!",
     "restore": {
-      "artist": "Deadушки"
+      "artist": "Deadушки",
+      "track": "Шумела-гремела"
     },
-    "why": "FM Достоевский #23, from the XLS: the artist transliterated (MusicBrainz: Deadушки); the song is not identified, so its title stays as printed"
+    "why": "FM Достоевский #23, from the XLS: transliterated; the owner (who knows the program’s Russian repertoire) confirmed it: «Шумела-гремела», which MusicBrainz has among Deadушки’s recordings, on «Искусство каменных статуй» (1 March 1998): #23 aired before that, likely a pre-release airing"
   },
   {
     "artist": "Devushkin Son",
