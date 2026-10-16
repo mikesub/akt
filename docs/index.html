@@ -89,6 +89,15 @@
   .chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-fg); }
   .chip[aria-pressed="true"] span { color: inherit; opacity: .7; }
   .chip:disabled { opacity: .4; cursor: default; }
+  /* Countries: a flag to a chip, its name on hover; folded away until opened. */
+  details.facet summary { cursor: pointer; width: max-content; list-style-position: inside; color: var(--muted); }
+  details.facet summary h2 { display: inline; }
+  details.facet[open] summary { margin-bottom: 6px; }
+  details.facet .picked { margin-left: 6px; font-size: 13px; color: var(--fg); }
+  .chip.flag { padding: 2px 8px; }
+  .chip.flag .emoji { font-size: 16px; line-height: 1; vertical-align: -1px; }
+  td.flags { white-space: nowrap; font-size: 16px; line-height: 1.2; }
+  td.flags span + span { margin-left: 2px; }
   .summary { margin: 4px 0 0; color: var(--muted); }
   /* A program to a row: its name and its episode menu; on a phone, one under the other. */
   .programs { display: grid; grid-template-columns: max-content minmax(0, 360px); gap: 6px 16px; align-items: center; margin: 16px 0 0; }
@@ -148,8 +157,8 @@
   th[aria-sort] .sort { color: var(--fg); }
   /*
    * On a phone a track is a card, not five columns to scroll sideways:
-   *   artist      year
-   *   track       episode
+   *   artist  flags year
+   *   track      episode
    *   album
    * and the column heads are a line of sort buttons above the list.
    */
@@ -158,16 +167,17 @@
     thead tr { display: flex; flex-wrap: wrap; gap: 4px 14px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
     thead th { display: block; padding: 0; border: 0; }
     #rows tr {
-      display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 12px;
-      grid-template-areas: "artist year" "track episode" "album album";
+      display: grid; grid-template-columns: minmax(0, 1fr) auto auto; column-gap: 0;
+      grid-template-areas: "artist flags year" "track episode episode" "album album album";
       padding: 8px 0; border-bottom: 1px solid var(--line);
     }
     #rows td { padding: 0; border: 0; min-width: 0; }
     #rows td:nth-child(1) { grid-area: artist; font-weight: 600; }
     #rows td:nth-child(2) { grid-area: track; }
     #rows td:nth-child(3) { grid-area: album; font-size: 13px; color: var(--muted); }
-    #rows td:nth-child(4) { grid-area: year; text-align: right; color: var(--muted); }
-    #rows td:nth-child(5) { grid-area: episode; text-align: right; font-size: 13px; }
+    #rows td:nth-child(4) { grid-area: year; text-align: right; color: var(--muted); padding-left: 8px; }
+    #rows td:nth-child(5) { grid-area: flags; text-align: right; font-size: 15px; padding-left: 12px; }
+    #rows td:nth-child(6) { grid-area: episode; text-align: right; font-size: 13px; padding-left: 12px; }
   }
   footer { margin: 24px 0 8px; font-size: 12px; color: var(--muted); }
   /* Back to the top, once the page is scrolled past its first screen. */
@@ -202,6 +212,11 @@
   <div class="chips"></div>
 </div>
 
+<details class="facet" id="country">
+  <summary><h2>Страна</h2><span class="picked"></span></summary>
+  <div class="chips"></div>
+</details>
+
 <div class="search">
   <span class="search-box">
     <input type="search" id="search" placeholder="Поиск: артист, трек, альбом, год" aria-label="Поиск по трекам" autocomplete="off">
@@ -225,6 +240,7 @@
         <th><button class="sort" data-sort="track">Трек</button></th>
         <th><button class="sort" data-sort="album">Альбом</button></th>
         <th><button class="sort" data-sort="year">Год</button></th>
+        <th><button class="sort" data-sort="country">Страна</button></th>
         <th><button class="sort" data-sort="episode">Эпизод</button></th>
       </tr>
     </thead>
@@ -237,7 +253,8 @@
 
 <footer>
   Нашли ошибку или хотите помочь с недостающими плейлистами? Пишите на <a href="mailto:akt@mksb.me">akt@mksb.me</a>, <a href="https://bsky.app/profile/mikesub.net">bsky</a>.<br>
-  Годы выпуска — по данным <a href="https://musicbrainz.org">MusicBrainz</a>, <a href="https://www.discogs.com">Discogs</a> и Apple Music.
+  Годы выпуска — по данным <a href="https://musicbrainz.org">MusicBrainz</a>, <a href="https://www.discogs.com">Discogs</a> и Apple Music;
+  страны — из плейлистов, а где их там нет — из других выпусков и MusicBrainz.
   Плейлисты составлены Артемием Троицким; остальные данные — <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru">CC BY-NC-SA 4.0</a>.<br>
   Огромное спасибо авторам <a href="https://radar.lv/fmd">radar.lv/fmd</a>: значительная часть архива «FM Достоевского» держится на их многолетней работе.<br>
   Исходный код (<a href="https://github.com/mikesub/akt/blob/main/LICENSE">MIT</a>) и <a href="https://github.com/mikesub/akt/tree/main/docs/data">данные в JSON</a> — на <a href="https://github.com/mikesub/akt">GitHub</a>; пулл-реквесты приветствуются.
@@ -245,6 +262,31 @@
 
 <script type="module">
   const UNKNOWN = 'Год неизвестен';
+  const NO_COUNTRY = 'unknown'; // the country facet's value, and its URL's, for a track with none
+
+  /**
+   * A country's Russian name and flag, by its code (countries.json): the browser's own names, but for
+   * the codes it names wrongly or not at all; a former state shows its successor's flag, Northern
+   * Ireland the Union flag, Wales its own.
+   */
+  const COUNTRY_NAMES = { SU: 'СССР', CS: 'Чехословакия', YU: 'Югославия', DD: 'ГДР', VD: 'Южный Вьетнам', 'GB-WLS': 'Уэльс', 'GB-NIR': 'Северная Ирландия' };
+  const FLAG_OF = { SU: 'RU', CS: 'CZ', YU: 'RS', DD: 'DE', VD: 'VN', 'GB-NIR': 'GB' };
+  const regionNames = new Intl.DisplayNames('ru', { type: 'region' });
+  const countryName = (code) => {
+    if (code === NO_COUNTRY) return 'Страна неизвестна';
+    try {
+      return COUNTRY_NAMES[code] ?? regionNames.of(code) ?? code;
+    } catch {
+      return code;
+    }
+  };
+  const flag = (code) => {
+    if (code === NO_COUNTRY) return '🏴‍☠️';
+    if (code === 'GB-WLS') return '🏴\u{E0067}\u{E0062}\u{E0077}\u{E006C}\u{E0073}\u{E007F}';
+    return [...(FLAG_OF[code] ?? code)].map((c) => String.fromCodePoint(0x1f1e6 + c.charCodeAt(0) - 65)).join('');
+  };
+  /** Where a country not printed in the playlist comes from, for its flag's hover text. */
+  const COUNTRY_FROM = { archive: 'по другим выпускам', musicbrainz: 'по данным MusicBrainz' };
 
   /**
    * His programs with a data file, oldest first: the id that tags their
@@ -296,6 +338,7 @@
         episode: `${program}${name.startsWith('#') ? '' : ' '}${name}`,
         episode_url: episode.url ?? episode.mp3_url ?? null,
         decade: track.year ? `${Math.floor(track.year / 10) * 10}-е` : UNKNOWN,
+        countries: track.country?.length ? track.country : [NO_COUNTRY],
       }));
     });
   const rows = PROGRAMS.flatMap(({ id }) => tracksOf(data[id], id));
@@ -398,6 +441,7 @@
     track: { compare: (a, b) => collator.compare(a.track, b.track), missing: (row) => !row.track },
     album: { compare: (a, b) => collator.compare(a.album, b.album), missing: (row) => !row.album },
     year: { compare: (a, b) => a.year - b.year, missing: (row) => !row.year },
+    country: { compare: (a, b) => collator.compare(countryName(a.countries[0]), countryName(b.countries[0])), missing: (row) => row.countries[0] === NO_COUNTRY },
     episode: { compare: (a, b) => collator.compare(a.episode, b.episode), missing: () => false },
   };
   let sort = { key: 'artist', dir: 1 };
@@ -408,11 +452,14 @@
   }
 
   /**
-   * Each facet: the row value it filters on and how its choices are ordered:
-   * chips for the decade, a menu for each program's episodes. One value at a
-   * time per facet (`selected`, null for all). A program's episode facet has
-   * no value for the other programs' rows, so picking an episode shows that
-   * episode alone (and clears the other menus); the decade facet spans them all.
+   * Each facet: the row's values it filters on (a track can have several
+   * countries) and how its choices are ordered: chips for the decade and the
+   * country, a menu for each program's episodes. One value at a time per
+   * facet (`selected`, null for all), but for the country, which takes
+   * several (`multi`: `selected` a list, null for all); a row matches when
+   * one of its values is picked. A program's episode facet has no value for
+   * the other programs' rows, so picking an episode shows that episode alone
+   * (and clears the other menus); the decade and country facets span them all.
    */
   // A menu goes by air date, so specials sit where they aired; the two parts of a two-part article
   // share a date and go by number. An undated episode (FM Достоевский's first years) takes the date
@@ -433,12 +480,20 @@
     const direction = running ? -1 : 1;
     return (a, b) => direction * ((dates.get(a.name) ?? '').localeCompare(dates.get(b.name) ?? '') || collator.compare(a.name, b.name));
   };
+  // Countries go by how many tracks the whole archive has from each, so the chips keep their places; none last.
+  const countryTotals = new Map();
+  for (const row of rows) for (const code of row.countries) countryTotals.set(code, (countryTotals.get(code) ?? 0) + 1);
   const facets = {
-    decade: { value: (row) => row.decade, order: (a, b) => byUnknownLast(a, b) || a.name.localeCompare(b.name) },
+    decade: { values: (row) => [row.decade], order: (a, b) => byUnknownLast(a, b) || a.name.localeCompare(b.name) },
+    country: {
+      multi: true,
+      values: (row) => row.countries,
+      order: (a, b) => (a.name === NO_COUNTRY) - (b.name === NO_COUNTRY) || countryTotals.get(b.name) - countryTotals.get(a.name),
+    },
     ...Object.fromEntries(
       PROGRAMS.map(({ id, running }) => [
         id,
-        { value: (row) => (row.program === id ? row.episode_name : null), order: byAirDate(id, running) },
+        { values: (row) => (row.program === id ? [row.episode_name] : []), order: byAirDate(id, running) },
       ]),
     ),
   };
@@ -455,7 +510,13 @@
     let episode = false; // one episode at a time across all programs
     for (const [key, facet] of Object.entries(facets)) {
       const value = selected[key];
-      const fits = typeof value === 'string' && !(info[key] && episode) && rows.some((row) => facet.value(row) === value);
+      const exists = (v) => typeof v === 'string' && rows.some((row) => facet.values(row).includes(v));
+      if (facet.multi) {
+        const kept = Array.isArray(value) ? [...new Set(value.filter(exists))] : [];
+        facet.selected = kept.length > 0 ? kept : null;
+        continue;
+      }
+      const fits = exists(value) && !(info[key] && episode);
       facet.selected = fits ? value : null;
       if (fits && info[key]) episode = true;
     }
@@ -466,14 +527,18 @@
   }
 
   /**
-   * The view in the URL, to share: ?q=cohen&decade=1980&pesni=12&link=1&sort=-year (a special by its
-   * date, svoboda=2022-03-10; decade=unknown for no year; sort left out when by artist, A to Z).
+   * The view in the URL, to share: ?q=cohen&decade=1980&country=GB&pesni=12&link=1&sort=-year (a special
+   * by its date, svoboda=2022-03-10; decade=unknown for no year, country=unknown for no country; sort left
+   * out when by artist, A to Z).
    */
-  const URL_KEYS = ['q', 'decade', ...Object.keys(info), 'link', 'sort'];
+  const URL_KEYS = ['q', 'decade', 'country', ...Object.keys(info), 'link', 'sort'];
   function viewFromUrl() {
     const params = new URLSearchParams(location.search);
     const decade = params.get('decade');
-    const selected = { decade: decade === 'unknown' ? UNKNOWN : /^\d{4}$/.test(decade ?? '') ? `${decade}-е` : null };
+    const selected = {
+      decade: decade === 'unknown' ? UNKNOWN : /^\d{4}$/.test(decade ?? '') ? `${decade}-е` : null,
+      country: params.get('country')?.split(',') ?? null,
+    };
     for (const id of Object.keys(info)) {
       const value = params.get(id);
       selected[id] = value === null ? null : /^\d+$/.test(value) ? `#${Number(value)}` : value;
@@ -491,13 +556,15 @@
     if (query) params.set('q', search.value.trim());
     const decade = facets.decade.selected;
     if (decade) params.set('decade', decade === UNKNOWN ? 'unknown' : decade.replace(/-е$/, ''));
+    if (facets.country.selected) params.set('country', facets.country.selected.join(','));
     for (const id of Object.keys(info)) {
       const episode = facets[id].selected;
       if (episode) params.set(id, episode.replace(/^#/, ''));
     }
     if (appleOnly) params.set('link', '1');
     if (sort.key !== 'artist' || sort.dir !== 1) params.set('sort', `${sort.dir < 0 ? '-' : ''}${sort.key}`);
-    const string = params.toString();
+    // Commas are fine in a query: ?country=GB,US, not GB%2CUS.
+    const string = params.toString().replaceAll('%2C', ',');
     return string ? `?${string}` : '';
   }
 
@@ -547,10 +614,13 @@
     return String(text ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
   }
 
-  /** A row matches when every facet with a selection (bar those in `except`) has that value, and has a link if asked. */
+  /** Whether a facet's value is picked: its one choice, or one of its choices. */
+  const isPicked = (facet, value) => (facet.multi ? facet.selected?.includes(value) ?? false : facet.selected === value);
+
+  /** A row matches when every facet with a selection (bar those in `except`) has that value among the row's, and has a link if asked. */
   function matches(row, except = []) {
     return (!appleOnly || row.apple_id) && Object.entries(facets).every(
-      ([key, facet]) => except.includes(key) || facet.selected === null || facet.value(row) === facet.selected,
+      ([key, facet]) => except.includes(key) || facet.selected === null || facet.values(row).some((value) => isPicked(facet, value)),
     );
   }
 
@@ -558,13 +628,14 @@
     const facet = facets[key];
     const counts = new Map();
     for (const row of rows) {
-      const value = facet.value(row);
-      if (value === null) continue;
-      // An episode menu lists all its episodes, whatever the filters: one with no track under them shows 0 rows.
-      if (info[key] || matches(row, [key])) counts.set(value, (counts.get(value) ?? 0) + 1);
-      else if (!info[key] && !counts.has(value)) counts.set(value, 0); // every decade stays, greyed at 0
+      const counted = info[key] || matches(row, [key]);
+      for (const value of facet.values(row)) {
+        // An episode menu lists all its episodes, whatever the filters: one with no track under them shows 0 rows.
+        if (counted) counts.set(value, (counts.get(value) ?? 0) + 1);
+        else if (key === 'decade' && !counts.has(value)) counts.set(value, 0); // every decade stays, greyed at 0; a country goes
+      }
     }
-    if (facet.selected !== null && !counts.has(facet.selected)) counts.set(facet.selected, 0);
+    for (const value of facet.multi ? facet.selected ?? [] : [facet.selected]) if (value !== null && !counts.has(value)) counts.set(value, 0);
 
     const chips = [...counts].map(([name, count]) => ({ name, count })).sort(facet.order);
     const section = document.getElementById(key);
@@ -582,6 +653,22 @@
         chips
           .map((chip) => `<option value="${escape(chip.name)}"${chip.name === facet.selected ? ' selected' : ''}>${escape(label(chip))}</option>`)
           .join('');
+      return;
+    }
+    if (key === 'country') {
+      // Folded until opened, and opened by a link that picks one; folded, it still shows the one picked.
+      if (facet.selected !== null) section.open = true;
+      const picked = facet.selected ?? [];
+      section.querySelector('.picked').textContent =
+        picked.length === 1 ? `${flag(picked[0])} ${countryName(picked[0])}` : picked.map(flag).join(' ');
+      section.querySelector('.chips').innerHTML = chips
+        .map(
+          (chip) =>
+            `<button class="chip flag" data-value="${escape(chip.name)}" aria-pressed="${isPicked(facet, chip.name)}"` +
+            ` title="${escape(countryName(chip.name))}" aria-label="${escape(`${countryName(chip.name)}: ${chip.count}`)}">` +
+            `<span class="emoji" aria-hidden="true">${flag(chip.name)}</span><span aria-hidden="true">${chip.count}</span></button>`,
+        )
+        .join('');
       return;
     }
     section.querySelector('.chips').innerHTML = chips
@@ -608,8 +695,16 @@
     const episode = row.episode_url
       ? `<a href="${escape(row.episode_url)}" target="_blank" rel="noopener">${escape(row.episode)}</a>`
       : escape(row.episode);
+    // Every country's flag, its name (and where it comes from, when the playlist does not print it) on hover.
+    const from = COUNTRY_FROM[row.country_from];
+    // Codes sharing a flag ("СССР/Россия") show it once, with both names.
+    const byFlag = new Map();
+    for (const code of row.countries[0] === NO_COUNTRY ? [] : row.countries) byFlag.set(flag(code), [...(byFlag.get(flag(code)) ?? []), countryName(code)]);
+    const flags = [...byFlag]
+      .map(([emoji, names]) => `<span title="${escape(names.join(' / ') + (from ? ` · ${from}` : ''))}" role="img" aria-label="${escape(names.join(' / '))}">${emoji}</span>`)
+      .join('');
     return `<tr><td>${apple('artist', row.apple_artist_id, row.artist)}</td><td>${title}</td><td>${apple('album', row.apple_album_id, row.album)}</td>` +
-      `<td class="num">${escape(row.year)}</td><td class="num">${episode}</td></tr>`;
+      `<td class="num">${escape(row.year)}</td><td class="flags">${flags}</td><td class="num">${episode}</td></tr>`;
   }
 
   // The table is drawn PAGE rows at a time, the next ones as its end nears the screen:
@@ -716,9 +811,15 @@
     document.getElementById(key).querySelector('.chips').addEventListener('click', (event) => {
       const chip = event.target.closest('.chip');
       if (!chip || chip.disabled) return;
-      // Picking a value replaces the previous one; picking it again clears the facet.
+      // A decade replaces the previous one, and picked again clears the facet; a country is added to
+      // the ones picked, or taken off them.
       const facet = facets[key];
-      facet.selected = facet.selected === chip.dataset.value ? null : chip.dataset.value;
+      const value = chip.dataset.value;
+      if (facet.multi) {
+        const picked = facet.selected ?? [];
+        const next = picked.includes(value) ? picked.filter((v) => v !== value) : [...picked, value];
+        facet.selected = next.length > 0 ? next : null;
+      } else facet.selected = facet.selected === value ? null : value;
       render();
     });
   }
@@ -762,6 +863,7 @@
     ['track', (row) => row.track],
     ['album', (row) => row.album],
     ['year', (row) => row.year],
+    ['country', (row) => (row.country ?? []).join(' ')],
     ['apple_music_url', (row) => link('https://music.apple.com/song/', row.apple_id)],
     ['apple_album_url', (row) => link('https://music.apple.com/album/', row.apple_album_id)],
     ['apple_artist_url', (row) => link('https://music.apple.com/artist/', row.apple_artist_id)],
