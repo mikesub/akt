@@ -588,5 +588,31 @@
       "artist": "РяБа Mutant"
     },
     "why": "FM Достоевский #74, from the XLS: the artist transliterated; the owner (who knows the program’s Russian repertoire) confirmed it: «РяБа Mutant»; the song is not identified, so its title stays as printed"
+  },
+  {
+    "artist": "Pep-See",
+    "track": "Love, Love",
+    "restore": {
+      "track": "Любовь, любовь",
+      "album": "Три звезды на небе"
+    },
+    "why": "FM Достоевский #17, from the XLS: translated; the owner asked for the band’s Russian titles (Pep-See stays as the band spells itself); MusicBrainz has Pep-See’s recording «Любовь, любовь» and their 1996 album «Три звезды на небе» (Three Stars In The Sky)"
+  },
+  {
+    "artist": "Pep-See",
+    "track": "Catch My Kisses",
+    "restore": {
+      "track": "Лови мои поцелуи",
+      "album": "Три звезды на небе"
+    },
+    "why": "FM Достоевский #17, from the XLS: translated; the owner asked for the band’s Russian titles (Pep-See stays as the band spells itself); MusicBrainz has Pep-See’s recording «Лови мои поцелуи» and their 1996 album «Три звезды на небе» (Three Stars In The Sky)"
+  },
+  {
+    "artist": "Tequilajazzz & Species Of Fishes",
+    "track": "The Pistol (Dying Is Easy Mix)",
+    "restore": {
+      "track": "Пистолет (Dying ... Is EASY mix)"
+    },
+    "why": "FM Достоевский #44, from the XLS: translated; the owner (who knows the program’s Russian repertoire) confirmed it: «Пистолет»; MusicBrainz has Tequilajazzz’s recording «Пистолет (Dying ... Is EASY mix)», from «Virus Versus Virus» (1997)"
   }
 ]
