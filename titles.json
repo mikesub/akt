@@ -919,5 +919,14 @@
       "album": "The Waltz Of Emptiness"
     },
     "why": "FM Достоевский #429, from fmd.soyuz.ru: transliterated; the owner pointed to «The Waltz Of Emptiness (And Other Songs On Russian Themes)» (2004, discogs.com/master/688394), whose track 3 is «Does It Matter? = Не Всё Ль Равно?»"
+  },
+  {
+    "artist": "oyme",
+    "track": "kudan'kou kiyaksova",
+    "restore": {
+      "artist": "Oyme",
+      "track": "Kudankon Kiyaksova (On The Floor At Matchmakers)"
+    },
+    "why": "FM Достоевский #775, from Финам FM: misspelt; the owner pointed to Oyme’s «In The Soul There Is A Whole World» (L-Pro, discogs.com/release/31699151), which prints its Erzya titles in Latin, track 1 «Kudankon Kiyaksova (On The Floor At Matchmakers)»; the playlist’s album, «oyme», stays"
   }
 ]
