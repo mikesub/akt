@@ -23,7 +23,7 @@ Stop and ask if the tree has uncommitted changes: they are not yours to commit.
 node bin/stereoplan.js
 ```
 
-It fetches the feed, saves each episode's description in `stereoplan/descriptions/`, sends every new or edited one to `claude` (about 20 s each), and looks each new track up on Apple Music (about 6 s a track), MusicBrainz (about 3–10 s, slower when it is busy) and Discogs (only a track both left without a year), the three side by side, saving `docs/data/stereoplan.json` as it goes. Read its output:
+It fetches the feed, saves each episode's description in `programs/stereoplan/descriptions/`, sends every new or edited one to `claude` (about 20 s each), and looks each new track up on Apple Music (about 6 s a track), MusicBrainz (about 3–10 s, slower when it is busy) and Discogs (only a track both left without a year), the three side by side, saving `docs/data/stereoplan.json` as it goes. Read its output:
 
 - `stereoplan: 90 playlists, 1 to parse, 0 tracks already parsed to look up`: how many episodes were new or edited.
 - `#90: 13 tracks`: an episode parsed.
@@ -37,7 +37,7 @@ If it says `0 to parse` and nothing to look up, there is nothing new: say so and
 
 ## 3. Check the result
 
-**Only the expected episodes changed.** `git status --short` and `git diff --stat`: `docs/data/stereoplan.json` and the new episode's `stereoplan/descriptions/<number>.html`. Skim `git diff docs/data/stereoplan.json`: the new episode's entry plus, at most, feed fields of others (title, duration). An existing episode's tracks changing means its description was edited upstream; mention which.
+**Only the expected episodes changed.** `git status --short` and `git diff --stat`: `docs/data/stereoplan.json` and the new episode's `programs/stereoplan/descriptions/<number>.html`. Skim `git diff docs/data/stereoplan.json`: the new episode's entry plus, at most, feed fields of others (title, duration). An existing episode's tracks changing means its description was edited upstream; mention which.
 
 **The tracks match the description.** Print the episode's description as text and compare it with what was parsed, entry by entry (artist, title, album; same count, same order):
 
@@ -64,7 +64,7 @@ Do not edit `stereoplan.json` by hand. If the parse is wrong, report it and stop
 ## 4. Commit, push, confirm the site
 
 ```sh
-git add docs/data/stereoplan.json stereoplan/descriptions
+git add docs/data/stereoplan.json programs/stereoplan/descriptions
 git commit -m "Episode #89: 13 tracks, 11 on Apple Music"
 git push
 ```

@@ -8,12 +8,12 @@ import { fetchFeed } from '../src/stereoplan.js';
 
 const ROOT = join(import.meta.dirname, '..');
 /** Each episode's description as the feed has it, so the playlists outlive the feed. */
-const DESCRIPTIONS = join(ROOT, 'stereoplan', 'descriptions');
+const DESCRIPTIONS = join(ROOT, 'programs', 'stereoplan', 'descriptions');
 
 const USAGE = `Usage: stereoplan [options]
 
 «Стереоплан Троицкого»: fetch the feed, keep each episode's description in
-stereoplan/descriptions/, parse every new or edited one and find its tracks on Apple Music
+programs/stereoplan/descriptions/, parse every new or edited one and find its tracks on Apple Music
 and MusicBrainz (and on Discogs when both leave the year out), into
 docs/data/stereoplan.json, as \`node bin/playlists.js\` does for the other programs.
 

@@ -6,7 +6,7 @@ them; `claude` reads each one into tracks, which are then found on Apple Music, 
 Discogs.
 
 - «FM Достоевский» (1997–2013, `fmd`): rebuilt from archived copies of its sites, radar.lv's fan
-  archive and its playlist database (`fmd/NOTES.md`).
+  archive and its playlist database (`programs/fmd/NOTES.md`).
 - Stereo Voodoo (2013–2015, `voodoo`), «Песни и пляски» and «Записки из подполья» (2016–2017,
   `pesni`, `zapiski`): from Apple's copies of their podcast feeds.
 - «Музыка на Свободе» on Radio Svoboda (2017–2025, `svoboda`): the feed has no tracklists, so each
@@ -24,7 +24,7 @@ Discogs.
 
 Every program goes through one pipeline: each new or edited playlist is parsed by `claude`, then
 each track is looked up. Every program but Stereoplan keeps one file per playlist,
-`<program>/playlists/<number>.txt`, and one command runs any of them:
+`programs/<program>/playlists/<number>.txt`, and one command runs any of them:
 
 ```sh
 node bin/playlists.js voodoo                        # into docs/data/voodoo.json
@@ -39,9 +39,9 @@ link that looks wrong); `--relink` looks everything up again from scratch. Stere
 are its feed's episode descriptions, and «Музыка на Свободе» can fetch its own:
 
 ```sh
-node bin/stereoplan.js        # fetch the feed, keep the descriptions in stereoplan/descriptions/, run
-node bin/svoboda.js --fetch   # fetch the articles in svoboda/articles.txt into svoboda/playlists/,
-                              # and list what is missing in svoboda/MISSING.md
+node bin/stereoplan.js        # fetch the feed, keep the descriptions in programs/stereoplan/descriptions/, run
+node bin/svoboda.js --fetch   # fetch the articles in programs/svoboda/articles.txt into programs/svoboda/playlists/,
+                              # and list what is missing in programs/svoboda/MISSING.md
 node bin/svoboda.js           # the same run as node bin/playlists.js svoboda
 ```
 
@@ -49,11 +49,11 @@ Both take the same options. Run one program at a time: the lookups are paced per
 (`--parse-only` makes no requests, so it can run beside another). A run is resumable: interrupted,
 or with failed lookups, the same command picks up where it stopped.
 
-A Svoboda playlist found elsewhere goes in by hand as `svoboda/playlists/<number>.txt`. An article
+A Svoboda playlist found elsewhere goes in by hand as `programs/svoboda/playlists/<number>.txt`. An article
 on a two-part subject carries both parts' playlists, and each gets its own file. A header's number
 is sometimes wrong; such a file is renumbered by hand, by date, with a `note:` line saying why.
 «FM Достоевский»'s playlists are built from its sources by `node bin/fmd-playlists.js` (see
-`fmd/NOTES.md`): never edit them by hand.
+`programs/fmd/NOTES.md`): never edit them by hand.
 
 Each track is found on Apple Music (the link) and on MusicBrainz (the original release year);
 Discogs fills a year both leave out, and `overrides.json` fixes what none gets right. A year after
@@ -64,7 +64,7 @@ This application uses Discogs' API but is not affiliated with, sponsored or endo
 'Discogs' is a trademark of Zink Media, LLC.
 
 Everything lands in `docs/data/<program>.json` (`stereoplan.json`, `svoboda.json`, …); each
-program's raw playlists stay in the repo too (`stereoplan/descriptions/`, `svoboda/playlists/`, …),
+program's raw playlists stay in the repo too (`programs/stereoplan/descriptions/`, `programs/svoboda/playlists/`, …),
 so nothing depends on a source staying online. Review the diff, commit, push: GitHub Pages
 serves `docs/`.
 

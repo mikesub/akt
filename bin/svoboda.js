@@ -8,14 +8,14 @@ import { ARTICLES, MISSING, PLAYLISTS, fetchArticle, fetchPodcast } from '../src
 
 const USAGE = `Usage: svoboda [options]
 
-«Музыка на Свободе»: parse every new or edited playlist in svoboda/playlists/ and find its tracks
+«Музыка на Свободе»: parse every new or edited playlist in programs/svoboda/playlists/ and find its tracks
 on Apple Music and MusicBrainz (and on Discogs when both leave the year out), into
 docs/data/svoboda.json, as \`node bin/playlists.js svoboda\` does. Years and Apple Music links
 only: no genres.
 
 Options:
-  --fetch            Only fetch every article in svoboda/articles.txt that has no playlist
-                     file yet, and list what is still missing in svoboda/MISSING.md
+  --fetch            Only fetch every article in programs/svoboda/articles.txt that has no playlist
+                     file yet, and list what is still missing in programs/svoboda/MISSING.md
   --all              With --fetch, every article, for playlists not filed yet; never
                      overwrites a file
 ${OPTIONS_USAGE}  -h, --help         Show this help
@@ -119,8 +119,8 @@ function writeMissing(problems, podcast) {
     '# Музыка на Свободе: missing playlists',
     '',
     `Written by \`node bin/svoboda.js --fetch\`. ${playlists.length} playlists, #1 to #${top}.`,
-    'Add one as `svoboda/playlists/<number>.txt` (the playlist as printed; header lines optional),',
-    'or its article to `svoboda/articles.txt`, then run `node bin/svoboda.js --fetch` again.',
+    'Add one as `programs/svoboda/playlists/<number>.txt` (the playlist as printed; header lines optional),',
+    'or its article to `programs/svoboda/articles.txt`, then run `node bin/svoboda.js --fetch` again.',
     '',
     `## Episode numbers with no playlist (${gaps.length})`,
     '',
@@ -139,7 +139,7 @@ function writeMissing(problems, podcast) {
     '',
   ];
   writeFileSync(MISSING, lines.join('\n'));
-  console.log(`missing: ${gaps.length} numbers up to #${top}, ${problems.length} articles, ${newer.length} newer podcast episodes, ${reruns} of them likely reruns (svoboda/MISSING.md)`);
+  console.log(`missing: ${gaps.length} numbers up to #${top}, ${problems.length} articles, ${newer.length} newer podcast episodes, ${reruns} of them likely reruns (programs/svoboda/MISSING.md)`);
 }
 
 let opts;

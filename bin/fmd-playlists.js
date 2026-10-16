@@ -4,12 +4,12 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 /**
- * «FM Достоевский» (#1–#820): rebuild every fmd/playlists/<number>.txt from
- * the sources saved in fmd/sources/ (see fmd/NOTES.md), offline and
- * deterministically, plus fmd/CROSSCHECK.md (how the sources agree where
- * they overlap) and fmd/MISSING.md (what no source has, or has only in part).
+ * «FM Достоевский» (#1–#820): rebuild every programs/fmd/playlists/<number>.txt from
+ * the sources saved in programs/fmd/sources/ (see programs/fmd/NOTES.md), offline and
+ * deterministically, plus programs/fmd/CROSSCHECK.md (how the sources agree where
+ * they overlap) and programs/fmd/MISSING.md (what no source has, or has only in part).
  *
- * Each file is laid out as svoboda/playlists/*.txt: url/date/title/note
+ * Each file is laid out as programs/svoboda/playlists/*.txt: url/date/title/note
  * lines, a blank line, then the playlist, one entry per line as the source
  * prints it (the host's per-track notes, footers and site chrome dropped).
  * Nothing is parsed into tracks here: the pipeline does that later.
@@ -23,7 +23,7 @@ import { fileURLToPath } from 'node:url';
  * Usage: node bin/fmd-playlists.js
  */
 
-const ROOT = join(import.meta.dirname, '..', 'fmd');
+const ROOT = join(import.meta.dirname, '..', 'programs', 'fmd');
 const SOURCES = join(ROOT, 'sources');
 const PLAYLISTS = join(ROOT, 'playlists');
 const FIRST = 1;
@@ -472,7 +472,7 @@ function readXls() {
       entries,
       rows: list,
       quirks,
-      note: `from the XLS export of radar.lv's dead playlist database (fmd/sources/radar.lv/fmd_up499.xls), the least trusted source${
+      note: `from the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source${
         number <= 100 ? ': in its early years Russian names and titles are mostly transliterated or translated into English' : ''
       }`,
     });
@@ -784,7 +784,7 @@ const cueOnly = ({ compared, lacking }) =>
 
 /** Notes on single episodes, from reading the sources side by side. */
 const EPISODE_NOTES = {
-  148: "radar.lv's post and CUE sheet titled #148 hold #147's list (see fmd/CROSSCHECK.md); this is the XLS's #148, found nowhere else",
+  148: "radar.lv's post and CUE sheet titled #148 hold #147's list (see programs/fmd/CROSSCHECK.md); this is the XLS's #148, found nowhere else",
   674: "radar.lv's second sheet for #675 (FM_Dostoevsky_N675_2010.02.28_0.cue) names these same 16 songs and a 17th after them, «zakopower \"kiebys ty\"»: perhaps this episode's last song, which this sheet lacks",
 };
 
@@ -870,7 +870,7 @@ function crosscheck({ episodes, stats, differences, extra, dateNotes, xls, lastS
   out.push('same artists in the same order (ignoring case, accents and punctuation, a leading «the», and');
   out.push('allowing for transliteration and small spelling differences). Titles are compared the same way');
   out.push('wherever the artists match. The source each playlist file uses is the highest ranked (see');
-  out.push('fmd/NOTES.md); where another source lists other songs, its `note:` says so.');
+  out.push('programs/fmd/NOTES.md); where another source lists other songs, its `note:` says so.');
   out.push('');
   out.push('## Summary');
   out.push('');
@@ -996,7 +996,7 @@ function missingReport({ missing, incomplete }) {
   out.push('# «FM Достоевский»: what is missing');
   out.push('');
   out.push('Written by `node bin/fmd-playlists.js` (do not edit by hand). An episode found later goes in');
-  out.push('`fmd/sources/` and this script, or, pasted by hand, as `fmd/playlists/<number>.txt` with a');
+  out.push('`programs/fmd/sources/` and this script, or, pasted by hand, as `programs/fmd/playlists/<number>.txt` with a');
   out.push('`note:` saying where it came from (and is then lost on the next rebuild unless the script learns');
   out.push('the source).');
   out.push('');

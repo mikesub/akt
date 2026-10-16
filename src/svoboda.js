@@ -11,14 +11,14 @@ export { keyOf, playlistFile } from './playlists.js';
  * commentary above it is not. An article on a two-part subject carries both
  * parts' playlists, one after the other ("выпуск 19", then "выпуск 20").
  *
- * Every playlist is a text file in svoboda/playlists/ (src/playlists.js),
+ * Every playlist is a text file in programs/svoboda/playlists/ (src/playlists.js),
  * <YYYY-MM-DD>.txt for a special outside the numbering (the antiwar episodes
  * of 2022–2023). `--fetch` writes them from the articles listed in
- * svoboda/articles.txt; one written by hand works the same, with or without
+ * programs/svoboda/articles.txt; one written by hand works the same, with or without
  * the header lines.
  */
 
-const ROOT = join(import.meta.dirname, '..', 'svoboda');
+const ROOT = join(import.meta.dirname, '..', 'programs', 'svoboda');
 export const ARTICLES = join(ROOT, 'articles.txt');
 export const PLAYLISTS = join(ROOT, 'playlists');
 export const MISSING = join(ROOT, 'MISSING.md');

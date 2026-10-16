@@ -2,7 +2,7 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 /**
- * A program's playlists, one text file each in <id>/playlists/: <number>.txt,
+ * A program's playlists, one text file each in programs/<id>/playlists/: <number>.txt,
  * or <YYYY-MM-DD>.txt for a special outside the numbering. A few "key: value"
  * header lines (url, date, title, and a note on anything done by hand), a
  * blank line, then the playlist as its source prints it. Every program but
@@ -12,19 +12,20 @@ import { join } from 'node:path';
  */
 
 const ROOT = join(import.meta.dirname, '..');
+const PROGRAMS = join(ROOT, 'programs');
 
 /** A program by its id: where its playlists are and the data file they are parsed into. Only one with a playlists directory. */
 export function program(id) {
   if (!/^[a-z]+$/.test(id ?? '')) throw new Error(`not a program id: ${id}`);
-  const playlists = join(ROOT, id, 'playlists');
-  if (!existsSync(playlists)) throw new Error(`no playlists for ${id}: ${id}/playlists/ does not exist`);
+  const playlists = join(PROGRAMS, id, 'playlists');
+  if (!existsSync(playlists)) throw new Error(`no playlists for ${id}: programs/${id}/playlists/ does not exist`);
   return { id, playlists, data: join(ROOT, 'docs', 'data', `${id}.json`) };
 }
 
-/** Every program with a playlists directory, by id. */
+/** Every program in programs/ with a playlists directory, by id. */
 export const programs = () =>
-  readdirSync(ROOT, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory() && /^[a-z]+$/.test(entry.name) && existsSync(join(ROOT, entry.name, 'playlists')))
+  readdirSync(PROGRAMS, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory() && existsSync(join(PROGRAMS, entry.name, 'playlists')))
     .map((entry) => entry.name);
 
 /** A playlist file's text: its header lines, a blank line, the playlist. */

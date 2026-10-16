@@ -4,7 +4,7 @@ import { get } from './http.js';
  * «Стереоплан Троицкого», the podcast on mave.digital: its RSS feed, each
  * episode's tracklist being in its description, interleaved with the host's
  * notes. bin/stereoplan.js keeps every description as
- * stereoplan/descriptions/<number>.html and parses them into
+ * programs/stereoplan/descriptions/<number>.html and parses them into
  * docs/data/stereoplan.json.
  */
 
