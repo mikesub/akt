@@ -46,6 +46,9 @@ node bin/svoboda.js --fetch   # fetch the articles in programs/svoboda/articles.
 node bin/svoboda.js           # the same run as node bin/playlists.js svoboda
 ```
 
+`node bin/countries.js` reads with `claude` the country each playlist prints for tracks parsed
+before the parse read it, and codes every printed country from `countries.json` (`--recode` asks nothing).
+
 Both take the same options. Run one program at a time: the lookups are paced per process
 (`--parse-only` makes no requests, so it can run beside another). A run is resumable: interrupted,
 or with failed lookups, the same command picks up where it stopped.

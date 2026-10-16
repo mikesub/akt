@@ -4,6 +4,7 @@ import { dirname } from 'node:path';
 import { appleStats, doubtLink, findAppleLinks, findOnApple, lookupSongs } from './apple.js';
 import { discogsStats, findOnDiscogs } from './discogs.js';
 import { findOnMusicBrainz, mbStats } from './musicbrainz.js';
+import { countryCodes } from './countries.js';
 import { applyOverrides } from './overrides.js';
 import { parsePlaylist } from './parse.js';
 import { keyOf, readPlaylists } from './playlists.js';
@@ -86,14 +87,26 @@ function aired(episode, year) {
   return year !== null && latest > 0 && year > latest ? null : year;
 }
 
-/** A track under its restored names (titles.json), then with its hand fixes (overrides.json). */
-const corrected = (track) => applyOverrides(shape(restoreTitle(track)));
+/** A track with the codes of the country its playlist prints (countries.json), under its restored names (titles.json), then with its hand fixes (overrides.json). */
+export const corrected = (track) => applyOverrides(shape(restoreTitle(coded(track))));
 
-/** A track's fields in their stored order; each source's id is left out until that source has been asked. */
-const shape = ({ artist, track, album, apple_id, apple_album_id, apple_artist_id, mb_id, discogs_id, year }) => ({
+/** A track's country codes, from its printed country whenever it has one, the table having maybe changed since. */
+const coded = (track) =>
+  track.printed_country === undefined ? track : { ...track, country: track.printed_country ? countryCodes(track.printed_country) : (track.country ?? null) };
+
+/** What the parse gives a track: its names and its printed country, with that country's codes. */
+const parsed = ({ artist, track, album, printed_country, country }) => ({ artist, track, album, printed_country, country });
+
+/**
+ * A track's fields in their stored order; each source's id is left out until
+ * that source has been asked, and the country until the playlist was read
+ * for it (bin/countries.js for tracks parsed before the parse read it).
+ */
+const shape = ({ artist, track, album, printed_country, country, apple_id, apple_album_id, apple_artist_id, mb_id, discogs_id, year }) => ({
   artist,
   track,
   album,
+  ...(printed_country !== undefined && { printed_country, country: country ?? null }),
   ...(apple_id !== undefined && { apple_id }),
   ...(apple_album_id !== undefined && { apple_album_id }),
   ...(apple_artist_id !== undefined && { apple_artist_id }),
@@ -140,7 +153,7 @@ const sources = {
  * running again without the option.
  */
 function forget(track, { misses, musicbrainz, relink }) {
-  if (relink) return { artist: track.artist, track: track.track, album: track.album, year: null };
+  if (relink) return { ...parsed(track), year: null };
   const { apple_id, mb_id, discogs_id, ...rest } = track;
   const keep = {
     ...(!(misses && apple_id === null) && { apple_id }),
@@ -205,7 +218,7 @@ export async function run(
     const episode = { ...fields, playlist_hash: before?.playlist_hash ?? null, tracks: null };
     // A track dated after its episode got a later release's year: looked up again, under `aired` below.
     episode.tracks =
-      before?.tracks?.map((t) => corrected(aired(episode, t.year) === t.year ? t : { artist: t.artist, track: t.track, album: t.album, year: null })) ?? null;
+      before?.tracks?.map((t) => corrected(aired(episode, t.year) === t.year ? t : { ...parsed(t), year: null })) ?? null;
     return episode;
   });
 
