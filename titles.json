@@ -928,5 +928,15 @@
       "track": "Kudankon Kiyaksova (On The Floor At Matchmakers)"
     },
     "why": "FM Достоевский #775, from Финам FM: misspelt; the owner pointed to Oyme’s «In The Soul There Is A Whole World» (L-Pro, discogs.com/release/31699151), which prints its Erzya titles in Latin, track 1 «Kudankon Kiyaksova (On The Floor At Matchmakers)»; the playlist’s album, «oyme», stays"
+  },
+  {
+    "artist": "inquisitorum",
+    "track": "gop-stop",
+    "restore": {
+      "artist": "Inquisitorum",
+      "track": "Гоп-Стоп",
+      "album": "It's My Life: 1997-2006"
+    },
+    "why": "FM Достоевский #521, from fmd.soyuz.ru: transliterated; the owner pointed to Inquisitorum (Discogs artist 180717, a Moscow band), whose 2006 compilation «It's My Life: 1997-2006» (One Records, discogs.com/release/1386857) has track 7 «Гоп-Стоп»"
   }
 ]
