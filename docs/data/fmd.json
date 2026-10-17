@@ -144153,13 +144153,12 @@
       },
       {
         "artist": "Doriand",
-        "track": "Le Coutre du Monde",
+        "track": "Le Centre du monde",
         "album": "Sommets Trompeurs",
         "printed_country": "France",
         "country": [
           "FR"
         ],
-        "apple_id": null,
         "mb_id": "55fa5cf8-6bf9-4229-abbd-2b063932f114",
         "year": 1999
       },
@@ -144207,7 +144206,7 @@
       },
       {
         "artist": "Argan",
-        "track": "Tibdit",
+        "track": "Tibdit Mk 2",
         "album": "South Moroccan Motor Berber",
         "printed_country": "Morocco/Switzerland",
         "country": [
@@ -144221,14 +144220,13 @@
         "year": 1996
       },
       {
-        "artist": "April March Y Los Cincos",
+        "artist": "April March And Los Cincos",
         "track": "Theme For the Lime Cafe",
         "album": "April March And Los Cincos",
         "printed_country": "USA",
         "country": [
           "US"
         ],
-        "apple_id": null,
         "mb_id": "2fb39b62-b9a6-4292-b4b4-09257c4a9684",
         "year": 1998
       },
@@ -171759,7 +171757,7 @@
     "playlist_hash": "11a83e147b42f852",
     "tracks": [
       {
-        "artist": "The John Spencer Blues Explosion",
+        "artist": "The Jon Spencer Blues Explosion",
         "track": "Wail",
         "album": "Now I Got Worry",
         "printed_country": "USA",
@@ -171817,7 +171815,7 @@
         "year": 1996
       },
       {
-        "artist": "Tim Booth & Andgelo Badalamenti",
+        "artist": "Tim Booth & Angelo Badalamenti",
         "track": "Hit Parade",
         "album": "Booth And The Bad Angel",
         "printed_country": "USA/UK",
@@ -171832,7 +171830,7 @@
         "year": 1996
       },
       {
-        "artist": "Dirty Tree",
+        "artist": "Dirty Three",
         "track": "I Remember A Time When Once You Used To Love Me",
         "album": "Horse Stories",
         "printed_country": "Australia",
@@ -171842,12 +171840,11 @@
         "apple_id": 927422399,
         "apple_album_id": 927422313,
         "apple_artist_id": 60310193,
-        "mb_id": null,
         "year": 1996
       },
       {
         "artist": "KMFDM",
-        "track": "Son Of A Gun",
+        "track": "Son Of A Gun (Overhauled By Sascha Konietzko And Chris Shepard)",
         "album": "Rules",
         "printed_country": "Germany",
         "country": [
@@ -171899,7 +171896,7 @@
       },
       {
         "artist": "Tek 9",
-        "track": "Is It On? (DJ Cam Remix)",
+        "track": "Is It On? (DJ Cam Mix)",
         "album": "Is It On?",
         "printed_country": "France",
         "country": [
@@ -171913,7 +171910,7 @@
       },
       {
         "artist": "The Mighty Bop",
-        "track": "Je N`ai Pas Le Choix",
+        "track": "Je N'ai Pas Le Choix",
         "album": "Autres Voix, Autres Blues",
         "printed_country": "France",
         "country": [
@@ -171953,7 +171950,7 @@
         "year": 1996
       },
       {
-        "artist": "Justina Steczkowska",
+        "artist": "Justyna Steczkowska",
         "track": "Czy To Mi...",
         "album": "Dziewczyna Szamana",
         "printed_country": "Poland",
@@ -171963,11 +171960,10 @@
         "apple_id": 1557949914,
         "apple_album_id": 1557949912,
         "apple_artist_id": 55227993,
-        "mb_id": null,
         "year": 1995
       },
       {
-        "artist": "The John Spencer Blues Explosion",
+        "artist": "The Jon Spencer Blues Explosion",
         "track": "Firefly Child",
         "album": "Now I Got Worry",
         "printed_country": "USA",
@@ -172035,8 +172031,8 @@
       },
       {
         "artist": "Crash Test Dummies",
-        "track": "A Worm`s Life",
-        "album": "A Worm`s Life",
+        "track": "A Worm's Life",
+        "album": "A Worm's Life",
         "printed_country": "Canada",
         "country": [
           "CA"
@@ -172063,7 +172059,7 @@
       },
       {
         "artist": "Ketama",
-        "track": "Djamana Djana%",
+        "track": "Djamana Djana",
         "album": "De Aki A Ketama",
         "printed_country": "Spain",
         "country": [
@@ -172145,14 +172141,13 @@
         "year": 1994
       },
       {
-        "artist": "Sixteen Horsepower",
+        "artist": "16 Horsepower",
         "track": "Heel On The Shovel",
         "album": "Slackcloth `n` Ashes",
         "printed_country": "USA",
         "country": [
           "US"
         ],
-        "apple_id": null,
         "mb_id": "aacfea77-86da-49c9-a1e0-12ad3c03c2be",
         "year": 1995
       },
@@ -172172,7 +172167,7 @@
       },
       {
         "artist": "Trisomie 21",
-        "track": "La Fete Triste",
+        "track": "La Fête Triste",
         "album": "The Songs By T21 vol:2",
         "printed_country": "France",
         "country": [

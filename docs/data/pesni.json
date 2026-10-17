@@ -10501,34 +10501,28 @@
         "year": 2015
       },
       {
-        "artist": "Teraka",
+        "artist": "Terakaft",
         "track": "Anabayou",
-        "album": "Tenere",
+        "album": "Alone (Ténéré)",
         "printed_country": "Mali",
         "country": [
           "ML"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
-        "artist": "Teraka",
-        "track": "Harambani",
-        "album": "Tenere",
+        "artist": "Terakaft",
+        "track": "Karambani",
+        "album": "Alone (Ténéré)",
         "printed_country": "Mali",
         "country": [
           "ML"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
         "artist": "Mackenzie",
-        "track": "Figne Le Feur",
+        "track": "Fighe Le Feur",
         "album": "The Ultimate Guide to Scottish Folk",
         "printed_country": "UK",
         "country": [
@@ -10537,7 +10531,6 @@
         "apple_id": 1472407433,
         "apple_album_id": null,
         "apple_artist_id": 1726971330,
-        "mb_id": null,
         "year": 1997
       },
       {
@@ -10555,20 +10548,19 @@
         "year": 2003
       },
       {
-        "artist": "Saor patrol",
+        "artist": "Saor Patrol",
         "track": "Toom Tabard",
         "album": "The Ultimate Guide to Scottish Folk",
         "printed_country": "UK",
         "country": [
           "GB"
         ],
-        "apple_id": null,
         "mb_id": "ba34a0f5-f6b6-41d5-ab02-213b52d12844",
         "year": 2010
       },
       {
-        "artist": "Arualdo Autunes",
-        "track": "Ela E Tarja Preta",
+        "artist": "Arnaldo Antunes",
+        "track": "Ela É Tarja Preta",
         "album": "Disco",
         "printed_country": "Brazil",
         "country": [
@@ -10577,7 +10569,6 @@
         "apple_id": 1439862763,
         "apple_album_id": 1439862552,
         "apple_artist_id": 27389366,
-        "mb_id": null,
         "year": 2013
       },
       {
@@ -10622,8 +10613,8 @@
       },
       {
         "artist": "Mec Yek",
-        "track": "Soske Dzjavo",
-        "album": "Super Diversity",
+        "track": "Soske Dzjava",
+        "album": "Super Diver City",
         "printed_country": "Belgium/Czech Rep.",
         "country": [
           "BE",
@@ -10638,7 +10629,7 @@
       {
         "artist": "Mec Yek",
         "track": "Pale Tsha Kalo",
-        "album": "Super Diversity",
+        "album": "Super Diver City",
         "printed_country": "Belgium/Czech Rep.",
         "country": [
           "BE",

@@ -1244,5 +1244,187 @@
       "album": "The Dream Spider of the Laughing Horse"
     },
     "why": "FM Достоевский #395: the band misspelt, in lower case; Scarlet's Well's album «The Dream Spider of the Laughing Horse» (2004), the owner's word"
+  },
+  {
+    "artist": "Sixteen Horsepower",
+    "track": "Heel On The Shovel",
+    "restore": {
+      "artist": "16 Horsepower"
+    },
+    "why": "FM Достоевский #8, from the XLS: the band's name spelt out; 16 Horsepower, as the tracklist of a YouTube copy of the episode (youtube.com/watch?v=pwR76TiDErM) and the band have it"
+  },
+  {
+    "artist": "Trisomie 21",
+    "track": "La Fete Triste",
+    "restore": {
+      "track": "La Fête Triste"
+    },
+    "why": "FM Достоевский #8, from the XLS: its accent lost; as the tracklist of a YouTube copy of the episode (youtube.com/watch?v=pwR76TiDErM) has it"
+  },
+  {
+    "artist": "Crash Test Dummies",
+    "track": "A Worm`s Life",
+    "restore": {
+      "track": "A Worm's Life",
+      "album": "A Worm's Life"
+    },
+    "why": "FM Достоевский #8, from the XLS: a backtick for the apostrophe"
+  },
+  {
+    "artist": "Ketama",
+    "track": "Djamana Djana%",
+    "restore": {
+      "track": "Djamana Djana"
+    },
+    "why": "FM Достоевский #8, from the XLS: a stray \"%\"; as the tracklist of a YouTube copy of the episode (youtube.com/watch?v=pwR76TiDErM) has it"
+  },
+  {
+    "artist": "The John Spencer Blues Explosion",
+    "track": "Wail",
+    "restore": {
+      "artist": "The Jon Spencer Blues Explosion"
+    },
+    "why": "FM Достоевский #9, from the XLS: misspelt; as the tracklist of a YouTube copy of the episode (youtube.com/watch?v=Yl2EeVylk1w) has it"
+  },
+  {
+    "artist": "The John Spencer Blues Explosion",
+    "track": "Firefly Child",
+    "restore": {
+      "artist": "The Jon Spencer Blues Explosion"
+    },
+    "why": "FM Достоевский #9, from the XLS: misspelt; as the tracklist of a YouTube copy of the episode (youtube.com/watch?v=Yl2EeVylk1w) has it"
+  },
+  {
+    "artist": "Dirty Tree",
+    "track": "I Remember A Time When Once You Used To Love Me",
+    "restore": {
+      "artist": "Dirty Three"
+    },
+    "why": "FM Достоевский #9, from the XLS: misspelt; as the tracklist of a YouTube copy of the episode (youtube.com/watch?v=Yl2EeVylk1w) has it"
+  },
+  {
+    "artist": "Tim Booth & Andgelo Badalamenti",
+    "track": "Hit Parade",
+    "restore": {
+      "artist": "Tim Booth & Angelo Badalamenti"
+    },
+    "why": "FM Достоевский #9, from the XLS (and the tracklist of a YouTube copy of the episode (youtube.com/watch?v=Yl2EeVylk1w)): Angelo Badalamenti misspelt; «Booth And The Bad Angel» (1996)"
+  },
+  {
+    "artist": "Justina Steczkowska",
+    "track": "Czy To Mi...",
+    "restore": {
+      "artist": "Justyna Steczkowska"
+    },
+    "why": "FM Достоевский #9, from the XLS: misspelt; as the tracklist of a YouTube copy of the episode (youtube.com/watch?v=Yl2EeVylk1w) has it"
+  },
+  {
+    "artist": "The Mighty Bop",
+    "track": "Je N`ai Pas Le Choix",
+    "restore": {
+      "track": "Je N'ai Pas Le Choix"
+    },
+    "why": "FM Достоевский #9, from the XLS: a backtick for the apostrophe"
+  },
+  {
+    "artist": "KMFDM",
+    "track": "Son Of A Gun",
+    "restore": {
+      "track": "Son Of A Gun (Overhauled By Sascha Konietzko And Chris Shepard)"
+    },
+    "why": "FM Достоевский #9: the mix on «Rules» (1996), as the tracklist of a YouTube copy of the episode (youtube.com/watch?v=Yl2EeVylk1w) has it and Discogs lists it (discogs.com/master/8955), from the owner"
+  },
+  {
+    "artist": "Tek 9",
+    "track": "Is It On? (DJ Cam Remix)",
+    "restore": {
+      "track": "Is It On? (DJ Cam Mix)"
+    },
+    "why": "FM Достоевский #9: as on «Is It On? (Remixes)» (discogs.com/master/103781), from the owner"
+  },
+  {
+    "artist": "Doriand",
+    "track": "Le Coutre du Monde",
+    "restore": {
+      "track": "Le Centre du monde"
+    },
+    "why": "FM Достоевский #128: misspelt; Doriand's 1999 single from «Sommets trompeurs» (franco.wiki/fr/Doriand.html), as the tracklist of a YouTube copy of the episode (youtube.com/watch?v=yqLZx_MP0-w) has it"
+  },
+  {
+    "artist": "Argan",
+    "track": "Tibdit",
+    "restore": {
+      "track": "Tibdit Mk 2"
+    },
+    "why": "FM Достоевский #128: as on «South Moroccan Motor Berber» (discogs.com/release/211381), from the owner"
+  },
+  {
+    "artist": "April March Y Los Cincos",
+    "track": "Theme For the Lime Cafe",
+    "restore": {
+      "artist": "April March And Los Cincos"
+    },
+    "why": "FM Достоевский #128: as «April March And Los Cincos» credits it (discogs.com/master/110589), from the owner"
+  },
+  {
+    "artist": "Teraka",
+    "track": "Anabayou",
+    "restore": {
+      "artist": "Terakaft",
+      "album": "Alone (Ténéré)"
+    },
+    "why": "«Песни и пляски» #8: misspelt; Terakaft's «Alone (Ténéré)» (discogs.com/master/912784), from the owner"
+  },
+  {
+    "artist": "Teraka",
+    "track": "Harambani",
+    "restore": {
+      "artist": "Terakaft",
+      "track": "Karambani",
+      "album": "Alone (Ténéré)"
+    },
+    "why": "«Песни и пляски» #8: misspelt; Terakaft's «Karambani» on «Alone (Ténéré)» (discogs.com/master/912784), from the owner"
+  },
+  {
+    "artist": "Mackenzie",
+    "track": "Figne Le Feur",
+    "restore": {
+      "track": "Fighe Le Feur"
+    },
+    "why": "«Песни и пляски» #8: misspelt; as on «The Ultimate Guide to Scottish Folk» (discogs.com/release/15880419), from the owner"
+  },
+  {
+    "artist": "Arualdo Autunes",
+    "track": "Ela E Tarja Preta",
+    "restore": {
+      "artist": "Arnaldo Antunes",
+      "track": "Ela É Tarja Preta"
+    },
+    "why": "«Песни и пляски» #8: misspelt; as the tracklist of a YouTube copy of the episode (youtube.com/watch?v=Y8tBT4KRZKQ) has it"
+  },
+  {
+    "artist": "Mec Yek",
+    "track": "Soske Dzjavo",
+    "restore": {
+      "track": "Soske Dzjava",
+      "album": "Super Diver City"
+    },
+    "why": "«Песни и пляски» #8: misspelt; as on «Super Diver City» (discogs.com/release/7182514), from the owner"
+  },
+  {
+    "artist": "Mec Yek",
+    "track": "Pale Tsha Kalo",
+    "restore": {
+      "album": "Super Diver City"
+    },
+    "why": "«Песни и пляски» #8: the album misspelt «Super Diversity»; «Super Diver City» (discogs.com/release/7182514), from the owner"
+  },
+  {
+    "artist": "Saor patrol",
+    "track": "Toom Tabard",
+    "restore": {
+      "artist": "Saor Patrol"
+    },
+    "why": "«Песни и пляски» #8: as the band spells itself (discogs.com/artist/2488535), from the owner"
   }
 ]
