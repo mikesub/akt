@@ -70105,15 +70105,13 @@
         "year": 2007
       },
       {
-        "artist": "\"АнтиАрмия\",\"Электропартизаны & друзья\"",
+        "artist": "Электропартизаны",
         "track": "Нам не нужна война!",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
+        "country": [
+          "RU"
+        ],
         "year": 2018
       },
       {

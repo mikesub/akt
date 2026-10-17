@@ -1149,5 +1149,13 @@
       "album": "Music From Republik Der Wölfe"
     },
     "why": "Stereo Voodoo #105 prints the album as «Republik der Wlfe», its ö lost; as on Discogs, «Music From Republik Der Wölfe» (Mute, 2014; discogs.com/master/670545), from the owner"
+  },
+  {
+    "artist": "\"АнтиАрмия\",\"Электропартизаны & друзья\"",
+    "track": "Нам не нужна война!",
+    "restore": {
+      "artist": "Электропартизаны"
+    },
+    "why": "«Музыка на Свободе» of 2022-04-03 prints «\"АнтиАрмия\",\"Электропартизаны & друзья\"»: Электропартизаны, the owner's word"
   }
 ]
