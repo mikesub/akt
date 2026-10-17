@@ -2791,5 +2791,10 @@
     "country": ["FR", "DE"],
     "year": 1997,
     "why": "FM Достоевский #114 prints the four as \"International\": France and Germany, the owner's word; «Oblique Sessions», Les Disques du Soleil et de l’Acier, France, 1997 (MusicBrainz)"
+  },
+  {
+    "artist": "Milla Jovovich & Million Dollar Hotel Band",
+    "country": ["US", "IE", "GB"],
+    "why": "FM Достоевский #165 prints them as \"International\": the USA, Ireland and the UK, the owner's word"
   }
 ]
