@@ -11891,8 +11891,9 @@
         "track": "slow & easy (lets Twist)",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "US"
+        ],
         "apple_id": null,
         "mb_id": "b0badac9-27bd-4d8b-a168-0528a7031fc7",
         "year": 2012
@@ -11912,11 +11913,12 @@
         "track": "Boom-A-Lay",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "US"
+        ],
         "apple_id": null,
         "mb_id": "13354584-1676-4ab9-812b-ca938c01b682",
-        "year": 2010
+        "year": 1961
       },
       {
         "artist": "German Diaz & Antoni Bravo & Diego Martin",

@@ -2706,5 +2706,18 @@
     "artist": "Tabla Beat Science",
     "country": ["IN", "US"],
     "why": "FM Достоевский #199 prints the group as \"International\": «Devotional» on «Tala Matrix» (Axiom, 2000) is Ustad Sultan Khan and Zakir Hussain (India) with Bill Laswell (USA) (discogs.com/release/181076); India and the USA, the owner's word"
+  },
+  {
+    "artist": "Ted Jarret & Band",
+    "track": "slow & easy (lets Twist)",
+    "country": ["US"],
+    "why": "«Песни и пляски» #1 prints no country: the USA, the owner's word"
+  },
+  {
+    "artist": "The Astro-Jets",
+    "track": "Boom-A-Lay",
+    "country": ["US"],
+    "year": 1961,
+    "why": "«Песни и пляски» #1 prints no country: the single «Boom-A-Lay / Hide And Seek» (Imperial X5760, US, 1961; discogs.com/release/5002617); MusicBrainz found only a 2010 compilation"
   }
 ]
