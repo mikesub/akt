@@ -2656,5 +2656,12 @@
     "album": "Ole, Ole",
     "country": ["DZ", "FR"],
     "why": "FM Достоевский #7 prints his country as \"Middle East\": Algeria and France, the owner's word"
+  },
+  {
+    "artist": "King Chango",
+    "track": "Melting Pot",
+    "album": "King Chango",
+    "country": ["US"],
+    "why": "FM Достоевский #28 prints the band's country as \"Latin America\": a New York band, the owner's word"
   }
 ]

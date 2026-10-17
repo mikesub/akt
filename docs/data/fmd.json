@@ -167373,7 +167373,9 @@
         "track": "Melting Pot",
         "album": "King Chango",
         "printed_country": "Latin America",
-        "country": null,
+        "country": [
+          "US"
+        ],
         "apple_id": 732625142,
         "apple_album_id": 732624943,
         "apple_artist_id": 3737183,
