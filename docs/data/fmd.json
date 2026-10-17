@@ -165533,16 +165533,15 @@
         "year": 1996
       },
       {
-        "artist": "Roger Poger",
+        "artist": "Roger Roger",
         "track": "Safari Park",
-        "album": "Moovie Grooves",
+        "album": "Good Sounds Movie Grooves",
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "country": [
+          "FR"
+        ],
+        "discogs_id": 3931482,
+        "year": 1971
       },
       {
         "artist": "Танцы на воле",
