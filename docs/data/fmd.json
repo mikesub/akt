@@ -47479,17 +47479,22 @@
         "year": 2007
       },
       {
-        "artist": "ersahin/truffaz/madsen/rueckert/penman",
-        "track": "yeah, that's right",
-        "album": "our theory",
+        "artist": "Our Theory",
+        "track": "Yeah, That's Right",
+        "album": "Our Theory",
         "printed_country": "international",
-        "country": null,
+        "country": [
+          "FR",
+          "US",
+          "DE",
+          "NZ",
+          "DK"
+        ],
         "apple_id": 6799199890,
         "apple_album_id": 6799199816,
         "apple_artist_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "discogs_id": 1827617,
+        "year": 2006
       },
       {
         "artist": "jim white",

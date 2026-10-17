@@ -2903,5 +2903,13 @@
     "country": ["AU"],
     "discogs_id": 323381,
     "why": "FM Достоевский #334 prints the artist's country as \"?\": a cut'n'paste collage artist from Sydney/Wollongong (discogs.com/artist/123947), Australia, the owner's word; «It's Fan-Dabi-Dozi!» (discogs.com/release/323381)"
+  },
+  {
+    "artist": "Our Theory",
+    "track": "Yeah, That's Right",
+    "country": ["FR", "US", "DE", "NZ", "DK"],
+    "discogs_id": 1827617,
+    "year": 2006,
+    "why": "FM Достоевский #580 prints the band as \"international\": France, the USA, Germany, New Zealand and Denmark, 2006, the owner's word; «Our Theory», the main release (Nublu NUB00008, US, 2006) of discogs.com/master/446398"
   }
 ]
