@@ -2896,5 +2896,12 @@
     "track": "Нам не нужна война!",
     "country": ["RU"],
     "why": "«Музыка на Свободе» of 2022-04-03 prints no country: Russia, the owner's word"
+  },
+  {
+    "artist": "7u?",
+    "track": "Yeah (Original)",
+    "country": ["AU"],
+    "discogs_id": 323381,
+    "why": "FM Достоевский #334 prints the artist's country as \"?\": a cut'n'paste collage artist from Sydney/Wollongong (discogs.com/artist/123947), Australia, the owner's word; «It's Fan-Dabi-Dozi!» (discogs.com/release/323381)"
   }
 ]
