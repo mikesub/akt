@@ -1,10 +1,11 @@
 #!/usr/bin/env node
-import { createReadStream, existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseArgs } from 'node:util';
-import { createGunzip } from 'node:zlib';
 import { artistKey } from '../src/artists.js';
+import { decode, discogsName, dumpDate, newestDump, parseMaster, records } from '../src/dumps.js';
 import { credited, main } from '../src/match.js';
+import { corrected } from '../src/pipeline.js';
 import { programs } from '../src/playlists.js';
 
 const ROOT = join(import.meta.dirname, '..');
@@ -16,35 +17,47 @@ Match the archive's tracks to Discogs masters offline, from Discogs' monthly CC0
 name, or one of that Discogs artist's name variations and aliases, from the artists dump) and its
 album is the master's title, both compared without case, accents, punctuation, a leading "The" or
 "&" for "and". Masters have no tracklist: an album-level match, the master's year being the first
-edition's. A dry run: writes no data, only a report.
+edition's. Without --write a dry run: writes no data, only a report.
+
+With --write, sets discogs_master_id on each track that matches exactly one master, and on one that
+matches several only where they all have the same Discogs artists and year (Discogs' duplicate masters:
+the lowest id); never on a match to a "Various" compilation, never over a discogs_master_id the track
+has already (the API's, or an override's: the report lists where they differ), and nothing else: not
+the year, not discogs_id. The API backfill (--discogs) then skips those tracks.
 
 Options:
   --masters <file>   The masters dump (default: ../discogs_<date>_masters.xml.gz, the newest)
   --artists <file>   The artists dump, for name variations and aliases (default: the newest beside it;
                      --artists none to leave it out)
   --report <file>    Write the report there (default: stdout)
+  --write            Set the masters in docs/data (see above)
+  --review <file>    Write, as JSON, the matched tracks whose master is 2+ years older than their year
+                     ("earlier") or who have no year ("missing"), for the owner to review; no data change
   -h, --help         Show this help
 `;
 
 let opts;
 try {
   const { values } = parseArgs({
-    options: { masters: { type: 'string' }, artists: { type: 'string' }, report: { type: 'string' }, help: { type: 'boolean', short: 'h' } },
+    options: {
+      masters: { type: 'string' },
+      artists: { type: 'string' },
+      report: { type: 'string' },
+      write: { type: 'boolean' },
+      review: { type: 'string' },
+      help: { type: 'boolean', short: 'h' },
+    },
   });
   if (values.help) {
     process.stdout.write(USAGE);
     process.exit(0);
   }
-  const newest = (kind) => {
-    const dir = join(ROOT, '..');
-    const files = readdirSync(dir).filter((f) => new RegExp(`^discogs_\\d{8}_${kind}\\.xml\\.gz$`).test(f)).sort();
-    return files.length ? join(dir, files.at(-1)) : null;
-  };
+  const newest = (kind) => newestDump(join(ROOT, '..'), kind);
   const masters = values.masters ?? newest('masters');
   if (!masters || !existsSync(masters)) throw new Error('no masters dump: download discogs_<date>_masters.xml.gz from data.discogs.com next to the repo, or name it with --masters');
   const artists = values.artists === 'none' ? null : (values.artists ?? newest('artists'));
   if (artists && !existsSync(artists)) throw new Error(`no artists dump at ${artists}`);
-  opts = { masters, artists, report: values.report ?? null };
+  opts = { masters, artists, report: values.report ?? null, write: values.write ?? false, review: values.review ?? null };
 } catch (err) {
   process.stderr.write(`${err.message}\n\n${USAGE}`);
   process.exit(2);
@@ -52,26 +65,27 @@ try {
 
 // ------------------------------------------------------------------ keys
 
-const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'" };
-const decode = (s) =>
-  s.replace(/&(?:#x([0-9a-f]+)|#(\d+)|([a-z]+));/gi, (all, hex, dec, name) =>
-    hex ? String.fromCodePoint(parseInt(hex, 16)) : dec ? String.fromCodePoint(Number(dec)) : (ENTITIES[name] ?? all),
-  );
-
-/** A Discogs artist name without its " (2)" disambiguation and its trailing "*" (an ANV mark). */
-const discogsName = (name) => name.replace(/\s\(\d+\)$/, '').replace(/\*$/, '').trim();
-
 /** A title's letters and digits, without case, accents, a leading "The" or "and" for "&". */
 const titleKey = (title) => artistKey(title);
 
 // ------------------------------------------------------------------ our tracks
 
 const PROGRAMS = [...programs(), 'stereoplan'];
+const data = new Map(PROGRAMS.map((id) => [id, JSON.parse(readFileSync(join(ROOT, 'docs', 'data', `${id}.json`), 'utf8'))]));
 const tracks = [];
-for (const id of PROGRAMS) {
-  for (const episode of JSON.parse(readFileSync(join(ROOT, 'docs', 'data', `${id}.json`), 'utf8'))) {
+for (const [id, episodes] of data) {
+  // An undated episode aired no later than the next dated one by number (src/pipeline.js airedBy).
+  const airedBy = new Map();
+  let next = null;
+  for (const e of episodes.filter((e) => e.number !== null).sort((a, b) => b.number - a.number)) {
+    if (e.published_at) next = Number(e.published_at.slice(0, 4));
+    else if (next) airedBy.set(e.number, next);
+  }
+  for (const episode of episodes) {
+    const aired = episode.published_at ?? null;
+    const airYear = aired ? Number(aired.slice(0, 4)) : (airedBy.get(episode.number) ?? null);
     for (const t of episode.tracks ?? []) {
-      tracks.push({ program: id, episode: episode.number ?? episode.published_at, t, lead: t.artist ? artistKey(credited(main(t.artist))[0] ?? t.artist) : '', album: t.album ? titleKey(t.album) : '' });
+      tracks.push({ program: id, episode: episode.number ?? episode.published_at, aired, airYear, t, lead: t.artist ? artistKey(credited(main(t.artist))[0] ?? t.artist) : '', album: t.album ? titleKey(t.album) : '' });
     }
   }
 }
@@ -79,47 +93,16 @@ const albumKeys = new Set(tracks.filter((x) => x.album && x.lead).map((x) => x.a
 
 // ------------------------------------------------------------------ dumps, streamed
 
-/** Each `<tag …>…</tag>` record of a gzipped dump, as a string, to `each`. */
-async function records(file, tag, each) {
-  const end = `</${tag}>`;
-  let buffer = '';
-  const stream = createReadStream(file).pipe(createGunzip());
-  stream.setEncoding('utf8');
-  for await (const chunk of stream) {
-    buffer += chunk;
-    let at;
-    while ((at = buffer.indexOf(end)) >= 0) {
-      each(buffer.slice(0, at + end.length));
-      buffer = buffer.slice(at + end.length);
-    }
-  }
-}
-
 const started = Date.now();
 const candidates = []; // masters whose title is one of our albums
 let mastersSeen = 0;
 await records(opts.masters, 'master', (rec) => {
   mastersSeen++;
+  // The title first, cheaply: most masters are not one of our albums.
   const title = decode(rec.match(/<\/artists>[\s\S]*?<title>([\s\S]*?)<\/title>/)?.[1] ?? rec.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? '');
   const key = titleKey(title);
   if (!albumKeys.has(key)) return;
-  const head = rec.replace(/<videos>[\s\S]*<\/videos>/, '');
-  const artists = [...(head.match(/<artists>([\s\S]*?)<\/artists>/)?.[1] ?? '').matchAll(/<artist>([\s\S]*?)<\/artist>/g)].map(([, a]) => ({
-    id: Number(a.match(/<id>(\d+)<\/id>/)?.[1]),
-    name: decode(a.match(/<name>([\s\S]*?)<\/name>/)?.[1] ?? ''),
-    anv: decode(a.match(/<anv>([\s\S]*?)<\/anv>/)?.[1] ?? ''),
-  }));
-  const videos = [...(rec.match(/<videos>([\s\S]*)<\/videos>/)?.[1] ?? '').matchAll(/<video [^>]*>\s*<title>([\s\S]*?)<\/title>/g)].map(([, v]) => decode(v));
-  candidates.push({
-    id: Number(rec.match(/<master id="(\d+)"/)[1]),
-    main: Number(head.match(/<main_release>(\d+)<\/main_release>/)?.[1]) || null,
-    year: Number(head.match(/<year>(\d+)<\/year>/)?.[1]) || null,
-    title,
-    key,
-    quality: head.match(/<data_quality>([\s\S]*?)<\/data_quality>/)?.[1] ?? null,
-    artists,
-    videos,
-  });
+  candidates.push({ ...parseMaster(rec), title, key });
 });
 const mastersTime = Date.now() - started;
 
@@ -188,6 +171,25 @@ for (const x of classes.matched) {
 }
 const videoHits = years.ourMissing.filter((x) => x.m.videos.some((v) => titleKey(v).includes(titleKey(x.t.track ?? '') || '\u0000'))).length;
 
+// ------------------------------------------------------------------ what --write sets
+
+// One master for a track: its single match, or the lowest of Discogs' duplicates (same artists, same year).
+const sameArtists = (a, b) => a.artists.map((x) => x.id).sort().join() === b.artists.map((x) => x.id).sort().join();
+const assigned = classes.matched.map((x) => ({ x, m: x.m }));
+const ambiguousTaken = [];
+const ambiguousSkipped = [];
+for (const x of classes.ambiguous) {
+  const [first, ...rest] = [...x.ms].sort((a, b) => a.id - b.id);
+  if (rest.every((m) => sameArtists(m, first) && m.year === first.year)) {
+    assigned.push({ x, m: first });
+    ambiguousTaken.push(x);
+  } else ambiguousSkipped.push(x);
+}
+// Never over a master the track has: the API's (null when its release has none) or an override's.
+const already = assigned.filter(({ x }) => 'discogs_master_id' in x.t);
+const disagree = already.filter(({ x, m }) => x.t.discogs_master_id !== null && x.t.discogs_master_id !== m.id);
+const toSet = assigned.filter(({ x }) => !('discogs_master_id' in x.t));
+
 // ------------------------------------------------------------------ report
 
 const count = (list, program) => list.filter((x) => !program || x.program === program).length;
@@ -211,6 +213,11 @@ out.push('## Classes', '', '| program | tracks | no album | matched | ambiguous 
 for (const p of [...PROGRAMS, null]) {
   out.push(`| ${p ?? '**all**'} | ${count(tracks, p)} | ${count(classes.noAlbum, p)} | ${count(classes.matched, p)} | ${count(classes.ambiguous, p)} | ${count(classes.compilation, p)} | ${count(classes.unmatched, p)} |`);
 }
+out.push('', '## What --write sets', '');
+out.push(`- single matches: ${classes.matched.length}; ambiguous taken (Discogs' duplicates, the lowest id): ${ambiguousTaken.length}, skipped: ${ambiguousSkipped.length}`);
+out.push(`- of these, the track has a discogs_master_id already (left as it is): ${already.length} (${already.filter(({ x }) => x.t.discogs_master_id === null).length} null, the API's release having none); differing from the dump's: ${disagree.length}`);
+for (const { x, m } of disagree) out.push(`  - ${line(x)}: ours ${x.t.discogs_master_id}, the dump's ${mline(m)}`);
+out.push(`- to set: ${toSet.length} (${PROGRAMS.map((p) => `${p} ${toSet.filter(({ x }) => x.program === p).length}`).join(', ')})`);
 out.push('', '## Accuracy checks', '');
 out.push(`- Tracks with a discogs_master_id already (the API's or the owner's): ${withMaster.length}; the dump matches the same master for ${masterCheck.agree}, another for ${masterCheck.differ.length}, none for ${masterCheck.notMatched}.`);
 for (const { x, m } of masterCheck.differ) out.push(`  - ${line(x)}: ours ${x.t.discogs_master_id}, the dump's ${mline(m)}`);
@@ -230,5 +237,68 @@ for (const x of classes.ambiguous.slice(0, 15)) out.push(`- ${line(x)} → ${x.m
 
 const text = `${out.join('\n')}\n`;
 if (opts.report) writeFileSync(opts.report, text);
-else process.stdout.write(text);
+else if (!opts.write) process.stdout.write(text);
+
+// ------------------------------------------------------------------ review list
+
+if (opts.review) {
+  const COMPILATION = /\b(best of|greatest|collection|anthology|singles|complete|hits|archives?|anniversary|remaster(ed)?|deluxe)\b/i;
+  const mentions = (m, track) => {
+    const key = titleKey(track ?? '');
+    return key.length > 0 && m.videos.some((v) => titleKey(v).includes(key));
+  };
+  const review = [];
+  for (const { x, m } of assigned) {
+    if ('discogs_master_id' in x.t && x.t.discogs_master_id !== m.id) continue;
+    const ours = x.t.year ?? null;
+    if (!m.year) continue;
+    const kind = ours === null ? 'missing' : ours - m.year >= 2 ? 'earlier' : null;
+    if (!kind) continue;
+    review.push({
+      program: x.program,
+      episode: x.episode,
+      aired: x.aired ?? x.airYear,
+      artist: x.t.artist,
+      track: x.t.track,
+      album: x.t.album,
+      our_year: ours,
+      master_id: m.id,
+      master_title: m.title,
+      master_artists: m.artists.map((a) => a.name).join(', '),
+      master_year: m.year,
+      gap: ours === null ? null : ours - m.year,
+      kind,
+      video_mentions_track: mentions(m, x.t.track),
+      compilation_like: COMPILATION.test(m.title) || COMPILATION.test(x.t.album ?? ''),
+      after_air: x.airYear !== null && m.year > x.airYear,
+      // The matched Discogs artist is a namesake Discogs tells apart with " (2)": a wrong band, maybe.
+      discogs_namesake: m.artists.some((a) => /\s\(\d+\)$/.test(a.name)),
+    });
+  }
+  const order = { earlier: 0, missing: 1 };
+  review.sort((a, b) => order[a.kind] - order[b.kind] || (b.gap ?? 0) - (a.gap ?? 0) || a.program.localeCompare(b.program));
+  writeFileSync(opts.review, `${JSON.stringify(review, null, 2)}\n`);
+  console.error(`review: ${review.length} tracks (${review.filter((r) => r.kind === 'earlier').length} earlier, ${review.filter((r) => r.kind === 'missing').length} missing) in ${opts.review}`);
+}
+
+// ------------------------------------------------------------------ write
+
+if (opts.write) {
+  const set = new Set(toSet.map(({ x }) => x.t));
+  for (const { x, m } of toSet) x.t.discogs_master_id = m.id;
+  for (const [id, episodes] of data) {
+    let changed = false;
+    for (const episode of episodes) {
+      if (!episode.tracks?.some((t) => set.has(t))) continue;
+      // Through the pipeline's own shaping, so the key order stays (discogs_master_id after discogs_id).
+      episode.tracks = episode.tracks.map((t) => (set.has(t) ? corrected(t) : t));
+      changed = true;
+    }
+    if (!changed) continue;
+    const file = join(ROOT, 'docs', 'data', `${id}.json`);
+    writeFileSync(`${file}.tmp`, `${JSON.stringify(episodes, null, 2)}\n`);
+    renameSync(`${file}.tmp`, file);
+  }
+  console.error(`wrote ${toSet.length} masters from the dump of ${dumpDate(opts.masters)}`);
+}
 console.error(`done in ${((Date.now() - started) / 1000).toFixed(0)} s: ${classes.matched.length} matched of ${tracks.length - classes.noAlbum.length} tracks with an album`);

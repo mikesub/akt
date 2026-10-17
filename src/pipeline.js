@@ -52,9 +52,10 @@ export const OPTIONS_USAGE = `  --limit <n>        Parse at most n playlists, ne
   --relink           Look every track up again from scratch (no new claude calls)
   --discogs          Look up on Discogs every track never asked there (those parsed before
                      every track was, 2026-10-17), and the master of every release found
-                     before masters were kept: about 19,000 tracks and 1,200 releases,
-                     some 17 hours with DISCOGS_TOKEN in .env; resumable. A run asks only
-                     new tracks, and those still without a year
+                     before masters were kept; a track with a master from the masters dump
+                     (bin/discogs-dump.js) is skipped: about 7,900 tracks and 750 releases
+                     on 2026-10-18, some 5 to 15 hours with DISCOGS_TOKEN in .env;
+                     resumable. A run asks only new tracks, and those still without a year
   --only <pattern>   With --misses, --musicbrainz or --relink: only the tracks whose
                      artist, title or album matches the pattern (a regular expression)
 `;
@@ -161,7 +162,9 @@ const sources = {
     },
   },
   discogs: {
-    needs: (track) => 'apple_id' in track && 'mb_id' in track && (!('discogs_id' in track) || (track.discogs_id !== null && !('discogs_master_id' in track))),
+    // A track with a master already (one from the masters dump, bin/discogs-dump.js) needs no release search.
+    needs: (track) =>
+      'apple_id' in track && 'mb_id' in track && !track.discogs_master_id && (!('discogs_id' in track) || (track.discogs_id !== null && !('discogs_master_id' in track))),
     ask: async (track, episode) => {
       if (track.discogs_id) {
         const master = await findMaster(track.discogs_id);
@@ -204,12 +207,14 @@ function forget(track, { misses, musicbrainz, relink }) {
   if (relink) return { ...parsed(track), year: null };
   const { apple_id, mb_id, discogs_id, discogs_master_id, ...rest } = track;
   const keepDiscogs = !((misses && (discogs_id ?? null) === null) || musicbrainz);
+  // A master with no release beside it came from the masters dump, not a lookup: kept.
+  const keepMaster = keepDiscogs || (discogs_master_id != null && (discogs_id ?? null) === null);
   const keep = {
     ...(!(misses && apple_id === null) && { apple_id }),
     ...(!((misses && mb_id === null) || musicbrainz) && { mb_id }),
     // Discogs is asked again with MusicBrainz; the master goes with its release.
     ...(keepDiscogs && { discogs_id }),
-    ...(keepDiscogs && discogs_master_id !== undefined && { discogs_master_id }),
+    ...(keepMaster && discogs_master_id !== undefined && { discogs_master_id }),
   };
   return { ...rest, ...keep };
 }
@@ -329,8 +334,8 @@ export async function run(
    * A failed lookup is left for the next run. Discogs, at 60 requests a
    * minute with the token (25 without), is asked about the tracks of the
    * playlists parsed in this run and those without a year; the rest, parsed
-   * before it was asked about every track, only with `discogs` (some 17 hours
-   * for the whole archive).
+   * before it was asked about every track, only with `discogs` (some 5 to 15
+   * hours for the rest of the archive, the masters dump having placed half).
    */
   const fresh = new Set(toParse);
   async function lookUp(name) {

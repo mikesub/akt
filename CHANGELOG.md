@@ -7,6 +7,15 @@ added, renamed or removed; **Breaking** marks a change that can break code readi
 Routine updates (a new Стереоплан episode, a single fix) are not listed: the git history of
 `docs/data/` has every change.
 
+## 2026-10-18
+
+- `discogs_master_id` set for 11,973 tracks in every program, from Discogs' CC0 masters dump of 2026-10-01
+  (data.discogs.com), matched offline by lead artist and album title (`bin/discogs-dump.js`): one master, or
+  the lowest of Discogs' duplicates of the same record (same artists, same year); never a "Various"
+  compilation's, and never over a master the track had. Album-level: the master of the album as the
+  playlist prints it, which may be a later compilation of the artist's; no year or other field changed.
+  Such a track may have a `discogs_master_id` and no `discogs_id`.
+
 ## 2026-10-17
 
 - **Format:** `discogs_master_id`, after `discogs_id`: the Discogs master of the track's release (the record across

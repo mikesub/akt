@@ -18,6 +18,7 @@
         "apple_album_id": 1181845491,
         "apple_artist_id": 79260631,
         "mb_id": "5bbd59ce-7822-43a1-a230-1e1ce8f2a772",
+        "discogs_master_id": 1127224,
         "year": 2005
       },
       {
@@ -46,6 +47,7 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "eea580e0-512e-48bd-ac5d-7ce48836c77c",
+        "discogs_master_id": 1127224,
         "year": 2005
       },
       {
@@ -76,6 +78,7 @@
         "apple_album_id": 1128050344,
         "apple_artist_id": null,
         "mb_id": "ead88d77-0679-4207-8720-dcfc64aecbe6",
+        "discogs_master_id": 1119890,
         "year": 2016
       },
       {
@@ -186,6 +189,7 @@
         "apple_album_id": 1142643028,
         "apple_artist_id": 258882871,
         "mb_id": "6a0a69db-a3f5-4cae-9311-f7e9144f263b",
+        "discogs_master_id": 1102580,
         "year": 2016
       }
     ]
@@ -209,6 +213,7 @@
         "apple_album_id": null,
         "apple_artist_id": 865183226,
         "mb_id": "1feb28ac-1b7e-40e9-9158-5a4dc763892f",
+        "discogs_master_id": 4287087,
         "year": 2016
       },
       {
@@ -223,6 +228,7 @@
         "apple_album_id": 1083499377,
         "apple_artist_id": 79609163,
         "mb_id": "e47b9894-2860-4f80-b6bb-818a101bbbf2",
+        "discogs_master_id": 992611,
         "year": 2016
       },
       {
@@ -267,6 +273,7 @@
         "apple_album_id": 1732064688,
         "apple_artist_id": 381643026,
         "mb_id": null,
+        "discogs_master_id": 836543,
         "year": 2015
       },
       {
@@ -296,6 +303,7 @@
         "apple_album_id": 897097394,
         "apple_artist_id": 211269308,
         "mb_id": "235a6d9d-8e8b-4889-9cb5-59bd62fc161f",
+        "discogs_master_id": 766978,
         "year": 2014
       },
       {
@@ -310,6 +318,7 @@
         "apple_album_id": 897097394,
         "apple_artist_id": 211269308,
         "mb_id": "da5fd6b9-1391-47d1-b05c-19729351ba1c",
+        "discogs_master_id": 766978,
         "year": 2014
       },
       {
@@ -388,6 +397,7 @@
         "apple_album_id": 1151436217,
         "apple_artist_id": 656163203,
         "mb_id": "b9e64a44-3268-4af2-a28b-40b58e7b1836",
+        "discogs_master_id": 1074473,
         "year": 2016
       },
       {
@@ -403,6 +413,7 @@
         "apple_album_id": 1151436217,
         "apple_artist_id": 656163203,
         "mb_id": "519477e6-74e6-4164-af6c-fdf731935873",
+        "discogs_master_id": 1074473,
         "year": 2016
       },
       {
@@ -417,6 +428,7 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 9188171,
+        "discogs_master_id": 1074473,
         "year": 2016
       },
       {
@@ -432,6 +444,7 @@
         "apple_album_id": 1227173613,
         "apple_artist_id": 348291725,
         "mb_id": "1cd90f24-99b5-4d0b-8a8e-60175ec6ea8a",
+        "discogs_master_id": 1139123,
         "year": 2016
       },
       {
@@ -447,6 +460,7 @@
         "apple_album_id": 1227173613,
         "apple_artist_id": 348291725,
         "mb_id": "dc48bef3-cb41-45cd-a0cf-d06e85788e59",
+        "discogs_master_id": 1139123,
         "year": 2017
       },
       {
@@ -461,6 +475,7 @@
         "apple_album_id": 1086147250,
         "apple_artist_id": 3862942,
         "mb_id": "c24a7025-4cd4-43f0-86ca-964c23066397",
+        "discogs_master_id": 1229756,
         "year": 2017
       },
       {
@@ -502,6 +517,7 @@
         ],
         "apple_id": null,
         "mb_id": "450bae87-30fc-4f30-a678-dda1efef9589",
+        "discogs_master_id": 950630,
         "year": 1983
       },
       {
@@ -530,6 +546,7 @@
         "apple_album_id": 1182337029,
         "apple_artist_id": 507503482,
         "mb_id": "ab70029c-191f-448b-8b75-427ea0c2f958",
+        "discogs_master_id": 1149969,
         "year": 2017
       },
       {
@@ -567,6 +584,7 @@
         "apple_album_id": 1462465877,
         "apple_artist_id": 257379230,
         "mb_id": "389714f7-a7cd-4209-90c9-bfda6986aa47",
+        "discogs_master_id": 2938978,
         "year": 2016
       },
       {
@@ -581,6 +599,7 @@
         "apple_album_id": 1462465877,
         "apple_artist_id": 257379230,
         "mb_id": "36e40792-3f4c-40ed-8fbd-443dad135897",
+        "discogs_master_id": 2938978,
         "year": 2016
       },
       {
@@ -734,6 +753,7 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 8932042,
+        "discogs_master_id": 1045950,
         "year": 2016
       },
       {
@@ -839,6 +859,7 @@
         "apple_album_id": 1177068107,
         "apple_artist_id": 349312910,
         "mb_id": "96b93aae-c530-4f22-931c-478073fe4c02",
+        "discogs_master_id": 1274115,
         "year": 2017
       },
       {
@@ -853,6 +874,7 @@
         "apple_album_id": 1161458393,
         "apple_artist_id": 1161458545,
         "mb_id": "61951e70-200b-441c-80b0-da24403fc6db",
+        "discogs_master_id": 1093973,
         "year": 2016
       },
       {
@@ -925,6 +947,7 @@
         "apple_album_id": 1667660742,
         "apple_artist_id": 7422070,
         "mb_id": "e1449254-8828-42b0-b67e-d5c48201f3ce",
+        "discogs_master_id": 1127845,
         "year": 2017
       },
       {
@@ -994,6 +1017,7 @@
         "apple_album_id": 1518007041,
         "apple_artist_id": 509402484,
         "mb_id": "6f0e4678-9f6d-49b1-a35d-9660142b337c",
+        "discogs_master_id": 1656182,
         "year": 2016
       },
       {
@@ -1008,6 +1032,7 @@
         "apple_album_id": 1518007041,
         "apple_artist_id": 509402484,
         "mb_id": "8bef2a4e-a7d6-49dc-a4a5-3cc4e9fc45b3",
+        "discogs_master_id": 1656182,
         "year": 2016
       },
       {
@@ -1049,6 +1074,7 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 9115713,
+        "discogs_master_id": 256429,
         "year": 1961
       },
       {
@@ -1064,6 +1090,7 @@
         "apple_album_id": 1033249133,
         "apple_artist_id": 454633423,
         "mb_id": "db659a9f-f0e6-43bf-bb07-066f8664b71f",
+        "discogs_master_id": 1418608,
         "year": 2015
       },
       {
@@ -1079,6 +1106,7 @@
         "apple_album_id": 1033249133,
         "apple_artist_id": 454633423,
         "mb_id": "907b9042-5310-45dd-986e-85e1ff6737e6",
+        "discogs_master_id": 1418608,
         "year": 2015
       },
       {
@@ -1093,6 +1121,7 @@
         "apple_album_id": 651340713,
         "apple_artist_id": 479306025,
         "mb_id": "f2f36e09-1a9e-43c0-80d0-ad12b0290332",
+        "discogs_master_id": 879155,
         "year": 2013
       },
       {
@@ -1137,6 +1166,7 @@
         "apple_album_id": 1062717611,
         "apple_artist_id": 331779811,
         "mb_id": "e24c68bf-7bbe-42d6-ba23-65c403690cd2",
+        "discogs_master_id": 593644,
         "year": 2012
       }
     ]
@@ -1201,6 +1231,7 @@
         "apple_album_id": 1286009836,
         "apple_artist_id": 441724102,
         "mb_id": "cddbf323-7385-4908-8d6a-11d576024053",
+        "discogs_master_id": 1173286,
         "year": 2016
       },
       {
@@ -1244,6 +1275,7 @@
         "apple_album_id": 411640930,
         "apple_artist_id": 654675,
         "mb_id": "25ac0aec-72a2-4c86-8dea-188120d5a63f",
+        "discogs_master_id": 1228911,
         "year": 2010
       },
       {
@@ -1258,6 +1290,7 @@
         "apple_album_id": 833549244,
         "apple_artist_id": 307813182,
         "mb_id": null,
+        "discogs_master_id": 682104,
         "year": 2014
       },
       {
@@ -1272,6 +1305,7 @@
         "apple_album_id": 1073065817,
         "apple_artist_id": 436118110,
         "mb_id": "f2c1d1dd-87c7-4fb6-a76a-9d8e4b9bda11",
+        "discogs_master_id": 1371415,
         "year": 2016
       },
       {
@@ -1287,6 +1321,7 @@
         "apple_album_id": 1073065817,
         "apple_artist_id": 436118110,
         "mb_id": "2f5d81b7-0a55-4c06-bcaf-ca5651dca153",
+        "discogs_master_id": 1371415,
         "year": 2016
       },
       {
@@ -1302,6 +1337,7 @@
         "apple_album_id": 1108539024,
         "apple_artist_id": 383817599,
         "mb_id": null,
+        "discogs_master_id": 1264522,
         "year": 2016
       },
       {
@@ -1317,6 +1353,7 @@
         "apple_album_id": 1108539024,
         "apple_artist_id": 383817599,
         "mb_id": null,
+        "discogs_master_id": 1264522,
         "year": 2016
       },
       {
@@ -1354,6 +1391,7 @@
         "apple_album_id": 1653294264,
         "apple_artist_id": 1110394063,
         "mb_id": "e1e8de18-4db9-4c33-baef-5d6861bed33a",
+        "discogs_master_id": 1036712,
         "year": 2016
       },
       {
@@ -1368,6 +1406,7 @@
         "apple_album_id": 1653294264,
         "apple_artist_id": 1110394063,
         "mb_id": "32bcee1d-2f36-47a0-8403-74590acb5e4e",
+        "discogs_master_id": 1036712,
         "year": 2016
       },
       {
@@ -1382,6 +1421,7 @@
         "apple_album_id": 1151380119,
         "apple_artist_id": null,
         "mb_id": "b95356f3-29fe-4721-be22-79dfd8b8d5ed",
+        "discogs_master_id": 1165216,
         "year": 2016
       },
       {
@@ -1396,6 +1436,7 @@
         "apple_album_id": 1151380119,
         "apple_artist_id": null,
         "mb_id": "be9d1c5a-8b25-47d8-965e-f142ab8e735e",
+        "discogs_master_id": 1165216,
         "year": 2016
       },
       {
@@ -1408,6 +1449,7 @@
         ],
         "apple_id": null,
         "mb_id": "d77a2602-e049-4e7f-b622-54acfafb0cfa",
+        "discogs_master_id": 1401836,
         "year": 2015
       },
       {
@@ -1420,6 +1462,7 @@
         ],
         "apple_id": null,
         "mb_id": "bb2798d5-3817-4398-99ba-5614a2627704",
+        "discogs_master_id": 1401836,
         "year": 2015
       },
       {
@@ -1434,6 +1477,7 @@
         "apple_album_id": 1288564300,
         "apple_artist_id": 684264806,
         "mb_id": "7ee80843-e4f0-4862-9f15-d38c9f57a55c",
+        "discogs_master_id": 1238523,
         "year": 2016
       },
       {
@@ -1523,6 +1567,7 @@
         "apple_album_id": 1095438868,
         "apple_artist_id": 50995173,
         "mb_id": "c5995614-0f32-4dc6-9dae-107fa7e4f4ce",
+        "discogs_master_id": 1020517,
         "year": 2016
       },
       {
@@ -1605,6 +1650,7 @@
         "apple_album_id": 1640214341,
         "apple_artist_id": 35201238,
         "mb_id": "3d700677-2efb-4342-95e5-d954145ee7b1",
+        "discogs_master_id": 1884405,
         "year": 2016
       },
       {
@@ -1619,6 +1665,7 @@
         "apple_album_id": 1484824801,
         "apple_artist_id": 35201238,
         "mb_id": "ffcc0557-9ba1-4205-b962-0586288d42fa",
+        "discogs_master_id": 1884405,
         "year": 2016
       },
       {
@@ -1856,6 +1903,7 @@
         "apple_album_id": 1008241242,
         "apple_artist_id": 919117831,
         "mb_id": "e23a1027-1f6d-4def-9198-a637bf850eae",
+        "discogs_master_id": 886582,
         "year": 2015
       },
       {
@@ -1870,6 +1918,7 @@
         "apple_album_id": 1008241242,
         "apple_artist_id": 919117831,
         "mb_id": "0d39d9c1-bd3a-4af4-ac5e-0539e1b07f36",
+        "discogs_master_id": 886582,
         "year": 2015
       },
       {
@@ -1884,6 +1933,7 @@
         "apple_album_id": 1162049719,
         "apple_artist_id": 372658209,
         "mb_id": "85503316-7f0c-48de-b429-fa4cc9abf993",
+        "discogs_master_id": 1333829,
         "year": 2016
       }
     ]
@@ -1908,6 +1958,7 @@
         "apple_album_id": 1667979131,
         "apple_artist_id": 1131006885,
         "mb_id": "c33ba93c-aa25-432c-a52c-edf103b86cea",
+        "discogs_master_id": 1041235,
         "year": 2016
       },
       {
@@ -2032,6 +2083,7 @@
         "apple_album_id": 1058442966,
         "apple_artist_id": 825083588,
         "mb_id": "452a389f-0cd2-4981-a440-80719606a8e8",
+        "discogs_master_id": 954382,
         "year": 2016
       },
       {
@@ -2074,6 +2126,7 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 14475351,
+        "discogs_master_id": 1645427,
         "year": 2016
       }
     ]
@@ -2125,6 +2178,7 @@
         "apple_album_id": 1601382559,
         "apple_artist_id": 1077940347,
         "mb_id": "67f5b330-5568-41b2-ac66-468d11ed4ff3",
+        "discogs_master_id": 1283466,
         "year": 2016
       },
       {
@@ -2139,6 +2193,7 @@
         "apple_album_id": 1601382559,
         "apple_artist_id": 1077940347,
         "mb_id": "f8052da6-c126-40b7-8322-c4dc23a5973d",
+        "discogs_master_id": 1283466,
         "year": 2016
       },
       {
@@ -2165,6 +2220,7 @@
         "apple_album_id": 1439984531,
         "apple_artist_id": 978674248,
         "mb_id": "a453494b-41fc-457c-b585-530194941ab9",
+        "discogs_master_id": 972884,
         "year": 2015
       },
       {
@@ -2179,6 +2235,7 @@
         "apple_album_id": null,
         "apple_artist_id": 978674248,
         "mb_id": "d20033f7-6054-4dae-9e8d-a11467ed3b62",
+        "discogs_master_id": 972884,
         "year": 2015
       },
       {
@@ -2207,6 +2264,7 @@
         "apple_album_id": 1863172389,
         "apple_artist_id": 1040566636,
         "mb_id": "d616b45c-74e0-49ff-91c8-ed49d0eef508",
+        "discogs_master_id": 881918,
         "year": 2015
       },
       {
@@ -2221,6 +2279,7 @@
         "apple_album_id": 1289745750,
         "apple_artist_id": 1092054777,
         "mb_id": "d788744e-47d5-4592-be9e-6b16f0913554",
+        "discogs_master_id": 1644936,
         "year": 2016
       },
       {
@@ -2235,6 +2294,7 @@
         "apple_album_id": 1289745750,
         "apple_artist_id": 1092054777,
         "mb_id": "204c5c72-a802-48b8-952b-48ef4e347b29",
+        "discogs_master_id": 1644936,
         "year": 2016
       }
     ]
@@ -2286,6 +2346,7 @@
         "apple_album_id": 1024087750,
         "apple_artist_id": 926747701,
         "mb_id": "582606ce-647c-42da-b598-c2556cba6087",
+        "discogs_master_id": 1273798,
         "year": 2015
       },
       {
@@ -2343,6 +2404,7 @@
         "apple_album_id": 1454696357,
         "apple_artist_id": 82942911,
         "mb_id": "fa1e0260-fa5a-4538-ab60-f507c20978b2",
+        "discogs_master_id": 827441,
         "year": 2015
       },
       {
@@ -2357,6 +2419,7 @@
         "apple_album_id": 1454696851,
         "apple_artist_id": 82942911,
         "mb_id": "eccf9bce-20e3-4b96-9bca-8464bd760e03",
+        "discogs_master_id": 827441,
         "year": 2015
       },
       {
@@ -2371,6 +2434,7 @@
         "apple_album_id": 1867336997,
         "apple_artist_id": 362062100,
         "mb_id": null,
+        "discogs_master_id": 947134,
         "year": 2015
       },
       {
@@ -2494,6 +2558,7 @@
         "apple_album_id": 1096258786,
         "apple_artist_id": 650113699,
         "mb_id": "dde410a5-e966-48e0-9082-79e5389f5c14",
+        "discogs_master_id": 1025733,
         "year": 2016
       },
       {
@@ -2508,6 +2573,7 @@
         "apple_album_id": 1111048402,
         "apple_artist_id": 484129243,
         "mb_id": null,
+        "discogs_master_id": 1034532,
         "year": 2016
       },
       {
@@ -2522,6 +2588,7 @@
         "apple_album_id": 1034415510,
         "apple_artist_id": 1527821979,
         "mb_id": "7948aef4-437d-4743-8936-c7ed4e64ac03",
+        "discogs_master_id": 1201519,
         "year": 2015
       },
       {
@@ -2536,6 +2603,7 @@
         "apple_album_id": 1034415510,
         "apple_artist_id": 1527821979,
         "mb_id": "6e268ed3-ec35-47f3-9a1f-5b94443bee60",
+        "discogs_master_id": 1201519,
         "year": 2015
       },
       {
@@ -2564,6 +2632,7 @@
         "apple_album_id": 1073175733,
         "apple_artist_id": 1073175734,
         "mb_id": "e1daaf40-9048-4a63-a29b-1ef553c9dd71",
+        "discogs_master_id": 964118,
         "year": 2016
       }
     ]
@@ -2585,6 +2654,7 @@
         ],
         "apple_id": null,
         "mb_id": "ad4ad87a-0a5a-4800-8f79-3870169f8bd9",
+        "discogs_master_id": 976209,
         "year": 2016
       },
       {
@@ -2597,6 +2667,7 @@
         ],
         "apple_id": null,
         "mb_id": "8d2b56dc-edf5-4db1-8066-f88f1dee80fd",
+        "discogs_master_id": 976209,
         "year": 2016
       },
       {
@@ -2627,6 +2698,7 @@
         "apple_album_id": 1083984735,
         "apple_artist_id": 1083985807,
         "mb_id": "c906fef9-2ce1-4a68-ae2e-a0ca7592b623",
+        "discogs_master_id": 1014051,
         "year": 2016
       },
       {
@@ -2655,6 +2727,7 @@
         "apple_album_id": 1105669417,
         "apple_artist_id": 1093589348,
         "mb_id": "8894f0b4-37ec-4971-beec-a0c6e489b70d",
+        "discogs_master_id": 3809331,
         "year": 2016
       },
       {
@@ -2669,6 +2742,7 @@
         "apple_album_id": 1105669417,
         "apple_artist_id": 1093589348,
         "mb_id": "6a63dd52-1a6c-4643-ad51-f1d7566af1fc",
+        "discogs_master_id": 3809331,
         "year": 2016
       },
       {
@@ -2684,6 +2758,7 @@
         "apple_album_id": 1084382363,
         "apple_artist_id": 406441487,
         "mb_id": "a967e808-1390-4daa-91ac-9a9e31e3c1fb",
+        "discogs_master_id": 988797,
         "year": 2016
       },
       {
@@ -2699,6 +2774,7 @@
         "apple_album_id": 1084382363,
         "apple_artist_id": 406441487,
         "mb_id": "56162836-befc-4dc7-8267-3ee2e8599168",
+        "discogs_master_id": 988797,
         "year": 2016
       },
       {
@@ -2747,6 +2823,7 @@
         "apple_album_id": 1112986026,
         "apple_artist_id": 597503129,
         "mb_id": "df71f883-c0f1-4d87-a5f0-fc800f9211d5",
+        "discogs_master_id": 1014025,
         "year": 2016
       },
       {
@@ -2762,6 +2839,7 @@
         "apple_album_id": 1112986026,
         "apple_artist_id": 597503129,
         "mb_id": "7b6ddf27-3ae1-4fef-8afc-b11124e25c1f",
+        "discogs_master_id": 1014025,
         "year": 2016
       },
       {
@@ -2843,6 +2921,7 @@
         "apple_album_id": 1130478772,
         "apple_artist_id": 532410677,
         "mb_id": null,
+        "discogs_master_id": 1285964,
         "year": 2013
       },
       {
@@ -2857,6 +2936,7 @@
         "apple_album_id": 1458697108,
         "apple_artist_id": 523499256,
         "mb_id": "7380185f-2193-44d2-806b-6d5c398e51bb",
+        "discogs_master_id": 1038010,
         "year": 2016
       },
       {
@@ -2871,6 +2951,7 @@
         "apple_album_id": 1000790368,
         "apple_artist_id": 712468016,
         "mb_id": "14b95125-f7d8-4b00-912c-1a8ba7d18b19",
+        "discogs_master_id": 902778,
         "year": 2015
       },
       {
@@ -2886,6 +2967,7 @@
         "apple_album_id": 1149354212,
         "apple_artist_id": 14944197,
         "mb_id": "716ecce7-ce05-47d2-bac0-0624346ff55b",
+        "discogs_master_id": 1194270,
         "year": 2016
       },
       {
@@ -2925,6 +3007,7 @@
         "apple_album_id": 1847636692,
         "apple_artist_id": 211891046,
         "mb_id": null,
+        "discogs_master_id": 913838,
         "year": 2015
       },
       {
@@ -2939,6 +3022,7 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 7726386,
+        "discogs_master_id": 913838,
         "year": 2015
       },
       {
@@ -3022,6 +3106,7 @@
         "apple_album_id": 1091676063,
         "apple_artist_id": 25511223,
         "mb_id": "79295f9d-8a9a-4ccc-a741-ba619ff7183b",
+        "discogs_master_id": 987796,
         "year": 2016
       },
       {
@@ -3036,6 +3121,7 @@
         "apple_album_id": 1130900348,
         "apple_artist_id": 651545574,
         "mb_id": "7c412a9f-1eb2-4ebb-963c-7f23a9865471",
+        "discogs_master_id": 1070651,
         "year": 2016
       },
       {
@@ -3050,6 +3136,7 @@
         "apple_album_id": 1130900348,
         "apple_artist_id": 651545574,
         "mb_id": "190d5bc6-3caa-4aa3-b107-6f2774fb2cb3",
+        "discogs_master_id": 1070651,
         "year": 2016
       },
       {
@@ -3064,6 +3151,7 @@
         "apple_album_id": 1254382330,
         "apple_artist_id": 965390970,
         "mb_id": "d066e8af-3c86-45ca-85d7-72e6b1ce627e",
+        "discogs_master_id": 1087742,
         "year": 2016
       },
       {
@@ -3078,6 +3166,7 @@
         "apple_album_id": 1254382330,
         "apple_artist_id": 965390970,
         "mb_id": "07a96d9b-451b-4b73-a28a-dc63d3cba81a",
+        "discogs_master_id": 1087742,
         "year": 2016
       },
       {
@@ -3114,6 +3203,7 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 10786352,
+        "discogs_master_id": 1231117,
         "year": 2015
       },
       {
@@ -3127,6 +3217,7 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 10786352,
+        "discogs_master_id": 1231117,
         "year": 2015
       },
       {
@@ -3141,6 +3232,7 @@
         "apple_album_id": 1177566008,
         "apple_artist_id": 1035710640,
         "mb_id": "02f618c2-aef1-4367-a3a1-aaeb310cd6f5",
+        "discogs_master_id": 1140390,
         "year": 2016
       },
       {
@@ -3155,6 +3247,7 @@
         "apple_album_id": 1162049719,
         "apple_artist_id": 372658209,
         "mb_id": "6ea70e99-8ff3-4a29-8349-e70ff85f035e",
+        "discogs_master_id": 1333829,
         "year": 2016
       },
       {
@@ -3183,6 +3276,7 @@
         "apple_album_id": 1065654822,
         "apple_artist_id": 3260519,
         "mb_id": "83b4c4f6-638b-4efd-8fa3-b8b48a59ad34",
+        "discogs_master_id": 969913,
         "year": 2016
       },
       {
@@ -3267,6 +3361,7 @@
         "apple_album_id": 1108756595,
         "apple_artist_id": 323002155,
         "mb_id": null,
+        "discogs_master_id": 1264544,
         "year": 2016
       }
     ]
@@ -3320,6 +3415,7 @@
         "apple_album_id": 1051874260,
         "apple_artist_id": 397069,
         "mb_id": "84866b71-faf4-4d8c-8903-bf5578688e28",
+        "discogs_master_id": 908529,
         "year": 2015
       },
       {
@@ -3349,6 +3445,7 @@
         "apple_album_id": null,
         "apple_artist_id": 577173716,
         "mb_id": "aa27ee1d-4f26-4b1f-ad7b-9dd4a0d7de5d",
+        "discogs_master_id": 1078142,
         "year": 2016
       },
       {
@@ -3363,6 +3460,7 @@
         "apple_album_id": null,
         "apple_artist_id": 577173716,
         "mb_id": "7ee35859-2db9-4e47-9c10-053eceeee0f8",
+        "discogs_master_id": 1078142,
         "year": 2016
       },
       {
@@ -3391,6 +3489,7 @@
         "apple_album_id": 1148050444,
         "apple_artist_id": 205916904,
         "mb_id": "ff981df2-41dd-4414-a4a3-1b4c74ed1aea",
+        "discogs_master_id": 991570,
         "year": 2016
       },
       {
@@ -3405,6 +3504,7 @@
         "apple_album_id": 1148050444,
         "apple_artist_id": 205916904,
         "mb_id": "9a17693c-7189-430e-80f9-5e24837369eb",
+        "discogs_master_id": 991570,
         "year": 2015
       },
       {
@@ -3420,6 +3520,7 @@
         "apple_album_id": 1468482294,
         "apple_artist_id": 25341474,
         "mb_id": null,
+        "discogs_master_id": 3697536,
         "year": 2016
       },
       {
@@ -3435,6 +3536,7 @@
         "apple_album_id": 1468482294,
         "apple_artist_id": 25341474,
         "mb_id": null,
+        "discogs_master_id": 3697536,
         "year": 2016
       },
       {
@@ -3449,6 +3551,7 @@
         "apple_album_id": 986476678,
         "apple_artist_id": 560606273,
         "mb_id": "8eea3c78-c3d0-4d5d-9a2c-8a83515348ae",
+        "discogs_master_id": 851895,
         "year": 2015
       },
       {
@@ -3487,6 +3590,7 @@
         "apple_album_id": 1094674629,
         "apple_artist_id": 425131520,
         "mb_id": "8ea303c5-a2e5-4470-8ee3-120f6f3435bb",
+        "discogs_master_id": 973523,
         "year": 2016
       },
       {
@@ -3501,6 +3605,7 @@
         "apple_album_id": 1436332815,
         "apple_artist_id": 391264955,
         "mb_id": null,
+        "discogs_master_id": 1045659,
         "year": 2015
       },
       {
@@ -3515,6 +3620,7 @@
         "apple_album_id": 992981833,
         "apple_artist_id": 377163300,
         "mb_id": "24d367d6-8b6d-4dd2-841b-f1eb92b8d65d",
+        "discogs_master_id": 868526,
         "year": 2015
       },
       {
@@ -3529,6 +3635,7 @@
         "apple_album_id": 992981833,
         "apple_artist_id": 377163300,
         "mb_id": "0402ab69-bdca-4fdf-b7bd-e70b76948bc9",
+        "discogs_master_id": 868526,
         "year": 2015
       },
       {
@@ -3544,6 +3651,7 @@
         "apple_album_id": 1005671146,
         "apple_artist_id": 19346163,
         "mb_id": "20f5defa-9b9e-4e20-87b2-e2c8ed002127",
+        "discogs_master_id": 904900,
         "year": 2015
       },
       {
@@ -3559,6 +3667,7 @@
         "apple_album_id": 1005671146,
         "apple_artist_id": 19346163,
         "mb_id": "e61a4dec-f1e4-4178-b328-65c789155cb0",
+        "discogs_master_id": 904900,
         "year": 2015
       },
       {
@@ -3644,6 +3753,7 @@
         "apple_album_id": 976651217,
         "apple_artist_id": 976651222,
         "mb_id": null,
+        "discogs_master_id": 851762,
         "year": 2015
       },
       {
@@ -3752,6 +3862,7 @@
         "apple_album_id": 1415781849,
         "apple_artist_id": 599249751,
         "mb_id": "fbf8f8c6-41f6-4c61-a8c6-24a1e406d5e0",
+        "discogs_master_id": 1127516,
         "year": 2014
       },
       {
@@ -3766,6 +3877,7 @@
         "apple_album_id": 1783852659,
         "apple_artist_id": 424622037,
         "mb_id": "c47be05e-a93c-49a9-bfb8-165f173f810a",
+        "discogs_master_id": 991800,
         "year": 2016
       },
       {
@@ -3781,6 +3893,7 @@
         "apple_album_id": 1508308468,
         "apple_artist_id": null,
         "mb_id": "291db5a2-6f8d-47da-b3f4-9fc8bb121de6",
+        "discogs_master_id": 4021771,
         "year": 2015
       },
       {
@@ -3811,6 +3924,7 @@
         "apple_album_id": 1400680315,
         "apple_artist_id": 698658184,
         "mb_id": "d2c66bd8-95e9-49fc-866e-ef55cbfe2159",
+        "discogs_master_id": 1058809,
         "year": 2013
       },
       {
@@ -3839,6 +3953,7 @@
         "apple_album_id": 1605259737,
         "apple_artist_id": 367827,
         "mb_id": "bedf205d-f218-4a5f-82aa-d2a2bd009285",
+        "discogs_master_id": 807748,
         "year": 2015
       },
       {
@@ -3853,6 +3968,7 @@
         "apple_album_id": 1104295889,
         "apple_artist_id": 1104295945,
         "mb_id": null,
+        "discogs_master_id": 1336561,
         "year": 2016
       }
     ]
@@ -3916,6 +4032,7 @@
         "apple_album_id": 1140188899,
         "apple_artist_id": 341449868,
         "mb_id": "f5bfce7d-bd18-4687-adb8-2dd6c8063237",
+        "discogs_master_id": 1063106,
         "year": 2016
       },
       {
@@ -4026,6 +4143,7 @@
         "apple_album_id": 1488031406,
         "apple_artist_id": 313652717,
         "mb_id": "1e0aa393-4054-4e7f-b23a-7f95a04bc87d",
+        "discogs_master_id": 1020205,
         "year": 2016
       }
     ]
@@ -4064,6 +4182,7 @@
         "apple_album_id": 1084386003,
         "apple_artist_id": 76156553,
         "mb_id": "bd2084f0-0d3f-4079-b457-d8948ee9059e",
+        "discogs_master_id": 1009138,
         "year": 2016
       },
       {
@@ -4078,6 +4197,7 @@
         "apple_album_id": 1084386003,
         "apple_artist_id": 76156553,
         "mb_id": "c455bfd3-d4c1-4bf1-a4db-1f04ee300729",
+        "discogs_master_id": 1009138,
         "year": 2016
       },
       {
@@ -4092,6 +4212,7 @@
         "apple_album_id": 1084386003,
         "apple_artist_id": 76156553,
         "mb_id": "0399ef66-7d73-4376-b14c-47c8a0559e7e",
+        "discogs_master_id": 1009138,
         "year": 2016
       },
       {
@@ -4106,6 +4227,7 @@
         "apple_album_id": 1611639233,
         "apple_artist_id": 6729884,
         "mb_id": "3c94ae1d-e3b2-4f28-937b-1d6715be3ea0",
+        "discogs_master_id": 959650,
         "year": 2015
       },
       {
@@ -4189,6 +4311,7 @@
         "apple_album_id": 805737687,
         "apple_artist_id": 1501731874,
         "mb_id": "872fa43f-6290-4073-bad0-28f4c4f3c023",
+        "discogs_master_id": 659817,
         "year": 2014
       },
       {
@@ -4201,6 +4324,7 @@
         ],
         "apple_id": null,
         "mb_id": "4e449dd8-3515-448c-962f-fbce5a10c4ca",
+        "discogs_master_id": 2938387,
         "year": 2016
       },
       {
@@ -4296,6 +4420,7 @@
         "apple_album_id": 1443172499,
         "apple_artist_id": 206456819,
         "mb_id": "5a2d7500-d17a-4db3-a07c-e1ab1d97ebc0",
+        "discogs_master_id": 757449,
         "year": 2014
       },
       {
@@ -4378,6 +4503,7 @@
         "apple_album_id": 1051022913,
         "apple_artist_id": 2756920,
         "mb_id": "f67d1887-97d1-4ce3-a4f3-1d6f3389cca0",
+        "discogs_master_id": 910103,
         "year": 2015
       },
       {
@@ -4392,6 +4518,7 @@
         "apple_album_id": 1289757976,
         "apple_artist_id": 402025789,
         "mb_id": "fd232002-8153-4727-b4ea-0f2440b7e9e6",
+        "discogs_master_id": 1218266,
         "year": 2014
       },
       {
@@ -4430,6 +4557,7 @@
         "apple_album_id": 1155141323,
         "apple_artist_id": 977678243,
         "mb_id": "26bfb916-fb27-4ff4-b52e-f0e5969ae729",
+        "discogs_master_id": 1089832,
         "year": 2016
       },
       {
@@ -4445,6 +4573,7 @@
         "apple_album_id": 1155141323,
         "apple_artist_id": 977678243,
         "mb_id": "2ef1723f-2a6a-4d64-931d-cf52d3d5ae85",
+        "discogs_master_id": 1089832,
         "year": 2016
       },
       {
@@ -4460,6 +4589,7 @@
         "apple_album_id": 1155141323,
         "apple_artist_id": 977678243,
         "mb_id": "8520c1d8-e53b-47a2-9e97-21611e2f07fe",
+        "discogs_master_id": 1089832,
         "year": 2016
       },
       {
@@ -4474,6 +4604,7 @@
         "apple_album_id": 1138148725,
         "apple_artist_id": 1138148868,
         "mb_id": "fb0fe4ea-415f-4862-97b9-bdc2b3b16dd2",
+        "discogs_master_id": 1601298,
         "year": 2016
       },
       {
@@ -4514,6 +4645,7 @@
         "apple_album_id": 1165278698,
         "apple_artist_id": 276502642,
         "mb_id": "4ab257a7-9b90-479d-aea8-4e25aa6b8b98",
+        "discogs_master_id": 979503,
         "year": 2016
       },
       {
@@ -4542,6 +4674,7 @@
         "apple_album_id": 1677693126,
         "apple_artist_id": null,
         "mb_id": "a0b87378-4510-46c6-969c-b7a8d837c98f",
+        "discogs_master_id": 837016,
         "year": 2014
       },
       {
@@ -4619,6 +4752,7 @@
         "apple_album_id": 1653271925,
         "apple_artist_id": 262827537,
         "mb_id": "b6e15141-6763-4ace-aa94-d452a68188a2",
+        "discogs_master_id": 1066899,
         "year": 2016
       },
       {
@@ -4633,6 +4767,7 @@
         "apple_album_id": 1653271925,
         "apple_artist_id": 262827537,
         "mb_id": "1c8660d3-4faa-4501-934a-bde44e26e765",
+        "discogs_master_id": 1066899,
         "year": 2016
       },
       {
@@ -4691,6 +4826,7 @@
         "apple_album_id": 1089118941,
         "apple_artist_id": 257953942,
         "mb_id": "edf00b55-354a-4f51-ac1f-0eeb67c9350d",
+        "discogs_master_id": 996189,
         "year": 2016
       },
       {
@@ -4798,6 +4934,7 @@
         "apple_album_id": 1818840925,
         "apple_artist_id": 399452086,
         "mb_id": "5040c088-5d0d-4bf3-92dc-10be8fde0b7b",
+        "discogs_master_id": 1068519,
         "year": 2016
       },
       {
@@ -4812,6 +4949,7 @@
         "apple_album_id": 1818840925,
         "apple_artist_id": 399452086,
         "mb_id": "7d5ff21b-4b3c-48ac-836d-646cfe8650cf",
+        "discogs_master_id": 1068519,
         "year": 2016
       },
       {
@@ -4826,6 +4964,7 @@
         "apple_album_id": 1106950967,
         "apple_artist_id": 1106951060,
         "mb_id": "f9ebcedb-071e-4c6c-8cd7-60687d684b07",
+        "discogs_master_id": 1494707,
         "year": 2016
       },
       {
@@ -4866,6 +5005,7 @@
         "apple_album_id": 1112261110,
         "apple_artist_id": 1112261188,
         "mb_id": "4a40225c-8c1c-4291-a3b9-e7e832743a8f",
+        "discogs_master_id": 1042728,
         "year": 2016
       },
       {
@@ -4880,6 +5020,7 @@
         "apple_album_id": 1086579053,
         "apple_artist_id": 1061610300,
         "mb_id": "e232da95-6cf5-46ad-9a3e-043467fc30f3",
+        "discogs_master_id": 1022368,
         "year": 2016
       },
       {
@@ -4907,6 +5048,7 @@
         "apple_album_id": 1121934415,
         "apple_artist_id": 1074167187,
         "mb_id": "088ef687-6226-405a-b644-8da7dc354182",
+        "discogs_master_id": 1084958,
         "year": 2016
       },
       {
@@ -4962,6 +5104,7 @@
         "apple_album_id": 1872448590,
         "apple_artist_id": 494074344,
         "mb_id": "6a33a6fb-b273-4670-933e-4837c3b60cbe",
+        "discogs_master_id": 1017064,
         "year": 2016
       }
     ]
@@ -5072,6 +5215,7 @@
         "apple_album_id": 1042018476,
         "apple_artist_id": null,
         "mb_id": null,
+        "discogs_master_id": 967028,
         "year": 2015
       },
       {
@@ -5220,6 +5364,7 @@
         "apple_album_id": 1608119898,
         "apple_artist_id": 153034252,
         "mb_id": "43dd9337-16a2-4d7f-80f1-0c9485ddda96",
+        "discogs_master_id": 1067045,
         "year": 2016
       },
       {
@@ -5234,6 +5379,7 @@
         "apple_album_id": 1608119898,
         "apple_artist_id": 153034252,
         "mb_id": "0713128f-4a53-42e5-9e6b-cb5e6049d9b4",
+        "discogs_master_id": 1067045,
         "year": 2016
       },
       {
@@ -5303,6 +5449,7 @@
         "apple_album_id": 1158227295,
         "apple_artist_id": 844393104,
         "mb_id": "2f4d0b47-2cf8-401d-9f32-85e2cc997b32",
+        "discogs_master_id": 1270234,
         "year": 2016
       },
       {
@@ -5317,6 +5464,7 @@
         "apple_album_id": 590389668,
         "apple_artist_id": 483660788,
         "mb_id": "8d005267-b277-4ddf-b8b5-dbf53e5e45b1",
+        "discogs_master_id": 1094606,
         "year": 2012
       },
       {
@@ -5331,6 +5479,7 @@
         "apple_album_id": 1047795051,
         "apple_artist_id": 60702220,
         "mb_id": "d332abef-1cb7-4238-8650-e0eff114331b",
+        "discogs_master_id": 960327,
         "year": 2015
       }
     ]
@@ -5354,6 +5503,7 @@
         "apple_album_id": 1107197698,
         "apple_artist_id": 510626737,
         "mb_id": "01ce71a3-517a-42db-a5fd-f354e4d9ac49",
+        "discogs_master_id": 1019257,
         "year": 2016
       },
       {
@@ -5381,6 +5531,7 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 9370310,
+        "discogs_master_id": 1020844,
         "year": 2016
       },
       {
@@ -5492,6 +5643,7 @@
         "apple_album_id": 1339800278,
         "apple_artist_id": 392160520,
         "mb_id": "2887e71d-f85d-4d80-b75e-da744828e973",
+        "discogs_master_id": 1304970,
         "year": 2016
       },
       {
@@ -5506,6 +5658,7 @@
         "apple_album_id": 1094302086,
         "apple_artist_id": 368830282,
         "mb_id": "a0b60f7f-2faa-4212-aa3b-de1a09ab3fcb",
+        "discogs_master_id": 1010150,
         "year": 2016
       },
       {
@@ -5599,6 +5752,7 @@
         "apple_album_id": 1259301320,
         "apple_artist_id": 352621329,
         "mb_id": null,
+        "discogs_master_id": 1698567,
         "year": 2016
       },
       {
@@ -5834,6 +5988,7 @@
         "apple_album_id": 1057166665,
         "apple_artist_id": 416551684,
         "mb_id": "bb61f087-42c2-41ac-ad58-e1300954f3ce",
+        "discogs_master_id": 1221705,
         "year": 2015
       },
       {
@@ -5848,6 +6003,7 @@
         "apple_album_id": 1057166665,
         "apple_artist_id": 416551684,
         "mb_id": "0d3382d2-15c4-47e9-8ab1-bebd68e94db0",
+        "discogs_master_id": 1221705,
         "year": 2015
       },
       {
@@ -5955,6 +6111,7 @@
         "apple_album_id": 1098552299,
         "apple_artist_id": null,
         "mb_id": "808144a3-a146-4a04-adfc-37465141fe55",
+        "discogs_master_id": 1552405,
         "year": 2016
       },
       {
@@ -5970,6 +6127,7 @@
         "apple_album_id": 1098552299,
         "apple_artist_id": null,
         "mb_id": "26f3271c-ae89-46b0-844c-5b2d89d6e378",
+        "discogs_master_id": 1552405,
         "year": 2016
       },
       {
@@ -6108,6 +6266,7 @@
         "apple_album_id": 1046919645,
         "apple_artist_id": 840359929,
         "mb_id": "d5f96f0e-3808-4c21-a182-2dade2b09a89",
+        "discogs_master_id": 322669,
         "year": 1987
       },
       {
@@ -6123,6 +6282,7 @@
         "apple_album_id": null,
         "apple_artist_id": 840359929,
         "mb_id": "e2e6dd37-a83f-4d9c-b349-cde58bbc758a",
+        "discogs_master_id": 322669,
         "year": 1993
       },
       {
@@ -6149,6 +6309,7 @@
         "apple_album_id": 1151483462,
         "apple_artist_id": 281675424,
         "mb_id": "80d4ad78-a994-46e3-9f9d-00705ab651b3",
+        "discogs_master_id": 1812321,
         "year": 2016
       },
       {
@@ -6191,6 +6352,7 @@
         "apple_album_id": 1289810209,
         "apple_artist_id": 997407908,
         "mb_id": "a72b6bbb-23ad-4344-8467-919974b7a728",
+        "discogs_master_id": 1080373,
         "year": 2016
       },
       {
@@ -6366,6 +6528,7 @@
         "apple_album_id": 1089957120,
         "apple_artist_id": 710489185,
         "mb_id": "9d6cd12b-6c99-4705-9a6e-266e415b4e69",
+        "discogs_master_id": 1027796,
         "year": 2016
       },
       {
@@ -6381,6 +6544,7 @@
         "apple_album_id": 1076304059,
         "apple_artist_id": 122205458,
         "mb_id": "cce24d3b-c5e0-4cb4-9910-51482ade683d",
+        "discogs_master_id": 1496259,
         "year": 2016
       },
       {
@@ -6513,6 +6677,7 @@
         "apple_album_id": 1468000024,
         "apple_artist_id": 740501776,
         "mb_id": "b4859c01-aa4f-452f-a3c9-d3599db437d4",
+        "discogs_master_id": 1143208,
         "year": 2013
       },
       {
@@ -6540,6 +6705,7 @@
         ],
         "apple_id": null,
         "mb_id": "b9c611cd-58a3-4697-8233-95bd15562017",
+        "discogs_master_id": 1540129,
         "year": 2014
       },
       {
@@ -6650,6 +6816,7 @@
         ],
         "apple_id": null,
         "mb_id": "992a0788-d976-4af8-9c50-03756fc7a505",
+        "discogs_master_id": 1302012,
         "year": 2011
       }
     ]
@@ -6674,6 +6841,7 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 9171100,
+        "discogs_master_id": 1293194,
         "year": 2016
       },
       {
@@ -6688,6 +6856,7 @@
         ],
         "apple_id": null,
         "mb_id": "a35ff1b6-2846-4085-87c8-e1968dd6f2a0",
+        "discogs_master_id": 1293194,
         "year": 2016
       },
       {
@@ -6702,6 +6871,7 @@
         ],
         "apple_id": null,
         "mb_id": "624b6ec5-e64d-4192-8e19-5ef1eb9d2f66",
+        "discogs_master_id": 1154630,
         "year": 2005
       },
       {
@@ -6825,6 +6995,7 @@
         "apple_album_id": 960249221,
         "apple_artist_id": 559922860,
         "mb_id": "7c4ef542-eca1-4b0e-8ebf-a6bb4d514d42",
+        "discogs_master_id": 1149848,
         "year": 2015
       },
       {
@@ -6862,6 +7033,7 @@
         "apple_album_id": 1289785576,
         "apple_artist_id": 1097847344,
         "mb_id": "c8346c3f-eac7-4351-908d-23eeca2f75f0",
+        "discogs_master_id": 1531515,
         "year": 2016
       },
       {
@@ -6875,6 +7047,7 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 14475341,
+        "discogs_master_id": 1531515,
         "year": 2016
       },
       {
@@ -6901,6 +7074,7 @@
         "apple_album_id": 1038569211,
         "apple_artist_id": 946096904,
         "mb_id": "4e957265-7d7e-4ccf-bc1c-dfbca4897fdf",
+        "discogs_master_id": 959143,
         "year": 2015
       },
       {
@@ -6913,6 +7087,7 @@
         ],
         "apple_id": null,
         "mb_id": "0d78e3f3-ef30-4a38-8a6a-a596c0035924",
+        "discogs_master_id": 1185224,
         "year": 2014
       },
       {
@@ -6925,6 +7100,7 @@
         ],
         "apple_id": null,
         "mb_id": "4ca4de92-ee1e-4250-9c11-79d9f5227d93",
+        "discogs_master_id": 1185224,
         "year": 2014
       },
       {
@@ -7025,6 +7201,7 @@
         "apple_album_id": 1689057655,
         "apple_artist_id": 200379468,
         "mb_id": "62587b03-8f0f-4193-91aa-2e994066186b",
+        "discogs_master_id": 919323,
         "year": 1968
       }
     ]
@@ -7076,6 +7253,7 @@
         "apple_album_id": 1839126010,
         "apple_artist_id": 524371,
         "mb_id": "4f8a15d6-ce24-465e-8d5b-b56292073415",
+        "discogs_master_id": 975144,
         "year": 2016
       },
       {
@@ -7295,6 +7473,7 @@
         "apple_artist_id": null,
         "mb_id": null,
         "discogs_id": 14590013,
+        "discogs_master_id": 1986124,
         "year": 2016
       },
       {
@@ -7311,6 +7490,7 @@
         "apple_artist_id": null,
         "mb_id": null,
         "discogs_id": 17491075,
+        "discogs_master_id": 1986124,
         "year": null
       },
       {
@@ -7403,6 +7583,7 @@
         "apple_album_id": 959983132,
         "apple_artist_id": 42001812,
         "mb_id": "7a46f178-55c9-4a4f-b0fd-32570f1b879d",
+        "discogs_master_id": 815736,
         "year": 2015
       }
     ]
@@ -7426,6 +7607,7 @@
         "apple_album_id": 1016505386,
         "apple_artist_id": 138316222,
         "mb_id": "385cddc2-b5f4-4235-be92-c7aa592cea3d",
+        "discogs_master_id": 971545,
         "year": 2015
       },
       {
@@ -7440,6 +7622,7 @@
         "apple_album_id": 1016505386,
         "apple_artist_id": 138316222,
         "mb_id": "3c1d0d8d-0bb9-4447-8411-ac15d52745fe",
+        "discogs_master_id": 971545,
         "year": 2015
       },
       {
@@ -7604,6 +7787,7 @@
         "apple_album_id": 1596651128,
         "apple_artist_id": 1596472564,
         "mb_id": null,
+        "discogs_master_id": 3698715,
         "year": 2015
       }
     ]
@@ -7684,6 +7868,7 @@
         "apple_album_id": 1608121395,
         "apple_artist_id": 337011016,
         "mb_id": "530b3e68-7d73-4f04-af56-c2324b7e4906",
+        "discogs_master_id": 928748,
         "year": 2015
       },
       {
@@ -7698,6 +7883,7 @@
         "apple_album_id": 1608121395,
         "apple_artist_id": 337011016,
         "mb_id": "a83e45da-b641-4fd7-a72e-19d70cc1d325",
+        "discogs_master_id": 928748,
         "year": 2015
       },
       {
@@ -7752,6 +7938,7 @@
         "apple_album_id": 1036323562,
         "apple_artist_id": 570253901,
         "mb_id": "da83b946-c94c-4c31-89d7-9e3d621336fe",
+        "discogs_master_id": 898978,
         "year": 2015
       },
       {
@@ -7779,6 +7966,7 @@
         "apple_album_id": 1033577515,
         "apple_artist_id": null,
         "mb_id": "d4112ed6-5f67-467b-a50c-72dfd86de7fa",
+        "discogs_master_id": 983635,
         "year": 2015
       },
       {
@@ -7815,6 +8003,7 @@
         "apple_album_id": 1839099600,
         "apple_artist_id": 5457813,
         "mb_id": "38bf2945-4cd5-4961-b24a-847c6d334177",
+        "discogs_master_id": 979492,
         "year": 2016
       },
       {
@@ -7841,6 +8030,7 @@
         ],
         "apple_id": null,
         "mb_id": "15077315-28cb-4aaf-a7dd-0f641c8166e3",
+        "discogs_master_id": 913539,
         "year": 2015
       },
       {
@@ -8043,6 +8233,7 @@
         "apple_album_id": 1093890670,
         "apple_artist_id": 1076723147,
         "mb_id": "869ca89f-9e7b-4d70-bffb-a9105cf6096d",
+        "discogs_master_id": 1000968,
         "year": 2016
       },
       {
@@ -8057,6 +8248,7 @@
         "apple_album_id": 1445428673,
         "apple_artist_id": 72572501,
         "mb_id": "55b7e560-8081-468b-a843-7c5aba52d2af",
+        "discogs_master_id": 950133,
         "year": 1999
       },
       {
@@ -8071,6 +8263,7 @@
         "apple_album_id": 1445428673,
         "apple_artist_id": 72572501,
         "mb_id": "a2346b53-3336-47cd-ab28-7ff94f49abe4",
+        "discogs_master_id": 950133,
         "year": 2000
       },
       {
@@ -8171,6 +8364,7 @@
         "apple_album_id": 1875982084,
         "apple_artist_id": 1190709,
         "mb_id": "96d3a888-db0b-4678-aa29-89dc9fb97489",
+        "discogs_master_id": 947530,
         "year": 2015
       },
       {
@@ -8186,6 +8380,7 @@
         "apple_album_id": 1875982084,
         "apple_artist_id": 1190709,
         "mb_id": "ef0b31f5-4c8a-472d-886f-9b21f6903717",
+        "discogs_master_id": 947530,
         "year": 2012
       }
     ]
@@ -8318,6 +8513,7 @@
         "apple_album_id": 1059669024,
         "apple_artist_id": 381775043,
         "mb_id": "9ec2878a-6d03-4c1d-bebb-cb96eaad8a8c",
+        "discogs_master_id": 968183,
         "year": 2015
       },
       {
@@ -8348,6 +8544,7 @@
         "apple_album_id": 1278299476,
         "apple_artist_id": 552057922,
         "mb_id": "43761df7-ebb2-41ab-bd38-ad222fae61ed",
+        "discogs_master_id": 1086949,
         "year": 2016
       },
       {
@@ -8469,6 +8666,7 @@
         "apple_album_id": 6796118835,
         "apple_artist_id": 422244298,
         "mb_id": "1ef75a5c-0c4d-47af-973e-70a0940ae7ad",
+        "discogs_master_id": 1062594,
         "year": 2016
       },
       {
@@ -8550,6 +8748,7 @@
         "apple_album_id": 1056780403,
         "apple_artist_id": null,
         "mb_id": "42b4cde0-20e6-4833-9fc1-7d0aa6707d4e",
+        "discogs_master_id": 1644895,
         "year": 2016
       },
       {
@@ -8627,6 +8826,7 @@
         "apple_album_id": 1561229257,
         "apple_artist_id": 385961428,
         "mb_id": "8b317a48-7a0d-4cd2-961e-3be4c5281182",
+        "discogs_master_id": 886893,
         "year": 2015
       },
       {
@@ -8642,6 +8842,7 @@
         "apple_album_id": 1561229257,
         "apple_artist_id": 385961428,
         "mb_id": "4a1c0379-473b-4eda-9fe9-831a5cb8435f",
+        "discogs_master_id": 886893,
         "year": 2015
       },
       {
@@ -8766,6 +8967,7 @@
         "apple_album_id": 1766470308,
         "apple_artist_id": 914156364,
         "mb_id": "615537a3-67c9-4d6a-b762-21756b432465",
+        "discogs_master_id": 1177951,
         "year": 2015
       },
       {
@@ -8780,6 +8982,7 @@
         "apple_album_id": null,
         "apple_artist_id": 914156364,
         "mb_id": "fab1e194-5eaf-4662-8e28-ca4cc84ffdec",
+        "discogs_master_id": 1177951,
         "year": 2015
       },
       {
@@ -8808,6 +9011,7 @@
         "apple_album_id": 1526919160,
         "apple_artist_id": 912436367,
         "mb_id": "c8534668-2f3b-49cf-8ceb-087f01681e04",
+        "discogs_master_id": 1063362,
         "year": 2014
       },
       {
@@ -8822,6 +9026,7 @@
         "apple_album_id": 1526919160,
         "apple_artist_id": 912436367,
         "mb_id": "d1ff3ea9-5ff3-46be-83c2-21eb0f6decf9",
+        "discogs_master_id": 1063362,
         "year": 2014
       },
       {
@@ -9015,6 +9220,7 @@
         ],
         "apple_id": null,
         "mb_id": "70df4202-a4e7-4252-9c2e-8a09f967997d",
+        "discogs_master_id": 1120511,
         "year": 2016
       },
       {
@@ -9027,6 +9233,7 @@
         ],
         "apple_id": null,
         "mb_id": "6a7a54c9-5d0b-4179-84ca-0f087be4d4ae",
+        "discogs_master_id": 1120511,
         "year": 2016
       },
       {
@@ -9042,6 +9249,7 @@
         "apple_album_id": 1007585339,
         "apple_artist_id": null,
         "mb_id": "6680c990-165e-48be-83f5-5dc212ac3ec4",
+        "discogs_master_id": 1017556,
         "year": 2015
       },
       {
@@ -9057,6 +9265,7 @@
         "apple_album_id": 1007585339,
         "apple_artist_id": null,
         "mb_id": "864dccf7-b474-459a-9aa6-e8c05a06051f",
+        "discogs_master_id": 1017556,
         "year": 2015
       },
       {
@@ -9071,6 +9280,7 @@
         "apple_album_id": 1559825485,
         "apple_artist_id": 524000465,
         "mb_id": "83bfc6a5-96de-448e-a171-366cf8a5c71b",
+        "discogs_master_id": 1026064,
         "year": 2015
       },
       {
@@ -9124,6 +9334,7 @@
         "apple_album_id": 1094311787,
         "apple_artist_id": 276612647,
         "mb_id": "40d3d612-d34d-417d-93ed-c382ac27887b",
+        "discogs_master_id": 1056113,
         "year": 2015
       },
       {
@@ -9161,6 +9372,7 @@
         "apple_album_id": null,
         "apple_artist_id": 840359929,
         "mb_id": "18da788c-8e19-4fcb-8c4a-23c45e48c710",
+        "discogs_master_id": 989041,
         "year": 2015
       },
       {
@@ -9278,6 +9490,7 @@
         "apple_album_id": 1053799930,
         "apple_artist_id": 27272311,
         "mb_id": "a51c8d37-3d3e-4f9f-82d8-ab0fb947d9d6",
+        "discogs_master_id": 1093704,
         "year": 2015
       },
       {
@@ -9292,6 +9505,7 @@
         "apple_album_id": 1060083382,
         "apple_artist_id": 176338857,
         "mb_id": "8af376c5-1c30-4fe5-a3a0-e12a8ebed008",
+        "discogs_master_id": 944544,
         "year": 2015
       },
       {
@@ -9425,6 +9639,7 @@
         "apple_album_id": 1509089021,
         "apple_artist_id": 581380546,
         "mb_id": "cc7bb7ac-cac2-41e7-9726-dea7da0f17b6",
+        "discogs_master_id": 980607,
         "year": 2015
       },
       {
@@ -9452,6 +9667,7 @@
         "apple_album_id": 1617856368,
         "apple_artist_id": 11936963,
         "mb_id": "59163697-9445-49ec-84e5-33b61f7bd0d4",
+        "discogs_master_id": 927684,
         "year": 2015
       },
       {
@@ -9548,6 +9764,7 @@
         "apple_album_id": 992183081,
         "apple_artist_id": 151771641,
         "mb_id": "40c92be2-1047-4bd4-8697-bb21da495814",
+        "discogs_master_id": 1322311,
         "year": 1993
       }
     ]
@@ -9646,6 +9863,7 @@
         "apple_album_id": 703280161,
         "apple_artist_id": 695435376,
         "mb_id": "1a7f6d4d-5e9c-4dbf-929f-4461cafb1dc7",
+        "discogs_master_id": 376684,
         "year": 2009
       },
       {
@@ -9732,6 +9950,7 @@
         "apple_album_id": 1627951758,
         "apple_artist_id": 2456416,
         "mb_id": "2c02d515-6824-4215-beb1-8e50c4314251",
+        "discogs_master_id": 910360,
         "year": 2015
       }
     ]
@@ -9913,6 +10132,7 @@
         "apple_album_id": 1069914597,
         "apple_artist_id": 419885107,
         "mb_id": null,
+        "discogs_master_id": 976916,
         "year": 2016
       },
       {
@@ -9950,6 +10170,7 @@
         "apple_album_id": 957344085,
         "apple_artist_id": 26172237,
         "mb_id": "499fd29f-ab9f-495d-adb5-d90fcf2619ef",
+        "discogs_master_id": 1010103,
         "year": 2015
       },
       {
@@ -9964,6 +10185,7 @@
         "apple_album_id": 957344085,
         "apple_artist_id": 26172237,
         "mb_id": "e3db1eb3-fe03-460f-bcd4-a591d4cc4ae2",
+        "discogs_master_id": 1010103,
         "year": 2015
       },
       {
@@ -10057,6 +10279,7 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 8335441,
+        "discogs_master_id": 1027955,
         "year": 2015
       },
       {
@@ -10072,6 +10295,7 @@
         "apple_album_id": 981881844,
         "apple_artist_id": 382406958,
         "mb_id": "e059145c-dbb9-4bde-ae09-3686d2c9febb",
+        "discogs_master_id": 1084218,
         "year": 2015
       },
       {
@@ -10134,6 +10358,7 @@
         "apple_album_id": 1049772566,
         "apple_artist_id": 311295651,
         "mb_id": "ed0f0e3d-5c4d-47c4-b89c-72747d386df1",
+        "discogs_master_id": 1029494,
         "year": 2015
       },
       {
@@ -10258,6 +10483,7 @@
         "apple_album_id": 988816192,
         "apple_artist_id": 334802027,
         "mb_id": "78d78d4c-e383-4bc2-b042-f2f528c0a5fb",
+        "discogs_master_id": 3507432,
         "year": 2005
       },
       {
@@ -10324,6 +10550,7 @@
         "apple_album_id": 929964557,
         "apple_artist_id": 627474181,
         "mb_id": "b90e5ee6-8b1a-4e5f-a92c-2d10cec2e284",
+        "discogs_master_id": 877009,
         "year": 2014
       },
       {
@@ -10338,6 +10565,7 @@
         "apple_album_id": 1622693333,
         "apple_artist_id": 76624290,
         "mb_id": "78ced786-41cf-4801-a587-5772614c2583",
+        "discogs_master_id": 806610,
         "year": 2015
       },
       {
@@ -10433,6 +10661,7 @@
         "apple_album_id": 1042430581,
         "apple_artist_id": 160618242,
         "mb_id": "65743536-aad3-489b-a263-80c24d1aff75",
+        "discogs_master_id": 932410,
         "year": 2015
       },
       {
@@ -10447,6 +10676,7 @@
         "apple_album_id": 1042430581,
         "apple_artist_id": 160618242,
         "mb_id": "9c841835-1913-40e1-8ebe-b21946c06105",
+        "discogs_master_id": 932410,
         "year": 2015
       },
       {
@@ -10461,6 +10691,7 @@
         "apple_album_id": 677848359,
         "apple_artist_id": 492434511,
         "mb_id": "7e6d9ec6-c837-434b-8596-5dc397f77461",
+        "discogs_master_id": 610221,
         "year": 2013
       },
       {
@@ -10498,6 +10729,7 @@
         "apple_album_id": 1617790266,
         "apple_artist_id": 2952250,
         "mb_id": "82cd9511-52e8-4916-96ed-27627adab98d",
+        "discogs_master_id": 792912,
         "year": 2015
       },
       {
@@ -10571,6 +10803,7 @@
         "apple_id": 1439862763,
         "apple_album_id": 1439862552,
         "apple_artist_id": 27389366,
+        "discogs_master_id": 1104657,
         "year": 2013
       },
       {
@@ -10656,6 +10889,7 @@
         "apple_album_id": 1633491211,
         "apple_artist_id": 56524962,
         "mb_id": "97b65049-428d-45d4-8a58-d08603d4ae9e",
+        "discogs_master_id": 850541,
         "year": 2015
       }
     ]
@@ -10845,6 +11079,7 @@
         "apple_album_id": null,
         "apple_artist_id": 593254470,
         "mb_id": "d96b4320-6f5d-4034-bcac-08fe65dfd817",
+        "discogs_master_id": 792765,
         "year": 1995
       }
     ]
@@ -10868,6 +11103,7 @@
         "apple_album_id": 1471006903,
         "apple_artist_id": 5620149,
         "mb_id": null,
+        "discogs_master_id": 817245,
         "year": 2015
       },
       {
@@ -10882,6 +11118,7 @@
         "apple_album_id": 1471006903,
         "apple_artist_id": 5620149,
         "mb_id": "a4f5de4d-1140-4d98-9bbb-f67c5a74b451",
+        "discogs_master_id": 817245,
         "year": 2015
       },
       {
@@ -10896,6 +11133,7 @@
         "apple_album_id": 1471006903,
         "apple_artist_id": 5620149,
         "mb_id": "de603a67-25a2-4d7a-af4a-cdcaca33e214",
+        "discogs_master_id": 817245,
         "year": 2015
       },
       {
@@ -10910,6 +11148,7 @@
         "apple_album_id": 843055619,
         "apple_artist_id": 582535326,
         "mb_id": null,
+        "discogs_master_id": 2574200,
         "year": 2014
       },
       {
@@ -11444,6 +11683,7 @@
         "apple_album_id": 924614220,
         "apple_artist_id": 139050668,
         "mb_id": "baefc453-36e3-406d-9557-5d9116ab4ec5",
+        "discogs_master_id": 1033503,
         "year": 2014
       },
       {
@@ -11595,6 +11835,7 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "ce24a49a-6bbc-44c9-8539-bd96ce76d654",
+        "discogs_master_id": 156029,
         "year": 1980
       }
     ]
@@ -11755,6 +11996,7 @@
         "apple_album_id": 1679222738,
         "apple_artist_id": 568538011,
         "mb_id": null,
+        "discogs_master_id": 936372,
         "year": 2014
       },
       {

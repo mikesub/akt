@@ -39,7 +39,7 @@ export function restoreTitle(track) {
   const restored = { ...track, ...Object.fromEntries(NAMES.filter((key) => key in entry.restore).map((key) => [key, entry.restore[key]])) };
   if (NAMES.every((key) => restored[key] === track[key])) return track;
   // Not found under the old names: asked again under the new ones.
-  // A Discogs miss takes its (empty) master with it; a master alone may well be empty.
-  const missed = (key, value) => (MISSES.includes(key) && value === null) || (key === 'discogs_master_id' && restored.discogs_id === null);
+  // A Discogs miss takes its empty master with it; a master from the masters dump stays.
+  const missed = (key, value) => (MISSES.includes(key) && value === null) || (key === 'discogs_master_id' && value === null && restored.discogs_id === null);
   return Object.fromEntries(Object.entries(restored).filter(([key, value]) => !missed(key, value)));
 }
