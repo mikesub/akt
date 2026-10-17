@@ -1104,5 +1104,25 @@
       "album": "Russendisko Hits"
     },
     "why": "FM Достоевский #340: in lower case, the title transliterated; as on «Russendisko Hits» (Trikont, Germany, 2003), track 15 Rotfront’s «The Robots = Роботы» (discogs.com/release/1203049)"
+  },
+  {
+    "artist": "rotfront",
+    "track": "james bondski",
+    "restore": {
+      "artist": "Rotfront",
+      "track": "James Bondski",
+      "album": "Visafree"
+    },
+    "why": "FM Достоевский #758: in lower case; MusicBrainz has «James Bondski» on «Visafree» (2011); the band’s name as #340 has it, from Discogs"
+  },
+  {
+    "artist": "rot front",
+    "track": "berlin-barcelona",
+    "restore": {
+      "artist": "Rotfront",
+      "track": "Berlin-Barcelona",
+      "album": "Emigrantski Raggamuffin"
+    },
+    "why": "FM Достоевский #643: in lower case; MusicBrainz has «Berlin - Barcelona» on «Emigrantski Raggamuffin» (2009); the band’s name as #340 has it, from Discogs"
   }
 ]
