@@ -155002,7 +155002,10 @@
         "track": "The Path Of the Cross",
         "album": "Heaven Sent",
         "printed_country": "International",
-        "country": null,
+        "country": [
+          "GB",
+          "US"
+        ],
         "apple_id": 251573322,
         "apple_album_id": 251573222,
         "apple_artist_id": 251573226,
