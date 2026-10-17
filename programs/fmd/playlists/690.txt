@@ -1,21 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N690_13.06.2010.cue
 date: 2010-06-13
 title: FM Достоевский #690
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («690. #690 13.06.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json). Another source differs: the CUE sheet of radar.lv's recording lacks «crimson butterfly» (not aired, or the recording is cut short).
 
-1. califone "giving away the bride" CD "all my friends are funeral singers"
-2. daniel colin, dominique cravic, claire elziere "l'amour est bleu" CD "french cafe music"
-3. svoboda "шизгара" CD "первак"
-4. mondo candido "meglio stasera" CD "bizarre"
-5. alan mx "cuckoos" CD "warpsichord"
-6. alan mx "strange bird" CD "warpsichord"
-7. jurga "+37" CD "+37 (goal of science)"
-8. blk jks "molalatladi" CD "after robots"
-9. blk jks "taxidermy" CD "after robots"
-10. dot allison "cry" CD "room seven and a half"
-11. shawn lee & clutchy hopkins "7 inch" CD "fascinating fingers"
-12. jorge humberto "estrela cadente" CD "ar de nha terra"
-13. little claw "modern vampire" CD "human taste"
-14. the beautiful schizophonic "alba" CD "erotikon"
-15. lucas renney "a tear in the sea" CD "strange glory"
-16. linda guilala "te he cambiado" CD "bucles infinitos"
+1. califone (usa) "giving away the bride" CD "all my friends are funeral singers" (dead oceans)
+2. daniel colin, dominique cravic, claire elziere (france) "l'amour est bleu" CD "french cafe music" (fremeaux & associes)
+3. svoboda (ukraine) "шизгара" CD "первак" (антроп)
+4. mondo candido (italy) "meglio stasera" CD "bizarre" (water music world)
+5. alan mx (uk) "cuckoos" CD "warpsichord" (smalltown america)
+6. alan mx (uk) "strange bird" CD "warpsichord" (smalltown america)
+7. jurga (lithuania) "+37" CD "+37 (goal of science)" (m.p.3)
+8. blk jks (usa) "molalatladi" CD "after robots" (secretly canadian)
+9. blk jks (usa) "taxidermy" CD "after robots" (secretly canadian)
+10. dot allison (uk) "cry" CD "room seven and a half" (absolute)
+11. shawn lee & clutchy hopkins (usa) "7 inch" CD "fascinating fingers" (ubiquity)
+12. jorge humberto (cabo verde) "estrela cadente" CD "ar de nha terra" (harmonia)
+13. little claw (usa) "modern vampire" CD "human taste" (ecstatic peace)
+14. the beautiful schizophonic (portugal) "alba" CD "erotikon" (cronica)
+15. lucas renney (uk) "a tear in the sea" CD "strange glory" (brille)
+16. linda guilala (spain) "te he cambiado" CD "bucles infinitos" (elefant)
+17. crimson butterfly (russia) "wednesday" CD "7even days" (lo-fi)

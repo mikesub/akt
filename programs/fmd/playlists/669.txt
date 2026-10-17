@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N669_17.01.2010.cue
 date: 2010-01-17
 title: FM Достоевский #669
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («669. #669 17.01.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. the xx "shelter" CD "the xx"
-2. no blues "sawt (the voice)" CD "lumen"
-3. desire "don't call" CD "II"
-4. восточный синдром "город рыб" CD "студия-13"
-5. artur nunes vs mario caldato jr "tia" CD "comfusoes 1"
-6. lisa papineau "white leather pants" CD "red trees"
-7. lisa papineau "touch time out" CD "red trees"
-8. partick kelleher "wintertime's dull" CD "you look cold"
-9. patrick kelleher "blue eyes" CD "you look cold"
-10. patrick kelleher "until i get paid" CD "you look cold"
-11. boot "soot" CD "soot"
-12. the fiery furnaces "staring at the steeple" CD "i'm going away"
-13. instituto mexicano del sonido "white stripes" CD "soy sauce"
-14. cave "made in malaysia" CD "psychic psummer"
-15. mara aranda & solatge "els contrabandistes" CD "deria"
-16. fuck buttons "flight of the feathered serpent" CD "tarot sport"
+1. the xx (uk) "shelter" CD "the xx" (young turks)
+2. no blues (holland) "sawt (the voice)" CD "lumen" (crs)
+3. desire (usa) "don't call" CD "II" (italians do it better)
+4. восточный синдром (ссср) "город рыб" CD "студия-13" (геометрия)
+5. artur nunes vs mario caldato jr (angola/brazil) "tia" CD "comfusoes 1" (maianga/out-here)
+6. lisa papineau (france/usa) "white leather pants" CD "red trees" (yellow bird)
+7. lisa papineau (france/usa) "touch time out" CD "red trees" (yellow bird)
+8. partick kelleher (ireland) "wintertime's dull" CD "you look cold" (osaka)
+9. patrick kelleher (ireland) "blue eyes" CD "you look cold" (osaka)
+10. patrick kelleher (ireland) "until i get paid" CD "you look cold" (osaka)
+11. boot (sweden) "soot" CD "soot" (caprice)
+12. the fiery furnaces (usa) "staring at the steeple" CD "i'm going away" (thrill jockey)
+13. instituto mexicano del sonido (mexico) "white stripes" CD "soy sauce" (mico)
+14. cave (usa) "made in malaysia" CD "psychic psummer" (important)
+15. mara aranda & solatge (spain) "els contrabandistes" CD "deria" (galileo)
+16. fuck buttons (uk) "flight of the feathered serpent" CD "tarot sport" (atp/r)

@@ -157,6 +157,26 @@ const sources = {
   },
 };
 
+/** What the sources answered for a track: the lookups search by its artist, title and album alone. */
+const LOOKED_UP = ['apple_id', 'apple_album_id', 'apple_artist_id', 'mb_id', 'discogs_id', 'year'];
+const sameNames = (t) => JSON.stringify([t.artist, t.track, t.album]);
+
+/**
+ * A playlist parsed again (its text changed: a fuller source, a fix) keeps the sources' answers for every track
+ * whose artist, title and album are unchanged, so only what is new is looked up; and, for one that prints no
+ * country, the country inferred for it (bin/countries.js).
+ */
+function keepLookups(before, tracks) {
+  const old = new Map((before ?? []).map((t) => [sameNames(t), t]));
+  return tracks.map((t) => {
+    const o = old.get(sameNames(t));
+    if (!o) return t;
+    const kept = Object.fromEntries(LOOKED_UP.filter((k) => k in o).map((k) => [k, o[k]]));
+    const country = !t.printed_country && !o.printed_country && o.country_from ? { country: o.country, country_from: o.country_from } : {};
+    return { ...t, ...kept, ...country };
+  });
+}
+
 /**
  * What a run asks again by forgetting the answers, so that the sources see
  * the tracks as never asked (an override still wins): `misses` what Apple
@@ -273,7 +293,7 @@ export async function run(
     for (const episode of toParse) {
       try {
         const tracks = await parse(textOf(episode));
-        episode.tracks = tracks.map((track) => corrected(shape(track)));
+        episode.tracks = keepLookups(episode.tracks, tracks.map((track) => corrected(shape(track)))).map(corrected);
         episode.playlist_hash = hash(textOf(episode));
         save(episodes);
         console.log(`${nameOf(episode)}: ${tracks.length} tracks`);

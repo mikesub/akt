@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N650_2009.09.06.cue
 date: 2009-09-06
 title: FM Достоевский #650
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («650. #650 06.09.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. phillip boa & the voodooclub "the race is over" CD "diamonds fall"
-2. sasha "manmat maarve miyan" CD "tappa journey"
-3. mike patton "sweet cream (redux)" CD "crank high voltage (ost)"
-4. miusha "zaza" CD "string theory"
-5. miles benjamin anthony robinson "the ongoing debate concerning present vs future" CD "miles benjamin anthony robinson"
-6. the mutants "nacht im cafe ohne" CD "grave groove"
-7. pastels/tenniscoats "mou mou rainbow" CD "two sunsets"
-8. bill callahan "eid ma clack shaw" CD "sometimes i wish we were an eagle"
-9. giorgio tuma "...and three parasol stars" CD "my vocalese fun fair"
-10. lily z "candeggina burns" CD "the two of us"
-11. otros aires "otra noche en la viruta" CD "vivo en otros aires"
-12. in flagranti "i can thrill & delight" CD "brask & vulgar"
-13. the ukrainians "dity revolutsiyi" CD "diaspora"
-14. deolinda "lisboa nao e cidade perfeita" CD "cancao ao lado"
-15. golden boots "heatwave" CD "the winter of our discotheque"
-16. few nolder "el snig" CD "new folder"
-17. beta satan girls "666" CD "beta satan girls"
+1. phillip boa & the voodooclub (germany) "the race is over" CD "diamonds fall" (constrictor)
+2. sasha (india) "manmat maarve miyan" CD "tappa journey" (sense)
+3. mike patton (usa) "sweet cream (redux)" CD "crank high voltage (ost)" (lakeshore)
+4. miusha (russia) "zaza" CD "string theory" (diamond)
+5. miles benjamin anthony robinson (usa) "the ongoing debate concerning present vs future" CD "miles benjamin anthony robinson" (say hey)
+6. the mutants (finland) "nacht im cafe ohne" CD "grave groove" (ranch)
+7. pastels/tenniscoats (uk/japan) "mou mou rainbow" CD "two sunsets" (geographic)
+8. bill callahan (usa) "eid ma clack shaw" CD "sometimes i wish we were an eagle" (drag city)
+9. giorgio tuma (italy) "...and three parasol stars" CD "my vocalese fun fair" (elefant)
+10. lily z (france) "candeggina burns" CD "the two of us" (polly maggoo)
+11. otros aires (argentina) "otra noche en la viruta" CD "vivo en otros aires" (galileo)
+12. in flagranti (usa) "i can thrill & delight" CD "brask & vulgar" (codek)
+13. the ukrainians (uk) "dity revolutsiyi" CD "diaspora" (zirka)
+14. deolinda (portugal) "lisboa nao e cidade perfeita" CD "cancao ao lado" (world connection)
+15. golden boots (usa) "heatwave" CD "the winter of our discotheque" (park the van)
+16. few nolder (lithuania) "el snig" CD "new folder" (planet mu)
+17. beta satan girls (denmark) "666" CD "beta satan girls" (crunchy frog)

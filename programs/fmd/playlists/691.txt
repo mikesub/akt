@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N691_20.06.2010_0.cue
 date: 2010-06-20
 title: FM Достоевский #691
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). One of 4 sheets for this episode, the fullest (FM_Dostoevsky_N691_20.06.2010_0.cue). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («691. #691 20.06.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. johnny cash "ain't no grave" CD "american vi : ain't no grave"
-2. deti picasso "kele lao" CD "turbo mairik"
-3. matias aguayo "rollerskate" CD "ay ay ay"
-4. xeno & oaklander "shadow world" CD "sentinelle"
-5. gorillaz/mark e. smith "glitter freeze" CD "plastic beach"
-6. starless & bible black "say donny say" CD "shape of the shape"
-7. starless & bible black "popty ping" CD "shape of the shape"
-8. starless & bible black "hanging on the vine" CD "shape of the shape"
-9. kozumasa hashimoto "black woodbine" CD "strangeness"
-10. king automatic "dr.jekyll & sister hyde" CD "in the blue corner"
-11. fokatelep "madarka" CD "fokatelep"
-12. nick cave & warren ellis "the bath" CD "the road"
-13. swami jr. feat. vanessa da mata "livrai-me" CD "outra praia"
-14. gonjasufi "she's gone" CD "a sufi and a killer"
-15. katy carr "erotic days" CD "coquette"
-16. fathi abou greisha "hager" CD "egypt noir"
-17. bronnt industries kapital "unbelievable computer of love" CD "hard for justice"
+1. johnny cash (usa) "ain't no grave" CD "american vi : ain't no grave" (american)
+2. deti picasso (armenia/russia) "kele lao" CD "turbo mairik" (zenith/soyuz)
+3. matias aguayo (chile) "rollerskate" CD "ay ay ay" (kompakt)
+4. xeno & oaklander (usa) "shadow world" CD "sentinelle" (wierd)
+5. gorillaz/mark e. smith (uk) "glitter freeze" CD "plastic beach" (parlophone)
+6. starless & bible black (uk) "say donny say" CD "shape of the shape" (locust music)
+7. starless & bible black (uk) "popty ping" CD "shape of the shape" (locust music)
+8. starless & bible black (uk) "hanging on the vine" CD "shape of the shape" (locust music)
+9. kozumasa hashimoto (japan) "black woodbine" CD "strangeness" (noble)
+10. king automatic (france) "dr.jekyll & sister hyde" CD "in the blue corner" (voodoo rhythm)
+11. fokatelep (hungary) "madarka" CD "fokatelep" (narrator)
+12. nick cave & warren ellis (australia) "the bath" CD "the road" (mute)
+13. swami jr. feat. vanessa da mata (brazil) "livrai-me" CD "outra praia" (montuno/world village)
+14. gonjasufi (usa) "she's gone" CD "a sufi and a killer" (warp)
+15. katy carr (uk) "erotic days" CD "coquette" (deluce)
+16. fathi abou greisha (egypt) "hager" CD "egypt noir" (piranha)
+17. bronnt industries kapital (uk) "unbelievable computer of love" CD "hard for justice" (get physical)

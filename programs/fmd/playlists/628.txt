@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N628_2009.04.05.cue
 date: 2009-04-05
 title: FM Достоевский #628
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («628. #628 05.04.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. kahimi karie "he shoots the sun" CD "nunki"
-2. lamar sorrento & the mod saints "wicked son" CD "reverse english"
-3. eric truffaz / murcof "al mediodia" CD "mexico"
-4. dani siciliano "why can't i make you high" CD "slappers"
-5. dr.krapula "luchando voy" CD "colombian street party"
-6. the reverb syndicate "bolshevik boogie" CD "sputnik a-go-go"
-7. miss murgatroid & petra haden "another day" CD "hearts & daggers"
-8. voicst "so simple that it's hard to understand" CD "a tale of two devils"
-9. miss ludella black & the masonics "hey, johnny raw" CD "from this witness stand"
-10. those poor bastards "the dust storm" CD "hellfire hymns"
-11. kiran ahluwalia "yakeenan" CD "wanderlust"
-12. lake of dracula "dracula killed frankenstein" CD "lake of dracula"
-13. rada i aleksandr marchenko "chjornye okna" CD "kolybelnaja dlja koshki"
-14. miss world "man down manhole" CD "me man... you monster"
-15. molly thompson "buried sky" CD "ash"
-16. halma "folded fog" CD "broad peak"
+1. kahimi karie (japan) "he shoots the sun" CD "nunki" (victor)
+2. lamar sorrento & the mod saints (usa) "wicked son" CD "reverse english" (sorrento music)
+3. eric truffaz / murcof (france/mexico) "al mediodia" CD "mexico" (blue note)
+4. dani siciliano (uk) "why can't i make you high" CD "slappers" (!k7)
+5. dr.krapula (colombia) "luchando voy" CD "colombian street party" (wmn)
+6. the reverb syndicate (canada) "bolshevik boogie" CD "sputnik a-go-go" (the reverb syndicate)
+7. miss murgatroid & petra haden (usa) "another day" CD "hearts & daggers" (file under: music)
+8. voicst (holland) "so simple that it's hard to understand" CD "a tale of two devils" (good busy)
+9. miss ludella black & the masonics (uk) "hey, johnny raw" CD "from this witness stand" (damaged goods)
+10. those poor bastards (usa) "the dust storm" CD "hellfire hymns" (tribulation)
+11. kiran ahluwalia (india/canada) "yakeenan" CD "wanderlust" (4q/world connection)
+12. lake of dracula (usa) "dracula killed frankenstein" CD "lake of dracula" (skin graft)
+13. рада и александр марченко (рф) "чёрные окна" CD "колыбельная для кошки" (выргород)
+14. miss world (uk) "man down manhole" CD "me man... you monster" (miss w)
+15. molly thompson (usa) "buried sky" CD "ash" (white lime)
+16. halma (germany) "folded fog" CD "broad peak" (sunday service)

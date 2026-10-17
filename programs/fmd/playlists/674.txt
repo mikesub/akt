@@ -1,21 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N674_21.02.2010.cue
 date: 2010-02-21
 title: FM Достоевский #674
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end. radar.lv's second sheet for #675 (FM_Dostoevsky_N675_2010.02.28_0.cue) names these same 16 songs and a 17th after them, «zakopower "kiebys ty"»: perhaps this episode's last song, which this sheet lacks.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («674. #674 21.02.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json). radar.lv's second sheet for #675 (FM_Dostoevsky_N675_2010.02.28_0.cue) names these same 16 songs and a 17th after them, «zakopower "kiebys ty"»: perhaps this episode's last song, which this sheet lacks. Another source differs: the CUE sheet of radar.lv's recording lacks «zakopower» (not aired, or the recording is cut short).
 
-1. ceu "comadi" CD "vagarosa"
-2. ceu "cangote" CD "vagarosa"
-3. ryuichi sakamoto "firewater" CD "playing the piano/out of noise"
-4. left lane cruiser "broke ass blues" CD "all you can eat!!"
-5. maria grazia buccella "dove vai tutta nuda?" CD "commedia sexy all' italiana"
-6. the lonesome valley singers "children's death march through a grey november pts 1&2" CD "corpse circus revue"
-7. eva hren & sladcore "ne ori, ne sejaj" CD "eva hren & sladcore"
-8. 1000 robota "oh oh" CD "du nicht er nicht sie nicht"
-9. cinta hermo "tangos del agua" CD "el canto de la sirena"
-10. honkeyfinger "margarine man" CD "invocation of the demon other"
-11. dark tooth encounter "weeping pines" CD "soft monsters"
-12. daby balde "lale kouma" CD "le marigot club dakar"
-13. strike the colours "cat" CD "seven roads"
-14. sweet trip "song about a sea" CD "you will never know why"
-15. sweet trip "air supply" CD "you will never know why"
-16. psychic tv/ptv3 "foggy notion" CD "mr. alien brain vs. the skinwalkers"
+1. ceu (brazil) "comadi" CD "vagarosa" (urban jungle/six degrees)
+2. ceu (brazil) "cangote" CD "vagarosa" (urban jungle/six degrees)
+3. ryuichi sakamoto (japan) "firewater" CD "playing the piano/out of noise" (decca)
+4. left lane cruiser (usa) "broke ass blues" CD "all you can eat!!" (alive)
+5. maria grazia buccella (italy) "dove vai tutta nuda?" CD "commedia sexy all' italiana" (mediane)
+6. the lonesome valley singers (canada) "children's death march through a grey november pts 1&2" CD "corpse circus revue" (self righteous)
+7. eva hren & sladcore (slovenia) "ne ori, ne sejaj" CD "eva hren & sladcore" (menart)
+8. 1000 robota (germany) "oh oh" CD "du nicht er nicht sie nicht" (tapete)
+9. cinta hermo (finland/spain) "tangos del agua" CD "el canto de la sirena" (rockadillo)
+10. honkeyfinger (uk) "margarine man" CD "invocation of the demon other" (hoarse!)
+11. dark tooth encounter (usa) "weeping pines" CD "soft monsters" (lexicon devil)
+12. daby balde (senegal) "lale kouma" CD "le marigot club dakar" (wmn)
+13. strike the colours (uk) "cat" CD "seven roads" (dead light)
+14. sweet trip (usa) "song about a sea" CD "you will never know why" (darla)
+15. sweet trip (usa) "air supply" CD "you will never know why" (darla)
+16. psychic tv/ptv3 (uk) "foggy notion" CD "mr. alien brain vs. the skinwalkers" (sweet nothing)
+17. zakopower (poland) "kiebys ty" CD "polska rootz" (eastblok)

@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N654_04.10.2009.cue
 date: 2009-10-04
 title: FM Достоевский #654
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («654. #654 04.10.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. sonic youth "calming the snake" CD "the eternal"
-2. tranh sao bao "ly con sao" CD "hoatau - tranh sao bao - tau khuc"
-3. reverend & the makers "professor pickles" CD "a french kiss in the chaos"
-4. огни святого эльма "рим" CD "(не матадор)"
-5. figli di madre ignota "ole ole" CD "fez club"
-6. last step "haha waffles" CD "1961"
-7. georgia's horse "alakazam!" CD "the mammoth sessions"
-8. la jr "gancho" CD "17 animales de la jr"
-9. elk "spanish eyes" CD "elktronic"
-10. wigald boning "waltz" CD "jet set jazz"
-11. shirley lee "dissolving time" CD "shirley lee"
-12. buraka som sistema "sound of kuduro" CD "black diamond"
-13. crystal stilts "graveyard orbit" CD "alight of night"
-14. theoretical girl "dancehall deceit" CD "divided"
-15. the strange boys "this girl taught me a dance" CD "the strange boys and girls club"
-16. the strange boys "should have shot paul" CD "the strange boys and girls club"
-17. kap bambino "batcaves" CD "blacklist"
+1. sonic youth (usa) "calming the snake" CD "the eternal" (matador)
+2. tranh sao bao (vietnam) "ly con sao" CD "hoatau - tranh sao bao - tau khuc" (kim loi)
+3. reverend & the makers (uk) "professor pickles" CD "a french kiss in the chaos" (wall of sound)
+4. огни святого эльма (рф) "рим" CD "(не матадор)" (инди-вид/союз)
+5. figli di madre ignota (italy) "ole ole" CD "fez club" (saphary de luxe/eastblok)
+6. last step (uk) "haha waffles" CD "1961" (planet mu)
+7. georgia's horse (usa) "alakazam!" CD "the mammoth sessions" (fire)
+8. la jr (spain) "gancho" CD "17 animales de la jr" (acuarela)
+9. elk (finland) "spanish eyes" CD "elktronic" (eat this music)
+10. wigald boning (germany) "waltz" CD "jet set jazz" (compost)
+11. shirley lee (uk) "dissolving time" CD "shirley lee" (missing)
+12. buraka som sistema (portugal/brazil) "sound of kuduro" CD "black diamond" (fabric)
+13. crystal stilts (usa) "graveyard orbit" CD "alight of night" (slumberland)
+14. theoretical girl (uk) "dancehall deceit" CD "divided" (memphis industries)
+15. the strange boys (usa) "this girl taught me a dance" CD "the strange boys and girls club" (in the red)
+16. the strange boys (usa) "should have shot paul" CD "the strange boys and girls club" (in the red)
+17. kap bambino (france) "batcaves" CD "blacklist" (because)

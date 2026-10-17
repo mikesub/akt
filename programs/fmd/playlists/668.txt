@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N668_10.01.2010.cue
 date: 2010-01-10
 title: FM Достоевский #668
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («668. #668 10.01.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. jaune toujours "leur d.t." CD "kolektiv"
-2. bachelorette "donkey" CD "my electric family"
-3. ear pwr "epic suitcase" CD "super animal brothers III"
-4. ear pwr "diamonds liqueur leather" CD "super animal brothers III"
-5. lord cut-glass "toot toot" CD "lord cut-glass"
-6. gudrun holck "i slam that door" CD "staerk"
-7. losoul "the lords of sanity" CD "care"
-8. raffaello simeoni "anema e colore" CD "mater sabina"
-9. jean-jacques perrey & dana countryman "the spy from outer space" CD "destination space"
-10. televised crimewave "objects of desire" CD "listen and repeat"
-11. the phenomenal handclap band "testimony" CD "the phenomenal handclap band"
-12. cobra killer "good time girl" CD "uppers & downers"
-13. cobra killer "matchy matchy" CD "uppers & downers"
-14. king kora "jarabile" CD "mandingda"
-15. blank dogs "setting fire to your house" CD "under and under"
-16. oskar "reichenbach falls" CD "lp:2"
-17. kasba "wali" CD "darna"
+1. jaune toujours (belgium) "leur d.t." CD "kolektiv" (choux de bruxelles)
+2. bachelorette (new zealand) "donkey" CD "my electric family" (drag city)
+3. ear pwr (usa) "epic suitcase" CD "super animal brothers III" (carpark)
+4. ear pwr (usa) "diamonds liqueur leather" CD "super animal brothers III" (carpark)
+5. lord cut-glass (uk) "toot toot" CD "lord cut-glass" (chemikal underground)
+6. gudrun holck (denmark) "i slam that door" CD "staerk" (music is the weapon)
+7. losoul (germany) "the lords of sanity" CD "care" (playhouse)
+8. raffaello simeoni (italy) "anema e colore" CD "mater sabina" (finisterre)
+9. jean-jacques perrey & dana countryman (france/usa) "the spy from outer space" CD "destination space" (oglio)
+10. televised crimewave (uk) "objects of desire" CD "listen and repeat" (magnetic)
+11. the phenomenal handclap band (usa) "testimony" CD "the phenomenal handclap band" (friendly fire)
+12. cobra killer (germany) "good time girl" CD "uppers & downers" (monika)
+13. cobra killer (germany) "matchy matchy" CD "uppers & downers" (monika)
+14. king kora (switzerland) "jarabile" CD "mandingda" (king kora)
+15. blank dogs (usa) "setting fire to your house" CD "under and under" (in the red)
+16. oskar (uk) "reichenbach falls" CD "lp:2" (incarnation)
+17. kasba (holland) "wali" CD "darna" (lc music)

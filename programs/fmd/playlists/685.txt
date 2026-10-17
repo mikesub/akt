@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N685_09.05.2010.cue
 date: 2010-05-09
 title: FM Достоевский #685
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («685. #685 09.05.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. joe henry "suit on a frame" CD "blood from stars"
-2. mie nakao "sharock #1" CD "nippon girls"
-3. mari atsumi "suki yo ai shite" CD "nippon girls"
-4. sayuri yoshinaga with schoolmates "koi no yorokobi" CD "nippon girls"
-5. port mone "boat" CD "dip"
-6. the big pink "too young to love" CD "a brief history of love"
-7. justin adams & juldeh camara "baujul girl" CD "tell no lies"
-8. zola jesus "sink the dynasty" CD "the spoils"
-9. кирилл комаров и друзья "переключая каналы" CD "путь дурака"
-10. september collective "prinzipal" CD "always breathing monster"
-11. vampire hands "no fun" CD "me and you cherry red"
-12. benjamin biolay "la toxicomanie" CD "la superbe"
-13. collapse under the empire "far to the past" CD "find a place to be safe"
-14. discovery "swing tree" CD "lp"
-15. solveig slettahjell & slow motion orchestra "visit" CD "tarpan seasons"
-16. go jam group "kenurgio spiti" CD "go jam group"
-17. dominique leone "abstract expression/cover yourself" CD "abstract expression"
+1. joe henry (usa) "suit on a frame" CD "blood from stars" (anti-)
+2. mie nakao (japan) "sharock #1" CD "nippon girls" (big beat/ace)
+3. mari atsumi (japan) "suki yo ai shite" CD "nippon girls" (big beat/ace)
+4. sayuri yoshinaga with schoolmates (japan) "koi no yorokobi" CD "nippon girls" (big beat/ace)
+5. port mone (belarus) "boat" CD "dip" (west)
+6. the big pink (uk) "too young to love" CD "a brief history of love" (4ad)
+7. justin adams & juldeh camara (uk/gambia) "baujul girl" CD "tell no lies" (real world)
+8. zola jesus (usa) "sink the dynasty" CD "the spoils" (sacred bones)
+9. кирилл комаров и друзья (рф) "переключая каналы" CD "путь дурака" (open mind)
+10. september collective (germany) "prinzipal" CD "always breathing monster" (mosz)
+11. vampire hands (usa) "no fun" CD "me and you cherry red" (peppermint coffins)
+12. benjamin biolay (france) "la toxicomanie" CD "la superbe" (naive)
+13. collapse under the empire (germany/uk) "far to the past" CD "find a place to be safe" (sister jack)
+14. discovery (usa) "swing tree" CD "lp" (xl)
+15. solveig slettahjell & slow motion orchestra (norway) "visit" CD "tarpan seasons" (soslo)
+16. go jam group (greece) "kenurgio spiti" CD "go jam group" (melodiko kapabi)
+17. dominique leone (usa) "abstract expression/cover yourself" CD "abstract expression" (important)

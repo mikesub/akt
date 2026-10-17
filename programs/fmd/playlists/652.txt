@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N652_2009.09.20.cue
 date: 2009-09-20
 title: FM Достоевский #652
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («652. #652 20.09.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. the decemberists "the hazards of love 3 (revenge!)" CD "the hazards of love"
-2. elakelaiset "jaahyvaiset jenkalle" CD "jenkalle!"
-3. van daler & low pressure "prime crime" CD "sonatas in dub"
-4. the surfaces "immersion" CD "voodoo surf"
-5. night surf "keep breathin'" CD "voodoo surf"
-6. tony gouveia "vira a cara" CD "fado ardente"
-7. tre lux "the chaffeur" CD "a strange gathering"
-8. baikonour "summer grass/winter worm" CD "your ear knows future"
-9. a slow death & loneliness "bad luck" CD "a slow death & loneliness"
-10. maple bee "somebody take me home" CD "home"
-11. de portables "vegetarian bbq" CD "topless is more"
-12. tony allen "crazy afrobeat" CD "home cooking"
-13. sixteens "caroliner" CD "into the gold wave of future non rip-off!"
-14. tigerstyle "heer" CD "mystics, martyrs and maharajas"
-15. the great bertholinis "theme from the kin diary" CD "planting a tree next to a book"
-16. nous non plus "la momie" CD "menagerie"
-17. strings of consciousness & angel "#2" CD "strings of consciousness & angel"
+1. the decemberists (usa) "the hazards of love 3 (revenge!)" CD "the hazards of love " (rough trade)
+2. elakelaiset (finland) "jaahyvaiset jenkalle" CD "jenkalle!" (stupido)
+3. van daler & low pressure (denmark) "prime crime" CD "sonatas in dub" (panamericana)
+4. the surfaces (russia) "immersion" CD "voodoo surf" (karliki)
+5. night surf (ukraine) "keep breathin'" CD "voodoo surf" (karliki)
+6. tony gouveia (portugal) "vira a cara" CD "fado ardente" (tony gouveia)
+7. tre lux (usa) "the chaffeur" CD "a strange gathering" (cleopatra)
+8. baikonour (uk) "summer grass/winter worm" CD "your ear knows future" (melodic)
+9. a slow death & loneliness (usa) "bad luck" CD "a slow death & loneliness" (sdl)
+10. maple bee (uk) "somebody take me home" CD "home" (xie)
+11. de portables (belgium) "vegetarian bbq" CD "topless is more" (stilll)
+12. tony allen (nigeria/uk) "crazy afrobeat" CD "home cooking" (comet)
+13. sixteens (usa) "caroliner" CD "into the gold wave of future non rip-off!" (hungry eye)
+14. tigerstyle (india/uk) "heer" CD "mystics, martyrs and maharajas" (nachural)
+15. the great bertholinis (germany) "theme from the kin diary" CD "planting a tree next to a book" (hazelwood)
+16. nous non plus (usa) "la momie" CD "menagerie" (aeronaut)
+17. strings of consciousness & angel (france/iceland/germany/finland) "#2" CD "strings of consciousness & angel" (important)

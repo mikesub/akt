@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N670_2010.01.24.cue
 date: 2010-01-24
 title: FM Достоевский #670
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («670. #670 24.01.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. hope sandoval & the warm inventions "for the rest of your life" CD "through the devil softly"
-2. собаки табака "подлая падла" CD "найду, убью!"
-3. watcha clan vs transglobal underground "lei le ha" CD "diaspora remixed"
-4. james johnston & philippe petit "night of 1.000 eyes" CD "fiends with a face"
-5. eskorzo "como un abanico" CD "paraisos artificiales"
-6. elysian fields "drown those days" CD "the afterlife"
-7. elysian fields "climbing my dark hair" CD "the afterlife"
-8. maps "i dream of crystal" CD "turning the mind"
-9. liljana butler "ne kuni me, ne ruzi me majko" CD "frozen roses"
-10. the silt "taking a walk" CD "cat's peak"
-11. sally shapiro "save your love" CD "my guilty pleasure"
-12. miklukho mclaren "овраг" CD "легко"
-13. kevin blechdom "tell me where it hurts" CD "gentlemania"
-14. andrew weatherall "miss rule" CD "a pox on the pioneers"
-15. andrew weatherall "selective walking" CD "a pox on the pioneers"
-16. the idan raichel project "mai mahar" CD "within my walls"
-17. david arthur brown "girl from vladivostok" CD "teenage summer days"
+1. hope sandoval & the warm inventions (canada) "for the rest of your life" CD "through the devil softly" (nettwerk)
+2. собаки табака (рф) "подлая падла" CD "найду, убью!" (зенит/союз)
+3. watcha clan vs transglobal underground (france/uk) "lei le ha" CD "diaspora remixed" (piranha)
+4. james johnston & philippe petit (uk/france) "night of 1.000 eyes" CD "fiends with a face" (dirter)
+5. eskorzo (spain) "como un abanico" CD "paraisos artificiales" (acostao)
+6. elysian fields (usa) "drown those days" CD "the afterlife" (vicious circle)
+7. elysian fields (usa) "climbing my dark hair" CD "the afterlife" (vicious circle)
+8. maps (uk) "i dream of crystal" CD "turning the mind" (mute)
+9. liljana butler (yugoslavia/holland) "ne kuni me, ne ruzi me majko" CD "frozen roses" (snail)
+10. the silt (canada) "taking a walk" CD "cat's peak" (fire)
+11. sally shapiro (sweden) "save your love" CD "my guilty pleasure" (paper bag)
+12. miklukho mclaren (lithuania) "овраг" CD "легко" (bod)
+13. kevin blechdom (usa) "tell me where it hurts" CD "gentlemania" (sonig)
+14. andrew weatherall (uk) "miss rule" CD "a pox on the pioneers" (rotters golf club)
+15. andrew weatherall (uk) "selective walking" CD "a pox on the pioneers" (rotters golf club)
+16. the idan raichel project (israel) "mai mahar" CD "within my walls" (helicon/cumbancha)
+17. david arthur brown (usa) "girl from vladivostok" CD "teenage summer days" (zakat/союз)

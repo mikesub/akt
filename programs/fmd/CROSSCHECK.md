@@ -20,6 +20,11 @@ programs/fmd/NOTES.md); where another source lists other songs, its `note:` says
 | radar.lv post («ФМ Достоевский …», lower case) vs radar.lv post («FM Достоевский …», Title Case) (#304–#352) | 15 | 15 (100%) | 0 | 0 | 0 | 100% | 0% | 0% |
 | radar.lv post («FM Достоевский …», Title Case) vs CUE sheet (#129–#353) | 163 | 154 (94%) | 8 | 1 | 0 | 100% | 0% | 0% |
 | radar.lv post («ФМ Достоевский …», lower case) vs CUE sheet (#304–#352) | 15 | 15 (100%) | 0 | 0 | 0 | 100% | 0% | 0% |
+| fmd.soyuz.ru vs undefined (#289–#619) | 284 | 280 (99%) | 2 | 2 | 0 | 100% | 0% | 0% |
+| radar.lv post («FM Достоевский …», Title Case) vs undefined (#129–#353) | 163 | 163 (100%) | 0 | 0 | 0 | 100% | 0% | 0% |
+| radar.lv post («ФМ Достоевский …», lower case) vs undefined (#304–#457) | 102 | 100 (98%) | 2 | 0 | 0 | 100% | 0% | 0% |
+| undefined vs CUE sheet (#129–#707) | 364 | 307 (84%) | 55 | 2 | 0 | 99% | 1% | 0% |
+| undefined vs XLS (#129–#499) | 288 | 278 (97%) | 9 | 0 | 1 | 100% | 0% | 0% |
 | radar.lv post («FM Достоевский …», Title Case) vs XLS (#129–#353) | 163 | 161 (99%) | 1 | 0 | 1 | 100% | 0% | 0% |
 | radar.lv post («ФМ Достоевский …», lower case) vs XLS (#304–#457) | 103 | 99 (96%) | 4 | 0 | 0 | 100% | 0% | 0% |
 | CUE sheet vs XLS (#129–#499) | 178 | 162 (91%) | 14 | 1 | 1 | 100% | 0% | 0% |
@@ -29,6 +34,7 @@ Latin letters in the other: a transliteration or an English translation. «Title
 titles that differ some other way (a typo, another song by the same artist). Some examples:
 
 - fmd.soyuz.ru vs CUE sheet: #484 «over my head» / «pull the strings»; #486 «what someone said to me» / «we will be a factory»
+- undefined vs CUE sheet: #484 «over my head» / «pull the strings»
 - CUE sheet vs XLS: #484 «pull the strings» / «over my head»; #486 «we will be a factory» / «what someone said to me»
 
 ## What it says
@@ -122,9 +128,11 @@ alone are not listed.
 - #251 (radar.lv's «FM» post): vs the CUE sheet: 14 entries in radar.lv's «FM» post vs 13 in the CUE sheet; only in radar.lv's «FM» post: «La Rionda»
 - #263 (radar.lv's «FM» post): vs the CUE sheet: 15 entries in radar.lv's «FM» post vs 14 in the CUE sheet; only in radar.lv's «FM» post: «Piano Magic»
 - #308 (fmd.soyuz.ru): vs the CUE sheet: 15 entries in fmd.soyuz.ru vs 14 in the CUE sheet; only in fmd.soyuz.ru: «fan club orchestra»
-- #333 (fmd.soyuz.ru): vs radar.lv's «FM» post: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in radar.lv's «FM» post: «Dj Me Dj You»; vs the CUE sheet: 16 entries in fmd.soyuz.ru vs 15 in the CUE sheet; only in fmd.soyuz.ru: «la sega del canto»; vs the XLS: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in the XLS: «dj me dj you»
+- #333 (fmd.soyuz.ru): vs radar.lv's «FM» post: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in radar.lv's «FM» post: «Dj Me Dj You»; vs the CUE sheet: 16 entries in fmd.soyuz.ru vs 15 in the CUE sheet; only in fmd.soyuz.ru: «la sega del canto»; vs the mp3's tags: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in the mp3's tags: «Dj Me Dj You»; vs the XLS: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in the XLS: «dj me dj you»
+- #402 (fmd.soyuz.ru): vs the mp3's tags: 16 entries in fmd.soyuz.ru vs 17 in the mp3's tags; only in the mp3's tags: «old dirty perverts»
 - #403 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «stendec»
 - #405 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «mark tranmer»
+- #414 (fmd.soyuz.ru): vs the mp3's tags: 16 entries in fmd.soyuz.ru vs 17 in the mp3's tags; only in the mp3's tags: «idiots»
 - #420 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «ni ni win shwe»
 - #447 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «unknown»
 - #459 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «saing saing maw»
@@ -161,7 +169,20 @@ alone are not listed.
 - #601 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «kim humphreys»
 - #602 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «chicha libre»
 - #605 (fmd.soyuz.ru): vs the CUE sheet: 16 entries in fmd.soyuz.ru vs 15 in the CUE sheet; only in fmd.soyuz.ru: «proyecto mirage»
+- #606 (fmd.soyuz.ru): vs the mp3's tags: 17 entries in both; only in fmd.soyuz.ru: «adam green», «the duke spirit», «haydamaky» and 14 more; only in the mp3's tags: «boozoo bajou feat.tony joe white», «gutevolk», «arctic monkeys» and 14 more
 - #607 (fmd.soyuz.ru): vs the CUE sheet: 16 entries in fmd.soyuz.ru vs 7 in the CUE sheet; only in fmd.soyuz.ru: «sun city girls», «barbara carlotti», «the spook of the thirteenth lock» and 6 more
+- #621 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «max tundra»
+- #634 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «cinkusi i teta liza»
+- #638 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «Atom Tm»
+- #642 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «La Papa Verde»
+- #643 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «alamaailman vasarat»
+- #663 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «simian mobile disco»
+- #674 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «zakopower»
+- #678 (the mp3's tags): vs the CUE sheet: 16 entries in the mp3's tags vs 15 in the CUE sheet; only in the mp3's tags: «karuna khyal»
+- #679 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 15 in the CUE sheet; only in the mp3's tags: «dial m for murder!», «nguyen le»
+- #681 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «riserva moac»
+- #683 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «the vampires of dartmore»
+- #690 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «crimson butterfly»
 - #704 (the Finam page): vs the CUE sheet: 15 entries in the Finam page vs 14 in the CUE sheet; only in the Finam page: «tempelhof»
 - #706 (the Finam page): vs the CUE sheet: 15 entries in the Finam page vs 14 in the CUE sheet; only in the Finam page: «tommy t feat. gigi»
 - #707 (the Finam page): vs the CUE sheet: 15 entries in the Finam page vs 14 in the CUE sheet; only in the Finam page: «decoder ring»

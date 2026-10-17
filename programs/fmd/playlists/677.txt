@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N677_14.03.2010.cue
 date: 2010-03-14
 title: FM Достоевский #677
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («677. #677 14.03.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. kurt vile "space forklift" CD "constant hitmaker"
-2. айархаан "урунг кыталык" CD "этно-группа айархаан"
-3. айархаан "умайык тэтим" CD "этно-группа айархаан"
-4. closure in moscow "afterbirth" CD "first temple"
-5. little boots "ghost" CD "hands"
-6. horst ackermann & heribert thusek "the end of a robot" CD "science fiction dance party"
-7. bango collective "me nahalyj sym i napiji" CD "note lithuania"
-8. at swim two birds "let her go" CD "before you left"
-9. bandadriatica "bullet" CD "maremoto"
-10. atlas sound "kid climax" CD "logos"
-11. za! "planta carnivora" CD "macumba o muerte"
-12. yacht "the afterlife" CD "see mystery lights"
-13. kamel el harrachi "hyati maak" CD "ghana fenou"
-14. lhasa "the lonely spider" CD "lhasa"
-15. higamos hogamos "little switch" CD "higamos hogamos"
-16. polka madre "luna llena de octubre" CD "dead in the eye"
-17. philippe nicaud "la minette de l'archiduchesse" CD "erotico..."
+1. kurt vile (usa) "space forklift" CD "constant hitmaker" (gulcher)
+2. айархаан (рф) "урунг кыталык" CD "этно-группа айархаан" (бичик)
+3. айархаан (рф) "умайык тэтим" CD "этно-группа айархаан" (бичик)
+4. closure in moscow (usa) "afterbirth" CD "first temple" (equal vision)
+5. little boots (uk) "ghost" CD "hands" (679/atlantic)
+6. horst ackermann & heribert thusek (germany) "the end of a robot" CD "science fiction dance party" (finders keepers)
+7. bango collective (lithuania) "me nahalyj sym i napiji" CD "note lithuania" (music export lithuania)
+8. at swim two birds (uk) "let her go" CD "before you left" (vespertine)
+9. bandadriatica (italy) "bullet" CD "maremoto" (finisterre)
+10. atlas sound (usa) "kid climax" CD "logos" (kranky/4ad)
+11. za! (spain) "planta carnivora" CD "macumba o muerte" (acuarela)
+12. yacht (usa) "the afterlife" CD "see mystery lights" (dfa)
+13. kamel el harrachi (algeria) "hyati maak" CD "ghana fenou" (turn again music)
+14. lhasa (canada/argentina) "the lonely spider" CD "lhasa" (nettwerk)
+15. higamos hogamos (uk) "little switch" CD "higamos hogamos" (dc)
+16. polka madre (mexico) "luna llena de octubre" CD "dead in the eye" (intolerancia)
+17. philippe nicaud (france) "la minette de l'archiduchesse" CD "erotico..." (riviera/barclay)

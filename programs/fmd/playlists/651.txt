@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N651_2009.09.13.cue
 date: 2009-09-13
 title: FM Достоевский #651
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («651. #651 13.09.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. dave cloud & the gospel of power "fever" CD "fever"
-2. dub colossus "shegye shegitu" CD "in a town called addis"
-3. roosbeef "zomer" CD "ze willen wel je hond aaien maar niet met je praten"
-4. lucky elephant "modern life, changing people" CD "star sign trampoline"
-5. brenna maccrimmon "dolama dolamayi" CD "kulak musafiri"
-6. mattias hellberg & the white moose "mermaid stomp" CD "out of the frying pan, into the woods"
-7. maria taylor "my favourite... love" CD "lady luck"
-8. os haxixins "viagem as cavernas" CD "os haxixins"
-9. petit mal "words follow you" CD "petit mal"
-10. swan lake "peace" CD "enemy mine"
-11. tine kindermann "schwesterlein" CD "schamlos schon"
-12. the black box revelation "love, love is on my mind" CD "set your head on fire"
-13. santic "ball weevil holler" CD "ain't gonna hurt nobody"
-14. vova sinij "brezhnev beat generation" CD "sinij kvadrat"
-15. вова синий "антинаркотическая песня" CD "синий квадрат"
-16. than quy "ngoi tua song dao" CD "ngoi tua song dao"
-17. papercuts "dictator's lament" CD "you can have what you want"
+1. dave cloud & the gospel of power (usa) "fever" CD "fever" (fire)
+2. dub colossus (uk/ethiopia) "shegye shegitu" CD "in a town called addis" (real world)
+3. roosbeef (holland) "zomer" CD "ze willen wel je hond aaien maar niet met je praten" (excelsior)
+4. lucky elephant (uk) "modern life, changing people" CD "star sign trampoline" (sunday best)
+5. brenna maccrimmon (canada) "dolama dolamayi" CD "kulak musafiri" (green goat)
+6. mattias hellberg & the white moose (sweden) "mermaid stomp" CD "out of the frying pan, into the woods" (stickman)
+7. maria taylor (usa) "my favourite... love" CD "lady luck" (nettwerk)
+8. os haxixins (brazil) "viagem as cavernas" CD "os haxixins" (inka)
+9. petit mal (uk) "words follow you" CD "petit mal" (difficult fun)
+10. swan lake (canada/usa) "peace" CD "enemy mine" (jagjaguwar)
+11. tine kindermann (germany/usa) "schwesterlein" CD "schamlos schon" (oriente)
+12. the black box revelation (belgium) "love, love is on my mind" CD "set your head on fire" (t for tunes)
+13. santic (poland) "ball weevil holler" CD "ain't gonna hurt nobody" (santic)
+14. вова синий (рф) "brezhnev beat generation" CD "синий квадрат" (solnze)
+15. вова синий (рф) "антинаркотическая песня" CD "синий квадрат" (solnze)
+16. than quy (vietnam) "ngoi tua song dao" CD "ngoi tua song dao" (kim loi)
+17. papercuts (usa) "dictator's lament" CD "you can have what you want" (gnomosong)

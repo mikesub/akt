@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N664_2009.12.13.cue
 date: 2009-12-13
 title: FM Достоевский #664
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («664. #664 13.12.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. Yo La Tengo "Here To Fall" CD "Popular Songs" (Matador)
-2. Ghalia Benali & Bert Cornelis "Chand" CD "Al Palna" (Zimbraz/music&words)
-3. My Favourite Sideburns Orchestra "The Skatalan Logicofobism" CD "Assemblage De Pieces Comeladiennes Du Plus Belle Effet" (Gazul)
-4. Kawaii "I Wanna Be Your Dog" CD "Assemblage De Pieces Comeladiennes Du Plus Belle Effet" (Gazul)
-5. Wild Beasts "When I'm Sleepy" CD "Two Dancers" (Domino)
-6. Sister Fa "Amy Jotna" CD "Sarabah" (Piranha)
-7. Tupolev "Rnd2" CD "Aume" (Valeot)
-8. Sneaky Sound System "Pictures" CD "Sneaky Sound System" (Elmlowe/whack)
-9. Владимир Щукин "Жираф" CD "Песни На Стихи Поэтов Серебряного Века" (Союз)
-10. Lancy Falta Gypsy Stream "O Letschdo Gurgo" CD "In The Fields" (Bayla)
-11. Grizzly Bear "Southern Point" CD "Vechatimest" (Warp)
-12. Evil Madness "L'agonia Del Controlo Della Mente" CD "Demoni Paradiso" (12 Tonar)
-13. African Fiesta "Eh Bien Mon Ami" CD "Cazumbi: African Sixties Garage" (No Smoke)
-14. Conjunto De Oliveira Muge "Sospesa Ad Un Filo" CD "Cazumbi: African Sixties Garage" (No Smoke)
-15. Mascott "Live Again" CD "Art Project" (Red Panda)
-16. Valderrama "Los Pajarillos" CD "Moderna Tradicion" (Kompetencia)
+1. Yo La Tengo (usa) "Here To Fall" CD "Popular Songs" (Matador)
+2. Ghalia Benali & Bert Cornelis (belgium/india) "Chand" CD "Al Palna" (Zimbraz/music&words)
+3. My Favourite Sideburns Orchestra (france) "The Skatalan Logicofobism" CD "Assemblage De Pieces Comeladiennes Du Plus Belle Effet" (Gazul)
+4. Kawaii (france) "I Wanna Be Your Dog" CD "Assemblage De Pieces Comeladiennes Du Plus Belle Effet" (Gazul)
+5. Wild Beasts (uk) "When I'm Sleepy" CD "Two Dancers" (Domino)
+6. Sister Fa (senegal) "Amy Jotna" CD "Sarabah" (Piranha)
+7. Tupolev (austria) "Rnd2" CD "Aume" (Valeot)
+8. Sneaky Sound System (uk) "Pictures" CD "Sneaky Sound System" (Elmlowe/whack)
+9. Владимир Щукин (рф) "Жираф" CD "Песни На Стихи Поэтов Серебряного Века" (Союз)
+10. Lancy Falta Gypsy Stream (germany) "O Letschdo Gurgo" CD "In The Fields" (Bayla)
+11. Grizzly Bear (usa) "Southern Point" CD "Vechatimest" (Warp)
+12. Evil Madness (iceland) "L'agonia Del Controlo Della Mente" CD "Demoni Paradiso" (12 Tonar)
+13. African Fiesta (congo) "Eh Bien Mon Ami" CD "Cazumbi: African Sixties Garage" (No Smoke)
+14. Conjunto De Oliveira Muge (mozambique) "Sospesa Ad Un Filo" CD "Cazumbi: African Sixties Garage" (No Smoke)
+15. Mascott (usa) "Live Again" CD "Art Project" (Red Panda)
+16. Valderrama (spain) "Los Pajarillos" CD "Moderna Tradicion" (Kompetencia)

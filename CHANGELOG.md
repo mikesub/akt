@@ -7,6 +7,15 @@ added, renamed or removed; **Breaking** marks a change that can break code readi
 Routine updates (a new Стереоплан episode, a single fix) are not listed: the git history of
 `docs/data/` has every change.
 
+## 2026-10-17
+
+- «FM Достоевский»: 3 new playlists, #623, #624 and #633, found nowhere before (778 of 820 episodes now,
+  42 missing). The playlists of #620–#701 now come from a fans' collection's mp3 tags instead of radar.lv's
+  CUE sheets: the same songs, now with every song's country and label (`printed_country` set for all
+  1,337 tracks there, where the CUE sheets printed none, so far fewer inferred countries), and 13 songs the
+  sheets missed in 12 episodes. Tracks with the same artist, title and album kept their links and years.
+  `fmd.json` changed; `countries.json` has 5 more spellings.
+
 ## 2026-10-16
 
 - A track whose playlist prints only "Europe" or a placeholder (`"?"`, `"..."`) gets its artist's

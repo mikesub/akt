@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N658_01.11.2009.cue
 date: 2009-11-01
 title: FM Достоевский #658
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («658. #658 01.11.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. bat for lashes "big sleep" CD "two suns"
-2. di naye kapelye "traktorist" CD "traktorist: carpathian klezmer"
-3. sutcliffe "lowride" CD "sutcliffe"
-4. da cruz "festa na montanha" CD "corpo eletrico"
-5. botanica "la valse magnetique" CD "americaundone"
-6. van khanh "dem phuong nam nghe cau ho hue" CD "dem phuong nam nghe cau ho hue"
-7. henk badings "guest meal" CD "more electronic music by badings"
-8. the hot puppies "where the werewolves meet" CD "blue hands"
-9. babach "russkaya vodka" CD "stupido 20"
-10. yarn: moor "1014" CD "so, i'll take your hand and..."
-11. the grains of sand "she needs me" CD "off the wall vols.1&2"
-12. ala muerte "grim" CD "santa elena"
-13. макет "матросский танец" CD "дневник путешествий"
-14. black moth super rainbow "iron lemonade" CD "eating us"
-15. mari boine "soagnosilbrat" CD "cuovvga airras/sterna paradisea"
-16. the real tuesday weld "the day before you came" CD "backspin"
-17. salamat sadikova "qizil gul" CD "the voice of kyrgyztan"
+1. bat for lashes (uk) "big sleep" CD "two suns" (echo)
+2. di naye kapelye (usa/hungary) "traktorist" CD "traktorist: carpathian klezmer" (oriente)
+3. sutcliffe (germany) "lowride" CD "sutcliffe" (beste!unterhaltung)
+4. da cruz (brazil) "festa na montanha" CD "corpo eletrico" (boom jah)
+5. botanica (usa) "la valse magnetique" CD "americaundone" (rent a dog)
+6. van khanh (vietnam) "dem phuong nam nghe cau ho hue" CD "dem phuong nam nghe cau ho hue" (kim loi)
+7. henk badings (holland) "guest meal" CD "more electronic music by badings" (basta)
+8. the hot puppies (uk) "where the werewolves meet" CD "blue hands" (thp)
+9. babach (estonia/ussr) "russkaya vodka" CD "stupido 20" (stupido)
+10. yarn: moor (japan) "1014" CD "so, i'll take your hand and..." (noble)
+11. the grains of sand (usa) "she needs me" CD "off the wall vols.1&2" (past & present)
+12. ala muerte (usa) "grim" CD "santa elena" (public guilt)
+13. макет (ukraine) "матросский танец" CD "дневник путешествий" (zosimoff)
+14. black moth super rainbow (usa) "iron lemonade" CD "eating us" (memphis industries)
+15. mari boine (norway) "soagnosilbrat" CD "cuovvga airras/sterna paradisea" (lean/universal)
+16. the real tuesday weld (uk) "the day before you came" CD "backspin" (six degrees)
+17. salamat sadikova (kyrgyztan) "qizil gul" CD "the voice of kyrgyztan" (frequency glide)

@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N661_2009.11.22.cue
 date: 2009-11-22
 title: FM Достоевский #661
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («661. #661 22.11.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. Bonga "Bilukanje" CD "Bairro" (Lusafrica)
-2. The Priscillas "Fly In My Drink" CD "10.000 Volts" (Nag's Head)
-3. Audionom "Imposter" CD "Superior" (Ideal)
-4. Simon Lenski & Bo Wiget "Trottinette" CD "Die Vogelein Schweigen Im Walde" (Radical Duke)
-5. Dan Zimmerman "Secret Name" CD "Cosmic Patriot" (Sounds Familyre)
-6. Dan Zimmerman "Silence Is A Golden Mountain" CD "Cosmic Patriot" (Sounds Familyre)
-7. Calypso Rose "Calypso Blues" CD "Calypso Rose" (Maturity/world Village)
-8. Shogun Kunitoki "Nebulus" CD "Vinonaamakasio" (Fonal)
-9. Fitness Forever "Se Come Te" CD "Personal Train" (Elefant)
-10. Keelhaul "Glorious Car Activities" CD "Triumphant Return To Obscurity" (Hydra Head)
-11. Keelhaul "Waiting For The Moon To Speak" CD "Triumphant Return To Obscurity" (Hydra Head)
-12. Helder Moutinho "Esta Voz" CD "Que Fado E Este Que Trago?" (Farol)
-13. Astrid Williamson "Eve" CD "Here Come The Vikings" (Incarnation)
-14. Crystal Antlers "Time Erased" CD "Tentacles" (Touch & Go)
-15. Hjaltalin "Trailer Music" CD "Sleepdrunk Seasons" (Excelsior)
-16. Stonephace "Wedgehead Gets Lucky" CD "Stonephace" (Tru Thoughts)
+1. Bonga (angola) "Bilukanje" CD "Bairro" (Lusafrica)
+2. The Priscillas (uk) "Fly In My Drink" CD "10.000 Volts" (Nag's Head)
+3. Audionom (sweden) "Imposter" CD "Superior" (Ideal)
+4. Simon Lenski & Bo Wiget (germany/belgium) "Trottinette" CD "Die Vogelein Schweigen Im Walde" (Radical Duke)
+5. Dan Zimmerman (usa) "Secret Name" CD "Cosmic Patriot" (Sounds Familyre)
+6. Dan Zimmerman (usa) "Silence Is A Golden Mountain" CD "Cosmic Patriot" (Sounds Familyre)
+7. Calypso Rose (trinidad y tobago) "Calypso Blues" CD "Calypso Rose" (Maturity/world Village)
+8. Shogun Kunitoki (finland) "Nebulus" CD "Vinonaamakasio" (Fonal)
+9. Fitness Forever (italy) "Se Come Te" CD "Personal Train" (Elefant)
+10. Keelhaul (usa) "Glorious Car Activities" CD "Triumphant Return To Obscurity" (Hydra Head)
+11. Keelhaul (usa) "Waiting For The Moon To Speak" CD "Triumphant Return To Obscurity" (Hydra Head)
+12. Helder Moutinho (portugal) "Esta Voz" CD "Que Fado E Este Que Trago?" (Farol)
+13. Astrid Williamson (uk) "Eve" CD "Here Come The Vikings" (Incarnation)
+14. Crystal Antlers (usa) "Time Erased" CD "Tentacles" (Touch & Go)
+15. Hjaltalin (iceland) "Trailer Music" CD "Sleepdrunk Seasons" (Excelsior)
+16. Stonephace (uk) "Wedgehead Gets Lucky" CD "Stonephace" (Tru Thoughts)

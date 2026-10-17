@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N680_04.04.2010.cue
 date: 2010-04-04
 title: FM Достоевский #680
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («680. #680 04.04.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. a.r.rahman "haye dil ki bazi laga" CD "bollywood sound magic"
-2. sixtoes "same again" CD "trick of the night"
-3. lal meri "borders" CD "lal meri"
-4. ennio morricone "gli scatenati" CD "in the brain"
-5. monsters of folk "dear god" CD "monsters of folk"
-6. variety lab "this parade" CD "team up!"
-7. variety lab feat.donovan "is this the last time?" CD "team up!"
-8. blues control "good morning" CD "local flavour"
-9. [dunkelbunt] "roll away" CD "raindrops and elephants"
-10. the asteroids galaxy tour "the sun ain't shining no more" CD "fruit"
-11. samba toure "yawoye" CD "songhai blues"
-12. tyondai braxton "uffe's woodshop" CD "central market"
-13. quinn walker "19 birthdays" CD "lion land/laughter's an asshole"
-14. valley girl "cartoon pictures" CD "glamorous world"
-15. spindrift "the scorpio's venom" CD "the legend of god's gun"
-16. коралловые рифы "у смерти походка фламинго" CD "прочь руки от стиляг!"
+1. a.r.rahman (india) "haye dil ki bazi laga" CD "bollywood sound magic" (saregama)
+2. sixtoes (uk) "same again" CD "trick of the night" (the music)
+3. lal meri (usa) "borders" CD "lal meri" (six degrees)
+4. ennio morricone (italy) "gli scatenati" CD "in the brain" (bella casa/cherry red)
+5. monsters of folk (usa) "dear god" CD "monsters of folk" (rough trade)
+6. variety lab (france) "this parade" CD "team up!" (pschent)
+7. variety lab feat.donovan (france/uk) "is this the last time?" CD "team up!" (pschent)
+8. blues control (usa) "good morning" CD "local flavour" (stiltbreeze)
+9. [dunkelbunt] (austria/germany) "roll away" CD "raindrops and elephants" (piranha)
+10. the asteroids galaxy tour (denmark/sweden) "the sun ain't shining no more" CD "fruit" (small giants)
+11. samba toure (mali) "yawoye" CD "songhai blues" (riverboat)
+12. tyondai braxton (usa) "uffe's woodshop" CD "central market" (warp)
+13. quinn walker (usa) "19 birthdays" CD "lion land/laughter's an asshole" (voodoo eros)
+14. valley girl (uk) "cartoon pictures" CD "glamorous world" (sick dog)
+15. spindrift (usa) "the scorpio's venom" CD "the legend of god's gun" (tee pee)
+16. коралловые рифы (рф) "у смерти походка фламинго" CD "прочь руки от стиляг!" (союз)

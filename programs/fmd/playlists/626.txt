@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N626_2009.03.22.cue
 date: 2009-03-22
 title: FM Достоевский #626
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («626. #626 22.03.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. low motion disco "born on the low wind" CD "keep it slow"
-2. fedul zhadny "strekozjol" CD "бытопись"
-3. over the rhine "don't wait for tom" CD "the trumpet child"
-4. vex'd "fire" CD "10 tons heavy"
-5. beata palya "lovas dal" CD "adieu lex complexes"
-6. howling hex "big chief big wheel" CD "earth junk"
-7. marcela mangabeira "os grilos" CD "simples"
-8. voltaire "land of the dead" CD "ooky spooky"
-9. noblesse oblige "jalouse" CD "in exile"
-10. flat duo jets "mexicali baby" CD "two headed cow"
-11. trio tresca "valzer i disertori" CD "umpa umpa"
-12. the instruments "mountain song" CD "dark smaland"
-13. philipp quehenberger "loner goner" CD "phantom in paradise"
-14. kazuki tomokawa "days of blankness pt.2" CD "blue water, red water"
-15. kasbah rockers / bill laswell "fallidjah car" CD "kasbah rockers"
-16. john zorn "almadel" CD "the crucible"
+1. low motion disco (belgium) "born on the low wind" CD "keep it slow" (eskimo)
+2. федул жадный (рф) "стрекозёл" CD "бытопись" (cd land)
+3. over the rhine (usa) "don't wait for tom" CD "the trumpet child" (gsd/red eye)
+4. vex'd (uk) "fire" CD "10 tons heavy" (planet mu)dubstep comp.
+5. beata palya (hungary/france) "lovas dal" CD "adieu lex complexes" (naive)
+6. howling hex (usa) "big chief big wheel" CD "earth junk" (drag city)
+7. marcela mangabeira (brazil) "os grilos" CD "simples" (brazilian music connection)
+8. voltaire (usa) "land of the dead" CD "ooky spooky" (projekt)
+9. noblesse oblige (uk) "jalouse" CD "in exile" (al!ve/repo)
+10. flat duo jets (usa) "mexicali baby" CD "two headed cow" (chicken ranch)
+11. trio tresca (italy) "valzer "i disertori"" CD "umpa umpa" (radici music)
+12. the instruments (usa) "mountain song" CD "dark smaland" (orange twin)
+13. philipp quehenberger (austria) "loner goner" CD "phantom in paradise" (mego)
+14. kazuki tomokawa (japan) "days of blankness pt.2" CD "blue water, red water" (modern music/p.s.f.)
+15. kasbah rockers / bill laswell (marocco/usa) "fallidjah car" CD "kasbah rockers" (barraka)
+16. john zorn (usa) "almadel" CD "the crucible" (tzadik)

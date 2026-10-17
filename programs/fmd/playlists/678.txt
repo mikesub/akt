@@ -1,20 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N678_21.03.2010.cue
 date: 2010-03-21
 title: FM Достоевский #678
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («678. #678 21.03.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json). Another source differs: the CUE sheet of radar.lv's recording lacks «karuna khyal» (not aired, or the recording is cut short).
 
-1. os mutantes "intro/querida querida" CD "haih..."
-2. reverend horton heat "oh by jingo!" CD "laughin' and cryin' with the..."
-3. angelique kidjo feat. john legend "move on up" CD "oyo"
-4. the penelope(s) & morpheus "rainbow on the pavement" CD "priceless concrete echoes"
-5. paloma faith "upside down" CD "do you want the truth or something beautiful?"
-6. arbre noir "nighttime" CD "madurai"
-7. the heavy "oh no! not you again!!" CD "the house that dirt built"
-8. the heavy "sixteen" CD "the house that dirt built"
-9. georgia dagaki "ti meni" CD "secret love"
-10. depedro "comanche" CD "depedro"
-11. depedro "don't leave me now" CD "depedro"
-12. sally doherty "one day" CD "electric butterfly"
-13. oneida "what's up, jackal?" CD "rated o"
-14. diablo swing orchestra "a tapdancer's dilemma" CD "sing-along songs for the damned and delirious"
-15. diablo swing orchestra "vodka inferno" CD "sing-along songs for the damned and delirious"
+1. os mutantes (brazil) "intro/querida querida" CD "haih..." (anti-)
+2. reverend horton heat (usa) "oh by jingo!" CD "laughin' and cryin' with the..." (yep roc)
+3. angelique kidjo feat. john legend (benin/usa) "move on up" CD "oyo" (razor&tie/naive)
+4. the penelope(s) & morpheus (france/israel) "rainbow on the pavement" CD "priceless concrete echoes" (citizen)
+5. paloma faith (uk) "upside down" CD "do you want the truth or something beautiful?" (sony)
+6. arbre noir (germany) "nighttime" CD "madurai" (namaste)
+7. the heavy (uk) "oh no! not you again!!" CD "the house that dirt built" (counter)
+8. the heavy (uk) "sixteen" CD "the house that dirt built" (counter)
+9. georgia dagaki (greece) "ti meni" CD "secret love" (raki)
+10. karuna khyal (japan) "track 1" CD "alomoni 1983" (phoenix)
+11. depedro (spain) "comanche" CD "depedro" (nat geo music)
+12. depedro (spain) "don't leave me now" CD "depedro" (nat geo music)
+13. sally doherty (uk) "one day" CD "electric butterfly" (shayo)
+14. oneida (usa) "what's up, jackal?" CD "rated o" (brah/jagjaguwar)
+15. diablo swing orchestra (sweden) "a tapdancer's dilemma" CD "sing-along songs for the damned and delirious" (sensory)
+16. diablo swing orchestra (sweden) "vodka inferno" CD "sing-along songs for the damned and delirious" (sensory)

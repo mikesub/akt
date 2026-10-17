@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N698_08.08.2010.cue
 date: 2010-08-08
 title: FM Достоевский #698
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («698. #698 08.08.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. efterklang "full moon" CD "magic chairs"
-2. novalima vs boozoo bajou "africa lando" CD "coba coba remixed"
-3. the wildebeests "that man" CD "the gnus of gnavarone"
-4. chikiss "баю-бай" CD "медленно"
-5. musee mecanique "like home" CD "hold this ghost"
-6. flat earth society "vole sperm reverie" CD "cheer me, perverts!"
-7. kobo town "abatina" CD "beyond the horizon"
-8. warpaint "elephants" CD "exquisite corpse"
-9. warpaint "beetles" CD "exquisite corpse"
-10. speed caravan "killing an arab" CD "kalashnik love"
-11. films "liz & lily" CD "messenger"
-12. martin rev "magnum mysterium" CD "stigmata"
-13. piney gir "lion (i am one)" CD "the yearling"
-14. guy clark "the guitar" CD "somedays the song writes you"
-15. oy "trolls" CD "first box then walk"
-16. hypnotic brass ensemble "rabbit hop" CD "hypnotic brass ensemble"
+1. efterklang (denmark) "full moon" CD "magic chairs" (rumraket/4ad)
+2. novalima vs boozoo bajou (peru/germany) "africa lando" CD "coba coba remixed" (cumbancha)
+3. the wildebeests (uk) "that man" CD "the gnus of gnavarone" (dirty water)
+4. chikiss (рф) "баю-бай" CD "медленно" (среда\союз)
+5. musee mecanique (usa) "like home" CD "hold this ghost" (souterrain transmissions)
+6. flat earth society (belgium) "vole sperm reverie" CD "cheer me, perverts!" (bonk/crammed)
+7. kobo town (trinidad/canada) "abatina" CD "beyond the horizon" (oval/wb)
+8. warpaint (usa) "elephants" CD "exquisite corpse" (manimal)
+9. warpaint (usa) "beetles" CD "exquisite corpse" (manimal)
+10. speed caravan (algeria/france) "killing an arab" CD "kalashnik love" (real world)
+11. films (japan) "liz & lily" CD "messenger" (noble)
+12. martin rev (usa) "magnum mysterium" CD "stigmata" (blastfirstpetite)
+13. piney gir (uk) "lion (i am one)" CD "the yearling" (grey day)
+14. guy clark (usa) "the guitar" CD "somedays the song writes you" (dualtone)
+15. oy (switzerland) "trolls" CD "first box then walk" (creaked)
+16. hypnotic brass ensemble (uk) "rabbit hop" CD "hypnotic brass ensemble" (honest jon's)

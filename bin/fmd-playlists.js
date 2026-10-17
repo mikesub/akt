@@ -16,9 +16,9 @@ import { fileURLToPath } from 'node:url';
  *
  * Source per episode, highest first: Финам FM's pages (and its 2010 RSS),
  * fmd.soyuz.ru's pages and #802's print page (the program's own sites) >
- * radar.lv's episode posts > radar.lv's CUE sheets > the XLS export of
- * radar.lv's dead playlist database, unless a lower source has the complete
- * list where the higher one is cut short.
+ * radar.lv's episode posts > the playlists in a fans' collection's mp3 tags >
+ * radar.lv's CUE sheets > the XLS export of radar.lv's dead playlist database,
+ * unless a lower source has the complete list where the higher one is cut short.
  *
  * Usage: node bin/fmd-playlists.js
  */
@@ -410,6 +410,40 @@ function readCue() {
   return out;
 }
 
+// --------------------------------------------------------------- mp3 tags
+
+/**
+ * The playlists in a fans' collection of the program's mp3s (#129–#707, 494 episodes), each in its file's ID3
+ * comment, saved as programs/fmd/sources/mp3-tags/tags.json (number → its file's name, title, track and comment;
+ * two labels given as e-mail addresses left out). A line reads «1 \tArtist (Country) "Song" CD "Album" (Label)»,
+ * the early years' with the host's note after a comma, «…(Label), (Note)», which is left out as elsewhere.
+ * The file's name gives a date ("623. #623 01.03.2009.mp3"), used only where no other source dates the episode:
+ * a few names slip («#417 19.03.2006» for 2005, «#596 24.08.2008»); its leading number is the episode's (the
+ * title's «#…» slips too: «209. #206 07.03.2001» is #209).
+ */
+function readTags() {
+  const tags = JSON.parse(readFileSync(join(SOURCES, 'mp3-tags', 'tags.json'), 'utf8'));
+  const out = new Map();
+  for (const [number, { file, comment }] of Object.entries(tags)) {
+    const entries = comment
+      .split(/\r?\n/)
+      .map((line) => line.match(/^\s*(\d{1,2})[.)]?\s+(\S.*)$/))
+      .filter(Boolean)
+      .map(([, n, rest]) => `${Number(n)}. ${clean(rest).replace(/\)\s*,\s*\((?:[^()]|\([^()]*\))*\)\s*$/, ')')}`);
+    if (!entries.length) continue;
+    out.set(Number(number), {
+      kind: 'tags',
+      label: `the mp3 tags of ${file}`,
+      file,
+      url: null,
+      date: isoDate(file.replace(/^\d+\.\s*#\d+\s*/, '').replace(/\.mp3$/i, '')),
+      entries,
+      note: `from the ID3 comment of a fans' collection's mp3 of the episode («${file}»; programs/fmd/sources/mp3-tags/tags.json)`,
+    });
+  }
+  return out;
+}
+
 // --------------------------------------------------------------------- XLS
 
 /** RFC 4180 CSV. */
@@ -600,8 +634,8 @@ function describe(c, a, b) {
 
 const EMAIL = /[\w.+-]+@[\w-]+(?:\.[\w-]+)+/g;
 
-const RANK = { finam: 0, rss: 1, soyuz: 2, 'radar-lower': 3, radar: 4, cue: 5, xls: 6 };
-const SHORT = { finam: 'the Finam page', rss: 'the Finam RSS', soyuz: 'fmd.soyuz.ru', 'radar-lower': "radar.lv's «ФМ» post", radar: "radar.lv's «FM» post", cue: 'the CUE sheet', xls: 'the XLS' };
+const RANK = { finam: 0, rss: 1, soyuz: 2, 'radar-lower': 3, radar: 4, tags: 5, cue: 6, xls: 7 };
+const SHORT = { finam: 'the Finam page', rss: 'the Finam RSS', soyuz: 'fmd.soyuz.ru', 'radar-lower': "radar.lv's «ФМ» post", radar: "radar.lv's «FM» post", tags: "the mp3's tags", cue: 'the CUE sheet', xls: 'the XLS' };
 
 /**
  * The best source of an episode: the highest ranked, unless its list is
@@ -626,6 +660,7 @@ function main() {
   const soyuz = readSoyuz();
   const radar = readRadar();
   const cue = readCue();
+  const tags = readTags();
   const xls = readXls();
 
   const episodes = new Map();
@@ -664,6 +699,12 @@ function main() {
       const sheets = all.filter((s) => s.entries.length > 0);
       if (sheets.length) sources.push(fullest(sheets));
     }
+    if (tags.has(number)) {
+      // Its date only where no other source has one: the file names slip now and then.
+      const t = tags.get(number);
+      if (sources.some((s) => s.date) || (xls.get(number)?.date ?? null)) t.date = null;
+      sources.push(t);
+    }
     if (xls.has(number)) sources.push(xls.get(number));
     if (sources.length) episodes.set(number, { number, sources, best: choose(sources) });
   }
@@ -679,6 +720,11 @@ function main() {
     ['radar-lower', 'radar'],
     ['radar', 'cue'],
     ['radar-lower', 'cue'],
+    ['soyuz', 'tags'],
+    ['radar', 'tags'],
+    ['radar-lower', 'tags'],
+    ['tags', 'cue'],
+    ['tags', 'xls'],
     ['radar', 'xls'],
     ['radar-lower', 'xls'],
     ['cue', 'xls'],
@@ -747,7 +793,8 @@ function main() {
     if (dateNote) notes.push(dateNote), dateNotes.push(`#${number}: ${dateNote}`);
     writeFileSync(
       join(PLAYLISTS, `${number}.txt`),
-      playlistFile({ url: best.url, date, title: `FM Достоевский #${number}`, note: `${notes.map((n) => (/^[a-z]+\.[a-z]/.test(n) ? n : n[0].toUpperCase() + n.slice(1))).join('. ')}.`.replace(/\.\./g, '.'), entries }),
+      // A source with no page of its own (the mp3 tags) links to another source's: the episode keeps its link.
+      playlistFile({ url: best.url ?? sources.find((x) => x.url)?.url ?? null, date, title: `FM Достоевский #${number}`, note: `${notes.map((n) => (/^[a-z]+\.[a-z]/.test(n) ? n : n[0].toUpperCase() + n.slice(1))).join('. ')}.`.replace(/\.\./g, '.'), entries }),
     );
     counts[best.kind] = (counts[best.kind] ?? 0) + 1;
   }

@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N673_14.02.2010.cue
 date: 2010-02-14
 title: FM Достоевский #673
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («673. #673 14.02.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. anthony reynolds "country girl" CD "british ballads"
-2. milky lazers "hero" CD "kitchen"
-3. brimstone howl "hero of gold" CD "we came in peace"
-4. berry "le bonheur" CD "mademoiselle"
-5. black time "office suicide" CD "midnight world"
-6. la tirana "calimero" CD "la tirana"
-7. the low frequency in stereo "turnpike" CD "futuro"
-8. the low frequency in stereo "texas fox" CD "futuro"
-9. the low frequency in stereo "sparkle drive" CD "futuro"
-10. les fauves "twister twist" CD "n.a.l.t. 1: a fast introduction"
-11. rupa & the april fishes "culpa de la luna" CD "este mundo"
-12. stranger son of w.b. "p.a.y." CD "einstein's getaway"
-13. evolution "jum kesilim" CD "dejavu"
-14. the mummers "wake me up" CD "tale to tell"
-15. business lady "you and your pigs" CD "torture footage"
-16. stockholm lisboa project "meu amor de ontem" CD "diagonal"
+1. anthony reynolds (uk) "country girl" CD "british ballads" (hungry hill)
+2. milky lazers (lithuania) "hero" CD "kitchen" (phazz-a-delic)
+3. brimstone howl (usa) "hero of gold" CD "we came in peace" (alive)
+4. berry (france) "le bonheur" CD "mademoiselle" (mercury)
+5. black time (usa) "office suicide" CD "midnight world" (in the red)
+6. la tirana (brazil/germany) "calimero" CD "la tirana" (peace lounge)
+7. the low frequency in stereo (norway) "turnpike" CD "futuro" (rune grammofon)
+8. the low frequency in stereo (norway) "texas fox" CD "futuro" (rune grammofon)
+9. the low frequency in stereo (norway) "sparkle drive" CD "futuro" (rune grammofon)
+10. les fauves (italy) "twister twist" CD "n.a.l.t. 1: a fast introduction" (urto vox)
+11. rupa & the april fishes (usa) "culpa de la luna" CD "este mundo" (cumbancha)
+12. stranger son of w.b. (uk) "p.a.y." CD "einstein's getaway" (white box)
+13. evolution (czech rep.) "jum kesilim" CD "dejavu" (indies scope)
+14. the mummers (uk) "wake me up" CD "tale to tell" (big bass drum)
+15. business lady (usa) "you and your pigs" CD "torture footage" (load)
+16. stockholm lisboa project (sweden/portugal) "meu amor de ontem" CD "diagonal" (westpark)

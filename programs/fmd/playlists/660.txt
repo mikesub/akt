@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N660_2009.11.15.cue
 date: 2009-11-15
 title: FM Достоевский #660
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («660. #660 15.11.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. current 93 "invocation of almost" CD "aleph at hallucinatory mountain"
-2. marta gomez "carnavaliando" CD "musiquita"
-3. the andromeda mega express orchestra "gamma pluto delta" CD "take off!"
-4. wolftron "ms. luna grim" CD "flesh & fears"
-5. kari bremnes "passelig dose" CD "ly"
-6. big john bates "bikini falls" CD "bangtown"
-7. big john bates "whiskey goblins" CD "bangtown"
-8. miss lana rebel "blue song" CD "all i need"
-9. mad manoush "walk on fire" CD "the gypsy r-evolution"
-10. the dead weather "bone house" CD "horehound"
-11. daby toure & skip mcdonald "past time" CD "call my name"
-12. wildbirds & peacedrums "island" CD "the snake"
-13. the spiders "day tripper" CD "go-go group sounds japan 1965-1969"
-14. the white kicks "ai no kotoba" CD "go-go group sounds japan 1965-1969"
-15. duke garwood "mellow trucker lady" CD "the sand that falls"
-16. fire on fire "squeeze box" CD "the orchard"
-17. cafeneon "la voix" CD "cafeneon"
+1. current 93 (uk) "invocation of almost" CD "aleph at hallucinatory mountain" (coptic cat)
+2. marta gomez (usa/mexico) "carnavaliando" CD "musiquita" (aluna)
+3. the andromeda mega express orchestra (germany) "gamma pluto delta" CD "take off!" (alien transistor)
+4. wolftron (usa) "ms. luna grim" CD "flesh & fears" (eyeball)
+5. kari bremnes (norway) "passelig dose" CD "ly" (strange ways)
+6. big john bates (canada) "bikini falls" CD "bangtown" (rookie)
+7. big john bates (canada) "whiskey goblins" CD "bangtown" (rookie)
+8. miss lana rebel (usa) "blue song" CD "all i need" (family plan)
+9. mad manoush (switzerland) "walk on fire" CD "the gypsy r-evolution" (esp)
+10. the dead weather (uk/usa) "bone house" CD "horehound" (third man/sony)
+11. daby toure & skip mcdonald (mauritania/usa) "past time" CD "call my name" (real world)
+12. wildbirds & peacedrums (sweden) "island" CD "the snake" (caprice/leaf)
+13. the spiders (japan) "day tripper" CD "go-go group sounds japan 1965-1969" (maniakku-beat)
+14. the white kicks (japan) "ai no kotoba" CD "go-go group sounds japan 1965-1969" (maniakku-beat)
+15. duke garwood (uk) "mellow trucker lady" CD "the sand that falls" (fire)
+16. fire on fire (usa) "squeeze box" CD "the orchard" (young god)
+17. cafeneon (belgium) "la voix" CD "cafeneon" (station 55)

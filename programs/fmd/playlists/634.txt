@@ -1,21 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N634_2009.05.17.cue
 date: 2009-05-17
 title: FM Достоевский #634
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («634. #634 17.05.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json). Another source differs: the CUE sheet of radar.lv's recording lacks «cinkusi i teta liza» (not aired, or the recording is cut short).
 
-1. al deloner "long time ago" CD "mountains on the moon"
-2. melora creager "itinerant airship" CD "perplexions"
-3. kasai allstars "quick as white" CD "congotronics 3"
-4. morissey "black cloud" CD "years of refusal"
-5. nami makioka "subayado bushi" CD "the rough guide to the music of japan"
-6. the moe greene specials "a man called murder" CD "open road (again)"
-7. jenny lewis "pretty bird" CD "acid tongue"
-8. piano magic "the last engineer" CD "part monster"
-9. laboriel family project "juega" CD "tres generaciones"
-10. chris eckman, hugo race, chris brockaw "no sorrow more" CD "dirtmusic"
-11. heidelinde weis "und ich geb auf" CD "der supermann - song collection 1975-1979"
-12. l-rad "surfer joe" CD "long-range audio device"
-13. miss li "don't try to fool me" CD "miss li"
-14. les play boys "le crabe" CD "les play boys"
-15. choc quilb town "somos pacificos" CD "pacifico colombiano"
-16. black carrot "nervous was my information" CD "drink the black forest"
+1. al deloner (norway) "long time ago" CD "mountains on the moon" (playground)
+2. melora creager (usa) "itinerant airship" CD "perplexions" (filthy bonnet)
+3. kasai allstars (d.r.congo) "quick as white" CD "congotronics 3" (crammed)
+4. morissey (uk) "black cloud" CD "years of refusal" (polydor)
+5. nami makioka (japan) "subayado bushi" CD "the rough guide to the music of japan" (mrg)
+6. the moe greene specials (holland) "a man called murder" CD "open road (again)" (sonic rendezvous)
+7. jenny lewis (usa) "pretty bird" CD "acid tongue" (rough trade)
+8. piano magic (uk) "the last engineer" CD "part monster" (important)
+9. laboriel family project (mexico) "juega" CD "tres generaciones" (pyp)
+10. chris eckman, hugo race, chris brockaw (usa/australia) "no sorrow more" CD "dirtmusic" (glitterhouse)
+11. heidelinde weis (germany) "und ich geb auf" CD "der supermann - song collection 1975-1979" (bureau b)
+12. l-rad (uk/usa) "surfer joe" CD "long-range audio device" (masters of art)
+13. miss li (sweden) "don't try to fool me" CD "miss li" (national/devil duck)
+14. les play boys (france/uk) "le crabe " CD "les play boys" (magic)
+15. choc quilb town (colombia) "somos pacificos" CD "pacifico colombiano" (otrabanda)
+16. black carrot (uk) "nervous was my information" CD "drink the black forest" (tin angel)
+17. cinkusi i teta liza (croatia) "vuprem oci" CD "ethnoambient" (kopito)

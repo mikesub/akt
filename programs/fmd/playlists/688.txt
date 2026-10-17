@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N688_30.05.2010.cue
 date: 2010-05-30
 title: FM Достоевский #688
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («688. #688 30.05.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. kurt vile "hunchback" CD "childish prodigy"
-2. wz-orkiestr "божая кароука" CD "мой сябра анёлак"
-3. tujiko noriko/lawrence english/john chamber "hyouga" CD "u"
-4. grand archives "siren echo valley pt.2" CD "keep in mind frankenstein"
-5. nat johnson & the figureheads "dirty rotten soul" CD "roman radio"
-6. beautiful days "full of fear" CD "back to peru vol.2"
-7. melcochita y sus invitados "tirando dedo" CD "back to peru vol.2"
-8. klezmofobia "grine kuzine" CD "ganze velt"
-9. the leisure society "the last of the melting snow" CD "the sleeper"
-10. trance groove "beauty" CD "playing with the chelsea girls"
-11. dead man's bones "in the room where you sleep" CD "dead man's bones"
-12. dead man's bones "werewolf heart" CD "dead man's bones"
-13. wildflower "manginburru bininj" CD "aboriginal soul"
-14. друзья брата жениха "мирный клон" CD "№2"
-15. bridezilla "lunar eclipse" CD "the first dance"
-16. bridezilla "white feather" CD "the first dance"
-17. raoul sinier "hard summer" CD "tremens industry"
+1. kurt vile (usa) "hunchback" CD "childish prodigy" (matador)
+2. wz-orkiestr (беларусь) "божая кароука" CD "мой сябра анёлак" (wzo)
+3. tujiko noriko/lawrence english/john chamber (japan/australia) "hyouga" CD "u" (room 40)
+4. grand archives (usa) "siren echo valley pt.2" CD "keep in mind frankenstein" (sub pop)
+5. nat johnson & the figureheads (uk) "dirty rotten soul" CD "roman radio" (damaged goods)
+6. beautiful days (peru) "full of fear" CD "back to peru vol.2" (distrolux/vampi soul)
+7. melcochita y sus invitados (peru) "tirando dedo" CD "back to peru vol.2" (distrolux/vampi soul)
+8. klezmofobia (denmark) "grine kuzine" CD "ganze velt" (tiger)
+9. the leisure society (uk) "the last of the melting snow" CD "the sleeper" (full time hobby)
+10. trance groove (germany) "beauty" CD "playing with the chelsea girls" (westpark)
+11. dead man's bones (usa/canada) "in the room where you sleep" CD "dead man's bones" (werewolf heart/anti-)
+12. dead man's bones (usa/canada) "werewolf heart" CD "dead man's bones" (werewolf heart/anti-)
+13. wildflower (australia) "manginburru bininj" CD "aboriginal soul" (demon music/nascente)
+14. друзья брата жениха (рф) "мирный клон" CD "№2" (дбж)
+15. bridezilla (australia) "lunar eclipse" CD "the first dance" (inertia)
+16. bridezilla (australia) "white feather" CD "the first dance" (inertia)
+17. raoul sinier (france) "hard summer" CD "tremens industry" (ad noiseam)

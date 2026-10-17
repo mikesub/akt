@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N622_2009.02.22.cue
 date: 2009-02-22
 title: FM Достоевский #622
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («622. #622 22.02.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. the residents "rabbit habit" CD "the bunny boy"
-2. sapho "difference" CD "universelle"
-3. tuule kann & jaak sooaar "jaan ranna labajalg" CD "ohtu ilu"
-4. a place to bury strangers "i know i'll see you" CD "a place to bury strangers"
-5. nevoa "gavina de petroli" CD "entre las pedres i els peixos"
-6. nisennenmondai "kyaaaaa" CD "tori/neji"
-7. mothlite "hypnogogue" CD "the flax of reverie"
-8. agaskodo teliverek "gay hussar" CD "psycho goulash"
-9. micah p. hinson "i keep havin' these dreams" CD "micah p. hinson & the red empire orchestra"
-10. hearts of palm "goodbye" CD "for life"
-11. franco & le tpok jazz "mambu ma miondo" CD "francophonic"
-12. lulu rouge "melankoli" CD "bless you"
-13. bowerbirds "in our talons" CD "hymns for a dark horse"
-14. eliza carthy "rows of angels" CD "dreams of breathing underwater"
-15. heaviness "vermillion boots on" CD "heaviness"
-16. au revoir simone "oh! you pretty things" CD "life beyond mars: bowie covered"
-17. sonar kollektiv orchester "how to find royal jelly" CD "guaranteed niceness"
+1. the residents (usa) "rabbit habit" CD "the bunny boy" (cryptic corp/mute)
+2. sapho (france) "difference" CD "universelle" (fremeaux&associes)
+3. tuule kann & jaak sooaar (estonia) "jaan ranna labajalg" CD "ohtu ilu" (tutl)
+4. a place to bury strangers (usa) "i know i'll see you" CD "a place to bury strangers" (killer pimp)
+5. nevoa (spain) "gavina de petroli" CD "entre las pedres i els peixos" (tempsrecord)
+6. nisennenmondai (japan) "kyaaaaa" CD "tori/neji" (dotlinecircle/smalltown supersound)
+7. mothlite (uk/finland) "hypnogogue" CD "the flax of reverie" (southern)
+8. agaskodo teliverek (hungary/japan/uk) "gay hussar" CD "psycho goulash" (adaadat)
+9. micah p. hinson (usa) "i keep havin' these dreams" CD "micah p. hinson & the red empire orchestra" (full time hobby)
+10. hearts of palm (uk) "goodbye" CD "for life" (hypnote)
+11. franco & le tpok jazz (zaire/dr congo) "mambu ma miondo" CD "francophonic" (stern's)
+12. lulu rouge (denmark) "melankoli" CD "bless you" (music for dreams)
+13. bowerbirds (usa) "in our talons" CD "hymns for a dark horse" (dead oceans)
+14. eliza carthy (uk) "rows of angels" CD "dreams of breathing underwater" (topic)
+15. heaviness (sweden) "vermillion boots on" CD "heaviness" (quince)
+16. au revoir simone (usa) "oh! you pretty things" CD "life beyond mars: bowie covered" (rapster)
+17. sonar kollektiv orchester (germany) "how to find royal jelly" CD "guaranteed niceness" (sonar kollektiv)

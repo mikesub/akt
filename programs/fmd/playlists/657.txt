@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N657_2009.10.25.cue
 date: 2009-10-25
 title: FM Достоевский #657
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («657. #657 25.10.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. polysics "dry or wet" CD "we ate the machine"
-2. fania "niar = 2" CD "silmakha"
-3. kid congo & the pink monkey birds "lspc" CD "dracula boots"
-4. who made who "motown bizarre" CD "the plot"
-5. vasily k. i intelligenty "ibodolbojoby" CD "daj sebe"
-6. anne clark "nothing going on" CD "the smallest acts of kindness"
-7. kal "turkish blues" CD "radio romanista"
-8. jolly jumpers "mountain chant" CD "fantom zone"
-9. dan deacon "wet wings" CD "bromst"
-10. the pussywarmers "dead" CD "my pussy belongs to daddy"
-11. the inner space "kamerasong" CD "agilok & blubbo"
-12. pink mountaintops "the gayest of sunbeams" CD "outside love"
-13. ralph myerz "prison break" CD "ralphorama!"
-14. noisy pig "hulle hulle!!" CD "disaster # 1"
-15. the curious mystery "go forth and gather" CD "rotting slowly"
-16. the curious mystery "strong swimmers" CD "rotting slowly"
-17. king kandy "acid beach party" CD "acid beach party"
+1. polysics (japan) "dry or wet" CD "we ate the machine" (okami)
+2. fania (senegal) "niar = 2" CD "silmakha" (passion music)
+3. kid congo & the pink monkey birds (usa) "lspc" CD "dracula boots" (in the red)
+4. who made who (denmark) "motown bizarre" CD "the plot" (gomma)
+5. василий к. и интеллигенты (sweden/рф) "ибодолбоёбы" CD "дай себе" (василий к.)
+6. anne clark (uk) "nothing going on" CD "the smallest acts of kindness" (netmusic zone)
+7. kal (serbia) "turkish blues" CD "radio romanista" (asphalt tango)
+8. jolly jumpers (finland) "mountain chant" CD "fantom zone" (tug)
+9. dan deacon (usa) "wet wings" CD "bromst" (carpark)
+10. the pussywarmers (italy) "dead" CD "my pussy belongs to daddy" (voodoo rhythm)
+11. the inner space (germany) "kamerasong" CD "agilok & blubbo" (wah wah)
+12. pink mountaintops (usa) "the gayest of sunbeams" CD "outside love" (jagjaguwar)
+13. ralph myerz (norway) "prison break" CD "ralphorama!" (beatservice)
+14. noisy pig (germany) "hulle hulle!!" CD "disaster # 1" (cochon)
+15. the curious mystery (usa) "go forth and gather" CD "rotting slowly" (k)
+16. the curious mystery (usa) "strong swimmers" CD "rotting slowly" (k)
+17. king kandy (uk) "acid beach party" CD "acid beach party" (gina)

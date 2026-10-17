@@ -1,20 +1,20 @@
 url: https://radar.lv/files/FM_Dostoevsky_N655_2009.10.11.cue
 date: 2009-10-11
 title: FM Достоевский #655
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («655. #655 11.10.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. peaches "i feel cream" CD "i feel cream"
-2. circus devils "i-razors" CD "ataxia"
-3. stereo de luxe "breakfast at annie's" CD "monosyllabic"
-4. au "solovej" CD "pretenzii ne prinimajutsja"
-5. au "udovolstvie" CD "pretenzii ne prinimajutsja"
-6. bally sagoo & gunjan "aap ki nazronne samiyha" CD "bindiya chamke gi"
-7. pedro luis e a parede "repudio" CD "ponto enredo"
-8. la roux "tigerlily" CD "la roux"
-9. thomas truax "the raindrop says goodbye to the cloud" CD "why dogs howl at the moon"
-10. lendi vexer "a boot doesn't ask, just trample" CD "the process of disillusion"
-11. the phantom band "burial sounds" CD "checkmate savage"
-12. yeah yeah yeahs "dull life" CD "it's blitz!"
-13. staff benda bilili "moto moindo" CD "tres tres fort"
-14. lay low "why do i worry?" CD "farewell good night's sleep"
-15. little joy "with strangers" CD "little joy"
+1. peaches (canada) "i feel cream" CD "i feel cream" (xl)
+2. circus devils (usa) "i-razors" CD "ataxia" (happy jack)
+3. stereo de luxe (germany) "breakfast at annie's" CD "monosyllabic" (freshly squeezed)
+4. ау (рф) "соловей" CD "претензии не принимаются" (отделение выход)
+5. ау (рф) "удовольствие" CD "претензии не принимаются" (отделение выход)
+6. bally sagoo & gunjan (uk/usa/india) "aap ki nazronne samiyha" CD "bindiya chamke gi" (ishq)
+7. pedro luis e a parede (brazil) "repudio" CD "ponto enredo" (world village)
+8. la roux (uk) "tigerlily" CD "la roux" (polydor)
+9. thomas truax (usa) "the raindrop says goodbye to the cloud" CD "why dogs howl at the moon" (sl)
+10. lendi vexer (argentina) "a boot doesn't ask, just trample" CD "the process of disillusion" (stereotape)
+11. the phantom band (uk) "burial sounds" CD "checkmate savage" (chemikal underground)
+12. yeah yeah yeahs (usa) "dull life" CD "it's blitz!" (geffen)
+13. staff benda bilili (d.r.congo) "moto moindo" CD "tres tres fort" (crammed)
+14. lay low (iceland) "why do i worry?" CD "farewell good night's sleep" (loo ehf/nettwerk)
+15. little joy (usa) "with strangers" CD "little joy" (rough trade)

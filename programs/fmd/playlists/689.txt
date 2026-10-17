@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N689_2010.06.06.cue
 date: 2010-06-06
 title: FM Достоевский #689
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («689. #689 06.06.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. piano magic "the nightmare goes on" CD "ovations"
-2. i might be wrong "a penny for your thoughts" CD "circle the yes"
-3. puerto plata "porque no hay de ser" CD "casita de campo"
-4. the pains of being pure at heart "a teenager in love" CD "the pains of being pure at heart"
-5. choir of young believers "action/reaction" CD "this is for the white in your eyes"
-6. mad love "in love (in theory)" CD "white with foam"
-7. yeasayer "mondegreen" CD "odd blood"
-8. lui fa & emaloni iongi "ha i koula" CD "mate ma'a tonga"
-9. bellini "wake up under a truck" CD "the precious prize of gravity"
-10. носорогов "бам-бам" CD "хороший плохой злой"
-11. gabby young & other animals "ladies of the lake" CD "we're all in this together"
-12. gabby young & other animals "ask you a question" CD "we're all in this together"
-13. kroke "moondowner" CD "out of sight"
-14. the brian setzer orchestra "love partners in crime" CD "songs from lonely avenue"
-15. chapelier fou "darling. darling. darling..." CD "chapelier fou"
-16. lindstrom & christabelle "lovesick" CD "real life is no cool"
-17. gary war "see right thru" CD "horribles parade/galactic citizens"
+1. piano magic (uk) "the nightmare goes on" CD "ovations" (make mine music)
+2. i might be wrong (germany) "a penny for your thoughts" CD "circle the yes" (sinnbus)
+3. puerto plata (dominican republic) "porque no hay de ser" CD "casita de campo" (iaso)
+4. the pains of being pure at heart (usa) "a teenager in love" CD "the pains of being pure at heart" (slumberland)
+5. choir of young believers (denmark) "action/reaction" CD "this is for the white in your eyes" (ghostly int./tigerspring)
+6. mad love (usa) "in love (in theory)" CD "white with foam" (ipecac)
+7. yeasayer (usa) "mondegreen" CD "odd blood" (secretly canadian/mute)
+8. lui fa & emaloni iongi (tonga) "ha i koula" CD "mate ma'a tonga" (siloni)
+9. bellini (italy/usa) "wake up under a truck" CD "the precious prize of gravity" (temporary residence)
+10. носорогов (беларусь) "бам-бам" CD "хороший плохой злой" (осмос)
+11. gabby young & other animals (uk) "ladies of the lake" CD "we're all in this together" (gift of the gab/monumental)
+12. gabby young & other animals (uk) "ask you a question" CD "we're all in this together" (gift of the gab/monumental)
+13. kroke (poland) "moondowner" CD "out of sight" (oriente)
+14. the brian setzer orchestra (usa) "love partners in crime" CD "songs from lonely avenue" (surfdog)
+15. chapelier fou (france) "darling. darling. darling..." CD "chapelier fou" (ici d'ailleurs...)
+16. lindstrom & christabelle (norway) "lovesick" CD "real life is no cool" (smalltown supersound)
+17. gary war (usa) "see right thru" CD "horribles parade/galactic citizens" (sacred bones)

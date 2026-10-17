@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N631_2009.04.26.cue
 date: 2009-04-26
 title: FM Достоевский #631
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («631. #631 26.04.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. matt elliott "bomb the stock exchange" CD "howling songs"
-2. cheese people "stroitel" CD "cheese people"
-3. tiris "tiris nebreeha" CD "sandtracks"
-4. pirate love "in a dirty cellar" CD "black vodoun space blues"
-5. nitin sawhney "last train to midnight" CD "london underground"
-6. jaguar love "the man with the plastic suns" CD "take me to the sea"
-7. catbird "where will you be" CD "among us"
-8. juan trip "acid cat" CD "fireplace"
-9. the freeks "the go-go get" CD "the freeks"
-10. a cuckoo "over the moon" CD "destination unknown"
-11. cankisou "zuha" CD "le la"
-12. ex-girl "dodo" CD "endangered species"
-13. mielavs un parcelajs "par pieciti un morzes signaliem" CD "bezgaliga iena deja"
-14. twinemen "the end of my dreams" CD "twinetime"
-15. the carnival saloon "the jailhouse tonight" CD "...are going to hell"
-16. jessica lombardi "cecilia" CD "in dote"
+1. matt elliott (uk) "bomb the stock exchange" CD "howling songs" (ici d'ailleurs)
+2. cheese people (russia) "stroitel" CD "cheese people" (snegiri)
+3. tiris (western sahara) "tiris nebreeha" CD "sandtracks" (sandblast)
+4. pirate love (norway) "in a dirty cellar" CD "black vodoun space blues" (kong tiki/voodoo rhythm)
+5. nitin sawhney (uk) "last train to midnight" CD "london underground" (cooking vinyl)
+6. jaguar love (usa) "the man with the plastic suns" CD "take me to the sea" (matador)
+7. catbird (denmark) "where will you be" CD "among us" (street ballerina)
+8. juan trip (france) "acid cat" CD "fireplace" (citizen)
+9. the freeks (usa) "the go-go get" CD "the freeks" (cargo)
+10. a cuckoo (uk) "over the moon" CD "destination unknown" (le grand magistery)
+11. cankisou (czech rep.) "zuha" CD "le la" (indies scope)
+12. ex-girl (japan) "dodo" CD "endangered species" (alternative tentacles)
+13. mielavs un parcelajs (latvia) "par pieciti un morzes signaliem" CD "bezgaliga iena deja" (upe)
+14. twinemen (usa) "the end of my dreams" CD "twinetime" (hi-n-dry)
+15. the carnival saloon (usa) "the jailhouse tonight" CD "...are going to hell" (c.s.)
+16. jessica lombardi (italy) "cecilia" CD "in dote" (radici music)

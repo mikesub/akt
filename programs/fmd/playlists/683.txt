@@ -1,21 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N683_2010.04.24.cue
 date: 2010-04-24
 title: FM Достоевский #683
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («683. #683 25.04.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json). Another source differs: the CUE sheet of radar.lv's recording lacks «the vampires of dartmore» (not aired, or the recording is cut short).
 
-1. vasily shumov & the vivisectors "vseponimajushie glaza" CD "soderzhnie"
-2. vasily shumov and barto "odna i nadolgo" CD "содержание"
-3. jabier muguruza "koadrilako isilena" CD "taxirik ez"
-4. ben vaughn "avanti" CD "designs in music"
-5. the temper trap "rest" CD "conditions"
-6. blasted mechanism "source of light" CD "mind at large"
-7. the creepshow "buried alive" CD "run for your life"
-8. lake heartbeat "making conversation" CD "trust in numbers"
-9. lullatone "a plastic bag in the wind" CD "songs that spin in circles"
-10. the barbeques "aaya lolo" CD "ghana special"
-11. christy azuma & uppers international "din ya sugri" CD "ghana special"
-12. the residents "credits (haeckel's tale)" CD "ten little piggies"
-13. the residents "the horns of haynesville" CD "the ughs!"
-14. we fell to earth "lights out" CD "we fell to earth"
-15. we fell to earth "the double" CD "we fell to earth"
-16. the vampires of dartmore "die folterkammer des dr.sex" CD "dracula's music cabinet"
+1. василий шумов & the vivisectors (рф) "всепонимающие глаза" CD "содержание" (зенит)
+2. василий шумов и барто (рф) "одна и надолго" CD "содержание" (зенит)
+3. jabier muguruza (spain) "koadrilako isilena" CD "taxirik ez" (resistencia)
+4. ben vaughn (usa) "avanti" CD "designs in music" (vampi soul)
+5. the temper trap (australia) "rest" CD "conditions" (infectuous)
+6. blasted mechanism (portugal) "source of light" CD "mind at large" (toolateman)
+7. the creepshow (usa) "buried alive" CD "run for your life" (stomp/hellcat)
+8. lake heartbeat (sweden) "making conversation" CD "trust in numbers" (service)
+9. lullatone (japan) "a plastic bag in the wind" CD "songs that spin in circles" (audio dregs)
+10. the barbeques (ghana) "aaya lolo" CD "ghana special" (sound way)
+11. christy azuma & uppers international (ghana) "din ya sugri" CD "ghana special" (sound way)
+12. the residents (usa) "credits (haeckel's tale)" CD "ten little piggies" (the cryptic corporation)
+13. the residents (usa) "the horns of haynesville" CD "the ughs!" (the cryptic corporation)
+14. we fell to earth (uk) "lights out" CD "we fell to earth" (in stereo)
+15. we fell to earth (uk) "the double" CD "we fell to earth" (in stereo)
+16. the vampires of dartmore (germany) "die folterkammer des dr.sex" CD "dracula's music cabinet" (finders keepers)
+17. the vampires of dartmore (germany) "petting party 2" CD "dracula's music cabinet" (finders keepers)

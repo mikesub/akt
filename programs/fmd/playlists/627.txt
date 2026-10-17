@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N627_2009.03.29.cue
 date: 2009-03-29
 title: FM Достоевский #627
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («627. #627 29.03.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. gare du nord "are you coming with me?" CD "club gare du nord"
-2. pontiak "shell skull" CD "sun on sun"
-3. anna kashfi "things get said" CD "procurement"
-4. virgis stakenas "kiaulpene" CD "siauliai/balades"
-5. natasja "one spliff a day" CD "shooting star"
-6. icy demons "spywatchers" CD "miami ice"
-7. terne chave "silalo panori" CD "more, love!"
-8. morgan geist "city of smoke and fire" CD "double night time"
-9. omar torrez band "corazon de perro" CD "corazon de perro"
-10. debashish bhattacharya "amrit anand" CD "calcutta chronicles"
-11. the bloody honkies "your skidmark on my mind!?" CD "the gospel of the bloody honkies"
-12. pumajaw "spangler" CD "curiosity box"
-13. blaine l. reininger "moscow calling" CD "elektra/radio moscow: soundtracks"
-14. duchesse says "tenen non neu" CD "anthlogie des 3 pechoirs"
-15. friendly fires "in the hospital" CD "friendly fires"
-16. alla "un pedazo" CD "es tiempo"
+1. gare du nord (belgium/france) "are you coming with me?" CD "club gare du nord" (pias)
+2. pontiak (usa) "shell skull" CD "sun on sun" (fireproof/thrill jockey)
+3. anna kashfi (uk) "things get said" CD "procurement" (little red rabbit)
+4. virgis stakenas (lithuania) "kiaulpene" CD "siauliai/balades" (v.stakenas)
+5. natasja (denmark) "one spliff a day" CD "shooting star" (playground)
+6. icy demons (usa) "spywatchers" CD "miami ice" (obey your brain)
+7. terne chave (czech rep.) "silalo panori" CD "more, love!" (indies scope)
+8. morgan geist (uk) "city of smoke and fire" CD "double night time" (environ)
+9. omar torrez band (usa) "corazon de perro" CD "corazon de perro" (arteria)
+10. debashish bhattacharya (india) "amrit anand" CD "calcutta chronicles" (riverboat)
+11. the bloody honkies (holland) "your skidmark on my mind!?" CD "the gospel of the bloody honkies" (u-sonic)
+12. pumajaw (uk) "spangler" CD "curiosity box" (fire)
+13. blaine l. reininger (usa/greece) "moscow calling" CD "elektra/radio moscow: soundtracks" (ltm)
+14. duchesse says (canada) "tenen non neu" CD "anthlogie des 3 pechoirs" (alien 8)
+15. friendly fires (uk) "in the hospital" CD "friendly fires" (xl)
+16. alla (usa) "un pedazo" CD "es tiempo" (crammed)

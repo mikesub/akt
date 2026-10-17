@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N625_2009.03.15.cue
 date: 2009-03-15
 title: FM Достоевский #625
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («625. #625 15.03.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. amanda palmer "guitar hero" CD "who killed amanda palmer"
-2. monkey "the dragon king" CD "journey to the west"
-3. blue flamingo "oriental nitty gritty" CD "78 rpm"
-4. yo majesty "fucked up" CD "futuristically speaking... never be afraid"
-5. ayoe angelica "dr.jekyll" CD "i'm amazed"
-6. michael santos "returning champion" CD "the happy error"
-7. reverend beat-man "letter to myself" CD "surreal folk blues gospel trash vol.2"
-8. hellsongs "paranoid" CD "hymns in the key of 666"
-9. farmers market "anyone who remembers vladiwoodstock wasn't there!" CD "surfin' ussr"
-10. andre williams & the new orleans hellhounds "if you leave me" CD "can you deal with it?"
-11. rupa & the april fishes "poder" CD "extraordinary rendition"
-12. the drones "the minotaur" CD "havilah"
-13. les faux "moskuv 2007 bastermix" CD "ethnique electrique"
-14. twine "from memory" CD "violets"
-15. think of one "mon verre" CD "camping shaabi"
-16. warsaw village band vs transglobal underground "mateusz" CD "upmixing"
+1. amanda palmer (usa) "guitar hero" CD "who killed amanda palmer" (roadrunner)
+2. monkey (uk/china) "the dragon king" CD "journey to the west" (xl)
+3. blue flamingo (holland) "oriental nitty gritty" CD "78 rpm" (excelsior)
+4. yo majesty (uk) "fucked up" CD "futuristically speaking... never be afraid" (domino)
+5. ayoe angelica (ethiopia/denmark) "dr.jekyll" CD "i'm amazed" (playground)
+6. michael santos (uk) "returning champion" CD "the happy error" (baskaru)
+7. reverend beat-man (switzerland) "letter to myself" CD "surreal folk blues gospel trash vol.2" (voodoo rhythm)
+8. hellsongs (sweden) "paranoid" CD "hymns in the key of 666" (lovely/despotz)
+9. farmers market (norway) "anyone who remembers vladiwoodstock wasn't there!" CD "surfin' ussr" (ipecac)
+10. andre williams & the new orleans hellhounds (usa) "if you leave me" CD "can you deal with it?" (bloodshot)
+11. rupa & the april fishes (usa) "poder" CD "extraordinary rendition" (cumbancha)
+12. the drones (australia) "the minotaur" CD "havilah" (atp/r)
+13. les faux (japan/marocco/germany) "moskuv 2007 bastermix" CD "ethnique electrique" (plane)
+14. twine (usa) "from memory" CD "violets" (ghostly international)
+15. think of one (belgium) "mon verre" CD "camping shaabi" (crammed)
+16. warsaw village band vs transglobal underground (poland/uk) "mateusz" CD "upmixing" (jaro)

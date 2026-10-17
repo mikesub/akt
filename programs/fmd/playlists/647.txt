@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N647_2009.08.16.cue
 date: 2009-08-16
 title: FM Достоевский #647
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («647. #647 16.08.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. jarvis cocker "angela" CD "further complications"
-2. dva "harom kerom" CD "fonok"
-3. the sea turtles "hydraview" CD "the sea turtles"
-4. mala vita "malena" CD "disorganizzata"
-5. hk 119 "celeb" CD "fast, cheap and out of control"
-6. jackie-o motherfucker "the corner" CD "ballads of the revolution"
-7. st.vincent "laughing with a mouth of blood" CD "actor"
-8. malick pathe sow "windu massa" CD "maayo men"
-9. torngat "afternoon moon pie" CD "la petite nicole"
-10. limonada "ojos que miran lejos" CD "limonada"
-11. leila "the exotics" CD "blood, looms and blooms"
-12. sleepy sun "red/black" CD "embrace"
-13. james din a4 "eva auf der wolfschanze" CD "fistel rose power"
-14. antony & the johnsons "everglade" CD "the crying light"
-15. теуникова и композит "дождь" CD "таймер"
-16. bronnt industries kapital "the devil" CD "haxan"
-17. second sex "mon autre cote" CD "petit mort"
+1. jarvis cocker (uk) "angela" CD "further complications" (rough trade)
+2. dva (czech rep.) "harom kerom" CD "fonok" (indies scope)
+3. the sea turtles (usa) "hydraview" CD "the sea turtles" (green chelonia)
+4. mala vita (holland) "malena" CD "disorganizzata" (foreign media)
+5. hk 119 (finland) "celeb" CD "fast, cheap and out of control" (one little indian)
+6. jackie-o motherfucker (usa) "the corner" CD "ballads of the revolution" (fire)
+7. st.vincent (usa) "laughing with a mouth of blood" CD "actor" (4ad)
+8. malick pathe sow (senegal) "windu massa" CD "maayo men" (muziek publique)
+9. torngat (canada) "afternoon moon pie" CD "la petite nicole" (alien8)
+10. limonada (uruguay) "ojos que miran lejos" CD "limonada" (sondor/lion)
+11. leila (uk) "the exotics" CD "blood, looms and blooms" (warp)
+12. sleepy sun (australia) "red/black" CD "embrace" (atp/r)
+13. james din a4 (germany) "eva auf der wolfschanze" CD "fistel rose power" (esel/pingipung)
+14. antony & the johnsons (usa/uk) "everglade" CD "the crying light" (rough trade)
+15. теуникова и композит (рф) "дождь" CD "таймер" (выргород)
+16. bronnt industries kapital (uk) "the devil" CD "haxan" (static caravan)
+17. second sex (france) "mon autre cote" CD "petit mort" (because)

@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N682_2010.04.18.cue
 date: 2010-04-18
 title: FM Достоевский #682
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («682. #682 18.04.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. githead "faster" CD "landing"
-2. circus devils "bad baby blue" CD "gringo"
-3. circus devils "gasoline drinkers" CD "gringo"
-4. grace lee & the stylers "each and every flower" CD "singapore a-go-go"
-5. lim ling & the silvertones "oh no!" CD "singapore a-go-go"
-6. rodrigo y gabriela "buster voodoo" CD "11 : 11"
-7. yeti lane "lonesome george" CD "yeti lane"
-8. sevda "almani atdim xarala" CD "sevdali dunya"
-9. misophone "turning hay in the fields" CD "where has it gone, all the beautiful music of our grandparents? it died with them, that's where it went"
-10. misophone "petroleum lampa" CD "where has it gone?...(etc)"
-11. the android sisters "invasion" CD "the best of the android sisters"
-12. confident "two swans" CD "note lithuania 2009"
-13. karen o and the kids "animal" CD "where the wild things are"
-14. tom mccrae "won't lie" CD "the alphabet of hurricanes"
-15. valravn "kelling" CD "koder pa snor"
-16. dessa "kites" CD "false hopes"
-17. magnifico "evo me narode" CD "balkan beats: a night in berlin"
+1. githead (uk) "faster" CD "landing" (swim)
+2. circus devils (usa) "bad baby blue" CD "gringo" (happy jack)
+3. circus devils (usa) "gasoline drinkers" CD "gringo" (happy jack)
+4. grace lee & the stylers (singapore) "each and every flower" CD "singapore a-go-go" (sublime frequencies)
+5. lim ling & the silvertones (singapore) "oh no!" CD "singapore a-go-go" (sublime frequencies)
+6. rodrigo y gabriela (mexico) "buster voodoo" CD "11 : 11" (rubyworks/pias)
+7. yeti lane (france) "lonesome george" CD "yeti lane" (sonic cathedral)
+8. sevda (azerbaijan) "almani atdim xarala" CD "sevdali dunya" (network)
+9. misophone (uk) "turning hay in the fields" CD "where has it gone, all the beautiful music of our grandparents? it died with them, that's where it went" (kning disk)
+10. misophone (uk) "petroleum lampa" CD "where has it gone?...(etc)" (kning disk)
+11. the android sisters (usa) "invasion" CD "the best of the android sisters" (vanguard/em)
+12. confident (lithuania) "two swans" CD "note lithuania 2009" (music export lithuania)
+13. karen o and the kids (usa) "animal" CD "where the wild things are" (dgc)
+14. tom mccrae (uk) "won't lie" CD "the alphabet of hurricanes" (cooking vinyl)
+15. valravn (denmark) "kelling" CD "koder pa snor" (tutl/westpark)
+16. dessa (usa) "kites" CD "false hopes" (doomtree)
+17. magnifico (slovenia) "evo me narode" CD "balkan beats: a night in berlin" (piranha)

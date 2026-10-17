@@ -3,8 +3,8 @@
 Notes for whoever picks this up. The sources are gathered in `programs/fmd/sources/` and mapped below.
 `node bin/fmd-playlists.js` rebuilds every `programs/fmd/playlists/<number>.txt` from them (offline,
 deterministic; it deletes and rewrites the whole folder), plus `programs/fmd/CROSSCHECK.md` (how the
-sources agree where they overlap) and `programs/fmd/MISSING.md` (what no source has): 775 playlist
-files, 45 episodes missing, one possibly incomplete (#701). `node bin/playlists.js fmd` parses
+sources agree where they overlap) and `programs/fmd/MISSING.md` (what no source has): 778 playlist
+files, 42 episodes missing, one possibly incomplete (#701). `node bin/playlists.js fmd` parses
 them into `docs/data/fmd.json`, like every other program's.
 
 ## Playlist files
@@ -19,7 +19,7 @@ sources disagree on, an entry without a title another source has. From each epis
 | Finam pages (one from #802's print page) | 87 | #702–#820 but the 32 with no list captured; №1–№12 agree with the 2010 RSS |
 | fmd.soyuz.ru | 329 | #289–#619 but #317, #375 |
 | radar.lv posts | 123 | within #129–#288 |
-| CUE sheets | 78 | #620–#701 but #623, #624, #633, #666 |
+| mp3 tags | 81 | #620–#701 but #666 (#623, #624, #633 found nowhere else) |
 | the XLS | 158 | #1–#128, and 30 within #131–#375 that nothing else has |
 
 Decided by hand (in the script, with why): radar.lv's post and CUE sheet titled #148 (8 Dec 1999)
@@ -38,7 +38,7 @@ listed №119 as the newest in Feb 2014: #820 is the last episode.
 ## Sources (`programs/fmd/sources/`)
 
 Trust, highest first: finam.fm and fmd.soyuz.ru pages (the program's own sites, original
-spelling) > radar.lv's episode posts > radar.lv's CUE sheets > the XLS. The XLS is used only where
+spelling) > radar.lv's episode posts > the mp3 tags > radar.lv's CUE sheets > the XLS. The XLS is used only where
 nothing else has an episode. What the cross-check found (`programs/fmd/CROSSCHECK.md`): the XLS has the same
 songs in the same order as fmd.soyuz.ru in 202 of 209 episodes, and the same titles; its Russian
 names and titles are in Latin letters mostly before about #100, where nothing else can check it.
@@ -78,10 +78,28 @@ names and titles are in Latin letters mostly before about #100, where nothing el
   order: the sheets never reorder). **A sheet follows the recording, not the plan**: of the 123
   sheets from #484 on that a playlist covers, 29 lack the playlist's last song and a few a middle
   one, and radar.lv's P.S. on #152 and #171 (a song replaced, a song cut) match the sheets, not the
-  playlists. So a CUE-only episode (#620–#701) may lack a last song that was planned; its note says
-  so. Several episodes have more than one sheet (`_0`, `_1`…): duplicates, or timings only. #703's two sheets hold timings only, no names (Finam's RSS has the episode).
+  playlists. So a CUE-only episode (#620–#701) could lack a last song that was planned, until the mp3
+  tags gave the full lists. Several episodes have more than one sheet (`_0`, `_1`…): duplicates, or timings only. #703's two sheets hold timings only, no names (Finam's RSS has the episode).
   #701's covers the whole hour but has 5 songs and long talk: the last show before Finam, maybe
-  a farewell; the owner may check by ear. The recordings themselves are not used.
+  a farewell; the owner may check by ear. The recordings themselves are not used. Since the mp3 tags
+  (below) came in, no playlist is taken from a CUE sheet: they cross-check.
+- `mp3-tags/tags.json`: the playlists in a fans' collection of the program's mp3s (2026-10-17): 494
+  episodes, #129–#707, each in its file's ID3 comment. Saved as number → the file's name, title, track and
+  comment (the tracklist, as the file has it, with `\r\n`); the files' other tags (encoder and the like)
+  are not kept, and two labels given as e-mail addresses (#474, #584) are left out. A line reads
+  «1 \tArtist (Country) "Song" CD "Album" (Label)», the early years' with the host's note after a comma,
+  «…(Label), (Note)», left out as elsewhere. They are radar.lv's playlist database again, as its posts
+  and the XLS have it (Title Case with the notes to about #353, lower case later), but with every song's
+  country and label, which the CUE sheets lack: for #620–#701, the CUE-only stretch, they have the sheets'
+  songs in the same order, and in 12 episodes the song or two a sheet misses (13 songs: #621, #634, #638,
+  #642, #643, #663, #674, #678, #679, #681, #683, #690).
+  Ranked between radar.lv's posts and the CUE sheets. **The names slip**: the leading number is the
+  episode's, not the title's «#…» («209. #206 07.03.2001.mp3» is #209; «441. #414 03.08.2005» is #441), and
+  a few dates are off («#417 19.03.2006» for 2005, «#596 24.08.2008», #683 a day later than the CUE sheet),
+  so their date is used only where no other source dates the episode (#623, #624, #633). #606's comment holds
+  another list than fmd.soyuz.ru's (17 songs, none in common but one): the CROSSCHECK notes it, the site's is
+  kept. Such a source has no page: an episode taken from it keeps its link to another source's
+  (the CUE sheet's).
 - `fmd.soyuz.ru/`: the program's old site, captured by the Wayback Machine: 331 pages
   `/?s=_ARCHIVE&id_playlist=<id>`, saved as `<id>.html` (raw bytes, re-fetched 2026-10-14) with
   `index.json` mapping each id to its episode. **The id is not the episode number.** They cover
@@ -116,12 +134,12 @@ names and titles are in Latin letters mostly before about #100, where nothing el
 
 ## Coverage
 
-775 of the 820 episodes have a playlist in at least one source. Best source per stretch, then the rest for cross-checking:
+778 of the 820 episodes have a playlist in at least one source. Best source per stretch, then the rest for cross-checking:
 
 | Episodes | Have | Missing |
 |---|---|---|
 | #1–#128 (1997 – 1999) | XLS only | – |
 | #129–#288 (1999 – Oct 2002) | radar.lv posts and CUE sheets (original spelling), XLS | #187, #190–#195, #288 |
 | #289–#619 (Oct 2002 – 01.02.2009) | fmd.soyuz.ru; radar.lv and CUE sheets in parts; XLS to #499 | #317 |
-| #620–#701 (Feb 2009 – Sep 2010) | CUE sheets only | #623, #624, #633, #666 |
+| #620–#701 (Feb 2009 – Sep 2010) | mp3 tags (with countries and labels), CUE sheets | #666 |
 | #702–#820 (Finam №1–№119) | Finam pages (`finam.fm/found.json` maps № to page id), the 2010 RSS; CUE sheets to #707 | never captured: #715–#720, #723 (the program page's 2011 sidebar names them, but no page was kept), #753, #754, #764, #767, #769–#771, #778, #781, #790–#794, #796, #798, #800, #801, #803, #804, #806, #807, #809, #810; #795's only capture is broken, no list (checked by the owner); #802's page is broken too, but its print version, `6765-print.html`, has the list (16 entries); #780's list has no «PLAYLIST» line at all (checked: 15 entries) |

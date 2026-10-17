@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N687_23.05.2010.cue
 date: 2010-05-23
 title: FM Достоевский #687
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («687. #687 23.05.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. tindersticks "she rode me down" CD "falling down the mountain"
-2. mahala rai banda "ding deng dong" CD "ghetto blasters"
-3. 39 clocks "psycho beat" CD "zoned... recordings 1987-1980 rewind"
-4. ukulele club de paris "java javanaise" CD "manuia!"
-5. ukulele club de paris "hong kong blues" CD "manuia!"
-6. annie "songs remind me of you" CD "don't stop"
-7. patrick cleandenim "kandi's door" CD "orange moonbeam floor show"
-8. the son of p.m. "cho cho chan" CD "shadow music of thailand"
-9. willard grant conspiracy "ghost of the girl in the well" CD "paper covers stone"
-10. katsen "chequered flag" CD "it hertz!"
-11. local natives "warning sign" CD "gorilla manor"
-12. blind cave salamander "used to be last" CD "troglobite"
-13. adler "styx & stones" CD "filmed in audio"
-14. witnesz "umwe" CD "khaya khaya"
-15. john zorn "mala suerte" CD "filmworks XXIII: el general"
-16. px band "зайди в дом" CD "manka people"
-17. the deadbeats "breathe" CD "made in the shade"
+1. tindersticks (uk) "she rode me down" CD "falling down the mountain" (4ad)
+2. mahala rai banda (romania) "ding deng dong" CD "ghetto blasters" (asphalt tango)
+3. 39 clocks (germany) "psycho beat" CD "zoned... recordings 1987-1980 rewind" (de stijl)
+4. ukulele club de paris (france) "java javanaise" CD "manuia!" (fremeaux & associes)
+5. ukulele club de paris (france) "hong kong blues" CD "manuia!" (fremeaux & associes)
+6. annie (norway) "songs remind me of you" CD "don't stop" (totally/smalltown supersound)
+7. patrick cleandenim (usa) "kandi's door" CD "orange moonbeam floor show" (broken horses)
+8. the son of p.m. (thailand) "cho cho chan" CD "shadow music of thailand" (sublime frequencies)
+9. willard grant conspiracy (usa) "ghost of the girl in the well" CD "paper covers stone" (loose)
+10. katsen (uk) "chequered flag" CD "it hertz!" (shelflife)
+11. local natives (usa) "warning sign" CD "gorilla manor" (infectious)
+12. blind cave salamander (italy) "used to be last" CD "troglobite" (shayo)
+13. adler (russia) "styx & stones" CD "filmed in audio" (adler)
+14. witnesz (tanzania) "umwe" CD "khaya khaya" (mimeta)
+15. john zorn (usa) "mala suerte" CD "filmworks XXIII: el general" (tzadik)
+16. px band (estonia) "зайди в дом" CD "manka people" (sex)
+17. the deadbeats (uk/spain) "breathe" CD "made in the shade" (wax on)

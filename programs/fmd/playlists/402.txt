@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20050221202812/http://www.fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=138
 date: 2004-12-04
 title: FM Достоевский #402
-note: From fmd.soyuz.ru, the program's site (Wayback capture).
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: the mp3's tags: 16 entries in fmd.soyuz.ru vs 17 in the mp3's tags; only in the mp3's tags: «old dirty perverts».
 
 1. clinic (uk) "august" CD "winchester cathedral" (domino)
 2. ez3kiel (france) "3, rue monglaiser" CD "barbary" (jarring effects)

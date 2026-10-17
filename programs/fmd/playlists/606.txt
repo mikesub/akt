@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20090210035626/http://fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=353
 date: 2008-11-02
 title: FM Достоевский #606
-note: From fmd.soyuz.ru, the program's site (Wayback capture).
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: the mp3's tags: 17 entries in both; only in fmd.soyuz.ru: «adam green», «the duke spirit», «haydamaky» and 14 more; only in the mp3's tags: «boozoo bajou feat.tony joe white», «gutevolk», «arctic monkeys» and 14 more.
 
 1. adam green (usa) "you get so lucky" CD "sixes & sevens" (rough trade)
 2. the duke spirit (uk) "lassoo" CD "neptune" (shangri-la)

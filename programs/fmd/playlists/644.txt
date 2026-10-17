@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N644_2009.07.26.cue
 date: 2009-07-26
 title: FM Достоевский #644
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («644. #644 26.07.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. iggy pop "i want to go to the beach" CD "preliminaires"
-2. coconami "taiyo ni koishita" CD "coconami"
-3. somadrone "cover of night" CD "of pattern and purpose"
-4. la banda del pepo "dime" CD "tanto por hacer"
-5. drugstore "tourniquet" CD "the drugstore collector number one"
-6. cut /// copy "lights and music" CD "in ghost colours"
-7. battant "mark twain" CD "no head"
-8. the horrors "new ice age" CD "primary colours"
-9. jill tracy & the malcontent orchestra "torture" CD "the bittersweet constrain"
-10. kuljit bhamra "oh kuri" CD "bhangra latina"
-11. the nightrats "alligator man" CD "the nightrats"
-12. theodor bastard "вода (от холода до тепла)" CD "белое: ловля злых зверей"
-13. gary wilson "come on mary" CD "lisa wants to talk to you"
-14. skaidi "taxi driver" CD "where the rivers meet"
-15. monster zoku onsomb! "team siouxsie" CD "earth eaters"
-16. sezen aksu "oh oh" CD "turkish cafe"
+1. iggy pop (usa) "i want to go to the beach" CD "preliminaires" (virgin)
+2. coconami (japan/germany) "taiyo ni koishita" CD "coconami" (trikont)
+3. somadrone (ireland) "cover of night" CD "of pattern and purpose" (trust me i'm a thief)
+4. la banda del pepo (spain) "dime" CD "tanto por hacer" (nu folk)
+5. drugstore (uk) "tourniquet" CD "the drugstore collector number one" (global warming)
+6. cut /// copy (australia) "lights and music" CD "in ghost colours" (modular)
+7. battant (france) "mark twain" CD "no head" (kill the dj)
+8. the horrors (uk) "new ice age" CD "primary colours" (xl)
+9. jill tracy & the malcontent orchestra (usa) "torture" CD "the bittersweet constrain" (125)
+10. kuljit bhamra (india/uk) "oh kuri" CD "bhangra latina" (keda)
+11. the nightrats (usa) "alligator man" CD "the nightrats" (mischief's nest)
+12. theodor bastard (рф) "вода (от холода до тепла)" CD "белое: ловля злых зверей" (q code)
+13. gary wilson (usa) "come on mary" CD "lisa wants to talk to you" (human ear)
+14. skaidi (norway) "taxi driver" CD "where the rivers meet" (dat)
+15. monster zoku onsomb! (australia) "team siouxsie" CD "earth eaters" (acid samovar/solnze)
+16. sezen aksu (turkey) "oh oh" CD "turkish cafe" (wmn)

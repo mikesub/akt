@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N630_2009.04.19.cue
 date: 2009-04-19
 title: FM Достоевский #630
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («630. #630 19.04.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. de kift "alleenstaande" CD "hoofdkaas"
-2. de kift "heisa-ho" CD "hoofdkaas"
-3. lygia campos "fe" CD "meu nome e brasil"
-4. clutchy hopkins "song for wolfie" CD "walking backwards"
-5. everlast "stone in my hand" CD "love, war and the ghost of whitey ford"
-6. eleanoora rosenholm "vladimir grutsov" CD "ala kysy kuolleilta, he sanoivat"
-7. oblivians with mr.quintron "final stretch" CD "play 9 songs"
-8. martin rev "black ice" CD "to live"
-9. hanggai "flowers" CD "introducing"
-10. emiliana torrini "heard it all before" CD "me and armini"
-11. candie hank "schurkenlounge" CD "groucho running"
-12. arbol "siento" CD "arbol"
-13. jolie holland "fox in its' hole" CD "the living and the dead"
-14. threatmantics "buried alive" CD "upbeat love"
-15. dark little rooms "beauty queen" CD "foolish beauty"
-16. georg breinschmid "florentiner marsch" CD "wien bleibt krk"
+1. de kift (holland) "alleenstaande" CD "hoofdkaas" (v2)
+2. de kift (holland) "heisa-ho" CD "hoofdkaas" (v2)
+3. lygia campos (brazil) "fe" CD "meu nome e brasil" (galileo)
+4. clutchy hopkins (usa) "song for wolfie" CD "walking backwards" (ubiquity)
+5. everlast (usa) "stone in my hand" CD "love, war and the ghost of whitey ford" (pias)
+6. eleanoora rosenholm (finland) "vladimir grutsov" CD "ala kysy kuolleilta, he sanoivat" (fonal)
+7. oblivians with mr.quintron (usa) "final stretch" CD "play 9 songs" (crypt)
+8. martin rev (usa) "black ice" CD "to live" (file 13)
+9. hanggai (china) "flowers" CD "introducing" (wmn)
+10. emiliana torrini (iceland) "heard it all before" CD "me and armini" (rough trade)
+11. candie hank (germany) "schurkenlounge" CD "groucho running" (sonig)
+12. arbol (argentina) "siento" CD "arbol" (surco)
+13. jolie holland (usa) "fox in its' hole" CD "the living and the dead" (anti-)
+14. threatmantics (uk) "buried alive" CD "upbeat love" (double six/domino)
+15. dark little rooms (usa) "beauty queen" CD "foolish beauty" (blind sea)
+16. georg breinschmid (austria) "florentiner marsch" CD "wien bleibt krk" (zapp music)

@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N645_2009.08.02.cue
 date: 2009-08-02
 title: FM Достоевский #645
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («645. #645 02.08.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. instant flight "vanishing" CD "endless journey"
-2. portmaneau "fat cat" CD "akja"
-3. melody gardot "your heart is as black as night" CD "my one and only thrill"
-4. sons of noel & adrian "violent violet" CD "sons of noel & adrian"
-5. the guilty hearts "devil's tail" CD "pearls before swine"
-6. sarakina "prelude in e minor" CD "frederykata"
-7. malajube "333" CD "labyrinthes"
-8. almasala "guajiro" CD "ahora"
-9. кассиопея "мою любовь могилой не испортишь" CD "кассиопея"
-10. blevin blectum "cygnet" CD "gular flutter"
-11. blue roses "doubtful comforts" CD "blue roses"
-12. 7 dollar taxi "mr. jukebox" CD "come and figure it out"
-13. rokia traore "djanfa" CD "tchamantche"
-14. dex romweber duo "lonesome train" CD "ruins of berlin"
-15. maximo park "roller disco dreams" CD "quicken the heart"
-16. m.kawahara & the exotic sounds "taboo" CD "ecstasy"
+1. instant flight (europe) "vanishing" CD "endless journey" (headspin/clearspot)
+2. portmaneau (germany) "fat cat" CD "akja" (biegen&brecken)
+3. melody gardot (usa) "your heart is as black as night" CD "my one and only thrill" (verve)
+4. sons of noel & adrian (uk) "violent violet" CD "sons of noel & adrian" (shelsmusic)
+5. the guilty hearts (usa) "devil's tail" CD "pearls before swine" (voodoo rhythm)
+6. sarakina (poland) "prelude in e minor" CD "frederykata" (amadeus)
+7. malajube (canada) "333" CD "labyrinthes" (dtc)
+8. almasala (spain) "guajiro" CD "ahora" (ventilador)
+9. кассиопея (беларусь) "мою любовь могилой не испортишь" CD "кассиопея" (снегири)
+10. blevin blectum (usa) "cygnet" CD "gular flutter" (aagoo)
+11. blue roses (uk) "doubtful comforts" CD "blue roses" (xl)
+12. 7 dollar taxi (switzerland) "mr. jukebox" CD "come and figure it out" (kurofune)
+13. rokia traore (mali) "djanfa" CD "tchamantche" (universal)
+14. dex romweber duo (usa) "lonesome train" CD "ruins of berlin" (bloodshot)
+15. maximo park (uk) "roller disco dreams" CD "quicken the heart" (warp)
+16. m.kawahara & the exotic sounds (japan) "taboo" CD "ecstasy" (tiliqua)

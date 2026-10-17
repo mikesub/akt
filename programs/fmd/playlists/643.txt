@@ -1,21 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N643_2009.07.19.cue
 date: 2009-07-19
 title: FM Достоевский #643
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («643. #643 19.07.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json). Another source differs: the CUE sheet of radar.lv's recording lacks «alamaailman vasarat» (not aired, or the recording is cut short).
 
-1. flipron "tropical disease" CD "gravity calling"
-2. ramona rey "skarb" CD "2"
-3. 3 ma "rania" CD "rajery, battake cissoko, driss el malouni"
-4. walter sickert & the army of broken toys "no room" CD "casualty menagerie"
-5. manekinekod "speedlight" CD "4 women no cry vol.3"
-6. liz christine "dreaming" CD "4 women no cry vol.3"
-7. 1990s "kickstrasse" CD "kicks"
-8. orquesta pinha "la carrelilla" CD "jabali"
-9. rekevin "you are my destiny" CD "nulukatuk"
-10. portugal.the man "never pleased" CD "censored colors"
-11. mec yek "lole kamashli" CD "aktikrisis"
-12. duoud "johnny guitar" CD "ping kong"
-13. sleeps in oysters "no time like the spiders, part II" CD "we kept the memories locked away in matchboxes like the beetles of our childhood"
-14. rot front "berlin-barcelona" CD "emigrantski raggamuffin"
-15. neko case "polar nettles" CD "middle cyclone"
-16. leonard cohen "suzanne" CD "live in london"
+1. flipron (uk) "tropical disease" CD "gravity calling" (tiny dog)
+2. ramona rey (poland) "skarb" CD "2" (arana)
+3. 3 ma (madagaskar/mali/marocco) "rania" CD "rajery, battake cissoko, driss el malouni" (contre jour)
+4. walter sickert & the army of broken toys (usa) "no room" CD "casualty menagerie" (army of toys)
+5. manekinekod (greece) "speedlight" CD "4 women no cry vol.3" (monika)
+6. liz christine (brazil) "dreaming" CD "4 women no cry vol.3" (monika)
+7. 1990s (uk) "kickstrasse" CD "kicks" (rough trade)
+8. orquesta pinha (spain) "la carrelilla" CD "jabali" (deposito legal)
+9. rekevin (russia) "you are my destiny" CD "nulukatuk" (rekevin)
+10. portugal.the man (usa) "never pleased" CD "censored colors" (equal vision)
+11. mec yek (belgium) "lole kamashli" CD "aktikrisis" (choux de bruxelles)
+12. duoud (france) "johnny guitar" CD "ping kong" (world village/harmonia mundi)
+13. sleeps in oysters (uk) "no time like the spiders, part II" CD "we kept the memories locked away in matchboxes like the beetles of our childhood" (seed)
+14. rot front (germany/russia/hungary) "berlin-barcelona" CD "emigrantski raggamuffin" (essay)
+15. neko case (usa) "polar nettles" CD "middle cyclone" (anti-)
+16. leonard cohen (canada) "suzanne" CD "live in london" (sony music)
+17. alamaailman vasarat (finland) "meressa ei asuta" CD "huuro kolkko" (laskeuma)

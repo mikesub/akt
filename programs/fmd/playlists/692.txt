@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N692_27.06.2010.cue
 date: 2010-06-27
 title: FM Достоевский #692
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («692. #692 27.06.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. black francis "rabbits" CD "nonstoperotik"
-2. honey b & t-bones "alien blues" CD "alien blues"
-3. owen pallett "flare gun" CD "heartland"
-4. vanessa da mata "bau" CD "ao vivo"
-5. francois & the atlas mountains "be water (je suis de l'eau)" CD "plaine inondable"
-6. marta kubisova "na co te mam" CD "ne! the soul of marta kubisova"
-7. marta kubisova "jakobi nic" CD "ne! the soul of marta kubisova"
-8. bau "raquel" CD "cafe musique"
-9. the mayfair set "three for me" CD "young one"
-10. the mayfair set "let it melt" CD "young one"
-11. mahsa vahdat & mighty sam mccain "meditation over a photo" CD "scent of reunion"
-12. wooden veil "shiverings" CD "wooden veil"
-13. the pony collaboration "until it's gone" CD "if these are the good times"
-14. more money "hate" CD "tricky"
-15. the big eyes family players "the great pin dance" CD "warm room"
-16. binder und krieglstein "i hob di gern" CD "new weird austria"
-17. binder und krieglstein "bist du glucklich" CD "new weird austria"
+1. black francis (usa) "rabbits" CD "nonstoperotik" (cooking vinyl)
+2. honey b & t-bones (finland) "alien blues" CD "alien blues" (fanfaari/sound of finland)
+3. owen pallett (canada) "flare gun" CD "heartland" (domino)
+4. vanessa da mata (brazil) "bau" CD "ao vivo" (multishow/discograph)
+5. francois & the atlas mountains (france) "be water (je suis de l'eau)" CD "plaine inondable" (talitres)
+6. marta kubisova (cssr) "na co te mam" CD "ne! the soul of marta kubisova" (vampi soul)
+7. marta kubisova (cssr) "jakobi nic" CD "ne! the soul of marta kubisova" (vampi soul)
+8. bau (cabo verde) "raquel" CD "cafe musique" (lusafrica)
+9. the mayfair set (uk) "three for me" CD "young one" (captured tracks/woodsist)
+10. the mayfair set (uk) "let it melt" CD "young one" (captured tracks/woodsist)
+11. mahsa vahdat & mighty sam mccain (iran/usa) "meditation over a photo" CD "scent of reunion" (kkv)
+12. wooden veil (germany/japan) "shiverings" CD "wooden veil" (dekorder)
+13. the pony collaboration (uk) "until it's gone" CD "if these are the good times" (series 8)
+14. more money (russia) "hate" CD "tricky" (sreda/soyuz)
+15. the big eyes family players (uk) "the great pin dance" CD "warm room" (pickled egg)
+16. binder und krieglstein (austria) "i hob di gern" CD "new weird austria" (essay)
+17. binder und krieglstein (austria) "bist du glucklich" CD "new weird austria" (essay)

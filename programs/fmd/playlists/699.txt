@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N699_15.08.2010.cue
 date: 2010-08-15
 title: FM Достоевский #699
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («699. #699 15.08.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. мегаполис "мария египетская" CD "супертанго"
-2. the unthanks "flowers of the town" CD "here's the tender coming"
-3. amanaz "history of man" CD "africa"
-4. fursaxa "sunhead bowed" CD "mycorrhyzae realm"
-5. the king khan & bbq show "tastebuds" CD "invisible girls"
-6. ivor slaney "terror - main title" CD "terror/prey"
-7. c.gibbs "duplicate machines" CD "parade of small horses"
-8. ida kelarova & desiderius duzda jazz famelija "duj dzenora" CD "aven bachtale!"
-9. sivert hoyem "high society" CD "moon landing"
-10. brigitte angerhausen "(laugh) until we cry" CD "beyond the border"
-11. achanak "dushman da badla" CD "20 years of bhangra"
-12. ortolan "once" CD "time on a string"
-13. beto brito "papagaio imbolador" CD "imbole"
-14. laura gibson & ethan rose "old writers" CD "bridge carols"
-15. the fallen leaves "the international brigade" CD "that's right"
-16. mattanza "nebbia a la valle" CD "il meglio dei mattanza"
+1. мегаполис (рф) "мария египетская" CD "супертанго" (зенит)
+2. the unthanks (uk) "flowers of the town" CD "here's the tender coming" (rough trade)
+3. amanaz (zambia) "history of man" CD "africa" (qdk)
+4. fursaxa (usa) "sunhead bowed" CD "mycorrhyzae realm" (atp/r)
+5. the king khan & bbq show (canada) "tastebuds" CD "invisible girls" (in the red)
+6. ivor slaney (uk) "terror - main title" CD "terror/prey" (moscovitch)
+7. c.gibbs (usa) "duplicate machines" CD "parade of small horses" (eastern square/rubric)
+8. ida kelarova & desiderius duzda jazz famelija (czech rep.) "duj dzenora" CD "aven bachtale!" (indies scope)
+9. sivert hoyem (norway) "high society" CD "moon landing" (hektor grammofon)
+10. brigitte angerhausen (germany) "(laugh) until we cry" CD "beyond the border" (westpark)
+11. achanak (uk/india) "dushman da badla" CD "20 years of bhangra" (nachural)
+12. ortolan (usa) "once" CD "time on a string" (sounds familyre)
+13. beto brito (brazil) "papagaio imbolador" CD "imbole" (humanita)
+14. laura gibson & ethan rose (usa) "old writers" CD "bridge carols" (baskaru)
+15. the fallen leaves (uk) "the international brigade" CD "that's right" (parliament)
+16. mattanza (italy) "nebbia a la valle" CD "il meglio dei mattanza" (iwm)

@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20050417020035/http://www.fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=151
 date: 2005-02-26
 title: FM Достоевский #414
-note: From fmd.soyuz.ru, the program's site (Wayback capture).
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: the mp3's tags: 16 entries in fmd.soyuz.ru vs 17 in the mp3's tags; only in the mp3's tags: «idiots».
 
 1. piney gir (uk) "girl" CD "peakahokahoo" (truck)
 2. secret chiefs 3 (usa) "book t: exodus" CD "book of horizons" (web of mimicry)

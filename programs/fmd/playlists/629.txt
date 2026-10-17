@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N629_2009.04.12.cue
 date: 2009-04-12
 title: FM Достоевский #629
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («629. #629 12.04.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. franz ferdinand "send him away" CD "tonight: franz ferdinand"
-2. high places "the storm" CD "high places"
-3. air france "maundy thursday" CD "no way down"
-4. akendengue "tanguna gakumuna" CD "verite d'afrique"
-5. rose kemp "dirty glow" CD "unholy majesty"
-6. lama sonam dorje & anton batagov "refuge" CD "daily practice"
-7. lila downs "perro negro" CD "shake away"
-8. the sg sound "sirens of venus" CD "the pleasure center"
-9. the blue van "put my name in the sand" CD "man up"
-10. fussel "frosch" CD "planet egmond"
-11. sir red mouth "never been no schoolboy" CD "sir red mouth"
-12. sleepingdog "little one" CD "polar life"
-13. the voodoo organist "what have i become?" CD "this burning hell"
-14. spyweirdos "cellar" CD "wetsound orchestra"
-15. acquaragia drom "24.000 baci" CD "rom kaffe"
-16. gore gore girls "where evil grows" CD "get the gore"
-17. piniartut "malugaara illuru" CD "piniartut"
+1. franz ferdinand (uk) "send him away" CD "tonight: franz ferdinand" (domino)
+2. high places (usa) "the storm" CD "high places" (thrill jockey)
+3. air france (sweden) "maundy thursday" CD "no way down" (sincerely yours)
+4. akendengue (gabon) "tanguna gakumuna" CD "verite d'afrique" (lusafrika)
+5. rose kemp (uk) "dirty glow" CD "unholy majesty" (one little indian)
+6. lama sonam dorje & anton batagov (russia/tibet) "refuge" CD "daily practice" (tummo)
+7. lila downs (mexico/usa) "perro negro" CD "shake away" (manhattan)
+8. the sg sound (usa) "sirens of venus" CD "the pleasure center" (stephen greaves)
+9. the blue van (denmark) "put my name in the sand" CD "man up" (iceberg)
+10. fussel (germany) "frosch" CD "planet egmond" (zoik)
+11. sir red mouth (usa) "never been no schoolboy" CD "sir red mouth" (eric gebhardt)
+12. sleepingdog (belgium) "little one" CD "polar life" (zeal)
+13. the voodoo organist (usa) "what have i become?" CD "this burning hell" (voodoo man music)
+14. spyweirdos (greece) "cellar" CD "wetsound orchestra" (poeta negra)
+15. acquaragia drom (italy) "24.000 baci" CD "rom kaffe" (finisterre)
+16. gore gore girls (usa) "where evil grows" CD "get the gore" (bloodshot)
+17. piniartut (greenland) "malugaara illuru" CD "piniartut" (tutl)

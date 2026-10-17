@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N662_2009.11.29.cue
 date: 2009-11-29
 title: FM Достоевский #662
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («662. #662 29.11.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. shantel "bucovina original" CD "planet paprika"
-2. yello "out of dawn" CD "touch"
-3. dear reader "dearheart" CD "replace why with funny"
-4. orkiestra sw.mikolaja "pachole" CD "nowa muzyka"
-5. kim hiorthoy "i thought we could eat friends" CD "my last day"
-6. regina spektor "one more time with feeling" CD "far"
-7. othon feat. marc almond "the tango song" CD "digital angel"
-8. mawaca "mawaca" CD "rupestres sonoros"
-9. mawaca "ciranda indiana" CD "rupestres sonoros"
-10. willem maker "rain on a shinin'" CD "new moon hand"
-11. duo topolino "swiodeschka" CD "swiodeschka"
-12. ларик сурапов "дети индиго" CD "будь добрым!"
-13. the bird & the bee "diamond dave" CD "ray guns are not just the future"
-14. the flowers of hell "opus 66" CD "come hell or high water"
-15. tummel "this ship is sinking" CD "payback time"
-16. holly throsby "one of you for me" CD "a loud call"
-17. afel bocoum "ali farka" CD "the rough guide to the music of mali"
+1. shantel (germany) "bucovina original" CD "planet paprika" (essay/crammed)
+2. yello (switzerland) "out of dawn" CD "touch" (polydor)
+3. dear reader (uk) "dearheart" CD "replace why with funny" (city slang)
+4. orkiestra sw.mikolaja (poland) "pachole" CD "nowa muzyka" (ferment)
+5. kim hiorthoy (norway) "i thought we could eat friends" CD "my last day" (smalltown supersound)
+6. regina spektor (usa) "one more time with feeling" CD "far" (sire)
+7. othon feat. marc almond (uk/greece) "the tango song" CD "digital angel" (durtro juana)
+8. mawaca (brazil) "mawaca" CD "rupestres sonoros" (ethos music)
+9. mawaca (brazil) "ciranda indiana" CD "rupestres sonoros" (ethos music)
+10. willem maker (usa) "rain on a shinin'" CD "new moon hand" (big legal mess)
+11. duo topolino (germany) "swiodeschka" CD "swiodeschka" (westpark)
+12. ларик сурапов (рф) "дети индиго" CD "будь добрым!" (tme/toy piano)
+13. the bird & the bee (usa) "diamond dave" CD "ray guns are not just the future" (blue note)
+14. the flowers of hell (usa/uk) "opus 66" CD "come hell or high water" (benbecula)
+15. tummel (sweden/denmark) "this ship is sinking" CD "payback time" (tummel)
+16. holly throsby (australia) "one of you for me" CD "a loud call" (spunk)
+17. afel bocoum (mali) "ali farka" CD "the rough guide to the music of mali" (wmn)

@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N656_2009.10.18.cue
 date: 2009-10-18
 title: FM Достоевский #656
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («656. #656 18.10.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. god help the girl "musician, please take heed" CD "god help the girl"
-2. omfo "tipsy djinn" CD "omnipresence"
-3. даха браха "дивка-марусечка" CD "на межи"
-4. casiotone for the painfully alone "natural light" CD "vs. children"
-5. johann johannsson "melodia (I)" CD "fordlandia"
-6. tiny masters of today "understandable honesty" CD "skeletons"
-7. jarabe de palo "el lado oscuro" CD "orquesta reciclando"
-8. jonathan kane "up in flames" CD "jet ear party"
-9. jonathan kane "smear it" CD "jet ear party"
-10. napoleon IIIrd "the conformist takes it all" CD "in debt to..."
-11. иной креатив "сон оборва..." CD "иной креатив"
-12. mimmo epifani "l'ha voluto tu" CD "zucchini flowers"
-13. jean-pierre massiera/les maledictus sound "kriminal theme" CD "midnight massiera"
-14. jean-pierre massiera/hermans rocket "space woman" CD "midnight massiera"
-15. au "the waltz" CD "verbs"
-16. ti-coca & wanga-neges "simbo dlo" CD "haiti colibri"
-17. lydia lunch "knives in the drain" CD "queen of siam"
+1. god help the girl (uk) "musician, please take heed" CD "god help the girl" (rough trade)
+2. omfo (germany/russia) "tipsy djinn" CD "omnipresence" (essay)
+3. даха браха (украина) "дивка-марусечка" CD "на межи" (дах)
+4. casiotone for the painfully alone (usa) "natural light" CD "vs. children" (tomlab)
+5. johann johannsson (iceland) "melodia (I)" CD "fordlandia" (4ad)
+6. tiny masters of today (usa) "understandable honesty" CD "skeletons" (mute)
+7. jarabe de palo (spain) "el lado oscuro" CD "orquesta reciclando" (tronco/skip)
+8. jonathan kane (usa) "up in flames" CD "jet ear party" (table of elements)
+9. jonathan kane (usa) "smear it" CD "jet ear party" (table of elements)
+10. napoleon IIIrd (uk) "the conformist takes it all" CD "in debt to..." (brainlove)
+11. иной креатив (israel) "сон оборва..." CD "иной креатив" (inoj kreativ)
+12. mimmo epifani (italy) "l'ha voluto tu" CD "zucchini flowers" (finisterre)
+13. jean-pierre massiera/les maledictus sound (france/canada) "kriminal theme" CD "midnight massiera" (finders keepers)
+14. jean-pierre massiera/hermans rocket (france) "space woman" CD "midnight massiera" (finders keepers)
+15. au (usa) "the waltz" CD "verbs" (aagoo)
+16. ti-coca & wanga-neges (haiti) "simbo dlo" CD "haiti colibri" (accords croises)
+17. lydia lunch (usa) "knives in the drain" CD "queen of siam" (cherry red)

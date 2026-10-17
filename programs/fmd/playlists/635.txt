@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N635_2009.05.24.cue
 date: 2009-05-24
 title: FM Достоевский #635
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («635. #635 24.05.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. the dresden dolls "lonesome organist rapes page-turner" CD "no, virginia"
-2. moses hazy "flow of life" CD "the incredible flow of life show"
-3. nicola conte "i see all shades of you" CD "rituals"
-4. televizor "zakolotite podval!" CD "deja vu"
-5. oana catalina chitu "zaraza" CD "bucharest tango"
-6. the hypocrite ballet "trash soup" CD "fred + daily"
-7. maui y los serenidos "la princesa" CD "un ratito mas"
-8. matt boroff & the mirrors "like a train" CD "elevator ride"
-9. teenage jesus & the jerks "orphans" CD "shut up and bleed"
-10. blixa bargeld "workuta" CD "commisioned music"
-11. the social services "garmoshka" CD "it's nothing personal, it's national security"
-12. blue blokes 3 "don't you just know it" CD "stubble"
-13. lake "minor trip" CD "oh, the places we'll go"
-14. maupa "love in the car park" CD "run run sleep"
-15. kitty, daisy & lewis "honolulu rock a roll a" CD "kitty, daisy & lewis"
-16. nits "grrr... to you" CD "doing the dishes"
-17. watcha clan "eli" CD "diaspora hi-fi"
+1. the dresden dolls (usa) "lonesome organist rapes page-turner" CD "no, virginia" (roadrunner)
+2. moses hazy (finland) "flow of life" CD "the incredible flow of life show" (gashopper)
+3. nicola conte (italy) "i see all shades of you" CD "rituals" (schema)
+4. телевизор (рф) "заколотите подвал!" CD "дежа вю" (геометрия)
+5. oana catalina chitu (romania) "zaraza" CD "bucharest tango" (asphalt tango)
+6. the hypocrite ballet (usa) "trash soup" CD "fred + daily" (end up)
+7. maui y los serenidos (spain) "la princesa" CD "un ratito mas" (mls)
+8. matt boroff & the mirrors (austria) "like a train" CD "elevator ride" (lo end)
+9. teenage jesus & the jerks (usa) "orphans" CD "shut up and bleed" (cherry red)
+10. blixa bargeld (germany) "workuta" CD "commisioned music" (potomak)
+11. the social services (sweden/uk) "garmoshka" CD "it's nothing personal, it's national security" (stereo test kit)
+12. blue blokes 3 (uk) "don't you just know it" CD "stubble" (fledgeling)
+13. lake (usa) "minor trip" CD "oh, the places we'll go" (k)
+14. maupa (uk) "love in the car park" CD "run run sleep" (song)
+15. kitty, daisy & lewis (usa) "honolulu rock a roll a" CD "kitty, daisy & lewis" (sunday best)
+16. nits (holland) "grrr... to you" CD "doing the dishes" (werf)
+17. watcha clan (france/germany) "eli" CD "diaspora hi-fi" (piranha)

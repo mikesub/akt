@@ -1,21 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N621_2009.02.15.cue
 date: 2009-02-15
 title: FM Достоевский #621
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («621. #621 15.02.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json). Another source differs: the CUE sheet of radar.lv's recording lacks «max tundra» (not aired, or the recording is cut short).
 
-1. the bookhouse boys "tonight" CD "the bookhouse boys"
-2. jane birkin "madame" CD "enfants d'hiver"
-3. eyes "loving you" CD "on eyes"
-4. genetic drugs "kiirthanai" CD "south indian paraphernalia"
-5. don chambers & goat "open the gates" CD "zebulon"
-6. o3 cocktail "madame more" CD "anything may come"
-7. nick grey & the random orchestra "your greatest hunger" CD "spin vows under arch"
-8. madera limpia "loco" CD "la corona"
-9. carter tutti "breathless endings" CD "feral vapours of the silver ether"
-10. mugison "to the bone" CD "mugiboogie"
-11. chiwoniso "gomo" CD "rebel woman"
-12. restiform bodies "a pimp-like god" CD "tv loves you back"
-13. action biker "by myself" CD "hesperian puisto"
-14. gang gang dance "first communion" CD "saint dymphna"
-15. hospital bombers "neighbourhood" CD "footnotes"
-16. hilde marie kjersem "it is easy" CD "a killer for that ache"
+1. the bookhouse boys (uk) "tonight" CD "the bookhouse boys" (black)
+2. jane birkin (france) "madame" CD "enfants d'hiver" (kachalon/capitol)
+3. eyes (usa) "loving you" CD "on eyes" (nail in the coffin)
+4. genetic drugs (germany/india) "kiirthanai" CD "south indian paraphernalia" (pharma tunes)
+5. don chambers & goat (usa) "open the gates" CD "zebulon" (warm)
+6. o3 cocktail (russia) "madame more" CD "anything may come" (soyuz)
+7. nick grey & the random orchestra (uk) "your greatest hunger" CD "spin vows under arch" (beta-lactam ring)
+8. madera limpia (cuba) "loco" CD "la corona" (out/here)
+9. carter tutti (uk) "breathless endings" CD "feral vapours of the silver ether" (cti)
+10. mugison (iceland) "to the bone" CD "mugiboogie" (ipecac)
+11. chiwoniso (zimbabwe) "gomo" CD "rebel woman" (cumbancha)
+12. restiform bodies (usa) "a pimp-like god" CD "tv loves you back" (anticon)
+13. action biker (sweden) "by myself" CD "hesperian puisto" (friendly noise)
+14. gang gang dance (usa) "first communion" CD "saint dymphna" (the social registry)
+15. hospital bombers (holland) "neighbourhood" CD "footnotes" (excelsior)
+16. hilde marie kjersem (norway) "it is easy" CD "a killer for that ache" (rune grammofon)
+17. max tundra (uk) "until we die" CD "parallax error beheads you" (domino)

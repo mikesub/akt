@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N667_2010.01.03.cue
 date: 2010-01-03
 title: FM Достоевский #667
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («667. #667 03.01.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. richard hawley "soldier on" CD "truelove's gutter"
-2. fever ray "seven" CD "fever ray"
-3. nate young "sleep anxiety" CD "regression"
-4. cerkov' detstva "masha" CD "laokoon"
-5. dozan "ya mo" CD "introducing dozan"
-6. tortoise "the fall of seven diamonds plus one" CD "beacons of ancestorship"
-7. koalas desperados "legalize eucalyptus" CD "koalas desperados"
-8. dirty projectors "useful chamber" CD "bitte orca"
-9. smadj "anarouz" CD "selin"
-10. orchestre combo zombi et michel yeye "mussieu a tet'a poisson la" CD "tumbele!"
-11. lola martin "edamise oh!" CD "tumbele!"
-12. mocky "little journey" CD "saskamodie"
-13. florence & the machine "girl with one eye" CD "lungs"
-14. tomutonttu "wow no oho" CD "tomutonttu"
-15. ahilea "usti usti" CD "cafe svetlana"
-16. laura vane & the vipertones "am i dreaming?" CD "laura vane & the vipertones"
-17. eccodek "forever unanswered" CD "shiva boom"
+1. richard hawley (uk) "soldier on" CD "truelove's gutter" (mute)
+2. fever ray (sweden) "seven" CD "fever ray" (rabid)
+3. nate young (usa) "sleep anxiety" CD "regression" (aa/ideal)
+4. церковь детства (рф) "маша" CD "лаокоон" (выргород)
+5. dozan (jordan) "ya mo" CD "introducing dozan" (wmn)
+6. tortoise (usa) "the fall of seven diamonds plus one" CD "beacons of ancestorship" (thrill jockey)
+7. koalas desperados (spain) "legalize eucalyptus" CD "koalas desperados" (roofdown)
+8. dirty projectors (usa) "useful chamber" CD "bitte orca" (domino)
+9. smadj (france) "anarouz" CD "selin" (mvs)
+10. orchestre combo zombi et michel yeye (guadeloupe) "mussieu a tet'a poisson la" CD "tumbele!" (soundway)
+11. lola martin (martinique) "edamise oh!" CD "tumbele!" (soundway)
+12. mocky (holland) "little journey" CD "saskamodie" (crammed)
+13. florence & the machine (uk) "girl with one eye" CD "lungs" (republic/universal)
+14. tomutonttu (finland) "wow no oho" CD "tomutonttu" (fonal)
+15. ahilea (macedonia) "usti usti" CD "cafe svetlana" (essay)
+16. laura vane & the vipertones (uk/holland) "am i dreaming?" CD "laura vane & the vipertones" (unique)
+17. eccodek (canada) "forever unanswered" CD "shiva boom" (white swan)

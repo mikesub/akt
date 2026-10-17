@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N659_2009.11.08.cue
 date: 2009-11-08
 title: FM Достоевский #659
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («659. #659 08.11.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. eels "tremendous dynamite" CD "hombre lobo"
-2. ghazi abdel baki feat. yasmina joumblat "ya habibi" CD "arabic cafe"
-3. beautiful unit "trust me i'm a thief" CD "european son"
-4. центр "богемный уикенд" CD "дитятя"
-5. василий шумов "время три" CD "время три"
-6. the eden house "to believe in something" CD "smoke & mirrors"
-7. jaime cuadra "el provinciano" CD "cholo soy"
-8. the del moroccos "baby doll" CD "blue black hair"
-9. the del moroccos "el tren de la costa" CD "blue black hair"
-10. balkansemblet "in suo esse" CD "curved grooves"
-11. soap & skin "marche funebre" CD "lovetunes for vacuum"
-12. monks "higgle-dy-piggle-dy" CD "black monk time"
-13. monks "i hate you" CD "black monk time"
-14. camera obscura "you told a lie" CD "my maudlin career"
-15. omar souleyman "laqtuf ward min khaddak" CD "debke 2020"
-16. the do "tammie" CD "a mouthful"
+1. eels (usa) "tremendous dynamite" CD "hombre lobo" (vagrant)
+2. ghazi abdel baki feat. yasmina joumblat (lebanon) "ya habibi" CD "arabic cafe" (wmn)
+3. beautiful unit (ireland) "trust me i'm a thief" CD "european son" (trust me i'm a thief)
+4. центр (ссср) "богемный уикенд" CD "дитятя" (зенит/союз)
+5. василий шумов (ссср) "время три" CD "время три" (зенит/союз)
+6. the eden house (uk) "to believe in something" CD "smoke & mirrors" (jungle)
+7. jaime cuadra (peru) "el provinciano" CD "cholo soy" (happy hour)
+8. the del moroccos (usa) "baby doll" CD "blue black hair" (hi-style)
+9. the del moroccos (usa) "el tren de la costa" CD "blue black hair" (hi-style)
+10. balkansemblet (norway) "in suo esse" CD "curved grooves" (etnisk musikklub)
+11. soap & skin (austria) "marche funebre" CD "lovetunes for vacuum" (coach)
+12. monks (usa/germany) "higgle-dy-piggle-dy" CD "black monk time" (polydor)
+13. monks (usa/germany) "i hate you" CD "black monk time" (polydor)
+14. camera obscura (uk) "you told a lie" CD "my maudlin career" (4ad)
+15. omar souleyman (syria) "laqtuf ward min khaddak" CD "debke 2020" (sublime frequencies)
+16. the do (france/finland) "tammie" CD "a mouthful" (get down!)

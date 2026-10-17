@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N637_2009.06.07.cue
 date: 2009-06-07
 title: FM Достоевский #637
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («637. #637 07.06.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. telepathe "so fine" CD "dancemother"
-2. movie star junkies "eleanor" CD "melville"
-3. angelo badalamenti/siouxie sioux "careless love" CD "the edge of love (ost)"
-4. liber teran "el andariego" CD "el gitano western"
-5. barbara morgenstern "monokultur" CD "bm"
-6. zzz "lover" CD "running with the beast"
-7. zzz "angel" CD "running with the beast"
-8. pumajaw "the weird light" CD "favourites/this day and age"
-9. pumajaw "the bending wood" CD "favourites/cat's cradle"
-10. winovino "broken carousel" CD "winovino"
-11. francoiz breut "mots croises" CD "a l'aveuglette"
-12. harlan t. bobo "too much love" CD "too much love"
-13. shawn lee & clutchy hopkins "things change" CD "clutch of the tiger"
-14. imelda may "it's your voodoo working" CD "love tattoo"
-15. psarantonis & the ensemble xylouris "ine fores pou me methi" CD "mountain rebels"
-16. tartu popi ja roki instituut "unustuse kover" CD "rock&roll city: best of tartu rock 2008"
+1. telepathe (usa) "so fine" CD "dancemother" (v2)
+2. movie star junkies (italy) "eleanor" CD "melville" (voodoo rhythm)
+3. angelo badalamenti/siouxie sioux (usa/uk) "careless love" CD "the edge of love (ost)" (universal)
+4. liber teran (mexico) "el andariego" CD "el gitano western" (fonarte)
+5. barbara morgenstern (germany) "monokultur" CD "bm" (monika)
+6. zzz (holland) "lover" CD "running with the beast" (excelsior)
+7. zzz (holland) "angel" CD "running with the beast" (excelsior)
+8. pumajaw (uk) "the weird light" CD "favourites/this day and age" (fire)
+9. pumajaw (uk) "the bending wood" CD "favourites/cat's cradle" (fire)
+10. winovino (usa) "broken carousel" CD "winovino" (winowino)
+11. francoiz breut (france) "mots croises" CD "a l'aveuglette" (humpty dumpty)
+12. harlan t. bobo (usa) "too much love" CD "too much love" (transsolar)
+13. shawn lee & clutchy hopkins (usa) "things change" CD "clutch of the tiger" (ubiquity)
+14. imelda may (uk) "it's your voodoo working" CD "love tattoo" (ambassador)
+15. psarantonis & the ensemble xylouris (greece) "ine fores pou me methi" CD "mountain rebels" (raki/network)
+16. tartu popi ja roki instituut (estonia) "unustuse kover" CD "rock&roll city: best of tartu rock 2008" (rock&roll)

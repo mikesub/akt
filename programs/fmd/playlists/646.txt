@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N646_2009.08.09.cue
 date: 2009-08-09
 title: FM Достоевский #646
-note: From radar.lv's CUE sheet for its recording of the episode (song tracks only; the host's talk between them left out). A CUE sheet lists what radar.lv's recording holds: of the 123 sheets from #484 on that a playlist can be compared with, 29 lack the playlist's last song (not aired, or the recording ends early), so this list may lack one at the end.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («646. #646 09.08.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
 
-1. john zorn "tarot" CD "filmworks XXII - the last supper"
-2. the decomposers "hammer girl" CD "double penetration"
-3. ruby throat "lie to me" CD "the ventriloquist"
-4. leif elggren & thomas liljenberg "9.11 (desperation is the mother of laughter)" CD "smiling through my teeth"
-5. novalima "tumbala" CD "coba coba"
-6. jessica lea mayfield "i can't lie to you, love" CD "with blasphemy so heartfelt"
-7. tosca "springer" CD "no hassle"
-8. the balky mule "dust bath birds" CD "the length of the rail"
-9. asobi seksu "sing tomorrow's praise" CD "hush"
-10. svang "kua kua kome kiki?" CD "jarruta"
-11. larytta "voodoo things" CD "difficult fun"
-12. hebe rosell "se equivoco la paloma" CD "para ser otra"
-13. ryan driver "when were you in mexico?" CD "feeler of pure joy"
-14. seven that spells "stara planina" CD "cosmoerotic dialogue with lucifer"
-15. golden silvers "shakes" CD "true romance"
-16. inka mbing "call of the mountain" CD "gaga"
-17. isis "stone to wake a serpent" CD "wavering radiant"
+1. john zorn (usa) "tarot" CD "filmworks XXII - the last supper" (tzadik)
+2. the decomposers (russia) "hammer girl" CD "double penetration" (decomposers)
+3. ruby throat (uk) "lie to me" CD "the ventriloquist" (sleep like wolves)
+4. leif elggren & thomas liljenberg (sweden) "9.11 (desperation is the mother of laughter)" CD "smiling through my teeth" (sonic arts network)
+5. novalima (peru) "tumbala" CD "coba coba" (cumbancha)
+6. jessica lea mayfield (usa) "i can't lie to you, love" CD "with blasphemy so heartfelt" (polymer sounds/munich)
+7. tosca (austria) "springer" CD "no hassle" (g-stone/!k7)
+8. the balky mule (uk) "dust bath birds" CD "the length of the rail" (fat cat)
+9. asobi seksu (usa/s.korea) "sing tomorrow's praise" CD "hush" (polyvinyl)
+10. svang (finland) "kua kua kome kiki?" CD "jarruta" (aito)
+11. larytta (switzerland) "voodoo things" CD "difficult fun" (creaked)
+12. hebe rosell (mexico) "se equivoco la paloma" CD "para ser otra" (p&p)
+13. ryan driver (canada) "when were you in mexico?" CD "feeler of pure joy" (fire)
+14. seven that spells (croatia/japan) "stara planina" CD "cosmoerotic dialogue with lucifer" (beta lactam ring)
+15. golden silvers (uk) "shakes" CD "true romance" (xl)
+16. inka mbing (taiwan) "call of the mountain" CD "gaga" (trees music)
+17. isis (usa) "stone to wake a serpent" CD "wavering radiant" (ipecac)
