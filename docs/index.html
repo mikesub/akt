@@ -269,7 +269,7 @@
 </footer>
 
 <script type="module">
-  const UNKNOWN = 'Год пока неопределен';
+  const UNKNOWN = 'Год пока не определён';
   const NO_COUNTRY = 'unknown'; // the country facet's value, and its URL's, for a track with none
 
   /**
@@ -281,7 +281,7 @@
   const FLAG_OF = { SU: 'RU', CS: 'CZ', YU: 'RS', DD: 'DE', VD: 'VN', 'GB-NIR': 'GB' };
   const regionNames = new Intl.DisplayNames('ru', { type: 'region' });
   const countryName = (code) => {
-    if (code === NO_COUNTRY) return 'Страна пока неопределена';
+    if (code === NO_COUNTRY) return 'Страна пока не определена';
     try {
       return COUNTRY_NAMES[code] ?? regionNames.of(code) ?? code;
     } catch {
