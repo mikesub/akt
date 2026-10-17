@@ -112,6 +112,9 @@ date a day or two off may be the day a list was posted rather than the day it ai
 - #383: date: fmd.soyuz.ru says 2004-08-16, out of order with the episodes either side, but the XLS says 2004-07-24; 2004-07-24 is used
 - #514: date: the CUE sheet says 2006-01-28
 - #515: date: the CUE sheet says 2007-02-07
+- #595: date: 2008-08-17, as the fans' collection names it («595. #595 17.08.2008.mp3»), a week after #594 and before #596; fmd.soyuz.ru gives 2008-08-18, a Monday, which it gives #596 too
+- #596: date: 2008-08-24, as the fans' collection names it («596. #596 24.08.2008.mp3»), a week after #595 and before #597 (2008-08-31); fmd.soyuz.ru gives 2008-08-18, #595's
+- #683: date: 2010-04-25, the Sunday it aired at 01:08 on Эхо Москвы (its program listing), as the fans' collection names it («683. #683 25.04.2010.mp3»); radar.lv's CUE sheet says 2010-04-24
 
 ## Episodes where the sources list different songs
 

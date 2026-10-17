@@ -42,6 +42,20 @@ const MOVED = {
   'FM_Dostoevsky_N148_1999.12.08.cue': { number: 147, why: 'the sheet is named #148, but its songs and date (1999-12-08) are the XLS\'s #147' },
 };
 
+/**
+ * Air dates no source gets right, with why. fmd.soyuz.ru dates #595 and #596
+ * both 2008-08-18 (a Monday); the fans' collection names them «17.08.2008» and
+ * «24.08.2008», a week apart, as every other episode then. radar.lv's CUE sheet
+ * dates #683 2010-04-24; Эхо Москвы's listing has it on 25.04.2010 at 01:08,
+ * the Saturday-night slot every other episode then is dated by (Sunday's date),
+ * as the fans' collection does.
+ */
+const DATES = {
+  595: { date: '2008-08-17', why: "2008-08-17, as the fans' collection names it («595. #595 17.08.2008.mp3»), a week after #594 and before #596; fmd.soyuz.ru gives 2008-08-18, a Monday, which it gives #596 too" },
+  596: { date: '2008-08-24', why: "2008-08-24, as the fans' collection names it («596. #596 24.08.2008.mp3»), a week after #595 and before #597 (2008-08-31); fmd.soyuz.ru gives 2008-08-18, #595's" },
+  683: { date: '2010-04-25', why: "2010-04-25, the Sunday it aired at 01:08 on Эхо Москвы (its program listing), as the fans' collection names it («683. #683 25.04.2010.mp3»); radar.lv's CUE sheet says 2010-04-24" },
+};
+
 /** Copies left out, with why. */
 const IGNORED = {
   'FM_Dostoevsky_N675_2010.02.28_0.cue':
@@ -789,7 +803,7 @@ function main() {
     // A self-released CD's label can be the artist's e-mail address: a personal contact, never written out.
     const entries = best.entries.map((e) => e.replace(EMAIL, 'e-mail address left out'));
     if (entries.some((e, i) => e !== best.entries[i])) notes.push("a label given as the artist's e-mail address is left out");
-    const { date, note: dateNote } = dateOf(best, sources, near(number, -1), near(number, 1));
+    const { date, note: dateNote } = DATES[number] ? { date: DATES[number].date, note: `date: ${DATES[number].why}` } : dateOf(best, sources, near(number, -1), near(number, 1));
     if (dateNote) notes.push(dateNote), dateNotes.push(`#${number}: ${dateNote}`);
     writeFileSync(
       join(PLAYLISTS, `${number}.txt`),

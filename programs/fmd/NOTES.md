@@ -95,8 +95,10 @@ names and titles are in Latin letters mostly before about #100, where nothing el
   #642, #643, #663, #674, #678, #679, #681, #683, #690).
   Ranked between radar.lv's posts and the CUE sheets. **The names slip**: the leading number is the
   episode's, not the title's «#…» («209. #206 07.03.2001.mp3» is #209; «441. #414 03.08.2005» is #441), and
-  a few dates are off («#417 19.03.2006» for 2005, «#596 24.08.2008», #683 a day later than the CUE sheet),
-  so their date is used only where no other source dates the episode (#623, #624, #633). #606's comment holds
+  a few dates are off («#417 19.03.2006» for 2005), so their date is used only where no other source dates
+  the episode (#623, #624, #633). Twice they are right where the others are not, set by hand in `DATES` in
+  `bin/fmd-playlists.js`: «#595 17.08.2008» and «#596 24.08.2008», which fmd.soyuz.ru dates both 2008-08-18,
+  and «#683 25.04.2010», as Эхо Москвы's listing has it, a day after the CUE sheet. #606's comment holds
   another list than fmd.soyuz.ru's (17 songs, none in common but one): the CROSSCHECK notes it, the site's is
   kept. Such a source has no page: an episode taken from it keeps its link to another source's
   (the CUE sheet's).

@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20090210035550/http://fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=337
-date: 2008-08-18
+date: 2008-08-17
 title: FM Достоевский #595
-note: From fmd.soyuz.ru, the program's site (Wayback capture).
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Date: 2008-08-17, as the fans' collection names it («595. #595 17.08.2008.mp3»), a week after #594 and before #596; fmd.soyuz.ru gives 2008-08-18, a Monday, which it gives #596 too.
 
 1. boban i marko markovic orkestar (serbia) "pijem" CD "go marko go!" (piranha)
 2. calendar girl vs max plank (uk) "january stalactite mix" CD "calendar songs" (www.calendarsongs.com)

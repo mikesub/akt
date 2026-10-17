@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20090210035554/http://fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=338
-date: 2008-08-18
+date: 2008-08-24
 title: FM Достоевский #596
-note: From fmd.soyuz.ru, the program's site (Wayback capture).
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Date: 2008-08-24, as the fans' collection names it («596. #596 24.08.2008.mp3»), a week after #595 and before #597 (2008-08-31); fmd.soyuz.ru gives 2008-08-18, #595's.
 
 1. the last shadow puppets (uk) "in my room" CD "the age of understatement" (domino)
 2. super boiro band (guinea) "mariama" CD "authencite" (stern's)

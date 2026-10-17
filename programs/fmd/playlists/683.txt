@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N683_2010.04.24.cue
-date: 2010-04-24
+date: 2010-04-25
 title: FM Достоевский #683
-note: From the ID3 comment of a fans' collection's mp3 of the episode («683. #683 25.04.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json). Another source differs: the CUE sheet of radar.lv's recording lacks «the vampires of dartmore» (not aired, or the recording is cut short).
+note: From the ID3 comment of a fans' collection's mp3 of the episode («683. #683 25.04.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json). Another source differs: the CUE sheet of radar.lv's recording lacks «the vampires of dartmore» (not aired, or the recording is cut short). Date: 2010-04-25, the Sunday it aired at 01:08 on Эхо Москвы (its program listing), as the fans' collection names it («683. #683 25.04.2010.mp3»); radar.lv's CUE sheet says 2010-04-24.
 
 1. василий шумов & the vivisectors (рф) "всепонимающие глаза" CD "содержание" (зенит)
 2. василий шумов и барто (рф) "одна и надолго" CD "содержание" (зенит)
