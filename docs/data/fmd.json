@@ -148717,7 +148717,9 @@
         "album": "Journey Between",
         "printed_country": "UK/France/Ghana",
         "country": [
-          "GB"
+          "GB",
+          "FR",
+          "GH"
         ],
         "apple_id": 164369025,
         "apple_album_id": 164369024,
