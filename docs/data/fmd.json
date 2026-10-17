@@ -136700,7 +136700,9 @@
         "track": "I See Winter",
         "album": "Sogo",
         "printed_country": "International",
-        "country": null,
+        "country": [
+          "GB"
+        ],
         "apple_id": null,
         "mb_id": "ee893c04-194f-4dd4-a3e2-684b4057aac7",
         "year": 2000
@@ -148715,9 +148717,7 @@
         "album": "Journey Between",
         "printed_country": "UK/France/Ghana",
         "country": [
-          "GB",
-          "FR",
-          "GH"
+          "GB"
         ],
         "apple_id": 164369025,
         "apple_album_id": 164369024,
