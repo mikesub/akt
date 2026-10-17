@@ -2822,5 +2822,12 @@
     "artist": "The Vanity Set",
     "country": ["US"],
     "why": "FM Достоевский #206 prints the band as \"International\", #340 as \"australia\": a New York band, the owner's word; MusicBrainz has «Little Stabs of Happiness» as a US release (2003)"
+  },
+  {
+    "artist": "Mo' Horizons Featuring Leila Pantel",
+    "track": "Foto Viva",
+    "country": ["DE"],
+    "year": 1999,
+    "why": "FM Достоевский #155 prints no country: Germany, 1999, the owner's word; «Women's World Voices» (Blue Flame, Germany, 1999; discogs.com/release/4419868)"
   }
 ]

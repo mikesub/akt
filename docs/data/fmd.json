@@ -139167,16 +139167,14 @@
         "year": 1999
       },
       {
-        "artist": "Mo` Horizons Feat",
+        "artist": "Mo' Horizons Featuring Leila Pantel",
         "track": "Foto Viva",
-        "album": "Women`s World Voices",
+        "album": "Women's World Voices",
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "country": [
+          "DE"
+        ],
+        "year": 1999
       }
     ]
   },

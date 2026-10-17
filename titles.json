@@ -1085,5 +1085,14 @@
       "album": "Little Stabs of Happiness"
     },
     "why": "FM Достоевский #340: in lower case; MusicBrainz has The Vanity Set’s «Little Demons» on «Little Stabs of Happiness» (US, 2003)"
+  },
+  {
+    "artist": "Mo` Horizons Feat",
+    "track": "Foto Viva",
+    "restore": {
+      "artist": "Mo' Horizons Featuring Leila Pantel",
+      "album": "Women's World Voices"
+    },
+    "why": "FM Достоевский #155, from the XLS: the credit cut short; as on «Women's World Voices» (Blue Flame, Germany, 1999), whose first track is Mo' Horizons Featuring Leila Pantel's «Foto Viva» (discogs.com/release/4419868)"
   }
 ]
