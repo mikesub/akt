@@ -1055,5 +1055,15 @@
       "album": "Narc Beacon"
     },
     "why": "FM Достоевский #294: printed as Goodiepal’s, in lower case; on his «Narc Beacon» (Skipp, 2001) the track is credited to Gamers In Exile (discogs.com/release/197950)"
+  },
+  {
+    "artist": "sven-ake johansson/rudiger carl/joe williamson",
+    "track": "the surrey with the fringe on the top",
+    "restore": {
+      "artist": "Joe Williamson, Rüdiger Carl, Sven-Åke Johansson",
+      "track": "The Surrey With The Fringe On Top",
+      "album": "Hudson Riv"
+    },
+    "why": "FM Достоевский #354: in lower case, without its diacritics; as on Discogs: the trio Hudson Riv (Joe Williamson, Rüdiger Carl, Sven-Åke Johansson), «The Surrey With The Fringe On Top» on «Hudson Riv» (Grob, 2003; discogs.com/release/1305157)"
   }
 ]

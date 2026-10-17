@@ -100891,15 +100891,15 @@
         "year": null
       },
       {
-        "artist": "sven-ake johansson/rudiger carl/joe williamson",
-        "track": "the surrey with the fringe on the top",
-        "album": "hudson riv",
+        "artist": "Joe Williamson, Rüdiger Carl, Sven-Åke Johansson",
+        "track": "The Surrey With The Fringe On Top",
+        "album": "Hudson Riv",
         "printed_country": "international",
-        "country": null,
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "country": [
+          "SE",
+          "DE"
+        ],
+        "year": 2003
       },
       {
         "artist": "john zorn/electric masada",
