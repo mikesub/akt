@@ -42151,7 +42151,8 @@
         "album": "tribal musette",
         "printed_country": "france",
         "country": [
-          "FR"
+          "FR",
+          "US"
         ],
         "apple_id": 1442707476,
         "apple_album_id": 1442707236,
@@ -131216,7 +131217,8 @@
         "album": "World Musette",
         "printed_country": "International",
         "country": [
-          "FR"
+          "FR",
+          "US"
         ],
         "apple_id": null,
         "mb_id": "fb2375e4-a86a-4b39-a49a-330c18a490ab",

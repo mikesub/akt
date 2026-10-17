@@ -2798,10 +2798,14 @@
     "why": "FM Достоевский #165 prints them as \"International\": the USA, Ireland and the UK, the owner's word"
   },
   {
-    "artist": "Les Primitifs Du Futur",
-    "track": "La Java Viennoise (Louis Le Gambillieur Et La Fille De Dr. Freud)",
-    "country": ["FR"],
-    "why": "FM Достоевский #202 prints the band as \"International\": France, the owner's word"
+    "artist": "Les Primitifs du Futur",
+    "country": ["FR", "US"],
+    "why": "FM Достоевский #202 prints the band as \"International\"; France and the USA, as Стереоплан #84 prints it, for every track, the owner's word"
+  },
+  {
+    "artist": "Dominique Cravic et les Primitifs du Futur",
+    "country": ["FR", "US"],
+    "why": "FM Достоевский #602 prints \"france\"; France and the USA, as Стереоплан #84 prints Les Primitifs du Futur, for every track, the owner's word"
   },
   {
     "artist": "Carate Urio Orchestra",
