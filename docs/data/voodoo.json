@@ -5874,25 +5874,35 @@
       {
         "artist": "The Ministry of Wolves",
         "track": "Cinderella",
-        "album": "Republik der Wlfe",
+        "album": "Music From Republik Der Wölfe",
         "printed_country": "International",
-        "country": null,
+        "country": [
+          "DE",
+          "US",
+          "AU"
+        ],
         "apple_id": 803262352,
         "apple_album_id": null,
         "apple_artist_id": 799418801,
         "mb_id": "5b2ebf44-b4b7-47a1-85e1-6537b73039d3",
+        "discogs_id": 5492684,
         "year": 2014
       },
       {
         "artist": "The Ministry of Wolves",
         "track": "Rapunzel (as Isadora Duncan)",
-        "album": "Republik der Wlfe",
+        "album": "Music From Republik Der Wölfe",
         "printed_country": "International",
-        "country": null,
+        "country": [
+          "DE",
+          "US",
+          "AU"
+        ],
         "apple_id": 803262356,
         "apple_album_id": null,
         "apple_artist_id": 799418801,
         "mb_id": "85f452d2-ce78-4956-92b1-b43005cf220e",
+        "discogs_id": 5492684,
         "year": 2014
       },
       {

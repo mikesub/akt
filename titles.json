@@ -1133,5 +1133,21 @@
       "track": "2 x 5 = 10"
     },
     "why": "FM Достоевский #375 prints the band as «Limited Express (?)», the parse taking \"(?)\" for its country; as on «Feeds You!» (Tzadik TZ 7241, 2003), Limited Express (Has Gone?)’s «2 x 5 = 10» (discogs.com/release/740734)"
+  },
+  {
+    "artist": "The Ministry of Wolves",
+    "track": "Cinderella",
+    "restore": {
+      "album": "Music From Republik Der Wölfe"
+    },
+    "why": "Stereo Voodoo #105 prints the album as «Republik der Wlfe», its ö lost; as on Discogs, «Music From Republik Der Wölfe» (Mute, 2014; discogs.com/master/670545), from the owner"
+  },
+  {
+    "artist": "The Ministry of Wolves",
+    "track": "Rapunzel (as Isadora Duncan)",
+    "restore": {
+      "album": "Music From Republik Der Wölfe"
+    },
+    "why": "Stereo Voodoo #105 prints the album as «Republik der Wlfe», its ö lost; as on Discogs, «Music From Republik Der Wölfe» (Mute, 2014; discogs.com/master/670545), from the owner"
   }
 ]
