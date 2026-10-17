@@ -13,7 +13,10 @@ import { join } from 'node:path';
  * Applied before titles.json's names are looked up again and before the
  * lookups, so these search for the spelling shown; a lookup that had found
  * nothing is asked again only when more than the case changed. The playlist
- * files stay as their sources print them.
+ * files stay as their sources print them, and the data files keep only the
+ * spelling shown: to change one, change its value and add the spelling shown
+ * until then as a key too («"Aniaetleprogrammeur": "Ania et le
+ * Programmeur"»), so the tracks already renamed follow.
  */
 const FILE = join(import.meta.dirname, '..', 'artists.json');
 const MISSES = ['apple_id', 'mb_id', 'discogs_id'];
