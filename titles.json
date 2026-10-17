@@ -1065,5 +1065,15 @@
       "album": "Hudson Riv"
     },
     "why": "FM Достоевский #354: in lower case, without its diacritics; as on Discogs: the trio Hudson Riv (Joe Williamson, Rüdiger Carl, Sven-Åke Johansson), «The Surrey With The Fringe On Top» on «Hudson Riv» (Grob, 2003; discogs.com/release/1305157)"
+  },
+  {
+    "artist": "P. Comelade, P. Bastien, J. Berrocal, J. Liebereit",
+    "track": "A Mexico Spaghetti Strongler",
+    "restore": {
+      "artist": "Pascal Comelade, Pierre Bastien, Jac Berrocal, Jaki Liebezeit",
+      "track": "A Mexican Spaghetti Strangler",
+      "album": "The Oblique Sessions"
+    },
+    "why": "FM Достоевский #114, from the XLS: initials, misspelt; MusicBrainz has Pascal Comelade, Pierre Bastien, Jac Berrocal & Jaki Liebezeit’s «A Mexican Spaghetti Strangler» on «Oblique Sessions» (1997); the album’s name the owner’s"
   }
 ]

@@ -146536,15 +146536,15 @@
         "year": 1998
       },
       {
-        "artist": "P. Comelade, P. Bastien, J. Berrocal, J. Liebereit",
-        "track": "A Mexico Spaghetti Strongler",
-        "album": "Oblique Sessions",
+        "artist": "Pascal Comelade, Pierre Bastien, Jac Berrocal, Jaki Liebezeit",
+        "track": "A Mexican Spaghetti Strangler",
+        "album": "The Oblique Sessions",
         "printed_country": "International",
-        "country": null,
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "country": [
+          "FR",
+          "DE"
+        ],
+        "year": 1997
       },
       {
         "artist": "Jad Fair & Yo La Tengo",
