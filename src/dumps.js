@@ -43,7 +43,17 @@ export async function records(file, tag, each) {
   }
 }
 
-/** A master record's fields: id, main release, year, title, artists ({ id, name, anv }), video titles. */
+/**
+ * A record's genres and styles, as Discogs names them, in its order: two independent lists (Discogs links
+ * no style to a genre). A genre that is only digits («1», on a dozen masters) is noise, left out.
+ */
+export function genresOf(rec) {
+  const head = rec.replace(/<videos>[\s\S]*<\/videos>/, '');
+  const list = (tag) => [...(head.match(new RegExp(`<${tag}s>([\\s\\S]*?)</${tag}s>`))?.[1] ?? '').matchAll(new RegExp(`<${tag}>([\\s\\S]*?)</${tag}>`, 'g'))].map(([, v]) => decode(v).trim()).filter((v) => v && !/^\d+$/.test(v));
+  return { genres: list('genre'), styles: list('style') };
+}
+
+/** A master record's fields: id, main release, year, title, artists ({ id, name, anv }), genres, styles, video titles. */
 export function parseMaster(rec) {
   const head = rec.replace(/<videos>[\s\S]*<\/videos>/, '');
   return {
@@ -57,6 +67,7 @@ export function parseMaster(rec) {
       name: decode(a.match(/<name>([\s\S]*?)<\/name>/)?.[1] ?? ''),
       anv: decode(a.match(/<anv>([\s\S]*?)<\/anv>/)?.[1] ?? ''),
     })),
+    ...genresOf(rec),
     videos: [...(rec.match(/<videos>([\s\S]*)<\/videos>/)?.[1] ?? '').matchAll(/<video [^>]*>\s*<title>([\s\S]*?)<\/title>/g)].map(([, v]) => decode(v)),
   };
 }

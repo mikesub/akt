@@ -900,6 +900,8 @@
     ['musicbrainz_url', (row) => link('https://musicbrainz.org/recording/', row.mb_id)],
     ['discogs_url', (row) => link('https://www.discogs.com/release/', row.discogs_id)],
     ['discogs_master_url', (row) => link('https://www.discogs.com/master/', row.discogs_master_id)],
+    ['discogs_genres', (row) => (row.discogs_genres ?? []).join('; ')],
+    ['discogs_styles', (row) => (row.discogs_styles ?? []).join('; ')],
   ];
   /** A CSV field (RFC 4180): quoted when it holds a comma, a quote, a line break or edge spaces, its quotes doubled. */
   const csvField = (value) => {

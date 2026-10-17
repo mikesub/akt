@@ -9,6 +9,12 @@ Routine updates (a new Стереоплан episode, a single fix) are not liste
 
 ## 2026-10-18
 
+- **Format:** two new track fields, after `discogs_master_id`, on every track that has one (11,984 in every program):
+  `discogs_genres` and `discogs_styles`, the Discogs master's genres and styles as Discogs names them, in its
+  order (`["Electronic", "Rock"]`, `["Downtempo", "Leftfield"]`). Two independent lists: Discogs links no style to a
+  genre. Album-level: a track gets its record's. `discogs_styles` can be `[]`; a track with no master has neither
+  key. CC0, from Discogs' masters dump of 2026-10-01. The CSV has `discogs_genres` and `discogs_styles` columns,
+  each joined with "; ".
 - `discogs_master_id` set for 11,973 tracks in every program, from Discogs' CC0 masters dump of 2026-10-01
   (data.discogs.com), matched offline by lead artist and album title (`bin/discogs-dump.js`): one master, or
   the lowest of Discogs' duplicates of the same record (same artists, same year); never a "Various"

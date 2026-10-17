@@ -7,8 +7,10 @@ import { credited, main, nearTitles, plain, sameAlbum, sameArtist, sameTitle, se
  * for a link, and its year, used only when Apple Music and MusicBrainz leave
  * it out. With the owner's personal token (DISCOGS_TOKEN in .env, sent only
  * here, in a header) 60 requests a minute, else 25; paced by src/http.js.
- * Only the year and the two ids are kept, never anything else: Discogs' CC0
- * Data, under its API terms (AGENTS.md).
+ * Only the year, the two ids and the release's genres and styles are kept,
+ * never anything else: Discogs' CC0 Data, under its API terms (AGENTS.md).
+ * The genres and styles are the release's here; bin/discogs-dump.js replaces
+ * them with its master's from the masters dump.
  *
  * A release search by the host's artist and title, earliest first; a
  * release counts only when it is credited to the host's artist and its own
@@ -34,6 +36,13 @@ const NOT_FOUND = { discogs_id: null, discogs_master_id: null, year: null };
 
 /** A release's or search result's master, null for none (Discogs gives 0 or leaves it out). */
 const masterOf = (release) => (Number(release?.master_id) > 0 ? Number(release.master_id) : null);
+
+/** A release's genres and styles (a search result names them genre and style), only beside a master: they go with it. */
+function genresOf(release, master) {
+  if (!master) return {};
+  const list = (v) => (Array.isArray(v) ? v : []).map((x) => String(x).trim()).filter((x) => x && !/^\d+$/.test(x));
+  return { discogs_genres: list(release?.genres ?? release?.genre), discogs_styles: list(release?.styles ?? release?.style) };
+}
 
 /** How each lookup ended, for the run's summary line. */
 export const discogsStats = { track: 0, album: 0, missed: 0 };
@@ -92,7 +101,8 @@ export async function findOnDiscogs(track) {
     const release = await get(`${API}/releases/${result.id}`);
     if (!release || !hasTitle(release, track.track)) continue;
     discogsStats.track++;
-    return { discogs_id: release.id, discogs_master_id: masterOf(release) ?? masterOf(result), year: await firstYear(result) };
+    const master = masterOf(release) ?? masterOf(result);
+    return { discogs_id: release.id, discogs_master_id: master, ...genresOf(release, master), year: await firstYear(result) };
   }
 
   if (track.album) {
@@ -100,17 +110,18 @@ export async function findOnDiscogs(track) {
     if (album) {
       discogsStats.album++;
       const compilation = (album.format ?? []).includes('Compilation');
-      return { discogs_id: album.id, discogs_master_id: masterOf(album), year: compilation ? null : await firstYear(album) };
+      return { discogs_id: album.id, discogs_master_id: masterOf(album), ...genresOf(album, masterOf(album)), year: compilation ? null : await firstYear(album) };
     }
   }
   discogsStats.missed++;
   return NOT_FOUND;
 }
 
-/** The master of a release found before masters were kept: one request, null when it has none. */
+/** The master of a release found before masters were kept, with the release's genres and styles: one request; a null master when it has none. */
 export async function findMaster(releaseId) {
   const release = await get(`${API}/releases/${releaseId}`);
-  return masterOf(release);
+  const master = masterOf(release);
+  return { discogs_master_id: master, ...genresOf(release, master) };
 }
 
 /** A master's year and title, or null when Discogs has no such master. */

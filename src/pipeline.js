@@ -123,7 +123,7 @@ const parsed = ({ artist, track, album, printed_country, country, country_from }
  * that source has been asked, and the country until the playlist was read
  * for it (bin/countries.js for tracks parsed before the parse read it).
  */
-const shape = ({ artist, track, album, printed_country, country, country_from, apple_id, apple_album_id, apple_artist_id, mb_id, discogs_id, discogs_master_id, year }) => ({
+const shape = ({ artist, track, album, printed_country, country, country_from, apple_id, apple_album_id, apple_artist_id, mb_id, discogs_id, discogs_master_id, discogs_genres, discogs_styles, year }) => ({
   artist,
   track,
   album,
@@ -135,6 +135,9 @@ const shape = ({ artist, track, album, printed_country, country, country_from, a
   ...(mb_id !== undefined && { mb_id }),
   ...(discogs_id !== undefined && { discogs_id }),
   ...(discogs_master_id !== undefined && { discogs_master_id }),
+  // The master's genres and styles (album-level): only beside a master, so they go when it goes.
+  ...(discogs_master_id && discogs_genres !== undefined && { discogs_genres }),
+  ...(discogs_master_id && discogs_styles !== undefined && { discogs_styles }),
   year: year ?? null,
 });
 
@@ -167,17 +170,21 @@ const sources = {
       'apple_id' in track && 'mb_id' in track && !track.discogs_master_id && (!('discogs_id' in track) || (track.discogs_id !== null && !('discogs_master_id' in track))),
     ask: async (track, episode) => {
       if (track.discogs_id) {
-        const master = await findMaster(track.discogs_id);
-        return (t) => (t.discogs_id === track.discogs_id ? { ...t, discogs_master_id: master } : t);
+        const found = await findMaster(track.discogs_id);
+        return (t) => (t.discogs_id === track.discogs_id ? { ...withoutGenres(t), ...found } : t);
       }
       const found = await findOnDiscogs(track);
-      return (t) => ({ ...t, discogs_id: found.discogs_id, discogs_master_id: found.discogs_master_id, year: t.year ?? aired(episode, found.year) });
+      const { year, ...ids } = found;
+      return (t) => ({ ...withoutGenres(t), ...ids, year: t.year ?? aired(episode, year) });
     },
   },
 };
 
+/** A track without the genres and styles of a master it may no longer have: a new answer brings its own. */
+const withoutGenres = ({ discogs_genres, discogs_styles, ...rest }) => rest;
+
 /** What the sources answered for a track: the lookups search by its artist, title and album alone. */
-const LOOKED_UP = ['apple_id', 'apple_album_id', 'apple_artist_id', 'mb_id', 'discogs_id', 'discogs_master_id', 'year'];
+const LOOKED_UP = ['apple_id', 'apple_album_id', 'apple_artist_id', 'mb_id', 'discogs_id', 'discogs_master_id', 'discogs_genres', 'discogs_styles', 'year'];
 const sameNames = (t) => JSON.stringify([t.artist, t.track, t.album]);
 
 /**

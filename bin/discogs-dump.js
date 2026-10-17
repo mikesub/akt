@@ -3,7 +3,7 @@ import { existsSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseArgs } from 'node:util';
 import { artistKey } from '../src/artists.js';
-import { decode, discogsName, dumpDate, newestDump, parseMaster, records } from '../src/dumps.js';
+import { decode, discogsName, dumpDate, genresOf, newestDump, parseMaster, records } from '../src/dumps.js';
 import { credited, main } from '../src/match.js';
 import { corrected } from '../src/pipeline.js';
 import { programs } from '../src/playlists.js';
@@ -25,12 +25,18 @@ the lowest id); never on a match to a "Various" compilation, never over a discog
 has already (the API's, or an override's: the report lists where they differ), and nothing else: not
 the year, not discogs_id. The API backfill (--discogs) then skips those tracks.
 
+With --genres (also done by --write), sets discogs_genres and discogs_styles on every track with a
+discogs_master_id, from that master in the dump: its genres and styles, two independent lists, as Discogs
+names them, album-level (a track gets its record's). A master the dump lacks (merged or deleted since)
+keeps what the track has. Run it again after a new dump, or after an override changes a master.
+
 Options:
   --masters <file>   The masters dump (default: ../discogs_<date>_masters.xml.gz, the newest)
   --artists <file>   The artists dump, for name variations and aliases (default: the newest beside it;
                      --artists none to leave it out)
   --report <file>    Write the report there (default: stdout)
-  --write            Set the masters in docs/data (see above)
+  --write            Set the masters in docs/data, then their genres and styles (see above)
+  --genres           Set the genres and styles of every track's master in docs/data (see above)
   --review <file>    Write, as JSON, the matched tracks whose master is 2+ years older than their year
                      ("earlier") or who have no year ("missing"), for the owner to review; no data change
   -h, --help         Show this help
@@ -44,6 +50,7 @@ try {
       artists: { type: 'string' },
       report: { type: 'string' },
       write: { type: 'boolean' },
+      genres: { type: 'boolean' },
       review: { type: 'string' },
       help: { type: 'boolean', short: 'h' },
     },
@@ -57,7 +64,7 @@ try {
   if (!masters || !existsSync(masters)) throw new Error('no masters dump: download discogs_<date>_masters.xml.gz from data.discogs.com next to the repo, or name it with --masters');
   const artists = values.artists === 'none' ? null : (values.artists ?? newest('artists'));
   if (artists && !existsSync(artists)) throw new Error(`no artists dump at ${artists}`);
-  opts = { masters, artists, report: values.report ?? null, write: values.write ?? false, review: values.review ?? null };
+  opts = { masters, artists, report: values.report ?? null, write: values.write ?? false, genres: (values.genres || values.write) ?? false, review: values.review ?? null };
 } catch (err) {
   process.stderr.write(`${err.message}\n\n${USAGE}`);
   process.exit(2);
@@ -95,9 +102,15 @@ const albumKeys = new Set(tracks.filter((x) => x.album && x.lead).map((x) => x.a
 
 const started = Date.now();
 const candidates = []; // masters whose title is one of our albums
+const ourMasters = new Set(tracks.map((x) => x.t.discogs_master_id).filter(Boolean));
+const genresBy = new Map(); // master id -> { genres, styles }, for the masters our tracks have
 let mastersSeen = 0;
 await records(opts.masters, 'master', (rec) => {
   mastersSeen++;
+  if (opts.genres) {
+    const id = Number(rec.match(/<master id="(\d+)"/)?.[1]);
+    if (ourMasters.has(id)) genresBy.set(id, genresOf(rec));
+  }
   // The title first, cheaply: most masters are not one of our albums.
   const title = decode(rec.match(/<\/artists>[\s\S]*?<title>([\s\S]*?)<\/title>/)?.[1] ?? rec.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? '');
   const key = titleKey(title);
@@ -281,11 +294,45 @@ if (opts.review) {
   console.error(`review: ${review.length} tracks (${review.filter((r) => r.kind === 'earlier').length} earlier, ${review.filter((r) => r.kind === 'missing').length} missing) in ${opts.review}`);
 }
 
+// ------------------------------------------------------------------ masters
+
+const changedTracks = new Set();
+if (opts.write) {
+  for (const { x, m } of toSet) {
+    x.t.discogs_master_id = m.id;
+    changedTracks.add(x.t);
+  }
+  console.error(`wrote ${toSet.length} masters from the dump of ${dumpDate(opts.masters)}`);
+}
+
+// ------------------------------------------------------------------ genres
+
+if (opts.genres) {
+  for (const m of candidates) if (!genresBy.has(m.id)) genresBy.set(m.id, { genres: m.genres, styles: m.styles });
+  const same = (a, b) => JSON.stringify(a ?? null) === JSON.stringify(b ?? null);
+  let set = 0;
+  const missing = new Set();
+  for (const x of tracks) {
+    const master = x.t.discogs_master_id;
+    if (!master) continue;
+    const g = genresBy.get(master);
+    if (!g) {
+      missing.add(master);
+      continue;
+    }
+    if (same(x.t.discogs_genres, g.genres) && same(x.t.discogs_styles, g.styles)) continue;
+    x.t.discogs_genres = g.genres;
+    x.t.discogs_styles = g.styles;
+    changedTracks.add(x.t);
+    set++;
+  }
+  console.error(`genres and styles set on ${set} tracks from the dump of ${dumpDate(opts.masters)}; ${missing.size} masters not in the dump (their tracks keep what they have)`);
+}
+
 // ------------------------------------------------------------------ write
 
-if (opts.write) {
-  const set = new Set(toSet.map(({ x }) => x.t));
-  for (const { x, m } of toSet) x.t.discogs_master_id = m.id;
+if (changedTracks.size) {
+  const set = changedTracks;
   for (const [id, episodes] of data) {
     let changed = false;
     for (const episode of episodes) {
@@ -299,6 +346,5 @@ if (opts.write) {
     writeFileSync(`${file}.tmp`, `${JSON.stringify(episodes, null, 2)}\n`);
     renameSync(`${file}.tmp`, file);
   }
-  console.error(`wrote ${toSet.length} masters from the dump of ${dumpDate(opts.masters)}`);
 }
 console.error(`done in ${((Date.now() - started) / 1000).toFixed(0)} s: ${classes.matched.length} matched of ${tracks.length - classes.noAlbum.length} tracks with an album`);
