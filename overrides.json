@@ -2549,5 +2549,52 @@
       "GB"
     ],
     "why": "«Музыка на Свободе» #196 prints the band's country as \"International\"; Australia/UK, the owner's word"
+  },
+  {
+    "artist": "This Immortal Coil",
+    "track": "The Dark Age of Love",
+    "album": "The Dark Age of Love",
+    "country": [
+      "FR",
+      "BE"
+    ],
+    "why": "FM Достоевский #735 prints the collective as \"international\": a Coil tribute, each track by other players; MusicBrainz credits this recording to Yael Naïm, Chapelier Fou, Christine Ott, David Donatien (France), Hannes d'Hoine and Roel Van Camp (Belgium)"
+  },
+  {
+    "artist": "This Immortal Coil",
+    "track": "Love's Secret Domain",
+    "album": "The Dark Age of Love",
+    "country": [
+      "GB",
+      "FR"
+    ],
+    "why": "FM Достоевский #735 prints the collective as \"international\": a Coil tribute, each track by other players; MusicBrainz credits this recording to Matt Elliott (UK, vocals) and Yann Tiersen (France)"
+  },
+  {
+    "artist": "Tinariwen",
+    "track": "Oulahila Ar Tesninam",
+    "album": "Amassakoul",
+    "country": [
+      "ML"
+    ],
+    "why": "FM Достоевский #375 prints the band's country as \"Sahara Desert\"; Mali, the owner's word"
+  },
+  {
+    "artist": "Yungchen Lhamo",
+    "track": "Om Mani Padme Hung",
+    "album": "Tibet, Tibet",
+    "country": [
+      "US"
+    ],
+    "why": "FM Достоевский #53 prints her country as \"Tibet\", which has no code (countries.json); Tibet and the USA, the owner's word"
+  },
+  {
+    "artist": "Yungchen Lhamo",
+    "track": "Happiness Is...",
+    "album": "Coming Home",
+    "country": [
+      "US"
+    ],
+    "why": "FM Достоевский #107 prints her country as \"Tibet\", which has no code (countries.json); Tibet and the USA, the owner's word"
   }
 ]

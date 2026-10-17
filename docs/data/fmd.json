@@ -13038,7 +13038,10 @@
         "track": "the dark age of love",
         "album": "the dark age of love",
         "printed_country": "international",
-        "country": null,
+        "country": [
+          "FR",
+          "BE"
+        ],
         "apple_id": 1492030161,
         "apple_album_id": 1492030158,
         "apple_artist_id": 334236390,
@@ -13050,7 +13053,10 @@
         "track": "love's secret domain",
         "album": "the dark age of love",
         "printed_country": "international",
-        "country": null,
+        "country": [
+          "GB",
+          "FR"
+        ],
         "apple_id": 1492030174,
         "apple_album_id": 1492030158,
         "apple_artist_id": 334236390,
@@ -96315,7 +96321,9 @@
         "track": "Oulahila Ar Tesninam",
         "album": "Amassakoul",
         "printed_country": "Sahara Desert",
-        "country": null,
+        "country": [
+          "ML"
+        ],
         "apple_id": 1601645483,
         "apple_album_id": 1601645481,
         "apple_artist_id": 7420812,
@@ -148288,15 +148296,16 @@
         "year": 1997
       },
       {
-        "artist": "Yunghen Llamo",
+        "artist": "Yungchen Lhamo",
         "track": "Happiness Is...",
         "album": "Coming Home",
         "printed_country": "Tibet",
-        "country": null,
+        "country": [
+          "US"
+        ],
         "apple_id": 1653293374,
         "apple_album_id": 1653293370,
         "apple_artist_id": 649312,
-        "mb_id": null,
         "year": 1998
       },
       {
@@ -161325,7 +161334,9 @@
         "track": "Om Mani Padme Hung",
         "album": "Tibet, Tibet",
         "printed_country": "Tibet",
-        "country": null,
+        "country": [
+          "US"
+        ],
         "apple_id": 1654121156,
         "apple_album_id": 1654121148,
         "apple_artist_id": 649312,

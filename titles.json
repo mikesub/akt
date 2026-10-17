@@ -958,5 +958,13 @@
       "album": "Bluejeans & Moonbeams"
     },
     "why": "FM Достоевский #721, from Финам: the whole playlist is in lower case; MusicBrainz has the recording «Further Than We’ve Gone» on «Bluejeans & Moonbeams» (1974); the artist as elsewhere in the archive (Стереоплан #33)"
+  },
+  {
+    "artist": "Yunghen Llamo",
+    "track": "Happiness Is...",
+    "restore": {
+      "artist": "Yungchen Lhamo"
+    },
+    "why": "FM Достоевский #107, from the XLS: misspelt; MusicBrainz has Yungchen Lhamo’s «Happiness Is...» on «Coming Home» (Real World, 1998), and #53 spells her so"
   }
 ]
