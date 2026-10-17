@@ -5463,9 +5463,9 @@
         "year": 2011
       },
       {
-        "artist": "lonely drifter karen vs kasai allstars",
-        "track": "hunting on the moon",
-        "album": "tradi-mods vs rockers",
+        "artist": "Lonely Drifter Karen vs Kasai Allstars",
+        "track": "Hunting on the Moon",
+        "album": "Tradi-Mods Vs. Rockers: Alternative Takes on Congotronics",
         "printed_country": "belgium/congo",
         "country": [
           "BE",
@@ -14751,9 +14751,9 @@
         "year": 2010
       },
       {
-        "artist": "lonely drifter karen",
-        "track": "ready to fall",
-        "album": "fall of spring",
+        "artist": "Lonely Drifter Karen",
+        "track": "Ready to Fall",
+        "album": "Fall of Spring",
         "printed_country": "europe",
         "country": [
           "BE",
@@ -14768,9 +14768,9 @@
         "year": 2010
       },
       {
-        "artist": "lonely drifter karen",
-        "track": "wondrous ways",
-        "album": "fall of spring",
+        "artist": "Lonely Drifter Karen",
+        "track": "Wonderous Ways",
+        "album": "Fall of Spring",
         "printed_country": "europe",
         "country": [
           "BE",
@@ -38393,9 +38393,9 @@
         "year": 2008
       },
       {
-        "artist": "lonely drifter karen",
-        "track": "carousel horses",
-        "album": "grass is singing",
+        "artist": "Lonely Drifter Karen",
+        "track": "Carousel Horses",
+        "album": "Grass Is Singing",
         "printed_country": "spain",
         "country": [
           "BE",
@@ -102896,7 +102896,10 @@
         "track": "monster bitches",
         "album": "lost treasures",
         "printed_country": "international",
-        "country": null,
+        "country": [
+          "DE",
+          "CA"
+        ],
         "apple_id": null,
         "mb_id": "0e9b6375-7df2-4fa8-86a0-b37e47374219",
         "year": 2003

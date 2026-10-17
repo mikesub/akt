@@ -986,5 +986,55 @@
       "album": "Sicalyptico"
     },
     "why": "FM Достоевский #420: in lower case; MusicBrainz has Rita Calypso’s «Look at Me» on «Sicalyptico» (2004)"
+  },
+  {
+    "artist": "lonely drifter karen",
+    "track": "ready to fall",
+    "restore": {
+      "artist": "Lonely Drifter Karen",
+      "track": "Ready to Fall",
+      "album": "Fall of Spring"
+    },
+    "why": "FM Достоевский #728: in lower case; as on MusicBrainz, «Fall of Spring» (2010)"
+  },
+  {
+    "artist": "lonely drifter karen",
+    "track": "wondrous ways",
+    "restore": {
+      "artist": "Lonely Drifter Karen",
+      "track": "Wonderous Ways",
+      "album": "Fall of Spring"
+    },
+    "why": "FM Достоевский #728: in lower case; as on MusicBrainz, «Fall of Spring» (2010), whose track the band spells «Wonderous Ways»"
+  },
+  {
+    "artist": "lonely drifter karen",
+    "track": "carousel horses",
+    "restore": {
+      "artist": "Lonely Drifter Karen",
+      "track": "Carousel Horses",
+      "album": "Grass Is Singing"
+    },
+    "why": "FM Достоевский #618: in lower case; as on MusicBrainz, «Grass Is Singing» (2008)"
+  },
+  {
+    "artist": "lonely drifter karen",
+    "track": "comet",
+    "restore": {
+      "artist": "Lonely Drifter Karen",
+      "track": "Comet",
+      "album": "Poles"
+    },
+    "why": "Stereo Voodoo #1: in lower case; as on MusicBrainz, «Poles» (2012)"
+  },
+  {
+    "artist": "lonely drifter karen vs kasai allstars",
+    "track": "hunting on the moon",
+    "restore": {
+      "artist": "Lonely Drifter Karen vs Kasai Allstars",
+      "track": "Hunting on the Moon",
+      "album": "Tradi-Mods Vs. Rockers: Alternative Takes on Congotronics"
+    },
+    "why": "FM Достоевский #777: in lower case; as on MusicBrainz, Kasai Allstars’ «Hunting on the Moon (vs. Lonely Drifter Karen)» on «Tradi-Mods Vs. Rockers: Alternative Takes on Congotronics» (2010)"
   }
 ]
