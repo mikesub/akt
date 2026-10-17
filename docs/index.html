@@ -75,6 +75,9 @@
   }
   /* One line on a phone too: the size follows the screen's width, 20px at most. */
   h1 { font-size: clamp(15px, 4.6vw, 20px); margin: 0 0 4px; }
+  h1 sup { font-size: .6em; line-height: 0; }
+  /* The label Russian law requires: the full width, in the narrowest font at hand, so it takes few lines. */
+  .agent { margin: 0 0 4px; color: var(--muted); font-family: "Arial Narrow", "Avenir Next Condensed", "Roboto Condensed", sans-serif-condensed, sans-serif; font-stretch: condensed; }
   a { color: var(--link); text-decoration: none; }
   a:hover { text-decoration: underline; }
   .facet { margin: 16px 0 0; }
@@ -197,7 +200,8 @@
 </head>
 <body class="loading">
 <header>
-  <h1>Музыка из программ А.&nbsp;К.&nbsp;Троицкого</h1>
+  <h1>Музыка из программ А.&nbsp;К.&nbsp;Троицкого<sup>*</sup></h1>
+  <p class="agent">* НАСТОЯЩИЙ МАТЕРИАЛ (ИНФОРМАЦИЯ) ПРОИЗВЕДЕН, РАСПРОСТРАНЕН И (ИЛИ) НАПРАВЛЕН ИНОСТРАННЫМ АГЕНТОМ ТРОИЦКИМ АРТЕМИЕМ КИВОВИЧЕМ, ЛИБО КАСАЕТСЯ ДЕЯТЕЛЬНОСТИ ИНОСТРАННОГО АГЕНТА ТРОИЦКОГО АРТЕМИЯ КИВОВИЧА (18+)</p>
 </header>
 <p class="summary contact">
   Нашли ошибку или хотите помочь? Пишите на <a href="mailto:akt@mksb.me">akt@mksb.me</a>
