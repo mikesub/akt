@@ -1195,5 +1195,24 @@
       "album": "Good Sounds Movie Grooves"
     },
     "why": "FM Достоевский #36, from the XLS: misspelt; «Good Sounds Movie Grooves» (Good Sounds GS/LP 2001, UK, 1997), track B1 Roger Roger’s «Safari Park» (discogs.com/master/622919)"
+  },
+  {
+    "artist": "Ted Jarret & Band",
+    "track": "slow & easy (lets Twist)",
+    "restore": {
+      "artist": "Ted Jarrett & Band",
+      "track": "(Let's Twist) Slow And Easy"
+    },
+    "why": "«Песни и пляски» #1: misspelt; as on the single «(Let's Twist) Slow And Easy / My Happiness Twist» (Spar Records 716, US, March 1962; discogs.com/release/2080581), from the owner"
+  },
+  {
+    "artist": "Diablo & The Vampires of Fuzz",
+    "track": "Troubled man",
+    "restore": {
+      "artist": "Diablo And The Vampires Of Fuzz",
+      "track": "Troubled Man",
+      "album": "The Beat From 20,000 Garages - The Best Of Rebels Volume Three"
+    },
+    "why": "«Музыка на Свободе» #314: as on Discogs (discogs.com/artist/9686491, from the owner), «Troubled Man» on «The Beat From 20,000 Garages - The Best Of Rebels Volume Three» (Raving Pop Blast!, UK, 2021; discogs.com/master/2413405)"
   }
 ]

@@ -2709,10 +2709,12 @@
     "why": "FM Достоевский #199 prints the group as \"International\": «Devotional» on «Tala Matrix» (Axiom, 2000) is Ustad Sultan Khan and Zakir Hussain (India) with Bill Laswell (USA) (discogs.com/release/181076); India and the USA, the owner's word"
   },
   {
-    "artist": "Ted Jarret & Band",
-    "track": "slow & easy (lets Twist)",
+    "artist": "Ted Jarrett & Band",
+    "track": "(Let's Twist) Slow And Easy",
     "country": ["US"],
-    "why": "«Песни и пляски» #1 prints no country: the USA, the owner's word"
+    "discogs_id": 2080581,
+    "year": 1962,
+    "why": "«Песни и пляски» #1 prints no country: the USA, the owner's word; the single (Spar Records 716, US, March 1962; discogs.com/release/2080581), from the owner; MusicBrainz said 2012, a compilation's"
   },
   {
     "artist": "The Astro-Jets",
@@ -2909,8 +2911,8 @@
     "track": "Yeah, That's Right",
     "country": ["FR", "US", "DE", "NZ", "DK"],
     "discogs_id": 1827617,
-    "year": 2006,
-    "why": "FM Достоевский #580 prints the band as \"international\": France, the USA, Germany, New Zealand and Denmark, 2006, the owner's word; «Our Theory», the main release (Nublu NUB00008, US, 2006) of discogs.com/master/446398"
+    "year": 2005,
+    "why": "FM Достоевский #580 prints the band as \"international\": France, the USA, Germany, New Zealand and Denmark, the owner's word; «Our Theory», the main release (Nublu NUB00008, US, 2006) of discogs.com/master/446398, first out in 2005 (Nublu NUBLU 001, Turkey; discogs.com/release/14790864)"
   },
   {
     "artist": "Digital Design",
@@ -2927,5 +2929,12 @@
     "discogs_id": 3931482,
     "year": 1971,
     "why": "FM Достоевский #36 prints no country: the French composer Roger Roger (1911–1995; discogs.com/artist/44313), the owner's word. First out on Nino Nardini & Roger Roger's «Jungle Obsession» (Neuilly MC 8009, France, 1971; discogs.com/master/170329); the playlist's «Good Sounds Movie Grooves» is a 1997 compilation, its main release discogs.com/release/3931482"
+  },
+  {
+    "artist": "Diablo And The Vampires Of Fuzz",
+    "track": "Troubled Man",
+    "discogs_id": 20724802,
+    "year": 2020,
+    "why": "«Музыка на Свободе» #314: the main release (Raving Pop Blast!, UK, 2021) of discogs.com/master/2413405; first out on «Ice Creams & Daydreams» (Ice Cream Man Power Pop and More Records, Sweden, 2020; discogs.com/release/19517845)"
   }
 ]
