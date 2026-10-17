@@ -966,5 +966,15 @@
       "artist": "Yungchen Lhamo"
     },
     "why": "FM Достоевский #107, from the XLS: misspelt; MusicBrainz has Yungchen Lhamo’s «Happiness Is...» on «Coming Home» (Real World, 1998), and #53 spells her so"
+  },
+  {
+    "artist": "accordeon tribe",
+    "track": "tangocide",
+    "restore": {
+      "artist": "Accordion Tribe",
+      "track": "Tangocide",
+      "album": "Sea of Reeds"
+    },
+    "why": "FM Достоевский #330: misspelt, in lower case; MusicBrainz has Accordion Tribe’s «Tangocide» on «Sea of Reeds» (2002), and #90 spells the band so"
   }
 ]

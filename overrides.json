@@ -2663,5 +2663,10 @@
     "album": "King Chango",
     "country": ["US"],
     "why": "FM Достоевский #28 prints the band's country as \"Latin America\": a New York band, the owner's word"
+  },
+  {
+    "artist": "Accordion Tribe",
+    "country": ["SI", "SE", "FI", "US", "AT"],
+    "why": "FM Достоевский #90 and #330 print the group as \"International\": Bratko Bibič (Slovenia), Lars Hollmer (Sweden), Maria Kalaniemi (Finland), Guy Klucevsek (USA/Slovenia), Otto Lechner (Austria); the owner's word"
   }
 ]

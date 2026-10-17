@@ -106033,15 +106033,20 @@
         "year": 2002
       },
       {
-        "artist": "accordeon tribe",
-        "track": "tangocide",
-        "album": "sea of reeds",
+        "artist": "Accordion Tribe",
+        "track": "Tangocide",
+        "album": "Sea of Reeds",
         "printed_country": "international",
-        "country": null,
+        "country": [
+          "SI",
+          "SE",
+          "FI",
+          "US",
+          "AT"
+        ],
         "apple_id": 129556273,
         "apple_album_id": 129556272,
         "apple_artist_id": 129556176,
-        "mb_id": null,
         "year": 2003
       },
       {
@@ -152260,7 +152265,13 @@
         "track": "Inte Quanta",
         "album": "Accordion Tribe",
         "printed_country": "International",
-        "country": null,
+        "country": [
+          "SI",
+          "SE",
+          "FI",
+          "US",
+          "AT"
+        ],
         "apple_id": 129556227,
         "apple_album_id": 129556174,
         "apple_artist_id": null,
@@ -152491,7 +152502,13 @@
         "track": "Boeves Psalm",
         "album": "Accordion Tribe",
         "printed_country": "International",
-        "country": null,
+        "country": [
+          "SI",
+          "SE",
+          "FI",
+          "US",
+          "AT"
+        ],
         "apple_id": 129556224,
         "apple_album_id": 129556174,
         "apple_artist_id": null,
