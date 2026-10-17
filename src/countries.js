@@ -4,10 +4,11 @@ import { join } from 'node:path';
 /**
  * A playlist's printed country ("USA", "UK/Germany", "РФ", "czech rep.") to
  * its codes: ISO 3166-1 alpha-2, with England, Scotland, Wales and Northern
- * Ireland as GB-ENG, GB-SCT, GB-WLS and GB-NIR. countries.json (repo root)
+ * Ireland as GB-ENG, GB-SCT, GB-WLS and GB-NIR, and a territory no state is
+ * recognized for as X-<NAME> (X-TIBET, X-KURDISTAN). countries.json (repo root)
  * maps each spelling, lowercased, to its codes: [] for one that names no
- * country on purpose ("Kurdistan", "International"), null for a placeholder
- * ("?"), which says nothing. A spelling not in it is read part by part
+ * country on purpose ("International", "Sahara"), null for a placeholder
+ * ("?", or a joke such as "magic land"), which says nothing. A spelling not in it is read part by part
  * ("UK/USA", "Mali & France", "РФ/?"), and is unmapped unless every part is
  * in it.
  */

@@ -2525,86 +2525,136 @@
   {
     "artist": "J.C.Martineau-Beethova Obas-Ti Corn",
     "track": "Vyewo",
-    "country": [
-      "HT",
-      "FR"
-    ],
+    "country": ["HT", "FR"],
     "why": "«Песни и пляски» #32 prints its country as \"(Same)\": the line above's, Bob Bovano's (Haiti/France)"
   },
   {
     "artist": "Nick Cave & The Bad Seeds",
     "album": "Lovely Creatures",
-    "country": [
-      "AU",
-      "GB"
-    ],
+    "country": ["AU", "GB"],
     "why": "«Музыка на Свободе» #47 prints the band's country as \"International\"; Australia/UK, the owner's word"
   },
   {
     "artist": "Nick Cave & The Bad Seeds",
     "track": "From Her To Eternity",
     "album": "From Her to Eternity",
-    "country": [
-      "AU",
-      "GB"
-    ],
+    "country": ["AU", "GB"],
     "why": "«Музыка на Свободе» #196 prints the band's country as \"International\"; Australia/UK, the owner's word"
   },
   {
     "artist": "This Immortal Coil",
     "track": "The Dark Age of Love",
     "album": "The Dark Age of Love",
-    "country": [
-      "FR",
-      "BE"
-    ],
+    "country": ["FR", "BE"],
     "why": "FM Достоевский #735 prints the collective as \"international\": a Coil tribute, each track by other players; MusicBrainz credits this recording to Yael Naïm, Chapelier Fou, Christine Ott, David Donatien (France), Hannes d'Hoine and Roel Van Camp (Belgium)"
   },
   {
     "artist": "This Immortal Coil",
     "track": "Love's Secret Domain",
     "album": "The Dark Age of Love",
-    "country": [
-      "GB",
-      "FR"
-    ],
+    "country": ["GB", "FR"],
     "why": "FM Достоевский #735 prints the collective as \"international\": a Coil tribute, each track by other players; MusicBrainz credits this recording to Matt Elliott (UK, vocals) and Yann Tiersen (France)"
   },
   {
     "artist": "Tinariwen",
     "track": "Oulahila Ar Tesninam",
     "album": "Amassakoul",
-    "country": [
-      "ML"
-    ],
+    "country": ["ML"],
     "why": "FM Достоевский #375 prints the band's country as \"Sahara Desert\"; Mali, the owner's word"
   },
   {
     "artist": "Yungchen Lhamo",
     "track": "Om Mani Padme Hung",
     "album": "Tibet, Tibet",
-    "country": [
-      "US"
-    ],
-    "why": "FM Достоевский #53 prints her country as \"Tibet\", which has no code (countries.json); Tibet and the USA, the owner's word"
+    "country": ["US", "X-TIBET"],
+    "why": "FM Достоевский #53 prints her country as \"Tibet\" only; the USA and Tibet, the owner's word"
   },
   {
     "artist": "Yungchen Lhamo",
     "track": "Happiness Is...",
     "album": "Coming Home",
-    "country": [
-      "US"
-    ],
-    "why": "FM Достоевский #107 prints her country as \"Tibet\", which has no code (countries.json); Tibet and the USA, the owner's word"
+    "country": ["US", "X-TIBET"],
+    "why": "FM Достоевский #107 prints her country as \"Tibet\" only; the USA and Tibet, the owner's word"
   },
   {
     "artist": "Alan Vega & Panasonic",
     "track": "Medal",
     "album": "Endless",
-    "country": [
-      "US",
-      "FI"
-    ],
+    "country": ["US", "FI"],
     "why": "FM Достоевский #79 prints the pair as \"International\": Alan Vega (USA) and Panasonic (Finland, as #48 prints it); the owner's word"
+  },
+  {
+    "artist": "Олег Скрипка и другие украинские артисты",
+    "track": "Гимн Украïни",
+    "country": ["UA"],
+    "why": "«Музыка на Свободе», the Ukrainian special of 2022-03-20, prints no countries: a Ukrainian artist, the owner's word"
+  },
+  {
+    "artist": "Тарас Чубай & Скрябин",
+    "track": "Нашi партизани",
+    "country": ["UA"],
+    "why": "«Музыка на Свободе», the Ukrainian special of 2022-03-20, prints no countries: a Ukrainian artist, the owner's word"
+  },
+  {
+    "artist": "\"Гайдамаки\" та Таня Матвiенко",
+    "track": "Ой, у лузi червона калина",
+    "country": ["UA"],
+    "why": "«Музыка на Свободе», the Ukrainian special of 2022-03-20, prints no countries: a Ukrainian artist, the owner's word"
+  },
+  {
+    "artist": "Орест Лютий",
+    "track": "Ах, Бандеро – украïнський апостол",
+    "country": ["UA"],
+    "why": "«Музыка на Свободе», the Ukrainian special of 2022-03-20, prints no countries: a Ukrainian artist, the owner's word"
+  },
+  {
+    "artist": "Христина Соловей",
+    "track": "Украïнська лють",
+    "country": ["UA"],
+    "why": "«Музыка на Свободе», the Ukrainian special of 2022-03-20, prints no countries: a Ukrainian artist, the owner's word"
+  },
+  {
+    "artist": "Анастасiя Дмитрук",
+    "track": "Никогда мы не будем братьями",
+    "country": ["UA"],
+    "why": "«Музыка на Свободе», the Ukrainian special of 2022-03-20, prints no countries: a Ukrainian artist, the owner's word"
+  },
+  {
+    "artist": "Шабля",
+    "track": "Браття украïнцï",
+    "country": ["UA"],
+    "why": "«Музыка на Свободе», the Ukrainian special of 2022-03-20, prints no countries: a Ukrainian artist, the owner's word"
+  },
+  {
+    "artist": "Воплi Вiдоплясова & Устим",
+    "track": "Ми ростем",
+    "country": ["UA"],
+    "why": "«Музыка на Свободе», the Ukrainian special of 2022-03-20, prints no countries: a Ukrainian artist, the owner's word"
+  },
+  {
+    "artist": "Navi Band vs. Океан Эльзи",
+    "track": "Обiйми",
+    "country": ["BY", "UA"],
+    "why": "«Музыка на Свободе», the Ukrainian special of 2022-03-20, prints no countries: Navi Band (Belarus) with Океан Эльзи (Ukraine)"
+  },
+  {
+    "artist": "Тарас Боровок",
+    "track": "Байрактар",
+    "country": ["UA"],
+    "why": "«Музыка на Свободе», the Ukrainian special of 2022-03-20, prints no countries: a Ukrainian artist, the owner's word"
+  },
+  {
+    "artist": "Orchestra Baobab",
+    "track": "Coumba",
+    "album": "Pirates Choice",
+    "country": ["SN"],
+    "why": "FM Достоевский #274 prints the band's country as \"West Africa\": Senegal, the owner's word"
+  },
+  {
+    "artist": "Rachid Taha",
+    "track": "Ole, Ole",
+    "album": "Ole, Ole",
+    "country": ["DZ", "FR"],
+    "why": "FM Достоевский #7 prints his country as \"Middle East\": Algeria and France, the owner's word"
   }
 ]

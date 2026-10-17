@@ -5,6 +5,7 @@ import { join } from 'node:path';
 import { parseArgs } from 'node:util';
 import { unmapped, vague } from '../src/countries.js';
 import { findArtistCountry, mbCountryStats } from '../src/musicbrainz.js';
+import { countryOverridden } from '../src/overrides.js';
 import { readCountries } from '../src/parse.js';
 import { corrected } from '../src/pipeline.js';
 import { keyOf, program, programs, readPlaylists } from '../src/playlists.js';
@@ -140,7 +141,7 @@ function fromArchive(artist) {
   const counts = [...(printedBy.get(artistKey(artist)) ?? [])].sort((a, b) => b[1] - a[1]);
   return counts.length > 0 && counts[0][1] > (counts[1]?.[1] ?? 0) ? counts[0][0].split('/') : null;
 }
-const unprinted = (t) => 'printed_country' in t && (!t.printed_country || vague(t.printed_country));
+const unprinted = (t) => 'printed_country' in t && (!t.printed_country || vague(t.printed_country)) && !countryOverridden(t);
 for (const program of loaded) {
   for (const e of program.episodes) {
     e.tracks = e.tracks?.map((t) => {

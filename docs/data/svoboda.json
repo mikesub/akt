@@ -38015,7 +38015,8 @@
         "album": "Amina",
         "printed_country": "Belgium/Tibet",
         "country": [
-          "BE"
+          "BE",
+          "X-TIBET"
         ],
         "apple_id": 1454503316,
         "apple_album_id": 1454503079,
@@ -39372,6 +39373,7 @@
         "country": [
           "ES",
           "UY",
+          "X-KURDISTAN",
           "FR"
         ],
         "apple_id": 1441809174,
@@ -61415,7 +61417,6 @@
           "AU",
           "GB"
         ],
-        "country_from": "musicbrainz",
         "apple_id": 1439673299,
         "apple_album_id": 1439673197,
         "apple_artist_id": 1698460,
@@ -67278,7 +67279,9 @@
         "track": "Chomolungma",
         "album": "Amerli: Refugees for Refugees",
         "printed_country": "Tibet",
-        "country": null,
+        "country": [
+          "X-TIBET"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -70411,8 +70414,9 @@
         "track": "Гимн Украïни",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "UA"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -70423,8 +70427,9 @@
         "track": "Нашi партизани",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "UA"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -70435,8 +70440,9 @@
         "track": "Ой, у лузi червона калина",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "UA"
+        ],
         "apple_id": null,
         "mb_id": null,
         "year": 2018
@@ -70446,8 +70452,9 @@
         "track": "Ах, Бандеро – украïнський апостол",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "UA"
+        ],
         "apple_id": null,
         "mb_id": "d3869ea3-5693-46ce-b645-f2816ee26ce5",
         "year": 2012
@@ -70472,8 +70479,9 @@
         "track": "Украïнська лють",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "UA"
+        ],
         "apple_id": 1614320673,
         "apple_album_id": null,
         "apple_artist_id": 989965127,
@@ -70530,8 +70538,9 @@
         "track": "Никогда мы не будем братьями",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "UA"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -70557,8 +70566,9 @@
         "track": "Браття украïнцï",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "UA"
+        ],
         "apple_id": 1679657595,
         "apple_album_id": null,
         "apple_artist_id": 953419108,
@@ -70586,8 +70596,9 @@
         "track": "Ми ростем",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "UA"
+        ],
         "apple_id": null,
         "mb_id": null,
         "year": 2021
@@ -70597,8 +70608,10 @@
         "track": "Обiйми",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "BY",
+          "UA"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -70624,8 +70637,9 @@
         "track": "Байрактар",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "UA"
+        ],
         "apple_id": 1638164039,
         "apple_album_id": null,
         "apple_artist_id": null,

@@ -334,11 +334,11 @@
   "balkan": [],
   "sahara desert": [],
   "sahara": [],
-  "uighuristan": [],
+  "uighuristan": ["X-UYGHURISTAN"],
   "roma": [],
   "touareg": [],
-  "kurdistan": [],
-  "tibet": [],
+  "kurdistan": ["X-KURDISTAN"],
+  "tibet": ["X-TIBET"],
   "ur": [],
   "vietnam?finland": ["VN", "FI"]
 }

@@ -9,6 +9,15 @@ Routine updates (a new Стереоплан episode, a single fix) are not liste
 
 ## 2026-10-17
 
+- **Format:** `country` can hold three codes outside ISO 3166-1, for territories no state is recognized
+  for: `X-TIBET`, `X-KURDISTAN`, `X-UYGHURISTAN`. A playlist's "Tibet", "Kurdistan" and "Uighuristan"
+  gave no code before. 15 tracks, in every program but `zapiski.json`.
+- `country_from` is now left out when `overrides.json` sets the country, as it always should have been:
+  11 tracks in `svoboda.json` had `"musicbrainz"` beside a country MusicBrainz never gave.
+- About 30 more tracks have a country, set by hand in `overrides.json` from the owner's word or
+  MusicBrainz's credits, or inferred once a joke country ("magic land", "milky way", "stimorol") counts as
+  none: Svoboda's Ukrainian special of 2022-03-20, Captain Beefheart, Nick Cave & The Bad Seeds, This
+  Immortal Coil, Tinariwen, Alan Vega & Panasonic, Orchestra Baobab, Rachid Taha, Stimmhorn.
 - «FM Достоевский»: 3 new playlists, #623, #624 and #633, found nowhere before (778 of 820 episodes now,
   42 missing). The playlists of #620–#701 now come from a fans' collection's mp3 tags instead of radar.lv's
   CUE sheets: the same songs, now with every song's country and label (`printed_country` set for all

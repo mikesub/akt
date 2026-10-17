@@ -275,9 +275,14 @@
   /**
    * A country's Russian name and flag, by its code (countries.json): the browser's own names, but for
    * the codes it names wrongly or not at all; a former state shows its successor's flag, Northern
-   * Ireland the Union flag, Wales its own.
+   * Ireland the Union flag, Wales its own, a territory no state is recognized for (X-…) the white flag.
    */
-  const COUNTRY_NAMES = { EU: 'Европа', SU: 'СССР', CS: 'Чехословакия', YU: 'Югославия', DD: 'ГДР', VD: 'Южный Вьетнам', 'GB-WLS': 'Уэльс', 'GB-NIR': 'Северная Ирландия' };
+  const COUNTRY_NAMES = {
+    EU: 'Европа', SU: 'СССР', CS: 'Чехословакия', YU: 'Югославия', DD: 'ГДР', VD: 'Южный Вьетнам', 'GB-WLS': 'Уэльс', 'GB-NIR': 'Северная Ирландия',
+    'X-TIBET': 'Тибет', 'X-KURDISTAN': 'Курдистан', 'X-UYGHURISTAN': 'Уйгурстан',
+  };
+  const TERRITORY = 'territory'; // the country facet's value, and its URL's, for every X-… code
+  const territory = (code) => code === TERRITORY || code.startsWith('X-');
   const FLAG_OF = { SU: 'RU', CS: 'CZ', YU: 'RS', DD: 'DE', VD: 'VN', 'GB-NIR': 'GB' };
   const regionNames = new Intl.DisplayNames('ru', { type: 'region' });
   const countryName = (code) => {
@@ -290,17 +295,18 @@
   };
   const flag = (code) => {
     if (code === NO_COUNTRY) return '🏴‍☠️';
+    if (territory(code)) return '🏳️';
     if (code === 'GB-WLS') return '🏴\u{E0067}\u{E0062}\u{E0077}\u{E006C}\u{E0073}\u{E007F}';
     return [...(FLAG_OF[code] ?? code)].map((c) => String.fromCodePoint(0x1f1e6 + c.charCodeAt(0) - 65)).join('');
   };
   /**
-   * The filter's chips: one per flag, so a former state goes with its successor (the data and the
-   * table keep them apart); a chip that stands for two names both.
+   * The filter's chips: one per flag, so a former state goes with its successor, and the territories
+   * share the white flag's (the data and the table keep them apart); a chip that stands for two names both.
    */
-  const chipOf = (code) => FLAG_OF[code] ?? code;
+  const chipOf = (code) => (territory(code) ? TERRITORY : FLAG_OF[code] ?? code);
   const CHIP_NAMES = {
     RU: 'Россия/СССР', CZ: 'Чехия/Чехословакия', RS: 'Сербия/Югославия', DE: 'Германия/ГДР', VN: 'Вьетнам/Южный Вьетнам',
-    GB: 'Великобритания/Северная Ирландия',
+    GB: 'Великобритания/Северная Ирландия', [TERRITORY]: 'Непризнанные территории',
   };
   const chipName = (chip) => CHIP_NAMES[chip] ?? countryName(chip);
   /** A track's chips: one per flag; a playlist's own "Europe" (EU) has none, so a track with only that goes with no country. */

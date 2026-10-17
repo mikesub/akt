@@ -19699,7 +19699,9 @@
         "track": "atlan dok",
         "album": "listen to the banned",
         "printed_country": "uighuristan",
-        "country": null,
+        "country": [
+          "X-UYGHURISTAN"
+        ],
         "apple_id": null,
         "mb_id": "3de16344-e793-4777-aa6a-ccdd104c3449",
         "year": 2010
@@ -35728,7 +35730,8 @@
         "album": "daily practice",
         "printed_country": "russia/tibet",
         "country": [
-          "RU"
+          "RU",
+          "X-TIBET"
         ],
         "apple_id": null,
         "mb_id": null,
@@ -87079,6 +87082,7 @@
         "album": "selwa",
         "printed_country": "tibet/usa",
         "country": [
+          "X-TIBET",
           "US"
         ],
         "apple_id": null,
@@ -116964,7 +116968,9 @@
         "track": "Coumba",
         "album": "Pirates Choice",
         "printed_country": "West Africa",
-        "country": null,
+        "country": [
+          "SN"
+        ],
         "apple_id": 1716606623,
         "apple_album_id": 1716606619,
         "apple_artist_id": 42031575,
@@ -123916,7 +123922,9 @@
         "track": "Baxce Gulan",
         "album": "Eroy Oxir",
         "printed_country": "Kurdistan",
-        "country": null,
+        "country": [
+          "X-KURDISTAN"
+        ],
         "apple_id": 1655878195,
         "apple_album_id": 1655878123,
         "apple_artist_id": 465095763,
@@ -145191,7 +145199,9 @@
         "track": "Yamantaka",
         "album": "Dhama Suna",
         "printed_country": "Tibet",
-        "country": null,
+        "country": [
+          "X-TIBET"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -148301,7 +148311,8 @@
         "album": "Coming Home",
         "printed_country": "Tibet",
         "country": [
-          "US"
+          "US",
+          "X-TIBET"
         ],
         "apple_id": 1653293374,
         "apple_album_id": 1653293370,
@@ -149948,7 +149959,9 @@
         "track": "Esmer",
         "album": "The Third Planet",
         "printed_country": "Kurdistan",
-        "country": null,
+        "country": [
+          "X-KURDISTAN"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -156921,7 +156934,8 @@
         "album": "Cho",
         "printed_country": "UK/Tibet",
         "country": [
-          "GB"
+          "GB",
+          "X-TIBET"
         ],
         "apple_id": 1139037985,
         "apple_album_id": 1139037515,
@@ -161338,7 +161352,8 @@
         "album": "Tibet, Tibet",
         "printed_country": "Tibet",
         "country": [
-          "US"
+          "US",
+          "X-TIBET"
         ],
         "apple_id": 1654121156,
         "apple_album_id": 1654121148,
@@ -172254,7 +172269,10 @@
         "track": "Ole, Ole",
         "album": "Ole, Ole",
         "printed_country": "Middle East",
-        "country": null,
+        "country": [
+          "DZ",
+          "FR"
+        ],
         "apple_id": 1442076892,
         "apple_album_id": 1442076603,
         "apple_artist_id": 132444,
