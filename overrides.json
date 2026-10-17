@@ -2796,5 +2796,11 @@
     "artist": "Milla Jovovich & Million Dollar Hotel Band",
     "country": ["US", "IE", "GB"],
     "why": "FM Достоевский #165 prints them as \"International\": the USA, Ireland and the UK, the owner's word"
+  },
+  {
+    "artist": "Les Primitifs Du Futur",
+    "track": "La Java Viennoise (Louis Le Gambillieur Et La Fille De Dr. Freud)",
+    "country": ["FR"],
+    "why": "FM Достоевский #202 prints the band as \"International\": France, the owner's word"
   }
 ]
