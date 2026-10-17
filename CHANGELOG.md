@@ -9,6 +9,16 @@ Routine updates (a new Стереоплан episode, a single fix) are not liste
 
 ## 2026-10-18
 
+- **Format:** a new track field after `year`, `year_from`: where the year comes from, `musicbrainz`, `discogs`,
+  `apple` or `owner` (an `overrides.json` year); absent when `year` is null. Every year has one: 17,113 MusicBrainz,
+  1,666 Discogs, 1,607 Apple Music, 390 the owner's; 1,070 tracks have no year (as of this entry).
+- Years: Apple Music's year now counts only when no other source has one (it is often a reissue's or a
+  compilation's); the order is the owner's, MusicBrainz's, Discogs's, Apple's. 175 years changed in a pass over
+  every track with a Discogs master (from the masters dump of 2026-10-01, by artist and album): 102 tracks that had
+  no year got their master's, 64 Apple years became their master's (earlier, or one year later), 6 Discogs release
+  years became their master's, 3 by the owner's review. Another 428 Apple years were the master's too and are now
+  marked `discogs`. 143 doubtful cases wait for the owner (MusicBrainz 2+ years after the master, Apple 2+ years
+  before it, or a doubtful match).
 - **Format:** two new track fields, after `discogs_master_id`, on every track that has one (11,984 in every program):
   `discogs_genres` and `discogs_styles`, the Discogs master's genres and styles as Discogs names them, in its
   order (`["Electronic", "Rock"]`, `["Downtempo", "Leftfield"]`). Two independent lists: Discogs links no style to a

@@ -30,6 +30,15 @@ discogs_master_id, from that master in the dump: its genres and styles, two inde
 names them, album-level (a track gets its record's). A master the dump lacks (merged or deleted since)
 keeps what the track has. Run it again after a new dump, or after an override changes a master.
 
+With --years, applies the masters' years where the case is clear (AGENTS.md, Years), for tracks with a
+discogs_master_id whose match is not doubtful (no Discogs "(n)" namesake, no compilation-like title, the
+master's year no later than the episode aired): a track whose year is Apple's (year_from apple) or that
+has none takes the master's year when it is earlier, or later by one year at most; one whose year came
+from a Discogs release takes its master's when earlier. Years from MusicBrainz or the owner are never
+changed. Everything else worth a look goes to --review: a MusicBrainz year 2+ years after its master's,
+an Apple year 2+ years before its master's (the album is likely a later compilation), and a change the
+rule would make but for a doubtful match. A year the owner kept or set is an override (year_from owner).
+
 Options:
   --masters <file>   The masters dump (default: ../discogs_<date>_masters.xml.gz, the newest)
   --artists <file>   The artists dump, for name variations and aliases (default: the newest beside it;
@@ -37,8 +46,8 @@ Options:
   --report <file>    Write the report there (default: stdout)
   --write            Set the masters in docs/data, then their genres and styles (see above)
   --genres           Set the genres and styles of every track's master in docs/data (see above)
-  --review <file>    Write, as JSON, the matched tracks whose master is 2+ years older than their year
-                     ("earlier") or who have no year ("missing"), for the owner to review; no data change
+  --years            Set the masters' years where the case is clear (see above)
+  --review <file>    With --years: write, as JSON, the doubtful cases for the owner to review (see above)
   -h, --help         Show this help
 `;
 
@@ -52,6 +61,7 @@ try {
       write: { type: 'boolean' },
       genres: { type: 'boolean' },
       review: { type: 'string' },
+      years: { type: 'boolean' },
       help: { type: 'boolean', short: 'h' },
     },
   });
@@ -64,7 +74,7 @@ try {
   if (!masters || !existsSync(masters)) throw new Error('no masters dump: download discogs_<date>_masters.xml.gz from data.discogs.com next to the repo, or name it with --masters');
   const artists = values.artists === 'none' ? null : (values.artists ?? newest('artists'));
   if (artists && !existsSync(artists)) throw new Error(`no artists dump at ${artists}`);
-  opts = { masters, artists, report: values.report ?? null, write: values.write ?? false, genres: (values.genres || values.write) ?? false, review: values.review ?? null };
+  opts = { masters, artists, report: values.report ?? null, write: values.write ?? false, genres: (values.genres || values.write) ?? false, review: values.review ?? null, years: values.years ?? false };
 } catch (err) {
   process.stderr.write(`${err.message}\n\n${USAGE}`);
   process.exit(2);
@@ -104,12 +114,16 @@ const started = Date.now();
 const candidates = []; // masters whose title is one of our albums
 const ourMasters = new Set(tracks.map((x) => x.t.discogs_master_id).filter(Boolean));
 const genresBy = new Map(); // master id -> { genres, styles }, for the masters our tracks have
+const ourMasterRecords = new Map(); // master id -> parseMaster(), with --years
 let mastersSeen = 0;
 await records(opts.masters, 'master', (rec) => {
   mastersSeen++;
-  if (opts.genres) {
+  if (opts.genres || opts.years) {
     const id = Number(rec.match(/<master id="(\d+)"/)?.[1]);
-    if (ourMasters.has(id)) genresBy.set(id, genresOf(rec));
+    if (ourMasters.has(id)) {
+      if (opts.genres) genresBy.set(id, genresOf(rec));
+      if (opts.years) ourMasterRecords.set(id, parseMaster(rec));
+    }
   }
   // The title first, cheaply: most masters are not one of our albums.
   const title = decode(rec.match(/<\/artists>[\s\S]*?<title>([\s\S]*?)<\/title>/)?.[1] ?? rec.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? '');
@@ -252,51 +266,74 @@ const text = `${out.join('\n')}\n`;
 if (opts.report) writeFileSync(opts.report, text);
 else if (!opts.write) process.stdout.write(text);
 
-// ------------------------------------------------------------------ review list
+// ------------------------------------------------------------------ years
 
-if (opts.review) {
-  const COMPILATION = /\b(best of|greatest|collection|anthology|singles|complete|hits|archives?|anniversary|remaster(ed)?|deluxe)\b/i;
+const changedTracks = new Set();
+const COMPILATION = /\b(best of|greatest|collection|anthology|singles|complete|hits|archives?|anniversary|remaster(ed)?|deluxe)\b/i;
+const yearChanges = [];
+if (opts.years) {
   const mentions = (m, track) => {
     const key = titleKey(track ?? '');
     return key.length > 0 && m.videos.some((v) => titleKey(v).includes(key));
   };
   const review = [];
-  for (const { x, m } of assigned) {
-    if ('discogs_master_id' in x.t && x.t.discogs_master_id !== m.id) continue;
+  const rule = { earlier: 0, same: 0, later1: 0, missing: 0, release: 0 };
+  for (const x of tracks) {
+    const m = x.t.discogs_master_id && ourMasterRecords.get(x.t.discogs_master_id);
+    if (!m?.year) continue;
     const ours = x.t.year ?? null;
-    if (!m.year) continue;
-    const kind = ours === null ? 'missing' : ours - m.year >= 2 ? 'earlier' : null;
-    if (!kind) continue;
-    review.push({
-      program: x.program,
-      episode: x.episode,
-      aired: x.aired ?? x.airYear,
-      artist: x.t.artist,
-      track: x.t.track,
-      album: x.t.album,
-      our_year: ours,
-      master_id: m.id,
-      master_title: m.title,
-      master_artists: m.artists.map((a) => a.name).join(', '),
-      master_year: m.year,
-      gap: ours === null ? null : ours - m.year,
-      kind,
-      video_mentions_track: mentions(m, x.t.track),
+    const from = ours === null ? null : (x.t.year_from ?? 'apple');
+    if (from === 'owner') continue;
+    const flags = {
       compilation_like: COMPILATION.test(m.title) || COMPILATION.test(x.t.album ?? ''),
       after_air: x.airYear !== null && m.year > x.airYear,
       // The matched Discogs artist is a namesake Discogs tells apart with " (2)": a wrong band, maybe.
       discogs_namesake: m.artists.some((a) => /\s\(\d+\)$/.test(a.name)),
-    });
+    };
+    const gap = ours === null ? null : ours - m.year; // > 0: the master is earlier
+    // What the rule would do, before the flags: take the master's year, ask, or nothing.
+    let take = null, kind = null;
+    if (from === null) take = 'missing';
+    else if (from === 'apple') {
+      if (gap > 0) take = 'earlier';
+      else if (gap === 0) take = 'same'; // the same year, now on Discogs's word rather than Apple's
+      else if (gap === -1) take = 'later1';
+      else kind = 'apple_earlier';
+    }
+    else if (from === 'discogs') take = gap > 0 ? 'release' : null;
+    else if (from === 'musicbrainz') kind = gap >= 2 ? 'musicbrainz' : null;
+    // A year after the episode aired never counts: nothing to take, nothing to ask.
+    if (flags.after_air) take = null, kind = null;
+    if (take && (flags.compilation_like || flags.discogs_namesake)) {
+      // A doubtful match: worth asking only when it would change the year.
+      if (take !== 'same') kind = 'flagged';
+      take = null;
+    }
+    if (take) {
+      rule[take]++;
+      if (take !== 'same') yearChanges.push({ program: x.program, episode: x.episode, artist: x.t.artist, track: x.t.track, from: ours, to: m.year, rule: take, was: from });
+      x.t.year = m.year;
+      x.t.year_from = 'discogs';
+      changedTracks.add(x.t);
+    } else if (kind) {
+      review.push({
+        program: x.program, episode: x.episode, aired: x.aired ?? x.airYear, artist: x.t.artist, track: x.t.track, album: x.t.album,
+        our_year: ours, year_from: from, master_id: m.id, master_title: m.title, master_artists: m.artists.map((a) => a.name).join(', '),
+        master_year: m.year, gap, kind, video_mentions_track: mentions(m, x.t.track), ...flags,
+      });
+    }
   }
-  const order = { earlier: 0, missing: 1 };
-  review.sort((a, b) => order[a.kind] - order[b.kind] || (b.gap ?? 0) - (a.gap ?? 0) || a.program.localeCompare(b.program));
-  writeFileSync(opts.review, `${JSON.stringify(review, null, 2)}\n`);
-  console.error(`review: ${review.length} tracks (${review.filter((r) => r.kind === 'earlier').length} earlier, ${review.filter((r) => r.kind === 'missing').length} missing) in ${opts.review}`);
+  console.error(`years: ${yearChanges.length} changed by masters (${rule.missing} where we had none, ${rule.earlier} earlier than Apple's, ${rule.same} the same as Apple's, ${rule.later1} a year after Apple's, ${rule.release} earlier than a Discogs release's); ${review.length} doubtful`);
+  if (opts.review) {
+    const order = { musicbrainz: 0, apple_earlier: 1, flagged: 2 };
+    review.sort((a, b) => order[a.kind] - order[b.kind] || Math.abs(b.gap ?? 0) - Math.abs(a.gap ?? 0) || a.program.localeCompare(b.program));
+    writeFileSync(opts.review, `${JSON.stringify(review, null, 2)}\n`);
+    console.error(`review: ${review.length} tracks in ${opts.review}`);
+  }
 }
 
 // ------------------------------------------------------------------ masters
 
-const changedTracks = new Set();
 if (opts.write) {
   for (const { x, m } of toSet) {
     x.t.discogs_master_id = m.id;

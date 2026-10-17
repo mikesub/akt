@@ -34,7 +34,8 @@
           "Experimental",
           "Folk"
         ],
-        "year": 2005
+        "year": 2005,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "La Yergos ft Baba Zula",
@@ -78,7 +79,8 @@
           "Experimental",
           "Folk"
         ],
-        "year": 2005
+        "year": 2005,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dean Wareham",
@@ -92,7 +94,8 @@
         "apple_album_id": null,
         "apple_artist_id": 18066494,
         "mb_id": "4c3c6e14-9601-4af7-bf57-430dd5b1dcab",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "ØY",
@@ -118,7 +121,8 @@
           "African",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Olah Gypsy Beats",
@@ -132,7 +136,8 @@
         "apple_album_id": 1679714994,
         "apple_artist_id": 1159384957,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Pedrinho",
@@ -146,7 +151,8 @@
         "apple_album_id": null,
         "apple_artist_id": 62873306,
         "mb_id": "1e6419ba-c834-41d6-b8cd-61e1945a5f0c",
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jovino Dos Santos",
@@ -160,7 +166,8 @@
         "apple_album_id": null,
         "apple_artist_id": 386681959,
         "mb_id": "d559e9c3-7063-4af6-8dfd-16428ba7d2b8",
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Abel Lima",
@@ -174,7 +181,8 @@
         "apple_album_id": null,
         "apple_artist_id": 585411023,
         "mb_id": "a55a339c-2810-4170-bbbe-a10ba639b5a0",
-        "year": 1978
+        "year": 1978,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Judy Spellman and the Phavior Adelic",
@@ -188,7 +196,8 @@
         "apple_album_id": 1090391638,
         "apple_artist_id": 1090391870,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Baildsa",
@@ -201,7 +210,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 7002242,
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Baildsa",
@@ -214,7 +224,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 7002242,
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Luisa Maita",
@@ -238,7 +249,8 @@
           "Downtempo",
           "MPB"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -268,7 +280,8 @@
         "discogs_styles": [
           "Punk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Little Annie",
@@ -291,7 +304,8 @@
           "Downtempo",
           "Freestyle"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Guo Gan & Emre Gültekin",
@@ -306,7 +320,8 @@
         "apple_album_id": 1458611038,
         "apple_artist_id": null,
         "mb_id": "fcf03724-acd1-4e51-80a3-ff01afeb1c7d",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Guo Gan & Emre Gültekin",
@@ -321,7 +336,8 @@
         "apple_album_id": 1458611038,
         "apple_artist_id": null,
         "mb_id": "93f9b42c-ccde-4899-b8d2-7822828f1fb7",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Oh! Gunquit",
@@ -343,7 +359,8 @@
           "New Wave",
           "Garage Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Marta Topferova & Ernesto Chuecos",
@@ -358,7 +375,8 @@
         "apple_album_id": 1155684015,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "The Gentle Lurch",
@@ -377,7 +395,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Gentle Lurch",
@@ -396,7 +415,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ethio Stars",
@@ -410,7 +430,8 @@
         "apple_album_id": 1200501629,
         "apple_artist_id": 1198251940,
         "mb_id": "cc8f5edf-05e7-4b12-8651-cf7410b0775e",
-        "year": 1992
+        "year": 1992,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tukul Band",
@@ -424,7 +445,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1198261943,
         "mb_id": "54294bd3-b6b1-48cc-9dc9-d054356fed2c",
-        "year": 1992
+        "year": 1992,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ses",
@@ -437,7 +459,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 14534180,
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Ses",
@@ -451,7 +474,8 @@
         "apple_album_id": 1172864131,
         "apple_artist_id": 160099178,
         "mb_id": "26666bd0-5040-4619-bfc3-6e855f63f3de",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -488,7 +512,8 @@
           "African",
           "Raï"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Acid Arab ft. Rachid Taha",
@@ -517,7 +542,8 @@
           "African",
           "Raï"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Acid Arab ft. Rachid Taha",
@@ -545,7 +571,8 @@
           "African",
           "Raï"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Emel",
@@ -566,7 +593,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Emel",
@@ -587,7 +615,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Curse Ov Dialect",
@@ -610,7 +639,8 @@
           "Conscious",
           "Experimental"
         ],
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Andreas Arnold",
@@ -625,7 +655,8 @@
         "apple_album_id": 1116033994,
         "apple_artist_id": 361792590,
         "mb_id": "b1ca05e1-391d-4aa1-9b3a-15bbb7ab0537",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fraunhofer Saitenmusik",
@@ -639,7 +670,8 @@
         "apple_album_id": null,
         "apple_artist_id": 273846950,
         "mb_id": "27fdd924-f5b2-4461-b4b3-6a5fca3c8db7",
-        "year": 1985
+        "year": 1985,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lifetones",
@@ -660,7 +692,8 @@
           "Dub",
           "Art Rock"
         ],
-        "year": 1983
+        "year": 1983,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kitty, Daisy & Lewis",
@@ -674,7 +707,8 @@
         "apple_album_id": 433164545,
         "apple_artist_id": 192441727,
         "mb_id": "22ea692a-9eb9-4f9f-9623-bd834f5c8907",
-        "year": 2011
+        "year": 2011,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Chicano Batman",
@@ -699,7 +733,8 @@
           "Funk",
           "Psychedelic"
         ],
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gaza Youth Choir",
@@ -743,7 +778,8 @@
         "discogs_styles": [
           "Tango"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Otros Aires",
@@ -764,7 +800,8 @@
         "discogs_styles": [
           "Tango"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Afrikän Protoköl",
@@ -779,7 +816,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1093243671,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "Kompania",
@@ -793,7 +831,8 @@
         "apple_album_id": 1201190308,
         "apple_artist_id": 275544015,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Kong Nai",
@@ -807,7 +846,8 @@
         "apple_album_id": null,
         "apple_artist_id": 305111913,
         "mb_id": "c2001300-f080-438b-9f82-d9221791bda7",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rab Ban",
@@ -821,7 +861,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1129232071,
         "mb_id": "3e48f8ad-1e3b-4065-b9ad-074284780d6d",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mon Hai",
@@ -833,7 +874,8 @@
         ],
         "apple_id": null,
         "mb_id": "cf32fdd7-5a11-44e0-acfa-176f0439e169",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Prom Chantol",
@@ -847,7 +889,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1129232275,
         "mb_id": "1a5d8ee6-6501-44e7-b6da-aa10a0125779",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kansas Smitty's House Band",
@@ -861,7 +904,8 @@
         "apple_album_id": 1349366567,
         "apple_artist_id": 1484476289,
         "mb_id": "8c28896d-2cdd-412a-a86c-fd4c33772d34",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dosaguas",
@@ -876,7 +920,8 @@
         "apple_album_id": 1163598614,
         "apple_artist_id": 1163598615,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Hanitra",
@@ -890,7 +935,8 @@
         "apple_album_id": 1185960428,
         "apple_artist_id": null,
         "mb_id": "f095c980-9a4d-40d8-92a4-cac8e2c54d8d",
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hanitra",
@@ -904,7 +950,8 @@
         "apple_album_id": 1185960428,
         "apple_artist_id": null,
         "mb_id": "1a87cd44-8682-4aae-9730-b83f8f23d44e",
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Backseat Angels",
@@ -926,7 +973,8 @@
           "Power Pop",
           "Garage Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Balkansambel",
@@ -939,7 +987,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 12189151,
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       }
     ]
   },
@@ -962,7 +1011,8 @@
         "apple_album_id": 1153961677,
         "apple_artist_id": 1529312580,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Seydu ft. Mariem Hassan",
@@ -977,7 +1027,8 @@
         "apple_album_id": 1153961677,
         "apple_artist_id": 1529312580,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Marcella Arroyo/Andreas Engler/Daniel Schlappi",
@@ -992,7 +1043,8 @@
         "apple_album_id": 1099941276,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Burak Malçok",
@@ -1004,7 +1056,8 @@
         ],
         "apple_id": null,
         "mb_id": "a37d2c99-40fc-46a5-9759-443f775d9220",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Burak Malçok vs Mercan Dede",
@@ -1017,7 +1070,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 20725390,
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Police Dog Hogan",
@@ -1036,7 +1090,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pixvae",
@@ -1060,7 +1115,8 @@
           "Avantgarde",
           "Prog Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Emicida",
@@ -1074,7 +1130,8 @@
         "apple_album_id": 1104593271,
         "apple_artist_id": 411646451,
         "mb_id": "9994fc77-1762-4adc-b645-9c583bf7a5cf",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Emicida",
@@ -1088,7 +1145,8 @@
         "apple_album_id": 1104593271,
         "apple_artist_id": 411646451,
         "mb_id": "4e979940-507a-45c8-b2be-0fde0d92aba6",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tarhan",
@@ -1103,7 +1161,8 @@
         "apple_album_id": 1473598654,
         "apple_artist_id": 1473348625,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Tarhan",
@@ -1118,7 +1177,8 @@
         "apple_album_id": 1473598654,
         "apple_artist_id": 1473348625,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Half Japanese",
@@ -1140,7 +1200,8 @@
           "Indie Rock",
           "Art Rock"
         ],
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Voxtra",
@@ -1158,7 +1219,8 @@
         "apple_album_id": 1164126253,
         "apple_artist_id": 1164126407,
         "mb_id": "12570824-a2fd-468c-81a5-9f612ca561bd",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -1181,7 +1243,8 @@
         "apple_album_id": null,
         "apple_artist_id": 273846846,
         "mb_id": "3f351f9a-d87e-4a9d-a9b7-7ca6af51535c",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fei Scho",
@@ -1195,7 +1258,8 @@
         "apple_album_id": null,
         "apple_artist_id": 273846846,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Amira Medunjanin",
@@ -1214,7 +1278,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Amira Medunjanin",
@@ -1233,7 +1298,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Xamanek",
@@ -1247,7 +1313,8 @@
         "apple_album_id": 1114566703,
         "apple_artist_id": 569738319,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Xamanek",
@@ -1261,7 +1328,8 @@
         "apple_album_id": 1114566703,
         "apple_artist_id": 569738319,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "The Phantoms",
@@ -1282,7 +1350,8 @@
         "discogs_styles": [
           "Beat"
         ],
-        "year": 1961
+        "year": 1961,
+        "year_from": "discogs"
       },
       {
         "artist": "Francesca Blanchard",
@@ -1304,7 +1373,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Francesca Blanchard",
@@ -1326,7 +1396,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Passo Torto",
@@ -1355,7 +1426,8 @@
           "Art Rock",
           "Samba"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mariem Hassan",
@@ -1370,7 +1442,8 @@
         "apple_album_id": 1179468641,
         "apple_artist_id": 141186165,
         "mb_id": "38a86354-894e-47e2-b549-2b3a814be1ec",
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mariem Hassan",
@@ -1385,7 +1458,8 @@
         "apple_album_id": 1179468641,
         "apple_artist_id": 141186165,
         "mb_id": "929cf500-d773-4daa-b609-7e51d91678b9",
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Los Pirañas",
@@ -1409,7 +1483,8 @@
           "Surf",
           "Psychedelic Rock"
         ],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -1432,7 +1507,8 @@
         "apple_album_id": 1160978033,
         "apple_artist_id": 2413242,
         "mb_id": "a3afd835-30f3-47ae-abfb-0a29eeceb3f8",
-        "year": 1988
+        "year": 1988,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bonga",
@@ -1446,7 +1522,8 @@
         "apple_album_id": 1160978033,
         "apple_artist_id": 2413242,
         "mb_id": "9c0f189a-403b-4bca-9c44-b62a63990a5c",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bonga",
@@ -1482,7 +1559,8 @@
         "discogs_styles": [
           "Brass Band"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tomáš Kočko & Orchestr",
@@ -1496,7 +1574,8 @@
         "apple_album_id": 1105515207,
         "apple_artist_id": 201642331,
         "mb_id": "776e4c72-8883-41d3-97d4-155fdb2b3b0b",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tomáš Kočko & Orchestr",
@@ -1510,7 +1589,8 @@
         "apple_album_id": 1105515207,
         "apple_artist_id": 201642331,
         "mb_id": "006a0746-16f5-4c25-b481-578ebc0ee794",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Susheela Raman",
@@ -1534,7 +1614,8 @@
         "discogs_styles": [
           "Fusion"
         ],
-        "year": 2010
+        "year": 2010,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Chain & The Gang",
@@ -1555,7 +1636,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Teho Majamäki",
@@ -1578,7 +1660,8 @@
           "Folk",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Teho Majamäki ft. Jenia Lubich",
@@ -1602,7 +1685,8 @@
           "Folk",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Claudia Aurora",
@@ -1624,7 +1708,8 @@
         "discogs_styles": [
           "Fado"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Claudia Aurora",
@@ -1646,7 +1731,8 @@
         "discogs_styles": [
           "Fado"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Yakumbe",
@@ -1660,7 +1746,8 @@
         "apple_album_id": 1654155926,
         "apple_artist_id": 994478359,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       }
     ]
   },
@@ -1690,7 +1777,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Breath",
@@ -1711,7 +1799,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kottarashky & The Rain Dogs",
@@ -1735,7 +1824,8 @@
           "Folk",
           "Electro"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kottarashky & The Rain Dogs",
@@ -1759,7 +1849,8 @@
           "Folk",
           "Electro"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mojo Juju",
@@ -1782,7 +1873,8 @@
           "Funk",
           "Soul"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mojo Juju",
@@ -1805,7 +1897,8 @@
           "Funk",
           "Soul"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Pedrito Martinez Group",
@@ -1829,7 +1922,8 @@
           "Latin Jazz",
           "Timba"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "ORCHESTER Congo Internationale",
@@ -1854,7 +1948,8 @@
         ],
         "apple_id": null,
         "mb_id": "64d1c59a-d085-4a30-b783-dce65c34b802",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "L'Orchestre Dar International",
@@ -1881,7 +1976,8 @@
         "apple_album_id": null,
         "apple_artist_id": 828495038,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "Eat Your Guru",
@@ -1895,7 +1991,8 @@
         "apple_album_id": null,
         "apple_artist_id": 378135410,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       }
     ]
   },
@@ -1926,7 +2023,8 @@
           "Reggae",
           "Dancehall"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Наташа Артёмова",
@@ -1966,7 +2064,8 @@
         "apple_album_id": null,
         "apple_artist_id": 98210948,
         "mb_id": "b50ecf0b-111a-45de-8a11-aded6f7dbc9f",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Stinka",
@@ -1980,7 +2079,8 @@
         "apple_album_id": 1750738653,
         "apple_artist_id": 731827076,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Stinka",
@@ -1994,7 +2094,8 @@
         "apple_album_id": 1750738653,
         "apple_artist_id": 731827076,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Afenginn",
@@ -2015,7 +2116,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Afenginn",
@@ -2036,7 +2138,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Milo Ke Mandarini",
@@ -2050,7 +2153,8 @@
         "apple_album_id": 1095810622,
         "apple_artist_id": 1095810626,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Dawda Jobarteh",
@@ -2065,7 +2169,8 @@
         "apple_album_id": 1145072140,
         "apple_artist_id": 457178336,
         "mb_id": "6526c7e0-d5a0-4201-a519-fb4a5ee7a998",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dawda Jobarteh",
@@ -2080,7 +2185,8 @@
         "apple_album_id": 1145072140,
         "apple_artist_id": 457178336,
         "mb_id": "fe5a57b5-d926-48cf-aacb-bed41015b834",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Global Groove Lab",
@@ -2097,7 +2203,8 @@
         "apple_album_id": 1356682467,
         "apple_artist_id": 767690038,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Global Groove Lab",
@@ -2114,7 +2221,8 @@
         "apple_album_id": 1356682467,
         "apple_artist_id": 767690038,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       }
     ]
   },
@@ -2164,7 +2272,8 @@
         "apple_album_id": 1079628323,
         "apple_artist_id": 1079628332,
         "mb_id": "d63eaed1-12e9-44cc-a1e8-6307a6f47d02",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Faith I Branko",
@@ -2179,7 +2288,8 @@
         "apple_album_id": 1079628323,
         "apple_artist_id": 1079628332,
         "mb_id": "31d13cc9-adfa-49a1-8e8b-f615a8ad7efb",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Suuri Suomalainen Cumbia-Orkesteri",
@@ -2193,7 +2303,8 @@
         "apple_album_id": 1162502004,
         "apple_artist_id": 1110656414,
         "mb_id": "9be9e2f3-6019-4390-8e60-7fda70ecb1ba",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Maryann & the Tri-Tones",
@@ -2207,7 +2318,8 @@
         "apple_album_id": 1207287327,
         "apple_artist_id": 964909349,
         "mb_id": "998dce12-601c-49ac-a4c7-39e1e385b829",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Maryann & the Tri-Tones",
@@ -2221,7 +2333,8 @@
         "apple_album_id": 1207287327,
         "apple_artist_id": 964909349,
         "mb_id": "cde9ab14-c8c2-4943-818e-2606b0dbb55a",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Apokalipsis",
@@ -2246,7 +2359,8 @@
         ],
         "apple_id": null,
         "mb_id": "5191e579-1bda-4414-839b-93c11698e83f",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Miguel Angel Fusler",
@@ -2281,7 +2395,8 @@
           "Pop Rock",
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Totally Mild",
@@ -2303,7 +2418,8 @@
           "Pop Rock",
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Abou Diarra",
@@ -2324,7 +2440,8 @@
         "discogs_styles": [
           "African"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -2355,7 +2472,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fela Kuti & Nigeria 70",
@@ -2369,7 +2487,8 @@
         "apple_album_id": 1783198800,
         "apple_artist_id": null,
         "mb_id": "1c29e6d7-83be-491d-8fea-f861e80dcaa8",
-        "year": 1969
+        "year": 1969,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rosa Cadron",
@@ -2409,7 +2528,8 @@
         "apple_album_id": 1057018633,
         "apple_artist_id": 322385983,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "Изя Кольт",
@@ -2436,7 +2556,8 @@
         "apple_album_id": 1750739846,
         "apple_artist_id": 258240648,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Sylvie Krobová",
@@ -2450,7 +2571,8 @@
         "apple_album_id": 1750739846,
         "apple_artist_id": 258240648,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Mil Santos",
@@ -2465,7 +2587,8 @@
         "apple_album_id": 1086074190,
         "apple_artist_id": 1086074193,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Nap Eyes",
@@ -2484,7 +2607,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hrdza",
@@ -2498,7 +2622,8 @@
         "apple_album_id": null,
         "apple_artist_id": 259342390,
         "mb_id": "a3d8d6be-66c1-491d-b18d-dd48fcecffb1",
-        "year": 2009
+        "year": 2009,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hrdza",
@@ -2512,7 +2637,8 @@
         "apple_album_id": null,
         "apple_artist_id": 259342390,
         "mb_id": "da9de444-6492-4a67-bd90-d6f7970e4024",
-        "year": 2006
+        "year": 2006,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Goksel Yilmaz Ensemble",
@@ -2534,7 +2660,8 @@
           "Folk",
           "Country"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       }
     ]
   },
@@ -2557,7 +2684,8 @@
         "apple_album_id": 1085077764,
         "apple_artist_id": 21442737,
         "mb_id": "14850fc3-858a-46f1-b426-404d7c3b4dbf",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Djelimady Tounkara",
@@ -2571,7 +2699,8 @@
         "apple_album_id": 1085077764,
         "apple_artist_id": 21442737,
         "mb_id": "24a7ec65-2815-4d6f-832b-9abbd093e3b1",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Фёдор Чистяков",
@@ -2590,7 +2719,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Фёдор Чистяков",
@@ -2609,7 +2739,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mosaik",
@@ -2621,7 +2752,8 @@
         ],
         "apple_id": null,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "owner"
       },
       {
         "artist": "The Karovas Milkshake",
@@ -2642,7 +2774,8 @@
         "discogs_styles": [
           "Psychedelic Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Karovas Milkshake",
@@ -2663,7 +2796,8 @@
         "discogs_styles": [
           "Psychedelic Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rumbamazigha",
@@ -2677,7 +2811,8 @@
         "apple_album_id": 993915616,
         "apple_artist_id": 416329189,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Jamaican Jazz Orchestra",
@@ -2697,7 +2832,8 @@
           "Reggae"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "A Presença das Formigas",
@@ -2718,7 +2854,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "A Presença das Formigas",
@@ -2739,7 +2876,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -2762,7 +2900,8 @@
         "apple_album_id": 1046636167,
         "apple_artist_id": 321084947,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Sonido Vegetal",
@@ -2776,7 +2915,8 @@
         "apple_album_id": 1046636167,
         "apple_artist_id": 321084947,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Pit Ponies",
@@ -2801,7 +2941,8 @@
           "Pub Rock",
           "Soul"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Os Tucumanus",
@@ -2815,7 +2956,8 @@
         "apple_album_id": 935412921,
         "apple_artist_id": 935412926,
         "mb_id": "c766b012-624c-441c-915f-7bad8b8d7f91",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ssassa",
@@ -2830,7 +2972,8 @@
         "apple_album_id": 1323977050,
         "apple_artist_id": 282780053,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Nakany Kante",
@@ -2844,7 +2987,8 @@
         "apple_album_id": 1424995084,
         "apple_artist_id": 775099261,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "The Apartments",
@@ -2863,7 +3007,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Apartments",
@@ -2882,7 +3027,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Myrddin",
@@ -2902,7 +3048,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Vladimír Václavek",
@@ -2914,7 +3061,8 @@
         ],
         "apple_id": null,
         "mb_id": "70199a09-a16d-43dc-93d4-1fa680f87667",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mountain Heart",
@@ -2928,7 +3076,8 @@
         "apple_album_id": 1091014807,
         "apple_artist_id": 21898821,
         "mb_id": "018e2f3c-5b4c-4b22-8c7c-9f0295a30f94",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -2952,7 +3101,8 @@
         "apple_album_id": 1653248162,
         "apple_artist_id": 289089863,
         "mb_id": "0d634d52-c480-4a78-ab28-5be2e5dae890",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Quique Escamilla",
@@ -2967,7 +3117,8 @@
         "apple_album_id": 1399871925,
         "apple_artist_id": 497522301,
         "mb_id": "004db1f0-84de-452c-b845-f48a4d80fbd6",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Quique Escamilla",
@@ -2982,7 +3133,8 @@
         "apple_album_id": 1399871925,
         "apple_artist_id": 497522301,
         "mb_id": "a763ced0-c8ec-4862-a27f-e53b5a9fc2b9",
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Quique Escamilla",
@@ -2997,7 +3149,8 @@
         "apple_album_id": 1399871925,
         "apple_artist_id": 497522301,
         "mb_id": "10d26b4b-188a-44a5-9ecb-42b31a1fe280",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ot Azoj",
@@ -3011,7 +3164,8 @@
         "apple_album_id": 1091667670,
         "apple_artist_id": 202386353,
         "mb_id": "93d74632-8aec-4696-87ee-1596e046ce8f",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Julie Ruin",
@@ -3035,7 +3189,8 @@
           "Punk",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Chris Robinson Brotherhood",
@@ -3054,7 +3209,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Alafia",
@@ -3074,7 +3230,8 @@
           "Funk / Soul"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Alafia",
@@ -3094,7 +3251,8 @@
           "Funk / Soul"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pascal Comelade & Les Limiñanas",
@@ -3108,7 +3266,8 @@
         "apple_album_id": 959960106,
         "apple_artist_id": null,
         "mb_id": "9512a1b8-93ce-438f-8d30-f7d0dc2aa561",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Post Industrial Boys",
@@ -3130,7 +3289,8 @@
           "Downtempo",
           "Leftfield"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -3160,7 +3320,8 @@
           "Indie Rock",
           "Cumbia"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Xixa",
@@ -3181,7 +3342,8 @@
           "Indie Rock",
           "Cumbia"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rönsy",
@@ -3195,7 +3357,8 @@
         "apple_album_id": 956846070,
         "apple_artist_id": 956846116,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "The Dwarfs of East Agouza",
@@ -3223,7 +3386,8 @@
           "Experimental",
           "Psychedelic Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jorge Cordero & Las Gran Daneses",
@@ -3237,7 +3401,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 16106156,
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Zmei3",
@@ -3264,7 +3429,8 @@
           "Experimental",
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Zmei3",
@@ -3291,7 +3457,8 @@
           "Experimental",
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kel Assouf",
@@ -3312,7 +3479,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kel Assouf",
@@ -3333,7 +3501,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Микаэл Таривердиев",
@@ -3345,7 +3514,8 @@
         ],
         "apple_id": null,
         "mb_id": "00288345-ab37-4646-be6d-c2aa18ac8841",
-        "year": 2001
+        "year": 2001,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Микаэл Таривердиев",
@@ -3357,7 +3527,8 @@
         ],
         "apple_id": null,
         "mb_id": "086da7f9-7bc8-44ac-be43-b877dcb1ad1f",
-        "year": 2001
+        "year": 2001,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -3389,7 +3560,8 @@
           "Afrobeat",
           "Cumbia"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "MAKU Soundsystem",
@@ -3412,7 +3584,8 @@
           "Afrobeat",
           "Cumbia"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dolma Renqingi",
@@ -3465,7 +3638,8 @@
         ],
         "apple_id": null,
         "mb_id": "eca27430-7366-485e-a06b-ab6918affd9d",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Miramar",
@@ -3479,7 +3653,8 @@
         ],
         "apple_id": null,
         "mb_id": "519e85cd-d74b-40d1-881d-3acfe922f4a1",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Vieux Kante",
@@ -3500,7 +3675,8 @@
         "discogs_styles": [
           "African"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Blues Pills",
@@ -3523,7 +3699,8 @@
           "Stoner Rock",
           "Psychedelic Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Diane Coffee",
@@ -3543,7 +3720,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mekons",
@@ -3563,7 +3741,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Alsarah & The Nubatones",
@@ -3578,7 +3757,8 @@
         "apple_album_id": 1140203214,
         "apple_artist_id": 805731583,
         "mb_id": "769017b6-292f-4c89-b19a-e57bde34e71c",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -3611,7 +3791,8 @@
           "Downtempo",
           "Min'yō"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Sven Kacirek ft. Keko Kina",
@@ -3634,7 +3815,8 @@
           "Downtempo",
           "Min'yō"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Candido Fabre",
@@ -3648,7 +3830,8 @@
         "apple_album_id": 1103008493,
         "apple_artist_id": null,
         "mb_id": "a6ba0f5b-a4b3-475d-815f-d62ee2ff1e2b",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kristi Stassinopoulou & Stathis Kalyviotis",
@@ -3661,7 +3844,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 9001864,
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Kristi Stassinopoulou & Stathis Kalyviotis",
@@ -3675,7 +3859,8 @@
         "apple_album_id": 1134122530,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Rodrigo Campos",
@@ -3689,7 +3874,8 @@
         "apple_album_id": null,
         "apple_artist_id": 140553204,
         "mb_id": "07e4728e-3f47-4ae8-bb4c-22746da95d76",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rodrigo Campos",
@@ -3703,7 +3889,8 @@
         "apple_album_id": null,
         "apple_artist_id": 140553204,
         "mb_id": "abf3b9ac-f388-4103-b472-f91649b4215c",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fanfare Ciocărlia",
@@ -3726,7 +3913,8 @@
           "Romani",
           "Brass Band"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Noura Mint Seymali",
@@ -3748,7 +3936,8 @@
           "Griot",
           "African"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Noura Mint Seymali",
@@ -3770,7 +3959,8 @@
           "Griot",
           "African"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Clang Group",
@@ -3793,7 +3983,8 @@
           "Indie Rock",
           "Art Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Clang Group",
@@ -3816,7 +4007,8 @@
           "Indie Rock",
           "Art Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Биртман",
@@ -3830,7 +4022,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1105015399,
         "mb_id": "57a708a6-ce0c-4cde-b26c-19d17713ce97",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -3862,7 +4055,8 @@
           "Rock & Roll",
           "Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Terne Čhave",
@@ -3885,7 +4079,8 @@
           "Rock & Roll",
           "Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Eliza Carthy & The Wayward Band",
@@ -3907,7 +4102,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Abou Diarra",
@@ -3928,7 +4124,8 @@
         "discogs_styles": [
           "African"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Heg & The Wolf Chorus",
@@ -3942,7 +4139,8 @@
         "apple_album_id": 1180043302,
         "apple_artist_id": 875273251,
         "mb_id": "993ee747-b934-4cbe-9911-81f12df9a228",
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Damien Jurado",
@@ -3965,7 +4163,8 @@
           "Psychedelic Rock",
           "Acoustic"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Xose Lois Romero & Aliboria",
@@ -3979,7 +4178,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "e2b50428-7a91-4687-a2fd-4a99e0b79c6c",
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "ВоплI Biдоплясова",
@@ -3993,7 +4193,8 @@
         "apple_album_id": 1860286271,
         "apple_artist_id": 732791918,
         "mb_id": "62a530c5-e2f2-4f8d-91c9-e42cb976a0cd",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Аkapulko",
@@ -4007,7 +4208,8 @@
         "apple_album_id": 1088268081,
         "apple_artist_id": 1088268083,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "Fernando Barroso",
@@ -4021,7 +4223,8 @@
         "apple_album_id": 1716460352,
         "apple_artist_id": 603485274,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Fernando Barroso",
@@ -4035,7 +4238,8 @@
         "apple_album_id": 1716460352,
         "apple_artist_id": 603485274,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Kimi Djabate",
@@ -4057,7 +4261,8 @@
           "African",
           "Griot"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       }
     ]
   },
@@ -4081,7 +4286,8 @@
         "apple_album_id": 1692526322,
         "apple_artist_id": 220138914,
         "mb_id": "a10e2165-8770-4fb3-b213-9871dda33d73",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Addys Mercedes",
@@ -4096,7 +4302,8 @@
         "apple_album_id": 1692526322,
         "apple_artist_id": 220138914,
         "mb_id": "2017b1bc-b72e-4a1c-a00e-d2d28d4fc54b",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Marlon Williams",
@@ -4117,7 +4324,8 @@
         "discogs_styles": [
           "Country"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Змеи и Лестницы",
@@ -4132,7 +4340,8 @@
         "apple_artist_id": 1558632038,
         "mb_id": null,
         "discogs_id": 15670091,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Pulsar Trio",
@@ -4151,7 +4360,8 @@
           "Jazz"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pulsar Trio",
@@ -4170,7 +4380,8 @@
           "Jazz"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ex-Exus",
@@ -4184,7 +4395,8 @@
         "apple_album_id": 885313073,
         "apple_artist_id": 876095515,
         "mb_id": "224a9fed-f07a-4c83-aebf-7b49646e6d0e",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Excellos",
@@ -4207,7 +4419,8 @@
           "Blues Rock",
           "Rock & Roll"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Excellos",
@@ -4230,7 +4443,8 @@
           "Blues Rock",
           "Rock & Roll"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ialma",
@@ -4250,7 +4464,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Ialma",
@@ -4270,7 +4485,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Cayucas",
@@ -4292,7 +4508,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mamadou Barry & Afro Groove Gang",
@@ -4306,7 +4523,8 @@
         "apple_album_id": 1120258175,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       }
     ]
   },
@@ -4340,7 +4558,8 @@
           "Contemporary",
           "Bossanova"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Alma Afrobeat Ensemble",
@@ -4363,7 +4582,8 @@
           "Afrobeat",
           "African"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "La Luz",
@@ -4385,7 +4605,8 @@
           "Indie Rock",
           "Surf"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "La Luz",
@@ -4407,7 +4628,8 @@
           "Indie Rock",
           "Surf"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Daby Toure",
@@ -4429,7 +4651,8 @@
         "discogs_styles": [
           "African"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Daby Toure",
@@ -4451,7 +4674,8 @@
         "discogs_styles": [
           "African"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Elin Kåven",
@@ -4465,7 +4689,8 @@
         "apple_album_id": null,
         "apple_artist_id": 295606191,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Elin Kåven",
@@ -4479,7 +4704,8 @@
         "apple_album_id": null,
         "apple_artist_id": 295606191,
         "mb_id": "91b2ed10-a301-4ce8-bfc3-60865aa71b97",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Karsh Kale",
@@ -4494,7 +4720,8 @@
         "apple_album_id": 1065201689,
         "apple_artist_id": 2072342,
         "mb_id": "5a962497-a32a-4e76-a174-4d18815abaa6",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lakou Mizik",
@@ -4508,7 +4735,8 @@
         "apple_album_id": 1087292328,
         "apple_artist_id": 1087293586,
         "mb_id": "41350f90-7523-49a1-8b86-1cd8634ae7a7",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lakou Mizik",
@@ -4522,7 +4750,8 @@
         "apple_album_id": 1087292328,
         "apple_artist_id": 1087293586,
         "mb_id": "819dea48-74b0-408e-a703-65e6e75c5d1f",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Montecristos",
@@ -4545,7 +4774,8 @@
           "Rockabilly",
           "Rock & Roll"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Nils Kercher",
@@ -4559,7 +4789,8 @@
         "apple_album_id": 1071604350,
         "apple_artist_id": 309517589,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       }
     ]
   },
@@ -4582,7 +4813,8 @@
         "apple_album_id": 1078720208,
         "apple_artist_id": 410247942,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Beautiful Nubia & The Roots Renaissance Band",
@@ -4596,7 +4828,8 @@
         "apple_album_id": 1080639646,
         "apple_artist_id": 270450390,
         "mb_id": "30edf14a-15d8-44b4-8400-e1b5680ae697",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mitsky",
@@ -4611,7 +4844,8 @@
         "apple_album_id": 6769529005,
         "apple_artist_id": 497546276,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Dobrek Bistro ft. David Krakauer",
@@ -4625,7 +4859,8 @@
         ],
         "apple_id": null,
         "mb_id": "b7c7e5a8-79fe-4a5b-82cd-562a264a29c8",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "La Banda Morisca",
@@ -4639,7 +4874,8 @@
         "apple_album_id": 1084677878,
         "apple_artist_id": 668677953,
         "mb_id": "ec2ad7c4-8d39-4e0e-aff5-25e16ccdfd65",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mucha",
@@ -4661,7 +4897,8 @@
         "discogs_styles": [
           "Punk"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bombino",
@@ -4685,7 +4922,8 @@
           "Acoustic",
           "Psychedelic Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fatima Spar & Jov",
@@ -4708,7 +4946,8 @@
         "discogs_styles": [
           "Vocal"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Orges & The Ockus-Rockus Band",
@@ -4723,7 +4962,8 @@
         "apple_album_id": 1492350655,
         "apple_artist_id": 861652892,
         "mb_id": "4675d412-0af8-4fe1-bd5d-3b969a98fc91",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Schmieds Puls",
@@ -4743,7 +4983,8 @@
           "Jazz"
         ],
         "discogs_styles": [],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Worried Man & Worried Boy",
@@ -4757,7 +4998,8 @@
         "apple_album_id": 1675803522,
         "apple_artist_id": 946062973,
         "mb_id": "b8fef1a4-88aa-4e15-9ee8-fe95ab9225d0",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Marc Almond",
@@ -4779,7 +5021,8 @@
         "discogs_styles": [
           "Chanson"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Robert 'Robi' Svärd",
@@ -4800,7 +5043,8 @@
         "discogs_styles": [
           "Flamenco"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       }
     ]
   },
@@ -4821,7 +5065,8 @@
         ],
         "apple_id": null,
         "mb_id": "4ef25df5-d46a-4fc5-a51d-7dc0cf50b16d",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Maria Ochoa & Alma Latina",
@@ -4835,7 +5080,8 @@
         "apple_album_id": 1102937247,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Gambari Band",
@@ -4849,7 +5095,8 @@
         "apple_album_id": 1075870285,
         "apple_artist_id": 1075870289,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "HiFi Sean ft. David McAlmont",
@@ -4873,7 +5120,8 @@
           "Disco",
           "Downtempo"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Actores Alidos",
@@ -4887,7 +5135,8 @@
         "apple_album_id": 1628389358,
         "apple_artist_id": 1088925921,
         "mb_id": "f4c651ea-ad6d-4888-bfe2-9aff1133c468",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Branko Galoič & Skakavac Orkestar",
@@ -4902,7 +5151,8 @@
         "apple_album_id": 1666095979,
         "apple_artist_id": null,
         "mb_id": "04d103bb-434b-4ee4-88c4-d9fed359d182",
-        "year": 2011
+        "year": 2011,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Festival Flamenco Gitano",
@@ -4969,7 +5219,8 @@
         "apple_album_id": 1082522708,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "The Mystery Lights",
@@ -4992,7 +5243,8 @@
           "Blues Rock",
           "Psychedelic Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -5016,7 +5268,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "3daac37e-4efe-4164-8077-06a0682ed13a",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Céu",
@@ -5038,7 +5291,8 @@
         "discogs_styles": [
           "MPB"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Céu",
@@ -5060,7 +5314,8 @@
         "discogs_styles": [
           "MPB"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Céu",
@@ -5082,7 +5337,8 @@
         "discogs_styles": [
           "MPB"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fantasma",
@@ -5107,7 +5363,8 @@
           "African",
           "Hip Hop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ferhat Tun",
@@ -5135,7 +5392,8 @@
         "apple_album_id": 1140442386,
         "apple_artist_id": 1500282595,
         "mb_id": "e7b32b62-4f28-45bd-8ef0-c7a20e26295d",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Folktron",
@@ -5176,7 +5434,8 @@
         "apple_album_id": 1351000359,
         "apple_artist_id": 653065546,
         "mb_id": "ed282d62-2fc0-40a8-ace5-7cb46db0f9b9",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "DVA",
@@ -5198,7 +5457,8 @@
           "Folk",
           "Experimental"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kepa Junkera & Sorginak",
@@ -5218,7 +5478,8 @@
           "Folk",
           "Basque Music"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bosse Skoglund & Zilverzurf",
@@ -5232,7 +5493,8 @@
         "apple_album_id": 1051337585,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       }
     ]
   },
@@ -5256,7 +5518,8 @@
         "apple_album_id": null,
         "apple_artist_id": 295245984,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Snaarmaarwaar",
@@ -5270,7 +5533,8 @@
         "apple_album_id": 1503183586,
         "apple_artist_id": 1034903059,
         "mb_id": "6e3fea70-ce88-4717-a4ae-a8a0d3e41f0a",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Flavia Muniz",
@@ -5284,7 +5548,8 @@
         "apple_album_id": 1715306054,
         "apple_artist_id": 559766255,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Elektro Hafiz",
@@ -5299,7 +5564,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1101176604,
         "mb_id": "b483c457-c317-45d8-9491-3339c37b7b1d",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Imelda May",
@@ -5321,7 +5587,8 @@
           "Rock & Roll",
           "Rockabilly"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Stefano Saletti E Banda Ikona",
@@ -5361,7 +5628,8 @@
         "apple_album_id": 1079106574,
         "apple_artist_id": 757843005,
         "mb_id": "56dce0cc-5b12-4864-9bc8-8f3503d2c17a",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lajkó Félix",
@@ -5375,7 +5643,8 @@
         "apple_album_id": null,
         "apple_artist_id": 419267507,
         "mb_id": "7a0c55d5-95b1-4778-820a-930f1d3d308c",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lajkó Félix",
@@ -5389,7 +5658,8 @@
         "apple_album_id": null,
         "apple_artist_id": 419267507,
         "mb_id": "ab8aa003-ac01-40ab-ada1-f1b619f29bc6",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Grimes",
@@ -5418,7 +5688,8 @@
           "Electro",
           "Pop Rap"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gankino Circus",
@@ -5439,7 +5710,8 @@
         "discogs_styles": [
           "Volksmusik"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "So III",
@@ -5453,7 +5725,8 @@
         "apple_album_id": 941090777,
         "apple_artist_id": 941090779,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       }
     ]
   },
@@ -5486,7 +5759,8 @@
           "Cumbia",
           "Guaracha"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Orkesta Mendoza",
@@ -5510,7 +5784,8 @@
           "Cumbia",
           "Guaracha"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Orkesta Mendoza",
@@ -5534,7 +5809,8 @@
           "Cumbia",
           "Guaracha"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Vanessa Anne Redd",
@@ -5553,7 +5829,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Benji Hughes",
@@ -5567,7 +5844,8 @@
         "apple_album_id": null,
         "apple_artist_id": 2656617,
         "mb_id": "0065242f-242e-4122-a98c-97baa6e2cc1f",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Puhti",
@@ -5579,7 +5857,8 @@
         ],
         "apple_id": null,
         "mb_id": "793e4d30-f24b-48d0-b801-22106b2233d3",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Last Shadow Puppets",
@@ -5600,7 +5879,8 @@
         "discogs_styles": [
           "Pop Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "East West Local",
@@ -5614,7 +5894,8 @@
         "apple_album_id": 1591739633,
         "apple_artist_id": 1591736464,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Damian Lazarus & The Ancient Moons",
@@ -5636,7 +5917,8 @@
         "discogs_styles": [
           "Tech House"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gabby Young & Other Animals",
@@ -5650,7 +5932,8 @@
         "apple_album_id": 978317717,
         "apple_artist_id": 332216454,
         "mb_id": "e8ffe25c-b3b8-4904-a8f3-e52e1809a9ba",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gabby Young & Other Animals",
@@ -5663,7 +5946,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 6377656,
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Hapanasasa",
@@ -5690,7 +5974,8 @@
         "apple_album_id": null,
         "apple_artist_id": 27457483,
         "mb_id": "522965b4-d2cb-46b3-b431-0200283576ca",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -5720,7 +6005,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "9Bach",
@@ -5741,7 +6027,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Džambo Aguevi Orchestra",
@@ -5755,7 +6042,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Afro Haitian Experimental Orchestra",
@@ -5770,7 +6058,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1118016460,
         "mb_id": "64fa95e0-0ba5-443d-900d-ff720496ae3e",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Afro Haitian Experimental Orchestra",
@@ -5785,7 +6074,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1118016460,
         "mb_id": "231d764e-5c47-4420-90f6-d8932ee4ed71",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Emily Jane White",
@@ -5808,7 +6098,8 @@
           "Folk Rock",
           "Acoustic"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ayuune Sule",
@@ -5822,7 +6113,8 @@
         "apple_album_id": 1865238124,
         "apple_artist_id": 1098311734,
         "mb_id": "e26b138a-c966-4249-9907-22c628c580f3",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Prince Buju",
@@ -5836,7 +6128,8 @@
         "apple_album_id": 1865238124,
         "apple_artist_id": 969027865,
         "mb_id": "7730b703-eaf4-4adc-9df9-7437011fde04",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Amoru",
@@ -5850,7 +6143,8 @@
         "apple_album_id": 1865238124,
         "apple_artist_id": 1868518492,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Asaa Naho",
@@ -5864,7 +6158,8 @@
         "apple_album_id": 1865238124,
         "apple_artist_id": 1865237279,
         "mb_id": "ed5460ef-9825-416e-a0c6-aaabd13cb982",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "King Ayisoba",
@@ -5878,7 +6173,8 @@
         "apple_album_id": 1865238124,
         "apple_artist_id": 210187482,
         "mb_id": "d0ab4a60-b7d0-41c8-864f-8a2abd5361cd",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mei Han & Red Chamber",
@@ -5892,7 +6188,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "4ac8a143-3148-487b-ab90-ff24712ee80a",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -5923,7 +6220,8 @@
           "Soul",
           "Rhythm & Blues"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Excitements",
@@ -5945,7 +6243,8 @@
           "Soul",
           "Rhythm & Blues"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Semer Ensemble",
@@ -5967,7 +6266,8 @@
         "discogs_styles": [
           "Klezmer"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mu Mbana",
@@ -6012,7 +6312,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Xylaroo",
@@ -6032,7 +6333,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Arvvas",
@@ -6066,7 +6368,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jishak Banjaw",
@@ -6107,7 +6410,8 @@
         "apple_album_id": 1110134686,
         "apple_artist_id": 982106235,
         "mb_id": "3463d3c2-3ac4-44d3-8aac-617cbc593e2d",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Xenia Rubinos",
@@ -6128,7 +6432,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -6151,7 +6456,8 @@
         "apple_album_id": 1106186334,
         "apple_artist_id": 473618358,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Warhaus",
@@ -6165,7 +6471,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1109938076,
         "mb_id": "34d21066-2799-4d5d-a5e6-34767c31b625",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Warhaus",
@@ -6179,7 +6486,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1109938076,
         "mb_id": "69432bf4-528e-499a-b8e0-0cf706eb45c7",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Yvonne Mwale",
@@ -6193,7 +6501,8 @@
         "apple_album_id": 1147704280,
         "apple_artist_id": 504536758,
         "mb_id": "99b9d429-4929-4840-ae8f-70969c81fd60",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Parrots",
@@ -6207,7 +6516,8 @@
         "apple_album_id": null,
         "apple_artist_id": 359156261,
         "mb_id": "d9409447-5e7e-4544-aab8-4ade7e3bc49d",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mor Karbasi",
@@ -6222,7 +6532,8 @@
         "apple_album_id": 1175869566,
         "apple_artist_id": 277268583,
         "mb_id": "128542fe-0157-4fbe-ac89-91f6078890a2",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Constantinople & Ablaye Cissoko",
@@ -6246,7 +6557,8 @@
           "African",
           "Persian Classical"
         ],
-        "year": 2015
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Nancy Kerr & James Fagan",
@@ -6260,7 +6572,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "d3bc68be-b7bd-4922-8da5-e6aa63000bde",
-        "year": 2002
+        "year": 2002,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "John Spiers & Jon Boden",
@@ -6272,7 +6585,8 @@
         ],
         "apple_id": null,
         "mb_id": "e2bc162a-2fa4-4e49-89f7-690c98dec3bc",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fay Hield & The Hurricane Party",
@@ -6286,7 +6600,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "08f42dd1-33fb-45d2-b58b-e395d9145681",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Full English",
@@ -6300,7 +6615,8 @@
         "apple_album_id": null,
         "apple_artist_id": 692846768,
         "mb_id": "9de63ac3-d7db-4726-9a21-861a4aecb6ac",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Demon Barbers",
@@ -6314,7 +6630,8 @@
         "apple_album_id": null,
         "apple_artist_id": 256470520,
         "mb_id": "a4045b00-a353-45fb-bd43-34312f275921",
-        "year": 2010
+        "year": 2010,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Elektro Hafiz",
@@ -6328,7 +6645,8 @@
         "apple_album_id": 1865441275,
         "apple_artist_id": 1101176604,
         "mb_id": "2e479395-4f15-4727-af39-f2b9a6f38426",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Elektro Hafiz",
@@ -6342,7 +6660,8 @@
         "apple_album_id": 1865441275,
         "apple_artist_id": 1101176604,
         "mb_id": "eb9063ee-e5e2-43ad-aa24-14b1e988975d",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -6366,7 +6685,8 @@
         "apple_album_id": 1441349589,
         "apple_artist_id": 1068125586,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Viguela",
@@ -6380,7 +6700,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Nick Waterhouse",
@@ -6402,7 +6723,8 @@
           "Rhythm & Blues",
           "Soul"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nick Waterhouse",
@@ -6424,7 +6746,8 @@
           "Rhythm & Blues",
           "Soul"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bitori",
@@ -6438,7 +6761,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1126307030,
         "mb_id": "bb7c2787-d961-4a73-b063-47fcf2b9ef37",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bitori",
@@ -6452,7 +6776,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1126307030,
         "mb_id": "cfed73a1-7b58-42f4-b3a9-900c9eaa5d1e",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Otava Yo",
@@ -6466,7 +6791,8 @@
         "apple_album_id": 1289743077,
         "apple_artist_id": null,
         "mb_id": "2c8609c2-8c5d-48b3-bc3a-16e63f3a8808",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Otava Yo",
@@ -6478,7 +6804,8 @@
         ],
         "apple_id": null,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "owner"
       },
       {
         "artist": "The KutiMangoes",
@@ -6502,7 +6829,8 @@
           "Afrobeat",
           "Highlife"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Siba",
@@ -6521,7 +6849,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Geoff Berner",
@@ -6545,7 +6874,8 @@
           "Folk",
           "Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -6576,7 +6906,8 @@
           "AOR",
           "Soft Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Katerina Tsiridou",
@@ -6590,7 +6921,8 @@
         "apple_album_id": null,
         "apple_artist_id": 327967894,
         "mb_id": "f6fe2805-44ca-48d9-9c84-cb0595ec1bd0",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Afro Celt Sound System",
@@ -6608,7 +6940,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Lone Pion",
@@ -6635,7 +6968,8 @@
         "apple_album_id": null,
         "apple_artist_id": 386875852,
         "mb_id": "39996925-8d6a-4986-ad9f-381d434b338e",
-        "year": 1983
+        "year": 1983,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fany Havest",
@@ -6649,7 +6983,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1110310267,
         "mb_id": "8996ae0d-71c1-4266-a9b0-e1e59e1dfaa8",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Quirino do Canto",
@@ -6663,7 +6998,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1110310411,
         "mb_id": "e05c0075-1c57-4e36-b16b-94fb8cca0218",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Joao Cirilo",
@@ -6677,7 +7013,8 @@
         "apple_album_id": null,
         "apple_artist_id": 215909234,
         "mb_id": "172028cd-cdcd-4706-8ed8-c9b2c42cb511",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Os Apolos",
@@ -6691,7 +7028,8 @@
         "apple_album_id": null,
         "apple_artist_id": 356178593,
         "mb_id": "e0a03e93-88b1-4e8c-ae8d-2d9b24a913cb",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lily & Madeleine",
@@ -6705,7 +7043,8 @@
         "apple_album_id": 1436774838,
         "apple_artist_id": 591969382,
         "mb_id": "d5e595cb-44f5-4472-8781-55c1f7fea6cd",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Graveola",
@@ -6725,7 +7064,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Moulettes",
@@ -6750,7 +7090,8 @@
           "Prog Rock",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Drumhand",
@@ -6764,7 +7105,8 @@
         "apple_album_id": 904592978,
         "apple_artist_id": 407710562,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       }
     ]
   },
@@ -6787,7 +7129,8 @@
         "apple_album_id": 1072105481,
         "apple_artist_id": 266808900,
         "mb_id": "adcc80be-797b-4af9-b7a5-1e6f5ea271f4",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Äl Jawala",
@@ -6801,7 +7144,8 @@
         "apple_album_id": 1072105481,
         "apple_artist_id": 266808900,
         "mb_id": "54167f1a-67b9-4c42-918b-d804a9d8f2f6",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Radicanto",
@@ -6815,7 +7159,8 @@
         "apple_album_id": 1564719288,
         "apple_artist_id": 85168550,
         "mb_id": null,
-        "year": 2009
+        "year": 2009,
+        "year_from": "apple"
       },
       {
         "artist": "Radicanto",
@@ -6829,7 +7174,8 @@
         "apple_album_id": 1564719288,
         "apple_artist_id": 85168550,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Snow Owl",
@@ -6853,7 +7199,8 @@
           "Griot",
           "African"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Zrs Banda",
@@ -6880,7 +7227,8 @@
         "apple_album_id": 1031986100,
         "apple_artist_id": 1031987142,
         "mb_id": "59298635-767d-446a-8127-5357ba4276e7",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Miria",
@@ -6907,7 +7255,8 @@
         "apple_album_id": 1031986100,
         "apple_artist_id": 1031987338,
         "mb_id": "bc44d940-4d5e-403d-8525-3a98924ee84a",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mamoutu Dembele",
@@ -6956,7 +7305,8 @@
         "apple_album_id": 1065186652,
         "apple_artist_id": 316352024,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Koo Nimo",
@@ -6969,7 +7319,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 8124300,
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Xabier Diaz e Adufeiras de Salitre",
@@ -6996,7 +7347,8 @@
         "apple_album_id": null,
         "apple_artist_id": 36179133,
         "mb_id": "e60e4f9b-2810-42fe-aa5b-1b06c14a1a07",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Elza Soares",
@@ -7010,7 +7362,8 @@
         "apple_album_id": null,
         "apple_artist_id": 36179133,
         "mb_id": "1b5f0189-9c49-4522-b132-8cf91e60b4b1",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Elza Soares",
@@ -7024,7 +7377,8 @@
         "apple_album_id": null,
         "apple_artist_id": 36179133,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Vasya Club",
@@ -7036,7 +7390,8 @@
         ],
         "apple_id": null,
         "mb_id": "13a79949-6dcd-4338-9ce7-43928fcc4ecd",
-        "year": 2002
+        "year": 2002,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Vasya Club",
@@ -7048,7 +7403,8 @@
         ],
         "apple_id": null,
         "mb_id": "aa36d7f2-ec73-4b56-95b7-04463fe43b15",
-        "year": 2002
+        "year": 2002,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Вася i Хобот",
@@ -7099,7 +7455,8 @@
           "Tango",
           "Chacarera"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Las Hermanas Caronni",
@@ -7124,7 +7481,8 @@
           "Tango",
           "Chacarera"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Riserva Moac",
@@ -7138,7 +7496,8 @@
         "apple_album_id": 1044306493,
         "apple_artist_id": 319559561,
         "mb_id": "92b82256-e7dc-46f9-9d66-0b9e92b97faf",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -7174,7 +7533,8 @@
         "apple_album_id": 1049854840,
         "apple_artist_id": 1048280710,
         "mb_id": "3bfb1fc2-233a-400b-bfd5-70cb09be15fa",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Michael Messer's Mitra",
@@ -7188,7 +7548,8 @@
         "apple_id": 1741440498,
         "apple_album_id": 1741440106,
         "apple_artist_id": 1078456347,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Michael Messer's Mitra",
@@ -7203,7 +7564,8 @@
         "apple_album_id": 1741440106,
         "apple_artist_id": 1078456347,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Dimitris Mystakidis ft Elephteria Arvani",
@@ -7237,7 +7599,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Joe Driscoll & Sekou Kouyate",
@@ -7258,7 +7621,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sekou Kouyate",
@@ -7272,7 +7636,8 @@
         "apple_album_id": 1024974338,
         "apple_artist_id": 82878946,
         "mb_id": "900a13ed-ad4b-476d-b51a-9bcb71a3d7d7",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sekou Kouyate",
@@ -7286,7 +7651,8 @@
         "apple_album_id": 1024974338,
         "apple_artist_id": 82878946,
         "mb_id": "fc67b75d-b0e4-473c-b6fb-e04ec95c7818",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Skanderband",
@@ -7301,7 +7667,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1108436195,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Skanderband",
@@ -7316,7 +7683,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1108436195,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Ganga Zuari",
@@ -7331,7 +7699,8 @@
         "apple_artist_id": null,
         "mb_id": null,
         "discogs_id": 16166779,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "The National Symphony Orchestra of Ghana",
@@ -7367,7 +7736,8 @@
         "apple_album_id": null,
         "apple_artist_id": 303722456,
         "mb_id": "1920cc84-27fe-47e8-ad88-496da4b643ab",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Chico Trujillo",
@@ -7381,7 +7751,8 @@
         "apple_album_id": null,
         "apple_artist_id": 303722456,
         "mb_id": "87d59570-f46d-4c07-8df6-cea7c79d461b",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Браво",
@@ -7403,7 +7774,8 @@
         "discogs_styles": [
           "Rock & Roll"
         ],
-        "year": 1987
+        "year": 1987,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Браво",
@@ -7425,7 +7797,8 @@
         "discogs_styles": [
           "Rock & Roll"
         ],
-        "year": 1993
+        "year": 1993,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Julian Gaskell & His Ragged Trousered Philantropists",
@@ -7437,7 +7810,8 @@
         ],
         "apple_id": null,
         "mb_id": "ef573862-1a5c-40a5-b6ec-202c039d3fec",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ruth Theodore",
@@ -7456,7 +7830,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Giuliano Gabriele",
@@ -7470,7 +7845,8 @@
         "apple_album_id": null,
         "apple_artist_id": 606210994,
         "mb_id": "504c4bc8-1536-43f5-a3f2-9a7f48d4ec0f",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Giuliano Gabriele",
@@ -7484,7 +7860,8 @@
         "apple_album_id": null,
         "apple_artist_id": 606210994,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Celenka",
@@ -7506,7 +7883,8 @@
           "Folk",
           "Nordic"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Carlton Rara",
@@ -7521,7 +7899,8 @@
         "apple_album_id": 1758548770,
         "apple_artist_id": 308523481,
         "mb_id": null,
-        "year": 2009
+        "year": 2009,
+        "year_from": "apple"
       },
       {
         "artist": "Moonlight Benjamin",
@@ -7534,7 +7913,8 @@
         ],
         "apple_id": null,
         "mb_id": "e6fa1ff5-7bf9-4c44-a96c-65f15ca5fc2f",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bob Bovano",
@@ -7549,7 +7929,8 @@
         "apple_album_id": null,
         "apple_artist_id": 135238581,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "J.C.Martineau-Beethova Obas-Ti Corn",
@@ -7577,7 +7958,8 @@
         "apple_album_id": null,
         "apple_artist_id": 215993524,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       }
     ]
   },
@@ -7599,7 +7981,8 @@
         ],
         "apple_id": null,
         "mb_id": "63f71796-1109-4869-9778-69ddefbaf4c3",
-        "year": 2004
+        "year": 2004,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Marianna Majorosi",
@@ -7639,7 +8022,8 @@
         ],
         "apple_id": null,
         "mb_id": "30ad26d6-40fb-4468-80c8-c2c91135d841",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rachele Andrioli & Rocco Nigro",
@@ -7653,7 +8037,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "9346fc5c-ca0f-458d-81da-28e5fc4dd1ce",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Quarteto Caramuxo",
@@ -7667,7 +8052,8 @@
         "apple_album_id": 1690864612,
         "apple_artist_id": 340772027,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Leyla McCalla",
@@ -7688,7 +8074,8 @@
         "discogs_styles": [
           "Cajun"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Deltas",
@@ -7710,7 +8097,8 @@
         "discogs_styles": [
           "African"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ted Heath",
@@ -7724,7 +8112,8 @@
         "apple_album_id": 1042478340,
         "apple_artist_id": 15808662,
         "mb_id": "44141aaf-de7b-4185-b546-441311efa5ed",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Max Bygraves",
@@ -7738,7 +8127,8 @@
         "apple_album_id": 1042478340,
         "apple_artist_id": 14869563,
         "mb_id": "83e21fcc-b61a-4961-9b81-f5c348740556",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kay Starr",
@@ -7752,7 +8142,8 @@
         "apple_album_id": null,
         "apple_artist_id": 531869,
         "mb_id": "ae2658e3-f008-4388-b5d6-ce039cc73720",
-        "year": 2003
+        "year": 2003,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lyn Cornell",
@@ -7766,7 +8157,8 @@
         "apple_album_id": 1042478340,
         "apple_artist_id": 316182874,
         "mb_id": "8438485e-c831-44fe-98ad-213e2de4d77d",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Janine de Waleyne",
@@ -7778,7 +8170,8 @@
         ],
         "apple_id": null,
         "mb_id": "37a73a70-66a9-425f-b87f-3647405aabf6",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Screaming Lord Sutch",
@@ -7792,7 +8185,8 @@
         "apple_album_id": null,
         "apple_artist_id": 60587791,
         "mb_id": "757632c5-0f76-48f9-ba4a-56feb6aa24f0",
-        "year": 1991
+        "year": 1991,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -7815,7 +8209,8 @@
         "apple_album_id": 1052718825,
         "apple_artist_id": 1052718840,
         "mb_id": "beffdc09-a613-43a2-a36c-daa5f771c86e",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bube Dame Knig",
@@ -7851,7 +8246,8 @@
           "Indie Pop",
           "Folk Rock"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Suistamon Shk",
@@ -7865,7 +8261,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1059711731,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Riviere Noire",
@@ -7883,7 +8280,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rickie Lee Jones",
@@ -7897,7 +8295,8 @@
         "apple_album_id": null,
         "apple_artist_id": 114704,
         "mb_id": "8bb55c38-b4d6-49e7-b528-d56480ca7fb1",
-        "year": 1979
+        "year": 1979,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jaye P. Morgan",
@@ -7911,7 +8310,8 @@
         "apple_album_id": 1839190379,
         "apple_artist_id": 104452872,
         "mb_id": "98655cf1-8123-429f-a8e7-b5a3da0d3315",
-        "year": 1976
+        "year": 1976,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rene Geyer",
@@ -7925,7 +8325,8 @@
         "apple_album_id": 1839190379,
         "apple_artist_id": 59982662,
         "mb_id": null,
-        "year": 2009
+        "year": 2009,
+        "year_from": "apple"
       },
       {
         "artist": "Leah Kunkel",
@@ -7939,7 +8340,8 @@
         "apple_album_id": 1839190379,
         "apple_artist_id": 58196100,
         "mb_id": "481b21e4-eb5a-482d-968a-05d7c28634c2",
-        "year": 1980
+        "year": 1980,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lyn Christopher",
@@ -7953,7 +8355,8 @@
         "apple_album_id": 1839190379,
         "apple_artist_id": 371342132,
         "mb_id": "b5f96307-0394-4426-8d6c-5632778bcf5e",
-        "year": 1973
+        "year": 1973,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ponk",
@@ -7967,7 +8370,8 @@
         "apple_album_id": 1759063695,
         "apple_artist_id": 1445485005,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Majas",
@@ -7981,7 +8385,8 @@
         "apple_album_id": 972449607,
         "apple_artist_id": 912683745,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Ray Manzarek/Roy Rogers",
@@ -8003,7 +8408,8 @@
           "Blues Rock",
           "Modern Electric Blues"
         ],
-        "year": 2011
+        "year": 2011,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -8036,7 +8442,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Dagadana",
@@ -8059,7 +8466,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Richard Bona & Mandecan Cubano",
@@ -8083,7 +8491,8 @@
           "Afro-Cuban",
           "Salsa"
         ],
-        "year": 2005
+        "year": 2005,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Aziza Brahim",
@@ -8098,7 +8507,8 @@
         "apple_album_id": null,
         "apple_artist_id": 141186043,
         "mb_id": "dc3efd09-3e8a-4d08-ab91-54fb71584df2",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Aziza Brahim",
@@ -8113,7 +8523,8 @@
         "apple_album_id": null,
         "apple_artist_id": 141186043,
         "mb_id": "7656d0b4-0ccb-475c-9253-e25991f78e37",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "10 000 Russos",
@@ -8138,7 +8549,8 @@
         ],
         "apple_id": null,
         "mb_id": "e167618f-8807-4381-85cb-0b739a951c0a",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "TAU",
@@ -8150,7 +8562,8 @@
         ],
         "apple_id": null,
         "mb_id": "c691127b-dae9-470b-a335-83f8d9dd7cbe",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sound Sweet Sound",
@@ -8164,7 +8577,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1039294221,
         "mb_id": "b96b6e53-bf7d-4b46-b55b-569c17cbca3e",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Radar Men From The Moon",
@@ -8178,7 +8592,8 @@
         "apple_album_id": null,
         "apple_artist_id": 560805641,
         "mb_id": "b514db72-1eaa-414a-869f-4d1a1988850f",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Antikvariniai Kapirovskio dantys",
@@ -8192,7 +8607,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1028655087,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Dom La Nena",
@@ -8215,7 +8631,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Buda Folk Band",
@@ -8229,7 +8646,8 @@
         "apple_album_id": 1671945745,
         "apple_artist_id": 461153331,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       }
     ]
   },
@@ -8262,7 +8680,8 @@
           "Folk",
           "Vocal"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tuuletar",
@@ -8285,7 +8704,8 @@
           "Folk",
           "Vocal"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Трубецкой",
@@ -8297,7 +8717,8 @@
         ],
         "apple_id": null,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "owner"
       },
       {
         "artist": "Brutto",
@@ -8319,7 +8740,8 @@
           "Alternative Rock",
           "Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Port Mone",
@@ -8341,7 +8763,8 @@
           "Jazz-Rock",
           "New Age"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Port Mone",
@@ -8363,7 +8786,8 @@
           "Jazz-Rock",
           "New Age"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Muzička",
@@ -8377,7 +8801,8 @@
         "apple_album_id": 1629680546,
         "apple_artist_id": 998361471,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Nii Okai Tagoe",
@@ -8392,7 +8817,8 @@
         "apple_album_id": 1114632569,
         "apple_artist_id": 1114632976,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Nii Okai Tagoe",
@@ -8407,7 +8833,8 @@
         "apple_album_id": 1114632569,
         "apple_artist_id": 1114632976,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Jurema",
@@ -8421,7 +8848,8 @@
         "apple_album_id": 1719329117,
         "apple_artist_id": 585734434,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "Jurema",
@@ -8435,7 +8863,8 @@
         "apple_album_id": 1719329117,
         "apple_artist_id": 585734434,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Jurema",
@@ -8449,7 +8878,8 @@
         "apple_album_id": 1719329117,
         "apple_artist_id": 585734434,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Scott Fagan",
@@ -8478,7 +8908,8 @@
           "Rhythm & Blues",
           "Soul"
         ],
-        "year": 1968
+        "year": 1968,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -8501,7 +8932,8 @@
         "apple_album_id": 1049399436,
         "apple_artist_id": 285740115,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Čankiou",
@@ -8515,7 +8947,8 @@
         "apple_album_id": 1049399436,
         "apple_artist_id": 285740115,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Bob Mould",
@@ -8536,7 +8969,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Zulya and the Children of the Underground",
@@ -8550,7 +8984,8 @@
         "apple_album_id": 1124688021,
         "apple_artist_id": 252071286,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Zulya and the Children of the Underground",
@@ -8563,7 +8998,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 27457296,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Zulya and the Children of the Underground",
@@ -8577,7 +9013,8 @@
         "apple_album_id": 1124688021,
         "apple_artist_id": 252071286,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Palko!Muski",
@@ -8591,7 +9028,8 @@
         "apple_album_id": null,
         "apple_artist_id": 496083566,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Gogol Bordello",
@@ -8605,7 +9043,8 @@
         "apple_album_id": null,
         "apple_artist_id": 6808996,
         "mb_id": "7dd046ed-4568-40ba-8e58-70c5a30e6db7",
-        "year": 2010
+        "year": 2010,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Offchestra",
@@ -8619,7 +9058,8 @@
         "apple_album_id": null,
         "apple_artist_id": 944216825,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "The Dreadnoughts",
@@ -8633,7 +9073,8 @@
         "apple_album_id": null,
         "apple_artist_id": 292280012,
         "mb_id": "a778bad9-b607-4376-a90d-7502c839c1e9",
-        "year": 2010
+        "year": 2010,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Terno & Mahala Rai Banda",
@@ -8662,7 +9103,8 @@
         "apple_album_id": 1715365658,
         "apple_artist_id": 208493447,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Officina Zoe",
@@ -8676,7 +9118,8 @@
         "apple_album_id": 1030791190,
         "apple_artist_id": 169273901,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       }
     ]
   },
@@ -8712,7 +9155,8 @@
         "apple_album_id": 1758520798,
         "apple_artist_id": 534845831,
         "mb_id": "b0944d0e-9485-4bcf-a4b7-583cc0f34dff",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Cemil Qocgiri & Tara Jaff",
@@ -8725,7 +9169,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 16052568,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Gary Lucas & Jann Klose",
@@ -8739,7 +9184,8 @@
         "apple_album_id": 1065240432,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Pearly Clouds",
@@ -8760,7 +9206,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Pearly Clouds",
@@ -8781,7 +9228,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": null
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Gary Lucas & Sarah Stiles",
@@ -8793,7 +9241,8 @@
         ],
         "apple_id": null,
         "mb_id": "f665ace4-b494-4ef2-8157-0799ee6b85bf",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gary Lucas & Sarah Stiles",
@@ -8805,7 +9254,8 @@
         ],
         "apple_id": null,
         "mb_id": "ad261f4e-5198-4919-96fc-606d9e4ee380",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gary Lucas & Sarah Stiles",
@@ -8817,7 +9267,8 @@
         ],
         "apple_id": null,
         "mb_id": "b061d467-8ff5-4f23-903d-08236e32f51b",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Porcas Borboletas",
@@ -8831,7 +9282,8 @@
         "apple_album_id": null,
         "apple_artist_id": 274604178,
         "mb_id": "e97c4ea7-3073-4d14-b885-7ab64e91c7d9",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sampo Lassila Narinkka",
@@ -8845,7 +9297,8 @@
         "apple_album_id": null,
         "apple_artist_id": 602787369,
         "mb_id": "41fdbe96-41a5-4ead-93a8-6120a2d4b7b6",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sampo Lassila Narinkka",
@@ -8859,7 +9312,8 @@
         "apple_album_id": null,
         "apple_artist_id": 602787369,
         "mb_id": "405ad5ff-34a1-417c-b08d-7dc4cafe873b",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Balthazar",
@@ -8880,7 +9334,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -8908,7 +9363,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hazmat Modine",
@@ -8927,7 +9383,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "GruFlem",
@@ -8940,7 +9397,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 13954704,
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "GruFlem",
@@ -8954,7 +9412,8 @@
         "apple_album_id": 985503258,
         "apple_artist_id": 985503260,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Smokey",
@@ -8981,7 +9440,8 @@
         "apple_album_id": 971581706,
         "apple_artist_id": 6428287,
         "mb_id": "12b80193-e7bd-4e02-9308-94be260d99ae",
-        "year": 1959
+        "year": 1959,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Caterina Caselli",
@@ -8995,7 +9455,8 @@
         "apple_album_id": 1583784517,
         "apple_artist_id": 40637736,
         "mb_id": "0f21e521-df54-4a49-9e7b-3c0bca40f8e4",
-        "year": 1966
+        "year": 1966,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Caterina Caselli",
@@ -9009,7 +9470,8 @@
         "apple_album_id": 1583784517,
         "apple_artist_id": 40637736,
         "mb_id": "1f89a382-bef9-41d1-a85d-2a98228a9067",
-        "year": 1966
+        "year": 1966,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Brunetta e i suoi Balubas",
@@ -9021,7 +9483,8 @@
         ],
         "apple_id": null,
         "mb_id": "10f0ec1b-7b49-4c81-aec6-74f2229a2882",
-        "year": 1966
+        "year": 1966,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ornella Vanoni",
@@ -9035,7 +9498,8 @@
         "apple_album_id": null,
         "apple_artist_id": 26364887,
         "mb_id": "8b359fd9-108b-4e51-8c88-8badf2f9b126",
-        "year": 1967
+        "year": 1967,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rita Pavone",
@@ -9049,7 +9513,8 @@
         "apple_album_id": null,
         "apple_artist_id": 33274958,
         "mb_id": "a417f573-e036-4894-8130-deb5249c6f49",
-        "year": 1990
+        "year": 1990,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Catherine Spaak",
@@ -9064,7 +9529,8 @@
         "apple_album_id": null,
         "apple_artist_id": 61508401,
         "mb_id": "e09eebaa-1d5f-462f-9a06-c15dc53b9479",
-        "year": 1998
+        "year": 1998,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rita Monico",
@@ -9076,7 +9542,8 @@
         ],
         "apple_id": null,
         "mb_id": "bf56761b-4530-49e8-99bc-db229c79ccfc",
-        "year": 1998
+        "year": 1998,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gutzul Magik Foundation",
@@ -9103,7 +9570,8 @@
           "Ambient",
           "Trip Hop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       }
     ]
   },
@@ -9127,7 +9595,8 @@
         "apple_album_id": 1611651136,
         "apple_artist_id": 578015457,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Fumaa Preta",
@@ -9142,7 +9611,8 @@
         "apple_album_id": 1611651136,
         "apple_artist_id": 578015457,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Africa Mamas",
@@ -9191,7 +9661,8 @@
           "Country Rock",
           "Acoustic"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Korey Dane",
@@ -9213,7 +9684,8 @@
           "Country Rock",
           "Acoustic"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Divanhana",
@@ -9227,7 +9699,8 @@
         "apple_album_id": null,
         "apple_artist_id": 771585701,
         "mb_id": "fd2954b8-629b-4575-a1e5-5d114cf25dd4",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Damir Imamovičs Sevgah Takht",
@@ -9277,7 +9750,8 @@
           "Indie Rock",
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Vesevo",
@@ -9289,7 +9763,8 @@
         ],
         "apple_id": null,
         "mb_id": "fe94f809-a0e0-460a-a9c5-647a55686a45",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ballake Sissoko & Vincent Segal",
@@ -9312,7 +9787,8 @@
         "discogs_styles": [
           "African"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Vrandan",
@@ -9325,7 +9801,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 16389786,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       }
     ]
   },
@@ -9355,7 +9832,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Estusha",
@@ -9369,7 +9847,8 @@
         "apple_album_id": 1080895346,
         "apple_artist_id": 1080895347,
         "mb_id": null,
-        "year": 1998
+        "year": 1998,
+        "year_from": "apple"
       },
       {
         "artist": "Dieuf-Dieul De Thies",
@@ -9389,7 +9868,8 @@
           "African",
           "Afro-Cuban"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Calibro 35",
@@ -9403,7 +9883,8 @@
         "apple_album_id": 1820973240,
         "apple_artist_id": 338361450,
         "mb_id": "26681fea-b684-4958-950e-8e314ea455ba",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Calibro 35",
@@ -9417,7 +9898,8 @@
         "apple_album_id": 1820955189,
         "apple_artist_id": 338361450,
         "mb_id": "83018f5d-f3a2-44ab-92da-dfcb2bb0c69d",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pal Kalmar",
@@ -9431,7 +9913,8 @@
         "apple_album_id": 1093787337,
         "apple_artist_id": 414763575,
         "mb_id": null,
-        "year": 1983
+        "year": 1983,
+        "year_from": "apple"
       },
       {
         "artist": "Billie Holiday",
@@ -9445,7 +9928,8 @@
         "apple_album_id": null,
         "apple_artist_id": 37299,
         "mb_id": "10c20544-6d1d-47d9-93b9-4bdc7dee0a5a",
-        "year": 1941
+        "year": 1941,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Wazimbo feat.Kakana",
@@ -9472,7 +9956,8 @@
         "apple_album_id": 1093787337,
         "apple_artist_id": 2413279,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "GOG feat.Pianola",
@@ -9499,7 +9984,8 @@
         "apple_album_id": 1093787337,
         "apple_artist_id": 25517520,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Beata Bocek",
@@ -9514,7 +10000,8 @@
         "apple_album_id": 1073245949,
         "apple_artist_id": 581279804,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Systema Solar",
@@ -9528,7 +10015,8 @@
         "apple_album_id": null,
         "apple_artist_id": 334649558,
         "mb_id": "23a9d356-7e62-407b-9834-11ae2b85fbb2",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -9577,7 +10065,8 @@
         "apple_album_id": null,
         "apple_artist_id": 293767931,
         "mb_id": "15a8e55a-8ad3-4576-a3e1-4eb44b6d0680",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Whitney",
@@ -9601,7 +10090,8 @@
           "Indie Rock",
           "Soul"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Tremolo Beer Gut",
@@ -9623,7 +10113,8 @@
           "Surf",
           "Rock & Roll"
         ],
-        "year": 1999
+        "year": 1999,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Tremolo Beer Gut",
@@ -9645,7 +10136,8 @@
           "Surf",
           "Rock & Roll"
         ],
-        "year": 2000
+        "year": 2000,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lesny Zver",
@@ -9659,7 +10151,8 @@
         "apple_album_id": null,
         "apple_artist_id": 333981788,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Bombardak",
@@ -9673,7 +10166,8 @@
         "apple_album_id": 1049320029,
         "apple_artist_id": 656546367,
         "mb_id": "4a05547a-a0b7-4548-82e9-b7e399903615",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Loutki V Nemocnici",
@@ -9700,7 +10194,8 @@
         "apple_album_id": 1015037321,
         "apple_artist_id": null,
         "mb_id": "c9c359ff-d417-40dc-989d-e095d024534b",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mamadou & Sama Yoon",
@@ -9715,7 +10210,8 @@
         "apple_album_id": 1138060070,
         "apple_artist_id": 1138060288,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Mamadou & Sama Yoon",
@@ -9730,7 +10226,8 @@
         "apple_album_id": 1138060070,
         "apple_artist_id": 1138060288,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Nitin Sawhney",
@@ -9756,7 +10253,8 @@
           "Downtempo",
           "Hindustani"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nitin Sawhney",
@@ -9782,7 +10280,8 @@
           "Downtempo",
           "Hindustani"
         ],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -9805,7 +10304,8 @@
         "apple_album_id": 638830165,
         "apple_artist_id": 389825109,
         "mb_id": null,
-        "year": 2012
+        "year": 2012,
+        "year_from": "apple"
       },
       {
         "artist": "Вася Обломов",
@@ -9819,7 +10319,8 @@
         "apple_album_id": 6807516909,
         "apple_artist_id": 569204286,
         "mb_id": "1f27d12a-45e0-4671-aca6-e798f476c12c",
-        "year": 2011
+        "year": 2011,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Marta Gómez",
@@ -9833,7 +10334,8 @@
         "apple_album_id": null,
         "apple_artist_id": 74904311,
         "mb_id": "eaa696b7-5b35-4c77-ab20-054e61916875",
-        "year": 2009
+        "year": 2009,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Group Ekanzam",
@@ -9847,7 +10349,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1639452556,
         "mb_id": "3c8261fa-8861-4002-a542-d702837b3d27",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kimsy Bokoum, Afel Bokoum, Hama Sankare",
@@ -9900,7 +10403,8 @@
         "apple_album_id": 1029578667,
         "apple_artist_id": 522104373,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Stranded Horse",
@@ -9922,7 +10426,8 @@
         "discogs_styles": [
           "African"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Čači Vorba",
@@ -9937,7 +10442,8 @@
         "apple_album_id": null,
         "apple_artist_id": 402121123,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Mind Enterprises",
@@ -9961,7 +10467,8 @@
           "Broken Beat",
           "Synth-pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hannah & The Heartbreak",
@@ -9975,7 +10482,8 @@
         "apple_album_id": 918791954,
         "apple_artist_id": 912440620,
         "mb_id": "637e56de-cf4c-4838-b639-ad376f320d34",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -9998,7 +10506,8 @@
         "apple_album_id": null,
         "apple_artist_id": 255917813,
         "mb_id": "821a7049-f583-4757-b823-2902080bc3ff",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Te Vaka",
@@ -10012,7 +10521,8 @@
         "apple_album_id": null,
         "apple_artist_id": 255917813,
         "mb_id": "292d5f09-4630-4225-b62c-3b0154f47936",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fangool",
@@ -10026,7 +10536,8 @@
         "apple_album_id": 1054912064,
         "apple_artist_id": 1054912239,
         "mb_id": "b450e411-0c20-48d9-805d-7103f282b795",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Le Sourouba de Louga",
@@ -10040,7 +10551,8 @@
         "apple_album_id": 1054912064,
         "apple_artist_id": 1054912554,
         "mb_id": "1dbae4f2-cd9f-4572-9cd6-3eb372e17f67",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Le Tropical Jazz",
@@ -10054,7 +10566,8 @@
         "apple_album_id": 1054912064,
         "apple_artist_id": 1054912634,
         "mb_id": "9fa4afc7-27b2-408b-a329-04ec1e8eb9ba",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Orchestre Bawobab",
@@ -10068,7 +10581,8 @@
         "apple_album_id": 1054912064,
         "apple_artist_id": 1054912550,
         "mb_id": null,
-        "year": 2011
+        "year": 2011,
+        "year_from": "apple"
       },
       {
         "artist": "Weird Dreams",
@@ -10090,7 +10604,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Louisa Baileche",
@@ -10104,7 +10619,8 @@
         "apple_album_id": 1059490328,
         "apple_artist_id": 1059490664,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Carnaval Marsupial",
@@ -10157,7 +10673,8 @@
         "apple_album_id": 1040464372,
         "apple_artist_id": 1040464373,
         "mb_id": "dbc9f65a-4ca4-43f0-b537-b0b6fcfc727f",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Carrie Rodriguez",
@@ -10179,7 +10696,8 @@
         "discogs_styles": [
           "Country"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "DJ Tudo",
@@ -10192,7 +10710,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 11294989,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       }
     ]
   },
@@ -10215,7 +10734,8 @@
         "apple_album_id": 1289786740,
         "apple_artist_id": null,
         "mb_id": "2fd4ff9b-e50c-4036-a543-93487defd6a5",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pekko Käppi & K:H:H:L",
@@ -10228,7 +10748,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 6802416,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Lysia Conde",
@@ -10241,7 +10762,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 15641004,
-        "year": 2013
+        "year": 2013,
+        "year_from": "discogs"
       },
       {
         "artist": "Owiny Sigoma Band",
@@ -10264,7 +10786,8 @@
         "discogs_styles": [
           "African"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Owiny Sigoma Band",
@@ -10287,7 +10810,8 @@
         "discogs_styles": [
           "African"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lenka Lichtenberg",
@@ -10302,7 +10826,8 @@
         "apple_album_id": null,
         "apple_artist_id": 389224101,
         "mb_id": "8f8609f4-ddd9-4a02-aa59-9b4fad8a85a0",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lenka Lichtenberg",
@@ -10317,7 +10842,8 @@
         "apple_album_id": null,
         "apple_artist_id": 389224101,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Louisa Lyne",
@@ -10331,7 +10857,8 @@
         "apple_album_id": 994981219,
         "apple_artist_id": 562211438,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Dina",
@@ -10358,7 +10885,8 @@
         "apple_album_id": 1041129699,
         "apple_artist_id": 81412437,
         "mb_id": "dbfe3eaf-59e9-4f81-ac6a-863924439243",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Svjata Vatra",
@@ -10373,7 +10901,8 @@
         "apple_album_id": 1022249352,
         "apple_artist_id": 294145871,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Svjata Vatra",
@@ -10388,7 +10917,8 @@
         "apple_album_id": 1022249352,
         "apple_artist_id": 294145871,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       }
     ]
   },
@@ -10421,7 +10951,8 @@
           "Folk Rock",
           "Art Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Аффинаж",
@@ -10445,7 +10976,8 @@
           "Folk Rock",
           "Art Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bixia 70",
@@ -10459,7 +10991,8 @@
         "apple_album_id": 1033696396,
         "apple_artist_id": 575263160,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Tracy Bryant",
@@ -10481,7 +11014,8 @@
           "Indie Rock",
           "Lo-Fi"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tracy Bryant",
@@ -10503,7 +11037,8 @@
           "Indie Rock",
           "Lo-Fi"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kardeş Türküler",
@@ -10530,7 +11065,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2008
+        "year": 2008,
+        "year_from": "apple"
       },
       {
         "artist": "Bobby Boris Pickett & the Crypt Kickers",
@@ -10544,7 +11080,8 @@
         "apple_album_id": null,
         "apple_artist_id": 25092709,
         "mb_id": "f45e18b4-4f2b-4e33-8643-964a870a9f47",
-        "year": 1962
+        "year": 1962,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Morecambe & Wise",
@@ -10558,7 +11095,8 @@
         "apple_album_id": null,
         "apple_artist_id": 16110848,
         "mb_id": "65f19c1e-ae74-4bb2-bfc8-ad3db351d46b",
-        "year": 2000
+        "year": 2000,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Spike Jones & His City Slickers",
@@ -10572,7 +11110,8 @@
         "apple_album_id": null,
         "apple_artist_id": 68629176,
         "mb_id": "6b650357-c270-45da-8cee-65a93e1317f3",
-        "year": 1944
+        "year": 1944,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ray Stevens",
@@ -10586,7 +11125,8 @@
         "apple_album_id": null,
         "apple_artist_id": 25445,
         "mb_id": "364b53b7-1a55-42c4-b10b-418bd98f57e5",
-        "year": 1962
+        "year": 1962,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Chipmunks & David Seville",
@@ -10600,7 +11140,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "b479f01f-c0e6-4429-b623-2d40aca94839",
-        "year": 1959
+        "year": 1959,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pat Boone",
@@ -10614,7 +11155,8 @@
         "apple_album_id": null,
         "apple_artist_id": 34523,
         "mb_id": "4539b9b4-db7b-482b-8a3e-5844a09dc4cf",
-        "year": 1962
+        "year": 1962,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nes",
@@ -10629,7 +11171,8 @@
         "apple_artist_id": 1453107485,
         "mb_id": "09fcecfd-0a8c-4beb-8969-f7316b5af612",
         "discogs_id": 23828048,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       }
     ]
   },
@@ -10654,7 +11197,8 @@
         "apple_album_id": 1055109975,
         "apple_artist_id": 269885803,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Ilaria Graziano & Francesco Forni",
@@ -10669,7 +11213,8 @@
         "apple_artist_id": null,
         "mb_id": "566b5c73-2627-477f-86e1-659afb2294ac",
         "discogs_id": 34480348,
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ilaria Graziano & Francesco Forni",
@@ -10684,7 +11229,8 @@
         "apple_artist_id": null,
         "mb_id": "0d57311b-868e-4dfa-80b4-879914c23b47",
         "discogs_id": 34480348,
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Wave Pictures",
@@ -10704,7 +11250,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Wave Pictures",
@@ -10724,7 +11271,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Stanley Brinks & the Wave Pictures",
@@ -10746,7 +11294,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Stanley Brinks & the Wave Pictures",
@@ -10768,7 +11317,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Monsieur Periné",
@@ -10793,7 +11343,8 @@
           "Gypsy Jazz",
           "Electro Swing"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "NFaly Kouyate",
@@ -10806,7 +11357,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 10654026,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Circusz-Ka",
@@ -10832,7 +11384,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 4294154,
-        "year": 2012
+        "year": 2012,
+        "year_from": "discogs"
       },
       {
         "artist": "Vilma Timonen Quartet",
@@ -10854,7 +11407,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Strikis",
@@ -10868,7 +11422,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1680152212,
         "mb_id": "40f01fab-0365-4972-9a9d-6ef008ea4c65",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -10900,7 +11455,8 @@
           "Pop Rock",
           "Rockabilly"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Stinka",
@@ -10914,7 +11470,8 @@
         "apple_album_id": 731827075,
         "apple_artist_id": 731827076,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Stinka",
@@ -10928,7 +11485,8 @@
         "apple_album_id": 731827075,
         "apple_artist_id": 731827076,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Griselda sanderson",
@@ -10942,7 +11500,8 @@
         "apple_album_id": 1617412507,
         "apple_artist_id": 298621871,
         "mb_id": "054dc35a-d24e-4e37-bb01-3bc3a6c90c9c",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Wally Warning",
@@ -10957,7 +11516,8 @@
         "apple_album_id": 988951053,
         "apple_artist_id": 120478854,
         "mb_id": "6c7cc3bf-25b1-434e-9c43-c255b189404d",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sainkho Namchylak",
@@ -10972,7 +11532,8 @@
         "apple_album_id": 1047553340,
         "apple_artist_id": 27272311,
         "mb_id": null,
-        "year": 2011
+        "year": 2011,
+        "year_from": "apple"
       },
       {
         "artist": "Sainkho Namchylak",
@@ -10987,7 +11548,8 @@
         "apple_album_id": 1047553340,
         "apple_artist_id": 27272311,
         "mb_id": null,
-        "year": 2011
+        "year": 2011,
+        "year_from": "apple"
       },
       {
         "artist": "Sainkho Namchylak",
@@ -11002,7 +11564,8 @@
         "apple_album_id": 1047553340,
         "apple_artist_id": 27272311,
         "mb_id": null,
-        "year": 2011
+        "year": 2011,
+        "year_from": "apple"
       },
       {
         "artist": "Sainkho Namchylak",
@@ -11028,7 +11591,8 @@
           "Avantgarde",
           "Art Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pete Astor",
@@ -11050,7 +11614,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "No Blues",
@@ -11064,7 +11629,8 @@
         "apple_album_id": 1032375348,
         "apple_artist_id": 80286872,
         "mb_id": "5717fe26-0146-45ef-96f1-a15ff812ae54",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "No Blues",
@@ -11078,7 +11644,8 @@
         "apple_album_id": 1032375348,
         "apple_artist_id": 80286872,
         "mb_id": "1661e629-93ad-439f-bb04-c5d97858e972",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mara",
@@ -11092,7 +11659,8 @@
         "apple_album_id": 1447046475,
         "apple_artist_id": 1446895127,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Malasaners",
@@ -11106,7 +11674,8 @@
         "apple_album_id": 1654016213,
         "apple_artist_id": 655126164,
         "mb_id": "b003511e-aecf-4781-9ab0-8e597f1d7ccf",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -11129,7 +11698,8 @@
         "apple_album_id": 1005107910,
         "apple_artist_id": 172930306,
         "mb_id": "7aa9f3a4-069a-4ffe-a596-68ca8896fe0c",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Amadou Balake",
@@ -11143,7 +11713,8 @@
         "apple_album_id": 1005107910,
         "apple_artist_id": 172930306,
         "mb_id": "1ca2bd09-5167-469e-9cce-ca25e57257a3",
-        "year": 2008
+        "year": 2008,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dunja Knebl & Kololira",
@@ -11156,7 +11727,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 9025643,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Dalindio",
@@ -11195,7 +11767,8 @@
           "Nursery Rhymes",
           "Story"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Elvis Perkins",
@@ -11228,7 +11801,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rodrigo Amarante",
@@ -11242,7 +11816,8 @@
         "apple_album_id": null,
         "apple_artist_id": 110028991,
         "mb_id": "bf971094-5385-4db1-a2e0-52c3726fe359",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Tornados",
@@ -11256,7 +11831,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1143207016,
         "mb_id": "866b31df-5575-4e22-9119-48b1c007e258",
-        "year": 1962
+        "year": 1962,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Packabeats",
@@ -11270,7 +11846,8 @@
         "apple_album_id": null,
         "apple_artist_id": 218282608,
         "mb_id": "d1fbecbb-64d1-4f64-a40d-c2537bc4a306",
-        "year": 1991
+        "year": 1991,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Eagles",
@@ -11284,7 +11861,8 @@
         "apple_album_id": null,
         "apple_artist_id": 270337232,
         "mb_id": "63c77f07-70f9-42bc-9eaa-692553dbd140",
-        "year": 1962
+        "year": 1962,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Echoes",
@@ -11310,7 +11888,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 11503668,
-        "year": 1960
+        "year": 1960,
+        "year_from": "discogs"
       },
       {
         "artist": "Totó La Momposina",
@@ -11332,7 +11911,8 @@
         "discogs_styles": [
           "Cumbia"
         ],
-        "year": 1993
+        "year": 1993,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -11353,7 +11933,8 @@
         ],
         "apple_id": null,
         "mb_id": "30cc8d41-5ce6-41d3-b35a-970e787790f9",
-        "year": 1998
+        "year": 1998,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mikronid",
@@ -11367,7 +11948,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1877016171,
         "mb_id": "24f8655d-ca54-4053-8e26-1b11ff28943f",
-        "year": 1998
+        "year": 1998,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kooma",
@@ -11379,7 +11961,8 @@
         ],
         "apple_id": null,
         "mb_id": "a0ae09a3-09d3-4ed3-befd-0e93e468da64",
-        "year": 2010
+        "year": 2010,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Meie",
@@ -11391,7 +11974,8 @@
         ],
         "apple_id": null,
         "mb_id": "36e05589-9b17-4a1b-a13f-b685aa7d550e",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Suuk",
@@ -11403,7 +11987,8 @@
         ],
         "apple_id": null,
         "mb_id": "cfe214c5-a268-4fac-ab4e-593d64af468b",
-        "year": 2000
+        "year": 2000,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Keldriline",
@@ -11439,7 +12024,8 @@
           "Acoustic",
           "Classic Rock"
         ],
-        "year": 2009
+        "year": 2009,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Cibelle",
@@ -11453,7 +12039,8 @@
         "apple_album_id": null,
         "apple_artist_id": 3538242,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Dizu Plaatjies",
@@ -11467,7 +12054,8 @@
         "apple_album_id": 1040897755,
         "apple_artist_id": 203085942,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Dizu Plaatjies",
@@ -11481,7 +12069,8 @@
         "apple_album_id": 1040897755,
         "apple_artist_id": 203085942,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Lila Down",
@@ -11495,7 +12084,8 @@
         "apple_album_id": 966402507,
         "apple_artist_id": 653627,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Lila Down ft. Juanes",
@@ -11510,7 +12100,8 @@
         "apple_album_id": 966402507,
         "apple_artist_id": 653627,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Midival Punditz",
@@ -11534,7 +12125,8 @@
           "Indian Classical",
           "Downtempo"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -11557,7 +12149,8 @@
         "apple_album_id": null,
         "apple_artist_id": 13453210,
         "mb_id": "d2dadf15-6498-4e79-ad91-a9d5af84985a",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fred I Stormen",
@@ -11582,7 +12175,8 @@
         ],
         "apple_id": null,
         "mb_id": "68caa5d5-54ac-449b-9f46-33c37406b939",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ses",
@@ -11594,7 +12188,8 @@
         ],
         "apple_id": null,
         "mb_id": "49e487e1-9812-4ea7-99b3-8bf777873563",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ses",
@@ -11608,7 +12203,8 @@
         "apple_album_id": 973841765,
         "apple_artist_id": 160099178,
         "mb_id": "92efe924-d0f6-4858-bbae-d6e4455c34f0",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Quoc Hung",
@@ -11622,7 +12218,8 @@
         "apple_album_id": null,
         "apple_artist_id": 596265930,
         "mb_id": "05102bec-6f62-4017-962b-9da22808df3b",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Xuan Hoach",
@@ -11634,7 +12231,8 @@
         ],
         "apple_id": null,
         "mb_id": "35a17aca-21d9-4a11-95ce-54c61227f2e1",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nguyen Thi Lan",
@@ -11646,7 +12244,8 @@
         ],
         "apple_id": null,
         "mb_id": "f5c85d6e-60e1-4f41-9929-2d859d90d448",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Quoc Hung",
@@ -11660,7 +12259,8 @@
         "apple_album_id": null,
         "apple_artist_id": 596265930,
         "mb_id": "42e1d730-41a7-446c-908e-8f2070253a02",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Wau Y Los Arrrghs!!",
@@ -11674,7 +12274,8 @@
         "apple_album_id": 712465794,
         "apple_artist_id": 274242379,
         "mb_id": "792d355a-8d03-4c37-8e1f-9f17ff7a5bb5",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Riika",
@@ -11726,7 +12327,8 @@
           "African",
           "Leftfield"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Naxos Orchestra",
@@ -11768,7 +12370,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Axel Krygier",
@@ -11787,7 +12390,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Галина Босая",
@@ -11812,7 +12416,8 @@
         ],
         "apple_id": null,
         "mb_id": "9c88a967-2716-47be-a45d-f23ff2d766e0",
-        "year": 1999
+        "year": 1999,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "LaVern Baker & Jimmy Ricks",
@@ -11826,7 +12431,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "59ef1174-eddc-4a5f-8161-8ac18ae24326",
-        "year": 1961
+        "year": 1961,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Big Maybelle",
@@ -11840,7 +12446,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1172095,
         "mb_id": "8cef8e65-f3d6-4deb-99db-2ef80b496492",
-        "year": 1994
+        "year": 1994,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Club Del Rio",
@@ -11854,7 +12461,8 @@
         "apple_album_id": null,
         "apple_artist_id": 769063979,
         "mb_id": "b5922af4-3181-456d-9961-afe4b8364e35",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Debalina Bhowmick",
@@ -11886,7 +12494,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Monoswezi",
@@ -11909,7 +12518,8 @@
           "African",
           "Nordic"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Felix Lajko",
@@ -11921,7 +12531,8 @@
         ],
         "apple_id": null,
         "mb_id": "3aa1c93c-ef2b-45ea-964c-00aab4156e7c",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Felix Lajko",
@@ -11948,7 +12559,8 @@
         "apple_album_id": 1049192510,
         "apple_artist_id": 725315956,
         "mb_id": "6e0a7a92-218e-41da-b92a-2dbb36dba9e3",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -11984,7 +12596,8 @@
           "Psychedelic Rock",
           "Dub"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Helena Sofia Ea Musica Peturbanda Brasiliera",
@@ -12024,7 +12637,8 @@
         "apple_album_id": 1695706492,
         "apple_artist_id": 1069900066,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Seiva",
@@ -12038,7 +12652,8 @@
         "apple_album_id": 1004627054,
         "apple_artist_id": 1004627060,
         "mb_id": "a1ab4102-e1d4-4b02-b642-cac3bd764752",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Seiva",
@@ -12052,7 +12667,8 @@
         "apple_album_id": 1004627054,
         "apple_artist_id": 1004627060,
         "mb_id": "b2203b09-7d92-4715-bad0-e251141d3fba",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "E.T. Mensah & The Tempos",
@@ -12066,7 +12682,8 @@
         "apple_album_id": null,
         "apple_artist_id": 260305920,
         "mb_id": "f0afaf95-95cc-4ca0-80ea-f491defc469f",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Soapkills",
@@ -12080,7 +12697,8 @@
         "apple_album_id": 988808982,
         "apple_artist_id": 334802027,
         "mb_id": "6bca01c6-682d-4258-a14f-b69769802189",
-        "year": 2001
+        "year": 2001,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Soapkills",
@@ -12094,7 +12712,8 @@
         "apple_album_id": 989072231,
         "apple_artist_id": 334802027,
         "mb_id": "bb8e607c-e2f0-4f29-97c2-2fc313655e31",
-        "year": 2002
+        "year": 2002,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Soapkills",
@@ -12116,7 +12735,8 @@
         "discogs_styles": [
           "Trip Hop"
         ],
-        "year": 2005
+        "year": 2005,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Maisteri T.",
@@ -12130,7 +12750,8 @@
         "apple_album_id": 1043060267,
         "apple_artist_id": 1043060270,
         "mb_id": "572e84d1-b1cc-475a-8c7c-06c967f4495d",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tav Falco & Panther Burns",
@@ -12145,7 +12766,8 @@
         "apple_album_id": 965053202,
         "apple_artist_id": null,
         "mb_id": "1c9f07d4-932d-4e77-b73c-b1b93196a843",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "United Bible Studies",
@@ -12159,7 +12781,8 @@
         "apple_album_id": null,
         "apple_artist_id": 261626903,
         "mb_id": "ed26cf09-1b02-47c8-bf2f-d8c7814c710e",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -12187,7 +12810,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "King Automatic",
@@ -12210,7 +12834,8 @@
           "Rock & Roll",
           "Blues Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Orquesta Popular de la Magdalena",
@@ -12223,7 +12848,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 17825953,
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Oscar Perry",
@@ -12235,7 +12861,8 @@
         ],
         "apple_id": null,
         "mb_id": "5d1c5eb2-3cf2-4362-8678-dad833dbff98",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Trini Lopez",
@@ -12249,7 +12876,8 @@
         "apple_album_id": null,
         "apple_artist_id": 20528547,
         "mb_id": "c47ae770-86bb-43e7-9a5b-2ecb8714576c",
-        "year": 1995
+        "year": 1995,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Malcolm Dodds",
@@ -12263,7 +12891,8 @@
         "apple_album_id": null,
         "apple_artist_id": 42283565,
         "mb_id": "07cc7c4a-c72a-4ff1-8e60-d85fee20d86b",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Cauzonieri Grecanico Salentino",
@@ -12277,7 +12906,8 @@
         "apple_album_id": null,
         "apple_artist_id": 137291997,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Cauzonieri Grecanico Salentino",
@@ -12291,7 +12921,8 @@
         "apple_album_id": null,
         "apple_artist_id": 137291997,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Kimmo Pohjonen",
@@ -12313,7 +12944,8 @@
         "discogs_styles": [
           "Contemporary Jazz"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kimmo Pohjonen ft. Kronos Quartet",
@@ -12335,7 +12967,8 @@
         "discogs_styles": [
           "Contemporary Jazz"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Omar Souleyman",
@@ -12356,7 +12989,8 @@
         "discogs_styles": [
           "Dabke"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Seukuti & Egypt 80",
@@ -12400,7 +13034,8 @@
         "discogs_styles": [
           "Psychedelic Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Terakaft",
@@ -12420,7 +13055,8 @@
           "African",
           "Blues Rock"
         ],
-        "year": null
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Terakaft",
@@ -12440,7 +13076,8 @@
           "African",
           "Blues Rock"
         ],
-        "year": null
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Mackenzie",
@@ -12453,7 +13090,8 @@
         "apple_id": 1472407433,
         "apple_album_id": null,
         "apple_artist_id": 1726971330,
-        "year": 1997
+        "year": 1997,
+        "year_from": "apple"
       },
       {
         "artist": "Martyn Bennett",
@@ -12467,7 +13105,8 @@
         "apple_album_id": null,
         "apple_artist_id": 16348721,
         "mb_id": "304c117f-08c3-4241-a4f8-836cd678a79e",
-        "year": 2003
+        "year": 2003,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Saor Patrol",
@@ -12478,7 +13117,8 @@
           "GB"
         ],
         "mb_id": "ba34a0f5-f6b6-41d5-ab02-213b52d12844",
-        "year": 2010
+        "year": 2010,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Arnaldo Antunes",
@@ -12499,7 +13139,8 @@
         "discogs_styles": [
           "MPB"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "discogs"
       },
       {
         "artist": "JPP",
@@ -12511,7 +13152,8 @@
         ],
         "apple_id": null,
         "mb_id": "1336fe76-c604-4b6b-98a5-09f1ce4e87ab",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sam Lee & Friends",
@@ -12525,7 +13167,8 @@
         "apple_album_id": 1853133158,
         "apple_artist_id": null,
         "mb_id": "f56bcd84-4e82-43be-941b-f19bee372702",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sam Lee & Friends",
@@ -12539,7 +13182,8 @@
         "apple_album_id": 1853133158,
         "apple_artist_id": null,
         "mb_id": "14e04286-3c80-46ad-9469-dcaec59dd52a",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mec Yek",
@@ -12554,7 +13198,8 @@
         "apple_album_id": null,
         "apple_artist_id": 154595457,
         "mb_id": "9ab569b3-0c4a-4cc3-9b71-8db8c045cb61",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mec Yek",
@@ -12569,7 +13214,8 @@
         "apple_album_id": null,
         "apple_artist_id": 154595457,
         "mb_id": "0c706c42-a818-412e-b218-a4fec1c06595",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Niyaz",
@@ -12594,7 +13240,8 @@
           "Folk",
           "Electro"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -12617,7 +13264,8 @@
         "apple_album_id": 1043088360,
         "apple_artist_id": 261118399,
         "mb_id": "7c84f05c-af3f-4fb5-a416-e77b8647d1af",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Polkaholix",
@@ -12629,7 +13277,8 @@
         ],
         "apple_id": null,
         "mb_id": "6cd0cb37-eef5-44f5-be32-6c1b93b6561a",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sasa Nicklickova",
@@ -12656,7 +13305,8 @@
         "apple_album_id": 587860417,
         "apple_artist_id": 204652008,
         "mb_id": null,
-        "year": 2012
+        "year": 2012,
+        "year_from": "apple"
       },
       {
         "artist": "Faris",
@@ -12670,7 +13320,8 @@
         "apple_album_id": null,
         "apple_artist_id": 282633080,
         "mb_id": "86b7c1d5-e055-4b42-833b-d424fea41b9d",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pablo Casella",
@@ -12684,7 +13335,8 @@
         "apple_album_id": null,
         "apple_artist_id": 891278006,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "Jamaican Jazz Orchestra",
@@ -12699,7 +13351,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1040566636,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "Proyecto Secreto",
@@ -12713,7 +13366,8 @@
         "apple_album_id": null,
         "apple_artist_id": 439537304,
         "mb_id": "c22d0abe-1244-43ef-923e-33041936bb52",
-        "year": 2008
+        "year": 2008,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "BandAdriatica",
@@ -12727,7 +13381,8 @@
         "apple_album_id": 1628283691,
         "apple_artist_id": 320679933,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "The Unthanks",
@@ -12741,7 +13396,8 @@
         "apple_album_id": 938379224,
         "apple_artist_id": 329352560,
         "mb_id": "602cf456-cb4b-416f-b479-75b3fb6934fa",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Torgeir Vassvik",
@@ -12755,7 +13411,8 @@
         "apple_album_id": null,
         "apple_artist_id": 202330027,
         "mb_id": "ccea622c-cff1-44fe-9b8a-7b45ef71c431",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Torgeir Vassvik",
@@ -12769,7 +13426,8 @@
         "apple_album_id": null,
         "apple_artist_id": 202330027,
         "mb_id": null,
-        "year": 2009
+        "year": 2009,
+        "year_from": "apple"
       },
       {
         "artist": "Uzgin Uver",
@@ -12791,7 +13449,8 @@
         "discogs_styles": [
           "Neofolk"
         ],
-        "year": 1995
+        "year": 1995,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -12826,7 +13485,8 @@
           "Danzon",
           "Son"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Buena Vista Social Club",
@@ -12852,7 +13512,8 @@
           "Danzon",
           "Son"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Buena Vista Social Club",
@@ -12878,7 +13539,8 @@
           "Danzon",
           "Son"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Cermaque",
@@ -12901,7 +13563,8 @@
         "discogs_styles": [
           "Folk Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Goran Bregovic/Carmen Consoli",
@@ -12916,7 +13579,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "527c003c-f17a-4a7d-8e42-80f3adcf8a1c",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Louis Armstrong",
@@ -12941,7 +13605,8 @@
         ],
         "apple_id": null,
         "mb_id": "884957a0-e359-49cd-a4bb-22407a61447b",
-        "year": 2008
+        "year": 2008,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Манана Гогитидзе",
@@ -12955,7 +13620,8 @@
         "apple_album_id": null,
         "apple_artist_id": 871681816,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "M.Ashraf & Noor Jehan",
@@ -13008,7 +13674,8 @@
         "apple_album_id": null,
         "apple_artist_id": 202088456,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "Ludovico Einadi",
@@ -13022,7 +13689,8 @@
         "apple_album_id": null,
         "apple_artist_id": 7420827,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Malicanti",
@@ -13036,7 +13704,8 @@
         "apple_album_id": 1628283899,
         "apple_artist_id": 443067542,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       }
     ]
   },
@@ -13058,7 +13727,8 @@
         ],
         "apple_id": null,
         "mb_id": "18771176-4143-4eaf-82f6-e85eac0d17d3",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Titty Bar Tim Blues Band",
@@ -13072,7 +13742,8 @@
         "apple_album_id": 1077276222,
         "apple_artist_id": 1076483645,
         "mb_id": "20d85050-d08a-4d70-8c54-fb82582923b0",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Amadou Diagne",
@@ -13084,7 +13755,8 @@
         ],
         "apple_id": null,
         "mb_id": "a7a5d37b-ecb2-4dc1-b923-1d9ba85dbc6a",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Cuncordu E Tenori De Orosei",
@@ -13098,7 +13770,8 @@
         "apple_album_id": 998899718,
         "apple_artist_id": 998899719,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Ойме",
@@ -13139,7 +13812,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "Lobua Noomene/Lisbeth Scott",
@@ -13168,7 +13842,8 @@
         "apple_album_id": 736867627,
         "apple_artist_id": 140863216,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Heg & the Wolf",
@@ -13182,7 +13857,8 @@
         "apple_album_id": 944702607,
         "apple_artist_id": null,
         "mb_id": "1865ef4f-1613-4400-97e1-d408ed366d8a",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Electro Bawako",
@@ -13197,7 +13873,8 @@
         "apple_album_id": 988120961,
         "apple_artist_id": 619445855,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "Electro Bawako",
@@ -13212,7 +13889,8 @@
         "apple_album_id": 988120961,
         "apple_artist_id": 619445855,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Xaos",
@@ -13227,7 +13905,8 @@
         "apple_album_id": 1617408060,
         "apple_artist_id": 1383735408,
         "mb_id": "98afa06e-29af-4a70-9fb3-35e14af25cb3",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -13275,7 +13954,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 11620780,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Kiran Ahluwalia",
@@ -13288,7 +13968,8 @@
         ],
         "apple_id": null,
         "mb_id": "b4ee68d3-28a9-413a-84db-53db4d5277a6",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kiran Ahluwalia",
@@ -13301,7 +13982,8 @@
         ],
         "apple_id": null,
         "mb_id": "5fd3b227-ff7d-447c-9edb-00f3d99c7653",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Parov Stellar",
@@ -13315,7 +13997,8 @@
         "apple_album_id": null,
         "apple_artist_id": 62288424,
         "mb_id": "1792ddd2-1efe-4a95-b239-9c66b21462fb",
-        "year": 2010
+        "year": 2010,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Shazalakazoo",
@@ -13329,7 +14012,8 @@
         "apple_album_id": null,
         "apple_artist_id": 335034963,
         "mb_id": "bb1b776c-5093-45e5-883d-af952fbc081c",
-        "year": 2011
+        "year": 2011,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Skazka Orchestra",
@@ -13344,7 +14028,8 @@
         "apple_album_id": null,
         "apple_artist_id": 506746682,
         "mb_id": "02997198-358f-4fd8-8de9-b06b5251c0cf",
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rustica",
@@ -13371,7 +14056,8 @@
         "apple_album_id": null,
         "apple_artist_id": 21442737,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "La Santa Cecilia",
@@ -13384,7 +14070,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 8479870,
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Dennis Bowell vs Tamikrest",
@@ -13448,7 +14135,8 @@
           "Ska",
           "Punk"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mansha Vahdat",
@@ -13463,7 +14151,8 @@
         "apple_album_id": null,
         "apple_artist_id": 65413022,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Akale Wube feat. Manu Dibango",
@@ -13491,7 +14180,8 @@
         "apple_album_id": null,
         "apple_artist_id": 183548226,
         "mb_id": "3cc32181-3db9-4dc8-9b99-1174ee5e5d39",
-        "year": 2007
+        "year": 2007,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ray Lema & Professeur Stefanov",
@@ -13530,7 +14220,8 @@
         ],
         "apple_id": null,
         "mb_id": "2ecb7c19-df02-4ae9-92ef-37900010071f",
-        "year": 1999
+        "year": 1999,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Prince Buju",
@@ -13544,7 +14235,8 @@
         "apple_album_id": 969027863,
         "apple_artist_id": 969027865,
         "mb_id": "7730b703-eaf4-4adc-9df9-7437011fde04",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Claire Louise",
@@ -13571,7 +14263,8 @@
         "apple_album_id": 1000415659,
         "apple_artist_id": 54888662,
         "mb_id": "c80bb2f5-8079-496b-8c0a-d1bf96d41522",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Emel Mathlouthi",
@@ -13608,7 +14301,8 @@
           "Acoustic",
           "Ambient"
         ],
-        "year": 1980
+        "year": 1980,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -13644,7 +14338,8 @@
         "apple_album_id": 961198707,
         "apple_artist_id": 961198712,
         "mb_id": "32ab7598-0067-4baa-a3f8-6cc1de5335e3",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Идиш-Джаз",
@@ -13686,7 +14381,8 @@
         "apple_album_id": 1004985171,
         "apple_artist_id": 252442630,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Toni Хucla",
@@ -13700,7 +14396,8 @@
         "apple_album_id": 1804733730,
         "apple_artist_id": 259063809,
         "mb_id": "90179a6f-e37b-4ff4-a10d-a9dbe7824328",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Trans Bangla",
@@ -13740,7 +14437,8 @@
         "apple_album_id": null,
         "apple_artist_id": 335648811,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Balaji & LOrchestr De La Katuba",
@@ -13775,7 +14473,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Banda Senderos",
@@ -13789,7 +14488,8 @@
         "apple_album_id": 1675658828,
         "apple_artist_id": 893844950,
         "mb_id": "e1478c99-5f31-4b89-bcd7-c72ddfbb7853",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -13812,7 +14512,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1109187,
         "mb_id": "bfd06808-d1c8-4714-9ae9-60733aa1d980",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dub Pistols",
@@ -13826,7 +14527,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1109187,
         "mb_id": "22701edd-e5ab-4a3c-aa34-a8676e8ef835",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Carmen Souza & Theo Pascal",
@@ -13840,7 +14542,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "958aa41a-c635-4983-bd32-d2dc93a84d9a",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Spiro",
@@ -13854,7 +14557,8 @@
         "apple_album_id": null,
         "apple_artist_id": 498971960,
         "mb_id": "c8870fd0-0e06-43cd-a073-333bbf7ee814",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Le Vent Du Nord",
@@ -13868,7 +14572,8 @@
         "apple_album_id": null,
         "apple_artist_id": 73194550,
         "mb_id": "3ef1db30-d05c-4e81-a53e-ff422b9ff67b",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Silvie Krobov",
@@ -13896,7 +14601,8 @@
         "apple_artist_id": 1619445534,
         "mb_id": "e1a0355f-5a20-4b2d-a814-ee50e1a3cc25",
         "discogs_id": 34757009,
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Ted Jarrett & Band",
@@ -13911,7 +14617,8 @@
         "apple_artist_id": null,
         "mb_id": "b0badac9-27bd-4d8b-a168-0528a7031fc7",
         "discogs_id": 2080581,
-        "year": 1962
+        "year": 1962,
+        "year_from": "owner"
       },
       {
         "artist": "Nicky De Matteo",
@@ -13926,7 +14633,8 @@
         "apple_artist_id": 433709079,
         "mb_id": "e8f1753f-e32a-4a35-a5c8-304a5fa56dd4",
         "discogs_id": 8902452,
-        "year": 1962
+        "year": 1962,
+        "year_from": "owner"
       },
       {
         "artist": "The Astro-Jets",
@@ -13939,7 +14647,8 @@
         "apple_id": null,
         "mb_id": "13354584-1676-4ab9-812b-ca938c01b682",
         "discogs_id": 5002617,
-        "year": 1961
+        "year": 1961,
+        "year_from": "owner"
       },
       {
         "artist": "German Diaz & Antoni Bravo & Diego Martin",
@@ -13966,7 +14675,8 @@
         "apple_album_id": null,
         "apple_artist_id": 7292830,
         "mb_id": "c8afcbfc-0fcf-41be-9aa8-7762b4133d93",
-        "year": 1970
+        "year": 1970,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Alice Caymmi",
@@ -13980,7 +14690,8 @@
         "apple_album_id": null,
         "apple_artist_id": 404675811,
         "mb_id": "63e74d7e-f2ce-47e8-8a63-979166cfd2d0",
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Вася Васин and Blues Doctors",
@@ -13994,7 +14705,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       }
     ]
   }

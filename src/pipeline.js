@@ -123,7 +123,7 @@ const parsed = ({ artist, track, album, printed_country, country, country_from }
  * that source has been asked, and the country until the playlist was read
  * for it (bin/countries.js for tracks parsed before the parse read it).
  */
-const shape = ({ artist, track, album, printed_country, country, country_from, apple_id, apple_album_id, apple_artist_id, mb_id, discogs_id, discogs_master_id, discogs_genres, discogs_styles, year }) => ({
+const shape = ({ artist, track, album, printed_country, country, country_from, apple_id, apple_album_id, apple_artist_id, mb_id, discogs_id, discogs_master_id, discogs_genres, discogs_styles, year, year_from }) => ({
   artist,
   track,
   album,
@@ -139,13 +139,32 @@ const shape = ({ artist, track, album, printed_country, country, country_from, a
   ...(discogs_master_id && discogs_genres !== undefined && { discogs_genres }),
   ...(discogs_master_id && discogs_styles !== undefined && { discogs_styles }),
   year: year ?? null,
+  // Where the year comes from (YEAR_RANK), only beside a year.
+  ...(year != null && year_from !== undefined && { year_from }),
 });
 
 /**
+ * Whose year wins: the owner's (overrides.json), then MusicBrainz's (the
+ * recording's first release), then Discogs's (the first edition of the
+ * track's record: its master, else the release a lookup found), then Apple
+ * Music's, which is often a reissue's or a compilation's: used only when no
+ * other source has one. A year with no `year_from` (none should be left)
+ * ranks as Apple's.
+ */
+const YEAR_RANK = { apple: 1, discogs: 2, musicbrainz: 3, owner: 4 };
+
+/** The track with `year` from `from`, if it ranks at least as high as the year it has (a source asked again replaces its own answer); a year after the episode aired never counts. */
+function withYear(t, episode, year, from) {
+  const y = aired(episode, year ?? null);
+  if (y === null) return t;
+  const current = t.year == null ? 0 : (YEAR_RANK[t.year_from] ?? YEAR_RANK.apple);
+  return YEAR_RANK[from] >= current ? { ...t, year: y, year_from: from } : t;
+}
+
+/**
  * Each source: which tracks still need it, and how its answer goes into a
- * track. The year is MusicBrainz's (the original release), else Apple's,
- * else Discogs's, whichever of the first two answers first; none counts if
- * it is after the episode aired. Discogs is asked about every track, once
+ * track. The year goes by YEAR_RANK (withYear), whichever source answers
+ * first; none counts if it is after the episode aired. Discogs is asked about every track, once
  * the other two have answered, for its release and master ids (a release
  * found before masters were kept: for its master alone); see lookUp for which.
  */
@@ -154,14 +173,14 @@ const sources = {
     needs: (track) => !('apple_id' in track),
     ask: async (track, episode) => {
       const found = await findOnApple(track);
-      return (t) => ({ ...t, apple_id: found.apple_id, year: t.year ?? aired(episode, found.year) });
+      return (t) => withYear({ ...t, apple_id: found.apple_id }, episode, found.year, 'apple');
     },
   },
   musicbrainz: {
     needs: (track) => !('mb_id' in track),
     ask: async (track, episode) => {
       const found = await findOnMusicBrainz(track);
-      return (t) => ({ ...t, mb_id: found.mb_id, year: aired(episode, found.year) ?? t.year });
+      return (t) => withYear({ ...t, mb_id: found.mb_id }, episode, found.year, 'musicbrainz');
     },
   },
   discogs: {
@@ -175,7 +194,7 @@ const sources = {
       }
       const found = await findOnDiscogs(track);
       const { year, ...ids } = found;
-      return (t) => ({ ...withoutGenres(t), ...ids, year: t.year ?? aired(episode, year) });
+      return (t) => withYear({ ...withoutGenres(t), ...ids }, episode, year, 'discogs');
     },
   },
 };
@@ -184,7 +203,7 @@ const sources = {
 const withoutGenres = ({ discogs_genres, discogs_styles, ...rest }) => rest;
 
 /** What the sources answered for a track: the lookups search by its artist, title and album alone. */
-const LOOKED_UP = ['apple_id', 'apple_album_id', 'apple_artist_id', 'mb_id', 'discogs_id', 'discogs_master_id', 'discogs_genres', 'discogs_styles', 'year'];
+const LOOKED_UP = ['apple_id', 'apple_album_id', 'apple_artist_id', 'mb_id', 'discogs_id', 'discogs_master_id', 'discogs_genres', 'discogs_styles', 'year', 'year_from'];
 const sameNames = (t) => JSON.stringify([t.artist, t.track, t.album]);
 
 /**

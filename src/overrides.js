@@ -31,6 +31,8 @@ export function applyOverrides(track) {
     const fields = Object.fromEntries(Object.entries(entry).filter(([key]) => !KEYS.includes(key)));
     // A country set by hand comes from neither the archive nor MusicBrainz.
     if (fields.country !== undefined) fields.country_from = undefined;
+    // A year set by hand is the owner's, ranking above every source (src/pipeline.js YEAR_RANK).
+    if (fields.year != null) fields.year_from = 'owner';
     // Another song: its album and artist links are the next run's to find (src/apple.js findAppleLinks).
     if (fields.apple_id !== undefined && fields.apple_id !== result.apple_id) {
       const { apple_album_id, apple_artist_id, ...rest } = result;

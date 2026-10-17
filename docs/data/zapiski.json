@@ -26,7 +26,8 @@
           "Alternative Rock",
           "Experimental"
         ],
-        "year": 2006
+        "year": 2006,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Howe Gelb",
@@ -48,7 +49,8 @@
           "Alternative Rock",
           "Experimental"
         ],
-        "year": 2006
+        "year": 2006,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Void Vision",
@@ -71,7 +73,8 @@
           "Synth-pop",
           "New Wave"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Immanu El",
@@ -92,7 +95,8 @@
         "discogs_styles": [
           "Pop Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Oh! Gunquit",
@@ -114,7 +118,8 @@
           "New Wave",
           "Garage Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Oh! Gunquit",
@@ -136,7 +141,8 @@
           "New Wave",
           "Garage Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Чёртово колесо инженера Ферриса",
@@ -158,7 +164,8 @@
           "Electro",
           "Electroclash"
         ],
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Чёртово колесо инженера Ферриса",
@@ -180,7 +187,8 @@
           "Electro",
           "Electroclash"
         ],
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Little Annie",
@@ -203,7 +211,8 @@
           "Downtempo",
           "Freestyle"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Little Annie",
@@ -226,7 +235,8 @@
           "Downtempo",
           "Freestyle"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Gentle Lurch",
@@ -245,7 +255,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Scarlett O'Hanna",
@@ -260,7 +271,8 @@
         "apple_album_id": 1667078710,
         "apple_artist_id": 434502115,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "The Advisory Circle",
@@ -282,7 +294,8 @@
           "Experimental",
           "Ambient"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -313,7 +326,8 @@
           "Alternative Rock",
           "Experimental"
         ],
-        "year": 2006
+        "year": 2006,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Howe Gelb",
@@ -335,7 +349,8 @@
           "Alternative Rock",
           "Experimental"
         ],
-        "year": 2006
+        "year": 2006,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Void Vision",
@@ -358,7 +373,8 @@
           "Synth-pop",
           "New Wave"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Immanu El",
@@ -379,7 +395,8 @@
         "discogs_styles": [
           "Pop Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Oh! Gunquit",
@@ -401,7 +418,8 @@
           "New Wave",
           "Garage Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Oh! Gunquit",
@@ -423,7 +441,8 @@
           "New Wave",
           "Garage Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Чёртово колесо инженера Ферриса",
@@ -445,7 +464,8 @@
           "Electro",
           "Electroclash"
         ],
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Чёртово колесо инженера Ферриса",
@@ -467,7 +487,8 @@
           "Electro",
           "Electroclash"
         ],
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Little Annie",
@@ -490,7 +511,8 @@
           "Downtempo",
           "Freestyle"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Little Annie",
@@ -513,7 +535,8 @@
           "Downtempo",
           "Freestyle"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Gentle Lurch",
@@ -532,7 +555,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Scarlett O'Hanna",
@@ -547,7 +571,8 @@
         "apple_album_id": 1667078710,
         "apple_artist_id": 434502115,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "The Advisory Circle",
@@ -569,7 +594,8 @@
           "Experimental",
           "Ambient"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -601,7 +627,8 @@
           "Folk",
           "Indie Pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Angel Olsen",
@@ -624,7 +651,8 @@
           "Folk",
           "Indie Pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Matthewdavid",
@@ -646,7 +674,8 @@
           "Experimental",
           "Leftfield"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Minimal Compact",
@@ -668,7 +697,8 @@
         "discogs_styles": [
           "New Wave"
         ],
-        "year": 1981
+        "year": 1981,
+        "year_from": "apple"
       },
       {
         "artist": "Louisa Maita",
@@ -719,7 +749,8 @@
           "Blues Rock",
           "Deathrock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ritual Howls",
@@ -744,7 +775,8 @@
           "Blues Rock",
           "Deathrock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Plants and Animals",
@@ -758,7 +790,8 @@
         "apple_album_id": 1074924026,
         "apple_artist_id": 192531718,
         "mb_id": "8698d1bd-73f5-47c3-9eb2-54931d8a78be",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Strange Walls",
@@ -772,7 +805,8 @@
         "apple_album_id": 1180167029,
         "apple_artist_id": 1180167032,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "The Strange Walls",
@@ -786,7 +820,8 @@
         "apple_album_id": 1180167029,
         "apple_artist_id": 1180167032,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "My Disco",
@@ -809,7 +844,8 @@
           "Noise",
           "Doom Metal"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Susanna",
@@ -831,7 +867,8 @@
           "Ballad",
           "Indie Pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Olga Wojciechowska",
@@ -853,7 +890,8 @@
           "Experimental",
           "IDM"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -884,7 +922,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2010
+        "year": 2010,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Divine Comedy",
@@ -906,7 +945,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Christine Owman",
@@ -930,7 +970,8 @@
           "New Wave",
           "Post Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Christine Owman & Mark Lanegan",
@@ -955,7 +996,8 @@
           "New Wave",
           "Post Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Levelz",
@@ -969,7 +1011,8 @@
         "apple_album_id": 1078028628,
         "apple_artist_id": 1031380728,
         "mb_id": "bf74987c-a69a-4305-b1eb-8cba9075ed9b",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kuba Kapsa Ensemble",
@@ -989,7 +1032,8 @@
         "discogs_styles": [
           "Contemporary"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Valley of the Giants",
@@ -1010,7 +1054,8 @@
           "Post Rock",
           "Experimental"
         ],
-        "year": 2003
+        "year": 2003,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Moderat",
@@ -1032,7 +1077,8 @@
           "Electro",
           "Techno"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jenny Hval",
@@ -1054,7 +1100,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jenny Hval",
@@ -1076,7 +1123,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mishka Shubaly",
@@ -1098,7 +1146,8 @@
           "Country Rock",
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mishka Shubaly",
@@ -1120,7 +1169,8 @@
           "Country Rock",
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Eluvium",
@@ -1142,7 +1192,8 @@
           "Ambient",
           "Modern Classical"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -1165,7 +1216,8 @@
         "apple_album_id": 1117986660,
         "apple_artist_id": 717374234,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Douglas Firs",
@@ -1185,7 +1237,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jacaszek",
@@ -1210,7 +1263,8 @@
           "Ambient",
           "Experimental"
         ],
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Virginia Wing",
@@ -1232,7 +1286,8 @@
         "discogs_styles": [
           "Art Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Klaus Johan Grobe",
@@ -1246,7 +1301,8 @@
         "apple_album_id": 1096738636,
         "apple_artist_id": 663966338,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Klaus Johan Grobe",
@@ -1260,7 +1316,8 @@
         "apple_album_id": 1096738636,
         "apple_artist_id": 663966338,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Mélanie Pain",
@@ -1282,7 +1339,8 @@
         "discogs_styles": [
           "Chanson"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mélanie Pain",
@@ -1304,7 +1362,8 @@
         "discogs_styles": [
           "Chanson"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lost Under Heaven",
@@ -1328,7 +1387,8 @@
           "Indie Rock",
           "Alternative Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hannah Cohen",
@@ -1348,7 +1408,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hannah Cohen",
@@ -1367,7 +1428,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Chain & The Gang",
@@ -1388,7 +1450,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Chain & The Gang",
@@ -1409,7 +1472,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "This Becomes Us",
@@ -1428,7 +1492,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -1458,7 +1523,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "I Monster",
@@ -1479,7 +1545,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "I Monster",
@@ -1500,7 +1567,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dez Mona",
@@ -1514,7 +1582,8 @@
         "apple_album_id": null,
         "apple_artist_id": 216083406,
         "mb_id": "213dd9b8-b0ce-43bd-a828-1a3d5600fe6f",
-        "year": 2007
+        "year": 2007,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dez Mona",
@@ -1528,7 +1597,8 @@
         "apple_album_id": null,
         "apple_artist_id": 216083406,
         "mb_id": "8560e49a-b87c-4b0d-a5a4-967010c6d3b4",
-        "year": 2009
+        "year": 2009,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Phantoms",
@@ -1549,7 +1619,8 @@
         "discogs_styles": [
           "Beat"
         ],
-        "year": 1961
+        "year": 1961,
+        "year_from": "discogs"
       },
       {
         "artist": "Spaceheads",
@@ -1564,7 +1635,8 @@
         "apple_album_id": 1162607682,
         "apple_artist_id": 27457483,
         "mb_id": "83b84ec0-35e4-4c46-9e9a-f9a555c2ccdc",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Josephine Foster",
@@ -1585,7 +1657,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Wild Palms",
@@ -1606,7 +1679,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Los Pirañas",
@@ -1630,7 +1704,8 @@
           "Surf",
           "Psychedelic Rock"
         ],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Los Pirañas",
@@ -1654,7 +1729,8 @@
           "Surf",
           "Psychedelic Rock"
         ],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Golden Fable",
@@ -1677,7 +1753,8 @@
           "Indie Pop",
           "Indie Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -1708,7 +1785,8 @@
           "Indie Rock",
           "Art Rock"
         ],
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Orphan Boy",
@@ -1727,7 +1805,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nouvelle Vague",
@@ -1749,7 +1828,8 @@
         "discogs_styles": [
           "Bossanova"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nouvelle Vague",
@@ -1771,7 +1851,8 @@
         "discogs_styles": [
           "Bossanova"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nouvelle Vague",
@@ -1793,7 +1874,8 @@
         "discogs_styles": [
           "Bossanova"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Irmler/Liebezeit",
@@ -1815,7 +1897,8 @@
           "Abstract",
           "Future Jazz"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Junk Son",
@@ -1841,7 +1924,8 @@
           "Ethereal",
           "AOR"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Junk Son",
@@ -1867,7 +1951,8 @@
           "Ethereal",
           "AOR"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Stepmother",
@@ -1897,7 +1982,8 @@
           "Art Rock",
           "Prog Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Stepmother",
@@ -1927,7 +2013,8 @@
           "Art Rock",
           "Prog Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Braids",
@@ -1948,7 +2035,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Soft Hair",
@@ -1975,7 +2063,8 @@
           "Soul",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Soft Hair",
@@ -2002,7 +2091,8 @@
           "Soul",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -2033,7 +2123,8 @@
           "Acoustic",
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Marissa Nadler",
@@ -2055,7 +2146,8 @@
           "Acoustic",
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Les Marquises",
@@ -2078,7 +2170,8 @@
           "Alternative Rock",
           "Post Rock"
         ],
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Les Marquises",
@@ -2101,7 +2194,8 @@
           "Alternative Rock",
           "Post Rock"
         ],
-        "year": 2017
+        "year": 2017,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kansas Smitty's House Band",
@@ -2115,7 +2209,8 @@
         "apple_album_id": 1349366567,
         "apple_artist_id": 1484476289,
         "mb_id": "6e57fdc5-5e6c-4c21-85d1-2bd2de000f70",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Myra Davies",
@@ -2139,7 +2234,8 @@
           "Experimental",
           "Techno"
         ],
-        "year": 2017
+        "year": 2017,
+        "year_from": "discogs"
       },
       {
         "artist": "Paul Armfield",
@@ -2158,7 +2254,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Backseat Angels",
@@ -2180,7 +2277,8 @@
           "Power Pop",
           "Garage Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Otso",
@@ -2195,7 +2293,8 @@
         "apple_artist_id": null,
         "mb_id": null,
         "discogs_id": 9420146,
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "September Girls",
@@ -2217,7 +2316,8 @@
           "Indie Rock",
           "Garage Rock"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "September Girls",
@@ -2239,7 +2339,8 @@
           "Indie Rock",
           "Garage Rock"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Drugdealer ft.Weyes Blood",
@@ -2284,7 +2385,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Totally Mild",
@@ -2306,7 +2408,8 @@
           "Pop Rock",
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Totally Mild",
@@ -2328,7 +2431,8 @@
           "Pop Rock",
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Yeasayer",
@@ -2351,7 +2455,8 @@
           "Indie Rock",
           "Psychedelic Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Yeasayer",
@@ -2374,7 +2479,8 @@
           "Indie Rock",
           "Psychedelic Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "1982",
@@ -2396,7 +2502,8 @@
           "Free Improvisation",
           "Nordic"
         ],
-        "year": 2017
+        "year": 2017,
+        "year_from": "discogs"
       },
       {
         "artist": "Deux Furieuse",
@@ -2410,7 +2517,8 @@
         "apple_album_id": 1529062768,
         "apple_artist_id": 966661622,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Deux Furieuse",
@@ -2424,7 +2532,8 @@
         "apple_album_id": 1529062768,
         "apple_artist_id": 966661622,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Громыка",
@@ -2446,7 +2555,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Maryann & the Tri-Tones",
@@ -2460,7 +2570,8 @@
         "apple_album_id": 1207791164,
         "apple_artist_id": 964909349,
         "mb_id": "62648d71-7c3a-42d0-9742-c3ca4f094aa5",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Maryann & the Tri-Tones",
@@ -2474,7 +2585,8 @@
         "apple_album_id": 1207287327,
         "apple_artist_id": 964909349,
         "mb_id": "8aab4f3e-1690-47cd-a5a6-f9b1a65b727a",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Woodpigeon",
@@ -2493,7 +2605,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Køde9",
@@ -2507,7 +2620,8 @@
         "apple_album_id": 1039816099,
         "apple_artist_id": 219581817,
         "mb_id": "a7836618-824f-4ecc-9eb4-184c61e2d815",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -2538,7 +2652,8 @@
           "Alternative Rock",
           "Post-Punk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rats on Rafts/De Kift",
@@ -2560,7 +2675,8 @@
           "Alternative Rock",
           "Post-Punk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Evans The Death",
@@ -2581,7 +2697,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Evans The Death",
@@ -2602,7 +2719,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Electric Sewer Age",
@@ -2624,7 +2742,8 @@
           "Experimental",
           "Ambient"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Haelos",
@@ -2638,7 +2757,8 @@
         "apple_album_id": 1589172754,
         "apple_artist_id": null,
         "mb_id": "e61a230f-d870-4dc9-8d92-fd967df2ad18",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Freeze Puppy",
@@ -2652,7 +2772,8 @@
         "apple_album_id": 1057018633,
         "apple_artist_id": 322385983,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "Sylvie Krobová",
@@ -2666,7 +2787,8 @@
         "apple_album_id": 1750739846,
         "apple_artist_id": 258240648,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Николай Копейкин & НОМ",
@@ -2680,7 +2802,8 @@
         "apple_album_id": 1174976643,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Николай Копейкин & НОМ",
@@ -2694,7 +2817,8 @@
         "apple_album_id": 1174976643,
         "apple_artist_id": null,
         "mb_id": "7e0bc279-4f4a-43e4-8d00-0e66efde02bd",
-        "year": 2009
+        "year": 2009,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nap Eyes",
@@ -2713,7 +2837,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lilies on Mars",
@@ -2727,7 +2852,8 @@
         "apple_album_id": 1034645663,
         "apple_artist_id": 293658146,
         "mb_id": "498f4de6-38eb-4bef-98cb-836a2fa8211b",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Laurence Crane & Asamisimasa",
@@ -2748,7 +2874,8 @@
         "discogs_styles": [
           "Contemporary"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       }
     ]
   },
@@ -2782,7 +2909,8 @@
           "Future Jazz",
           "Downtempo"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lydia Ainsworth",
@@ -2803,7 +2931,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lydia Ainsworth",
@@ -2824,7 +2953,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Moskus",
@@ -2845,7 +2975,8 @@
         "discogs_styles": [
           "Free Improvisation"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Body",
@@ -2869,7 +3000,8 @@
           "Noise",
           "Sludge Metal"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Фёдор Чистяков",
@@ -2888,7 +3020,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Фёдор Чистяков",
@@ -2907,7 +3040,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hieroglyphic Being & JITU Ahn-Sahm-Buhl",
@@ -2930,7 +3064,8 @@
           "Techno",
           "Acid"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Beacon",
@@ -2951,7 +3086,8 @@
         "discogs_styles": [
           "Downtempo"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mendrugo",
@@ -2973,7 +3109,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "New Order ft Iggy Pop",
@@ -2999,7 +3136,8 @@
           "Synth-pop",
           "Tech House"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Porches",
@@ -3022,7 +3160,8 @@
           "Synth-pop",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -3055,7 +3194,8 @@
           "Hard Rock",
           "Soul"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Vladimír Václavek",
@@ -3067,7 +3207,8 @@
         ],
         "apple_id": null,
         "mb_id": "a9fd4abf-fd30-478a-a959-0f92a68e5150",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Alaric",
@@ -3081,7 +3222,8 @@
         "apple_album_id": null,
         "apple_artist_id": 306939905,
         "mb_id": "e6083264-4026-4e8c-a092-82c15283c105",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kuedo",
@@ -3106,7 +3248,8 @@
           "IDM",
           "Synthwave"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kuedo",
@@ -3131,7 +3274,8 @@
           "IDM",
           "Synthwave"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Angry Angles",
@@ -3154,7 +3298,8 @@
           "Garage Rock",
           "New Wave"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Angry Angles",
@@ -3177,7 +3322,8 @@
           "Garage Rock",
           "New Wave"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Villalog",
@@ -3200,7 +3346,8 @@
           "Indie Rock",
           "Krautrock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Villalog",
@@ -3223,7 +3370,8 @@
           "Indie Rock",
           "Krautrock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Skadedyr",
@@ -3246,7 +3394,8 @@
           "Contemporary Jazz",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Apartments",
@@ -3265,7 +3414,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Apartments",
@@ -3284,7 +3434,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -3315,7 +3466,8 @@
           "Art Rock",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Wire",
@@ -3337,7 +3489,8 @@
           "Art Rock",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Immersion",
@@ -3361,7 +3514,8 @@
           "Post Rock",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Stinka",
@@ -3375,7 +3529,8 @@
         "apple_album_id": null,
         "apple_artist_id": 731827076,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Leonard Cohen",
@@ -3396,7 +3551,8 @@
         "discogs_styles": [
           "Folk Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Leonard Cohen",
@@ -3417,7 +3573,8 @@
         "discogs_styles": [
           "Folk Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Residents",
@@ -3457,7 +3614,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1082267333,
         "mb_id": "d8f8cbb7-618f-4011-92a2-463f2e3fd738",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Go Away Bird",
@@ -3471,7 +3629,8 @@
         "apple_album_id": 1169193940,
         "apple_artist_id": 1082267333,
         "mb_id": "00672ca2-80ed-45a8-83c7-270903576572",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Karl Blau",
@@ -3493,7 +3652,8 @@
           "Country",
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Anna von Hausswolff",
@@ -3517,7 +3677,8 @@
           "Contemporary",
           "Vocal"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Anna von Hausswolff",
@@ -3541,7 +3702,8 @@
           "Contemporary",
           "Vocal"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Erlend Apneseth Trio",
@@ -3565,7 +3727,8 @@
           "Free Improvisation",
           "Nordic"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -3596,7 +3759,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "King Creosote",
@@ -3618,7 +3782,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Charlie Hilton",
@@ -3641,7 +3806,8 @@
           "Indie Rock",
           "Indie Pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Geir Sundstøl",
@@ -3664,7 +3830,8 @@
           "Contemporary Jazz",
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kottarashky & The Rain Dogs",
@@ -3689,7 +3856,8 @@
           "Folk",
           "Electro"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kottarashky & The Rain Dogs",
@@ -3714,7 +3882,8 @@
           "Folk",
           "Electro"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Mojo Juju",
@@ -3737,7 +3906,8 @@
           "Funk",
           "Soul"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mojo Juju",
@@ -3760,7 +3930,8 @@
           "Funk",
           "Soul"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "2-й Сорт",
@@ -3774,7 +3945,8 @@
         "apple_album_id": 1085155798,
         "apple_artist_id": 976237346,
         "mb_id": "1673f0b1-a3db-45fc-91e9-bab8b94baeac",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Eccentronic Research Council",
@@ -3788,7 +3960,8 @@
         "apple_album_id": null,
         "apple_artist_id": 556248545,
         "mb_id": "2dbec0c9-a0d3-4718-a385-d9030103ef9f",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Eccentronic Research Council",
@@ -3802,7 +3975,8 @@
         "apple_album_id": null,
         "apple_artist_id": 556248545,
         "mb_id": "61841ddb-677c-4d21-9ec4-b044dcd5984c",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Veronique Vincent & Aksak Maboul",
@@ -3825,7 +3999,8 @@
           "Avantgarde",
           "Europop"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -3857,7 +4032,8 @@
           "Shoegaze",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "White Lung",
@@ -3878,7 +4054,8 @@
         "discogs_styles": [
           "Punk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Excellos",
@@ -3901,7 +4078,8 @@
           "Blues Rock",
           "Rock & Roll"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Venetian Snares",
@@ -3925,7 +4103,8 @@
           "Acid",
           "Breakcore"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Marlon Williams",
@@ -3946,7 +4125,8 @@
         "discogs_styles": [
           "Country"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Christine & The Queens",
@@ -3969,7 +4149,8 @@
           "Indie Pop",
           "Chanson"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Half Japanese",
@@ -3988,7 +4169,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Half Japanese",
@@ -4007,7 +4189,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Monochrome Set",
@@ -4030,7 +4213,8 @@
           "Indie Pop",
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "e Monochrome Set",
@@ -4057,7 +4241,8 @@
         "apple_album_id": null,
         "apple_artist_id": 104542295,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Pinkwash",
@@ -4076,7 +4261,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "J.G.Biberkopf",
@@ -4098,7 +4284,8 @@
           "Experimental",
           "Musique Concrète"
         ],
-        "year": null
+        "year": 2016,
+        "year_from": "discogs"
       }
     ]
   },
@@ -4123,7 +4310,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1087470830,
         "mb_id": "2ec3c3cc-5ebe-43ec-ae86-8ff2aeee291e",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Exploded View",
@@ -4139,7 +4327,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1087470830,
         "mb_id": "38620417-c4e8-464f-8a1e-7c66b81a6e0a",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lushlife + CSLSX ft.Ariel Pink",
@@ -4156,7 +4345,8 @@
           "Hip Hop"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Big Deal",
@@ -4178,7 +4368,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Big Deal",
@@ -4200,7 +4391,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Damaged Bug",
@@ -4222,7 +4414,8 @@
           "Noise",
           "Experimental"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Sweet Release of Death",
@@ -4244,7 +4437,8 @@
           "Indie Rock",
           "Noise"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Sweet Release of Death",
@@ -4266,7 +4460,8 @@
           "Indie Rock",
           "Noise"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Clang Group",
@@ -4289,7 +4484,8 @@
           "Indie Rock",
           "Art Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Josefin Ohrn & Liberation",
@@ -4303,7 +4499,8 @@
         "apple_album_id": 1034221616,
         "apple_artist_id": 784767655,
         "mb_id": "2aae5e52-b4e4-47fd-9193-4c6fd3ef3fca",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Josefin Ohrn & Liberation",
@@ -4317,7 +4514,8 @@
         "apple_album_id": 1034221616,
         "apple_artist_id": 784767655,
         "mb_id": "1477c993-1b4f-47e3-b95d-578f94979c72",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Josefin Ohrn & Liberation",
@@ -4331,7 +4529,8 @@
         "apple_album_id": 1140964366,
         "apple_artist_id": 784767655,
         "mb_id": "c16501a7-684a-47f0-9931-9e2179bfe569",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Josefin Ohrn & Liberation",
@@ -4345,7 +4544,8 @@
         "apple_album_id": 1140964366,
         "apple_artist_id": 784767655,
         "mb_id": "53e0421a-8a05-432d-91e6-2dd94bea68f0",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -4377,7 +4577,8 @@
           "Psychedelic Rock",
           "Acoustic"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Damien Jurado",
@@ -4400,7 +4601,8 @@
           "Psychedelic Rock",
           "Acoustic"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Blues Pills",
@@ -4423,7 +4625,8 @@
           "Stoner Rock",
           "Psychedelic Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Moles",
@@ -4443,7 +4646,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Soley",
@@ -4467,7 +4671,8 @@
           "Abstract",
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jaye Bartell",
@@ -4490,7 +4695,8 @@
           "Indie Rock",
           "Folk Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Carina Round",
@@ -4511,7 +4717,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2001
+        "year": 2001,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Carina Round",
@@ -4535,7 +4742,8 @@
           "Pop Rock",
           "Indie Rock"
         ],
-        "year": 2004
+        "year": 2004,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Carina Round",
@@ -4558,7 +4766,8 @@
           "Pop Rock",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Carina Round",
@@ -4578,7 +4787,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "ВИА Гагарин",
@@ -4592,7 +4802,8 @@
         "apple_album_id": 1097859326,
         "apple_artist_id": 848515848,
         "mb_id": "909ea179-7aea-4578-9930-1b995fdf3aab",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Cold Beat",
@@ -4615,7 +4826,8 @@
           "Indie Rock",
           "Synth-pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Just",
@@ -4651,7 +4863,8 @@
         "apple_album_id": 959960106,
         "apple_artist_id": null,
         "mb_id": "5781d35a-4ba5-41a4-95a6-57aa8d8772cd",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pascal Comelade & Les Limiñanas",
@@ -4665,7 +4878,8 @@
         "apple_album_id": 959960106,
         "apple_artist_id": null,
         "mb_id": "e1e4346a-a646-466a-b836-2c0317692021",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Las Kellies",
@@ -4687,7 +4901,8 @@
           "Post-Punk",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Range",
@@ -4708,7 +4923,8 @@
         "discogs_styles": [
           "Leftfield"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Melt Yourself Down",
@@ -4729,7 +4945,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Princesse Angine",
@@ -4744,7 +4961,8 @@
         "apple_album_id": 1743296456,
         "apple_artist_id": 953242000,
         "mb_id": "6b213f00-9347-486f-abf0-9d508f34651a",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Keda",
@@ -4767,7 +4985,8 @@
           "Ambient",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Chelsea Wolfe",
@@ -4793,7 +5012,8 @@
           "Industrial",
           "Ethereal"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Chelsea Wolfe",
@@ -4807,7 +5027,8 @@
         "apple_album_id": null,
         "apple_artist_id": 252188912,
         "mb_id": "18004053-b6b8-4973-a6be-1456eb999315",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lxmp",
@@ -4828,7 +5049,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "David West",
@@ -4852,7 +5074,8 @@
           "Indie Pop",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "David West",
@@ -4876,7 +5099,8 @@
           "Indie Pop",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -4905,7 +5129,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Little Flames",
@@ -4919,7 +5144,8 @@
         "apple_album_id": null,
         "apple_artist_id": 33198392,
         "mb_id": "4a030a94-5bfe-4162-b9d3-8500afbc42e7",
-        "year": 2007
+        "year": 2007,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Little Flames",
@@ -4933,7 +5159,8 @@
         "apple_album_id": null,
         "apple_artist_id": 33198392,
         "mb_id": "54579ad4-d148-4bb6-bcbb-9f8aefe835e8",
-        "year": 2007
+        "year": 2007,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Xixa",
@@ -4954,7 +5181,8 @@
           "Indie Rock",
           "Cumbia"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Xixa",
@@ -4975,7 +5203,8 @@
           "Indie Rock",
           "Cumbia"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mydy Rabycad",
@@ -5000,7 +5229,8 @@
           "Swing",
           "Electro"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mydy Rabycad",
@@ -5025,7 +5255,8 @@
           "Swing",
           "Electro"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Chills",
@@ -5047,7 +5278,8 @@
           "Alternative Rock",
           "Pop Rock"
         ],
-        "year": 1984
+        "year": 1984,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Chills",
@@ -5069,7 +5301,8 @@
           "Alternative Rock",
           "Pop Rock"
         ],
-        "year": 1984
+        "year": 1984,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Chills",
@@ -5089,7 +5322,8 @@
           "Alternative Rock",
           "Pop Rock"
         ],
-        "year": 2001
+        "year": 2001,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mary Ocher + Your Government",
@@ -5112,7 +5346,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mary Ocher + Your Government",
@@ -5134,7 +5369,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Richard James",
@@ -5157,7 +5393,8 @@
           "Folk",
           "Krautrock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -5189,7 +5426,8 @@
           "Ballad",
           "Folk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Iamthemorning",
@@ -5212,7 +5450,8 @@
           "Post Rock",
           "Folk Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jason Sharp",
@@ -5231,7 +5470,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Post Industrial Boys",
@@ -5253,7 +5493,8 @@
           "Downtempo",
           "Leftfield"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Silver Apples",
@@ -5276,7 +5517,8 @@
           "Psychedelic Rock",
           "Experimental"
         ],
-        "year": 1998
+        "year": 1998,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Silver Apples",
@@ -5299,7 +5541,8 @@
           "Psychedelic Rock",
           "Experimental"
         ],
-        "year": 1997
+        "year": 1997,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Silver Apples",
@@ -5326,7 +5569,8 @@
           "Leftfield",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Silver Apples",
@@ -5353,7 +5597,8 @@
           "Leftfield",
           "Experimental"
         ],
-        "year": 1997
+        "year": 1997,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Claudia Brücken",
@@ -5376,7 +5621,8 @@
           "Synth-pop",
           "Ballad"
         ],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Claudia Brücken",
@@ -5399,7 +5645,8 @@
           "Synth-pop",
           "Ballad"
         ],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Player Radio",
@@ -5438,7 +5685,8 @@
           "Ballad",
           "Ambient"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Amute",
@@ -5452,7 +5700,8 @@
         "apple_album_id": 1060580183,
         "apple_artist_id": 99144208,
         "mb_id": "81a4ebb6-b25a-4a3c-a837-35dca9745572",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -5481,7 +5730,8 @@
           "Alternative Rock",
           "Art Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tindersticks",
@@ -5501,7 +5751,8 @@
           "Alternative Rock",
           "Art Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pollyester",
@@ -5516,7 +5767,8 @@
         "apple_album_id": null,
         "apple_artist_id": 295245984,
         "mb_id": "a633dc0b-7054-4ac7-aa87-3684efa79fc8",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Mystery Lights",
@@ -5539,7 +5791,8 @@
           "Blues Rock",
           "Psychedelic Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Mystery Lights",
@@ -5562,7 +5815,8 @@
           "Blues Rock",
           "Psychedelic Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Mystery Lights",
@@ -5585,7 +5839,8 @@
           "Blues Rock",
           "Psychedelic Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Anchoress",
@@ -5607,7 +5862,8 @@
           "Indie Rock",
           "Art Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Anchoress",
@@ -5629,7 +5885,8 @@
           "Indie Rock",
           "Art Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "HiFi Sean ft. Yoko Ono",
@@ -5654,7 +5911,8 @@
           "Disco",
           "Downtempo"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "HiFi Sean ft.Little Annie",
@@ -5693,7 +5951,8 @@
           "Disco",
           "Downtempo"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -5726,7 +5985,8 @@
           "Garage Rock",
           "Lo-Fi"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Fat White Family",
@@ -5750,7 +6010,8 @@
           "Garage Rock",
           "Lo-Fi"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bersarin Quartet",
@@ -5773,7 +6034,8 @@
           "Modern Classical",
           "Post Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Lanu",
@@ -5787,7 +6049,8 @@
         "apple_album_id": 1140442386,
         "apple_artist_id": 1500282595,
         "mb_id": "75902fd3-30cb-4e3a-a501-fde81adc5443",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lanu",
@@ -5801,7 +6064,8 @@
         "apple_album_id": 1140442386,
         "apple_artist_id": 1500282595,
         "mb_id": "27e94a6c-3de8-4b89-9c89-370e273f7d98",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fantasma",
@@ -5826,7 +6090,8 @@
           "African",
           "Hip Hop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fantasma",
@@ -5851,7 +6116,8 @@
           "African",
           "Hip Hop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sam Coomes",
@@ -5872,7 +6138,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sam Coomes",
@@ -5893,7 +6160,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sam Coomes",
@@ -5914,7 +6182,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Savages",
@@ -5937,7 +6206,8 @@
           "Post-Punk",
           "Alternative Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tobacco",
@@ -5958,7 +6228,8 @@
         "discogs_styles": [
           "Abstract"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tobacco",
@@ -5979,7 +6250,8 @@
         "discogs_styles": [
           "Abstract"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Yoshio Machida",
@@ -5992,7 +6264,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 5501086,
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       }
     ]
   },
@@ -6024,7 +6297,8 @@
           "Lo-Fi",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Kills",
@@ -6047,7 +6321,8 @@
           "Lo-Fi",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Josef van Wissem",
@@ -6061,7 +6336,8 @@
         "apple_album_id": null,
         "apple_artist_id": 275592300,
         "mb_id": null,
-        "year": 2017
+        "year": 2017,
+        "year_from": "apple"
       },
       {
         "artist": "Vložte Kočku",
@@ -6084,7 +6360,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Grimes",
@@ -6113,7 +6390,8 @@
           "Electro",
           "Pop Rap"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Swans",
@@ -6135,7 +6413,8 @@
           "Post Rock",
           "Noise Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Swans",
@@ -6149,7 +6428,8 @@
         "apple_album_id": null,
         "apple_artist_id": 5580746,
         "mb_id": "08a7a2ff-efc4-4b0d-bef6-8861cb69310f",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Swans",
@@ -6163,7 +6443,8 @@
         "apple_album_id": null,
         "apple_artist_id": 5580746,
         "mb_id": "78c0acde-2413-423c-acff-39b322f2e87c",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "John Congleton & The Nighty Nite",
@@ -6182,7 +6463,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "John Congleton & The Nighty Nite",
@@ -6201,7 +6483,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mitski",
@@ -6223,7 +6506,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Slim Twig",
@@ -6246,7 +6530,8 @@
           "Experimental",
           "Abstract"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Slim Twig",
@@ -6269,7 +6554,8 @@
           "Experimental",
           "Abstract"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -6302,7 +6588,8 @@
           "Avantgarde",
           "IDM"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Imelda May",
@@ -6324,7 +6611,8 @@
           "Rock & Roll",
           "Rockabilly"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Imelda May",
@@ -6346,7 +6634,8 @@
           "Rock & Roll",
           "Rockabilly"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Marc Almond",
@@ -6368,7 +6657,8 @@
         "discogs_styles": [
           "Chanson"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "La Luz",
@@ -6390,7 +6680,8 @@
           "Indie Rock",
           "Surf"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kaada/Patton",
@@ -6415,7 +6706,8 @@
           "Avantgarde",
           "Modern Classical"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "DuBlonde",
@@ -6435,7 +6727,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Sextile",
@@ -6460,7 +6753,8 @@
           "Industrial",
           "Noise"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mucha",
@@ -6482,7 +6776,8 @@
         "discogs_styles": [
           "Punk"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mucha",
@@ -6505,7 +6800,8 @@
           "Indie Rock",
           "Pop Punk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mucha",
@@ -6527,7 +6823,8 @@
           "Indie Rock",
           "Pop Punk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Nick Cave & The Bad Seeds",
@@ -6549,7 +6846,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Slalom",
@@ -6563,7 +6861,8 @@
         "apple_album_id": 1457222657,
         "apple_artist_id": 65184761,
         "mb_id": "06803306-d572-4676-b4e8-4e1c488a7a1e",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -6586,7 +6885,8 @@
         "apple_album_id": 1029264005,
         "apple_artist_id": 270871844,
         "mb_id": "5b495b1e-241b-4c33-b3f9-2346c440b4f6",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Cesarians",
@@ -6600,7 +6900,8 @@
         "apple_album_id": 1029264005,
         "apple_artist_id": 270871844,
         "mb_id": "812c9adb-87fa-42c3-9f45-ec94313cb267",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Husky Resque",
@@ -6614,7 +6915,8 @@
         "apple_album_id": 1168983639,
         "apple_artist_id": 72851811,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Husky Resque",
@@ -6628,7 +6930,8 @@
         "apple_album_id": null,
         "apple_artist_id": 72851811,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Jack Name",
@@ -6650,7 +6953,8 @@
         "discogs_styles": [
           "Synth-pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "U.S. Girls",
@@ -6675,7 +6979,8 @@
           "Lo-Fi",
           "Downtempo"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "U.S. Girls",
@@ -6700,7 +7005,8 @@
           "Lo-Fi",
           "Downtempo"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "DVA",
@@ -6722,7 +7028,8 @@
           "Folk",
           "Experimental"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "DVA",
@@ -6744,7 +7051,8 @@
           "Folk",
           "Experimental"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Montecristos",
@@ -6767,7 +7075,8 @@
           "Rockabilly",
           "Rock & Roll"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Montecristos",
@@ -6790,7 +7099,8 @@
           "Rockabilly",
           "Rock & Roll"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bleached",
@@ -6812,7 +7122,8 @@
           "Garage Rock",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Serph",
@@ -6826,7 +7137,8 @@
         "apple_album_id": null,
         "apple_artist_id": 360943884,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       }
     ]
   },
@@ -6849,7 +7161,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1109938076,
         "mb_id": "486badb3-b1b5-4b7b-8a98-cc536cc5e674",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Warhaus",
@@ -6863,7 +7176,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1109938076,
         "mb_id": "aa7bc8d0-2440-46e5-8613-a85ec85ef003",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Scott & Charlenes Wedding",
@@ -6877,7 +7191,8 @@
         "apple_album_id": 1667351275,
         "apple_artist_id": 392861187,
         "mb_id": "d8ef30d0-ec7d-4625-a77c-03d7e0d6dd65",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ulrika Spacek",
@@ -6899,7 +7214,8 @@
           "Alternative Rock",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Night Moves",
@@ -6920,7 +7236,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Raime",
@@ -6944,7 +7261,8 @@
           "Dub",
           "Darkwave"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Parrots",
@@ -6958,7 +7276,8 @@
         "apple_album_id": null,
         "apple_artist_id": 359156261,
         "mb_id": "3dabdc47-97cc-466f-a0a0-792baac0b4f8",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Martha",
@@ -6981,7 +7300,8 @@
           "Indie Rock",
           "Indie Pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Russian Circles",
@@ -7004,7 +7324,8 @@
           "Post Rock",
           "Instrumental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Trupa Trupa",
@@ -7027,7 +7348,8 @@
           "Indie Rock",
           "Noise"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Trupa Trupa",
@@ -7050,7 +7372,8 @@
           "Indie Rock",
           "Noise"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Moulettes",
@@ -7075,7 +7398,8 @@
           "Prog Rock",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Wwwings",
@@ -7098,7 +7422,8 @@
           "Bass Music",
           "Industrial"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -7129,7 +7454,8 @@
           "Rhythm & Blues",
           "Soul"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nick Waterhouse",
@@ -7151,7 +7477,8 @@
           "Rhythm & Blues",
           "Soul"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pascal Pinon",
@@ -7171,7 +7498,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Wild Beasts",
@@ -7195,7 +7523,8 @@
           "New Wave",
           "Synth-pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Soft Grid",
@@ -7218,7 +7547,8 @@
           "Alternative Rock",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Soft Grid",
@@ -7241,7 +7571,8 @@
           "Alternative Rock",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Taman Shud",
@@ -7255,7 +7586,8 @@
         "apple_album_id": 1162695360,
         "apple_artist_id": 771987601,
         "mb_id": "a4401516-2377-4cda-a757-61b5eda6e677",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Taman Shud",
@@ -7269,7 +7601,8 @@
         "apple_album_id": 1162695360,
         "apple_artist_id": 771987601,
         "mb_id": "bc5505e7-c3b3-4313-95cb-54d0040b1f6d",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Moonface & Siinai",
@@ -7289,7 +7622,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lily & Madeleine",
@@ -7303,7 +7637,8 @@
         "apple_album_id": 1436774838,
         "apple_artist_id": 591969382,
         "mb_id": "7983d23f-0ceb-4f05-b1e5-4e52240a2998",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Graveola",
@@ -7323,7 +7658,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Graveola",
@@ -7343,7 +7679,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -7377,7 +7714,8 @@
           "Indie Pop",
           "Abstract"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Throws",
@@ -7399,7 +7737,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Omulu + King Doudou ft MC Thais",
@@ -7412,7 +7751,8 @@
         ],
         "apple_id": null,
         "mb_id": "54a10cbc-30ef-4681-b891-33cdc0773301",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Elliot Moss",
@@ -7434,7 +7774,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Elliot Moss",
@@ -7456,7 +7797,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lola Colt",
@@ -7477,7 +7819,8 @@
         "discogs_styles": [
           "Psychedelic Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lola Colt",
@@ -7498,7 +7841,8 @@
         "discogs_styles": [
           "Psychedelic Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Alex Cameron",
@@ -7519,7 +7863,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Asher Levitas",
@@ -7543,7 +7888,8 @@
           "Industrial",
           "Noise"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Motorama",
@@ -7565,7 +7911,8 @@
           "Post-Punk",
           "New Wave"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Excitements",
@@ -7587,7 +7934,8 @@
           "Soul",
           "Rhythm & Blues"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Daniel Woolhouse",
@@ -7609,7 +7957,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -7640,7 +7989,8 @@
           "Alternative Rock",
           "Post-Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Xenia Rubinos",
@@ -7661,7 +8011,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dmitry Evgrafov",
@@ -7682,7 +8033,8 @@
         "discogs_styles": [
           "Modern"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Xylaroo",
@@ -7702,7 +8054,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Xylaroo",
@@ -7722,7 +8075,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mira, Un Lobo!",
@@ -7736,7 +8090,8 @@
         "apple_album_id": 1188062769,
         "apple_artist_id": 806246768,
         "mb_id": null,
-        "year": 2016
+        "year": 2016,
+        "year_from": "apple"
       },
       {
         "artist": "Mona De Bo",
@@ -7750,7 +8105,8 @@
         "apple_album_id": 1248826686,
         "apple_artist_id": 492167770,
         "mb_id": "eaade410-38b5-4ec1-8f2d-ceac1bb755d3",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Black Mountain",
@@ -7769,7 +8125,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Black Mountain",
@@ -7788,7 +8145,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Blood Orange",
@@ -7815,7 +8173,8 @@
           "Soul",
           "Synth-pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Emily Jane White",
@@ -7838,7 +8197,8 @@
           "Folk Rock",
           "Acoustic"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Wolfhounds",
@@ -7852,7 +8212,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1422872938,
         "mb_id": "83d7e89f-e5a6-4edf-a114-5a460e94422a",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "DVA",
@@ -7875,7 +8236,8 @@
           "Grime",
           "Experimental"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       }
     ]
   },
@@ -7905,7 +8267,8 @@
         "discogs_styles": [
           "Pop Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Last Shadow Puppets",
@@ -7926,7 +8289,8 @@
         "discogs_styles": [
           "Pop Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Samaris",
@@ -7948,7 +8312,8 @@
           "IDM",
           "Dance-pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jherek Bischoff",
@@ -7969,7 +8334,8 @@
         "discogs_styles": [
           "Neo-Classical"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hookworms",
@@ -7991,7 +8357,8 @@
           "Psychedelic Rock",
           "Experimental"
         ],
-        "year": 2011
+        "year": 2011,
+        "year_from": "discogs"
       },
       {
         "artist": "Glintshake",
@@ -8005,7 +8372,8 @@
         "apple_album_id": 887295929,
         "apple_artist_id": 821965061,
         "mb_id": "b3eeb07c-1914-47ef-a26d-41e344c376de",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Spaceheads",
@@ -8019,7 +8387,8 @@
         "apple_album_id": null,
         "apple_artist_id": 27457483,
         "mb_id": "73f86461-e39c-48e3-b376-e6128d4ee899",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Spookyland",
@@ -8040,7 +8409,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gabby Young & Other Animals",
@@ -8054,7 +8424,8 @@
         "apple_album_id": 978317717,
         "apple_artist_id": 332216454,
         "mb_id": "8a384279-b47b-47e8-8f26-3a3adc978bad",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gabby Young & Other Animals",
@@ -8068,7 +8439,8 @@
         "apple_album_id": 978317717,
         "apple_artist_id": 332216454,
         "mb_id": "3ed8075f-72e9-4489-a950-e2a55fb51b0f",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Denis The Night & The Panic Party",
@@ -8083,7 +8455,8 @@
         "apple_album_id": 1564098795,
         "apple_artist_id": 899726084,
         "mb_id": "18cc3acf-6b2c-4259-a10f-d2cec7523c9f",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Konx-Om-Pax",
@@ -8106,7 +8479,8 @@
           "Synthwave",
           "Downtempo"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -8138,7 +8512,8 @@
           "Alternative Rock",
           "Synth-pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dan Sartain",
@@ -8161,7 +8536,8 @@
           "Alternative Rock",
           "Synth-pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Amber Arcades",
@@ -8182,7 +8558,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Damian Lazarus & The Ancient Moons",
@@ -8204,7 +8581,8 @@
         "discogs_styles": [
           "Tech House"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Wendy Bevan",
@@ -8223,7 +8601,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Colt Silvers",
@@ -8241,7 +8620,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pan-Pot",
@@ -8264,7 +8644,8 @@
           "Tech House",
           "Downtempo"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Vanessa Anne Redd",
@@ -8283,7 +8664,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "De Lux",
@@ -8305,7 +8687,8 @@
         "discogs_styles": [
           "Euro-Disco"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "De Lux",
@@ -8327,7 +8710,8 @@
         "discogs_styles": [
           "Euro-Disco"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "De Lux",
@@ -8349,7 +8733,8 @@
         "discogs_styles": [
           "Euro-Disco"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "De Lux",
@@ -8363,7 +8748,8 @@
         "apple_album_id": null,
         "apple_artist_id": 814751733,
         "mb_id": "47dbef1f-de04-44d8-8ded-6a3bd9cd8078",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -8394,7 +8780,8 @@
           "Psychedelic Rock",
           "Alternative Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mario Roms Interzone",
@@ -8413,7 +8800,8 @@
           "Jazz"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Higher Authorities",
@@ -8437,7 +8825,8 @@
           "Psychedelic Rock",
           "Downtempo"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Singapore Sling",
@@ -8451,7 +8840,8 @@
         "apple_album_id": null,
         "apple_artist_id": 25514424,
         "mb_id": "eb3d99ee-f449-47b2-9916-af2e5416038d",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Singapore Sling",
@@ -8465,7 +8855,8 @@
         "apple_album_id": null,
         "apple_artist_id": 25514424,
         "mb_id": "4965d62e-b54b-401b-af71-30856f6eb45b",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Róisín Murphy",
@@ -8494,7 +8885,8 @@
           "Leftfield",
           "Ballad"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Povarovo",
@@ -8508,7 +8900,8 @@
         "apple_album_id": 1259123841,
         "apple_artist_id": 502026173,
         "mb_id": "e12bb330-c138-4094-bc82-6333533e9528",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Reutoff",
@@ -8522,7 +8915,8 @@
         "apple_album_id": 1259123841,
         "apple_artist_id": 881024060,
         "mb_id": "63e860f2-1d7a-4ac4-a7a2-5780168a8391",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Homeshake",
@@ -8548,7 +8942,8 @@
           "Soul",
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Girls Names",
@@ -8569,7 +8964,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Telekinesis",
@@ -8591,7 +8987,8 @@
         "discogs_styles": [
           "Pop Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Stein Urheim",
@@ -8613,7 +9010,8 @@
         "discogs_styles": [
           "Contemporary Jazz"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -8663,7 +9061,8 @@
           "Ambient",
           "Grime"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tvrdy/Havelka",
@@ -8686,7 +9085,8 @@
           "Alternative Rock",
           "Experimental"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Tvrdy/Havelka",
@@ -8709,7 +9109,8 @@
           "Alternative Rock",
           "Experimental"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Susanne Sundfr",
@@ -8723,7 +9124,8 @@
         "apple_album_id": 1697860291,
         "apple_artist_id": 203460080,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Silicon",
@@ -8744,7 +9146,8 @@
         "discogs_styles": [
           "Downtempo"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gun Outfit",
@@ -8763,7 +9166,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mark Bihler",
@@ -8812,7 +9216,8 @@
           "Experimental",
           "Lo-Fi"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Meatraffle",
@@ -8834,7 +9239,8 @@
           "Experimental",
           "Lo-Fi"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Briana Marela",
@@ -8854,7 +9260,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hearts Hearts",
@@ -8879,7 +9286,8 @@
           "Dream Pop",
           "Electro"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -8907,7 +9315,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Iggy Pop",
@@ -8926,7 +9335,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kammerflimmer Kollektief",
@@ -8947,7 +9357,8 @@
           "Experimental",
           "Avantgarde"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "A Dead Forest Index",
@@ -8971,7 +9382,8 @@
           "Ethereal",
           "Post Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "A Dead Forest Index",
@@ -8995,7 +9407,8 @@
           "Ethereal",
           "Post Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Populous vs Larry Gus",
@@ -9017,7 +9430,8 @@
         "discogs_styles": [
           "Electro"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Small Feet",
@@ -9039,7 +9453,8 @@
           "Folk Rock",
           "Indie Rock"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "CocoRosie",
@@ -9062,7 +9477,8 @@
           "Experimental",
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "CocoRosie",
@@ -9085,7 +9501,8 @@
           "Experimental",
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bianca Casady & The CIA",
@@ -9104,7 +9521,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bianca Casady & The CIA",
@@ -9123,7 +9541,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The King Khan & The BBQ Show",
@@ -9138,7 +9557,8 @@
         "apple_album_id": 1884741467,
         "apple_artist_id": 57937548,
         "mb_id": "3069c0b3-d3e0-4aeb-b524-38656096c715",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mr. Vast",
@@ -9159,7 +9579,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2015
+        "year": 2016,
+        "year_from": "discogs"
       }
     ]
   },
@@ -9192,7 +9613,8 @@
           "Post Rock",
           "Experimental"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mujuice",
@@ -9206,7 +9628,8 @@
         "apple_album_id": 1681558098,
         "apple_artist_id": 289453867,
         "mb_id": "341f697a-c95c-4509-aeab-8d487b4b1cc1",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Natural Snow Buildings",
@@ -9227,7 +9650,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Natural Snow Buildings",
@@ -9248,7 +9672,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Daughter",
@@ -9270,7 +9695,8 @@
           "Folk Rock",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Alex G",
@@ -9292,7 +9718,8 @@
           "Indie Rock",
           "Lo-Fi"
         ],
-        "year": 2011
+        "year": 2011,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gutzul Magik Foundation",
@@ -9319,7 +9746,8 @@
           "Ambient",
           "Trip Hop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Princess Chelsea",
@@ -9342,7 +9770,8 @@
           "Indie Pop",
           "Synth-pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Membranes",
@@ -9364,7 +9793,8 @@
           "Post-Punk",
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Membranes",
@@ -9386,7 +9816,8 @@
           "Post-Punk",
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Membranes vs Mark Lanegan",
@@ -9408,7 +9839,8 @@
         "discogs_styles": [
           "Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Frankie Cosmos",
@@ -9427,7 +9859,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Garden of Elks",
@@ -9448,7 +9881,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Garden of Elks",
@@ -9469,7 +9903,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       }
     ]
   },
@@ -9499,7 +9934,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sarah Cracknell",
@@ -9520,7 +9956,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Destroyer",
@@ -9542,7 +9979,8 @@
           "Art Rock",
           "Indie Rock"
         ],
-        "year": 2010
+        "year": 2010,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Suuns",
@@ -9566,7 +10004,8 @@
           "Krautrock",
           "Art Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Android Asteroid",
@@ -9589,7 +10028,8 @@
         "discogs_styles": [
           "Downtempo"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Чёртово колесо инженера Ферриса",
@@ -9603,7 +10043,8 @@
         "apple_album_id": 1434125481,
         "apple_artist_id": 1360881676,
         "mb_id": "1de7a51b-9433-42da-89ae-2cb7768b87c8",
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Чёртово колесо инженера Ферриса",
@@ -9617,7 +10058,8 @@
         "apple_album_id": 1434125481,
         "apple_artist_id": 1360881676,
         "mb_id": "ad0f88d6-4c6e-46b1-af74-b499411e9ed5",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Чёртово колесо инженера Ферриса",
@@ -9631,7 +10073,8 @@
         "apple_album_id": 1509195096,
         "apple_artist_id": 1475484339,
         "mb_id": "a1cb9e06-d738-4191-b0b4-e55778ffb13b",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Чёртово колесо инженера Ферриса",
@@ -9645,7 +10088,8 @@
         "apple_album_id": 1509195096,
         "apple_artist_id": 1475484339,
         "mb_id": "de474714-3d9f-416b-8291-d73519786aa0",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jurema",
@@ -9659,7 +10103,8 @@
         "apple_album_id": 1719329117,
         "apple_artist_id": 585734434,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Grave Babies",
@@ -9681,7 +10126,8 @@
           "Indie Rock",
           "Goth Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Chorusgirl",
@@ -9702,7 +10148,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bob Moses",
@@ -9724,7 +10171,8 @@
         "discogs_styles": [
           "House"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -9757,7 +10205,8 @@
           "Folk Rock",
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Květy",
@@ -9781,7 +10230,8 @@
           "Folk Rock",
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Joanna Newsome",
@@ -9795,7 +10245,8 @@
         "apple_album_id": 1027500473,
         "apple_artist_id": 5565555,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Операция Пластилин",
@@ -9809,7 +10260,8 @@
         "apple_album_id": 1732219914,
         "apple_artist_id": 865183226,
         "mb_id": "b334c214-1964-405f-b2c5-337a9b63ffa8",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hn",
@@ -9836,7 +10288,8 @@
         "apple_album_id": 204672971,
         "apple_artist_id": 45443855,
         "mb_id": "4c1ebf7c-d8ab-402b-b2d8-f1f21bf56974",
-        "year": 1987
+        "year": 1987,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Monochrome Set",
@@ -9850,7 +10303,8 @@
         "apple_album_id": 204672971,
         "apple_artist_id": 17428366,
         "mb_id": "f3893b42-42b8-4e21-a72e-1dba4e21b12d",
-        "year": 1982
+        "year": 1982,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Would Be Goods",
@@ -9864,7 +10318,8 @@
         "apple_album_id": 204672971,
         "apple_artist_id": 83414310,
         "mb_id": "93f6ec30-24a8-4391-a245-a94b1a245e1e",
-        "year": 1988
+        "year": 1988,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The King of Luxembourg",
@@ -9878,7 +10333,8 @@
         "apple_album_id": 204672971,
         "apple_artist_id": 49278848,
         "mb_id": "68104338-2d9a-4857-bb21-e3912c7c9012",
-        "year": 1987
+        "year": 1987,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Momus",
@@ -9892,7 +10348,8 @@
         "apple_album_id": 204672971,
         "apple_artist_id": 6428135,
         "mb_id": "16a89eb1-16c0-4d38-b8bc-47120e4b167e",
-        "year": 1986
+        "year": 1986,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Von Pariahs",
@@ -9911,7 +10368,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gwenno",
@@ -9934,7 +10392,8 @@
           "Experimental",
           "Synth-pop"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bonnie Stillwater",
@@ -9948,7 +10407,8 @@
         "apple_album_id": null,
         "apple_artist_id": 973667999,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Oscar & The Wolf",
@@ -9962,7 +10422,8 @@
         "apple_album_id": 1061381806,
         "apple_artist_id": 534494455,
         "mb_id": "478efac7-e917-477b-95d3-415d8556401d",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -9996,7 +10457,8 @@
           "Art Rock",
           "Folk Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bill Fay",
@@ -10017,7 +10479,8 @@
         "discogs_styles": [
           "Folk Rock"
         ],
-        "year": 2010
+        "year": 2010,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ytamo",
@@ -10031,7 +10494,8 @@
         "apple_album_id": 1083003118,
         "apple_artist_id": 278101652,
         "mb_id": "88e23c42-b453-4cbc-81ee-56c19f5c1bd9",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nero Scartch",
@@ -10045,7 +10509,8 @@
         "apple_album_id": 1054042454,
         "apple_artist_id": 838363459,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Summer Twins",
@@ -10066,7 +10531,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Summer Twins",
@@ -10087,7 +10553,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Summer Twins",
@@ -10108,7 +10575,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Calibro 35",
@@ -10122,7 +10590,8 @@
         "apple_album_id": 1820973240,
         "apple_artist_id": 338361450,
         "mb_id": "58961a7b-150a-4056-824a-4abd571053c3",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Курара",
@@ -10141,7 +10610,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Georgia",
@@ -10167,7 +10637,8 @@
           "Hip Hop",
           "Dub"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sheer Agony",
@@ -10189,7 +10660,8 @@
           "Psychedelic Rock",
           "Power Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Unknown Mortal Orchestra",
@@ -10217,7 +10689,8 @@
           "Psychedelic",
           "Neo Soul"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Unknown Mortal Orchestra",
@@ -10245,7 +10718,8 @@
           "Psychedelic",
           "Neo Soul"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Martin Gore",
@@ -10259,7 +10733,8 @@
         "apple_album_id": 964455282,
         "apple_artist_id": null,
         "mb_id": "cb1415f6-786d-451f-acff-23c839e8f59a",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -10289,7 +10764,8 @@
         "discogs_styles": [
           "Soundtrack"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dan Wilson",
@@ -10302,7 +10778,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 7535019,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Jaakko Eino Kalevi",
@@ -10326,7 +10803,8 @@
           "Synth-pop",
           "Downtempo"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Destruction Unit",
@@ -10348,7 +10826,8 @@
           "Punk",
           "Noise"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Besnard Lakes",
@@ -10370,7 +10849,8 @@
           "Indie Rock",
           "Psychedelic Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Tremolo Beer Gut",
@@ -10392,7 +10872,8 @@
           "Surf",
           "Rock & Roll"
         ],
-        "year": 1999
+        "year": 1999,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Aidan Walsh",
@@ -10405,7 +10886,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 3201053,
-        "year": 1987
+        "year": 1987,
+        "year_from": "discogs"
       },
       {
         "artist": "Cosmic Dennis Greenidge",
@@ -10444,7 +10926,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 5620148,
-        "year": 2013
+        "year": 2013,
+        "year_from": "discogs"
       },
       {
         "artist": "Johnny Parry",
@@ -10458,7 +10941,8 @@
         "apple_album_id": 1195543598,
         "apple_artist_id": 6848536,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "The Schwarzenbach",
@@ -10472,7 +10956,8 @@
         "apple_album_id": 1055379529,
         "apple_artist_id": 569184606,
         "mb_id": "2717ca38-42c1-458c-825e-d08f7b21ec3f",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dave Jackson & The Cathedral Mountaineers",
@@ -10496,7 +10981,8 @@
           "Folk Rock",
           "Ballad"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Novella",
@@ -10517,7 +11003,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -10549,7 +11036,8 @@
           "Pop Rock",
           "Indie Pop"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Guadalupe Plata",
@@ -10563,7 +11051,8 @@
         "apple_album_id": null,
         "apple_artist_id": 353932262,
         "mb_id": "47d3f376-615c-4a7f-a9b3-d722c04e1fee",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Guadalupe Plata",
@@ -10577,7 +11066,8 @@
         "apple_album_id": null,
         "apple_artist_id": 353932262,
         "mb_id": "7f408d5b-953e-43b2-8f6c-492c2e97984a",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kim Myhr, Jenny Hval & Trondheim Jazz Orchestra",
@@ -10591,7 +11081,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "91101415-f5e7-4c65-98fc-de4fffd0a548",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Slime",
@@ -10615,7 +11106,8 @@
           "Dubstep",
           "Downtempo"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Swans",
@@ -10638,7 +11130,8 @@
           "Industrial",
           "Experimental"
         ],
-        "year": 1991
+        "year": 1991,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Swans",
@@ -10652,7 +11145,8 @@
         "apple_album_id": null,
         "apple_artist_id": 5580746,
         "mb_id": "725c754d-96b4-4e2f-9385-5859f50b14ec",
-        "year": 1982
+        "year": 1982,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Swans",
@@ -10666,7 +11160,8 @@
         "apple_album_id": null,
         "apple_artist_id": 5580746,
         "mb_id": "591611c7-56b2-4460-8583-b13cf3ac6776",
-        "year": 1989
+        "year": 1989,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Swans",
@@ -10680,7 +11175,8 @@
         "apple_album_id": null,
         "apple_artist_id": 5580746,
         "mb_id": "89f8e613-612c-4b12-a0e6-1a6080478747",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Swans",
@@ -10694,7 +11190,8 @@
         "apple_album_id": null,
         "apple_artist_id": 5580746,
         "mb_id": "b807791d-c1b0-475e-8047-ed4da130bd2b",
-        "year": 1992
+        "year": 1992,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Your Friend",
@@ -10717,7 +11214,8 @@
           "Indie Rock",
           "Shoegaze"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "H.D.R.",
@@ -10737,7 +11235,8 @@
         "discogs_styles": [
           "Synth-pop"
         ],
-        "year": null
+        "year": 2015,
+        "year_from": "discogs"
       }
     ]
   },
@@ -10770,7 +11269,8 @@
           "Acid Rock",
           "Alternative Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Love Buzzard",
@@ -10789,7 +11289,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ought",
@@ -10810,7 +11311,8 @@
         "discogs_styles": [
           "Post-Punk"
         ],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Amatorski",
@@ -10833,7 +11335,8 @@
           "Experimental",
           "Post Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Нонадаптанты",
@@ -10855,7 +11358,8 @@
           "Post-Punk",
           "Punk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lizetta New",
@@ -10869,7 +11373,8 @@
         "apple_album_id": 1445600541,
         "apple_artist_id": 838426941,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "Itchy-O",
@@ -10892,7 +11397,8 @@
           "Industrial",
           "Marches"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hey Colossus",
@@ -10914,7 +11420,8 @@
           "Psychedelic Rock",
           "Krautrock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hey Colossus",
@@ -10936,7 +11443,8 @@
           "Psychedelic Rock",
           "Krautrock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hey Colossus",
@@ -10958,7 +11466,8 @@
           "Psychedelic Rock",
           "Krautrock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hey Colossus",
@@ -10972,7 +11481,8 @@
         "apple_album_id": null,
         "apple_artist_id": 259498768,
         "mb_id": "5e726fb2-76d7-4298-9728-bec246e2ab5c",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Thao & The get down stay down",
@@ -10986,7 +11496,8 @@
         "apple_album_id": 1065902924,
         "apple_artist_id": null,
         "mb_id": "91482c9d-fdd3-4a13-bfe0-476d52961048",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Joe Crepusculo",
@@ -11000,7 +11511,8 @@
         "apple_album_id": 1765746818,
         "apple_artist_id": 418218840,
         "mb_id": "44da5dac-8554-40f7-969e-0e68ebfba772",
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -11031,7 +11543,8 @@
           "Alternative Rock",
           "New Wave"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Pop Group",
@@ -11045,7 +11558,8 @@
         "apple_album_id": null,
         "apple_artist_id": 250401898,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Maple Bee",
@@ -11059,7 +11573,8 @@
         "apple_album_id": 1004689089,
         "apple_artist_id": 43942514,
         "mb_id": "21f4df83-3719-464d-8f9b-52d19d2337d2",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Громыка",
@@ -11073,7 +11588,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1083524133,
         "mb_id": "e802390d-12eb-4ea1-b00d-d64203a73cb7",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Khruangbin",
@@ -11096,7 +11612,8 @@
           "Psychedelic",
           "Funk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Khruangbin",
@@ -11119,7 +11636,8 @@
           "Psychedelic",
           "Funk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Už Jsme Doma",
@@ -11133,7 +11651,8 @@
         "apple_album_id": 1038073763,
         "apple_artist_id": 140177021,
         "mb_id": "5f44c365-dd3f-498c-b7f9-ec56e06db167",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Vive la Fte!",
@@ -11199,7 +11718,8 @@
         "apple_album_id": 1516848488,
         "apple_artist_id": 151668863,
         "mb_id": null,
-        "year": 2007
+        "year": 2007,
+        "year_from": "apple"
       },
       {
         "artist": "Vive la Fte!",
@@ -11231,7 +11751,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2011
+        "year": 2011,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -11265,7 +11786,8 @@
           "Downtempo",
           "Ambient"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Callas",
@@ -11288,7 +11810,8 @@
           "Indie Rock",
           "Lo-Fi"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Uzgin Uver",
@@ -11309,7 +11832,8 @@
         "discogs_styles": [
           "Neofolk"
         ],
-        "year": 1999
+        "year": 1999,
+        "year_from": "discogs"
       },
       {
         "artist": "Peaches",
@@ -11332,7 +11856,8 @@
           "Electro",
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Peaches",
@@ -11353,7 +11878,8 @@
           "Electro",
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Alan Vega, Alex Chilton, Ben Vaughn",
@@ -11374,7 +11900,8 @@
         "discogs_styles": [
           "Art Rock"
         ],
-        "year": 1996
+        "year": 1996,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Alan Vega, Alex Chilton, Ben Vaughn",
@@ -11395,7 +11922,8 @@
         "discogs_styles": [
           "Art Rock"
         ],
-        "year": 1996
+        "year": 1996,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Getchertiktz",
@@ -11457,7 +11985,8 @@
           "Contemporary Jazz",
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Marketa Irglova",
@@ -11477,7 +12006,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -11505,7 +12035,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ном",
@@ -11524,7 +12055,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sharon Van Etten",
@@ -11538,7 +12070,8 @@
         "apple_album_id": 975249842,
         "apple_artist_id": 314263775,
         "mb_id": "fbabce64-912a-4487-bc6a-088fed37b243",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hills",
@@ -11559,7 +12092,8 @@
         "discogs_styles": [
           "Psychedelic Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fay Hallam",
@@ -11582,7 +12116,8 @@
         "discogs_styles": [
           "Mod"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Archie & The Bunkers",
@@ -11596,7 +12131,8 @@
         "apple_album_id": 1040464372,
         "apple_artist_id": 1040464373,
         "mb_id": "b296214b-02e1-4fae-8ade-86674567933f",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Archie & The Bunkers",
@@ -11610,7 +12146,8 @@
         "apple_album_id": 1040464372,
         "apple_artist_id": 1040464373,
         "mb_id": "02933607-f68f-4f7d-9ccd-5369aa215cb1",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Third Eye Foundation",
@@ -11633,7 +12170,8 @@
           "Noise",
           "Drum n Bass"
         ],
-        "year": 1996
+        "year": 1996,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Matt Elliott",
@@ -11654,7 +12192,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Matt Elliott",
@@ -11675,7 +12214,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mount Moriah",
@@ -11689,7 +12229,8 @@
         "apple_album_id": null,
         "apple_artist_id": 407642989,
         "mb_id": "6d54a98c-9906-4853-8416-27ffe623c55e",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fufanu",
@@ -11710,7 +12251,8 @@
         "discogs_styles": [
           "Shoegaze"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -11744,7 +12286,8 @@
           "Post-Punk",
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Claptone",
@@ -11766,7 +12309,8 @@
           "Deep House",
           "House"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Flying Saucer Attack",
@@ -11789,7 +12333,8 @@
           "Ambient",
           "Space Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Born Ruffians",
@@ -11808,7 +12353,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Juliana Barwick",
@@ -11830,7 +12376,8 @@
           "New Age",
           "Ambient"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Television",
@@ -11844,7 +12391,8 @@
         "apple_album_id": null,
         "apple_artist_id": 14596532,
         "mb_id": null,
-        "year": 1982
+        "year": 1982,
+        "year_from": "apple"
       },
       {
         "artist": "Richard Hell",
@@ -11858,7 +12406,8 @@
         "apple_album_id": null,
         "apple_artist_id": 468026,
         "mb_id": "d846371c-9913-4b5b-a5e7-a1234d3b64df",
-        "year": 1976
+        "year": 1976,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mick Farren",
@@ -11873,7 +12422,8 @@
         "apple_album_id": null,
         "apple_artist_id": 7061357,
         "mb_id": "fd3568d0-dfa3-4ed9-a5c7-7f67a30bb7cb",
-        "year": 1977
+        "year": 1977,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lester Bangs",
@@ -11887,7 +12437,8 @@
         "apple_album_id": null,
         "apple_artist_id": 292588907,
         "mb_id": "a1ab4c02-ed29-4499-b432-40b8d0fcdc17",
-        "year": 1979
+        "year": 1979,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Erasers",
@@ -11901,7 +12452,8 @@
         "apple_album_id": null,
         "apple_artist_id": 347854423,
         "mb_id": "bb9005ce-b83a-4baf-be86-d7093d3db846",
-        "year": 1992
+        "year": 1992,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Idols",
@@ -11915,7 +12467,8 @@
         "apple_album_id": null,
         "apple_artist_id": 274287812,
         "mb_id": "11fc299f-9db8-44b5-96e1-2a7864dfa4ac",
-        "year": 1979
+        "year": 1979,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kenneth Higney",
@@ -11951,7 +12504,8 @@
           "Indie Rock",
           "Shoegaze"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Thing",
@@ -11974,7 +12528,8 @@
           "Avant-garde Jazz",
           "Free Improvisation"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -11997,7 +12552,8 @@
         "apple_album_id": 1075914671,
         "apple_artist_id": 188202973,
         "mb_id": "03838053-19e7-4816-a336-0502d5ebf660",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Big Eyes Family Players",
@@ -12011,7 +12567,8 @@
         "apple_album_id": 1075914671,
         "apple_artist_id": 188202973,
         "mb_id": "5b97caa9-2a4b-4001-8d23-db0593d4982a",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Honeymilk",
@@ -12031,7 +12588,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Stranded Horse",
@@ -12053,7 +12611,8 @@
         "discogs_styles": [
           "African"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Blaine L.Reininger & William Lee Self",
@@ -12067,7 +12626,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "eb4ba564-98b0-4c30-b2c1-45dde94fd846",
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Brown Reininger Bodson",
@@ -12082,7 +12642,8 @@
         "apple_album_id": 699512318,
         "apple_artist_id": 699512918,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Tuxedomoon & Cult With No Name",
@@ -12109,7 +12670,8 @@
           "Avant-garde Jazz",
           "Soundtrack"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Tuxedomoon & Cult With No Name",
@@ -12137,7 +12699,8 @@
           "Avant-garde Jazz",
           "Soundtrack"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tuxedomoon & Cult With No Name",
@@ -12165,7 +12728,8 @@
           "Avant-garde Jazz",
           "Soundtrack"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Bohicas",
@@ -12186,7 +12750,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kieslowski",
@@ -12209,7 +12774,8 @@
           "Folk",
           "Acoustic"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Zea",
@@ -12222,7 +12788,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 8417502,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "The Jack Wood",
@@ -12236,7 +12803,8 @@
         "apple_album_id": 1773878964,
         "apple_artist_id": 915889966,
         "mb_id": "f0d95d2f-dad8-476d-9984-5ca300f63436",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "HD Haussmann",
@@ -12250,7 +12818,8 @@
         "apple_album_id": 1053980534,
         "apple_artist_id": 1053980765,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       }
     ]
   },
@@ -12280,7 +12849,8 @@
           "Alternative Rock",
           "Post-Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "George Fitzgerald",
@@ -12302,7 +12872,8 @@
         "discogs_styles": [
           "House"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sleater-Kinney",
@@ -12325,7 +12896,8 @@
           "Indie Rock",
           "Garage Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "John Grant",
@@ -12349,7 +12921,8 @@
           "Indie Rock",
           "Experimental"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Foxtrott",
@@ -12371,7 +12944,8 @@
         "discogs_styles": [
           "Synth-pop"
         ],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Takashi Hattori",
@@ -12384,7 +12958,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 9045140,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Takashi Hattori",
@@ -12397,7 +12972,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 9045140,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Ducktails",
@@ -12418,7 +12994,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pinkshinyultrablast",
@@ -12439,7 +13016,8 @@
         "discogs_styles": [
           "Shoegaze"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pinkshinyultrablast",
@@ -12460,7 +13038,8 @@
         "discogs_styles": [
           "Shoegaze"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pinkshinyultrablast",
@@ -12482,7 +13061,8 @@
           "Shoegaze",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Pinkshinyultrablast",
@@ -12504,7 +13084,8 @@
           "Shoegaze",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "discogs"
       },
       {
         "artist": "Protomartyr",
@@ -12525,7 +13106,8 @@
         "discogs_styles": [
           "Post-Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rachel Grimes",
@@ -12546,7 +13128,8 @@
         "discogs_styles": [
           "Post-Modern"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -12578,7 +13161,8 @@
           "Indie Rock",
           "Folk Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sylvain Chauveau & Ensemble Nocturne",
@@ -12592,7 +13176,8 @@
         "apple_album_id": 1492031666,
         "apple_artist_id": null,
         "mb_id": "36fd3a89-fe00-4a11-a811-8fa981b2f2db",
-        "year": 2005
+        "year": 2005,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lower Dens",
@@ -12613,7 +13198,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gintas K",
@@ -12626,7 +13212,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 7407503,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Pere Ubu",
@@ -12640,7 +13227,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 6592285,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Gagarin",
@@ -12654,7 +13242,8 @@
         "apple_album_id": 980214928,
         "apple_artist_id": 296427999,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Rocket from the Tombs",
@@ -12677,7 +13266,8 @@
           "Rock & Roll",
           "Hard Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Rocket from the Tombs",
@@ -12700,7 +13290,8 @@
           "Rock & Roll",
           "Hard Rock"
         ],
-        "year": 1996
+        "year": 1996,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "September Girls",
@@ -12719,7 +13310,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "September Girls",
@@ -12738,7 +13330,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Scofferlane",
@@ -12761,7 +13354,8 @@
           "Garage Rock",
           "Post-Punk"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Scofferlane",
@@ -12784,7 +13378,8 @@
           "Garage Rock",
           "Post-Punk"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Dralms",
@@ -12805,7 +13400,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dralms",
@@ -12826,7 +13422,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -12862,7 +13459,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Soapkills",
@@ -12885,7 +13483,8 @@
           "Trip Hop",
           "Dub"
         ],
-        "year": 2005
+        "year": 2005,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Stanley Brinks & Wave Pictures",
@@ -12907,7 +13506,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Courtney Barnett",
@@ -12921,7 +13521,8 @@
         "apple_album_id": null,
         "apple_artist_id": 479276137,
         "mb_id": "1fc6ee4c-f9f3-4be3-9ddb-d6b4cbfc7825",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jim O'Rourke",
@@ -12945,7 +13546,8 @@
           "Lounge",
           "Art Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Центр",
@@ -12959,7 +13561,8 @@
         "apple_album_id": 1045974403,
         "apple_artist_id": 583623416,
         "mb_id": "3dfb0c0f-bd3e-4993-8419-c94ef492715d",
-        "year": 1983
+        "year": 1983,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Центр",
@@ -12973,7 +13576,8 @@
         "apple_album_id": 1045974403,
         "apple_artist_id": 583623416,
         "mb_id": "2725e050-d7b9-41b1-a7eb-f3aba1e32714",
-        "year": 1986
+        "year": 1986,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Центр",
@@ -12987,7 +13591,8 @@
         "apple_album_id": 1045974403,
         "apple_artist_id": 583623416,
         "mb_id": "a3f2ed8a-9629-4ebd-94f9-26cc34ad9072",
-        "year": 1984
+        "year": 1984,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Центр",
@@ -13001,7 +13606,8 @@
         "apple_album_id": null,
         "apple_artist_id": 583623416,
         "mb_id": "2745b620-f679-4c32-bf04-1902983f9042",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Центр",
@@ -13015,7 +13621,8 @@
         "apple_album_id": null,
         "apple_artist_id": 583623416,
         "mb_id": "e31a1b7c-73a7-470d-80da-f3dffa5b0012",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nadine Shah",
@@ -13036,7 +13643,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Institute",
@@ -13058,7 +13666,8 @@
           "Post-Punk",
           "Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bon Voyage Organization",
@@ -13072,7 +13681,8 @@
         "apple_album_id": null,
         "apple_artist_id": 993673307,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       }
     ]
   },
@@ -13106,7 +13716,8 @@
           "Indie Pop",
           "Lo-Fi"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Серебряная Свадьба",
@@ -13132,7 +13743,8 @@
           "Nursery Rhymes",
           "Story"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Basti Grub",
@@ -13154,7 +13766,8 @@
           "Tech House",
           "House"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "John Cale",
@@ -13180,7 +13793,8 @@
           "Pop Rock",
           "Experimental"
         ],
-        "year": 2005
+        "year": 2005,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "John Cale",
@@ -13202,7 +13816,8 @@
         "discogs_styles": [
           "Art Rock"
         ],
-        "year": 1982
+        "year": 1982,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "John Cale",
@@ -13224,7 +13839,8 @@
         "discogs_styles": [
           "Art Rock"
         ],
-        "year": 1982
+        "year": 1982,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "John Cale",
@@ -13246,7 +13862,8 @@
         "discogs_styles": [
           "Art Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Stinka",
@@ -13260,7 +13877,8 @@
         "apple_album_id": 731827075,
         "apple_artist_id": 731827076,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Stinka",
@@ -13274,7 +13892,8 @@
         "apple_album_id": 731827075,
         "apple_artist_id": 731827076,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Arca",
@@ -13301,7 +13920,8 @@
           "Leftfield",
           "Avantgarde"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Daughn Gibson",
@@ -13323,7 +13943,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Daughn Gibson",
@@ -13345,7 +13966,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Chastity Belt",
@@ -13366,7 +13988,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -13396,7 +14019,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Teenage Jesus & The Jerks",
@@ -13418,7 +14042,8 @@
           "No Wave",
           "Punk"
         ],
-        "year": 1978
+        "year": 1978,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lydia Lunch & Rowland S.Howard",
@@ -13440,7 +14065,8 @@
           "Goth Rock",
           "Alternative Rock"
         ],
-        "year": 1991
+        "year": 1991,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lydia Lunch & Cypress Grove",
@@ -13464,7 +14090,8 @@
           "Avantgarde",
           "Experimental"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Spiritual Front",
@@ -13487,7 +14114,8 @@
           "Avantgarde",
           "Experimental"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lydia Lunch Retrovirus",
@@ -13507,7 +14135,8 @@
           "Post-Punk",
           "No Wave"
         ],
-        "year": 1985
+        "year": 1985,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lydia Lunch Retrovirus",
@@ -13527,7 +14156,8 @@
           "Post-Punk",
           "No Wave"
         ],
-        "year": 2008
+        "year": 2008,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lydia Lunch Retrovirus",
@@ -13547,7 +14177,8 @@
           "Post-Punk",
           "No Wave"
         ],
-        "year": 1987
+        "year": 1987,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Odran Trummel",
@@ -13561,7 +14192,8 @@
         "apple_album_id": 494408212,
         "apple_artist_id": 319477904,
         "mb_id": "d5e4eab2-46cd-46e1-b668-cca0d74d0f2f",
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mark Trumer",
@@ -13598,7 +14230,8 @@
           "Shoegaze",
           "Grunge"
         ],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lydmor & Bon Homme",
@@ -13619,7 +14252,8 @@
         "discogs_styles": [
           "Dance-pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -13650,7 +14284,8 @@
         "discogs_styles": [
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gold Class",
@@ -13673,7 +14308,8 @@
           "Indie Rock",
           "Post-Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Axel Krygier",
@@ -13687,7 +14323,8 @@
         "apple_album_id": null,
         "apple_artist_id": 26172237,
         "mb_id": "43b7d6b5-8ba7-46a5-a3e6-0946bb573dcc",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The God in Hackney",
@@ -13701,7 +14338,8 @@
         "apple_album_id": 895409643,
         "apple_artist_id": 895409649,
         "mb_id": "3f7403a6-536d-4b19-a30f-4c39e03548fa",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Altered Hours",
@@ -13723,7 +14361,8 @@
           "Alternative Rock",
           "Indie Rock"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Joe Gideon & the Shark",
@@ -13737,7 +14376,8 @@
         "apple_album_id": 1743476132,
         "apple_artist_id": 295863377,
         "mb_id": "c369e0ea-0ffd-4cb3-8750-b6006a5efa38",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Shilpa Ray",
@@ -13756,7 +14396,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Shilpa Ray",
@@ -13770,7 +14411,8 @@
         "apple_album_id": null,
         "apple_artist_id": 410212446,
         "mb_id": "6201f8f0-6c51-4e56-94b9-3fd0801a475f",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Shilpa Ray",
@@ -13784,7 +14426,8 @@
         "apple_album_id": null,
         "apple_artist_id": 410212446,
         "mb_id": "c82d7172-5bdf-4309-be97-5b136bb775c7",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Spookyland",
@@ -13803,7 +14446,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Melanie de Biasio",
@@ -13824,7 +14468,8 @@
         "discogs_styles": [
           "Dance-pop"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "John Krautner",
@@ -13838,7 +14483,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1870656643,
         "mb_id": "aa09f826-fc9a-4f94-b918-3c5889d30d15",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Spinning Coin",
@@ -13852,7 +14498,8 @@
         "apple_album_id": 1040608149,
         "apple_artist_id": 1040608361,
         "mb_id": "adc50f49-74d3-470c-88e3-020d706714ee",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Psycho Soviets",
@@ -13866,7 +14513,8 @@
         "apple_album_id": 1040608149,
         "apple_artist_id": 1040608384,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       }
     ]
   },
@@ -13894,7 +14542,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kid Wave",
@@ -13915,7 +14564,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Petite Noir",
@@ -13929,7 +14579,8 @@
         "apple_album_id": null,
         "apple_artist_id": 544394928,
         "mb_id": "00ace2c7-91c9-4a8f-bdbf-00404ff2c73a",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Esplendor Geometrico",
@@ -13950,7 +14601,8 @@
         "discogs_styles": [
           "Industrial"
         ],
-        "year": 1990
+        "year": 1990,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Esplendor Geometrico",
@@ -13969,7 +14621,8 @@
         "discogs_styles": [
           "Industrial"
         ],
-        "year": 2008
+        "year": 2008,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Esplendor Geometrico",
@@ -13983,7 +14636,8 @@
         "apple_album_id": null,
         "apple_artist_id": 96294031,
         "mb_id": null,
-        "year": 2012
+        "year": 2012,
+        "year_from": "apple"
       },
       {
         "artist": "Alberteen",
@@ -13997,7 +14651,8 @@
         "apple_album_id": 956211900,
         "apple_artist_id": 287125976,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Alberteen",
@@ -14011,7 +14666,8 @@
         "apple_album_id": 956211900,
         "apple_artist_id": 287125976,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Glowicka",
@@ -14045,7 +14701,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Teenage Guitar",
@@ -14064,7 +14721,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sone Institute",
@@ -14078,7 +14736,8 @@
         "apple_album_id": 545423994,
         "apple_artist_id": 354685681,
         "mb_id": null,
-        "year": 2012
+        "year": 2012,
+        "year_from": "apple"
       },
       {
         "artist": "Sone Institute",
@@ -14090,7 +14749,8 @@
         ],
         "apple_id": null,
         "mb_id": "459df1b1-1e0e-49a2-83b1-31d278afdf2e",
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -14121,7 +14781,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Flowers",
@@ -14144,7 +14805,8 @@
           "Indie Pop",
           "Shoegaze"
         ],
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kimmo Pohjonen",
@@ -14166,7 +14828,8 @@
         "discogs_styles": [
           "Contemporary Jazz"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Seiva",
@@ -14180,7 +14843,8 @@
         "apple_album_id": 1806523162,
         "apple_artist_id": 1004627060,
         "mb_id": "a52ba87f-1722-4a6a-aaf3-cdc52a73532f",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lee Ranaldo",
@@ -14194,7 +14858,8 @@
         "apple_album_id": null,
         "apple_artist_id": 18901092,
         "mb_id": "ce263d2b-4804-4ab1-8b87-c0ddbea787fb",
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Martyr Privates",
@@ -14208,7 +14873,8 @@
         "apple_album_id": 890702750,
         "apple_artist_id": 799527458,
         "mb_id": "b0356288-3324-4bcd-938d-ac58c0e3d41a",
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Maia Vidal",
@@ -14231,7 +14897,8 @@
           "Acoustic",
           "Folk"
         ],
-        "year": 2011
+        "year": 2011,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Maia Vidal",
@@ -14254,7 +14921,8 @@
           "Indie Pop",
           "Ethereal"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Maia Vidal",
@@ -14268,7 +14936,8 @@
         "apple_album_id": 1009267546,
         "apple_artist_id": 455158954,
         "mb_id": "dc728200-1acc-4885-ae61-38c8abdb5167",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Maia Vidal",
@@ -14282,7 +14951,8 @@
         "apple_album_id": 1009267546,
         "apple_artist_id": 455158954,
         "mb_id": "86aae6ea-21f5-4a75-8f87-2288aaf2c66f",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Red Mass",
@@ -14294,7 +14964,8 @@
         ],
         "apple_id": null,
         "mb_id": "4e49755b-be7a-47ba-b3a3-5409132e76c2",
-        "year": 2016
+        "year": 2016,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Voodoo Trombone Quartet",
@@ -14308,7 +14979,8 @@
         "apple_album_id": null,
         "apple_artist_id": 78511684,
         "mb_id": "2c851fb3-43f2-4e65-a427-5b599ad34fbb",
-        "year": 2008
+        "year": 2008,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -14330,7 +15002,8 @@
         ],
         "apple_id": null,
         "mb_id": "f718e135-a851-4d76-ae9d-4201f2e21ec9",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jenny Hval",
@@ -14351,7 +15024,8 @@
         "discogs_styles": [
           "Art Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Jenny Hval",
@@ -14373,7 +15047,8 @@
         "discogs_styles": [
           "Art Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "New Order ft Iggy Pop",
@@ -14399,7 +15074,8 @@
           "Synth-pop",
           "Tech House"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Club Del Rio",
@@ -14413,7 +15089,8 @@
         "apple_album_id": 1558006785,
         "apple_artist_id": 769063979,
         "mb_id": "f2426a3c-f2ac-4001-b6bf-06de443a73af",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Standard of Living",
@@ -14425,7 +15102,8 @@
         ],
         "apple_id": null,
         "mb_id": "1a3040d4-84f6-454c-bc40-3f9ed78c212c",
-        "year": 1982
+        "year": 1982,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Red Asphalt",
@@ -14439,7 +15117,8 @@
         "apple_album_id": null,
         "apple_artist_id": 272383927,
         "mb_id": "87626d76-ad4f-4220-802e-c859b06de7a0",
-        "year": 1981
+        "year": 1981,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Baby Buddha",
@@ -14453,7 +15132,8 @@
         "apple_album_id": null,
         "apple_artist_id": 907777297,
         "mb_id": "c2c1b290-41b7-47d8-801e-43cb51d885cd",
-        "year": 1981
+        "year": 1981,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Zru Vogue",
@@ -14467,7 +15147,8 @@
         "apple_album_id": null,
         "apple_artist_id": 30484108,
         "mb_id": "a6a7d04e-c7a8-4b14-b358-bcd37fece5d5",
-        "year": 1982
+        "year": 1982,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Gemma Hayes",
@@ -14481,7 +15162,8 @@
         "apple_album_id": null,
         "apple_artist_id": 5171139,
         "mb_id": "2ac6d6ee-2f65-4ff4-aeb6-e956876f44b6",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Archive",
@@ -14503,7 +15185,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Erkki Sven Tuur + Nguyen Le + UMO Orchestra",
@@ -14551,7 +15234,8 @@
           "Psychedelic Rock",
           "Drone"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Moon Duo",
@@ -14575,7 +15259,8 @@
           "Psychedelic Rock",
           "Drone"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Barbara Morgenstern",
@@ -14598,7 +15283,8 @@
           "Electro",
           "Downtempo"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Wau Y Los Arrrghs!!",
@@ -14612,7 +15298,8 @@
         "apple_album_id": null,
         "apple_artist_id": 274242379,
         "mb_id": "02fcb4fc-e600-4e41-8aa6-37da09121e76",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Wau Y Los Arrrghs!!",
@@ -14626,7 +15313,8 @@
         "apple_album_id": null,
         "apple_artist_id": 274242379,
         "mb_id": null,
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "Ville Leinonen & Valumo",
@@ -14640,7 +15328,8 @@
         "apple_album_id": null,
         "apple_artist_id": 90280817,
         "mb_id": "1e0a426d-69bf-4be9-9db8-96b2f4c78126",
-        "year": 2003
+        "year": 2003,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Risto",
@@ -14654,7 +15343,8 @@
         "apple_album_id": null,
         "apple_artist_id": 806321478,
         "mb_id": "6879138a-a277-422e-b9a9-e6e0e82bc92e",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ville Leinonen",
@@ -14674,7 +15364,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ville Leinonen",
@@ -14694,7 +15385,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Air Waves",
@@ -14715,7 +15407,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Air Waves",
@@ -14736,7 +15429,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Toy",
@@ -14762,7 +15456,8 @@
           "Psychedelic Rock",
           "Post-Punk"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "apple"
       },
       {
         "artist": "TOY & jane Weaver",
@@ -14776,7 +15471,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "989cd284-00ed-4603-a43e-244158e215b9",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Earthmonkey",
@@ -14801,7 +15497,8 @@
           "Psychedelic Rock",
           "Experimental"
         ],
-        "year": 2007
+        "year": 2007,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -14833,7 +15530,8 @@
           "Alternative Rock",
           "Experimental"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Death And Vanilla",
@@ -14847,7 +15545,8 @@
         "apple_album_id": 1667791974,
         "apple_artist_id": 447600867,
         "mb_id": "c0345843-0626-494f-8f1c-0f5d505172f3",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Death And Vanilla",
@@ -14861,7 +15560,8 @@
         "apple_album_id": 1667791974,
         "apple_artist_id": 447600867,
         "mb_id": "8e4f37d0-66fa-4a03-801b-d22a3594806b",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Matushka",
@@ -14882,7 +15582,8 @@
         "discogs_styles": [
           "Psychedelic Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Thomas Truax",
@@ -14896,7 +15597,8 @@
         "apple_album_id": 806937060,
         "apple_artist_id": 74572162,
         "mb_id": "512eaac2-5f3a-43d4-802b-1e5c762cc92e",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Thomas Truax",
@@ -14910,7 +15612,8 @@
         "apple_album_id": 806937060,
         "apple_artist_id": 74572162,
         "mb_id": "664eec38-bc95-4c1f-9449-820a1ade964b",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Thomas Truax",
@@ -14931,7 +15634,8 @@
         "discogs_styles": [
           "Avantgarde"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Thomas Truax",
@@ -14953,7 +15657,8 @@
         "discogs_styles": [
           "Avantgarde"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Psapp",
@@ -14976,7 +15681,8 @@
           "Leftfield",
           "Downtempo"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Yura Yura Teikoku",
@@ -14990,7 +15696,8 @@
         "apple_album_id": 331388519,
         "apple_artist_id": 330306595,
         "mb_id": "9a50a1cc-51ec-4988-a55f-ec10c3f32fbc",
-        "year": 2009
+        "year": 2009,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Unthanks",
@@ -15004,7 +15711,8 @@
         "apple_album_id": 938379224,
         "apple_artist_id": 329352560,
         "mb_id": "d129cb5d-a6d2-4164-8647-b098f385ce0e",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Balthazar",
@@ -15025,7 +15733,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hauschka",
@@ -15046,7 +15755,8 @@
         "discogs_styles": [
           "Neo-Classical"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -15080,7 +15790,8 @@
           "Leftfield",
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Soft Moon",
@@ -15103,7 +15814,8 @@
           "Post-Punk",
           "Industrial"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kerkko Koskinen Kollektiivi",
@@ -15125,7 +15837,8 @@
         "discogs_styles": [
           "Pop Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Kerkko Koskinen Kollektiivi",
@@ -15147,7 +15860,8 @@
         "discogs_styles": [
           "Pop Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "King Automatic",
@@ -15170,7 +15884,8 @@
           "Rock & Roll",
           "Blues Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "King Automatic",
@@ -15193,7 +15908,8 @@
           "Rock & Roll",
           "Blues Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Audrew Lilles",
@@ -15259,7 +15975,8 @@
         "apple_album_id": 1820132070,
         "apple_artist_id": 153916805,
         "mb_id": "51dc84ce-218d-4454-96f6-12e2b7d37a75",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Therr Matiz",
@@ -15273,7 +15990,8 @@
         "apple_album_id": 1381137978,
         "apple_artist_id": 393034588,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Tujiko Noriko",
@@ -15297,7 +16015,8 @@
           "Experimental",
           "Synth-pop"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -15327,7 +16046,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Skip and Die",
@@ -15339,7 +16059,8 @@
         ],
         "apple_id": null,
         "mb_id": "fd4b725a-3d80-414e-a811-3b4a22a5a087",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Jon Spencer Blues Explosion",
@@ -15361,7 +16082,8 @@
           "Alternative Rock",
           "Blues Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Clara Hill",
@@ -15375,7 +16097,8 @@
         "apple_album_id": null,
         "apple_artist_id": 6841277,
         "mb_id": "1c37c131-517d-49a9-aed0-ede5b9b2f0fd",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Сейф",
@@ -15419,7 +16142,8 @@
         "apple_album_id": 1614731457,
         "apple_artist_id": 288654225,
         "mb_id": null,
-        "year": 2014
+        "year": 2014,
+        "year_from": "apple"
       },
       {
         "artist": "Francesca Belmonte",
@@ -15440,7 +16164,8 @@
         "discogs_styles": [
           "Trip Hop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Francesca Belmonte",
@@ -15461,7 +16186,8 @@
         "discogs_styles": [
           "Trip Hop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Algiers",
@@ -15485,7 +16211,8 @@
           "Gospel",
           "Psychedelic"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Algiers",
@@ -15509,7 +16236,8 @@
           "Gospel",
           "Psychedelic"
         ],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Azure Blue",
@@ -15532,7 +16260,8 @@
           "Indie Pop",
           "Synth-pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ela Orleans",
@@ -15558,7 +16287,8 @@
           "Post-Punk",
           "Lo-Fi"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ela Orleans",
@@ -15584,7 +16314,8 @@
           "Post-Punk",
           "Lo-Fi"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -15615,7 +16346,8 @@
           "Alternative Rock",
           "Garage Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hanni El Khatib",
@@ -15637,7 +16369,8 @@
           "Alternative Rock",
           "Garage Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Meszecsinka",
@@ -15658,7 +16391,8 @@
         "discogs_styles": [
           "Folk"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "German Diaz",
@@ -15672,7 +16406,8 @@
         "apple_album_id": null,
         "apple_artist_id": 168333923,
         "mb_id": "d7a6c9b0-9c62-41e7-b359-4dad553af58d",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sleaford Mods",
@@ -15696,7 +16431,8 @@
           "Experimental",
           "Punk"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sleaford Mods",
@@ -15718,7 +16454,8 @@
           "Minimal",
           "Post-Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sleaford Mods",
@@ -15742,7 +16479,8 @@
           "Minimal",
           "Post-Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jay-Jay Johanson",
@@ -15766,7 +16504,8 @@
           "Easy Listening",
           "Trip Hop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Aino Venna",
@@ -15785,7 +16524,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hugo Race & The True Spirit",
@@ -15799,7 +16539,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "87b010ec-1086-4908-9523-a4c2093bc475",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hugo Race & The True Spirit",
@@ -15811,7 +16552,8 @@
         ],
         "apple_id": null,
         "mb_id": "6d124ef8-c373-4b57-a1ad-386ecf257809",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lola Colt",
@@ -15832,7 +16574,8 @@
         "discogs_styles": [
           "Psychedelic Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Marching Church",
@@ -15854,7 +16597,8 @@
           "Art Rock",
           "Post-Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Marching Church",
@@ -15876,7 +16620,8 @@
           "Art Rock",
           "Post-Punk"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -15906,7 +16651,8 @@
         "discogs_styles": [
           "Synth-pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Heather Woods Broderick",
@@ -15929,7 +16675,8 @@
           "Indie Rock",
           "Shoegaze"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Lords",
@@ -15952,7 +16699,8 @@
           "Punk",
           "Indie Rock"
         ],
-        "year": 2006
+        "year": 2006,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Inna Pivars & the Histriones",
@@ -15966,7 +16714,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1069292183,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Ismo Alanko Säätiö",
@@ -15988,7 +16737,8 @@
           "Alternative Rock",
           "Art Rock"
         ],
-        "year": 2002
+        "year": 2002,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ilkka Alanko Orchestra",
@@ -16002,7 +16752,8 @@
         "apple_album_id": 715030421,
         "apple_artist_id": 391538622,
         "mb_id": "9ea5d241-ebc7-4fff-91e2-21144dbea0fa",
-        "year": 2010
+        "year": 2010,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ismo Alanko",
@@ -16021,7 +16772,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Promised Land Sound",
@@ -16046,7 +16798,8 @@
           "Rock & Roll",
           "Southern Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Drinks",
@@ -16065,7 +16818,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Titus Andronicus",
@@ -16087,7 +16841,8 @@
           "Punk",
           "Rock Opera"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sylvie Krobová",
@@ -16101,7 +16856,8 @@
         "apple_album_id": 1750739846,
         "apple_artist_id": 258240648,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Trader Horne",
@@ -16124,7 +16880,8 @@
           "Folk Rock",
           "Folk"
         ],
-        "year": 1970
+        "year": 1970,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jóhann Jóhannsson",
@@ -16138,7 +16895,8 @@
         "apple_album_id": null,
         "apple_artist_id": 80591287,
         "mb_id": "acb9a13c-4618-404b-83ba-68f49775f88f",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -16170,7 +16928,8 @@
           "Alternative Rock",
           "Industrial"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Beastmaster",
@@ -16184,7 +16943,8 @@
         "apple_album_id": 1849767401,
         "apple_artist_id": 872619590,
         "mb_id": "f7b387a5-eaf7-4a75-affc-2e768e336d16",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Banda Senderos",
@@ -16198,7 +16958,8 @@
         "apple_album_id": 1675658828,
         "apple_artist_id": 893844950,
         "mb_id": "ef90af45-d7dd-4eb7-a208-e2fb32612b44",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kyoka",
@@ -16220,7 +16981,8 @@
           "Glitch",
           "Experimental"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mumiy Troll",
@@ -16243,7 +17005,8 @@
         "discogs_styles": [
           "Pop Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Мумий Тролль",
@@ -16257,7 +17020,8 @@
         "apple_album_id": 962389012,
         "apple_artist_id": 268782751,
         "mb_id": "a2926d51-241d-4d1f-af6f-dde8b36353a0",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Infinity of Sound",
@@ -16269,7 +17033,8 @@
         ],
         "apple_id": null,
         "mb_id": "f76d6f34-ce54-4b7b-99c8-e179bd36f88b",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Saycet",
@@ -16290,7 +17055,8 @@
         "discogs_styles": [
           "Illbient"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Small Black",
@@ -16314,7 +17080,8 @@
           "Chillwave",
           "Indie Pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tori Sparks",
@@ -16341,7 +17108,8 @@
           "Flamenco",
           "Rock & Roll"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Tori Sparks",
@@ -16368,7 +17136,8 @@
           "Flamenco",
           "Rock & Roll"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Editors",
@@ -16390,7 +17159,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Long Dead Sevens",
@@ -16404,7 +17174,8 @@
         "apple_album_id": 386459915,
         "apple_artist_id": 386459916,
         "mb_id": null,
-        "year": 2008
+        "year": 2008,
+        "year_from": "apple"
       }
     ]
   },
@@ -16437,7 +17208,8 @@
           "Experimental",
           "Minimal"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Peach Kelly Pop",
@@ -16452,7 +17224,8 @@
         "apple_album_id": null,
         "apple_artist_id": 460815029,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Macelleria Mobile di Mezzanote",
@@ -16479,7 +17252,8 @@
         "apple_album_id": 1023407855,
         "apple_artist_id": 288988678,
         "mb_id": null,
-        "year": 2015
+        "year": 2015,
+        "year_from": "apple"
       },
       {
         "artist": "Bernard + Edith",
@@ -16493,7 +17267,8 @@
         "apple_album_id": 971649344,
         "apple_artist_id": 932379086,
         "mb_id": "6de09d96-39a6-49f6-9b4f-566de2197037",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bernard + Edith",
@@ -16506,7 +17281,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 17071509,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Radian & Howe Gelb",
@@ -16530,7 +17306,8 @@
           "Post Rock",
           "Experimental"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Peter Ulrich Collaboration",
@@ -16545,7 +17322,8 @@
         "apple_album_id": 995209824,
         "apple_artist_id": 615847398,
         "mb_id": "0cc4d681-2d12-47e5-9d3c-06ea9fc4420e",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jaguar Ma",
@@ -16567,7 +17345,8 @@
         "discogs_styles": [
           "Indie Rock"
         ],
-        "year": 2013
+        "year": 2013,
+        "year_from": "discogs"
       },
       {
         "artist": "Hamin Elias",
@@ -16594,7 +17373,8 @@
         "apple_album_id": null,
         "apple_artist_id": 378369900,
         "mb_id": "2444e5c3-e807-4dae-a390-107f42984570",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Róisín Murphy",
@@ -16619,7 +17399,8 @@
         "discogs_styles": [
           "Downtempo"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nienminen & Litthuanen",
@@ -16663,7 +17444,8 @@
           "Alternative Rock",
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Calexico",
@@ -16685,7 +17467,8 @@
           "Alternative Rock",
           "Indie Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sally Dige",
@@ -16709,7 +17492,8 @@
           "New Wave",
           "Darkwave"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "OTK",
@@ -16729,7 +17513,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Dans dans",
@@ -16752,7 +17537,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Loons",
@@ -16771,7 +17557,8 @@
           "Rock"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Björk",
@@ -16794,7 +17581,8 @@
           "Modern Classical",
           "Experimental"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Björk",
@@ -16817,7 +17605,8 @@
           "Experimental",
           "Modern Classical"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "MFC Chicken",
@@ -16838,7 +17627,8 @@
         "discogs_styles": [
           "Garage Rock"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Ballroom Thieves",
@@ -16852,7 +17642,8 @@
         "apple_album_id": null,
         "apple_artist_id": 489634654,
         "mb_id": "51500b8a-2caa-49f3-bb02-e86948245886",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Black Ryder",
@@ -16873,7 +17664,8 @@
         "discogs_styles": [
           "Shoegaze"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Shamir",
@@ -16897,7 +17689,8 @@
           "Hip-House",
           "Dance-pop"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Fogh Depot",
@@ -16920,7 +17713,8 @@
           "Contemporary Jazz",
           "Experimental"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -16943,7 +17737,8 @@
         "apple_album_id": 964779694,
         "apple_artist_id": 5405054,
         "mb_id": "1c652c5c-8ae9-42b8-8477-83343a590bf5",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Johnny Dowd",
@@ -16957,7 +17752,8 @@
         "apple_album_id": 964779694,
         "apple_artist_id": 5405054,
         "mb_id": "fc98cf12-029e-47f7-88e0-be12dd3077ea",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dan Michaelson & The Coastguard",
@@ -16971,7 +17767,8 @@
         "apple_album_id": 593011335,
         "apple_artist_id": 472984014,
         "mb_id": "87fe7766-cc8c-43e9-a093-21e649c891e8",
-        "year": 2013
+        "year": 2013,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Chikiss",
@@ -16985,7 +17782,8 @@
         "apple_album_id": 1545142308,
         "apple_artist_id": 380438720,
         "mb_id": "46bc6de8-3ede-47fa-af75-cd65a8c7d6b9",
-        "year": 2010
+        "year": 2010,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Chikiss",
@@ -17007,7 +17805,8 @@
           "Synth-pop",
           "Ambient"
         ],
-        "year": 2012
+        "year": 2012,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Orange Revival",
@@ -17019,7 +17818,8 @@
         ],
         "apple_id": null,
         "mb_id": "74414871-463b-4191-a838-f8e0d4b8b928",
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ensemble Economique",
@@ -17042,7 +17842,8 @@
           "Downtempo",
           "Ambient"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Beruibas Milicija",
@@ -17069,7 +17870,8 @@
         "apple_album_id": null,
         "apple_artist_id": 614318402,
         "mb_id": "0fa38c45-a3cb-4b4c-8751-a5e490c1153c",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Crazy World of Arthur Brown",
@@ -17083,7 +17885,8 @@
         "apple_album_id": null,
         "apple_artist_id": 614318402,
         "mb_id": "35c171d6-b906-4f6c-98ed-94ca030abd2d",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Perfume Genius",
@@ -17102,7 +17905,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jamie XX",
@@ -17133,7 +17937,8 @@
           "Dubstep",
           "Bass Music"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "James Elkington & Nathan Salsburg",
@@ -17152,7 +17957,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -17175,7 +17981,8 @@
         "apple_album_id": 1669944045,
         "apple_artist_id": 292305807,
         "mb_id": "37bb25a6-eb51-47e5-b17f-09524288fbf5",
-        "year": 2005
+        "year": 2005,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "F.F.S.",
@@ -17189,7 +17996,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 7183430,
-        "year": 2015
+        "year": 2015,
+        "year_from": "discogs"
       },
       {
         "artist": "Sasa Niklickova",
@@ -17202,7 +18010,8 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 12611993,
-        "year": 2014
+        "year": 2014,
+        "year_from": "discogs"
       },
       {
         "artist": "Sonny & The Sunsets",
@@ -17216,7 +18025,8 @@
         "apple_album_id": 1651328168,
         "apple_artist_id": 333926006,
         "mb_id": "e97bca86-4492-4b02-afc6-bfceafaf61b8",
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nad Spiro",
@@ -17229,7 +18039,8 @@
         ],
         "apple_id": null,
         "mb_id": "f55eba63-ab80-4405-9ff5-32bec98344f2",
-        "year": 2003
+        "year": 2003,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "James Ray And The Performance",
@@ -17243,7 +18054,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1566058504,
         "mb_id": "3e501990-a0d5-4dde-a9ac-2b5ffc8bd292",
-        "year": 1986
+        "year": 1986,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "James Ray And The Performance",
@@ -17257,7 +18069,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1566058504,
         "mb_id": "39fa99a3-402c-4f8e-a637-c8685902f2a5",
-        "year": 1987
+        "year": 1987,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "James Rays Gangwar",
@@ -17271,7 +18084,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1563116759,
         "mb_id": "30ed94e3-9384-45db-97d9-ed62be5df1c3",
-        "year": 1992
+        "year": 1992,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Judson Claiborne",
@@ -17291,7 +18105,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Адаптация",
@@ -17313,7 +18128,8 @@
         "discogs_styles": [
           "Punk"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dengue Fever",
@@ -17335,7 +18151,8 @@
         "discogs_styles": [
           "Psychedelic Rock"
         ],
-        "year": 2015
+        "year": 2015,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Zig Zag",
@@ -17358,7 +18175,8 @@
           "Pop Punk",
           "Punk"
         ],
-        "year": 1994
+        "year": 1994,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dirty Beaches",
@@ -17381,7 +18199,8 @@
           "Drone",
           "Experimental"
         ],
-        "year": 2014
+        "year": 2014,
+        "year_from": "musicbrainz"
       }
     ]
   }
