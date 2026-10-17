@@ -1075,5 +1075,15 @@
       "album": "The Oblique Sessions"
     },
     "why": "FM Достоевский #114, from the XLS: initials, misspelt; MusicBrainz has Pascal Comelade, Pierre Bastien, Jac Berrocal & Jaki Liebezeit’s «A Mexican Spaghetti Strangler» on «Oblique Sessions» (1997); the album’s name the owner’s"
+  },
+  {
+    "artist": "the vanity set",
+    "track": "little demons",
+    "restore": {
+      "artist": "The Vanity Set",
+      "track": "Little Demons",
+      "album": "Little Stabs of Happiness"
+    },
+    "why": "FM Достоевский #340: in lower case; MusicBrainz has The Vanity Set’s «Little Demons» on «Little Stabs of Happiness» (US, 2003)"
   }
 ]
