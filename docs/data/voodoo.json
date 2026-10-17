@@ -965,7 +965,8 @@
         "apple_id": 999117544,
         "apple_album_id": 999116783,
         "apple_artist_id": 444985319,
-        "year": null
+        "mb_id": "79e1d684-0ad2-48a5-b668-8544796e2e26",
+        "year": 2015
       },
       {
         "artist": "Candy Says",
@@ -2184,7 +2185,10 @@
         "country": [
           "GB"
         ],
-        "year": null
+        "apple_id": 6798664691,
+        "apple_album_id": null,
+        "apple_artist_id": 316093026,
+        "year": 2014
       },
       {
         "artist": "Batido",
@@ -2705,6 +2709,7 @@
         "apple_id": 1009484698,
         "apple_album_id": 1009484685,
         "apple_artist_id": 182947073,
+        "mb_id": "b08bb67f-8cc0-4e7b-b4c3-1c4a82355646",
         "year": 2015
       },
       {
@@ -3741,6 +3746,7 @@
         "country": [
           "RO"
         ],
+        "apple_id": null,
         "mb_id": "314d1cb9-2727-499e-b228-aa702a7c79cd",
         "year": 2015
       },
@@ -5987,6 +5993,7 @@
         "apple_id": 1444043516,
         "apple_album_id": 1444043225,
         "apple_artist_id": 188871308,
+        "mb_id": "517d80f7-e74f-471c-9e14-44b209dee2a3",
         "year": 2014
       },
       {
@@ -7299,6 +7306,7 @@
         "apple_id": 1744348692,
         "apple_album_id": 1744348688,
         "apple_artist_id": 15025750,
+        "mb_id": null,
         "year": 2014
       },
       {
@@ -8154,6 +8162,7 @@
         "apple_id": 1622697347,
         "apple_album_id": 1622697235,
         "apple_artist_id": 274228894,
+        "mb_id": null,
         "year": 2014
       },
       {
@@ -9312,6 +9321,8 @@
         "country": [
           "IS"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 6004482,
         "year": 2013
       },
@@ -10007,6 +10018,7 @@
         "apple_id": 799984842,
         "apple_album_id": 799984772,
         "apple_artist_id": 373933132,
+        "mb_id": null,
         "year": 2014
       },
       {
@@ -10098,7 +10110,8 @@
         "apple_id": 195953043,
         "apple_album_id": null,
         "apple_artist_id": 159386316,
-        "year": 2004
+        "mb_id": "ce12b649-bd51-49c7-b0fc-309b751a635e",
+        "year": 2002
       },
       {
         "artist": "GusGus",
@@ -11531,6 +11544,7 @@
         "apple_id": 579083345,
         "apple_album_id": 579083325,
         "apple_artist_id": 215213829,
+        "mb_id": "80dfd7bf-73a8-4887-9b4b-97da2945d216",
         "year": 2013
       }
     ]
@@ -11809,6 +11823,8 @@
         "country": [
           "US"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 1246515,
         "year": 1976
       },
@@ -12025,6 +12041,7 @@
         "apple_id": 580861542,
         "apple_album_id": 580861536,
         "apple_artist_id": 295606191,
+        "mb_id": null,
         "year": 2012
       },
       {
@@ -12195,6 +12212,7 @@
         "country": [
           "HT"
         ],
+        "apple_id": null,
         "mb_id": "0aadbdc0-6554-4c38-b2ae-32308ed046b8",
         "year": 2013
       },
@@ -12273,6 +12291,7 @@
         "country": [
           "LV"
         ],
+        "apple_id": null,
         "mb_id": "b6421458-fe29-4fbe-abe5-cb948fbe5251",
         "year": 2013
       },
@@ -13867,6 +13886,7 @@
         "apple_id": 1565793711,
         "apple_album_id": 1565793701,
         "apple_artist_id": 200734307,
+        "mb_id": "42eebfde-c1f3-44dc-b45d-2ae97a40d0ce",
         "year": 2013
       },
       {
@@ -15486,7 +15506,8 @@
         "apple_id": 1442808578,
         "apple_album_id": null,
         "apple_artist_id": null,
-        "year": 2006
+        "mb_id": "180621dc-98d2-43d2-8122-96a717717733",
+        "year": 1974
       },
       {
         "artist": "Angelo Badalamenti & David Lynch",
@@ -15686,6 +15707,7 @@
         "apple_id": 664984790,
         "apple_album_id": 664984425,
         "apple_artist_id": 379686524,
+        "mb_id": null,
         "year": 2012
       },
       {
@@ -16568,6 +16590,7 @@
         "apple_id": 558001771,
         "apple_album_id": 558000748,
         "apple_artist_id": 553142641,
+        "mb_id": "8a0dcf5e-f3e4-4aed-987c-5bbdebbddd7b",
         "year": 2012
       },
       {
@@ -16767,6 +16790,7 @@
         "country": [
           "CO"
         ],
+        "apple_id": null,
         "mb_id": "ac657f2a-8c3d-432b-9ef9-0ee1a1af055f",
         "year": 2012
       },
@@ -18953,6 +18977,7 @@
         "apple_id": 1447442985,
         "apple_album_id": 1447442983,
         "apple_artist_id": 73720797,
+        "mb_id": null,
         "year": 2013
       },
       {
@@ -19875,6 +19900,7 @@
         "apple_id": 524943766,
         "apple_album_id": 524943759,
         "apple_artist_id": 265626732,
+        "mb_id": null,
         "year": 2012
       },
       {
@@ -20322,6 +20348,7 @@
         "apple_id": 1816737663,
         "apple_album_id": 1816737134,
         "apple_artist_id": 419267507,
+        "mb_id": null,
         "year": 2013
       },
       {
@@ -20541,6 +20568,7 @@
         "apple_id": 1495593147,
         "apple_album_id": 1495593142,
         "apple_artist_id": 346049270,
+        "mb_id": "70237a03-e0ec-4e8c-b735-6f6f375e52b1",
         "year": 2012
       },
       {
@@ -21658,6 +21686,8 @@
         "country": [
           "CZ"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 4570153,
         "year": 2012
       },
@@ -21886,6 +21916,7 @@
         "apple_id": 564007747,
         "apple_album_id": 564007567,
         "apple_artist_id": 1896590270,
+        "mb_id": null,
         "year": 2012
       },
       {
@@ -22338,6 +22369,7 @@
         "apple_id": 1726657043,
         "apple_album_id": 1726656766,
         "apple_artist_id": 80033085,
+        "mb_id": null,
         "year": 2012
       },
       {
@@ -22483,7 +22515,9 @@
         "apple_id": 514000121,
         "apple_album_id": 513999936,
         "apple_artist_id": 513999937,
-        "year": null
+        "mb_id": null,
+        "discogs_id": 15314043,
+        "year": 2011
       },
       {
         "artist": "Group Rhoda",
@@ -26025,6 +26059,7 @@
         "country": [
           "NO"
         ],
+        "apple_id": null,
         "mb_id": "0c1683a6-ff31-476b-ba02-eab8c3126a2e",
         "year": 2011
       }
@@ -26321,6 +26356,7 @@
         "apple_id": 576075336,
         "apple_album_id": 576075078,
         "apple_artist_id": 217920751,
+        "mb_id": null,
         "year": 2012
       },
       {
@@ -26430,7 +26466,8 @@
         "apple_id": 1481793873,
         "apple_album_id": 1481793683,
         "apple_artist_id": 420837475,
-        "year": 2011
+        "mb_id": "d0fa485c-a4d6-4ebb-beb4-aea6844672d9",
+        "year": 2009
       },
       {
         "artist": "lee harvey asphalte",
@@ -26518,6 +26555,8 @@
         "country": [
           "CZ"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 3586574,
         "year": 2011
       },
@@ -26694,6 +26733,7 @@
         "apple_id": 480682989,
         "apple_album_id": 480682920,
         "apple_artist_id": null,
+        "mb_id": null,
         "discogs_id": 6686639,
         "year": 2011
       },
@@ -26720,7 +26760,8 @@
         "apple_id": 561892324,
         "apple_album_id": 561892320,
         "apple_artist_id": 6150963,
-        "year": null
+        "mb_id": "c5373cf8-f50b-4660-87f0-4bc86051154c",
+        "year": 2012
       },
       {
         "artist": "The Humms",
@@ -26756,6 +26797,7 @@
         "country": [
           "AU"
         ],
+        "apple_id": null,
         "mb_id": "77b77a2e-a38d-4a37-8725-c5be3273204a",
         "year": 2006
       },
@@ -26958,6 +27000,7 @@
         "apple_id": 1337536748,
         "apple_album_id": 1337536463,
         "apple_artist_id": 259388946,
+        "mb_id": "c19d923b-51e6-49b6-b130-f2095cdcf76d",
         "year": 2012
       },
       {
@@ -27185,6 +27228,8 @@
         "country": [
           "CZ"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 3036266,
         "year": 2011
       },
@@ -27374,6 +27419,7 @@
         "country": [
           "RU"
         ],
+        "apple_id": null,
         "mb_id": "ab7d5bd9-d4ca-4b79-a822-56bf78cd8186",
         "year": 2011
       },
@@ -27549,6 +27595,7 @@
         "apple_id": 1208657697,
         "apple_album_id": 1208647914,
         "apple_artist_id": 1208651405,
+        "mb_id": "9d1cedc9-9ab0-43e0-ad4c-d6c7f3885542",
         "year": 2011
       },
       {
@@ -28077,6 +28124,7 @@
         "apple_id": 541577944,
         "apple_album_id": 541577745,
         "apple_artist_id": 18156670,
+        "mb_id": "0b349a9e-f125-460e-843d-aa09877d5d32",
         "year": 2012
       },
       {
@@ -28224,6 +28272,7 @@
         "apple_id": 517080088,
         "apple_album_id": null,
         "apple_artist_id": 187561631,
+        "mb_id": "068edde7-4775-41f5-a400-ccd99a3101b2",
         "year": 2012
       },
       {

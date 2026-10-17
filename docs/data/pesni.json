@@ -145,6 +145,7 @@
         "apple_id": 1090391874,
         "apple_album_id": 1090391638,
         "apple_artist_id": 1090391870,
+        "mb_id": null,
         "year": 2016
       },
       {
@@ -265,6 +266,7 @@
         "apple_id": 1732064698,
         "apple_album_id": 1732064688,
         "apple_artist_id": 381643026,
+        "mb_id": null,
         "year": 2015
       },
       {
@@ -1986,6 +1988,7 @@
         "apple_id": 1750740321,
         "apple_album_id": 1750739846,
         "apple_artist_id": 258240648,
+        "mb_id": null,
         "year": 2015
       },
       {
@@ -1999,6 +2002,7 @@
         "apple_id": 1750740326,
         "apple_album_id": 1750739846,
         "apple_artist_id": 258240648,
+        "mb_id": null,
         "year": 2015
       },
       {
@@ -2377,6 +2381,7 @@
         "country": [
           "CZ"
         ],
+        "apple_id": null,
         "mb_id": "70199a09-a16d-43dc-93d4-1fa680f87667",
         "year": 2015
       },
@@ -3567,6 +3572,7 @@
         "apple_id": 1289812906,
         "apple_album_id": null,
         "apple_artist_id": 295606191,
+        "mb_id": null,
         "year": 2015
       },
       {
@@ -5372,6 +5378,8 @@
         "country": [
           "GB"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 9370310,
         "year": 2016
       },
@@ -5918,6 +5926,7 @@
         "apple_id": 1741440502,
         "apple_album_id": 1741440106,
         "apple_artist_id": 1078456347,
+        "mb_id": null,
         "year": 2016
       },
       {
@@ -7080,6 +7089,7 @@
         "apple_id": 1124688364,
         "apple_album_id": 1124688021,
         "apple_artist_id": 252071286,
+        "mb_id": null,
         "year": 2015
       },
       {
@@ -7090,6 +7100,8 @@
         "country": [
           "AU"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 27457296,
         "year": 2015
       },
@@ -7104,6 +7116,7 @@
         "apple_id": 1124688370,
         "apple_album_id": 1124688021,
         "apple_artist_id": 252071286,
+        "mb_id": null,
         "year": 2015
       },
       {
@@ -8583,6 +8596,8 @@
         "country": [
           "FI"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 6802416,
         "year": 2015
       },
@@ -8817,6 +8832,9 @@
         "country": [
           "TR"
         ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
         "year": null
       },
       {
@@ -8968,8 +8986,9 @@
         "apple_id": 1020383158,
         "apple_album_id": 1020380270,
         "apple_artist_id": null,
+        "mb_id": "566b5c73-2627-477f-86e1-659afb2294ac",
         "discogs_id": 34480348,
-        "year": 2015
+        "year": 2012
       },
       {
         "artist": "Ilaria Graziano & Francesco Forni",
@@ -8982,8 +9001,9 @@
         "apple_id": 1020383236,
         "apple_album_id": 1020380270,
         "apple_artist_id": null,
+        "mb_id": "0d57311b-868e-4dfa-80b4-879914c23b47",
         "discogs_id": 34480348,
-        "year": 2015
+        "year": 2012
       },
       {
         "artist": "The Wave Pictures",
@@ -11873,6 +11893,9 @@
         "country": [
           "US"
         ],
+        "apple_id": 1841803587,
+        "apple_album_id": null,
+        "apple_artist_id": null,
         "mb_id": "b0badac9-27bd-4d8b-a168-0528a7031fc7",
         "discogs_id": 2080581,
         "year": 1962
@@ -11885,6 +11908,10 @@
         "country": [
           "US"
         ],
+        "apple_id": 433709078,
+        "apple_album_id": null,
+        "apple_artist_id": 433709079,
+        "mb_id": "e8f1753f-e32a-4a35-a5c8-304a5fa56dd4",
         "discogs_id": 8902452,
         "year": 1962
       },

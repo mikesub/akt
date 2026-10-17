@@ -1835,6 +1835,7 @@
         "apple_id": 1750739935,
         "apple_album_id": 1750739846,
         "apple_artist_id": 258240648,
+        "mb_id": null,
         "year": 2015
       },
       {
@@ -2115,6 +2116,7 @@
         "country": [
           "CZ"
         ],
+        "apple_id": null,
         "mb_id": "a9fd4abf-fd30-478a-a959-0f92a68e5150",
         "year": 2015
       },
@@ -3893,7 +3895,11 @@
           "GB",
           "US"
         ],
-        "year": null
+        "apple_id": 1140188913,
+        "apple_album_id": 1140188899,
+        "apple_artist_id": 341449868,
+        "mb_id": "94a1f083-2d77-4733-a370-bc381abc2f08",
+        "year": 2016
       },
       {
         "artist": "HiFi Sean ft.Little Annie",
@@ -3918,7 +3924,11 @@
           "GB",
           "US"
         ],
-        "year": null
+        "apple_id": 1140189060,
+        "apple_album_id": 1140188899,
+        "apple_artist_id": 341449868,
+        "mb_id": "f89b62ca-6d7e-4b73-9f0e-f3787332740b",
+        "year": 2016
       }
     ]
   },
@@ -4601,6 +4611,7 @@
         "apple_id": 1016572170,
         "apple_album_id": 1016571386,
         "apple_artist_id": 346049270,
+        "mb_id": "f2a2ba05-a62a-4dd3-82c6-af9456e63c8d",
         "year": 2015
       },
       {
@@ -4615,6 +4626,7 @@
         "apple_id": 1016572428,
         "apple_album_id": 1016571386,
         "apple_artist_id": 346049270,
+        "mb_id": "acf58989-d0d4-4516-8f71-d11b37674700",
         "year": 2015
       },
       {
@@ -6346,6 +6358,7 @@
         "apple_id": 1036256256,
         "apple_album_id": 1036255297,
         "apple_artist_id": 580647367,
+        "mb_id": null,
         "year": 2015
       }
     ]
@@ -6767,6 +6780,7 @@
         "apple_id": 1002523389,
         "apple_album_id": 1002522424,
         "apple_artist_id": 215852851,
+        "mb_id": null,
         "year": 2015
       },
       {
@@ -6780,6 +6794,7 @@
         "apple_id": 1002523394,
         "apple_album_id": 1002522424,
         "apple_artist_id": 215852851,
+        "mb_id": null,
         "year": 2015
       },
       {
@@ -10473,6 +10488,7 @@
         "apple_id": 1208715793,
         "apple_album_id": null,
         "apple_artist_id": 274242379,
+        "mb_id": null,
         "year": 2013
       },
       {
@@ -11546,6 +11562,7 @@
         "apple_id": 1750740326,
         "apple_album_id": 1750739846,
         "apple_artist_id": 258240648,
+        "mb_id": null,
         "year": 2015
       },
       {

@@ -3213,6 +3213,7 @@
         "apple_id": 1808391781,
         "apple_album_id": 1808391519,
         "apple_artist_id": 346049270,
+        "mb_id": "dbc69096-7b72-421b-b419-91495efd63e2",
         "year": 2025
       },
       {
@@ -11420,6 +11421,7 @@
         "country": [
           "CZ"
         ],
+        "apple_id": null,
         "mb_id": "a6f693eb-c2e3-4c39-b645-045f7c4e70a1",
         "year": 2015
       },
@@ -13147,6 +13149,8 @@
         "country": [
           "FR"
         ],
+        "apple_id": null,
+        "mb_id": "0101686b-b653-457d-b51b-0ba61626ec1d",
         "year": 1989
       },
       {
@@ -16290,6 +16294,7 @@
         "apple_id": 1717597217,
         "apple_album_id": 1717596759,
         "apple_artist_id": 1452860603,
+        "mb_id": "ddb91fb7-55d2-4bc4-9bfb-df2a8da00e38",
         "year": 2024
       },
       {
@@ -17546,7 +17551,8 @@
         "apple_id": 814048308,
         "apple_album_id": 814048295,
         "apple_artist_id": 60587791,
-        "year": 1970
+        "mb_id": "ecd8315e-d0cf-464e-a461-b12a6095ba92",
+        "year": 1994
       },
       {
         "artist": "Faraualla",
