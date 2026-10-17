@@ -2873,6 +2873,7 @@
     "artist": "Scorpion Wind",
     "track": "The Path Of the Cross",
     "discogs_id": 291674,
+    "discogs_master_id": 67962,
     "why": "FM Достоевский #79: «Heaven Sent», the main release (Twilight Command NERO XXXIX, UK, 1996) of discogs.com/master/67962, from the owner"
   },
   {
@@ -2884,6 +2885,7 @@
     "artist": "The Ministry of Wolves",
     "album": "Music From Republik Der Wölfe",
     "discogs_id": 5492684,
+    "discogs_master_id": 670545,
     "why": "Stereo Voodoo #105: the main release (Mute STUMM360, LP, 2014) of discogs.com/master/670545, from the owner"
   },
   {
@@ -2904,6 +2906,7 @@
     "track": "Yeah, That's Right",
     "country": ["FR", "US", "DE", "NZ", "DK"],
     "discogs_id": 1827617,
+    "discogs_master_id": 446398,
     "year": 2005,
     "why": "FM Достоевский #580 prints the band as \"international\": France, the USA, Germany, New Zealand and Denmark, the owner's word; «Our Theory», the main release (Nublu NUB00008, US, 2006) of discogs.com/master/446398, first out in 2005 (Nublu NUBLU 001, Turkey; discogs.com/release/14790864)"
   },
@@ -2912,6 +2915,7 @@
     "track": "In The Pale Blue Moonlight",
     "country": ["SE"],
     "discogs_id": 256258,
+    "discogs_master_id": 1823161,
     "year": 2001,
     "why": "FM Достоевский #316 prints \"eu\": written by Frida Diesen and Jiri Novak of Cinnamon (Sweden), Sweden, the owner's word. First out on «Menu 2001» (S.H.A.D.O. Records, 2001; discogs.com/release/1072234); the playlist's «The Men From O.R.G.A.N.» is the main release (S.H.A.D.O. Records SUB015, Italy, 2002) of discogs.com/master/1823161, from the owner"
   },
@@ -2920,6 +2924,7 @@
     "track": "Safari Park",
     "country": ["FR"],
     "discogs_id": 3931482,
+    "discogs_master_id": 622919,
     "year": 1971,
     "why": "FM Достоевский #36 prints no country: the French composer Roger Roger (1911–1995; discogs.com/artist/44313), the owner's word. First out on Nino Nardini & Roger Roger's «Jungle Obsession» (Neuilly MC 8009, France, 1971; discogs.com/master/170329); the playlist's «Good Sounds Movie Grooves» is a 1997 compilation, its main release discogs.com/release/3931482"
   },
@@ -2961,5 +2966,29 @@
     "album": "Black Tulip Wings",
     "year": 2006,
     "why": "Scarlet's Well's album «Black Tulip Wings» (2006), the owner's word; FM Достоевский printed the band misspelt, so nothing found it"
+  },
+  {
+    "artist": "Tek 9",
+    "track": "Is It On? (DJ Cam Mix)",
+    "discogs_master_id": 103781,
+    "why": "FM Достоевский #9: «Is It On? (Remixes)», discogs.com/master/103781, from the owner"
+  },
+  {
+    "artist": "KMFDM",
+    "track": "Son Of A Gun (Overhauled By Sascha Konietzko And Chris Shepard)",
+    "discogs_master_id": 8955,
+    "why": "FM Достоевский #9: «Rules», discogs.com/master/8955, from the owner"
+  },
+  {
+    "artist": "April March And Los Cincos",
+    "track": "Theme For the Lime Cafe",
+    "discogs_master_id": 110589,
+    "why": "FM Достоевский #128: «April March And Los Cincos», discogs.com/master/110589, from the owner"
+  },
+  {
+    "artist": "Terakaft",
+    "album": "Alone (Ténéré)",
+    "discogs_master_id": 912784,
+    "why": "«Песни и пляски» #8: «Alone (Ténéré)», discogs.com/master/912784, from the owner"
   }
 ]

@@ -42,5 +42,7 @@ export function restoreArtist(track) {
   const restored = { ...track, artist };
   if (artist.toLowerCase() === track.artist.toLowerCase()) return restored;
   // Not found under the old spelling: asked again under the new one.
-  return Object.fromEntries(Object.entries(restored).filter(([key, value]) => !(MISSES.includes(key) && value === null)));
+  // A Discogs miss takes its (empty) master with it; a master alone may well be empty.
+  const missed = (key, value) => (MISSES.includes(key) && value === null) || (key === 'discogs_master_id' && restored.discogs_id === null);
+  return Object.fromEntries(Object.entries(restored).filter(([key, value]) => !missed(key, value)));
 }

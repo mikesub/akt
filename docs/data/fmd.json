@@ -47485,6 +47485,7 @@
         "apple_artist_id": null,
         "mb_id": "00153b96-9286-4fc2-a234-c8db1393e148",
         "discogs_id": 1827617,
+        "discogs_master_id": 446398,
         "year": 2005
       },
       {
@@ -108637,6 +108638,7 @@
         "apple_id": null,
         "mb_id": null,
         "discogs_id": 256258,
+        "discogs_master_id": 1823161,
         "year": 2001
       },
       {
@@ -144228,6 +144230,7 @@
           "US"
         ],
         "mb_id": "2fb39b62-b9a6-4292-b4b4-09257c4a9684",
+        "discogs_master_id": 110589,
         "year": 1998
       },
       {
@@ -154998,6 +155001,7 @@
         "apple_artist_id": 251573226,
         "mb_id": "a42b3e61-d1a2-4e6b-ac64-02b64592186b",
         "discogs_id": 291674,
+        "discogs_master_id": 67962,
         "year": 1996
       },
       {
@@ -165527,6 +165531,7 @@
         "apple_artist_id": 42134082,
         "mb_id": "e749e639-52a6-4bdc-977b-2417fe4658d0",
         "discogs_id": 3931482,
+        "discogs_master_id": 622919,
         "year": 1971
       },
       {
@@ -171854,6 +171859,7 @@
         "apple_album_id": null,
         "apple_artist_id": 5544454,
         "mb_id": "18d2f3ac-9cc8-4af4-8fca-4f447e3cf819",
+        "discogs_master_id": 8955,
         "year": 1996
       },
       {
@@ -171906,6 +171912,7 @@
         "apple_album_id": 208419672,
         "apple_artist_id": 105747770,
         "mb_id": "71c1dec3-d01f-4349-a90c-d3613cce17b9",
+        "discogs_master_id": 103781,
         "year": 1996
       },
       {

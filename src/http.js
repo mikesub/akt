@@ -17,8 +17,11 @@ const USER_AGENTS = { 'musicbrainz.org': 'akt/0.1 ( akt@mksb.me )' };
 /**
  * Milliseconds between two requests to a host, from the published limits
  * (checked 2026-10-05): the iTunes Search API "approximately 20 calls per
- * minute", MusicBrainz 1 a second, Discogs 25 a minute without a token
- * (its X-Discogs-Ratelimit header, checked 2026-10-13). svoboda.org publishes
+ * minute", MusicBrainz 1 a second, Discogs 60 a minute with a token and 25
+ * without, over a moving 60 s window (its API documentation, 2026-10-17): its
+ * gap here is the unauthenticated one until a response's X-Discogs-Ratelimit
+ * gives the limit, then 10% under it (1.1 s with the token), doubled while
+ * X-Discogs-Ratelimit-Remaining is under 5. svoboda.org publishes
  * no limit and its robots.txt no Crawl-delay: 2 s, as a courtesy to a news
  * site. radar.lv, a fan site's FM Достоевский archive: 10 s, its robots.txt
  * Crawl-delay (checked 2026-10-14). web.archive.org publishes no limit and
@@ -36,19 +39,22 @@ const GAPS = {
   'music.apple.com': 2_000,
 };
 const DISCOGS_WINDOW = 60_000; // Discogs counts requests over a moving minute
+const DISCOGS_HEADROOM = 1.1; // its window is a moving average: stay 10% under the limit
+const DISCOGS_LOW = 5; // requests left in the window under which the gap doubles
 const DEFAULT_GAP = 1_000;
 const TRIES = 5;
 const RETRY_MAX = 300_000; // the longest Retry-After waited for; longer ones wait this long
 
 const last = new Map();
 const until = new Map();
+const learned = new Map(); // a host's gap as its own rate-limit headers set it (Discogs)
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 /** A host's value in a per-host table: its own or its parent domain's, else undefined. */
 const forHost = (table, host) => Object.entries(table).find(([name]) => host === name || host.endsWith(`.${name}`))?.[1];
 
-const gapFor = (host) => forHost(GAPS, host) ?? DEFAULT_GAP;
+const gapFor = (host) => learned.get(host) ?? forHost(GAPS, host) ?? DEFAULT_GAP;
 
 /** Milliseconds a Retry-After header asks for (seconds or an HTTP date), else `fallback`. */
 function retryAfter(headers, fallback) {
@@ -63,9 +69,16 @@ function retryAfter(headers, fallback) {
 
 /**
  * MusicBrainz: at X-RateLimit-Remaining 0, hold the host until X-RateLimit-Reset (epoch seconds).
- * Discogs: at X-Discogs-Ratelimit-Remaining 0, hold it for its minute.
+ * Discogs: its gap from X-Discogs-Ratelimit, slower while few requests are left
+ * in the window, and at X-Discogs-Ratelimit-Remaining 0, hold it for its minute.
  */
 function noteLimits(host, headers) {
+  const limit = Number(headers.get('x-discogs-ratelimit'));
+  if (limit > 0) {
+    const remaining = Number(headers.get('x-discogs-ratelimit-remaining'));
+    const gap = Math.ceil((DISCOGS_WINDOW / limit) * DISCOGS_HEADROOM);
+    learned.set(host, remaining < DISCOGS_LOW ? gap * 2 : gap);
+  }
   let hold = 0;
   if (headers.get('x-ratelimit-remaining') === '0') {
     const reset = Number(headers.get('x-ratelimit-reset')) * 1000;
@@ -87,7 +100,8 @@ export const get = (url, { as = 'json' } = {}) => request(url, { as });
 
 /**
  * As `get`, with a method, extra headers and a body (an object is sent as JSON).
- * A 204 is null. Only the one-off Apple Music playlists need it (AGENTS.md).
+ * A 204 is null. For the one-off Apple Music playlists (AGENTS.md) and Discogs'
+ * token, which goes in a header.
  */
 export async function request(url, { method = 'GET', headers = {}, body, as = 'json' } = {}) {
   const host = new URL(url).hostname;

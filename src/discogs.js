@@ -1,11 +1,14 @@
-import { get } from './http.js';
+import { join } from 'node:path';
+import { request } from './http.js';
 import { credited, main, nearTitles, plain, sameAlbum, sameArtist, sameTitle, searchable } from './match.js';
 
 /**
- * A track's Discogs release, for a link, and its year, used only when Apple
- * Music and MusicBrainz leave it out (no key, no login: 25 requests a minute,
- * paced by src/http.js). Only the year and the release id are kept, never
- * anything else.
+ * A track's Discogs release and its master (the record across its editions),
+ * for a link, and its year, used only when Apple Music and MusicBrainz leave
+ * it out. With the owner's personal token (DISCOGS_TOKEN in .env, sent only
+ * here, in a header) 60 requests a minute, else 25; paced by src/http.js.
+ * Only the year and the two ids are kept, never anything else: Discogs' CC0
+ * Data, under its API terms (AGENTS.md).
  *
  * A release search by the host's artist and title, earliest first; a
  * release counts only when it is credited to the host's artist and its own
@@ -16,8 +19,21 @@ import { credited, main, nearTitles, plain, sameAlbum, sameArtist, sameTitle, se
  */
 
 const API = 'https://api.discogs.com';
+
+try {
+  process.loadEnvFile(join(import.meta.dirname, '..', '.env'));
+} catch (err) {
+  if (err.code !== 'ENOENT') throw err;
+}
+const TOKEN = process.env.DISCOGS_TOKEN?.trim() || null;
+
+/** A Discogs API response, with the token when there is one; null on 404. */
+const get = (url) => request(url, TOKEN ? { headers: { Authorization: `Discogs token=${TOKEN}` } } : {});
 const CHECKED = 3; // releases whose tracklist is read, earliest first
-const NOT_FOUND = { discogs_id: null, year: null };
+const NOT_FOUND = { discogs_id: null, discogs_master_id: null, year: null };
+
+/** A release's or search result's master, null for none (Discogs gives 0 or leaves it out). */
+const masterOf = (release) => (Number(release?.master_id) > 0 ? Number(release.master_id) : null);
 
 /** How each lookup ended, for the run's summary line. */
 export const discogsStats = { track: 0, album: 0, missed: 0 };
@@ -62,7 +78,7 @@ function hasTitle(release, title) {
   );
 }
 
-/** The Discogs release id and year for one track, both empty when nothing matches. */
+/** The Discogs release id, its master id and year for one track, all empty when nothing matches. */
 export async function findOnDiscogs(track) {
   if (!track.artist || !track.track) {
     discogsStats.missed++;
@@ -76,7 +92,7 @@ export async function findOnDiscogs(track) {
     const release = await get(`${API}/releases/${result.id}`);
     if (!release || !hasTitle(release, track.track)) continue;
     discogsStats.track++;
-    return { discogs_id: release.id, year: await firstYear(result) };
+    return { discogs_id: release.id, discogs_master_id: masterOf(release) ?? masterOf(result), year: await firstYear(result) };
   }
 
   if (track.album) {
@@ -84,9 +100,21 @@ export async function findOnDiscogs(track) {
     if (album) {
       discogsStats.album++;
       const compilation = (album.format ?? []).includes('Compilation');
-      return { discogs_id: album.id, year: compilation ? null : await firstYear(album) };
+      return { discogs_id: album.id, discogs_master_id: masterOf(album), year: compilation ? null : await firstYear(album) };
     }
   }
   discogsStats.missed++;
   return NOT_FOUND;
+}
+
+/** The master of a release found before masters were kept: one request, null when it has none. */
+export async function findMaster(releaseId) {
+  const release = await get(`${API}/releases/${releaseId}`);
+  return masterOf(release);
+}
+
+/** A master's year and title, or null when Discogs has no such master. */
+export async function masterYear(masterId) {
+  const master = await get(`${API}/masters/${masterId}`);
+  return master ? { year: yearOf(master), title: master.title ?? null } : null;
 }

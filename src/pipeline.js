@@ -3,7 +3,7 @@ import { mkdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { appleStats, doubtLink, findAppleLinks, findOnApple, lookupSongs } from './apple.js';
 import { restoreArtist } from './artists.js';
-import { discogsStats, findOnDiscogs } from './discogs.js';
+import { discogsStats, findMaster, findOnDiscogs } from './discogs.js';
 import { findOnMusicBrainz, mbStats } from './musicbrainz.js';
 import { countryCodes, vague } from './countries.js';
 import { applyOverrides } from './overrides.js';
@@ -50,9 +50,11 @@ export const OPTIONS_USAGE = `  --limit <n>        Parse at most n playlists, ne
   --musicbrainz      Look every track up on MusicBrainz again, and search Apple Music
                      again for each link that looks wrong
   --relink           Look every track up again from scratch (no new claude calls)
-  --discogs          Look up on Discogs every track never asked there: those parsed before
-                     every track was (2026-10-17); a run asks only new tracks, and those
-                     still without a year
+  --discogs          Look up on Discogs every track never asked there (those parsed before
+                     every track was, 2026-10-17), and the master of every release found
+                     before masters were kept: about 19,000 tracks and 1,200 releases,
+                     some 17 hours with DISCOGS_TOKEN in .env; resumable. A run asks only
+                     new tracks, and those still without a year
   --only <pattern>   With --misses, --musicbrainz or --relink: only the tracks whose
                      artist, title or album matches the pattern (a regular expression)
 `;
@@ -120,7 +122,7 @@ const parsed = ({ artist, track, album, printed_country, country, country_from }
  * that source has been asked, and the country until the playlist was read
  * for it (bin/countries.js for tracks parsed before the parse read it).
  */
-const shape = ({ artist, track, album, printed_country, country, country_from, apple_id, apple_album_id, apple_artist_id, mb_id, discogs_id, year }) => ({
+const shape = ({ artist, track, album, printed_country, country, country_from, apple_id, apple_album_id, apple_artist_id, mb_id, discogs_id, discogs_master_id, year }) => ({
   artist,
   track,
   album,
@@ -131,6 +133,7 @@ const shape = ({ artist, track, album, printed_country, country, country_from, a
   ...(apple_artist_id !== undefined && { apple_artist_id }),
   ...(mb_id !== undefined && { mb_id }),
   ...(discogs_id !== undefined && { discogs_id }),
+  ...(discogs_master_id !== undefined && { discogs_master_id }),
   year: year ?? null,
 });
 
@@ -139,7 +142,8 @@ const shape = ({ artist, track, album, printed_country, country, country_from, a
  * track. The year is MusicBrainz's (the original release), else Apple's,
  * else Discogs's, whichever of the first two answers first; none counts if
  * it is after the episode aired. Discogs is asked about every track, once
- * the other two have answered, for its release id; see lookUp for which.
+ * the other two have answered, for its release and master ids (a release
+ * found before masters were kept: for its master alone); see lookUp for which.
  */
 const sources = {
   apple: {
@@ -157,16 +161,20 @@ const sources = {
     },
   },
   discogs: {
-    needs: (track) => 'apple_id' in track && 'mb_id' in track && !('discogs_id' in track),
+    needs: (track) => 'apple_id' in track && 'mb_id' in track && (!('discogs_id' in track) || (track.discogs_id !== null && !('discogs_master_id' in track))),
     ask: async (track, episode) => {
+      if (track.discogs_id) {
+        const master = await findMaster(track.discogs_id);
+        return (t) => (t.discogs_id === track.discogs_id ? { ...t, discogs_master_id: master } : t);
+      }
       const found = await findOnDiscogs(track);
-      return (t) => ({ ...t, discogs_id: found.discogs_id, year: t.year ?? aired(episode, found.year) });
+      return (t) => ({ ...t, discogs_id: found.discogs_id, discogs_master_id: found.discogs_master_id, year: t.year ?? aired(episode, found.year) });
     },
   },
 };
 
 /** What the sources answered for a track: the lookups search by its artist, title and album alone. */
-const LOOKED_UP = ['apple_id', 'apple_album_id', 'apple_artist_id', 'mb_id', 'discogs_id', 'year'];
+const LOOKED_UP = ['apple_id', 'apple_album_id', 'apple_artist_id', 'mb_id', 'discogs_id', 'discogs_master_id', 'year'];
 const sameNames = (t) => JSON.stringify([t.artist, t.track, t.album]);
 
 /**
@@ -194,12 +202,14 @@ function keepLookups(before, tracks) {
  */
 function forget(track, { misses, musicbrainz, relink }) {
   if (relink) return { ...parsed(track), year: null };
-  const { apple_id, mb_id, discogs_id, ...rest } = track;
+  const { apple_id, mb_id, discogs_id, discogs_master_id, ...rest } = track;
+  const keepDiscogs = !((misses && (discogs_id ?? null) === null) || musicbrainz);
   const keep = {
     ...(!(misses && apple_id === null) && { apple_id }),
     ...(!((misses && mb_id === null) || musicbrainz) && { mb_id }),
-    // Discogs is asked again with MusicBrainz.
-    ...(!((misses && (discogs_id ?? null) === null) || musicbrainz) && { discogs_id }),
+    // Discogs is asked again with MusicBrainz; the master goes with its release.
+    ...(keepDiscogs && { discogs_id }),
+    ...(keepDiscogs && discogs_master_id !== undefined && { discogs_master_id }),
   };
   return { ...rest, ...keep };
 }
@@ -316,10 +326,11 @@ export async function run(
   /**
    * One source's lookups, newest episode first, one at a time (src/http.js
    * paces each host). The three sources run side by side, being three hosts.
-   * A failed lookup is left for the next run. Discogs, at 25 requests a
-   * minute, is asked about the tracks of the playlists parsed in this run and
-   * those without a year; the rest, parsed before it was asked about every
-   * track, only with `discogs` (a day or two for the whole archive).
+   * A failed lookup is left for the next run. Discogs, at 60 requests a
+   * minute with the token (25 without), is asked about the tracks of the
+   * playlists parsed in this run and those without a year; the rest, parsed
+   * before it was asked about every track, only with `discogs` (some 17 hours
+   * for the whole archive).
    */
   const fresh = new Set(toParse);
   async function lookUp(name) {

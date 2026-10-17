@@ -9,6 +9,11 @@ Routine updates (a new Стереоплан episode, a single fix) are not liste
 
 ## 2026-10-17
 
+- **Format:** `discogs_master_id`, after `discogs_id`: the Discogs master of the track's release (the record across
+  its editions, `https://www.discogs.com/master/<id>`; its year is the first edition's), `null` when the release
+  has none, and no key until Discogs has been asked. Filled as `discogs_id` is, and for releases found before
+  by the same backfill. The CSV (`«Скачать CSV»`) has a `discogs_master_url` column after `discogs_url`.
+  11 set by hand now (`overrides.json`).
 - Artists' spellings normalized: 7,293 tracks in every program now show their artist under one spelling,
   the artist's own (Apple Music's credit, else the archive's), where the playlists printed it in lower or
   upper case, with other spacing or punctuation, without accents, or with or without "The"; 1,128 of
