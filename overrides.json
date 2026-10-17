@@ -2688,5 +2688,18 @@
     "artist": "Duck, See Goose",
     "country": ["DE"],
     "why": "FM Достоевский #30 prints the band as \"International\": Germany, the owner's word (discogs.com/release/3607191)"
+  },
+  {
+    "artist": "Miguel Angel Fusler",
+    "track": "La quema de Judas",
+    "country": ["VE"],
+    "why": "«Песни и пляски» #56 prints his country as \"(...)\": Venezuela, the owner's word"
+  },
+  {
+    "artist": "Nicky De Matteo",
+    "track": "Crackin' Stone",
+    "country": ["US"],
+    "year": 1962,
+    "why": "«Песни и пляски» #1 prints no country: the single «Crackin' Stone / Caro Mio Ben» (Kelso 107, US, 1962; discogs.com/release/10255641, which has no year), the owner's word"
   }
 ]

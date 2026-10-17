@@ -1836,8 +1836,9 @@
         "track": "La quema de Judas",
         "album": "Venezuela 70: Cosmic visions of a Latin American Earth",
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "VE"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -11897,16 +11898,14 @@
         "year": 2012
       },
       {
-        "artist": "Nicky De Mateo",
-        "track": "Crackin Stone",
+        "artist": "Nicky De Matteo",
+        "track": "Crackin' Stone",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "country": [
+          "US"
+        ],
+        "year": 1962
       },
       {
         "artist": "The Astro-Jets",

@@ -1036,5 +1036,14 @@
       "album": "Tradi-Mods Vs. Rockers: Alternative Takes on Congotronics"
     },
     "why": "FM Достоевский #777: in lower case; as on MusicBrainz, Kasai Allstars’ «Hunting on the Moon (vs. Lonely Drifter Karen)» on «Tradi-Mods Vs. Rockers: Alternative Takes on Congotronics» (2010)"
+  },
+  {
+    "artist": "Nicky De Mateo",
+    "track": "Crackin Stone",
+    "restore": {
+      "artist": "Nicky De Matteo",
+      "track": "Crackin' Stone"
+    },
+    "why": "«Песни и пляски» #1: misspelt; the single «Crackin' Stone / Caro Mio Ben» (Kelso 107, US) credits Nicky De Matteo (discogs.com/release/10255641)"
   }
 ]
