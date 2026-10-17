@@ -1214,5 +1214,35 @@
       "album": "The Beat From 20,000 Garages - The Best Of Rebels Volume Three"
     },
     "why": "«Музыка на Свободе» #314: as on Discogs (discogs.com/artist/9686491, from the owner), «Troubled Man» on «The Beat From 20,000 Garages - The Best Of Rebels Volume Three» (Raving Pop Blast!, UK, 2021; discogs.com/master/2413405)"
+  },
+  {
+    "artist": "scarlett's well",
+    "track": "mermaid",
+    "restore": {
+      "artist": "Scarlet's Well",
+      "track": "Mermaid",
+      "album": "Black Tulip Wings"
+    },
+    "why": "FM Достоевский #517: the band misspelt, in lower case; MusicBrainz has Scarlet's Well's «Mermaid» on «Black Tulip Wings» (2006)"
+  },
+  {
+    "artist": "scarlett's well",
+    "track": "mr. mystery's mother",
+    "restore": {
+      "artist": "Scarlet's Well",
+      "track": "Mr. Mystery's Mother",
+      "album": "Alice in the Underworld"
+    },
+    "why": "FM Достоевский #296: the band misspelt, in lower case; MusicBrainz has Scarlet's Well's «Mr. Mystery's Mother» on «Alice in the Underworld» (2002)"
+  },
+  {
+    "artist": "scarlett's well",
+    "track": "the dream spider of the laughing horse",
+    "restore": {
+      "artist": "Scarlet's Well",
+      "track": "The Dream Spider of the Laughing Horse",
+      "album": "The Dream Spider of the Laughing Horse"
+    },
+    "why": "FM Достоевский #395: the band misspelt, in lower case; Scarlet's Well's album «The Dream Spider of the Laughing Horse» (2004), the owner's word"
   }
 ]
