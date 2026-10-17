@@ -976,5 +976,15 @@
       "album": "Sea of Reeds"
     },
     "why": "FM Достоевский #330: misspelt, in lower case; MusicBrainz has Accordion Tribe’s «Tangocide» on «Sea of Reeds» (2002), and #90 spells the band so"
+  },
+  {
+    "artist": "rita calypso",
+    "track": "look at me",
+    "restore": {
+      "artist": "Rita Calypso",
+      "track": "Look at Me",
+      "album": "Sicalyptico"
+    },
+    "why": "FM Достоевский #420: in lower case; MusicBrainz has Rita Calypso’s «Look at Me» on «Sicalyptico» (2004)"
   }
 ]
