@@ -14756,9 +14756,11 @@
         "album": "fall of spring",
         "printed_country": "europe",
         "country": [
-          "EU"
+          "BE",
+          "ES",
+          "AT",
+          "FR"
         ],
-        "country_from": "musicbrainz",
         "apple_id": 363997672,
         "apple_album_id": 363997117,
         "apple_artist_id": 276995227,
@@ -14771,9 +14773,11 @@
         "album": "fall of spring",
         "printed_country": "europe",
         "country": [
-          "EU"
+          "BE",
+          "ES",
+          "AT",
+          "FR"
         ],
-        "country_from": "musicbrainz",
         "apple_id": 363998005,
         "apple_album_id": 363997117,
         "apple_artist_id": 276995227,
@@ -38394,7 +38398,10 @@
         "album": "grass is singing",
         "printed_country": "spain",
         "country": [
-          "ES"
+          "BE",
+          "ES",
+          "AT",
+          "FR"
         ],
         "apple_id": 277709423,
         "apple_album_id": 277709202,
