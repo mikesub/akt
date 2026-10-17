@@ -130463,7 +130463,9 @@
         "track": "Don`t Be Afraid",
         "album": "The Vanity Set",
         "printed_country": "International",
-        "country": null,
+        "country": [
+          "US"
+        ],
         "apple_id": null,
         "mb_id": "4fe527f9-82f9-495d-b000-8e1010945c7a",
         "year": 2000
