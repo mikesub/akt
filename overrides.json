@@ -2596,5 +2596,15 @@
       "US"
     ],
     "why": "FM Достоевский #107 prints her country as \"Tibet\", which has no code (countries.json); Tibet and the USA, the owner's word"
+  },
+  {
+    "artist": "Alan Vega & Panasonic",
+    "track": "Medal",
+    "album": "Endless",
+    "country": [
+      "US",
+      "FI"
+    ],
+    "why": "FM Достоевский #79 prints the pair as \"International\": Alan Vega (USA) and Panasonic (Finland, as #48 prints it); the owner's word"
   }
 ]
