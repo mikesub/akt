@@ -108644,17 +108644,15 @@
         "year": 2002
       },
       {
-        "artist": "digital design",
-        "track": "in the pale blue moolight",
-        "album": "the men from o.r.g.a.n.",
+        "artist": "Digital Design",
+        "track": "In The Pale Blue Moonlight",
+        "album": "The Men From O.R.G.A.N.",
         "printed_country": "eu",
         "country": [
           "EU"
         ],
         "country_from": "musicbrainz",
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
+        "discogs_id": 256258,
         "year": null
       },
       {

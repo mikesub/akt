@@ -1176,5 +1176,15 @@
       "album": "Our Theory"
     },
     "why": "FM Достоевский #580 prints the players, in lower case: the band Our Theory, İlhan Erşahin, Erik Truffaz, Thor Madsen, Jochen Rückert and Matt Penman (discogs.com/artist/510525), «Yeah, That's Right» on «Our Theory» (Nublu; discogs.com/master/446398); Apple Music credits İlhan Erşahin feat. the others"
+  },
+  {
+    "artist": "digital design",
+    "track": "in the pale blue moolight",
+    "restore": {
+      "artist": "Digital Design",
+      "track": "In The Pale Blue Moonlight",
+      "album": "The Men From O.R.G.A.N."
+    },
+    "why": "FM Достоевский #316: in lower case, «Moonlight» misspelt; as on «The Men From O.R.G.A.N.» (S.H.A.D.O. Records SUB015, Italy, 2002; discogs.com/release/256258)"
   }
 ]
