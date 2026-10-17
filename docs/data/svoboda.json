@@ -48,7 +48,7 @@
         "year": 2019
       },
       {
-        "artist": "300.000V.K.",
+        "artist": "300000 V.K.",
         "track": "Thoth – Sounds of the Sun",
         "album": "DER STURM",
         "printed_country": "Slovenia",
@@ -58,7 +58,6 @@
         "apple_id": 1625975322,
         "apple_album_id": 1625975320,
         "apple_artist_id": 549128773,
-        "mb_id": null,
         "year": 2022
       },
       {
@@ -175,7 +174,7 @@
         "year": 1960
       },
       {
-        "artist": "Sex Organs",
+        "artist": "The Sex Organs",
         "track": "Let’s fuck around",
         "album": "WE’RE FUCKED",
         "printed_country": "Holland/Switzerland",
@@ -186,7 +185,6 @@
         "apple_id": 1730471097,
         "apple_album_id": 1730470720,
         "apple_artist_id": 999017083,
-        "mb_id": null,
         "year": 2024
       },
       {
@@ -943,7 +941,7 @@
         "year": 2022
       },
       {
-        "artist": "GENN",
+        "artist": "ĠENN",
         "track": "Days and Nights",
         "album": "UNUM",
         "printed_country": "UK",
@@ -1145,7 +1143,7 @@
         "year": 2023
       },
       {
-        "artist": "Coffinshakers",
+        "artist": "The Coffinshakers",
         "track": "The Siren’s call",
         "album": "GRAVES, RELEASE YOUR DEAD",
         "printed_country": "Sweden",
@@ -2188,7 +2186,7 @@
     "playlist_hash": "eb9674e20cab433b",
     "tracks": [
       {
-        "artist": "Fat White Family",
+        "artist": "The Fat White Family",
         "track": "Polygamy is only for the chief",
         "album": "FORGIVENESS IS YOURS",
         "printed_country": "UK",
@@ -2884,7 +2882,7 @@
         "year": 1966
       },
       {
-        "artist": "El Perro Del Mar",
+        "artist": "El Perro del Mar",
         "track": "Wipe me off this Earth",
         "album": "BIG ANONYMOUS",
         "printed_country": "Sweden",
@@ -4483,7 +4481,7 @@
     "playlist_hash": "92c7f4e36a7c245f",
     "tracks": [
       {
-        "artist": "Circuit Des Yeux",
+        "artist": "Circuit des Yeux",
         "track": "Vanishing",
         "album": "~IO",
         "printed_country": "USA",
@@ -6776,7 +6774,7 @@
         "year": 2011
       },
       {
-        "artist": "Public Image Ltd",
+        "artist": "Public Image Ltd.",
         "track": "Car Chase",
         "album": "END OF WORLD",
         "printed_country": "UK",
@@ -7352,7 +7350,7 @@
     "playlist_hash": "b87bad9e14cd776f",
     "tracks": [
       {
-        "artist": "Sigur Ros",
+        "artist": "Sigur Rós",
         "track": "Fall",
         "album": "ATTA",
         "printed_country": "Iceland",
@@ -8107,7 +8105,7 @@
     "playlist_hash": "bd75d734a7dfa1f1",
     "tracks": [
       {
-        "artist": "US Girls",
+        "artist": "U.S. Girls",
         "track": "So typically now",
         "album": "BLESS THIS MESS",
         "printed_country": "USA/Canada",
@@ -9625,7 +9623,7 @@
         "year": 2021
       },
       {
-        "artist": "Death and Vanilla",
+        "artist": "Death And Vanilla",
         "track": "Baby snakes",
         "album": null,
         "printed_country": "Sweden",
@@ -9733,19 +9731,18 @@
         "year": 2023
       },
       {
-        "artist": "Brian Jonestown Massacre",
+        "artist": "The Brian Jonestown Massacre",
         "track": "Philadelphie story",
         "album": "MUSIQUE DU FILM IMAGINEE",
         "printed_country": "USA",
         "country": [
           "US"
         ],
-        "apple_id": null,
         "mb_id": "64fd1bd4-78db-4f35-a07e-1c6eaf7fe3e0",
         "year": 2015
       },
       {
-        "artist": "Brian Jonestown Massacre",
+        "artist": "The Brian Jonestown Massacre",
         "track": "Resist much, obey little",
         "album": "DON’T GET LOST",
         "printed_country": "USA",
@@ -9759,7 +9756,7 @@
         "year": 2017
       },
       {
-        "artist": "Brian Jonestown Massacre",
+        "artist": "The Brian Jonestown Massacre",
         "track": "You think I’m joking?",
         "album": "FIRE DOESN’T GROW ON TREES",
         "printed_country": "USA",
@@ -9773,7 +9770,7 @@
         "year": 2022
       },
       {
-        "artist": "Brian Jonestown Massacre",
+        "artist": "The Brian Jonestown Massacre",
         "track": "Cross eyed gods",
         "album": "THE FUTURE IS YOUR PAST",
         "printed_country": "USA",
@@ -10588,7 +10585,7 @@
     "playlist_hash": "d44e8c5c56e03bda",
     "tracks": [
       {
-        "artist": "НОМ",
+        "artist": "Ном",
         "track": "Михал Иваныч",
         "album": "НОМ В ОПЕРЕ",
         "printed_country": "РФ",
@@ -10682,7 +10679,7 @@
         "year": null
       },
       {
-        "artist": "Ногу свело",
+        "artist": "Ногу свело!",
         "track": "Вальс улетающих птиц",
         "album": null,
         "printed_country": "USA/РФ",
@@ -10971,7 +10968,7 @@
     "playlist_hash": "dad492c4b35edc12",
     "tracks": [
       {
-        "artist": "Deus",
+        "artist": "dEUS",
         "track": "Must have been new",
         "album": "HOW TO REPLACE IT",
         "printed_country": "Belgium",
@@ -11319,7 +11316,7 @@
         "year": 2002
       },
       {
-        "artist": "BNNY",
+        "artist": "Bnny",
         "track": "Take that back",
         "album": "EVERYTHING",
         "printed_country": "USA",
@@ -11632,7 +11629,7 @@
         "year": 2023
       },
       {
-        "artist": "NAKA",
+        "artist": "Naka",
         "track": "Обочины",
         "album": "\"ОХОТА – 100: МИР VS ВОЙНА\"",
         "printed_country": "Belarus",
@@ -11646,20 +11643,17 @@
         "year": 2013
       },
       {
-        "artist": "\"Электропартизаны\"",
+        "artist": "Электропартизаны",
         "track": "Последний поезд на Нюрнберг",
         "album": "\"ОХОТА – 100: МИР VS ВОЙНА\"",
         "printed_country": "РФ",
         "country": [
           "RU"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
-        "artist": "\"Сейф\"",
+        "artist": "Сейф",
         "track": "Мы сегодня будем вместе",
         "album": "\"ВО ВНУТРЕННЕЙ ЭМИГРАЦИИ\"",
         "printed_country": "РФ",
@@ -11669,7 +11663,6 @@
         "apple_id": 1673136420,
         "apple_album_id": 1673136411,
         "apple_artist_id": 288654225,
-        "mb_id": null,
         "year": 2023
       },
       {
@@ -11984,7 +11977,7 @@
         "year": 2022
       },
       {
-        "artist": "Birds of Passage",
+        "artist": "Birds Of Passage",
         "track": "The creed",
         "album": "THE LAST GARDEN",
         "printed_country": "New Zealand",
@@ -12986,7 +12979,7 @@
         "year": 2019
       },
       {
-        "artist": "Ghost number",
+        "artist": "Ghost Number",
         "track": "El Mal",
         "album": "VENENOS Y DEMONIOS",
         "printed_country": "Spain",
@@ -14220,7 +14213,7 @@
         "year": 2022
       },
       {
-        "artist": "Pati na svete",
+        "artist": "Pátí na světě",
         "track": "Proportion",
         "album": "Jupiter carousel",
         "printed_country": "Czechia",
@@ -14230,7 +14223,6 @@
         "apple_id": 1750912458,
         "apple_album_id": 1750911696,
         "apple_artist_id": 1462389446,
-        "mb_id": null,
         "year": 2021
       },
       {
@@ -14961,7 +14953,7 @@
         "year": 2021
       },
       {
-        "artist": "François & The Atlas Mountains",
+        "artist": "Frànçois & The Atlas Mountains",
         "track": "Tourne Autour",
         "album": "Banane Bleue",
         "printed_country": "France/UK",
@@ -15550,7 +15542,7 @@
         "year": 2022
       },
       {
-        "artist": "Melody’s Echo Chamber",
+        "artist": "Melody's Echo Chamber",
         "track": "Pyramids in The Clouds",
         "album": "Emotional Eternal",
         "printed_country": "France",
@@ -15912,7 +15904,7 @@
     "playlist_hash": "4934bb6bc949cf27",
     "tracks": [
       {
-        "artist": "Bjork",
+        "artist": "Björk",
         "track": "Ovule",
         "album": "Fossora",
         "printed_country": "Iceland",
@@ -16146,7 +16138,7 @@
         "year": 2021
       },
       {
-        "artist": "The Black Lips",
+        "artist": "Black Lips",
         "track": "Do the Vibrate",
         "album": "Underneath the Rainbow",
         "printed_country": "USA",
@@ -16160,7 +16152,7 @@
         "year": 2014
       },
       {
-        "artist": "The Black Lips",
+        "artist": "Black Lips",
         "track": "Lost Angel",
         "album": "Apocalypse Love",
         "printed_country": "USA",
@@ -17144,7 +17136,7 @@
     "playlist_hash": "26fa4a90f995d41f",
     "tracks": [
       {
-        "artist": "НОМ",
+        "artist": "Ном",
         "track": "Азбука",
         "album": "Воздух общий",
         "printed_country": "Россия",
@@ -17157,7 +17149,7 @@
         "year": 2022
       },
       {
-        "artist": "НОМ",
+        "artist": "Ном",
         "track": "Михал Иваныч",
         "album": "Воздух общий",
         "printed_country": "Россия",
@@ -17399,7 +17391,7 @@
         "year": 2018
       },
       {
-        "artist": "Pepe Deluxe",
+        "artist": "Pepe Deluxé",
         "track": "Big Fat Woodpecker",
         "album": "Phantiom Cabinet Vol.1",
         "printed_country": "Finland",
@@ -17885,7 +17877,7 @@
         "year": 2022
       },
       {
-        "artist": "FLOX",
+        "artist": "Flox",
         "track": "Smoke Grass",
         "album": "Square",
         "printed_country": "UK",
@@ -18688,7 +18680,7 @@
         "year": 1973
       },
       {
-        "artist": "KarlHeinz Stockhausen",
+        "artist": "Karlheinz Stockhausen",
         "track": "Gesang der Junglinge I",
         "album": "Electronic Music. It Started Here…",
         "printed_country": "Germany",
@@ -19748,7 +19740,7 @@
         "year": 2022
       },
       {
-        "artist": "Skryty Puvab Byrokracie",
+        "artist": "Skryty puvab byrokracie",
         "track": "O Nasili 1",
         "album": "O Nasili",
         "printed_country": "Czech Republic",
@@ -19923,7 +19915,7 @@
         "year": 2021
       },
       {
-        "artist": "Roy & The Devil’s Motorcycle",
+        "artist": "Roy & The Devil's Motorcycle",
         "track": "Tears On My Pillow",
         "album": "Im Reich der wilden tiere",
         "printed_country": "Switzerland",
@@ -20952,7 +20944,7 @@
         "year": 2021
       },
       {
-        "artist": "Al Jawala",
+        "artist": "Äl Jawala",
         "track": "Despaircito",
         "album": "I Way To Al",
         "printed_country": "Germany",
@@ -21157,7 +21149,7 @@
         "year": 2021
       },
       {
-        "artist": "Escape-Ism",
+        "artist": "Escape-ism",
         "track": "Lonely at The Top",
         "album": "Introduction to Escape-Ism",
         "printed_country": "USA",
@@ -21185,16 +21177,13 @@
         "year": 2021
       },
       {
-        "artist": "Park Ji Ha",
+        "artist": "Park Jiha",
         "track": "A Day In…",
         "album": "The Gleam",
         "printed_country": "South Korea",
         "country": [
           "KR"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": 2022
       }
     ]
@@ -21643,7 +21632,7 @@
         "year": 2022
       },
       {
-        "artist": "US Girls",
+        "artist": "U.S. Girls",
         "track": "Junkyard",
         "album": "Bills & Aches & Blues",
         "printed_country": "USA/Canada",
@@ -21729,7 +21718,7 @@
         "year": 2020
       },
       {
-        "artist": "Tav Falco’s Panther Burns",
+        "artist": "Tav Falco's Panther Burns",
         "track": "OoooEee Baby",
         "album": "Behind The Magnolia Curtain",
         "printed_country": "USA",
@@ -21739,18 +21728,16 @@
         "apple_id": 981908186,
         "apple_album_id": 981908177,
         "apple_artist_id": 327610390,
-        "mb_id": null,
         "year": 1981
       },
       {
-        "artist": "Tav Falco’s Panther Burns",
+        "artist": "Tav Falco's Panther Burns",
         "track": "Pantherman",
         "album": "Blow Your Top",
         "printed_country": "USA",
         "country": [
           "US"
         ],
-        "apple_id": null,
         "mb_id": "6acfad75-8bb1-4bdc-b3c6-f8447361545d",
         "year": 1987
       },
@@ -21998,7 +21985,7 @@
         "year": 2020
       },
       {
-        "artist": "Dobet Gnahore",
+        "artist": "Dobet Gnahoré",
         "track": "Zaliguehi",
         "album": "Couleur",
         "printed_country": "Cote d’Ivoire/France",
@@ -22438,7 +22425,7 @@
         "year": 2020
       },
       {
-        "artist": "Joao Selva",
+        "artist": "João Selva",
         "track": "Meu mundo",
         "album": "Navegar",
         "printed_country": "Brazil/France",
@@ -22483,7 +22470,7 @@
         "year": 1966
       },
       {
-        "artist": "C.W.Stoneking",
+        "artist": "C.W. Stoneking",
         "track": "The Zombie",
         "album": "Gon' Boogaloo",
         "printed_country": "Australia",
@@ -22493,7 +22480,6 @@
         "apple_id": 1444043511,
         "apple_album_id": 1444043225,
         "apple_artist_id": 188871308,
-        "mb_id": null,
         "year": 2014
       },
       {
@@ -22605,7 +22591,7 @@
     "playlist_hash": "1d90fbcc487ea917",
     "tracks": [
       {
-        "artist": "XIXA",
+        "artist": "Xixa",
         "track": "Nights Plutonian Shore",
         "album": "Genesis",
         "printed_country": "USA",
@@ -22879,7 +22865,7 @@
         "year": 2018
       },
       {
-        "artist": "A. A. Bondy",
+        "artist": "A.A. Bondy",
         "track": "Diamond Skull",
         "album": "Enderness",
         "printed_country": "USA",
@@ -22907,7 +22893,7 @@
         "year": 2022
       },
       {
-        "artist": "Rats on Rafts",
+        "artist": "Rats On Rafts",
         "track": "The Disappearance Of Dr.Duplicate",
         "album": "Excerpts From Chapter 3",
         "printed_country": "Holland",
@@ -23229,7 +23215,7 @@
         "year": 2021
       },
       {
-        "artist": "Plants & Animals",
+        "artist": "Plants and Animals",
         "track": "Love That Boy",
         "album": "The Jungle",
         "printed_country": "Canada",
@@ -24032,7 +24018,7 @@
     "playlist_hash": "517575a099933802",
     "tracks": [
       {
-        "artist": "Tigana Santana",
+        "artist": "Tiganá Santana",
         "track": "Flor destinada",
         "album": "Vida-codigo",
         "printed_country": "Brazil",
@@ -24236,7 +24222,7 @@
     "playlist_hash": "fd3b539ab5ad0a7a",
     "tracks": [
       {
-        "artist": "Bohren & Der Club Of Gore",
+        "artist": "Bohren & Der Club of Gore",
         "track": "Tief Gesunken",
         "album": "Patchouli Blue",
         "printed_country": "Germany",
@@ -24741,7 +24727,7 @@
         "year": 2019
       },
       {
-        "artist": "B C Camplight",
+        "artist": "BC Camplight",
         "track": "I Only Drink When I’m Drunk",
         "album": "Shortly After Takeoff",
         "printed_country": "USA",
@@ -24751,7 +24737,6 @@
         "apple_id": 1494349403,
         "apple_album_id": 1494349127,
         "apple_artist_id": 72686591,
-        "mb_id": null,
         "year": 2020
       },
       {
@@ -25350,7 +25335,7 @@
         "year": 2020
       },
       {
-        "artist": "Fanfare Ciocarlia",
+        "artist": "Fanfare Ciocărlia",
         "track": "The Trumpeter’s Lament",
         "album": "Ii Wasn't Hard to Love You",
         "printed_country": "Romania",
@@ -25467,7 +25452,7 @@
         "year": 2020
       },
       {
-        "artist": "Nylon 66ers",
+        "artist": "Nylon 66'ers",
         "track": "Nokia Rock",
         "album": "Love to Love",
         "printed_country": "Finland",
@@ -25550,7 +25535,7 @@
         "year": 1980
       },
       {
-        "artist": "Ruce naši Dory",
+        "artist": "Ruce naší Dory",
         "track": "Strach hleda Chorvatsko na mape exekuci",
         "album": "Krater po bazenu",
         "printed_country": "Czech Republic",
@@ -25560,7 +25545,6 @@
         "apple_id": 1750903778,
         "apple_album_id": 1750902305,
         "apple_artist_id": 1451090066,
-        "mb_id": null,
         "year": 2020
       },
       {
@@ -25629,7 +25613,7 @@
         "year": 2020
       },
       {
-        "artist": "Jerusalem In My Heart",
+        "artist": "Jerusalem in My Heart",
         "track": "Tanto",
         "album": "Qalaq",
         "printed_country": "Canada/Lebanon/Oman",
@@ -26014,7 +25998,7 @@
         "year": 2020
       },
       {
-        "artist": "Magali Sare & Manel Fortia",
+        "artist": "Magalí Sare & Manel Fortiá",
         "track": "Angelitos negros",
         "album": "Fang i nuvols",
         "printed_country": "Spain",
@@ -26579,7 +26563,7 @@
         "year": 2020
       },
       {
-        "artist": "Scarlet’s Well",
+        "artist": "Scarlet's Well",
         "track": "Willy Whispers",
         "album": "Mamgic/Strange Letters",
         "printed_country": "UK",
@@ -26593,7 +26577,7 @@
         "year": 1999
       },
       {
-        "artist": "Scarlet’s Well",
+        "artist": "Scarlet's Well",
         "track": "Savage",
         "album": "Magic/Black Tulip Wings",
         "printed_country": "UK",
@@ -27052,7 +27036,7 @@
         "year": 1963
       },
       {
-        "artist": "BLK JKS",
+        "artist": "Blk Jks",
         "track": "Harare",
         "album": "Abantu/Before Humans",
         "printed_country": "South Africa",
@@ -27446,7 +27430,7 @@
         "year": 2021
       },
       {
-        "artist": "Johann Johannsson",
+        "artist": "Jóhann Jóhannsson",
         "track": "Black Skulls",
         "album": "Mandy (Ost)",
         "printed_country": "Iceland",
@@ -27498,7 +27482,7 @@
         "year": 2019
       },
       {
-        "artist": "Muck & The Mires",
+        "artist": "Muck & the Mires",
         "track": "Strange Waves",
         "album": "Greetings for Muchingham Palace",
         "printed_country": "USA",
@@ -27668,7 +27652,7 @@
     "playlist_hash": "2cfc4e32309517da",
     "tracks": [
       {
-        "artist": "U.S.Girls",
+        "artist": "U.S. Girls",
         "track": "Born to Lose",
         "album": "Heavy Light",
         "printed_country": "Canada/USA",
@@ -27679,7 +27663,6 @@
         "apple_id": 1490058419,
         "apple_album_id": 1490058404,
         "apple_artist_id": 346049270,
-        "mb_id": null,
         "year": 2020
       },
       {
@@ -28378,7 +28361,7 @@
         "year": 2021
       },
       {
-        "artist": "НОМ",
+        "artist": "Ном",
         "track": "Пробуждение элементов",
         "album": "Малгил",
         "printed_country": "Россия",
@@ -28865,7 +28848,7 @@
         "year": 2019
       },
       {
-        "artist": "‘Blue’ Gene Tyranny",
+        "artist": "\"Blue\" Gene Tyranny",
         "track": "Any Fine Afternoon",
         "album": "Degrees of Freedom Found",
         "printed_country": "USA",
@@ -28879,15 +28862,13 @@
         "year": 2021
       },
       {
-        "artist": "‘Blue’ Gene Tyranny",
+        "artist": "\"Blue\" Gene Tyranny",
         "track": "Songs from Aphasia: Road Trip",
         "album": "Degrees of Freedom Found",
         "printed_country": "USA",
         "country": [
           "US"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 18987343,
         "year": 2021
       },
@@ -28996,7 +28977,7 @@
     "playlist_hash": "d119d73202f7f703",
     "tracks": [
       {
-        "artist": "Devotchka",
+        "artist": "DeVotchKa",
         "track": "Break Up Song",
         "album": "This Night Falls Forever",
         "printed_country": "USA",
@@ -29311,7 +29292,7 @@
         "year": 2020
       },
       {
-        "artist": "La Feline",
+        "artist": "La Féline",
         "track": "Effet de nuit",
         "album": "Vie future",
         "printed_country": "France",
@@ -30107,7 +30088,7 @@
         "year": 2019
       },
       {
-        "artist": "Angéle David-Guillou",
+        "artist": "Angèle David-Guillou",
         "track": "A Question Of Angles",
         "album": "A Question Of Angles",
         "printed_country": "France",
@@ -31774,7 +31755,7 @@
         "year": 2019
       },
       {
-        "artist": "L’Attirail",
+        "artist": "L'Attirail",
         "track": "Jump The Wall",
         "album": "Footsteps In The Snow",
         "printed_country": "France",
@@ -32765,7 +32746,7 @@
         "year": 2019
       },
       {
-        "artist": "Девушкин Сон",
+        "artist": "Девушкин сон",
         "track": "Море",
         "album": "Мой Байконур",
         "printed_country": "Россия",
@@ -33108,7 +33089,7 @@
         "year": 2019
       },
       {
-        "artist": "Mascarimiri",
+        "artist": "Mascarimirì",
         "track": "Rebetiko ‘nammuratu",
         "album": "Nou?",
         "printed_country": "Italy",
@@ -33118,7 +33099,6 @@
         "apple_id": 1656985487,
         "apple_album_id": 1656985456,
         "apple_artist_id": 152001595,
-        "mb_id": null,
         "year": 2020
       },
       {
@@ -33551,7 +33531,7 @@
     "playlist_hash": "4df5281467168323",
     "tracks": [
       {
-        "artist": "NOTS",
+        "artist": "Nots",
         "track": "Low",
         "album": "3",
         "printed_country": "USA",
@@ -33781,7 +33761,7 @@
         "year": 2019
       },
       {
-        "artist": "НОМ",
+        "artist": "Ном",
         "track": "Ну, погоди!",
         "album": "Весёлая карусель",
         "printed_country": "Россия",
@@ -35886,7 +35866,7 @@
         "year": 2019
       },
       {
-        "artist": "Park JiHa",
+        "artist": "Park Jiha",
         "track": "Arrival",
         "album": "Philos",
         "printed_country": "South Korea",
@@ -36729,7 +36709,7 @@
         "year": 2020
       },
       {
-        "artist": "Besh O Drom",
+        "artist": "Besh o droM",
         "track": "Jamange",
         "album": "20",
         "printed_country": "Hungary",
@@ -36943,7 +36923,7 @@
     "playlist_hash": "4541df5b775bc4be",
     "tracks": [
       {
-        "artist": "Death & Vanilla",
+        "artist": "Death And Vanilla",
         "track": "A Flaw in the Iris",
         "album": "Are You a Dreamer?",
         "printed_country": "Sweden",
@@ -37487,7 +37467,7 @@
         "year": 1978
       },
       {
-        "artist": "“Blue” Gene Tyranny",
+        "artist": "\"Blue\" Gene Tyranny",
         "track": "Next Time May Be Your Time",
         "album": "Out of the Blue",
         "printed_country": "USA",
@@ -37594,7 +37574,7 @@
         "year": 2019
       },
       {
-        "artist": "Dobet Gnahore",
+        "artist": "Dobet Gnahoré",
         "track": "Miziki",
         "album": "Miziki",
         "printed_country": "Cote d’Ivoire/France",
@@ -37877,7 +37857,7 @@
         "year": 2020
       },
       {
-        "artist": "Порт Июля",
+        "artist": "Порт июля",
         "track": "Проходила мимо",
         "album": "Где было море",
         "printed_country": "Россия",
@@ -38332,7 +38312,7 @@
     "playlist_hash": "ac3d1b6065c8a89e",
     "tracks": [
       {
-        "artist": "Fat White Family",
+        "artist": "The Fat White Family",
         "track": "Bobby’s Boyfriend",
         "album": "Serf’s Up!",
         "printed_country": "UK",
@@ -38373,7 +38353,7 @@
         "year": 2019
       },
       {
-        "artist": "ET Explore Me",
+        "artist": "E.T. Explore Me",
         "track": "Let Me In",
         "album": "Shine",
         "printed_country": "Holland",
@@ -38662,7 +38642,7 @@
         "year": 2018
       },
       {
-        "artist": "Janka Nabay & The Bubu Gang",
+        "artist": "Janka Nabay & the Bubu Gang",
         "track": "Popeneh",
         "album": "Build Music",
         "printed_country": "Sierra Leone",
@@ -38690,7 +38670,7 @@
         "year": 2019
       },
       {
-        "artist": "LA Witch",
+        "artist": "L.A.Witch",
         "track": "Haunting",
         "album": "Octubre",
         "printed_country": "USA",
@@ -39124,7 +39104,7 @@
         "year": 1997
       },
       {
-        "artist": "Woven Hand",
+        "artist": "Wovenhand",
         "track": "Ain’t No Sunshine",
         "album": "Woven Hand",
         "printed_country": "USA",
@@ -39678,7 +39658,7 @@
         "year": 2018
       },
       {
-        "artist": "Nightingales",
+        "artist": "The Nightingales",
         "track": "Big Dave",
         "album": "Perish the Thought",
         "printed_country": "UK",
@@ -40458,7 +40438,7 @@
         "year": 2018
       },
       {
-        "artist": "Let’s Eat Grandma",
+        "artist": "Let's Eat Grandma",
         "track": "Whitewater",
         "album": "I’m All Ears",
         "printed_country": "UK",
@@ -40472,7 +40452,7 @@
         "year": 2018
       },
       {
-        "artist": "Let’s Eat Grandma",
+        "artist": "Let's Eat Grandma",
         "track": "Hot Pink",
         "album": "I’m All Ears",
         "printed_country": "UK",
@@ -40593,7 +40573,7 @@
         "year": 2012
       },
       {
-        "artist": "Circuit Des Yeux",
+        "artist": "Circuit des Yeux",
         "track": "Brainshift",
         "album": "Reaching for Indigo",
         "printed_country": "USA",
@@ -40872,7 +40852,7 @@
         "year": 2018
       },
       {
-        "artist": "Boban Markovič Orkestar",
+        "artist": "Boban Marković Orkestar",
         "track": "Mrak",
         "album": "MRAK",
         "printed_country": "Serbia",
@@ -41422,7 +41402,7 @@
         "year": 2017
       },
       {
-        "artist": "Joy As A Toy",
+        "artist": "Joy As a Toy",
         "track": "Action Love",
         "album": "Mourning Mountains",
         "printed_country": "Belgium",
@@ -41649,7 +41629,7 @@
     "playlist_hash": "4f61a39500984046",
     "tracks": [
       {
-        "artist": "M",
+        "artist": "-M-",
         "track": "L’alchimiste",
         "album": "Lettre Infinie",
         "printed_country": "France",
@@ -42737,7 +42717,7 @@
         "year": 2018
       },
       {
-        "artist": "Группа Женского Айкидо",
+        "artist": "Группа женского айкидо",
         "track": "План С",
         "album": "Сборка",
         "printed_country": "Россия",
@@ -42788,7 +42768,7 @@
     "playlist_hash": "87c3e04992a49ebb",
     "tracks": [
       {
-        "artist": "Over The Rhine",
+        "artist": "Over the Rhine",
         "track": "Given Road",
         "album": "Love & Revelation",
         "printed_country": "USA",
@@ -43146,7 +43126,7 @@
     "playlist_hash": "1175e9d99169364a",
     "tracks": [
       {
-        "artist": "Reverend Horton Heat",
+        "artist": "The Reverend Horton Heat",
         "track": "Hog Tyin’ Woman",
         "album": "Whole New Life",
         "printed_country": "USA",
@@ -43300,7 +43280,7 @@
         "year": 2018
       },
       {
-        "artist": "Dizzy Brains",
+        "artist": "The Dizzy Brains",
         "track": "I Want Your Ahaha",
         "album": "Tany Razana",
         "printed_country": "Madagascar",
@@ -43337,7 +43317,7 @@
     "playlist_hash": "1ffc1ef90442515f",
     "tracks": [
       {
-        "artist": "JJ Cale",
+        "artist": "J.J. Cale",
         "track": "Winter Snow",
         "album": "Stay Around",
         "printed_country": "USA",
@@ -44410,7 +44390,7 @@
         "year": 2018
       },
       {
-        "artist": "A Place To Bury Strangers",
+        "artist": "A Place to Bury Strangers",
         "track": "Look Me in the Eye",
         "album": "Pinned",
         "printed_country": "USA",
@@ -44424,7 +44404,7 @@
         "year": 2018
       },
       {
-        "artist": "Sharon van Etten",
+        "artist": "Sharon Van Etten",
         "track": "Memorial Day",
         "album": "Remind me Tomorrow",
         "printed_country": "USA",
@@ -44768,20 +44748,17 @@
         "year": 2017
       },
       {
-        "artist": "10000 Russos",
+        "artist": "10 000 Russos",
         "track": "Stakhanovets",
         "album": "10000 Russos",
         "printed_country": "Portugal",
         "country": [
           "PT"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": 2015
       },
       {
-        "artist": "10000 Russos",
+        "artist": "10 000 Russos",
         "track": "Europa Kaput",
         "album": "Distress Distress",
         "printed_country": "Portugal",
@@ -45054,7 +45031,7 @@
         "year": 2018
       },
       {
-        "artist": "Cesaria Évora",
+        "artist": "Cesária Evora",
         "track": "Cinturao tem mele",
         "album": "Carnaval de Mindelo",
         "printed_country": "Cabo Verde",
@@ -46283,14 +46260,13 @@
         "year": 2018
       },
       {
-        "artist": "Suistamon Sähko",
+        "artist": "Suistamon Sähkö",
         "track": "Rappaus putoaa",
         "album": "Etkot, Pectopaн Ja Etnoteknoa",
         "printed_country": "Finland",
         "country": [
           "FI"
         ],
-        "apple_id": null,
         "mb_id": "a6079c7d-dd1d-4211-8289-0f30bc4df598",
         "year": 2018
       },
@@ -46427,7 +46403,7 @@
         "year": 2017
       },
       {
-        "artist": "The Bellrays",
+        "artist": "The BellRays",
         "track": "Man Enough",
         "album": "Punk Funk Rock Soul Vol.2",
         "printed_country": "USA",
@@ -46537,7 +46513,7 @@
         "year": 2017
       },
       {
-        "artist": "Oh! Gunquit!",
+        "artist": "Oh! Gunquit",
         "track": "Nomads of the Lost",
         "album": "Lightning Likes Me",
         "printed_country": "UK",
@@ -46551,7 +46527,7 @@
         "year": 2016
       },
       {
-        "artist": "Oh! Gunquit!",
+        "artist": "Oh! Gunquit",
         "track": "Never Sorry",
         "album": "Lightning Likes Me",
         "printed_country": "UK",
@@ -46561,7 +46537,6 @@
         "apple_id": 1739387245,
         "apple_album_id": 1739387176,
         "apple_artist_id": 381643026,
-        "mb_id": null,
         "year": 2017
       },
       {
@@ -46845,7 +46820,7 @@
         "year": 2018
       },
       {
-        "artist": "Dale Cooper Quartet & The Dictaphones",
+        "artist": "The Dale Cooper Quartet & The Dictaphones",
         "track": "Ma couloir",
         "album": "Paroles de Navarre",
         "printed_country": "France",
@@ -46859,7 +46834,7 @@
         "year": 2006
       },
       {
-        "artist": "Dale Cooper Quartet & The Dictaphones",
+        "artist": "The Dale Cooper Quartet & The Dictaphones",
         "track": "Ma insaisissable Abri",
         "album": "Metamanoir",
         "printed_country": "France",
@@ -46873,20 +46848,18 @@
         "year": 2011
       },
       {
-        "artist": "Dale Cooper Quartet & The Dictaphones",
+        "artist": "The Dale Cooper Quartet & The Dictaphones",
         "track": "Pisces analogue",
         "album": "Dcq&Td & Witxes – Split",
         "printed_country": "France",
         "country": [
           "FR"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 6526488,
         "year": 2014
       },
       {
-        "artist": "Dale Cooper Quartet & The Dictaphones",
+        "artist": "The Dale Cooper Quartet & The Dictaphones",
         "track": "Pemp ajour imposte",
         "album": "Astrild Astrild",
         "printed_country": "France",
@@ -47287,7 +47260,7 @@
         "year": 2018
       },
       {
-        "artist": "Orchestra of Spheres",
+        "artist": "Orchestra Of Spheres",
         "track": "Omni Omni",
         "album": "Mirror",
         "printed_country": "New Zealand",
@@ -47602,7 +47575,7 @@
         "year": 2017
       },
       {
-        "artist": "Ruce Naši Dory",
+        "artist": "Ruce naší Dory",
         "track": "Černy a horky",
         "album": "Svetlo ducha",
         "printed_country": "Czech Republik",
@@ -47612,7 +47585,6 @@
         "apple_id": 1750738198,
         "apple_album_id": 1750737836,
         "apple_artist_id": 1451090066,
-        "mb_id": null,
         "year": 2017
       },
       {
@@ -48139,7 +48111,7 @@
     "playlist_hash": "b7bea1cd4ff5006c",
     "tracks": [
       {
-        "artist": "The XX",
+        "artist": "The xx",
         "track": "Lips",
         "album": "I See You",
         "printed_country": "UK",
@@ -48267,7 +48239,7 @@
         "year": 2018
       },
       {
-        "artist": "SUUNS",
+        "artist": "Suuns",
         "track": "X-Alt",
         "album": "Felt",
         "printed_country": "Canada",
@@ -48332,7 +48304,7 @@
         "year": 2017
       },
       {
-        "artist": "Braagas",
+        "artist": "BraAgas",
         "track": "V čirem poli stoji zamek",
         "album": "O ptacich a rybah",
         "printed_country": "Czech Republic",
@@ -48736,7 +48708,7 @@
         "year": 2017
       },
       {
-        "artist": "Cesaria Evora",
+        "artist": "Cesária Evora",
         "track": "Nha cancera ka tem medida",
         "album": "Lusafrica 30th Anniversary Album",
         "printed_country": "Cabo Verde",
@@ -49080,7 +49052,7 @@
         "year": 2017
       },
       {
-        "artist": "Death & Vanilla",
+        "artist": "Death And Vanilla",
         "track": "The dödens vanilsjås theme",
         "album": "Death & Vanilla",
         "printed_country": "Sweden",
@@ -49094,7 +49066,7 @@
         "year": 2013
       },
       {
-        "artist": "Death & Vanilla",
+        "artist": "Death And Vanilla",
         "track": "Run Rabbit Run",
         "album": "Ghosts in the Machine",
         "printed_country": "Sweden",
@@ -49108,7 +49080,7 @@
         "year": 2010
       },
       {
-        "artist": "Death & Vanilla",
+        "artist": "Death And Vanilla",
         "track": "Cul-de-sac",
         "album": "Death & Vanilla",
         "printed_country": "Sweden",
@@ -49122,7 +49094,7 @@
         "year": 2012
       },
       {
-        "artist": "Death & Vanilla",
+        "artist": "Death And Vanilla",
         "track": "Library Goblin",
         "album": "Death & Vanilla",
         "printed_country": "Sweden",
@@ -49136,7 +49108,7 @@
         "year": 2012
       },
       {
-        "artist": "Death & Vanilla",
+        "artist": "Death And Vanilla",
         "track": "The Optic Nerve",
         "album": "...To Where the Wild Things Are",
         "printed_country": "Sweden",
@@ -49150,7 +49122,7 @@
         "year": 2015
       },
       {
-        "artist": "Death & Vanilla",
+        "artist": "Death And Vanilla",
         "track": "The Hidden Reverse",
         "album": "...To Where the Wild Things Are",
         "printed_country": "Sweden",
@@ -49164,7 +49136,7 @@
         "year": 2015
       },
       {
-        "artist": "Kvēty",
+        "artist": "Květy",
         "track": "Houby rostou",
         "album": "Spi vanočni ptak",
         "printed_country": "Czech Republic",
@@ -49229,7 +49201,7 @@
     "playlist_hash": "32b382f4ed63ba35",
     "tracks": [
       {
-        "artist": "U.S.Girls",
+        "artist": "U.S. Girls",
         "track": "Velvet 4 Sale",
         "album": "In a Poem Unlimited",
         "printed_country": "Canada/USA",
@@ -49240,7 +49212,6 @@
         "apple_id": 1311639833,
         "apple_album_id": 1311639242,
         "apple_artist_id": 346049270,
-        "mb_id": null,
         "year": 2017
       },
       {
@@ -49779,7 +49750,7 @@
         "year": 2016
       },
       {
-        "artist": "Pati Na Svete",
+        "artist": "Pátí na světě",
         "track": "My Life as a Demo Version",
         "album": "Uniori",
         "printed_country": "Czech Republic",
@@ -49789,7 +49760,6 @@
         "apple_id": 1750902831,
         "apple_album_id": 1750902264,
         "apple_artist_id": 1462389446,
-        "mb_id": null,
         "year": 2017
       }
     ]
@@ -49883,7 +49853,7 @@
         "year": 1987
       },
       {
-        "artist": "\"Ночной Проспект\"",
+        "artist": "Ночной Проспект",
         "track": "Зимнее море",
         "album": "\"Полиуретан\"",
         "printed_country": "Россия",
@@ -50247,7 +50217,7 @@
         "year": 2017
       },
       {
-        "artist": "The Buttertones​",
+        "artist": "The Buttertones",
         "track": "Geisha's Gaze",
         "album": "Gravedigging",
         "printed_country": "USA",
@@ -50289,7 +50259,7 @@
         "year": 2018
       },
       {
-        "artist": "The Buttertones​",
+        "artist": "The Buttertones",
         "track": "You and Your Knife",
         "album": "Midnight in a Moonless Dream",
         "printed_country": "USA",
@@ -50862,7 +50832,7 @@
         "year": 2017
       },
       {
-        "artist": "King Salami & The Cumberland Three",
+        "artist": "King Salami and the Cumberland Three",
         "track": "Stutterin' Sue",
         "album": "Goin Back to Wurtsville!",
         "printed_country": "UK",
@@ -51386,7 +51356,7 @@
         "year": 2016
       },
       {
-        "artist": "Blaine L.Reininger",
+        "artist": "Blaine L. Reininger",
         "track": "Sons of the Silent Age",
         "album": "Night Air (bonus disc)",
         "printed_country": "USA/Belgium",
@@ -51397,7 +51367,6 @@
         "apple_id": 284818093,
         "apple_album_id": null,
         "apple_artist_id": 20064085,
-        "mb_id": null,
         "year": 1982
       },
       {
@@ -51416,7 +51385,7 @@
         "year": 1984
       },
       {
-        "artist": "Blaine L.Reininger",
+        "artist": "Blaine L. Reininger",
         "track": "The Blue Sleep",
         "album": "The Blue Sleep",
         "printed_country": "USA/Greece",
@@ -51427,11 +51396,10 @@
         "apple_id": 1344961846,
         "apple_album_id": 1344961810,
         "apple_artist_id": 20064085,
-        "mb_id": null,
         "year": 2018
       },
       {
-        "artist": "Blaine L.Reininger",
+        "artist": "Blaine L. Reininger",
         "track": "Dry Food",
         "album": "The Blue Sleep",
         "printed_country": "USA/Greece",
@@ -51442,7 +51410,6 @@
         "apple_id": 1344961850,
         "apple_album_id": 1344961810,
         "apple_artist_id": 20064085,
-        "mb_id": null,
         "year": 2018
       },
       {
@@ -51935,7 +51902,7 @@
         "year": 2017
       },
       {
-        "artist": "Escape-Ism",
+        "artist": "Escape-ism",
         "track": "Walking in the Dark",
         "album": "Introduction to Escape-ism",
         "printed_country": "USA",
@@ -52134,7 +52101,7 @@
     "playlist_hash": "fea3a8301aa59048",
     "tracks": [
       {
-        "artist": "James Chance & The Contortions",
+        "artist": "James Chance & the Contortions",
         "track": "Melt Yourself Down",
         "album": "The Flesh Is Weak",
         "printed_country": "USA",
@@ -52191,7 +52158,7 @@
         "year": 2017
       },
       {
-        "artist": "The Cambodian Space Project",
+        "artist": "Cambodian Space Project",
         "track": "Chnam oun dop pram mouy",
         "album": "2011: A Space Odyssey",
         "printed_country": "Australia/Cambodia",
@@ -52199,12 +52166,11 @@
           "AU",
           "KH"
         ],
-        "apple_id": null,
         "mb_id": "2dbf0866-d632-4376-a4c1-986ee479ed91",
         "year": 2014
       },
       {
-        "artist": "The Cambodian Space Project",
+        "artist": "Cambodian Space Project",
         "track": "When Are You Free?",
         "album": "Whiskey Cambodia",
         "printed_country": "Australia/Cambodia",
@@ -52219,7 +52185,7 @@
         "year": 2014
       },
       {
-        "artist": "The Cambodian Space Project",
+        "artist": "Cambodian Space Project",
         "track": "5 Lady Cows",
         "album": "Spaced-out in Wonderland",
         "printed_country": "Australia/Cambodia",
@@ -52230,11 +52196,10 @@
         "apple_id": 1583650521,
         "apple_album_id": 1583650333,
         "apple_artist_id": 379089183,
-        "mb_id": null,
         "year": 2017
       },
       {
-        "artist": "The Cambodian Space Project",
+        "artist": "Cambodian Space Project",
         "track": "The Passenger",
         "album": "Spaced-out in Wonderland",
         "printed_country": "Australia/Cambodia",
@@ -52245,7 +52210,6 @@
         "apple_id": 1583651045,
         "apple_album_id": 1583650333,
         "apple_artist_id": 379089183,
-        "mb_id": null,
         "year": 2017
       },
       {
@@ -53253,7 +53217,7 @@
         "year": 2017
       },
       {
-        "artist": "НОМ",
+        "artist": "Ном",
         "track": "Раньше было лучше",
         "album": "Я тебя услышал",
         "printed_country": "Россия",
@@ -53310,7 +53274,7 @@
         "year": 2015
       },
       {
-        "artist": "Samba Toure",
+        "artist": "Samba Touré",
         "track": "Wande",
         "album": "Wande",
         "printed_country": "Mali",
@@ -53752,16 +53716,13 @@
         "year": 2017
       },
       {
-        "artist": "10000 Russos",
+        "artist": "10 000 Russos",
         "track": "Stakhanovets",
         "album": "10000 Russos",
         "printed_country": "Portugal",
         "country": [
           "PT"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": 2015
       },
       {
@@ -53845,7 +53806,7 @@
         "year": 2017
       },
       {
-        "artist": "Doctor Krapula",
+        "artist": "Doctor Krápula",
         "track": "Pendejos",
         "album": "Animal",
         "printed_country": "Colombia",
@@ -53968,7 +53929,7 @@
         "year": 2018
       },
       {
-        "artist": "\"Порнофильмы\"",
+        "artist": "Порнофильмы",
         "track": "Родина зовет!",
         "album": "\"Нам не нужна война!\"",
         "printed_country": "Россия",
@@ -54011,7 +53972,7 @@
         "year": 2010
       },
       {
-        "artist": "\"Адаптация\"",
+        "artist": "Адаптация",
         "track": "Остановите войну",
         "album": "\"Нам не нужна война!\"",
         "printed_country": "Казахстан/Россия",
@@ -55452,7 +55413,7 @@
         "year": 2016
       },
       {
-        "artist": "Park Ji Ha",
+        "artist": "Park Jiha",
         "track": "The Longing of the Yawning Divide",
         "album": "Communion",
         "printed_country": "South Korea",
@@ -55462,7 +55423,6 @@
         "apple_id": 1579993287,
         "apple_album_id": 1579993271,
         "apple_artist_id": 1161730439,
-        "mb_id": null,
         "year": 2016
       },
       {
@@ -55774,7 +55734,7 @@
         "year": 2016
       },
       {
-        "artist": "\"Машина времени\"",
+        "artist": "Машина времени",
         "track": "Битва с дураками",
         "album": null,
         "printed_country": "СССР",
@@ -55784,11 +55744,10 @@
         "apple_id": 862465469,
         "apple_album_id": null,
         "apple_artist_id": 510626737,
-        "mb_id": null,
         "year": 2000
       },
       {
-        "artist": "\"Аквариум\"",
+        "artist": "Аквариум",
         "track": "Марина",
         "album": "\"Электричество\"",
         "printed_country": "СССР",
@@ -55802,7 +55761,7 @@
         "year": 1981
       },
       {
-        "artist": "Александр Башлачев",
+        "artist": "Александр Башлачёв",
         "track": "Абсолютный вахтер",
         "album": null,
         "printed_country": "СССР",
@@ -55816,7 +55775,7 @@
         "year": 1985
       },
       {
-        "artist": "\"Телевизор\"",
+        "artist": "Телевизор",
         "track": "Твой папа – фашист",
         "album": "\"Отечество иллюзий\"",
         "printed_country": "СССР",
@@ -56890,7 +56849,7 @@
         "year": 2016
       },
       {
-        "artist": "Nightingales",
+        "artist": "The Nightingales",
         "track": "B-Side at Best",
         "album": "Becoming Not Becoming",
         "printed_country": "UK",
@@ -56900,7 +56859,6 @@
         "apple_id": 1192302025,
         "apple_album_id": 1192302021,
         "apple_artist_id": 79419157,
-        "mb_id": null,
         "year": 2017
       },
       {
@@ -57516,7 +57474,7 @@
     "playlist_hash": "1b7f339cb402c628",
     "tracks": [
       {
-        "artist": "Вежливый Отказ",
+        "artist": "Вежливый отказ",
         "track": "Мы победим!",
         "album": "Военные куплеты",
         "printed_country": "Россия",
@@ -57559,7 +57517,7 @@
         "year": 2017
       },
       {
-        "artist": "Rolling Stones",
+        "artist": "The Rolling Stones",
         "track": "Commit a Crime",
         "album": "Blue & Lonesome",
         "printed_country": "UK",
@@ -57980,7 +57938,7 @@
         "year": 2016
       },
       {
-        "artist": "Vieux Farka Toure",
+        "artist": "Vieux Farka Touré",
         "track": "Nature",
         "album": "Samba",
         "printed_country": "Mali",
@@ -58514,7 +58472,7 @@
         "year": 1988
       },
       {
-        "artist": "Angele David-Guillou",
+        "artist": "Angèle David-Guillou",
         "track": "V for Visconti",
         "album": "En mouvement",
         "printed_country": "France/UK",
@@ -58594,7 +58552,7 @@
     "playlist_hash": "5732feb9ac0902be",
     "tracks": [
       {
-        "artist": "Bjork",
+        "artist": "Björk",
         "track": "Sue me",
         "album": "Utopia",
         "printed_country": "Iceland",
@@ -60000,7 +59958,7 @@
         "year": 2017
       },
       {
-        "artist": "Aomusic",
+        "artist": "AO Music",
         "track": "Kuimba",
         "album": "Hokulea",
         "printed_country": "USA",
@@ -60539,7 +60497,7 @@
         "year": 2015
       },
       {
-        "artist": "Sons & Daughters",
+        "artist": "Sons and Daughters",
         "track": "Johnny Cash",
         "album": "Heroes. Volume I",
         "printed_country": "UK",
@@ -60609,7 +60567,7 @@
         "year": 2008
       },
       {
-        "artist": "Fat White Family",
+        "artist": "The Fat White Family",
         "track": "I Am Mark E.Smith",
         "album": "Heroes. Volume I",
         "printed_country": "UK",
@@ -60623,7 +60581,7 @@
         "year": 2014
       },
       {
-        "artist": "Anelis Assumpçao",
+        "artist": "Anelis Assumpção",
         "track": "Inconcluso",
         "album": "Anelis Assumpçao & Amigos imaginarios",
         "printed_country": "Brazil",
@@ -61006,7 +60964,7 @@
         "year": 2016
       },
       {
-        "artist": "\"Краснознаменная дивизия имени моей бабушки\"",
+        "artist": "Краснознаменная дивизия имени моей бабушки",
         "track": "История успеха",
         "album": "\"Кики\"",
         "printed_country": "Россия",
@@ -61484,7 +61442,7 @@
         "year": 2016
       },
       {
-        "artist": "Janka Nabay & The Bubu Gang",
+        "artist": "Janka Nabay & the Bubu Gang",
         "track": "Build Music",
         "album": "Build Music",
         "printed_country": "USA/Sierra Leone",
@@ -62033,7 +61991,7 @@
         "year": 2016
       },
       {
-        "artist": "Skryty Puvab Byrokracie",
+        "artist": "Skryty puvab byrokracie",
         "track": "V cili je tma",
         "album": "Zprava o pitve",
         "printed_country": "Czech Republic",
@@ -62550,7 +62508,7 @@
         "year": 1967
       },
       {
-        "artist": "The Blossom Toes",
+        "artist": "Blossom Toes",
         "track": "Look at Me, I'm You",
         "album": "1967: The Year Pop Divided",
         "printed_country": "UK",
@@ -62560,7 +62518,6 @@
         "apple_id": 425855363,
         "apple_album_id": null,
         "apple_artist_id": 395640675,
-        "mb_id": null,
         "year": 1967
       },
       {
@@ -62615,7 +62572,7 @@
     "playlist_hash": "512d5150d8fa9b53",
     "tracks": [
       {
-        "artist": "Паперный ТАМ",
+        "artist": "Паперный Т.а.м.",
         "track": "Коза рогатая",
         "album": "НИКУДА",
         "printed_country": "Россия",
@@ -63372,7 +63329,7 @@
         "year": 2016
       },
       {
-        "artist": "Judy Spellman & The PhaviorAdelic",
+        "artist": "Judy Spellman and the Phavior Adelic",
         "track": "Keep What You Kept for Me",
         "album": "Eclectic Funk",
         "printed_country": "USA",
@@ -63382,7 +63339,6 @@
         "apple_id": 1090391874,
         "apple_album_id": 1090391638,
         "apple_artist_id": 1090391870,
-        "mb_id": null,
         "year": 2016
       },
       {
@@ -64052,7 +64008,7 @@
         "year": 2016
       },
       {
-        "artist": "Федор Чистяков",
+        "artist": "Фёдор Чистяков",
         "track": "Ордер на арест",
         "album": "Без дураков",
         "printed_country": "Россия",
@@ -64080,15 +64036,13 @@
         "year": 2016
       },
       {
-        "artist": "Ingus Bauškenieks",
+        "artist": "Ingus Baušķenieks",
         "track": "Kap atpakal upe",
         "album": "Sentiment et Mélancholie",
         "printed_country": "Latvia",
         "country": [
           "LV"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 7829197,
         "year": 2015
       },
@@ -64117,7 +64071,7 @@
         "year": 2005
       },
       {
-        "artist": "19 Gadi Pirms Sakuma",
+        "artist": "19 Gadi Pirms Sākuma",
         "track": "Ruhig",
         "album": "19 Gadi Pirms Sakuma",
         "printed_country": "Latvia",
@@ -64131,7 +64085,7 @@
         "year": 2005
       },
       {
-        "artist": "19 Gadi Pirms Sakuma",
+        "artist": "19 Gadi Pirms Sākuma",
         "track": "Nakts ir mana zemapzina",
         "album": "19 Gadi Pirms Sakuma",
         "printed_country": "Latvia",
@@ -64145,15 +64099,13 @@
         "year": 1990
       },
       {
-        "artist": "Ingus Bauškenieks",
+        "artist": "Ingus Baušķenieks",
         "track": "Ta nebus",
         "album": "Sentiment et Mélancholie",
         "printed_country": "Latvia",
         "country": [
           "LV"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 7829197,
         "year": 2015
       },
@@ -64401,7 +64353,7 @@
         "year": 2014
       },
       {
-        "artist": "Curse ov Dialect",
+        "artist": "Curse Ov Dialect",
         "track": "Wisdom Transformation",
         "album": "Twisted Strangers",
         "printed_country": "Australia",
@@ -64415,7 +64367,7 @@
         "year": 2017
       },
       {
-        "artist": "Tomaš Kočko & Orchestr",
+        "artist": "Tomáš Kočko & Orchestr",
         "track": "Jarovit",
         "album": "Velesu",
         "printed_country": "Czech Republic",
@@ -64786,7 +64738,7 @@
         "year": 2017
       },
       {
-        "artist": "Seydu ft Mariem Hassan",
+        "artist": "Seydu ft. Mariem Hassan",
         "track": "Desert Rose",
         "album": "Sadaka",
         "printed_country": "Sierra Leone/Western Sahara",
@@ -64797,7 +64749,6 @@
         "apple_id": 1153962106,
         "apple_album_id": 1153961677,
         "apple_artist_id": 1529312580,
-        "mb_id": null,
         "year": 2016
       },
       {
@@ -65078,15 +65029,13 @@
         "year": 2016
       },
       {
-        "artist": "Burak Malçok vs. Mercan Dede",
+        "artist": "Burak Malçok vs Mercan Dede",
         "track": "Gece geçer remix",
         "album": "Sakli Nefes",
         "printed_country": "Turkey",
         "country": [
           "TR"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 20725390,
         "year": 2016
       },
@@ -65120,7 +65069,7 @@
         "year": 2016
       },
       {
-        "artist": "Melanie Pain",
+        "artist": "Mélanie Pain",
         "track": "Rio",
         "album": "Parachute",
         "printed_country": "France",
@@ -65608,7 +65557,7 @@
         "year": 2015
       },
       {
-        "artist": "Totó la Momposina",
+        "artist": "Totó La Momposina",
         "track": "La sombra negra",
         "album": "Tambolero",
         "printed_country": "Colombia",
@@ -65864,7 +65813,7 @@
         "year": 2015
       },
       {
-        "artist": "Maryann & The Tri-Tones",
+        "artist": "Maryann & the Tri-Tones",
         "track": "Kitten Walk",
         "album": "Kitten Walk",
         "printed_country": "Estonia",
@@ -65941,7 +65890,7 @@
         "year": 2016
       },
       {
-        "artist": "Anna Von Hausswolff",
+        "artist": "Anna von Hausswolff",
         "track": "Pomperipossa",
         "album": "The Miracolous",
         "printed_country": "Sweden",
@@ -65955,7 +65904,7 @@
         "year": 2015
       },
       {
-        "artist": "Anna Von Hausswolff",
+        "artist": "Anna von Hausswolff",
         "track": "Evocation",
         "album": "The Miracolous",
         "printed_country": "Sweden",
@@ -65983,7 +65932,7 @@
         "year": 2015
       },
       {
-        "artist": "Eccentronic Research Council",
+        "artist": "The Eccentronic Research Council",
         "track": "Sweet Saturn Mine",
         "album": "Johnny Rocket, Narcissist And Music Machine... I'm Your Biggest Fan",
         "printed_country": "UK",
@@ -66131,7 +66080,7 @@
         "year": 2010
       },
       {
-        "artist": "Rats on rafts/De Kift",
+        "artist": "Rats on Rafts/De Kift",
         "track": "Melk en benzine",
         "album": "Rats on RaftsDe Kift",
         "printed_country": "Holland",
@@ -66401,7 +66350,7 @@
         "year": 2016
       },
       {
-        "artist": "Alan Vega/Alex Chilton/Ben Vaughn",
+        "artist": "Alan Vega, Alex Chilton, Ben Vaughn",
         "track": "Lover of love",
         "album": "Cubist Blues",
         "printed_country": "USA",
@@ -66563,7 +66512,7 @@
         "year": 2015
       },
       {
-        "artist": "Bat For Lashes",
+        "artist": "Bat for Lashes",
         "track": "In God's House",
         "album": "The Bride",
         "printed_country": "UK",
@@ -66630,7 +66579,7 @@
         "year": 2014
       },
       {
-        "artist": "DagaDana",
+        "artist": "Dagadana",
         "track": "У полi береза",
         "album": "Meridian 68",
         "printed_country": "Poland/Ukraine",
@@ -66763,7 +66712,7 @@
         "year": 2016
       },
       {
-        "artist": "XIXA",
+        "artist": "Xixa",
         "track": "Down from The Sky",
         "album": "Bloodline",
         "printed_country": "USA",
@@ -67563,7 +67512,7 @@
         "year": 2015
       },
       {
-        "artist": "LXMP",
+        "artist": "Lxmp",
         "track": "Brasilia",
         "album": "Žony w praci",
         "printed_country": "Poland",
@@ -67732,7 +67681,7 @@
         "year": 2015
       },
       {
-        "artist": "Meat Raffle",
+        "artist": "Meatraffle",
         "track": "Oppenheimer",
         "album": "Hifi Classics",
         "printed_country": "UK",
@@ -67742,7 +67691,6 @@
         "apple_id": 1091831017,
         "apple_album_id": 1091831002,
         "apple_artist_id": 926747673,
-        "mb_id": null,
         "year": 2014
       },
       {
@@ -68381,7 +68329,7 @@
         "year": 2015
       },
       {
-        "artist": "U.S.Girls",
+        "artist": "U.S. Girls",
         "track": "Red comes in many shades",
         "album": "Half Free",
         "printed_country": "USA/Canada",
@@ -68392,7 +68340,6 @@
         "apple_id": 1016572782,
         "apple_album_id": 1016571386,
         "apple_artist_id": 346049270,
-        "mb_id": null,
         "year": 2015
       },
       {
@@ -68527,7 +68474,7 @@
         "year": 2015
       },
       {
-        "artist": "Ceu",
+        "artist": "Céu",
         "track": "Perfume do Invisivel",
         "album": "Tropix",
         "printed_country": "Brazil",
@@ -68744,7 +68691,7 @@
         "year": 2016
       },
       {
-        "artist": "Death & Vanilla",
+        "artist": "Death And Vanilla",
         "track": "Time travel",
         "album": "To where the wild things are...",
         "printed_country": "Sweden",
@@ -68851,7 +68798,7 @@
     "playlist_hash": "22717d9d5d27e2a9",
     "tracks": [
       {
-        "artist": "НОМ",
+        "artist": "Ном",
         "track": "Оттепель",
         "album": "Оттепель",
         "printed_country": "Россия",
@@ -68963,7 +68910,7 @@
         "year": 2016
       },
       {
-        "artist": "Al Jawala",
+        "artist": "Äl Jawala",
         "track": "Voodoo rag",
         "album": "Hypnophonic",
         "printed_country": "Germany",
@@ -69351,7 +69298,7 @@
         "year": 2013
       },
       {
-        "artist": "Roisin Murphy",
+        "artist": "Róisín Murphy",
         "track": "Pretty gardens",
         "album": "Take her up to Monto!",
         "printed_country": "Ireland/UK",
@@ -69389,7 +69336,7 @@
     "playlist_hash": "bb0e409ceeb138f1",
     "tracks": [
       {
-        "artist": "Kvety",
+        "artist": "Květy",
         "track": "Je Podzim",
         "album": "Milaček Slunce",
         "printed_country": "Czech Republic",
@@ -69399,7 +69346,6 @@
         "apple_id": 1002523389,
         "apple_album_id": 1002522424,
         "apple_artist_id": 215852851,
-        "mb_id": null,
         "year": 2015
       },
       {
@@ -69573,9 +69519,10 @@
         "album": null,
         "printed_country": null,
         "country": [
+          "US",
           "RU"
         ],
-        "country_from": "musicbrainz",
+        "country_from": "archive",
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -69733,9 +69680,10 @@
         "album": null,
         "printed_country": null,
         "country": [
+          "US",
           "RU"
         ],
-        "country_from": "musicbrainz",
+        "country_from": "archive",
         "apple_id": 1627065494,
         "apple_album_id": null,
         "apple_artist_id": 583750231,
@@ -70051,16 +69999,15 @@
         "year": 1985
       },
       {
-        "artist": "\"Кино\"",
+        "artist": "Кино",
         "track": "Безъядерная зона",
         "album": null,
         "printed_country": null,
         "country": [
+          "SU",
           "RU"
         ],
-        "country_from": "musicbrainz",
-        "apple_id": null,
-        "mb_id": null,
+        "country_from": "archive",
         "discogs_id": 36723727,
         "year": 1996
       },
@@ -70092,16 +70039,14 @@
         "year": 1988
       },
       {
-        "artist": "\"Замша\"",
+        "artist": "Замша",
         "track": "Моя Чечня",
         "album": null,
         "printed_country": null,
         "country": [
           "RU"
         ],
-        "country_from": "musicbrainz",
-        "apple_id": null,
-        "mb_id": null,
+        "country_from": "archive",
         "discogs_id": 3616022,
         "year": 2007
       },
@@ -70116,7 +70061,7 @@
         "year": 2018
       },
       {
-        "artist": "\"Адаптация\"",
+        "artist": "Адаптация",
         "track": "Остановите войну!",
         "album": null,
         "printed_country": null,

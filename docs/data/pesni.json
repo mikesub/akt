@@ -7,7 +7,7 @@
     "playlist_hash": "d7600cf559ff6d5d",
     "tracks": [
       {
-        "artist": "Baba Zula",
+        "artist": "BaBa ZuLa",
         "track": "Özgür ruh",
         "album": "XX",
         "printed_country": "Turkey",
@@ -135,7 +135,7 @@
         "year": 1978
       },
       {
-        "artist": "Judy Spellman & The Phavioradelic",
+        "artist": "Judy Spellman and the Phavior Adelic",
         "track": "Keep what you kept for me",
         "album": "Eclectic Funk",
         "printed_country": "Germany",
@@ -145,7 +145,6 @@
         "apple_id": 1090391874,
         "apple_album_id": 1090391638,
         "apple_artist_id": 1090391870,
-        "mb_id": null,
         "year": 2016
       },
       {
@@ -256,7 +255,7 @@
         "year": 2016
       },
       {
-        "artist": "Oh!Gunquit",
+        "artist": "Oh! Gunquit",
         "track": "Voodoo meatshake",
         "album": "Eat yuppies and dance",
         "printed_country": "UK",
@@ -266,7 +265,6 @@
         "apple_id": 1732064698,
         "apple_album_id": 1732064688,
         "apple_artist_id": 381643026,
-        "mb_id": null,
         "year": 2015
       },
       {
@@ -1204,7 +1202,7 @@
         "year": 2016
       },
       {
-        "artist": "Tomaš Kočko & Orchestr",
+        "artist": "Tomáš Kočko & Orchestr",
         "track": "Jarovit",
         "album": "Velesu",
         "printed_country": "Czechia",
@@ -1218,7 +1216,7 @@
         "year": 2016
       },
       {
-        "artist": "Tomaš Kočko & Orchestr",
+        "artist": "Tomáš Kočko & Orchestr",
         "track": "Do Navu",
         "album": "Velesu",
         "printed_country": "Czechia",
@@ -1779,7 +1777,7 @@
         "year": 2016
       },
       {
-        "artist": "Maryann & The Tri-tones",
+        "artist": "Maryann & the Tri-Tones",
         "track": "When I see you",
         "album": "Kitten walk",
         "printed_country": "Estonia",
@@ -1793,7 +1791,7 @@
         "year": 2016
       },
       {
-        "artist": "Maryann & The Tri-tones",
+        "artist": "Maryann & the Tri-Tones",
         "track": "Wolf Man",
         "album": "Kitten walk",
         "printed_country": "Estonia",
@@ -1978,7 +1976,7 @@
         "year": null
       },
       {
-        "artist": "Sylvie Krobova",
+        "artist": "Sylvie Krobová",
         "track": "Ve vyšinach",
         "album": "Let dymem",
         "printed_country": "Czechia",
@@ -1988,11 +1986,10 @@
         "apple_id": 1750740321,
         "apple_album_id": 1750739846,
         "apple_artist_id": 258240648,
-        "mb_id": null,
         "year": 2015
       },
       {
-        "artist": "Sylvie Krobova",
+        "artist": "Sylvie Krobová",
         "track": "Kapky dešte",
         "album": "Let dymem",
         "printed_country": "Czechia",
@@ -2002,7 +1999,6 @@
         "apple_id": 1750740326,
         "apple_album_id": 1750739846,
         "apple_artist_id": 258240648,
-        "mb_id": null,
         "year": 2015
       },
       {
@@ -2374,14 +2370,13 @@
         "year": 2015
       },
       {
-        "artist": "Vladimir Vaclavek",
+        "artist": "Vladimír Václavek",
         "track": "Jako laska",
         "album": "Barvy Radugy",
         "printed_country": "Czechia",
         "country": [
           "CZ"
         ],
-        "apple_id": null,
         "mb_id": "70199a09-a16d-43dc-93d4-1fa680f87667",
         "year": 2015
       },
@@ -2576,7 +2571,7 @@
     "playlist_hash": "2680ebfe503349e9",
     "tracks": [
       {
-        "artist": "XIXA",
+        "artist": "Xixa",
         "track": "Bloodline",
         "album": "Bloodline",
         "printed_country": "USA",
@@ -2588,7 +2583,7 @@
         "year": 2016
       },
       {
-        "artist": "XIXA",
+        "artist": "Xixa",
         "track": "Pressure of mankind",
         "album": "Bloodline",
         "printed_country": "USA",
@@ -3011,7 +3006,7 @@
         "year": 2015
       },
       {
-        "artist": "Fanfare Ciocarlia",
+        "artist": "Fanfare Ciocărlia",
         "track": "Mista Lobaloba",
         "album": "Onwards to Mars!",
         "printed_country": "Romania",
@@ -3562,7 +3557,7 @@
         "year": 2015
       },
       {
-        "artist": "Elin Kaven",
+        "artist": "Elin Kåven",
         "track": "Javkan",
         "album": "Eamiritni",
         "printed_country": "Norway",
@@ -3572,11 +3567,10 @@
         "apple_id": 1289812906,
         "apple_album_id": null,
         "apple_artist_id": 295606191,
-        "mb_id": null,
         "year": 2015
       },
       {
-        "artist": "Elin Kaven",
+        "artist": "Elin Kåven",
         "track": "Lynxie",
         "album": "Eamiritni",
         "printed_country": "Norway",
@@ -4053,7 +4047,7 @@
         "year": 2016
       },
       {
-        "artist": "Ceu",
+        "artist": "Céu",
         "track": "Perfume do invisivel",
         "album": "Tropix",
         "printed_country": "Brazil",
@@ -4067,7 +4061,7 @@
         "year": 2016
       },
       {
-        "artist": "Ceu",
+        "artist": "Céu",
         "track": "Varanda suspensa",
         "album": "Tropix",
         "printed_country": "Brazil",
@@ -4081,7 +4075,7 @@
         "year": 2016
       },
       {
-        "artist": "Ceu",
+        "artist": "Céu",
         "track": "Sangria",
         "album": "Tropix",
         "printed_country": "Brazil",
@@ -4339,7 +4333,7 @@
         "year": 2016
       },
       {
-        "artist": "Lajko Felix",
+        "artist": "Lajkó Félix",
         "track": "Meg azt mondjak",
         "album": "Most jttem",
         "printed_country": "Hungary",
@@ -4353,7 +4347,7 @@
         "year": 2016
       },
       {
-        "artist": "Lajko Felix",
+        "artist": "Lajkó Félix",
         "track": "Harangszo",
         "album": "Most jttem",
         "printed_country": "Hungary",
@@ -5343,7 +5337,7 @@
     "playlist_hash": "694a571a94845de8",
     "tracks": [
       {
-        "artist": "Машина Времени",
+        "artist": "Машина времени",
         "track": "Крысы",
         "album": "Вы",
         "printed_country": "РФ",
@@ -5371,15 +5365,13 @@
         "year": 2016
       },
       {
-        "artist": "Afro Celt Sound System",
+        "artist": "Afro-Celt Sound System",
         "track": "Mansam Cisse",
         "album": "The Source",
         "printed_country": "UK",
         "country": [
           "GB"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 9370310,
         "year": 2016
       },
@@ -5532,7 +5524,7 @@
     "playlist_hash": "4dc65ca6dbb52bea",
     "tracks": [
       {
-        "artist": "Al Jawala",
+        "artist": "Äl Jawala",
         "track": "Wake up",
         "album": "Hypnophonic",
         "printed_country": "Germany",
@@ -5546,7 +5538,7 @@
         "year": 2016
       },
       {
-        "artist": "Al Jawala",
+        "artist": "Äl Jawala",
         "track": "Voodoo Rag",
         "album": "Hypnophonic",
         "printed_country": "Germany",
@@ -5901,7 +5893,7 @@
         "year": 2015
       },
       {
-        "artist": "Michael Messers Mitra",
+        "artist": "Michael Messer's Mitra",
         "track": "Anyway the wind blows",
         "album": "Call of the Blues",
         "printed_country": "UK/India",
@@ -5912,11 +5904,10 @@
         "apple_id": 1741440498,
         "apple_album_id": 1741440106,
         "apple_artist_id": 1078456347,
-        "mb_id": null,
         "year": 2016
       },
       {
-        "artist": "Michael Messers Mitra",
+        "artist": "Michael Messer's Mitra",
         "track": "Blue letters",
         "album": "Call of the Blues",
         "printed_country": "UK/India",
@@ -5927,7 +5918,6 @@
         "apple_id": 1741440502,
         "apple_album_id": 1741440106,
         "apple_artist_id": 1078456347,
-        "mb_id": null,
         "year": 2016
       },
       {
@@ -7080,7 +7070,7 @@
         "year": 2016
       },
       {
-        "artist": "Zulya & The Children of the Underground",
+        "artist": "Zulya and the Children of the Underground",
         "track": "Autumn nights",
         "album": "On Love and Science",
         "printed_country": "Australia",
@@ -7090,24 +7080,21 @@
         "apple_id": 1124688364,
         "apple_album_id": 1124688021,
         "apple_artist_id": 252071286,
-        "mb_id": null,
         "year": 2015
       },
       {
-        "artist": "Zulya & The Children of the Underground",
+        "artist": "Zulya and the Children of the Underground",
         "track": "У Бога нет сердца",
         "album": "On Love and Science",
         "printed_country": "Australia",
         "country": [
           "AU"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 27457296,
         "year": 2015
       },
       {
-        "artist": "Zulya & The Children of the Underground",
+        "artist": "Zulya and the Children of the Underground",
         "track": "Happy End",
         "album": "On Love and Science",
         "printed_country": "Australia",
@@ -7117,7 +7104,6 @@
         "apple_id": 1124688370,
         "apple_album_id": 1124688021,
         "apple_artist_id": 252071286,
-        "mb_id": null,
         "year": 2015
       },
       {
@@ -7833,7 +7819,7 @@
         "year": 1998
       },
       {
-        "artist": "Dieuf-Dieul de Thies",
+        "artist": "Dieuf-Dieul De Thies",
         "track": "Sidi ndiaye",
         "album": "Aw Sa Yone vol.2",
         "printed_country": "Senegal",
@@ -8227,7 +8213,7 @@
         "year": 2011
       },
       {
-        "artist": "Marta Gomez",
+        "artist": "Marta Gómez",
         "track": "Manos de mujeres",
         "album": "Este instarte",
         "printed_country": "Colombia",
@@ -8576,7 +8562,7 @@
     "playlist_hash": "0088b452009e6859",
     "tracks": [
       {
-        "artist": "Pekko Kappi & K:H:H:L",
+        "artist": "Pekko Käppi & K:H:H:L",
         "track": "Mun Vereni",
         "album": "Sanguis Meus, Mama!",
         "printed_country": "Finland",
@@ -8590,15 +8576,13 @@
         "year": 2015
       },
       {
-        "artist": "Pekko Kappi & K:H:H:L",
+        "artist": "Pekko Käppi & K:H:H:L",
         "track": "Kokkovrsi",
         "album": "Sanguis Meus, Mama!",
         "printed_country": "Finland",
         "country": [
           "FI"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 6802416,
         "year": 2015
       },
@@ -8826,16 +8810,13 @@
         "year": 2014
       },
       {
-        "artist": "Kardes Turkuler",
+        "artist": "Kardeş Türküler",
         "track": "Hem Okudum Hem Okudum Yazdim/Cagri",
         "album": "Best Of",
         "printed_country": "Turkey",
         "country": [
           "TR"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
@@ -8977,7 +8958,7 @@
         "year": 2015
       },
       {
-        "artist": "Ilaria Graziano &Francesco Forni",
+        "artist": "Ilaria Graziano & Francesco Forni",
         "track": "Love Sails",
         "album": "From Bedlam to Lenane",
         "printed_country": "Italy",
@@ -8987,12 +8968,11 @@
         "apple_id": 1020383158,
         "apple_album_id": 1020380270,
         "apple_artist_id": null,
-        "mb_id": null,
         "discogs_id": 34480348,
         "year": 2015
       },
       {
-        "artist": "Ilaria Graziano &Francesco Forni",
+        "artist": "Ilaria Graziano & Francesco Forni",
         "track": "La Strada",
         "album": "From Bedlam to Lenane",
         "printed_country": "Italy",
@@ -9002,7 +8982,6 @@
         "apple_id": 1020383236,
         "apple_album_id": 1020380270,
         "apple_artist_id": null,
-        "mb_id": null,
         "discogs_id": 34480348,
         "year": 2015
       },
@@ -9061,7 +9040,7 @@
         "year": 2015
       },
       {
-        "artist": "Monsieur Perine",
+        "artist": "Monsieur Periné",
         "track": "Mi Libertad",
         "album": "Caja de Musica",
         "printed_country": "Colombia",
@@ -9538,7 +9517,7 @@
         "year": 1960
       },
       {
-        "artist": "Toto La Momposina",
+        "artist": "Totó La Momposina",
         "track": "El Pescador",
         "album": "Tambolero",
         "printed_country": "Colombia",
@@ -9862,7 +9841,7 @@
         "year": 2015
       },
       {
-        "artist": "Wau Y Los Arrrghs!",
+        "artist": "Wau Y Los Arrrghs!!",
         "track": "No Se Cantar",
         "album": "Todo Roto",
         "printed_country": "Spain",
@@ -10608,7 +10587,7 @@
         "year": 2015
       },
       {
-        "artist": "Sam lee & Friends",
+        "artist": "Sam Lee & Friends",
         "track": "Lord Gregory",
         "album": "The Fade in Time",
         "printed_country": "UK",
@@ -10786,7 +10765,7 @@
         "year": 2008
       },
       {
-        "artist": "Bandadriatica",
+        "artist": "BandAdriatica",
         "track": "Me Perdu",
         "album": "Babilonia",
         "printed_country": "Italy",

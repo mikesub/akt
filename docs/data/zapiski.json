@@ -91,7 +91,7 @@
         "year": 2015
       },
       {
-        "artist": "Чёртово Колесо Инженера Ферриса",
+        "artist": "Чёртово колесо инженера Ферриса",
         "track": "Сухие и мокрые",
         "album": "50 оттенков Ферриса",
         "printed_country": "РФ",
@@ -105,7 +105,7 @@
         "year": 2017
       },
       {
-        "artist": "Чёртово Колесо Инженера Ферриса",
+        "artist": "Чёртово колесо инженера Ферриса",
         "track": "Куда уходит любовь?",
         "album": "50 оттенков Ферриса",
         "printed_country": "РФ",
@@ -283,7 +283,7 @@
         "year": 2015
       },
       {
-        "artist": "Чёртово Колесо Инженера Ферриса",
+        "artist": "Чёртово колесо инженера Ферриса",
         "track": "Сухие и мокрые",
         "album": "50 оттенков Ферриса",
         "printed_country": "РФ",
@@ -297,7 +297,7 @@
         "year": 2017
       },
       {
-        "artist": "Чёртово Колесо Инженера Ферриса",
+        "artist": "Чёртово колесо инженера Ферриса",
         "track": "Куда уходит любовь?",
         "album": "50 оттенков Ферриса",
         "printed_country": "РФ",
@@ -866,7 +866,7 @@
         "year": 2016
       },
       {
-        "artist": "Melanie Pain",
+        "artist": "Mélanie Pain",
         "track": "Dans une boîte",
         "album": "Parachute",
         "printed_country": "France",
@@ -880,7 +880,7 @@
         "year": 2016
       },
       {
-        "artist": "Melanie Pain",
+        "artist": "Mélanie Pain",
         "track": "Rio",
         "album": "Parachute",
         "printed_country": "France",
@@ -1662,7 +1662,7 @@
         "year": 2016
       },
       {
-        "artist": "Maryann & The Tri-Tones",
+        "artist": "Maryann & the Tri-Tones",
         "track": "Angel of the desert",
         "album": "Supersonic Gal",
         "printed_country": "Estonia",
@@ -1676,7 +1676,7 @@
         "year": 2015
       },
       {
-        "artist": "Maryann & The Tri-Tones",
+        "artist": "Maryann & the Tri-Tones",
         "track": "Kitten walk",
         "album": "Kitten Walk",
         "printed_country": "Estonia",
@@ -1825,7 +1825,7 @@
         "year": 2014
       },
       {
-        "artist": "Sylvie Krobova",
+        "artist": "Sylvie Krobová",
         "track": "Let dymem",
         "album": "Let dymem",
         "printed_country": "Czechia",
@@ -1835,7 +1835,6 @@
         "apple_id": 1750739935,
         "apple_album_id": 1750739846,
         "apple_artist_id": 258240648,
-        "mb_id": null,
         "year": 2015
       },
       {
@@ -2109,14 +2108,13 @@
         "year": 2016
       },
       {
-        "artist": "Vladimir Vaclavek",
+        "artist": "Vladimír Václavek",
         "track": "Barvy duhy",
         "album": "Barvy Raduhy",
         "printed_country": "Czechia",
         "country": [
           "CZ"
         ],
-        "apple_id": null,
         "mb_id": "a9fd4abf-fd30-478a-a959-0f92a68e5150",
         "year": 2015
       },
@@ -2423,7 +2421,7 @@
         "year": 2016
       },
       {
-        "artist": "Anna Von Hausswolff",
+        "artist": "Anna von Hausswolff",
         "track": "Pomperipossa",
         "album": "The Miraculous",
         "printed_country": "Sweden",
@@ -2437,7 +2435,7 @@
         "year": 2015
       },
       {
-        "artist": "Anna Von Hausswolff",
+        "artist": "Anna von Hausswolff",
         "track": "Evocation",
         "album": "The Miraculous",
         "printed_country": "Sweden",
@@ -2598,7 +2596,7 @@
         "year": 2016
       },
       {
-        "artist": "Eccentronic Research Council",
+        "artist": "The Eccentronic Research Council",
         "track": "Welcome to Valhalla Dale",
         "album": "Johnny Rocket, narcissist and music machine...",
         "printed_country": "UK",
@@ -2612,7 +2610,7 @@
         "year": 2015
       },
       {
-        "artist": "Eccentronic Research Council",
+        "artist": "The Eccentronic Research Council",
         "track": "Sweet Saturn mine",
         "album": "Johnny Rocket, narcissist and music machine...",
         "printed_country": "UK",
@@ -3351,7 +3349,7 @@
         "year": 2015
       },
       {
-        "artist": "LXMP",
+        "artist": "Lxmp",
         "track": "Brasilia",
         "album": "Žony w pracy",
         "printed_country": "Poland",
@@ -3444,7 +3442,7 @@
         "year": 2007
       },
       {
-        "artist": "XIXA",
+        "artist": "Xixa",
         "track": "Vampiro",
         "album": "Bloodline",
         "printed_country": "USA",
@@ -3456,7 +3454,7 @@
         "year": 2016
       },
       {
-        "artist": "XIXA",
+        "artist": "Xixa",
         "track": "Down from the sky",
         "album": "Bloodline",
         "printed_country": "USA",
@@ -3887,7 +3885,7 @@
         "year": 2014
       },
       {
-        "artist": "HiFi Sean ft.Yoko Ono",
+        "artist": "HiFi Sean ft. Yoko Ono",
         "track": "In love with life",
         "album": "Ft",
         "printed_country": "UK/USA",
@@ -3895,9 +3893,6 @@
           "GB",
           "US"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
@@ -3915,7 +3910,7 @@
         "year": null
       },
       {
-        "artist": "HiFi Sean ft.Alan Vega",
+        "artist": "HiFi Sean ft. Alan Vega",
         "track": "A kiss before dying",
         "album": "Ft",
         "printed_country": "UK/USA",
@@ -3923,9 +3918,6 @@
           "GB",
           "US"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       }
     ]
@@ -3938,7 +3930,7 @@
     "playlist_hash": "dcda536c7512ab3d",
     "tracks": [
       {
-        "artist": "Fat White Family",
+        "artist": "The Fat White Family",
         "track": "Satisfied",
         "album": "Songs for our mothers",
         "printed_country": "UK",
@@ -3952,7 +3944,7 @@
         "year": 2016
       },
       {
-        "artist": "Fat White Family",
+        "artist": "The Fat White Family",
         "track": "Tinfoil Deathstar",
         "album": "Songs for our mothers",
         "printed_country": "UK",
@@ -4598,7 +4590,7 @@
         "year": 2015
       },
       {
-        "artist": "U.S.Girls",
+        "artist": "U.S. Girls",
         "track": "Damn that valley",
         "album": "Half Free",
         "printed_country": "USA/Canada",
@@ -4609,11 +4601,10 @@
         "apple_id": 1016572170,
         "apple_album_id": 1016571386,
         "apple_artist_id": 346049270,
-        "mb_id": null,
         "year": 2015
       },
       {
-        "artist": "U.S.Girls",
+        "artist": "U.S. Girls",
         "track": "Window shades",
         "album": "Half Free",
         "printed_country": "USA/Canada",
@@ -4624,7 +4615,6 @@
         "apple_id": 1016572428,
         "apple_album_id": 1016571386,
         "apple_artist_id": 346049270,
-        "mb_id": null,
         "year": 2015
       },
       {
@@ -5880,7 +5870,7 @@
         "year": 2015
       },
       {
-        "artist": "Roisin Murphy",
+        "artist": "Róisín Murphy",
         "track": "Pretty gardens",
         "album": "Take her up to Monto!",
         "printed_country": "Ireland/UK",
@@ -6113,7 +6103,7 @@
         "year": null
       },
       {
-        "artist": "MeatRaffle",
+        "artist": "Meatraffle",
         "track": "Oppenheimer",
         "album": "HiFi Classics",
         "printed_country": "UK",
@@ -6127,7 +6117,7 @@
         "year": 2015
       },
       {
-        "artist": "MeatRaffle",
+        "artist": "Meatraffle",
         "track": "Acid in the 1940s",
         "album": "HiFi Classics",
         "printed_country": "UK",
@@ -6346,7 +6336,7 @@
         "year": 2015
       },
       {
-        "artist": "Mr Vast",
+        "artist": "Mr. Vast",
         "track": "Smudge cabin",
         "album": "Touch & Go",
         "printed_country": "UK",
@@ -6356,7 +6346,6 @@
         "apple_id": 1036256256,
         "apple_album_id": 1036255297,
         "apple_artist_id": 580647367,
-        "mb_id": null,
         "year": 2015
       }
     ]
@@ -6369,7 +6358,7 @@
     "playlist_hash": "5df038e645ed7c9d",
     "tracks": [
       {
-        "artist": "EZ3kiel",
+        "artist": "Ez3kiel",
         "track": "Eclipse",
         "album": "LUX",
         "printed_country": "France",
@@ -6646,7 +6635,7 @@
         "year": 2014
       },
       {
-        "artist": "Чёртово Колесо Инженера Ферриса",
+        "artist": "Чёртово колесо инженера Ферриса",
         "track": "Молодые и голодные",
         "album": "Locals Only (Refucked)",
         "printed_country": "РФ",
@@ -6660,7 +6649,7 @@
         "year": 2012
       },
       {
-        "artist": "Чёртово Колесо Инженера Ферриса",
+        "artist": "Чёртово колесо инженера Ферриса",
         "track": "Нам нравится жить",
         "album": "Locals Only (Refucked)",
         "printed_country": "РФ",
@@ -6674,7 +6663,7 @@
         "year": 2013
       },
       {
-        "artist": "Чёртово Колесо Инженера Ферриса",
+        "artist": "Чёртово колесо инженера Ферриса",
         "track": "Пусть крыша горит",
         "album": "Дом, который построил Jerk",
         "printed_country": "РФ",
@@ -6688,7 +6677,7 @@
         "year": 2015
       },
       {
-        "artist": "Чёртово Колесо Инженера Ферриса",
+        "artist": "Чёртово колесо инженера Ферриса",
         "track": "Грязь",
         "album": "Дом, который построил Jerk",
         "printed_country": "РФ",
@@ -6768,7 +6757,7 @@
     "playlist_hash": "12d601970bad796c",
     "tracks": [
       {
-        "artist": "Kvety",
+        "artist": "Květy",
         "track": "Je podzim",
         "album": "Milaček Slunce",
         "printed_country": "Czechia",
@@ -6778,11 +6767,10 @@
         "apple_id": 1002523389,
         "apple_album_id": 1002522424,
         "apple_artist_id": 215852851,
-        "mb_id": null,
         "year": 2015
       },
       {
-        "artist": "Kvety",
+        "artist": "Květy",
         "track": "Verka",
         "album": "Milaček Slunce",
         "printed_country": "Czechia",
@@ -6792,7 +6780,6 @@
         "apple_id": 1002523394,
         "apple_album_id": 1002522424,
         "apple_artist_id": 215852851,
-        "mb_id": null,
         "year": 2015
       },
       {
@@ -7710,7 +7697,7 @@
         "year": 2015
       },
       {
-        "artist": "Thao & The Get Down Stay Down",
+        "artist": "Thao & The get down stay down",
         "track": "Astonished man",
         "album": "A man alive",
         "printed_country": "USA",
@@ -8119,7 +8106,7 @@
     "playlist_hash": "5a56ee6bc8a53b54",
     "tracks": [
       {
-        "artist": "НОМ",
+        "artist": "Ном",
         "track": "Оттепель",
         "album": "Оттепель",
         "printed_country": "РФ",
@@ -8133,7 +8120,7 @@
         "year": 2016
       },
       {
-        "artist": "НОМ",
+        "artist": "Ном",
         "track": "Оттепель",
         "album": "Оттепель",
         "printed_country": "РФ",
@@ -8708,7 +8695,7 @@
     "playlist_hash": "fe3d777fabd99a25",
     "tracks": [
       {
-        "artist": "Rats on Rafts",
+        "artist": "Rats On Rafts",
         "track": "Machine 11-6-8",
         "album": "Tape hiss",
         "printed_country": "Holland",
@@ -8994,7 +8981,7 @@
         "year": 2015
       },
       {
-        "artist": "Rocket From The Tombs",
+        "artist": "Rocket from the Tombs",
         "track": "Waiting for the snow",
         "album": "Black record",
         "printed_country": "USA",
@@ -9008,7 +8995,7 @@
         "year": 2015
       },
       {
-        "artist": "Rocket From The Tombs",
+        "artist": "Rocket from the Tombs",
         "track": "Sonic reducer",
         "album": "Black record",
         "printed_country": "USA",
@@ -9185,7 +9172,7 @@
         "year": 2015
       },
       {
-        "artist": "Jim ORourke",
+        "artist": "Jim O'Rourke",
         "track": "Last Year",
         "album": "Simple Songs",
         "printed_country": "USA",
@@ -9530,7 +9517,7 @@
         "year": 2015
       },
       {
-        "artist": "Teenage Jesus & the Jerks",
+        "artist": "Teenage Jesus & The Jerks",
         "track": "The Closet",
         "album": "Live 1977-1979",
         "printed_country": "USA",
@@ -10462,7 +10449,7 @@
         "year": 2015
       },
       {
-        "artist": "Wau Y Los Arrrghs!",
+        "artist": "Wau Y Los Arrrghs!!",
         "track": "Es Un Buen Dia",
         "album": "Todo Loto",
         "printed_country": "Spain",
@@ -10476,7 +10463,7 @@
         "year": 2013
       },
       {
-        "artist": "Wau Y Los Arrrghs!",
+        "artist": "Wau Y Los Arrrghs!!",
         "track": "Trez Caberas",
         "album": "Todo Loto",
         "printed_country": "Spain",
@@ -10486,7 +10473,6 @@
         "apple_id": 1208715793,
         "apple_album_id": null,
         "apple_artist_id": 274242379,
-        "mb_id": null,
         "year": 2013
       },
       {
@@ -10574,7 +10560,7 @@
         "year": 2015
       },
       {
-        "artist": "TOY",
+        "artist": "Toy",
         "track": "Its Been So Long",
         "album": "Join the Dots",
         "printed_country": "UK",
@@ -10639,7 +10625,7 @@
         "year": 2014
       },
       {
-        "artist": "Death and vanilla",
+        "artist": "Death And Vanilla",
         "track": "Necessary Distortions",
         "album": "To Where the Wild Things Are",
         "printed_country": "Sweden",
@@ -10653,7 +10639,7 @@
         "year": 2015
       },
       {
-        "artist": "Death and vanilla",
+        "artist": "Death And Vanilla",
         "track": "Time Travel",
         "album": "To Where the Wild Things Are",
         "printed_country": "Sweden",
@@ -11279,7 +11265,7 @@
         "year": 2014
       },
       {
-        "artist": "Sleaford mods",
+        "artist": "Sleaford Mods",
         "track": "In Quiet Streets",
         "album": "Key Markets",
         "printed_country": "UK",
@@ -11333,7 +11319,7 @@
         "year": 2014
       },
       {
-        "artist": "Hugo Race & the True Spirit",
+        "artist": "Hugo Race & The True Spirit",
         "track": "Elevate My Love",
         "album": null,
         "printed_country": "Australia",
@@ -11347,7 +11333,7 @@
         "year": 2015
       },
       {
-        "artist": "Hugo Race & the True Spirit",
+        "artist": "Hugo Race & The True Spirit",
         "track": "Sleepwalker",
         "album": null,
         "printed_country": "Australia",
@@ -11466,7 +11452,7 @@
         "year": 2015
       },
       {
-        "artist": "Ismo Alanko Saatio",
+        "artist": "Ismo Alanko Säätiö",
         "track": "Paratiisin Puu",
         "album": "Hallanvaara",
         "printed_country": "Finland",
@@ -11550,7 +11536,7 @@
         "year": 2015
       },
       {
-        "artist": "Sylvie Krobova",
+        "artist": "Sylvie Krobová",
         "track": "Kapky Deste",
         "album": "Let Dymem",
         "printed_country": "Czech Republic",
@@ -11560,7 +11546,6 @@
         "apple_id": 1750740326,
         "apple_album_id": 1750739846,
         "apple_artist_id": 258240648,
-        "mb_id": null,
         "year": 2015
       },
       {
@@ -11578,7 +11563,7 @@
         "year": 1970
       },
       {
-        "artist": "Johann Johannsson",
+        "artist": "Jóhann Jóhannsson",
         "track": "Melancholia",
         "album": "Sicario OST",
         "printed_country": "Iceland",
@@ -11890,7 +11875,7 @@
         "year": 2014
       },
       {
-        "artist": "The peter Ulrich Collaboration",
+        "artist": "The Peter Ulrich Collaboration",
         "track": "The Lycanthrope",
         "album": "Tempus Fugitives",
         "printed_country": "UK/USA",
@@ -11946,7 +11931,7 @@
         "year": 2015
       },
       {
-        "artist": "Roisin Murphy",
+        "artist": "Róisín Murphy",
         "track": "Uninvited Guest",
         "album": "Hairless Toys",
         "printed_country": "Ireland/UK",
@@ -12067,7 +12052,7 @@
         "year": 2015
       },
       {
-        "artist": "Bjork",
+        "artist": "Björk",
         "track": "Quicksand",
         "album": "Vulnicura",
         "printed_country": "Iceland",
@@ -12081,7 +12066,7 @@
         "year": 2015
       },
       {
-        "artist": "Bjork",
+        "artist": "Björk",
         "track": "Quicksand",
         "album": "Vulnicura Strings",
         "printed_country": "Iceland",
@@ -12362,7 +12347,7 @@
     "playlist_hash": "4b85fccea616f174",
     "tracks": [
       {
-        "artist": "The Mutants",
+        "artist": "Mutants",
         "track": "Port-au-Prince",
         "album": "Mutants Death Cult",
         "printed_country": "Finland",

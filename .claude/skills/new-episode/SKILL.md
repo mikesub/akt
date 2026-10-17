@@ -59,7 +59,7 @@ jq -r '.[] | select(.number == 89) | .tracks[] | select(.apple_id == null) | "\(
 
 Misses are normal (about 14% overall): songs not in the Dutch store, or names Apple writes differently. List them in the report; don't fix them by hand.
 
-Do not edit `stereoplan.json` by hand. If the parse is wrong, report it and stop: the fix belongs in `src/`, followed by `node bin/stereoplan.js --episode <number>`. A wrong year (Apple only has a reissue) is fixed in `overrides.json` with its source in `why`, then `node bin/stereoplan.js` applies it.
+Do not edit `stereoplan.json` by hand. If the parse is wrong, report it and stop: the fix belongs in `src/`, followed by `node bin/stereoplan.js --episode <number>`. A wrong year (Apple only has a reissue) is fixed in `overrides.json` with its source in `why`, then `node bin/stereoplan.js` applies it. A new artist printed in another spelling than the archive's: `node bin/artists.js` proposes it in `artists.json` (review its list of changes beyond case), then `node bin/stereoplan.js` applies it.
 
 ## 4. Commit, push, confirm the site
 

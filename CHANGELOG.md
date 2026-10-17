@@ -1,7 +1,7 @@
 # Data changelog
 
 Changes to the published data, `docs/data/<program>.json` (served at `https://akt.mksb.me/data/<program>.json`),
-and to the files it is built from (`overrides.json`, `titles.json`, `countries.json`), for anyone who
+and to the files it is built from (`overrides.json`, `titles.json`, `artists.json`, `countries.json`), for anyone who
 keeps a copy and wants to know whether to download it again. Newest first. **Format** marks a field
 added, renamed or removed; **Breaking** marks a change that can break code reading the old format.
 Routine updates (a new Стереоплан episode, a single fix) are not listed: the git history of
@@ -9,6 +9,13 @@ Routine updates (a new Стереоплан episode, a single fix) are not liste
 
 ## 2026-10-17
 
+- Artists' spellings normalized: 7,293 tracks in every program now show their artist under one spelling,
+  the artist's own (Apple Music's credit, else the archive's), where the playlists printed it in lower or
+  upper case, with other spacing or punctuation, without accents, or with or without "The"; 1,128 of
+  them more than case. The playlist files keep the spellings as printed. New file `artists.json`, the
+  printed spelling to the one shown. For 339 renamed tracks a lookup that had found nothing was dropped,
+  to be asked again under the new name (`apple_id`, `mb_id` or `discogs_id` key missing until then).
+  Three tracks' inferred countries changed with the merged spellings (Ногу свело!, Кино).
 - **Format:** `discogs_id` (a Discogs release, `https://www.discogs.com/release/<id>`) is now looked up for
   every track, as `apple_id` and `mb_id` are; it was only asked for a track Apple Music and MusicBrainz left
   without a year. New tracks get it as they come; the rest of the archive is filled over a day or two

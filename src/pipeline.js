@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { mkdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { appleStats, doubtLink, findAppleLinks, findOnApple, lookupSongs } from './apple.js';
+import { restoreArtist } from './artists.js';
 import { discogsStats, findOnDiscogs } from './discogs.js';
 import { findOnMusicBrainz, mbStats } from './musicbrainz.js';
 import { countryCodes, vague } from './countries.js';
@@ -92,9 +93,9 @@ function aired(episode, year) {
   return year !== null && latest > 0 && year > latest ? null : year;
 }
 
-/** A track with the codes of the country its playlist prints (countries.json), under its restored names (titles.json), then with its hand fixes (overrides.json). */
+/** A track with the codes of the country its playlist prints (countries.json), under its restored names (titles.json) and its artist's spelling (artists.json), then with its hand fixes (overrides.json). */
 // Shaped again after the overrides, so that a field one adds (a discogs_id) takes its place in the key order.
-export const corrected = (track) => shape(applyOverrides(shape(restoreTitle(coded(track)))));
+export const corrected = (track) => shape(applyOverrides(shape(restoreArtist(restoreTitle(coded(track))))));
 
 /**
  * A track's country codes, from its printed country whenever it has one, the
