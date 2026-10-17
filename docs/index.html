@@ -281,7 +281,7 @@
   const FLAG_OF = { SU: 'RU', CS: 'CZ', YU: 'RS', DD: 'DE', VD: 'VN', 'GB-NIR': 'GB' };
   const regionNames = new Intl.DisplayNames('ru', { type: 'region' });
   const countryName = (code) => {
-    if (code === NO_COUNTRY) return 'Страна неизвестна';
+    if (code === NO_COUNTRY) return 'Страна пока неопределена';
     try {
       return COUNTRY_NAMES[code] ?? regionNames.of(code) ?? code;
     } catch {
