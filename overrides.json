@@ -2525,7 +2525,29 @@
   {
     "artist": "J.C.Martineau-Beethova Obas-Ti Corn",
     "track": "Vyewo",
-    "country": ["HT", "FR"],
+    "country": [
+      "HT",
+      "FR"
+    ],
     "why": "«Песни и пляски» #32 prints its country as \"(Same)\": the line above's, Bob Bovano's (Haiti/France)"
+  },
+  {
+    "artist": "Nick Cave & The Bad Seeds",
+    "album": "Lovely Creatures",
+    "country": [
+      "AU",
+      "GB"
+    ],
+    "why": "«Музыка на Свободе» #47 prints the band's country as \"International\"; Australia/UK, the owner's word"
+  },
+  {
+    "artist": "Nick Cave & The Bad Seeds",
+    "track": "From Her To Eternity",
+    "album": "From Her to Eternity",
+    "country": [
+      "AU",
+      "GB"
+    ],
+    "why": "«Музыка на Свободе» #196 prints the band's country as \"International\"; Australia/UK, the owner's word"
   }
 ]

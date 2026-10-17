@@ -15864,11 +15864,14 @@
     "playlist_hash": "4a04bbbf5113a9b5",
     "tracks": [
       {
-        "artist": "captain beefheart",
-        "track": "abba zabba",
-        "album": "london 1974",
+        "artist": "Captain Beefheart",
+        "track": "Abba Zabba",
+        "album": "London 1974",
         "printed_country": "magic land",
-        "country": null,
+        "country": [
+          "US"
+        ],
+        "country_from": "archive",
         "apple_id": 875163363,
         "apple_album_id": null,
         "apple_artist_id": null,
@@ -16058,11 +16061,14 @@
         "year": 2009
       },
       {
-        "artist": "captain beefheart & the magic band",
-        "track": "further than we've gone",
-        "album": "bluejeans & moonbeams",
+        "artist": "Captain Beefheart & The Magic Band",
+        "track": "Further Than We've Gone",
+        "album": "Bluejeans & Moonbeams",
         "printed_country": "milky way",
-        "country": null,
+        "country": [
+          "US"
+        ],
+        "country_from": "archive",
         "apple_id": 724213891,
         "apple_album_id": 724213476,
         "apple_artist_id": 196223996,
@@ -86343,7 +86349,10 @@
         "track": "wududu",
         "album": "inland",
         "printed_country": "stimorol",
-        "country": null,
+        "country": [
+          "CH"
+        ],
+        "country_from": "musicbrainz",
         "apple_id": 447996297,
         "apple_album_id": 447996296,
         "apple_artist_id": 269512430,

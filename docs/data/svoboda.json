@@ -32423,7 +32423,10 @@
         "track": "From Her To Eternity",
         "album": "From Her to Eternity",
         "printed_country": "International",
-        "country": null,
+        "country": [
+          "AU",
+          "GB"
+        ],
         "apple_id": 1435812763,
         "apple_album_id": 1435812605,
         "apple_artist_id": 1698460,
@@ -61334,7 +61337,10 @@
         "track": "From Her to Eternity",
         "album": "Lovely Creatures",
         "printed_country": "International",
-        "country": null,
+        "country": [
+          "AU",
+          "GB"
+        ],
         "apple_id": 1439673198,
         "apple_album_id": 1439673197,
         "apple_artist_id": 1698460,
@@ -61346,7 +61352,10 @@
         "track": "The Mercy Seat",
         "album": "Lovely Creatures",
         "printed_country": "International",
-        "country": null,
+        "country": [
+          "AU",
+          "GB"
+        ],
         "apple_id": 1438620924,
         "apple_album_id": 1438620787,
         "apple_artist_id": 1698460,
@@ -61358,7 +61367,10 @@
         "track": "The Weeping Song",
         "album": "Lovely Creatures",
         "printed_country": "International",
-        "country": null,
+        "country": [
+          "AU",
+          "GB"
+        ],
         "apple_id": 1439673209,
         "apple_album_id": 1439673197,
         "apple_artist_id": 1698460,
@@ -61384,7 +61396,10 @@
         "track": "Nature Boy",
         "album": "Lovely Creatures",
         "printed_country": "International",
-        "country": null,
+        "country": [
+          "AU",
+          "GB"
+        ],
         "apple_id": 1439673290,
         "apple_album_id": 1439673197,
         "apple_artist_id": 1698460,
@@ -61397,9 +61412,10 @@
         "album": "Lovely Creatures",
         "printed_country": null,
         "country": [
-          "AU"
+          "AU",
+          "GB"
         ],
-        "country_from": "archive",
+        "country_from": "musicbrainz",
         "apple_id": 1439673299,
         "apple_album_id": 1439673197,
         "apple_artist_id": 1698460,

@@ -938,5 +938,25 @@
       "album": "It's My Life: 1997-2006"
     },
     "why": "FM Достоевский #521, from fmd.soyuz.ru: transliterated; the owner pointed to Inquisitorum (Discogs artist 180717, a Moscow band), whose 2006 compilation «It's My Life: 1997-2006» (One Records, discogs.com/release/1386857) has track 7 «Гоп-Стоп»"
+  },
+  {
+    "artist": "captain beefheart",
+    "track": "abba zabba",
+    "restore": {
+      "artist": "Captain Beefheart",
+      "track": "Abba Zabba",
+      "album": "London 1974"
+    },
+    "why": "FM Достоевский #721, from Финам: the whole playlist is in lower case; MusicBrainz has Captain Beefheart’s «London 1974» (Movie Play Gold, 1994) with «Abba Zabba»"
+  },
+  {
+    "artist": "captain beefheart & the magic band",
+    "track": "further than we've gone",
+    "restore": {
+      "artist": "Captain Beefheart & The Magic Band",
+      "track": "Further Than We've Gone",
+      "album": "Bluejeans & Moonbeams"
+    },
+    "why": "FM Достоевский #721, from Финам: the whole playlist is in lower case; MusicBrainz has the recording «Further Than We’ve Gone» on «Bluejeans & Moonbeams» (1974); the artist as elsewhere in the archive (Стереоплан #33)"
   }
 ]
