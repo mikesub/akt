@@ -1045,5 +1045,15 @@
       "track": "Crackin' Stone"
     },
     "why": "«Песни и пляски» #1: misspelt; the single «Crackin' Stone / Caro Mio Ben» (Kelso 107, US) credits Nicky De Matteo (discogs.com/release/10255641)"
+  },
+  {
+    "artist": "goodiepal",
+    "track": "my robotic skills have failed",
+    "restore": {
+      "artist": "Gamers In Exile",
+      "track": "My Robotic Skills Have Failed",
+      "album": "Narc Beacon"
+    },
+    "why": "FM Достоевский #294: printed as Goodiepal’s, in lower case; on his «Narc Beacon» (Skipp, 2001) the track is credited to Gamers In Exile (discogs.com/release/197950)"
   }
 ]

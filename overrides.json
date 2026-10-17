@@ -2736,9 +2736,11 @@
     "why": "FM Достоевский #148 prints no country: David Thomas (Pere Ubu, USA) and Jane Bom-Bane (UK); the owner's word"
   },
   {
-    "artist": "goodiepal",
-    "track": "my robotic skills have failed",
+    "artist": "Gamers In Exile",
+    "track": "My Robotic Skills Have Failed",
     "country": ["GB", "IT"],
-    "why": "FM Достоевский #294 prints it as Goodiepal's, \"international\": on his «Narc Beacon» (Skipp, 2001) the track is by Gamers In Exile, a London duo of two Italian producers, Valerio Camporini Faggioni and Guido Zen (discogs.com/release/197950)"
+    "year": 2001,
+    "apple_artist_id": null,
+    "why": "FM Достоевский #294 prints it as Goodiepal's, \"international\": on his «Narc Beacon» (Skipp, 2001) the track is by Gamers In Exile, a London duo of two Italian producers, Valerio Camporini Faggioni and Guido Zen (discogs.com/release/197950). Its year is the album's (MusicBrainz said 1998); Apple has it under Goodiepal's name, so no artist link"
   }
 ]
