@@ -9,7 +9,7 @@ import { ARTICLES, MISSING, PLAYLISTS, fetchArticle, fetchPodcast } from '../src
 const USAGE = `Usage: svoboda [options]
 
 «Музыка на Свободе»: parse every new or edited playlist in programs/svoboda/playlists/ and find its tracks
-on Apple Music and MusicBrainz (and on Discogs when both leave the year out), into
+on Apple Music, MusicBrainz and Discogs, into
 docs/data/svoboda.json, as \`node bin/playlists.js svoboda\` does. Years and Apple Music links
 only: no genres.
 

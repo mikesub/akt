@@ -9,6 +9,11 @@ Routine updates (a new Стереоплан episode, a single fix) are not liste
 
 ## 2026-10-17
 
+- **Format:** `discogs_id` (a Discogs release, `https://www.discogs.com/release/<id>`) is now looked up for
+  every track, as `apple_id` and `mb_id` are; it was only asked for a track Apple Music and MusicBrainz left
+  without a year. New tracks get it as they come; the rest of the archive is filled over a day or two
+  (`--discogs`), so until then most tracks have no `discogs_id` key at all (not asked yet), as before.
+  A Discogs year still counts only when the other two have none. 10 ids set by hand (`overrides.json`).
 - **Format:** `country` can hold three codes outside ISO 3166-1, for territories no state is recognized
   for: `X-TIBET`, `X-KURDISTAN`, `X-UYGHURISTAN`. A playlist's "Tibet", "Kurdistan" and "Uighuristan"
   gave no code before. 15 tracks, in every program but `zapiski.json`.

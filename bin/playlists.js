@@ -5,8 +5,8 @@ import { program, programs } from '../src/playlists.js';
 
 const USAGE = `Usage: playlists <program> [options]
 
-Parse every new or edited playlist in programs/<program>/playlists/ and find its tracks on Apple Music
-and MusicBrainz (and on Discogs when both leave the year out), into docs/data/<program>.json.
+Parse every new or edited playlist in programs/<program>/playlists/ and find its tracks on Apple Music,
+MusicBrainz and Discogs, into docs/data/<program>.json.
 Years and Apple Music links only: no genres.
 
 Programs, each with a programs/<program>/playlists/ directory: ${programs().join(', ')}.

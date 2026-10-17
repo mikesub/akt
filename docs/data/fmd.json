@@ -96133,16 +96133,15 @@
     "playlist_hash": "b54d6a826e97d59a",
     "tracks": [
       {
-        "artist": "Limited Express",
-        "track": "2X5=10",
+        "artist": "Limited Express (Has Gone?)",
+        "track": "2 x 5 = 10",
         "album": "Feeds You!",
         "printed_country": "?",
-        "country": null,
-        "country_from": "musicbrainz",
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": 2200990,
-        "year": null
+        "country": [
+          "JP"
+        ],
+        "discogs_id": 740734,
+        "year": 2003
       },
       {
         "artist": "The Aluminium Group",
@@ -100899,6 +100898,7 @@
           "SE",
           "DE"
         ],
+        "discogs_id": 1305157,
         "year": 2003
       },
       {
@@ -102827,6 +102827,7 @@
         ],
         "apple_id": null,
         "mb_id": "8407e5f6-b4b4-46a0-9d24-ef0df79242b6",
+        "discogs_id": 3489267,
         "year": 2000
       },
       {
@@ -103829,6 +103830,7 @@
           "UA",
           "HU"
         ],
+        "discogs_id": 1203049,
         "year": 2003
       },
       {
@@ -113268,6 +113270,7 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "c7b9b9f5-248d-4dd9-9e1d-7ea02fcf01cf",
+        "discogs_id": 197950,
         "year": 2001
       },
       {
@@ -131803,6 +131806,7 @@
         "apple_album_id": 2455235,
         "apple_artist_id": 2455104,
         "mb_id": "4f24c609-a7f9-4aac-ba24-beff8b3a0422",
+        "discogs_id": 181076,
         "year": 2000
       },
       {
@@ -139175,6 +139179,7 @@
         "country": [
           "DE"
         ],
+        "discogs_id": 4419868,
         "year": 1999
       }
     ]
@@ -166987,6 +166992,7 @@
         ],
         "apple_id": null,
         "mb_id": "dd37cfe0-607f-401e-bfda-405cec589678",
+        "discogs_id": 3607191,
         "year": 1994
       },
       {

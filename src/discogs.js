@@ -2,9 +2,10 @@ import { get } from './http.js';
 import { credited, main, nearTitles, plain, sameAlbum, sameArtist, sameTitle, searchable } from './match.js';
 
 /**
- * The year of a track Apple Music and MusicBrainz leave without one, from
- * Discogs (no key, no login: 25 requests a minute, paced by src/http.js).
- * Only the year and the release id are kept, never anything else.
+ * A track's Discogs release, for a link, and its year, used only when Apple
+ * Music and MusicBrainz leave it out (no key, no login: 25 requests a minute,
+ * paced by src/http.js). Only the year and the release id are kept, never
+ * anything else.
  *
  * A release search by the host's artist and title, earliest first; a
  * release counts only when it is credited to the host's artist and its own

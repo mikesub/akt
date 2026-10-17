@@ -12,8 +12,8 @@ import { restoreTitle } from './titles.js';
 
 /**
  * One program's playlists to its data file: every new or edited playlist
- * parsed by `claude`, and every track found on Apple Music and MusicBrainz
- * (and on Discogs when both leave the year out). Keyed by episode number
+ * parsed by `claude`, and every track found on Apple Music, MusicBrainz and
+ * Discogs (its year only when the other two leave it out). Keyed by episode number
  * (Stereoplan's by guid), in the playlists' order, stable key order;
  * resumable, a failed playlist or lookup being retried on the next run.
  * bin/playlists.js runs it for any program with playlist files
@@ -35,6 +35,7 @@ export const OPTIONS = {
   misses: { type: 'boolean' },
   musicbrainz: { type: 'boolean' },
   relink: { type: 'boolean' },
+  discogs: { type: 'boolean' },
   only: { type: 'string' },
 };
 
@@ -48,6 +49,9 @@ export const OPTIONS_USAGE = `  --limit <n>        Parse at most n playlists, ne
   --musicbrainz      Look every track up on MusicBrainz again, and search Apple Music
                      again for each link that looks wrong
   --relink           Look every track up again from scratch (no new claude calls)
+  --discogs          Look up on Discogs every track never asked there: those parsed before
+                     every track was (2026-10-17); a run asks only new tracks, and those
+                     still without a year
   --only <pattern>   With --misses, --musicbrainz or --relink: only the tracks whose
                      artist, title or album matches the pattern (a regular expression)
 `;
@@ -74,6 +78,7 @@ export function checkOptions(values) {
     misses: values.misses ?? false,
     musicbrainz: values.musicbrainz ?? false,
     relink: values.relink ?? false,
+    discogs: values.discogs ?? false,
     matching: only,
   };
 }
@@ -88,7 +93,8 @@ function aired(episode, year) {
 }
 
 /** A track with the codes of the country its playlist prints (countries.json), under its restored names (titles.json), then with its hand fixes (overrides.json). */
-export const corrected = (track) => applyOverrides(shape(restoreTitle(coded(track))));
+// Shaped again after the overrides, so that a field one adds (a discogs_id) takes its place in the key order.
+export const corrected = (track) => shape(applyOverrides(shape(restoreTitle(coded(track)))));
 
 /**
  * A track's country codes, from its printed country whenever it has one, the
@@ -131,7 +137,8 @@ const shape = ({ artist, track, album, printed_country, country, country_from, a
  * Each source: which tracks still need it, and how its answer goes into a
  * track. The year is MusicBrainz's (the original release), else Apple's,
  * else Discogs's, whichever of the first two answers first; none counts if
- * it is after the episode aired.
+ * it is after the episode aired. Discogs is asked about every track, once
+ * the other two have answered, for its release id; see lookUp for which.
  */
 const sources = {
   apple: {
@@ -149,7 +156,7 @@ const sources = {
     },
   },
   discogs: {
-    needs: (track) => 'apple_id' in track && 'mb_id' in track && track.year === null && !('discogs_id' in track),
+    needs: (track) => 'apple_id' in track && 'mb_id' in track && !('discogs_id' in track),
     ask: async (track, episode) => {
       const found = await findOnDiscogs(track);
       return (t) => ({ ...t, discogs_id: found.discogs_id, year: t.year ?? aired(episode, found.year) });
@@ -190,7 +197,7 @@ function forget(track, { misses, musicbrainz, relink }) {
   const keep = {
     ...(!(misses && apple_id === null) && { apple_id }),
     ...(!((misses && mb_id === null) || musicbrainz) && { mb_id }),
-    // Discogs is asked again with MusicBrainz, if the year is still missing then.
+    // Discogs is asked again with MusicBrainz.
     ...(!((misses && (discogs_id ?? null) === null) || musicbrainz) && { discogs_id }),
   };
   return { ...rest, ...keep };
@@ -210,7 +217,7 @@ function forget(track, { misses, musicbrainz, relink }) {
  */
 export async function run(
   { id, playlists: dir, data, read = () => readPlaylists(dir), parse = parsePlaylist },
-  { limit = Infinity, episode: only = null, parseOnly = false, misses = false, musicbrainz = false, relink = false, matching = null } = {},
+  { limit = Infinity, episode: only = null, parseOnly = false, misses = false, musicbrainz = false, relink = false, discogs = false, matching = null } = {},
 ) {
   let saved = 0;
   /** Stable key order, newest episode first. Written whole and renamed into place, so a killed run leaves the previous file. */
@@ -308,16 +315,22 @@ export async function run(
   /**
    * One source's lookups, newest episode first, one at a time (src/http.js
    * paces each host). The three sources run side by side, being three hosts.
-   * A failed lookup is left for the next run.
+   * A failed lookup is left for the next run. Discogs, at 25 requests a
+   * minute, is asked about the tracks of the playlists parsed in this run and
+   * those without a year; the rest, parsed before it was asked about every
+   * track, only with `discogs` (a day or two for the whole archive).
    */
+  const fresh = new Set(toParse);
   async function lookUp(name) {
-    const { needs, ask } = sources[name];
+    const { ask } = sources[name];
+    const needs = (track, episode) =>
+      sources[name].needs(track) && (name !== 'discogs' || discogs || track.year === null || fresh.has(episode));
     const failed = new Set();
     let done = 0;
     for (;;) {
       let next = null;
       for (const episode of episodes) {
-        const i = episode.tracks?.findIndex((track, j) => needs(track) && !failed.has(`${nameOf(episode)}:${j}`)) ?? -1;
+        const i = episode.tracks?.findIndex((track, j) => needs(track, episode) && !failed.has(`${nameOf(episode)}:${j}`)) ?? -1;
         if (i >= 0) {
           next = { episode, tracks: episode.tracks, i };
           break;
@@ -333,7 +346,7 @@ export async function run(
         const update = await ask(tracks[i], episode);
         // Dropped if the playlist was parsed again meanwhile.
         if (episode.tracks === tracks) {
-          tracks[i] = applyOverrides(shape(update(tracks[i])));
+          tracks[i] = shape(applyOverrides(shape(update(tracks[i]))));
           save(episodes);
         }
       } catch (err) {

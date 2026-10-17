@@ -23,14 +23,14 @@ Stop and ask if the tree has uncommitted changes: they are not yours to commit.
 node bin/stereoplan.js
 ```
 
-It fetches the feed, saves each episode's description in `programs/stereoplan/descriptions/`, sends every new or edited one to `claude` (about 20 s each), and looks each new track up on Apple Music (about 6 s a track), MusicBrainz (about 3–10 s, slower when it is busy) and Discogs (only a track both left without a year), the three side by side, saving `docs/data/stereoplan.json` as it goes. Read its output:
+It fetches the feed, saves each episode's description in `programs/stereoplan/descriptions/`, sends every new or edited one to `claude` (about 20 s each), and looks each new track up on Apple Music (about 6 s a track), MusicBrainz (about 3–10 s, slower when it is busy) and Discogs (about 5–15 s, after the other two: its release id, and the year when both left it out), the three side by side, saving `docs/data/stereoplan.json` as it goes. Read its output:
 
 - `stereoplan: 90 playlists, 1 to parse, 0 tracks already parsed to look up`: how many episodes were new or edited.
 - `#90: 13 tracks`: an episode parsed.
 - `stereoplan: 90 playlists, 1198 tracks: 1061 on Apple Music, …`: the whole program after the run.
 - `apple: 10 by search, 1 from the artist's catalog, 0 from the album, 0 by a near title, 2 not found`: how this run's matches were made.
 - `musicbrainz: 9 by search, 1 through the artist, 0 by a near title, 3 not found`: the same for MusicBrainz, which gives the original release year.
-- `discogs: 1 by the track, 0 by the album, 1 not found`: the tracks Discogs was asked about, for a missing year.
+- `discogs: 12 by the track, 0 by the album, 1 not found`: the same for Discogs, asked about every new track.
 - Anything on stderr (`#90 musicbrainz: … HTTP 503`, `retrying in …`, `N failed; run again to retry them`) is a failure or throttling. A failed parse keeps the episode's old tracks and a failed lookup is left for the next run: run the command again; if it fails again, stop and report.
 
 If it says `0 to parse` and nothing to look up, there is nothing new: say so and stop.

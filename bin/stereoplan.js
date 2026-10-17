@@ -13,8 +13,8 @@ const DESCRIPTIONS = join(ROOT, 'programs', 'stereoplan', 'descriptions');
 const USAGE = `Usage: stereoplan [options]
 
 «Стереоплан Троицкого»: fetch the feed, keep each episode's description in
-programs/stereoplan/descriptions/, parse every new or edited one and find its tracks on Apple Music
-and MusicBrainz (and on Discogs when both leave the year out), into
+programs/stereoplan/descriptions/, parse every new or edited one and find its tracks on Apple Music,
+MusicBrainz and Discogs, into
 docs/data/stereoplan.json, as \`node bin/playlists.js\` does for the other programs.
 
 Options:

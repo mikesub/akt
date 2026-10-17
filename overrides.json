@@ -2700,6 +2700,7 @@
     "track": "Crackin' Stone",
     "country": ["US"],
     "year": 1962,
+    "discogs_id": 8902452,
     "why": "«Песни и пляски» #1 prints no country: the single «Crackin' Stone / Caro Mio Ben» (Kelso 107, US; discogs.com/release/10255641, undated), first out in 1962 on Fourex 1650 as Nicky Shane, his alias (discogs.com/release/8902452, the same master)"
   },
   {
@@ -2718,6 +2719,7 @@
     "track": "Boom-A-Lay",
     "country": ["US"],
     "year": 1961,
+    "discogs_id": 5002617,
     "why": "«Песни и пляски» #1 prints no country: the single «Boom-A-Lay / Hide And Seek» (Imperial X5760, US, 1961; discogs.com/release/5002617); MusicBrainz found only a 2010 compilation"
   },
   {
@@ -2741,6 +2743,7 @@
     "country": ["GB", "IT"],
     "year": 2001,
     "apple_artist_id": null,
+    "discogs_id": 197950,
     "why": "FM Достоевский #294 prints it as Goodiepal's, \"international\": on his «Narc Beacon» (Skipp, 2001) the track is by Gamers In Exile, a London duo of two Italian producers, Valerio Camporini Faggioni and Guido Zen (discogs.com/release/197950). Its year is the album's (MusicBrainz said 1998); Apple has it under Goodiepal's name, so no artist link"
   },
   {
@@ -2783,6 +2786,7 @@
     "track": "The Surrey With The Fringe On Top",
     "country": ["SE", "DE"],
     "year": 2003,
+    "discogs_id": 1305157,
     "why": "FM Достоевский #354 prints the trio as \"international\": Sweden and Germany, the owner's word; «Hudson Riv» (Grob GROB 542, Germany, 2003; discogs.com/release/1305157)"
   },
   {
@@ -2828,6 +2832,7 @@
     "track": "Foto Viva",
     "country": ["DE"],
     "year": 1999,
+    "discogs_id": 4419868,
     "why": "FM Достоевский #155 prints no country: Germany, 1999, the owner's word; «Women's World Voices» (Blue Flame, Germany, 1999; discogs.com/release/4419868)"
   },
   {
@@ -2835,6 +2840,33 @@
     "track": "Роботы",
     "country": ["SU", "DE", "UA", "HU"],
     "year": 2003,
+    "discogs_id": 1203049,
     "why": "FM Достоевский #340 prints the band as \"international\": the USSR, Germany, Ukraine and Hungary, the owner's word; «Russendisko Hits» (Trikont, Germany, 2003; discogs.com/release/1203049)"
+  },
+  {
+    "artist": "Duck, See Goose",
+    "track": "La Decadance",
+    "discogs_id": 3607191,
+    "why": "FM Достоевский #30: «La Decadance», discogs.com/release/3607191, from the owner"
+  },
+  {
+    "artist": "Tabla Beat Science",
+    "track": "Devotional",
+    "discogs_id": 181076,
+    "why": "FM Достоевский #199: «Tala Matrix» (Axiom, 2000), discogs.com/release/181076, from the owner"
+  },
+  {
+    "artist": "the barry gemso experience",
+    "track": "dial 's' for siren",
+    "discogs_id": 3489267,
+    "why": "FM Достоевский #345: «La Via Vie» (Siesta, 2003), discogs.com/release/3489267, from the owner"
+  },
+  {
+    "artist": "Limited Express (Has Gone?)",
+    "track": "2 x 5 = 10",
+    "country": ["JP"],
+    "discogs_id": 740734,
+    "year": 2003,
+    "why": "FM Достоевский #375: a band from Kansai, Japan; «Feeds You!» (Tzadik TZ 7241, 2003; discogs.com/release/740734), the owner's word"
   }
 ]
