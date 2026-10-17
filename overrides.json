@@ -2829,5 +2829,12 @@
     "country": ["DE"],
     "year": 1999,
     "why": "FM Достоевский #155 prints no country: Germany, 1999, the owner's word; «Women's World Voices» (Blue Flame, Germany, 1999; discogs.com/release/4419868)"
+  },
+  {
+    "artist": "Rotfront",
+    "track": "Роботы",
+    "country": ["SU", "DE", "UA", "HU"],
+    "year": 2003,
+    "why": "FM Достоевский #340 prints the band as \"international\": the USSR, Germany, Ukraine and Hungary, the owner's word; «Russendisko Hits» (Trikont, Germany, 2003; discogs.com/release/1203049)"
   }
 ]

@@ -103820,15 +103820,17 @@
         "year": 2002
       },
       {
-        "artist": "rot front",
-        "track": "roboty",
-        "album": "russendisko hits",
+        "artist": "Rotfront",
+        "track": "Роботы",
+        "album": "Russendisko Hits",
         "printed_country": "international",
-        "country": null,
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "country": [
+          "SU",
+          "DE",
+          "UA",
+          "HU"
+        ],
+        "year": 2003
       },
       {
         "artist": "king of woolworths",
