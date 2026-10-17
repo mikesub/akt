@@ -9337,8 +9337,9 @@
         "track": "Troubled Man",
         "album": "The Beat From 20,000 Garages - The Best Of Rebels Volume Three",
         "printed_country": "?",
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "GB"
+        ],
         "mb_id": "87a205e5-f0d3-4864-be95-b639b4873521",
         "discogs_id": 20724802,
         "year": 2020
