@@ -2742,5 +2742,35 @@
     "year": 2001,
     "apple_artist_id": null,
     "why": "FM Достоевский #294 prints it as Goodiepal's, \"international\": on his «Narc Beacon» (Skipp, 2001) the track is by Gamers In Exile, a London duo of two Italian producers, Valerio Camporini Faggioni and Guido Zen (discogs.com/release/197950). Its year is the album's (MusicBrainz said 1998); Apple has it under Goodiepal's name, so no artist link"
+  },
+  {
+    "artist": "Юлия Теуникова",
+    "country": ["RU"],
+    "why": "«Музыка на Свободе» of 2022-04-03 prints no country: Russia, the owner's word"
+  },
+  {
+    "artist": "Слава Толстой",
+    "country": ["US", "RU"],
+    "why": "«Музыка на Свободе» of 2023-02-26 prints no country: the USA and Russia, the owner's word"
+  },
+  {
+    "artist": "Керосинов",
+    "country": ["RU"],
+    "why": "«Музыка на Свободе» #307 prints its country as \"?\": Russia, the owner's word"
+  },
+  {
+    "artist": "The Tagil",
+    "country": ["RU"],
+    "why": "«Музыка на Свободе» #307 prints its country as \"?\", that of 2023-02-26 none: Russia, the owner's word"
+  },
+  {
+    "artist": "Антiорки",
+    "country": ["US", "SU"],
+    "why": "«Музыка на Свободе» of 2023-02-26 prints no country: the USA and the USSR, the owner's word"
+  },
+  {
+    "artist": "Vanishing Breed",
+    "country": ["GB"],
+    "why": "FM Достоевский #488 prints the band as \"int'l\": the UK, the owner's word"
   }
 ]

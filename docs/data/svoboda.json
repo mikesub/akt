@@ -10603,8 +10603,9 @@
         "track": "Путина нет",
         "album": null,
         "printed_country": "?",
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "RU"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -10759,8 +10760,9 @@
         "track": "Солдатская с грустинкой",
         "album": null,
         "printed_country": "?",
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "RU"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -69612,8 +69614,10 @@
         "track": "Ты вне",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "US",
+          "RU"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -69684,8 +69688,9 @@
         "track": "Ещё хуже",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "RU"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -69696,8 +69701,10 @@
         "track": "Большим п*Z***цом",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "US",
+          "SU"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
@@ -70142,8 +70149,9 @@
         "track": "Беженцы",
         "album": null,
         "printed_country": null,
-        "country": null,
-        "country_from": "musicbrainz",
+        "country": [
+          "RU"
+        ],
         "apple_id": null,
         "mb_id": null,
         "discogs_id": null,
