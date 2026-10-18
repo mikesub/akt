@@ -12762,9 +12762,10 @@
           "Pop"
         ],
         "discogs_styles": [
+          "Rock & Roll",
+          "Pop Rock",
           "Novelty",
-          "Horror Rock",
-          "Vocal"
+          "Horror Rock"
         ],
         "year": 1962,
         "year_from": "musicbrainz"
@@ -15238,7 +15239,9 @@
         "discogs_genres": [
           "Folk, World, & Country"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Folk"
+        ],
         "year": 2015,
         "year_from": "musicbrainz"
       },
@@ -15259,7 +15262,9 @@
         "discogs_genres": [
           "Folk, World, & Country"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Folk"
+        ],
         "year": 2015,
         "year_from": "musicbrainz"
       },
@@ -16097,9 +16102,13 @@
         "discogs_id": 7736263,
         "discogs_master_id": 1012806,
         "discogs_genres": [
-          "Rock"
+          "Electronic",
+          "Folk, World, & Country"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Ambient",
+          "Trance"
+        ],
         "year": 2015,
         "year_from": "musicbrainz"
       }

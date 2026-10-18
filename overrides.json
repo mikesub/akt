@@ -6119,5 +6119,87 @@
     "year": 2006,
     "year_from": "discogs",
     "why": "Discogs release 12337869 («No Radio Da Minha Cabeca», 2006) has the track; MusicBrainz's 2010 is a later release's (Discogs releases dump, matched by track)"
+  },
+  {
+    "artist": "The Deadbeats",
+    "track": "Sexy Sadie",
+    "album": "On tar beach",
+    "year": 1985,
+    "year_from": "discogs",
+    "why": "Stereo Voodoo #110: B5 of «On Tar Beach» (discogs.com/master/507853, Discogs' «Dead Beats (2)»), 1985; MusicBrainz's 2014 is a later release's"
+  },
+  {
+    "artist": "María Salgado",
+    "track": "Tu",
+    "album": "Mirandote",
+    "year": 1993,
+    "year_from": "discogs",
+    "why": "FM Достоевский #129: «Tú (Habanera)», track 3 of «Mirándote» (discogs.com/master/1459327), 1993; MusicBrainz's 1998 is a later release's"
+  },
+  {
+    "artist": "Francis Lai",
+    "track": "Un Homme et une Femme",
+    "album": "The Best of Francis Lai",
+    "discogs_id": 2146754,
+    "discogs_master_id": 234932,
+    "year": 1966,
+    "year_from": "discogs",
+    "why": "Музыка на Свободе #9: the film's theme, first on «Un Homme Et Une Femme / Samba Saravah» (discogs.com/release/2146754, master 234932), 1966; MusicBrainz's 1975 is a compilation's; the masters dump had matched the album «The Best Of Francis Lai» (master 3173766), which does not have it"
+  },
+  {
+    "artist": "el kinto",
+    "track": "que me importa",
+    "album": "circa 1968",
+    "discogs_id": 6667893,
+    "discogs_master_id": null,
+    "why": "FM Достоевский #640: the masters dump had matched the album «Circa 1968» (master 853124), which does not have it; discogs.com/release/6667893 (no master) has the track, by Discogs' search"
+  },
+  {
+    "artist": "Terrence Dixon",
+    "track": "The Auto Factory",
+    "album": "From the Far Future",
+    "discogs_id": 3936805,
+    "discogs_master_id": 479230,
+    "why": "Музыка на Свободе #155: the masters dump had matched the album «From The Far Future» (master 99666, 2000), which does not have it; discogs.com/release/3936805 (master 479230, 2012) has the track, by Discogs' search"
+  },
+  {
+    "artist": "Kylie Minogue",
+    "track": "Too Far",
+    "album": "Kylie Minogue",
+    "discogs_id": 15544388,
+    "discogs_master_id": 1373513,
+    "why": "FM Достоевский #68: the masters dump had matched the 1994 «Kylie Minogue» (master 31295), which does not have it; the 1997 album of that name (discogs.com/release/15544388, master 1373513) has the track, by Discogs' search"
+  },
+  {
+    "artist": "Crystal Castles",
+    "track": "celestica",
+    "album": "crystal castles",
+    "discogs_id": 2483107,
+    "discogs_master_id": 274677,
+    "why": "FM Достоевский #707: the masters dump had matched the 2008 «Crystal Castles» (master 33450), which does not have it; the 2010 album of that name (discogs.com/release/2483107, master 274677) has the track, by Discogs' search"
+  },
+  {
+    "artist": "The Eternals",
+    "track": "birthday in the stars",
+    "album": "astropioneers",
+    "discogs_id": 244183,
+    "discogs_master_id": 63935,
+    "why": "FM Достоевский #358: the masters dump had matched «Astropioneers» (master 63927, 2001), which does not have it; discogs.com/release/244183 (master 63935, 2003) has the track, by Discogs' search"
+  },
+  {
+    "artist": "The Residents",
+    "track": "Eloise",
+    "album": "Whatever Happened to Vileness Fats",
+    "discogs_id": null,
+    "discogs_master_id": null,
+    "why": "Музыка на Свободе #73: the masters dump had matched the album «Whatever Happened To Vileness Fats?» (master 47899), which does not have it; Discogs' search finds only a live version (master 21166, 1986): no Discogs record for this one"
+  },
+  {
+    "artist": "bader motor",
+    "track": "baden sontag",
+    "album": "grautag",
+    "discogs_id": null,
+    "discogs_master_id": null,
+    "why": "Stereo Voodoo #26: the masters dump had matched the album «Grautag» (master 521059), which does not have it, and so does Discogs' search by the album; nothing by the track: no Discogs record for this one"
   }
 ]

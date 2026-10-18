@@ -27963,15 +27963,19 @@
         "apple_album_id": 1667368208,
         "apple_artist_id": 213344206,
         "mb_id": "8bc9f388-a084-4943-88a6-b2721201da3c",
-        "discogs_master_id": 33450,
+        "discogs_id": 2483107,
+        "discogs_master_id": 274677,
         "discogs_genres": [
-          "Electronic"
+          "Electronic",
+          "Rock"
         ],
         "discogs_styles": [
-          "Glitch",
+          "Synthpunk",
+          "Noise",
+          "Noise Rock",
+          "Synth-pop",
           "Electro",
-          "Chiptune",
-          "Synth-pop"
+          "Experimental"
         ],
         "year": 2010,
         "year_from": "musicbrainz"
@@ -29066,8 +29070,9 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [
+          "Space-Age",
           "Easy Listening",
-          "Space-Age"
+          "Exotica"
         ],
         "year": 1958,
         "year_from": "musicbrainz"
@@ -39455,16 +39460,9 @@
         "discogs_id": 38380995,
         "discogs_master_id": 3263008,
         "discogs_genres": [
-          "Electronic",
-          "Rock",
           "Stage & Screen"
         ],
         "discogs_styles": [
-          "Ambient",
-          "Art Rock",
-          "Avantgarde",
-          "Experimental",
-          "Score",
           "Soundtrack"
         ],
         "year": 2009,
@@ -52548,18 +52546,8 @@
         ],
         "apple_id": null,
         "mb_id": "1702fef6-94ee-4f43-bf08-cb471a33d7d9",
-        "discogs_master_id": 853124,
-        "discogs_genres": [
-          "Rock",
-          "Latin",
-          "Funk / Soul"
-        ],
-        "discogs_styles": [
-          "Bossanova",
-          "Samba",
-          "Psychedelic Rock",
-          "Soul"
-        ],
+        "discogs_id": 6667893,
+        "discogs_master_id": null,
         "year": 1997,
         "year_from": "musicbrainz"
       },
@@ -72689,11 +72677,11 @@
         "discogs_id": 34619848,
         "discogs_master_id": 3337777,
         "discogs_genres": [
-          "Electronic",
-          "Jazz"
+          "Electronic"
         ],
         "discogs_styles": [
-          "Experimental"
+          "Experimental",
+          "Ambient"
         ],
         "year": 2007,
         "year_from": "musicbrainz"
@@ -103267,8 +103255,7 @@
           "Electronic"
         ],
         "discogs_styles": [
-          "Synth-pop",
-          "Experimental"
+          "Synth-pop"
         ],
         "year": 1982,
         "year_from": "musicbrainz"
@@ -104933,10 +104920,8 @@
         ],
         "discogs_styles": [
           "Soundtrack",
-          "Score",
-          "Space-Age",
           "Abstract",
-          "Experimental"
+          "Theme"
         ],
         "year": 2006,
         "year_from": "musicbrainz"
@@ -112529,7 +112514,7 @@
           "Electronic"
         ],
         "discogs_styles": [
-          "Abstract",
+          "Glitch",
           "IDM",
           "Experimental",
           "Ambient"
@@ -121042,10 +121027,12 @@
         "discogs_id": 6483163,
         "discogs_master_id": 779295,
         "discogs_genres": [
+          "Pop",
           "Folk, World, & Country"
         ],
         "discogs_styles": [
-          "Gypsy Jazz"
+          "Romani",
+          "Brass Band"
         ],
         "year": 2005,
         "year_from": "musicbrainz"
@@ -121874,8 +121861,7 @@
         ],
         "discogs_styles": [
           "Folk Rock",
-          "Art Rock",
-          "Psychedelic Rock"
+          "Experimental"
         ],
         "year": 2005,
         "year_from": "musicbrainz"
@@ -146952,8 +146938,7 @@
         "discogs_id": 2744220,
         "discogs_master_id": 111943,
         "discogs_genres": [
-          "Rock",
-          "Pop"
+          "Rock"
         ],
         "discogs_styles": [
           "Rock & Roll",
@@ -157464,12 +157449,17 @@
         ],
         "apple_id": null,
         "mb_id": "b24fbbad-a74c-4a6a-804d-e40b758627c9",
-        "discogs_master_id": 63927,
+        "discogs_id": 244183,
+        "discogs_master_id": 63935,
         "discogs_genres": [
           "Electronic"
         ],
         "discogs_styles": [
-          "House"
+          "Soundtrack",
+          "House",
+          "Electro",
+          "Downtempo",
+          "Ambient"
         ],
         "year": 2003,
         "year_from": "musicbrainz"
@@ -171057,6 +171047,7 @@
           "Rock"
         ],
         "discogs_styles": [
+          "Folk Rock",
           "Acoustic",
           "Country Rock"
         ],
@@ -174235,7 +174226,9 @@
           "Blues",
           "Folk, World, & Country"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Country"
+        ],
         "year": 2002,
         "year_from": "discogs"
       },
@@ -181122,11 +181115,11 @@
         "discogs_id": 2406810,
         "discogs_master_id": 4506,
         "discogs_genres": [
-          "Electronic",
-          "Pop"
+          "Electronic"
         ],
         "discogs_styles": [
-          "Electro"
+          "Electro",
+          "Downtempo"
         ],
         "year": 2001,
         "year_from": "musicbrainz"
@@ -182440,11 +182433,11 @@
         "discogs_id": 2566944,
         "discogs_master_id": 294420,
         "discogs_genres": [
-          "Electronic"
+          "Jazz",
+          "Rock"
         ],
         "discogs_styles": [
-          "Trip Hop",
-          "Experimental"
+          "Contemporary Jazz"
         ],
         "year": 1997,
         "year_from": "musicbrainz"
@@ -184703,7 +184696,8 @@
         "discogs_id": 6398348,
         "discogs_master_id": 859092,
         "discogs_genres": [
-          "Pop"
+          "Pop",
+          "Stage & Screen"
         ],
         "discogs_styles": [],
         "year": 2001,
@@ -184923,9 +184917,9 @@
           "Electronic"
         ],
         "discogs_styles": [
-          "House",
-          "Tribal",
-          "Tribal House"
+          "Leftfield",
+          "Future Jazz",
+          "Downtempo"
         ],
         "year": 2002,
         "year_from": "musicbrainz"
@@ -191805,9 +191799,7 @@
           "Rock",
           "Folk, World, & Country"
         ],
-        "discogs_styles": [
-          "Indie Rock"
-        ],
+        "discogs_styles": [],
         "year": 2000,
         "year_from": "musicbrainz"
       },
@@ -219143,8 +219135,7 @@
         "discogs_id": 3067275,
         "discogs_master_id": 363747,
         "discogs_genres": [
-          "Electronic",
-          "Pop"
+          "Electronic"
         ],
         "discogs_styles": [
           "Abstract",
@@ -223966,11 +223957,15 @@
         "discogs_id": 1713066,
         "discogs_master_id": 52781,
         "discogs_genres": [
-          "Electronic"
+          "Electronic",
+          "Jazz",
+          "Pop"
         ],
         "discogs_styles": [
-          "Acid Jazz",
-          "Downtempo"
+          "Downtempo",
+          "Leftfield",
+          "Smooth Jazz",
+          "Experimental"
         ],
         "year": 1999,
         "year_from": "musicbrainz"
@@ -224437,8 +224432,7 @@
         ],
         "discogs_styles": [
           "Afro-Cuban Jazz",
-          "Afro-Cuban",
-          "Plena"
+          "Afro-Cuban"
         ],
         "year": 1998,
         "year_from": "musicbrainz"
@@ -226724,8 +226718,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [],
-        "year": 1998,
-        "year_from": "musicbrainz"
+        "year": 1993,
+        "year_from": "discogs"
       },
       {
         "artist": "The Jon Spencer Blues Explosion",
@@ -236480,9 +236474,10 @@
           "Rock"
         ],
         "discogs_styles": [
-          "Thrash",
           "Hardcore",
-          "Power Violence"
+          "Power Violence",
+          "Punk",
+          "Grindcore"
         ],
         "year": 1997,
         "year_from": "musicbrainz"
@@ -248494,13 +248489,15 @@
         "apple_album_id": null,
         "apple_artist_id": 465031,
         "mb_id": "1d3e80d8-d19f-4e5c-9aa0-698f77177e83",
-        "discogs_master_id": 31295,
+        "discogs_id": 15544388,
+        "discogs_master_id": 1373513,
         "discogs_genres": [
           "Electronic"
         ],
         "discogs_styles": [
+          "Progressive House",
           "House",
-          "Synth-pop"
+          "Tribal House"
         ],
         "year": 1997,
         "year_from": "musicbrainz"
@@ -250133,9 +250130,9 @@
           "Jazz"
         ],
         "discogs_styles": [
-          "Free Jazz",
+          "Avant-garde Jazz",
           "Space-Age",
-          "Avant-garde Jazz"
+          "Free Jazz"
         ],
         "year": 1965,
         "year_from": "musicbrainz"
@@ -262572,7 +262569,9 @@
         "discogs_id": 12594178,
         "discogs_master_id": 86323,
         "discogs_genres": [
-          "Jazz"
+          "Jazz",
+          "Pop",
+          "Stage & Screen"
         ],
         "discogs_styles": [
           "Easy Listening"
@@ -264028,8 +264027,8 @@
         ],
         "discogs_styles": [
           "Downtempo",
-          "Drum n Bass",
-          "Jungle"
+          "Breaks",
+          "Drum n Bass"
         ],
         "year": 1997,
         "year_from": "musicbrainz"
@@ -265385,10 +265384,11 @@
         "discogs_id": 5469562,
         "discogs_master_id": 1145539,
         "discogs_genres": [
-          "Rock",
-          "Latin"
+          "Rock"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Pop Rock"
+        ],
         "year": 1997,
         "year_from": "musicbrainz"
       },
@@ -269949,9 +269949,11 @@
         "discogs_id": 5471979,
         "discogs_master_id": 662620,
         "discogs_genres": [
+          "Jazz",
           "Pop"
         ],
         "discogs_styles": [
+          "Bop",
           "Novelty",
           "Horror Rock"
         ],

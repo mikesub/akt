@@ -392,8 +392,9 @@
           "Funk / Soul"
         ],
         "discogs_styles": [
-          "Funk",
-          "Soul"
+          "Soul",
+          "Psychedelic",
+          "Funk"
         ],
         "year": 1975,
         "year_from": "musicbrainz"
@@ -433,8 +434,8 @@
           "Rock"
         ],
         "discogs_styles": [
-          "Pop Rock",
-          "Indie Rock"
+          "Alternative Rock",
+          "Pop Rock"
         ],
         "year": 1985,
         "year_from": "musicbrainz"
@@ -8249,10 +8250,9 @@
           "Pop"
         ],
         "discogs_styles": [
-          "Easy Listening",
-          "Bossa Nova",
+          "Novelty",
           "Vocal",
-          "Erotic"
+          "Easy Listening"
         ],
         "year": 1963,
         "year_from": "musicbrainz"
@@ -12400,7 +12400,12 @@
         "discogs_genres": [
           "Rock"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Rhythm & Blues",
+          "Psychedelic Rock",
+          "Beat",
+          "Mod"
+        ],
         "year": 1966,
         "year_from": "musicbrainz"
       },
@@ -17195,7 +17200,6 @@
         "discogs_master_id": 507619,
         "discogs_genres": [
           "Jazz",
-          "Pop",
           "Folk, World, & Country"
         ],
         "discogs_styles": [
@@ -23101,12 +23105,12 @@
         "discogs_master_id": 115769,
         "discogs_genres": [
           "Electronic",
+          "Pop",
           "Folk, World, & Country"
         ],
         "discogs_styles": [
           "Electro",
-          "Synth-pop",
-          "House"
+          "Synth-pop"
         ],
         "year": 2020,
         "year_from": "musicbrainz"
@@ -24755,9 +24759,16 @@
         "discogs_id": 22009756,
         "discogs_master_id": 2494189,
         "discogs_genres": [
+          "Rock",
           "Pop"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Pop Rock",
+          "Indie Pop",
+          "Indie Rock",
+          "Soft Rock",
+          "Britpop"
+        ],
         "year": 2021,
         "year_from": "musicbrainz"
       },
@@ -26971,10 +26982,12 @@
         "discogs_id": 26063356,
         "discogs_master_id": 371822,
         "discogs_genres": [
-          "Rock",
-          "Pop"
+          "Rock"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Art Rock",
+          "Pop Rock"
+        ],
         "year": 1994,
         "year_from": "musicbrainz"
       },
@@ -27037,15 +27050,13 @@
         "discogs_id": 15095196,
         "discogs_master_id": 1514428,
         "discogs_genres": [
-          "Electronic",
           "Rock",
           "Pop"
         ],
         "discogs_styles": [
           "Art Rock",
-          "Pop Rock",
-          "Acoustic",
-          "Ballad"
+          "Alternative Rock",
+          "Pop Rock"
         ],
         "year": 1991,
         "year_from": "musicbrainz"
@@ -27703,12 +27714,11 @@
         "discogs_master_id": 747273,
         "discogs_genres": [
           "Jazz",
+          "Classical",
           "Stage & Screen"
         ],
         "discogs_styles": [
-          "Contemporary Jazz",
-          "Easy Listening",
-          "Soundtrack"
+          "Score"
         ],
         "year": 2002,
         "year_from": "owner"
@@ -33957,6 +33967,7 @@
         "discogs_id": 6393966,
         "discogs_master_id": 275346,
         "discogs_genres": [
+          "Electronic",
           "Rock"
         ],
         "discogs_styles": [
@@ -41310,11 +41321,10 @@
         "discogs_id": 5201560,
         "discogs_master_id": 631920,
         "discogs_genres": [
+          "Jazz",
           "Funk / Soul"
         ],
-        "discogs_styles": [
-          "Soul"
-        ],
+        "discogs_styles": [],
         "year": 1959,
         "year_from": "owner"
       },
@@ -42481,12 +42491,15 @@
         "discogs_master_id": 374115,
         "discogs_genres": [
           "Electronic",
+          "Jazz",
+          "Rock",
           "Pop"
         ],
         "discogs_styles": [
+          "Soft Rock",
           "Downtempo",
-          "Ballad",
-          "Vocal"
+          "Experimental",
+          "Ballad"
         ],
         "year": 1994,
         "year_from": "musicbrainz"
@@ -64161,14 +64174,14 @@
         "apple_album_id": null,
         "apple_artist_id": 220130808,
         "mb_id": "4ea348e9-3432-4e61-9ef7-43b7a9bac6d5",
-        "discogs_master_id": 99666,
+        "discogs_id": 3936805,
+        "discogs_master_id": 479230,
         "discogs_genres": [
           "Electronic"
         ],
         "discogs_styles": [
-          "Breaks",
           "Techno",
-          "Electro"
+          "Minimal"
         ],
         "year": 2012,
         "year_from": "musicbrainz"
@@ -65247,7 +65260,7 @@
         ],
         "discogs_styles": [
           "Tribal",
-          "Modern Classical",
+          "Noise",
           "Ambient"
         ],
         "year": 1991,
@@ -67725,12 +67738,12 @@
         "discogs_master_id": 15725,
         "discogs_genres": [
           "Electronic",
-          "Reggae"
+          "Rock"
         ],
         "discogs_styles": [
           "Dub",
-          "Industrial",
-          "Noise"
+          "Avantgarde",
+          "Experimental"
         ],
         "year": 2019,
         "year_from": "musicbrainz"
@@ -69240,9 +69253,7 @@
         "discogs_genres": [
           "Rock"
         ],
-        "discogs_styles": [
-          "Experimental"
-        ],
+        "discogs_styles": [],
         "year": 2017,
         "year_from": "musicbrainz"
       },
@@ -70770,7 +70781,9 @@
           "Rock"
         ],
         "discogs_styles": [
-          "Psychedelic Rock"
+          "Psychedelic Rock",
+          "Space Rock",
+          "Shoegaze"
         ],
         "year": 2015,
         "year_from": "owner"
@@ -85070,7 +85083,9 @@
           "Rock"
         ],
         "discogs_styles": [
-          "Psychedelic Rock"
+          "Psychedelic Rock",
+          "Space Rock",
+          "Shoegaze"
         ],
         "year": 2015,
         "year_from": "owner"
@@ -89162,16 +89177,8 @@
         "apple_album_id": null,
         "apple_artist_id": 26238269,
         "mb_id": "3333c1d2-3604-496c-8aa0-c6c9853a9fab",
-        "discogs_master_id": 47899,
-        "discogs_genres": [
-          "Electronic",
-          "Stage & Screen"
-        ],
-        "discogs_styles": [
-          "Experimental",
-          "Soundtrack",
-          "Avantgarde"
-        ],
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 1991,
         "year_from": "musicbrainz"
       },
@@ -91640,12 +91647,10 @@
         "discogs_id": 9777588,
         "discogs_master_id": 105629,
         "discogs_genres": [
-          "Electronic",
-          "Rock"
+          "Electronic"
         ],
         "discogs_styles": [
           "New Wave",
-          "Pop Rock",
           "Synth-pop"
         ],
         "year": 1983,
@@ -91866,16 +91871,14 @@
           "Electronic",
           "Jazz",
           "Rock",
-          "Pop",
+          "Classical",
           "Stage & Screen"
         ],
         "discogs_styles": [
-          "Downtempo",
-          "Pop Rock",
+          "Alternative Rock",
+          "Smooth Jazz",
           "Ambient",
-          "Soundtrack",
-          "Experimental",
-          "Score"
+          "Soundtrack"
         ],
         "year": 2001,
         "year_from": "musicbrainz"
@@ -96560,7 +96563,8 @@
         "discogs_id": 26555582,
         "discogs_master_id": 424431,
         "discogs_genres": [
-          "Rock"
+          "Rock",
+          "Pop"
         ],
         "discogs_styles": [
           "Rock & Roll"
@@ -96877,9 +96881,7 @@
           "Rock"
         ],
         "discogs_styles": [
-          "Alternative Rock",
-          "Art Rock",
-          "Goth Rock"
+          "Alternative Rock"
         ],
         "year": 1984,
         "year_from": "musicbrainz"
@@ -99726,10 +99728,12 @@
         "discogs_id": 9964367,
         "discogs_master_id": 215280,
         "discogs_genres": [
-          "Funk / Soul"
+          "Funk / Soul",
+          "Stage & Screen"
         ],
         "discogs_styles": [
-          "Soul"
+          "Soul",
+          "Soundtrack"
         ],
         "year": 1965,
         "year_from": "musicbrainz"
@@ -104024,9 +104028,7 @@
         "discogs_genres": [
           "Rock"
         ],
-        "discogs_styles": [
-          "Alternative Rock"
-        ],
+        "discogs_styles": [],
         "year": 2014,
         "year_from": "musicbrainz"
       },
@@ -107349,15 +107351,20 @@
         "apple_album_id": null,
         "apple_artist_id": 104643412,
         "mb_id": "148588f5-8938-4982-ad41-2869e7790f1c",
-        "discogs_master_id": 3173766,
+        "discogs_id": 2146754,
+        "discogs_master_id": 234932,
         "discogs_genres": [
+          "Latin",
+          "Pop",
           "Stage & Screen"
         ],
         "discogs_styles": [
-          "Soundtrack"
+          "Soundtrack",
+          "Bossanova",
+          "Ballad"
         ],
-        "year": 1975,
-        "year_from": "musicbrainz"
+        "year": 1966,
+        "year_from": "discogs"
       },
       {
         "artist": "The Cesarians",
@@ -110712,7 +110719,8 @@
           "Rock"
         ],
         "discogs_styles": [
-          "Pop Rock"
+          "Pop Rock",
+          "Classic Rock"
         ],
         "year": 1969,
         "year_from": "musicbrainz"
@@ -110936,7 +110944,7 @@
           "Reggae"
         ],
         "discogs_styles": [
-          "Roots Reggae"
+          "Reggae"
         ],
         "year": 1976,
         "year_from": "musicbrainz"

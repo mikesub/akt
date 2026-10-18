@@ -9252,6 +9252,7 @@
           "Rock"
         ],
         "discogs_styles": [
+          "Acid Rock",
           "Blues Rock",
           "Psychedelic Rock"
         ],
@@ -10723,9 +10724,13 @@
         "discogs_id": 3330771,
         "discogs_master_id": 55650,
         "discogs_genres": [
-          "Rock"
+          "Rock",
+          "Pop"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Pop Rock",
+          "Glam"
+        ],
         "year": 1972,
         "year_from": "musicbrainz"
       },
@@ -15473,7 +15478,8 @@
         "discogs_id": 26555582,
         "discogs_master_id": 424431,
         "discogs_genres": [
-          "Rock"
+          "Rock",
+          "Pop"
         ],
         "discogs_styles": [
           "Rock & Roll"
@@ -16954,7 +16960,7 @@
           "Rock"
         ],
         "discogs_styles": [
-          "EBM",
+          "Industrial",
           "Noise Rock",
           "Post-Punk"
         ],
@@ -21135,11 +21141,13 @@
         "discogs_master_id": 68762,
         "discogs_genres": [
           "Rock",
-          "Blues"
+          "Pop"
         ],
         "discogs_styles": [
-          "Beat",
-          "Rhythm & Blues"
+          "Folk Rock",
+          "Rhythm & Blues",
+          "Pop Rock",
+          "Beat"
         ],
         "year": 1964,
         "year_from": "musicbrainz"
@@ -22401,7 +22409,8 @@
           "Rock"
         ],
         "discogs_styles": [
-          "Hard Rock"
+          "Hard Rock",
+          "Blues Rock"
         ],
         "year": 1968,
         "year_from": "musicbrainz"
@@ -24131,10 +24140,13 @@
         "discogs_id": 936205,
         "discogs_master_id": 88421,
         "discogs_genres": [
-          "Electronic"
+          "Electronic",
+          "Funk / Soul"
         ],
         "discogs_styles": [
-          "Electro"
+          "Funk",
+          "Minneapolis Sound",
+          "House"
         ],
         "year": 1990,
         "year_from": "musicbrainz"
@@ -24445,8 +24457,9 @@
           "Funk / Soul"
         ],
         "discogs_styles": [
-          "Funk",
-          "Soul"
+          "Soul",
+          "Psychedelic",
+          "Funk"
         ],
         "year": 1975,
         "year_from": "musicbrainz"
@@ -26029,7 +26042,10 @@
           "Pop"
         ],
         "discogs_styles": [
-          "Pop Rock"
+          "Bubblegum",
+          "Pop Rock",
+          "Vocal",
+          "Novelty"
         ],
         "year": 1968,
         "year_from": "musicbrainz"

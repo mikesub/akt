@@ -7390,8 +7390,8 @@
           "Rock & Roll",
           "Rockabilly"
         ],
-        "year": 2014,
-        "year_from": "musicbrainz"
+        "year": 1985,
+        "year_from": "discogs"
       },
       {
         "artist": "Barbarisms",
@@ -13485,16 +13485,9 @@
         "discogs_id": 38380995,
         "discogs_master_id": 3263008,
         "discogs_genres": [
-          "Electronic",
-          "Rock",
           "Stage & Screen"
         ],
         "discogs_styles": [
-          "Ambient",
-          "Art Rock",
-          "Avantgarde",
-          "Experimental",
-          "Score",
           "Soundtrack"
         ],
         "year": 2009,
@@ -18493,7 +18486,9 @@
         ],
         "discogs_styles": [
           "New Wave",
-          "Synth-pop"
+          "Synth-pop",
+          "Funk",
+          "Boogie"
         ],
         "year": 2013,
         "year_from": "musicbrainz"
@@ -36478,16 +36473,8 @@
         ],
         "apple_id": null,
         "mb_id": "8a966a98-87f3-4537-8cef-53fdc2fd05cc",
-        "discogs_master_id": 521059,
-        "discogs_genres": [
-          "Electronic",
-          "Rock"
-        ],
-        "discogs_styles": [
-          "Krautrock",
-          "Psychedelic Rock",
-          "Experimental"
-        ],
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2012,
         "year_from": "musicbrainz"
       }
@@ -36521,9 +36508,12 @@
           "Funk / Soul"
         ],
         "discogs_styles": [
-          "No Wave",
+          "Noise",
           "Free Funk",
-          "Avantgarde"
+          "Free Jazz",
+          "Disco",
+          "Art Rock",
+          "Experimental"
         ],
         "year": 2010,
         "year_from": "musicbrainz"
@@ -40982,8 +40972,8 @@
         ],
         "discogs_styles": [
           "Industrial",
-          "Electro",
-          "Synth-pop"
+          "Synth-pop",
+          "Minimal"
         ],
         "year": 1981,
         "year_from": "musicbrainz"

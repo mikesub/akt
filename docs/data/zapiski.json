@@ -2782,8 +2782,9 @@
           "Electronic"
         ],
         "discogs_styles": [
-          "Juke",
-          "Experimental"
+          "Experimental",
+          "Footwork",
+          "Juke"
         ],
         "year": 2015,
         "year_from": "musicbrainz"
