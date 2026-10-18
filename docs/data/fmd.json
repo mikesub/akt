@@ -122399,7 +122399,8 @@
           "Smooth Jazz",
           "Swing"
         ],
-        "year": null
+        "year": 2004,
+        "year_from": "owner"
       },
       {
         "artist": "caroline martin",
@@ -210355,7 +210356,8 @@
         "discogs_styles": [
           "Latin"
         ],
-        "year": null
+        "year": 2000,
+        "year_from": "owner"
       },
       {
         "artist": "DJ Me DJ You",
@@ -248597,7 +248599,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": null
+        "year": 1996,
+        "year_from": "owner"
       },
       {
         "artist": "Peeter Volkonski",
