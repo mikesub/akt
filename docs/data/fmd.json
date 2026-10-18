@@ -42858,6 +42858,416 @@
     ]
   },
   {
+    "number": 666,
+    "title": "FM Достоевский #666",
+    "published_at": "2009-12-27",
+    "url": null,
+    "playlist_hash": "e322c9c20b7a47c4",
+    "tracks": [
+      {
+        "artist": "Orquestre Veve",
+        "track": "Venus",
+        "album": "Cazumbi - African Sixties Garage Vol-1",
+        "printed_country": "Congo",
+        "country": [
+          "CD"
+        ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": 548570,
+        "discogs_genres": [
+          "Rock",
+          "Folk, World, & Country"
+        ],
+        "discogs_styles": [
+          "Garage Rock",
+          "Psychedelic Rock",
+          "African"
+        ],
+        "year": 1970,
+        "year_from": "owner"
+      },
+      {
+        "artist": "Headdress",
+        "track": "The Lost White Brother",
+        "album": "Lunes",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 352443333,
+        "apple_album_id": 352443223,
+        "apple_artist_id": 289282736,
+        "mb_id": "ca1deac7-b694-45a8-ae81-856cf804e039",
+        "discogs_id": 12043274,
+        "discogs_master_id": 211416,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Psychedelic Rock",
+          "Experimental"
+        ],
+        "year": 2009,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Наталья Путина и Ракеты",
+        "track": "Путин",
+        "album": "Короли гаражного панка",
+        "printed_country": "Россия",
+        "country": [
+          "RU"
+        ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
+        "year": 2009,
+        "year_from": "owner"
+      },
+      {
+        "artist": "The Cesarians",
+        "track": "Woman",
+        "album": "Flesh Is Grass",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 270871856,
+        "apple_album_id": 270871841,
+        "apple_artist_id": 270871844,
+        "mb_id": "fd415d9f-d35e-4a6d-a79d-dd726d462f3f",
+        "discogs_id": 6513179,
+        "discogs_master_id": null,
+        "year": 2007,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Phantom Ghost",
+        "track": "Miami",
+        "album": "Thrown Out Of Drama School",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 441893736,
+        "apple_album_id": 441893722,
+        "apple_artist_id": 162462800,
+        "mb_id": "de32bcfb-c634-4193-86df-5384e68b44ce",
+        "discogs_id": 1767536,
+        "discogs_master_id": 137017,
+        "discogs_genres": [
+          "Pop",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Pop Rock",
+          "Indie Rock"
+        ],
+        "year": 2009,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Dengue Fever",
+        "track": "Wait Ten Months (New Year's Eve)",
+        "album": "Sleepwalking Through The Mekong",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": 10339556,
+        "discogs_master_id": 1217254,
+        "discogs_genres": [
+          "Rock",
+          "Pop",
+          "Folk, World, & Country"
+        ],
+        "discogs_styles": [
+          "Surf",
+          "Cambodian Classical"
+        ],
+        "year": 2009,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "Nick Cave & Warren Ellis",
+        "track": "The Mother",
+        "album": "White Lunar",
+        "printed_country": "Australia",
+        "country": [
+          "AU"
+        ],
+        "apple_id": 1435936405,
+        "apple_album_id": null,
+        "apple_artist_id": 123494192,
+        "mb_id": "6bdb5446-2e29-4f1c-ba50-f7961e989688",
+        "discogs_id": 7980622,
+        "discogs_master_id": 596707,
+        "discogs_genres": [
+          "Stage & Screen"
+        ],
+        "discogs_styles": [
+          "Soundtrack"
+        ],
+        "year": 2009,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Márcio Local",
+        "track": "Suingue Dominou",
+        "album": "Says Don Day Don Dree Don Don",
+        "printed_country": "Brazil",
+        "country": [
+          "BR"
+        ],
+        "apple_id": 733001867,
+        "apple_album_id": null,
+        "apple_artist_id": 441782628,
+        "mb_id": "1e5c2ecf-4fab-4a75-88e9-feeb4809dbc7",
+        "discogs_id": 2795907,
+        "discogs_master_id": null,
+        "year": 2009,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Anni Hogan",
+        "track": "Wasting Time",
+        "album": "Kickabye",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 503950887,
+        "apple_album_id": 503950876,
+        "apple_artist_id": 503950877,
+        "mb_id": "d328b64c-0678-4694-abc5-0fe2c0d37e19",
+        "discogs_id": 1758132,
+        "discogs_master_id": null,
+        "year": 1985,
+        "year_from": "owner"
+      },
+      {
+        "artist": "Thomas Truax",
+        "track": "I Put A Spell On You",
+        "album": "Songs From The Films Of David Lynch",
+        "printed_country": "US",
+        "country": [
+          "US"
+        ],
+        "apple_id": 310988798,
+        "apple_album_id": 310988732,
+        "apple_artist_id": 74572162,
+        "mb_id": "51db706f-79de-4287-b123-9c531b69d9ca",
+        "discogs_id": 3163356,
+        "discogs_master_id": 376300,
+        "discogs_genres": [
+          "Rock",
+          "Folk, World, & Country"
+        ],
+        "discogs_styles": [
+          "Folk Rock",
+          "Alternative Rock"
+        ],
+        "year": 2009,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Surfin' Nanorobots",
+        "track": "the beginning",
+        "album": "Seven O’Clock",
+        "printed_country": "Russia",
+        "country": [
+          "RU"
+        ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": 9421005,
+        "discogs_master_id": null,
+        "year": 2009,
+        "year_from": "owner"
+      },
+      {
+        "artist": "Fabio Turchetti",
+        "track": "il vecchio winston",
+        "album": "1997 studio sessions",
+        "printed_country": "Italia",
+        "country": [
+          "IT"
+        ],
+        "apple_id": 306420190,
+        "apple_album_id": 306420129,
+        "apple_artist_id": 292391950,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
+        "year": 2009,
+        "year_from": "apple"
+      },
+      {
+        "artist": "Buppah Saichol",
+        "track": "Roob Lor Thom Pai",
+        "album": null,
+        "printed_country": "Thailand",
+        "country": [
+          "TH"
+        ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": 825217,
+        "discogs_genres": [
+          "Rock",
+          "Pop",
+          "Folk, World, & Country"
+        ],
+        "discogs_styles": [],
+        "year": null
+      },
+      {
+        "artist": "Big Ned",
+        "track": "Love, Honour And Obey",
+        "album": "Big Ned",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 377733696,
+        "apple_album_id": 377733654,
+        "apple_artist_id": 301216808,
+        "mb_id": "13d9f778-cf32-44f6-b958-43a716386b41",
+        "discogs_id": 1732088,
+        "discogs_master_id": null,
+        "year": 2009,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Familienmusik Hoffmann",
+        "track": "S'Tröpferlbad",
+        "album": "Obacht! Musik Aus Bayern 1",
+        "printed_country": "Germany",
+        "country": [
+          "DE"
+        ],
+        "apple_id": 302527477,
+        "apple_album_id": null,
+        "apple_artist_id": 302527478,
+        "mb_id": "91a47826-52b7-4264-9e61-60855a11629b",
+        "discogs_id": 15175412,
+        "discogs_master_id": null,
+        "year": 2000,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Барто",
+        "track": "Готов",
+        "album": "Ум, Совесть и Честь",
+        "printed_country": null,
+        "country": [
+          "RU"
+        ],
+        "country_from": "archive",
+        "apple_id": 635624376,
+        "apple_album_id": null,
+        "apple_artist_id": 583849982,
+        "mb_id": "f019cc8b-1663-4ff6-8429-bf57b1236b14",
+        "discogs_id": 3447301,
+        "discogs_master_id": 415314,
+        "discogs_genres": [
+          "Electronic",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Electro",
+          "Synth-pop"
+        ],
+        "year": 2009,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "Leyland Kirby",
+        "track": "Tonight Is The Last Night Of The World",
+        "album": "Sadly, The Future Is No Longer What It Was",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": null,
+        "mb_id": "a21d9421-ac21-4d2c-9187-baf3ca67dc61",
+        "discogs_master_id": 197584,
+        "discogs_genres": [
+          "Electronic"
+        ],
+        "discogs_styles": [
+          "Dark Ambient",
+          "Experimental",
+          "Modern Classical"
+        ],
+        "year": 2009,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Edward Sharpe & The Magnetic Zeros",
+        "track": "Kisses Over Babylon",
+        "album": "Up From Below",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1759972680,
+        "apple_album_id": 1759972398,
+        "apple_artist_id": 315875820,
+        "mb_id": "b479badb-7249-40ba-8f00-af005d8a7830",
+        "discogs_id": 4987264,
+        "discogs_master_id": 298294,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Indie Rock",
+          "Folk Rock"
+        ],
+        "year": 2009,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Empty boat",
+        "track": "Mamãe Iemanja (I Call The Stars)",
+        "album": "waitless",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": null,
+        "mb_id": "3f7a3b60-855d-431f-b63e-57f9a32fcffc",
+        "discogs_id": 20173696,
+        "discogs_master_id": null,
+        "year": 2008,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "Пахом",
+        "track": "Жизнь Веселый Карнавал",
+        "album": "Жизнь Веселый Карнавал",
+        "printed_country": "Russia",
+        "country": [
+          "RU"
+        ],
+        "apple_id": 1105030211,
+        "apple_album_id": 1105030101,
+        "apple_artist_id": 641163624,
+        "mb_id": null,
+        "discogs_id": 3261936,
+        "discogs_master_id": null,
+        "year": 2009,
+        "year_from": "apple"
+      }
+    ]
+  },
+  {
     "number": 665,
     "title": "FM Достоевский #665",
     "published_at": "2009-12-20",

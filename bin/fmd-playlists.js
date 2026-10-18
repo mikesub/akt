@@ -54,6 +54,7 @@ const DATES = {
   595: { date: '2008-08-17', why: "2008-08-17, as the fans' collection names it («595. #595 17.08.2008.mp3»), a week after #594 and before #596; fmd.soyuz.ru gives 2008-08-18, a Monday, which it gives #596 too" },
   596: { date: '2008-08-24', why: "2008-08-24, as the fans' collection names it («596. #596 24.08.2008.mp3»), a week after #595 and before #597 (2008-08-31); fmd.soyuz.ru gives 2008-08-18, #595's" },
   683: { date: '2010-04-25', why: "2010-04-25, the Sunday it aired at 01:08 on Эхо Москвы (its program listing), as the fans' collection names it («683. #683 25.04.2010.mp3»); radar.lv's CUE sheet says 2010-04-24" },
+  666: { date: '2009-12-27', why: "2009-12-27, the Sunday between #665 (2009-12-20) and #667 (2010-01-03), the weekly slot then; the owner's list has no date" },
 };
 
 /** Copies left out, with why. */
@@ -458,6 +459,36 @@ function readTags() {
   return out;
 }
 
+// ------------------------------------------------------------ the owner's
+
+/**
+ * Playlists the owner wrote down by ear for episodes no other source has, as they wrote them:
+ * programs/fmd/sources/owner/<number>.txt. An entry is a numbered line, «1 Artist "Song" — "Album" (Country)
+ * 2009», in no fixed layout; the line after it (the record's Discogs or Apple Music page, or "not on discogs")
+ * is the owner's pointer, left out of the playlist.
+ */
+function readOwner() {
+  const out = new Map();
+  const dir = join(SOURCES, 'owner');
+  for (const file of readdirSync(dir).filter((f) => /^\d+\.txt$/.test(f))) {
+    const entries = readFileSync(join(dir, file), 'utf8')
+      .split(/\r?\n/)
+      .map((line) => line.match(/^\s*(\d{1,2})[.)]?\s+(\S.*)$/))
+      .filter(Boolean)
+      .map(([, n, rest]) => `${Number(n)}. ${clean(rest)}`);
+    out.set(Number(file.replace('.txt', '')), {
+      kind: 'owner',
+      label: `the owner's list (${file})`,
+      file,
+      url: null,
+      date: null,
+      entries,
+      note: `from the owner's own list, written down by ear (programs/fmd/sources/owner/${file})`,
+    });
+  }
+  return out;
+}
+
 // --------------------------------------------------------------------- XLS
 
 /** RFC 4180 CSV. */
@@ -648,8 +679,8 @@ function describe(c, a, b) {
 
 const EMAIL = /[\w.+-]+@[\w-]+(?:\.[\w-]+)+/g;
 
-const RANK = { finam: 0, rss: 1, soyuz: 2, 'radar-lower': 3, radar: 4, tags: 5, cue: 6, xls: 7 };
-const SHORT = { finam: 'the Finam page', rss: 'the Finam RSS', soyuz: 'fmd.soyuz.ru', 'radar-lower': "radar.lv's «ФМ» post", radar: "radar.lv's «FM» post", tags: "the mp3's tags", cue: 'the CUE sheet', xls: 'the XLS' };
+const RANK = { finam: 0, rss: 1, soyuz: 2, 'radar-lower': 3, radar: 4, tags: 5, cue: 6, xls: 7, owner: 8 };
+const SHORT = { finam: 'the Finam page', rss: 'the Finam RSS', soyuz: 'fmd.soyuz.ru', 'radar-lower': "radar.lv's «ФМ» post", radar: "radar.lv's «FM» post", tags: "the mp3's tags", cue: 'the CUE sheet', xls: 'the XLS', owner: "the owner's list" };
 
 /**
  * The best source of an episode: the highest ranked, unless its list is
@@ -676,6 +707,7 @@ function main() {
   const cue = readCue();
   const tags = readTags();
   const xls = readXls();
+  const owner = readOwner();
 
   const episodes = new Map();
   const extra = []; // findings on alternative copies of one source
@@ -720,6 +752,7 @@ function main() {
       sources.push(t);
     }
     if (xls.has(number)) sources.push(xls.get(number));
+    if (owner.has(number)) sources.push(owner.get(number));
     if (sources.length) episodes.set(number, { number, sources, best: choose(sources) });
   }
 
@@ -919,6 +952,7 @@ const NAMES = {
   radar: 'radar.lv post («FM Достоевский …», Title Case)',
   cue: 'CUE sheet',
   xls: 'XLS',
+  owner: "the owner's list, by ear",
 };
 
 function crosscheck({ episodes, stats, differences, extra, dateNotes, xls, lastSongs }) {

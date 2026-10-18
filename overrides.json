@@ -6215,5 +6215,74 @@
     "album": "Kaleidoscope World",
     "year": 1986,
     "why": "Записки из подполья #48: 1986, the owner's word; Discogs has it only on the 2016 expanded «Kaleidoscope World» (discogs.com/release/8893191, master 436155), not the 1986 edition; MusicBrainz had 2001"
+  },
+  {
+    "artist": "Orquestre Veve",
+    "track": "Venus",
+    "discogs_master_id": 548570,
+    "year": 1970,
+    "why": "FM Достоевский #666: 1970, the owner's list; on the compilation «Cazumbi - African Sixties Garage Vol-1» (discogs.com/master/548570, 2008), as «Orchestre Veve»"
+  },
+  {
+    "artist": "Наталья Путина и Ракеты",
+    "track": "Путин",
+    "discogs_id": null,
+    "discogs_master_id": null,
+    "year": 2009,
+    "why": "FM Достоевский #666: 2009, from the album «Короли гаражного панка», the owner's list, which notes it is not on Discogs"
+  },
+  {
+    "artist": "The Cesarians",
+    "track": "Woman",
+    "discogs_id": 6513179,
+    "discogs_master_id": null,
+    "why": "FM Достоевский #666: the CD single «Flesh Is Grass» (discogs.com/release/6513179, 2007), the owner's list"
+  },
+  {
+    "artist": "Márcio Local",
+    "track": "Suingue Dominou",
+    "discogs_id": 2795907,
+    "discogs_master_id": null,
+    "why": "FM Достоевский #666: «Says Don Day Don Dree Don Don» (discogs.com/release/2795907, 2009), the owner's list"
+  },
+  {
+    "artist": "Anni Hogan",
+    "track": "Wasting Time",
+    "discogs_id": 1758132,
+    "discogs_master_id": null,
+    "year": 1985,
+    "why": "FM Достоевский #666: «Kickabye», 1985, the owner's list; the release linked (discogs.com/release/1758132) is its 2009 remaster, MusicBrainz's 2009"
+  },
+  {
+    "artist": "Surfin' Nanorobots",
+    "track": "the beginning",
+    "year": 2009,
+    "why": "FM Достоевский #666: «Seven O'Clock», 2009, the owner's list; Discogs dates its CD (discogs.com/release/9421005, «The Beginning...») 2017"
+  },
+  {
+    "artist": "Buppah Saichol",
+    "track": "Roob Lor Thom Pai",
+    "discogs_master_id": 825217,
+    "why": "FM Достоевский #666: on the compilation «Thai Pop Spectacular 1960s - 1980s» (discogs.com/master/825217, 2007), as «บุปผา สายชล», the owner's list; its first release unknown, so no year"
+  },
+  {
+    "artist": "Familienmusik Hoffmann",
+    "track": "S'Tröpferlbad",
+    "discogs_id": 15175412,
+    "discogs_master_id": null,
+    "why": "FM Достоевский #666: on the compilation «Obacht! Musik Aus Bayern 1» (discogs.com/release/15175412, 2008), the owner's list; MusicBrainz's 2000 stays"
+  },
+  {
+    "artist": "Leyland Kirby",
+    "track": "Tonight Is The Last Night Of The World",
+    "discogs_master_id": 197584,
+    "why": "FM Достоевский #666: «Sadly, The Future Is No Longer What It Was» (discogs.com/master/197584, 2009), the owner's list"
+  },
+  {
+    "artist": "Пахом",
+    "track": "Жизнь Веселый Карнавал",
+    "discogs_id": 3261936,
+    "discogs_master_id": null,
+    "why": "FM Достоевский #666: «Жизнь Веселый Карнавал» (discogs.com/release/3261936, 2009, as «Сергей Пахомов»), the owner's list"
   }
 ]

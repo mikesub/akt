@@ -3,8 +3,8 @@
 Notes for whoever picks this up. The sources are gathered in `programs/fmd/sources/` and mapped below.
 `node bin/fmd-playlists.js` rebuilds every `programs/fmd/playlists/<number>.txt` from them (offline,
 deterministic; it deletes and rewrites the whole folder), plus `programs/fmd/CROSSCHECK.md` (how the
-sources agree where they overlap) and `programs/fmd/MISSING.md` (what no source has): 778 playlist
-files, 42 episodes missing, one possibly incomplete (#701). `node bin/playlists.js fmd` parses
+sources agree where they overlap) and `programs/fmd/MISSING.md` (what no source has): 779 playlist
+files, 41 episodes missing, one possibly incomplete (#701). `node bin/playlists.js fmd` parses
 them into `docs/data/fmd.json`, like every other program's.
 
 ## Playlist files
@@ -20,6 +20,7 @@ sources disagree on, an entry without a title another source has. From each epis
 | fmd.soyuz.ru | 329 | #289–#619 but #317, #375 |
 | radar.lv posts | 123 | within #129–#288 |
 | mp3 tags | 81 | #620–#701 but #666 (#623, #624, #633 found nowhere else) |
+| the owner's list, by ear | 1 | #666 |
 | the XLS | 158 | #1–#128, and 30 within #131–#375 that nothing else has |
 
 Decided by hand (in the script, with why): radar.lv's post and CUE sheet titled #148 (8 Dec 1999)
@@ -83,6 +84,11 @@ names and titles are in Latin letters mostly before about #100, where nothing el
   #701's covers the whole hour but has 5 songs and long talk: the last show before Finam, maybe
   a farewell; the owner may check by ear. The recordings themselves are not used. Since the mp3 tags
   (below) came in, no playlist is taken from a CUE sheet: they cross-check.
+- `owner/<number>.txt`: playlists the owner wrote down by ear for episodes no other source has, as
+  they wrote them: a numbered line per song (artist, title, album, country, year, in no fixed layout), each
+  followed by the record's Discogs or Apple Music page or «not on discogs», which the playlist leaves out
+  (its records and years went into `overrides.json`). #666 (2026-10-18, a two-hour episode, 20 songs).
+  Trusted below every other source; dated by `DATES` in the script.
 - `mp3-tags/tags.json`: the playlists in a fans' collection of the program's mp3s (2026-10-17): 494
   episodes, #129–#707, each in its file's ID3 comment. Saved as number → the file's name, title, track and
   comment (the tracklist, as the file has it, with `\r\n`); the files' other tags (encoder and the like)
@@ -142,12 +148,12 @@ names and titles are in Latin letters mostly before about #100, where nothing el
 
 ## Coverage
 
-778 of the 820 episodes have a playlist in at least one source. Best source per stretch, then the rest for cross-checking:
+779 of the 820 episodes have a playlist in at least one source. Best source per stretch, then the rest for cross-checking:
 
 | Episodes | Have | Missing |
 |---|---|---|
 | #1–#128 (1997 – 1999) | XLS only | – |
 | #129–#288 (1999 – Oct 2002) | radar.lv posts and CUE sheets (original spelling), XLS | #187, #190–#195, #288 |
 | #289–#619 (Oct 2002 – 01.02.2009) | fmd.soyuz.ru; radar.lv and CUE sheets in parts; XLS to #499 | #317 |
-| #620–#701 (Feb 2009 – Sep 2010) | mp3 tags (with countries and labels), CUE sheets | #666 |
+| #620–#701 (Feb 2009 – Sep 2010) | mp3 tags (with countries and labels), CUE sheets; #666 the owner's list, by ear | – |
 | #702–#820 (Finam №1–№119) | Finam pages (`finam.fm/found.json` maps № to page id), the 2010 RSS; CUE sheets to #707 | never captured: #715–#720, #723 (the program page's 2011 sidebar names them, but no page was kept), #753, #754, #764, #767, #769–#771, #778, #781, #790–#794, #796, #798, #800, #801, #803, #804, #806, #807, #809, #810; #795's only capture is broken, no list (checked by the owner); #802's page is broken too, but its print version, `6765-print.html`, has the list (16 entries); #780's list has no «PLAYLIST» line at all (checked: 15 entries) |

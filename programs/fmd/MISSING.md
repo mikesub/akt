@@ -5,7 +5,7 @@ Written by `node bin/fmd-playlists.js` (do not edit by hand). An episode found l
 `note:` saying where it came from (and is then lost on the next rebuild unless the script learns
 the source).
 
-## No playlist (42 episodes)
+## No playlist (41 episodes)
 
 - #187: not in the XLS, and radar.lv has no post or CUE sheet for it
 - #190: not in the XLS, and radar.lv has no post or CUE sheet for it
@@ -16,7 +16,6 @@ the source).
 - #195: not in the XLS, and radar.lv has no post or CUE sheet for it
 - #288: not in the XLS, and radar.lv has no post or CUE sheet for it
 - #317: fmd.soyuz.ru has no page for it, and the XLS and radar.lv skip it
-- #666: Feb 2009 – Sep 2010, where radar.lv's CUE sheets are the only source, and there is none for it
 - #715: Finam №14; its page was never captured by the Wayback Machine (the program page's 2011 sidebar names it)
 - #716: Finam №15; its page was never captured by the Wayback Machine (the program page's 2011 sidebar names it)
 - #717: Finam №16; its page was never captured by the Wayback Machine (the program page's 2011 sidebar names it)
