@@ -205074,14 +205074,16 @@
     "playlist_hash": "1c48cad90e6aac60",
     "tracks": [
       {
-        "artist": "Ят-Ха",
+        "artist": "Yat-Kha",
         "track": "Tyva Kyztar",
         "album": "Aldyn Dashka",
         "printed_country": "Russia",
         "country": [
           "RU"
         ],
-        "apple_id": null,
+        "apple_id": 459514205,
+        "apple_album_id": null,
+        "apple_artist_id": 2407887,
         "mb_id": "e896f261-3848-48ec-9ff9-8cd1e15546f9",
         "discogs_id": 996965,
         "discogs_master_id": 1265785,
