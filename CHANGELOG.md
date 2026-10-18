@@ -9,6 +9,9 @@ Routine updates (a new Стереоплан episode, a single fix) are not liste
 
 ## 2026-10-18
 
+- Discogs' API asked about every track the dumps left (`--discogs`, every program): of 1,610, 477 found (254 with
+  a master, and its `discogs_genres` and `discogs_styles`; 223 a release with none), 1,133 not found (`discogs_id`
+  `null`); 53 Apple years became Discogs years. Every track has now been asked. 950 tracks have no year.
 - Years: 449 tracks (440 `overrides.json` entries) take the year of a Discogs release that has the track, 2+ years
   before MusicBrainz's (a later release's or compilation's), from the releases dump's track-level matches (and one,
   Hazy Osterwald Sextet's «Kriminal Tango», the owner's 1959 already set for the band's other spelling); the

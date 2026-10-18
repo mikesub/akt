@@ -458,6 +458,8 @@
         "apple_album_id": null,
         "apple_artist_id": 732511054,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2006,
         "year_from": "apple"
       },
@@ -605,6 +607,8 @@
         "apple_album_id": 1882275689,
         "apple_artist_id": null,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2026,
         "year_from": "apple"
       },
@@ -621,6 +625,8 @@
         "apple_album_id": 1882275689,
         "apple_artist_id": null,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2026,
         "year_from": "apple"
       },
@@ -636,6 +642,8 @@
         "apple_album_id": 1851425590,
         "apple_artist_id": 1495660407,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       }
@@ -1182,8 +1190,8 @@
         "mb_id": "b427715d-a4de-40a8-8fed-d820508f514c",
         "discogs_id": 8146547,
         "discogs_master_id": null,
-        "year": 2010,
-        "year_from": "musicbrainz"
+        "year": 1983,
+        "year_from": "discogs"
       },
       {
         "artist": "Barlast ft Amanda Kauranne",
@@ -1304,6 +1312,8 @@
         "apple_album_id": null,
         "apple_artist_id": 408064961,
         "mb_id": "29d0df3d-d419-44c3-989e-b5c25ed085e8",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2026,
         "year_from": "musicbrainz"
       },
@@ -1321,6 +1331,8 @@
         "apple_album_id": null,
         "apple_artist_id": 408064961,
         "mb_id": "a1a8603e-8390-48a4-8917-07f40d40f757",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2026,
         "year_from": "musicbrainz"
       },
@@ -1338,8 +1350,8 @@
         "mb_id": "7e44c168-73b7-4449-9423-fa58195d7fb1",
         "discogs_id": 12507623,
         "discogs_master_id": null,
-        "year": 2002,
-        "year_from": "musicbrainz"
+        "year": 1952,
+        "year_from": "discogs"
       },
       {
         "artist": "The Original Gospel Harmonettes",
@@ -1430,8 +1442,8 @@
         "discogs_styles": [
           "Gospel"
         ],
-        "year": 1991,
-        "year_from": "musicbrainz"
+        "year": 1962,
+        "year_from": "discogs"
       },
       {
         "artist": "Klaus Morlock",
@@ -1703,6 +1715,8 @@
         "apple_album_id": 1846407406,
         "apple_artist_id": 857695917,
         "mb_id": "a0f7687c-0305-453e-b582-fb3fc6ea961a",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -1718,6 +1732,8 @@
         "apple_album_id": 1843921646,
         "apple_artist_id": 1775406499,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -1759,6 +1775,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1511492889,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -1992,8 +2010,8 @@
           "Musique Concrète",
           "Avantgarde"
         ],
-        "year": 1991,
-        "year_from": "musicbrainz"
+        "year": 1960,
+        "year_from": "discogs"
       },
       {
         "artist": "The Thunderbolts",
@@ -2031,6 +2049,15 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "757632c5-0f76-48f9-ba4a-56feb6aa24f0",
+        "discogs_id": 15474393,
+        "discogs_master_id": 670267,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Rock & Roll",
+          "Horror Rock"
+        ],
         "year": 1991,
         "year_from": "musicbrainz"
       },
@@ -2072,6 +2099,8 @@
         "apple_album_id": null,
         "apple_artist_id": 6669300,
         "mb_id": "26d506b7-7cc4-41ea-a39f-e3574ff3d232",
+        "discogs_id": 34292578,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -2321,6 +2350,8 @@
         "apple_album_id": 1879847846,
         "apple_artist_id": 1879846565,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2026,
         "year_from": "apple"
       },
@@ -2359,6 +2390,8 @@
         "apple_album_id": 1862621329,
         "apple_artist_id": null,
         "mb_id": "90275c13-9838-4627-9a5b-77b060e86349",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2026,
         "year_from": "musicbrainz"
       },
@@ -2612,8 +2645,8 @@
         "discogs_styles": [
           "Goth Rock"
         ],
-        "year": 2002,
-        "year_from": "musicbrainz"
+        "year": 1997,
+        "year_from": "discogs"
       },
       {
         "artist": "The Venus Fly Trap",
@@ -2629,8 +2662,8 @@
         "mb_id": "a5893e73-c6f6-4309-b389-d98316bffadc",
         "discogs_id": 4859079,
         "discogs_master_id": null,
-        "year": 2020,
-        "year_from": "musicbrainz"
+        "year": 2006,
+        "year_from": "discogs"
       },
       {
         "artist": "The Venus Fly Trap",
@@ -2644,6 +2677,8 @@
         "apple_album_id": 1432426057,
         "apple_artist_id": 312548143,
         "mb_id": "777a1f6f-7602-40fd-b5ee-34ba99be0948",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2016,
         "year_from": "musicbrainz"
       },
@@ -2688,6 +2723,8 @@
         "apple_album_id": 1862474775,
         "apple_artist_id": 1862474777,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2026,
         "year_from": "apple"
       }
@@ -2812,6 +2849,8 @@
         "apple_album_id": null,
         "apple_artist_id": 62313,
         "mb_id": "e4f5d6b6-47b5-4678-8eef-ef02b4774945",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 1967,
         "year_from": "musicbrainz"
       },
@@ -3207,6 +3246,8 @@
         "apple_album_id": null,
         "apple_artist_id": 462006,
         "mb_id": "81ee2fd6-58a3-41de-b299-fe96dae9fde3",
+        "discogs_id": 3886662,
+        "discogs_master_id": null,
         "year": 1965,
         "year_from": "musicbrainz"
       },
@@ -3563,6 +3604,8 @@
         ],
         "apple_id": null,
         "mb_id": "c3c1a17b-3cd1-4abe-ad33-5ce5fa38eb23",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2010,
         "year_from": "musicbrainz"
       },
@@ -3860,6 +3903,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -4168,6 +4213,14 @@
         "apple_album_id": 1640331601,
         "apple_artist_id": 1455251658,
         "mb_id": "331eae3c-e321-48d2-8465-15415067532a",
+        "discogs_id": 3403167,
+        "discogs_master_id": 409291,
+        "discogs_genres": [
+          "Pop"
+        ],
+        "discogs_styles": [
+          "Schlager"
+        ],
         "year": 1966,
         "year_from": "musicbrainz"
       },
@@ -4209,6 +4262,8 @@
         "apple_album_id": 1799954749,
         "apple_artist_id": 272661003,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       }
@@ -4591,6 +4646,14 @@
         "apple_album_id": null,
         "apple_artist_id": 673035609,
         "mb_id": "ba7c1eac-2d78-4129-b317-a632f1f30624",
+        "discogs_id": 37432635,
+        "discogs_master_id": 3841071,
+        "discogs_genres": [
+          "Funk / Soul"
+        ],
+        "discogs_styles": [
+          "Gospel"
+        ],
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -4710,8 +4773,8 @@
           "Garage Rock",
           "Mod"
         ],
-        "year": 1988,
-        "year_from": "musicbrainz"
+        "year": 1965,
+        "year_from": "discogs"
       },
       {
         "artist": "Thee Oh Sees",
@@ -4799,6 +4862,8 @@
         "apple_album_id": 1804467546,
         "apple_artist_id": 1090414484,
         "mb_id": "35767518-cf88-4393-baa5-a19b4a0ae812",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -5016,6 +5081,8 @@
         "apple_album_id": 1801626772,
         "apple_artist_id": 978807589,
         "mb_id": "578495d0-6979-4f88-a0a7-f5104a77d2db",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -5031,6 +5098,8 @@
         "apple_album_id": 1801626772,
         "apple_artist_id": 270815271,
         "mb_id": "3bcbbdc1-7363-4080-8ce9-30f58135decb",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -5046,6 +5115,8 @@
         "apple_album_id": 1801626772,
         "apple_artist_id": 5610336,
         "mb_id": "f9d1fd6c-829d-4f44-a65b-04e827dd2532",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -5061,6 +5132,8 @@
         "apple_album_id": 1801626772,
         "apple_artist_id": 501431061,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -5076,6 +5149,8 @@
         "apple_album_id": 1716124840,
         "apple_artist_id": 1332762231,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2023,
         "year_from": "apple"
       },
@@ -5091,6 +5166,8 @@
         "apple_album_id": 1594283561,
         "apple_artist_id": 1525847458,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2021,
         "year_from": "apple"
       },
@@ -5240,6 +5317,8 @@
         "apple_album_id": 1854864379,
         "apple_artist_id": 413342054,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -5542,6 +5621,8 @@
         "apple_album_id": 1676350634,
         "apple_artist_id": 1390413481,
         "mb_id": "452f56a4-679c-4629-a882-c6335342d483",
+        "discogs_id": 16275182,
+        "discogs_master_id": null,
         "year": 2023,
         "year_from": "musicbrainz"
       },
@@ -5584,6 +5665,8 @@
         "apple_album_id": 1676350634,
         "apple_artist_id": 511669502,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2020,
         "year_from": "apple"
       },
@@ -5599,6 +5682,8 @@
         "apple_album_id": 1676350634,
         "apple_artist_id": 1221398862,
         "mb_id": "4da1ca29-87bc-4a81-b6bf-7670c05053ab",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2023,
         "year_from": "musicbrainz"
       },
@@ -5639,6 +5724,8 @@
         "apple_album_id": null,
         "apple_artist_id": 278692890,
         "mb_id": "314bf7aa-d3cb-484e-a82a-a747740f77f2",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2017,
         "year_from": "musicbrainz"
       },
@@ -5796,6 +5883,8 @@
         "apple_album_id": 1830274223,
         "apple_artist_id": 1593256402,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -5949,8 +6038,8 @@
           "Psychedelic Rock",
           "Chanson"
         ],
-        "year": 1979,
-        "year_from": "musicbrainz"
+        "year": 1968,
+        "year_from": "discogs"
       },
       {
         "artist": "Water From Your Eyes",
@@ -6259,6 +6348,12 @@
         "apple_album_id": null,
         "apple_artist_id": 155546,
         "mb_id": "5ebff6e6-4f5c-453c-8edd-8a5d6576414e",
+        "discogs_id": 12227011,
+        "discogs_master_id": 1389447,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [],
         "year": 1991,
         "year_from": "musicbrainz"
       },
@@ -6275,6 +6370,8 @@
         "apple_album_id": 1800324434,
         "apple_artist_id": null,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -6309,6 +6406,8 @@
         "apple_album_id": 1854917777,
         "apple_artist_id": null,
         "mb_id": "e814135d-2d53-4905-aa10-4ddb05fa24f5",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2026,
         "year_from": "musicbrainz"
       },
@@ -6409,8 +6508,8 @@
         "mb_id": "d0f69ead-1d30-4ef1-a532-92edbdd8de06",
         "discogs_id": 36071140,
         "discogs_master_id": null,
-        "year": 2026,
-        "year_from": "musicbrainz"
+        "year": 2024,
+        "year_from": "discogs"
       },
       {
         "artist": "Buscabulla",
@@ -6492,6 +6591,15 @@
         "apple_album_id": 918534711,
         "apple_artist_id": 627204,
         "mb_id": "668f4a2d-d9ef-477f-b603-4f58e2847025",
+        "discogs_id": 24119333,
+        "discogs_master_id": 421,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Jazz-Rock",
+          "Prog Rock"
+        ],
         "year": 1969,
         "year_from": "musicbrainz"
       },
@@ -6839,6 +6947,8 @@
         "apple_album_id": 1810155313,
         "apple_artist_id": 1796032419,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -6886,8 +6996,10 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": null,
+        "discogs_id": 38659725,
+        "discogs_master_id": null,
         "year": 2025,
-        "year_from": "apple"
+        "year_from": "discogs"
       }
     ]
   },
@@ -6970,6 +7082,8 @@
         "apple_album_id": 1878084168,
         "apple_artist_id": 1818246793,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2026,
         "year_from": "apple"
       },
@@ -7150,6 +7264,8 @@
         "apple_album_id": 1834718844,
         "apple_artist_id": 1494452383,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -7420,6 +7536,8 @@
         "apple_album_id": 1805968227,
         "apple_artist_id": 1274865136,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -8121,6 +8239,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1454004009,
         "mb_id": "02994f10-1446-4ef1-84ca-50eb2e1cb563",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -8286,6 +8406,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1484540141,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2022,
         "year_from": "apple"
       },
@@ -8902,6 +9024,8 @@
         "apple_album_id": 1822376082,
         "apple_artist_id": 278692224,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -9007,6 +9131,8 @@
         "apple_album_id": 1814654951,
         "apple_artist_id": 1512460606,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -9120,6 +9246,15 @@
         "apple_album_id": 343567560,
         "apple_artist_id": 62819,
         "mb_id": "ce1c0687-99b9-4bc7-99e1-3b5e58c66fe9",
+        "discogs_id": 29243992,
+        "discogs_master_id": 24535,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Blues Rock",
+          "Psychedelic Rock"
+        ],
         "year": 1968,
         "year_from": "musicbrainz"
       },
@@ -9136,6 +9271,8 @@
         "apple_album_id": 1786689928,
         "apple_artist_id": 1620981550,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -9618,8 +9755,10 @@
         "apple_album_id": 1763663806,
         "apple_artist_id": 271534926,
         "mb_id": null,
+        "discogs_id": 38755953,
+        "discogs_master_id": null,
         "year": 2024,
-        "year_from": "apple"
+        "year_from": "discogs"
       },
       {
         "artist": "Vimma",
@@ -10363,6 +10502,8 @@
         "apple_album_id": 44115330,
         "apple_artist_id": null,
         "mb_id": "fb66b2ed-8f1c-4214-920a-51ea9e49d802",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2000,
         "year_from": "musicbrainz"
       },
@@ -10579,6 +10720,12 @@
         "apple_album_id": 155712973,
         "apple_artist_id": 496660,
         "mb_id": "59efbd7c-f36c-4cc9-8956-bfa065261fe0",
+        "discogs_id": 3330771,
+        "discogs_master_id": 55650,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [],
         "year": 1972,
         "year_from": "musicbrainz"
       },
@@ -10924,6 +11071,8 @@
         "apple_album_id": 1440520333,
         "apple_artist_id": null,
         "mb_id": "2f8cc185-9289-4aa5-ae1d-cc92f4891d72",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2018,
         "year_from": "musicbrainz"
       },
@@ -10939,6 +11088,8 @@
         "apple_album_id": 1799744727,
         "apple_artist_id": 75535523,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -11148,6 +11299,8 @@
         "apple_album_id": null,
         "apple_artist_id": 191387400,
         "mb_id": "49e8d6d4-43eb-40b5-8cc3-82ab3934fde7",
+        "discogs_id": 5908192,
+        "discogs_master_id": null,
         "year": 1968,
         "year_from": "owner"
       },
@@ -11344,8 +11497,15 @@
         "apple_album_id": 1046009780,
         "apple_artist_id": 204623148,
         "mb_id": null,
+        "discogs_id": 2783034,
+        "discogs_master_id": 4282095,
+        "discogs_genres": [
+          "Jazz",
+          "Pop"
+        ],
+        "discogs_styles": [],
         "year": 2003,
-        "year_from": "apple"
+        "year_from": "discogs"
       },
       {
         "artist": "Gordan",
@@ -11745,6 +11905,8 @@
         "apple_album_id": 1830558371,
         "apple_artist_id": 898258483,
         "mb_id": "4bfb26b5-233d-49cc-bd2c-3b3574e59564",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -11760,6 +11922,8 @@
         "apple_album_id": 1837275666,
         "apple_artist_id": 1508183279,
         "mb_id": "eeb8ff13-466f-49f0-916b-47a1ddd393cd",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -11775,6 +11939,8 @@
         "apple_album_id": 1849428933,
         "apple_artist_id": 1655229222,
         "mb_id": "1fae1a40-f473-475e-93e4-2771f4e6e705",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -11790,6 +11956,8 @@
         "apple_album_id": 1814802855,
         "apple_artist_id": null,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -11938,6 +12106,8 @@
         "apple_album_id": 1774250912,
         "apple_artist_id": 354151631,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -12064,6 +12234,8 @@
         "apple_album_id": null,
         "apple_artist_id": 367487,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 1989,
         "year_from": "apple"
       },
@@ -12079,6 +12251,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1460245957,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2022,
         "year_from": "apple"
       },
@@ -12094,6 +12268,8 @@
         "apple_album_id": 1823575567,
         "apple_artist_id": 1460245957,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -12224,6 +12400,8 @@
         "apple_album_id": 1785922260,
         "apple_artist_id": 1458504309,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -12537,6 +12715,15 @@
         "apple_album_id": 1747593255,
         "apple_artist_id": 1747594260,
         "mb_id": "d6dd2ac1-a578-41ca-8017-10fd4a9e4701",
+        "discogs_id": 2916105,
+        "discogs_master_id": 451402,
+        "discogs_genres": [
+          "Rock",
+          "Blues"
+        ],
+        "discogs_styles": [
+          "Rhythm & Blues"
+        ],
         "year": 1987,
         "year_from": "musicbrainz"
       },
@@ -12583,8 +12770,8 @@
           "Avantgarde",
           "Experimental"
         ],
-        "year": 2024,
-        "year_from": "musicbrainz"
+        "year": 1972,
+        "year_from": "discogs"
       },
       {
         "artist": "Snakefinger",
@@ -12744,6 +12931,8 @@
         "apple_album_id": 1822772516,
         "apple_artist_id": 280219742,
         "mb_id": "14ba7918-d5bb-43c2-a720-4d637613e2e7",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -12784,6 +12973,8 @@
         "apple_album_id": 1677230474,
         "apple_artist_id": null,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2023,
         "year_from": "apple"
       },
@@ -12987,6 +13178,14 @@
         "apple_album_id": 1641887994,
         "apple_artist_id": null,
         "mb_id": "b4e91c09-3748-442b-acc7-f44177fd08da",
+        "discogs_id": 25037269,
+        "discogs_master_id": 3546061,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Punk"
+        ],
         "year": 2022,
         "year_from": "musicbrainz"
       },
@@ -13708,6 +13907,8 @@
         "apple_album_id": 1664542604,
         "apple_artist_id": 1491493023,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2023,
         "year_from": "apple"
       },
@@ -13934,8 +14135,8 @@
         "discogs_styles": [
           "Chanson"
         ],
-        "year": 1990,
-        "year_from": "musicbrainz"
+        "year": 1966,
+        "year_from": "discogs"
       },
       {
         "artist": "Karel Gott",
@@ -13986,8 +14187,8 @@
           "Chanson",
           "Schlager"
         ],
-        "year": 1990,
-        "year_from": "musicbrainz"
+        "year": 1967,
+        "year_from": "discogs"
       },
       {
         "artist": "Eva Pilarová",
@@ -14739,6 +14940,8 @@
         "apple_album_id": 1770948941,
         "apple_artist_id": 1453041763,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -14778,6 +14981,8 @@
         "apple_album_id": 1797031128,
         "apple_artist_id": 201827201,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2023,
         "year_from": "apple"
       }
@@ -15265,6 +15470,14 @@
         "apple_album_id": null,
         "apple_artist_id": 825840,
         "mb_id": "497597fc-e4e6-405c-bdcb-74db9924b38d",
+        "discogs_id": 26555582,
+        "discogs_master_id": 424431,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Rock & Roll"
+        ],
         "year": 1958,
         "year_from": "musicbrainz"
       },
@@ -15330,6 +15543,15 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "458c32ab-6318-412e-b021-7a091a033cca",
+        "discogs_id": 8602266,
+        "discogs_master_id": 1058093,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Rock & Roll",
+          "Rockabilly"
+        ],
         "year": 1957,
         "year_from": "musicbrainz"
       },
@@ -15410,6 +15632,8 @@
         "apple_album_id": 1782324129,
         "apple_artist_id": 160618242,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -15515,6 +15739,8 @@
         "apple_album_id": 1768482643,
         "apple_artist_id": 1744219123,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -16108,6 +16334,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1535027406,
         "mb_id": "12c21995-690d-4730-8d48-7aa79daa8bf0",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "musicbrainz"
       },
@@ -16197,8 +16425,8 @@
         "discogs_styles": [
           "Garage Rock"
         ],
-        "year": 1989,
-        "year_from": "musicbrainz"
+        "year": 1986,
+        "year_from": "discogs"
       },
       {
         "artist": "Billy Childish & Holly Golightly",
@@ -16238,6 +16466,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1453124130,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2022,
         "year_from": "apple"
       },
@@ -16286,8 +16516,8 @@
           "Punk",
           "Garage Rock"
         ],
-        "year": 2018,
-        "year_from": "musicbrainz"
+        "year": 2013,
+        "year_from": "discogs"
       },
       {
         "artist": "Areasud Electric Roots",
@@ -16301,6 +16531,8 @@
         "apple_album_id": 1735274849,
         "apple_artist_id": 1735274853,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -16686,6 +16918,8 @@
         "apple_album_id": 1789134000,
         "apple_artist_id": null,
         "mb_id": "7b8f0ad9-6a9b-4060-b3fa-c48c0de03baa",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       }
@@ -16713,6 +16947,17 @@
         "apple_album_id": 1794340138,
         "apple_artist_id": 1173631177,
         "mb_id": "b144535b-92bb-4834-b336-5929fe8ee7ec",
+        "discogs_id": 33881514,
+        "discogs_master_id": 3834489,
+        "discogs_genres": [
+          "Electronic",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "EBM",
+          "Noise Rock",
+          "Post-Punk"
+        ],
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -16728,6 +16973,17 @@
         "apple_album_id": 1831354518,
         "apple_artist_id": 1173631177,
         "mb_id": "647f941f-c4d9-446c-b676-ddc6932081b2",
+        "discogs_id": 27836844,
+        "discogs_master_id": 3146037,
+        "discogs_genres": [
+          "Electronic",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Noise Rock",
+          "No Wave",
+          "Experimental"
+        ],
         "year": 2023,
         "year_from": "musicbrainz"
       },
@@ -16744,6 +17000,8 @@
         "apple_album_id": 1749656486,
         "apple_artist_id": 1257124649,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -16782,6 +17040,8 @@
         ],
         "apple_id": null,
         "mb_id": "4eee9cd3-27c9-4802-ad23-52ca31b4a5a5",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2012,
         "year_from": "musicbrainz"
       },
@@ -16796,6 +17056,8 @@
         ],
         "apple_id": null,
         "mb_id": "0dd3190a-722d-47e3-b06c-eec0f49cc61d",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2012,
         "year_from": "musicbrainz"
       },
@@ -16809,6 +17071,8 @@
         ],
         "apple_id": null,
         "mb_id": "2a2171e0-93b2-40b2-8159-4a11a0035e21",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2012,
         "year_from": "musicbrainz"
       },
@@ -16825,6 +17089,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "7beb13e4-237b-481f-b48c-f177eb2e5e95",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2014,
         "year_from": "musicbrainz"
       },
@@ -16838,6 +17104,8 @@
         ],
         "apple_id": null,
         "mb_id": "2de0caf4-4542-46a0-af9c-8a86865ac0c9",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2023,
         "year_from": "musicbrainz"
       },
@@ -16852,6 +17120,8 @@
         ],
         "apple_id": null,
         "mb_id": "008584ec-3b18-4948-aef8-6da3e6b9c163",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2023,
         "year_from": "musicbrainz"
       },
@@ -17047,8 +17317,8 @@
         "mb_id": "331763f3-bd01-4b09-a8f1-ef385e515f89",
         "discogs_id": 4479682,
         "discogs_master_id": null,
-        "year": 2024,
-        "year_from": "musicbrainz"
+        "year": 2004,
+        "year_from": "discogs"
       },
       {
         "artist": "Miraflores",
@@ -17176,6 +17446,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "apple"
       },
@@ -17320,6 +17592,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1559317256,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2021,
         "year_from": "apple"
       },
@@ -17479,6 +17753,8 @@
         "apple_album_id": 1746480155,
         "apple_artist_id": null,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -17494,6 +17770,8 @@
         "apple_album_id": 1837917225,
         "apple_artist_id": 1846184787,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -17509,8 +17787,8 @@
         "mb_id": "a6f693eb-c2e3-4c39-b645-045f7c4e70a1",
         "discogs_id": 13377988,
         "discogs_master_id": null,
-        "year": 2015,
-        "year_from": "musicbrainz"
+        "year": 2013,
+        "year_from": "discogs"
       },
       {
         "artist": "Muom",
@@ -17615,6 +17893,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1392751721,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "owner"
       },
@@ -18003,8 +18283,8 @@
           "Blues Rock",
           "Space Rock"
         ],
-        "year": 2007,
-        "year_from": "musicbrainz"
+        "year": 1976,
+        "year_from": "discogs"
       },
       {
         "artist": "Stephen Malkmus",
@@ -18464,6 +18744,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       }
@@ -18724,6 +19006,8 @@
         "apple_album_id": 1773729323,
         "apple_artist_id": 1768663856,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -18847,6 +19131,8 @@
         "apple_album_id": 1753374386,
         "apple_artist_id": 1582673474,
         "mb_id": "197cb441-9d17-4d00-a65e-fbc23ccb18a0",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "musicbrainz"
       },
@@ -18862,6 +19148,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1456861278,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2021,
         "year_from": "apple"
       },
@@ -18877,6 +19165,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1456861278,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -18892,6 +19182,8 @@
         "apple_album_id": 1625324981,
         "apple_artist_id": 261271205,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2022,
         "year_from": "apple"
       },
@@ -19220,6 +19512,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1557137102,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -19312,8 +19606,8 @@
         "discogs_styles": [
           "Rockabilly"
         ],
-        "year": 1993,
-        "year_from": "musicbrainz"
+        "year": 1959,
+        "year_from": "discogs"
       },
       {
         "artist": "Don Cole",
@@ -19858,6 +20152,8 @@
         "apple_album_id": 1740623432,
         "apple_artist_id": 723490430,
         "mb_id": "52c48b15-a89f-4d6c-98b4-9747d0134568",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "musicbrainz"
       },
@@ -20007,6 +20303,8 @@
         "apple_album_id": 1748653358,
         "apple_artist_id": 1627546365,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -20022,6 +20320,8 @@
         "apple_album_id": 1786531071,
         "apple_artist_id": 356801728,
         "mb_id": "40563edb-c4d8-4d13-a1ec-b55ed2ed1281",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -20831,6 +21131,16 @@
         "apple_album_id": null,
         "apple_artist_id": 1960022,
         "mb_id": "f0db7ec3-b0f4-4430-a6c6-38e381bd6397",
+        "discogs_id": 10820347,
+        "discogs_master_id": 68762,
+        "discogs_genres": [
+          "Rock",
+          "Blues"
+        ],
+        "discogs_styles": [
+          "Beat",
+          "Rhythm & Blues"
+        ],
         "year": 1964,
         "year_from": "musicbrainz"
       },
@@ -21339,6 +21649,8 @@
         "apple_album_id": 1710589487,
         "apple_artist_id": 1479746642,
         "mb_id": "3fcb61ef-6d2d-4988-b73a-20632fd7ebe3",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2023,
         "year_from": "musicbrainz"
       }
@@ -21539,6 +21851,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "b892c988-6b95-4840-a686-1884465a917e",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -21946,6 +22260,8 @@
         "apple_album_id": null,
         "apple_artist_id": 1872441642,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -22062,6 +22378,8 @@
         "apple_album_id": 1753923362,
         "apple_artist_id": null,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -22077,6 +22395,14 @@
         "apple_album_id": null,
         "apple_artist_id": 270793186,
         "mb_id": "56ef55ca-668d-4875-b62b-f2659435e3bf",
+        "discogs_id": 14140325,
+        "discogs_master_id": 104332,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Hard Rock"
+        ],
         "year": 1968,
         "year_from": "musicbrainz"
       },
@@ -22473,6 +22799,8 @@
         ],
         "apple_id": null,
         "mb_id": "349a567f-d3db-48bd-b6a5-4dd619ed5990",
+        "discogs_id": 35065406,
+        "discogs_master_id": null,
         "year": 1980,
         "year_from": "musicbrainz"
       },
@@ -22504,8 +22832,8 @@
           "Musique Concrète",
           "Avantgarde"
         ],
-        "year": 1991,
-        "year_from": "musicbrainz"
+        "year": 1960,
+        "year_from": "discogs"
       },
       {
         "artist": "Aleister Crowley",
@@ -22807,8 +23135,8 @@
         "mb_id": "e5f7d529-f084-4940-8708-fd6245227eca",
         "discogs_id": 9489523,
         "discogs_master_id": null,
-        "year": 2018,
-        "year_from": "musicbrainz"
+        "year": 1965,
+        "year_from": "discogs"
       },
       {
         "artist": "Soledad Miranda",
@@ -22876,8 +23204,8 @@
           "Cumbia",
           "Pasodoble"
         ],
-        "year": 2018,
-        "year_from": "musicbrainz"
+        "year": 1967,
+        "year_from": "discogs"
       },
       {
         "artist": "Conchita Velasco",
@@ -23103,6 +23431,8 @@
         "apple_album_id": 1596005781,
         "apple_artist_id": 1145531799,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2022,
         "year_from": "apple"
       },
@@ -23321,6 +23651,8 @@
         "apple_album_id": 1652579510,
         "apple_artist_id": 1232871546,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2022,
         "year_from": "apple"
       },
@@ -23336,6 +23668,16 @@
         "apple_album_id": 971581706,
         "apple_artist_id": 6428287,
         "mb_id": "12b80193-e7bd-4e02-9308-94be260d99ae",
+        "discogs_id": 5562130,
+        "discogs_master_id": 672516,
+        "discogs_genres": [
+          "Rock",
+          "Pop"
+        ],
+        "discogs_styles": [
+          "Rock & Roll",
+          "Ballad"
+        ],
         "year": 1959,
         "year_from": "musicbrainz"
       },
@@ -23667,6 +24009,8 @@
         "apple_album_id": 1746038408,
         "apple_artist_id": 1740295039,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -23710,6 +24054,14 @@
         "apple_album_id": null,
         "apple_artist_id": 1698460,
         "mb_id": "bebe5f2f-ee52-41f0-85f4-a0cfbb4e4649",
+        "discogs_id": 12672529,
+        "discogs_master_id": 17291,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Alternative Rock"
+        ],
         "year": 1988,
         "year_from": "musicbrainz"
       },
@@ -23776,6 +24128,14 @@
         "apple_album_id": null,
         "apple_artist_id": 159858,
         "mb_id": "4446c764-e95a-4f4f-81f1-482d670adfef",
+        "discogs_id": 936205,
+        "discogs_master_id": 88421,
+        "discogs_genres": [
+          "Electronic"
+        ],
+        "discogs_styles": [
+          "Electro"
+        ],
         "year": 1990,
         "year_from": "musicbrainz"
       },
@@ -23792,6 +24152,8 @@
         "apple_album_id": null,
         "apple_artist_id": 60321727,
         "mb_id": "58934c6c-9144-4e18-9ef1-a53a73044984",
+        "discogs_id": 32027336,
+        "discogs_master_id": null,
         "year": 2001,
         "year_from": "musicbrainz"
       },
@@ -24077,6 +24439,15 @@
         "apple_album_id": 1442771144,
         "apple_artist_id": 26514115,
         "mb_id": "9ae11d66-0a31-4029-9805-a5862460ed3d",
+        "discogs_id": 1428416,
+        "discogs_master_id": 99450,
+        "discogs_genres": [
+          "Funk / Soul"
+        ],
+        "discogs_styles": [
+          "Funk",
+          "Soul"
+        ],
         "year": 1975,
         "year_from": "musicbrainz"
       },
@@ -24115,6 +24486,8 @@
         "apple_album_id": 1443065914,
         "apple_artist_id": 517355,
         "mb_id": "bc99b291-63a0-4295-bbdf-2ed49d83d317",
+        "discogs_id": 15968041,
+        "discogs_master_id": null,
         "year": 1960,
         "year_from": "musicbrainz"
       },
@@ -24266,6 +24639,8 @@
         "apple_album_id": 1746351429,
         "apple_artist_id": 1504623173,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -24321,8 +24696,8 @@
         "mb_id": "7412d13a-7288-41c2-a34a-64c3b684e4c8",
         "discogs_id": 4237075,
         "discogs_master_id": null,
-        "year": 1998,
-        "year_from": "musicbrainz"
+        "year": 1966,
+        "year_from": "discogs"
       },
       {
         "artist": "Domenico Modugno",
@@ -24336,6 +24711,8 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "653c682e-8d84-4ab9-aaf5-4c58f993fd5f",
+        "discogs_id": 29724481,
+        "discogs_master_id": null,
         "year": 1995,
         "year_from": "musicbrainz"
       },
@@ -24462,6 +24839,8 @@
         "apple_album_id": 1718233203,
         "apple_artist_id": 1414962466,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2023,
         "year_from": "apple"
       },
@@ -24819,6 +25198,8 @@
         "apple_album_id": 1847292534,
         "apple_artist_id": 1721504679,
         "mb_id": "3447f657-266b-4bf2-bf8b-daaee993a848",
+        "discogs_id": 30730409,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "musicbrainz"
       }
@@ -25641,6 +26022,15 @@
         "apple_album_id": null,
         "apple_artist_id": 78146839,
         "mb_id": "93255990-5327-4fb8-bd88-76aa2f774c63",
+        "discogs_id": 964319,
+        "discogs_master_id": 94785,
+        "discogs_genres": [
+          "Rock",
+          "Pop"
+        ],
+        "discogs_styles": [
+          "Pop Rock"
+        ],
         "year": 1968,
         "year_from": "musicbrainz"
       },
@@ -25656,6 +26046,17 @@
         "apple_album_id": null,
         "apple_artist_id": 435570950,
         "mb_id": "fa98e04a-185d-4e03-af4c-4e566e02f02e",
+        "discogs_id": 5385007,
+        "discogs_master_id": 667335,
+        "discogs_genres": [
+          "Rock",
+          "Pop"
+        ],
+        "discogs_styles": [
+          "Pop Rock",
+          "Psychedelic Rock",
+          "Garage Rock"
+        ],
         "year": 1967,
         "year_from": "musicbrainz"
       },
@@ -25839,6 +26240,8 @@
         "apple_album_id": 1844330969,
         "apple_artist_id": 1524065094,
         "mb_id": "9d1d90d3-8963-453e-bc56-f93cf12b6130",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "musicbrainz"
       },
@@ -26133,8 +26536,8 @@
         "mb_id": "ba1e5d7c-d6e1-4afa-a29d-218270ea30e1",
         "discogs_id": 10379951,
         "discogs_master_id": null,
-        "year": 2023,
-        "year_from": "musicbrainz"
+        "year": 2011,
+        "year_from": "discogs"
       },
       {
         "artist": "Tenniscoats",
@@ -26191,6 +26594,8 @@
         "apple_album_id": 992093155,
         "apple_artist_id": 342379907,
         "mb_id": "0da09dd0-ccda-46b2-9c1a-fab9f8e0fbc2",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 1987,
         "year_from": "musicbrainz"
       },
@@ -26256,8 +26661,11 @@
         "apple_id": 1479326548,
         "apple_album_id": 1479326425,
         "apple_artist_id": 1528208582,
-        "year": 2019,
-        "year_from": "apple"
+        "mb_id": null,
+        "discogs_id": 26425784,
+        "discogs_master_id": null,
+        "year": 2022,
+        "year_from": "discogs"
       },
       {
         "artist": "GRČ",
@@ -26336,8 +26744,10 @@
         "apple_album_id": null,
         "apple_artist_id": 1669522480,
         "mb_id": null,
+        "discogs_id": 30740116,
+        "discogs_master_id": null,
         "year": 2023,
-        "year_from": "apple"
+        "year_from": "discogs"
       },
       {
         "artist": "The Sure Fire Soul Ensemble",
@@ -26504,6 +26914,8 @@
         "apple_album_id": 1735957236,
         "apple_artist_id": 72501520,
         "mb_id": "71af1b1b-68e5-4e7c-9b47-ba77d07a9150",
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "musicbrainz"
       },
@@ -26519,6 +26931,8 @@
         "apple_album_id": 1745147414,
         "apple_artist_id": 1272920227,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -26535,6 +26949,8 @@
         "apple_album_id": 1773412061,
         "apple_artist_id": 389224101,
         "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": 2024,
         "year_from": "apple"
       },
@@ -27054,8 +27470,8 @@
           "Psychedelic Rock",
           "Rock & Roll"
         ],
-        "year": 1994,
-        "year_from": "musicbrainz"
+        "year": 1970,
+        "year_from": "discogs"
       },
       {
         "artist": "Faraualla",
