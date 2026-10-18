@@ -878,6 +878,7 @@ const cueOnly = ({ compared, lacking }) =>
 
 /** Notes on single episodes, from reading the sources side by side. */
 const EPISODE_NOTES = {
+  701: 'complete with 5 songs: the rest of the hour is talk, the last episode on Эхо Москвы before Финам FM (the owner listened, 2026-10-18)',
   148: "radar.lv's post and CUE sheet titled #148 hold #147's list (see programs/fmd/CROSSCHECK.md); this is the XLS's #148, found nowhere else",
   674: "radar.lv's second sheet for #675 (FM_Dostoevsky_N675_2010.02.28_0.cue) names these same 16 songs and a 17th after them, «zakopower \"kiebys ty\"»: perhaps this episode's last song, which this sheet lacks",
 };
@@ -921,9 +922,7 @@ function dateOf(best, sources, before, after) {
 
 /** Why an episode's chosen list is short, if it is. */
 function incompleteReason(number, best, sources) {
-  if (number === 701 && best.kind === 'cue') {
-    return 'possibly incomplete: the CUE sheet covers the whole hour but names only 5 songs between long talk tracks (the last show before Финам FM, maybe a farewell; check by ear)';
-  }
+  if (number === 701) return null; // complete with 5 songs: see EPISODE_NOTES
   const others = sources.filter((s) => s !== best && s.kind !== 'xls');
   const longest = Math.max(0, ...others.map((s) => s.entries.length));
   if (longest >= best.entries.length + 2) return `incomplete: ${best.entries.length} entries where another source lists ${longest}`;

@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N701_29.08.2010.cue
 date: 2010-08-29
 title: FM Достоевский #701
-note: From the ID3 comment of a fans' collection's mp3 of the episode («701. #701 29.08.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json). Incomplete: only 5 entries, where an episode usually has 13–17.
+note: From the ID3 comment of a fans' collection's mp3 of the episode («701. #701 29.08.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json). Complete with 5 songs: the rest of the hour is talk, the last episode on Эхо Москвы before Финам FM (the owner listened, 2026-10-18).
 
 1. teun-jai boon praraksa (thailand) "ha fang kheng kan" CD "siamese soul" (sublime frequencies)
 2. moon duo (usa) "motorcycle, i love you" CD "escape" (woodsist)

@@ -4,7 +4,7 @@ Notes for whoever picks this up. The sources are gathered in `programs/fmd/sourc
 `node bin/fmd-playlists.js` rebuilds every `programs/fmd/playlists/<number>.txt` from them (offline,
 deterministic; it deletes and rewrites the whole folder), plus `programs/fmd/CROSSCHECK.md` (how the
 sources agree where they overlap) and `programs/fmd/MISSING.md` (what no source has): 779 playlist
-files, 41 episodes missing, one possibly incomplete (#701). `node bin/playlists.js fmd` parses
+files, 41 episodes missing. #701 has 5 songs, the rest talk: complete (the owner listened). `node bin/playlists.js fmd` parses
 them into `docs/data/fmd.json`, like every other program's.
 
 ## Playlist files
@@ -81,8 +81,8 @@ names and titles are in Latin letters mostly before about #100, where nothing el
   one, and radar.lv's P.S. on #152 and #171 (a song replaced, a song cut) match the sheets, not the
   playlists. So a CUE-only episode (#620–#701) could lack a last song that was planned, until the mp3
   tags gave the full lists. Several episodes have more than one sheet (`_0`, `_1`…): duplicates, or timings only. #703's two sheets hold timings only, no names (Finam's RSS has the episode).
-  #701's covers the whole hour but has 5 songs and long talk: the last show before Finam, maybe
-  a farewell; the owner may check by ear. The recordings themselves are not used. Since the mp3 tags
+  #701's covers the whole hour but has 5 songs and long talk: the last episode on Эхо Москвы before
+  Finam; the owner listened (2026-10-18): only those 5 songs, the rest talk. The recordings themselves are not used. Since the mp3 tags
   (below) came in, no playlist is taken from a CUE sheet: they cross-check.
 - `owner/<number>.txt`: playlists the owner wrote down by ear for episodes no other source has, as
   they wrote them: a numbered line per song (artist, title, album, country, year, in no fixed layout), each

@@ -49,6 +49,6 @@ the source).
 - #809: Finam №108; its page was never captured by the Wayback Machine
 - #810: Finam №109; its page was never captured by the Wayback Machine
 
-## Incomplete (1)
+## Incomplete (0)
 
-- #701: incomplete: only 5 entries, where an episode usually has 13–17
+None.
