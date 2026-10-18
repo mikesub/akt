@@ -133,6 +133,12 @@ names and titles are in Latin letters mostly before about #100, where nothing el
     #802's saved the list its page lost; none exists for the episodes never captured.
 - `web.archive.org/`: the Wayback index queries used (`fmd.soyuz.ru-cdx.json`,
   `finam.fm-broadcast-29-cdx.json`).
+- fmd.soyuz.ru's «next program» page (`/?s=_NEXTRADIO`) shows the latest playlist on the day it was
+  captured, and the site kept it up after its archive list stopped at #619. All 61 distinct captures of it, of
+  the front page and of `/?s=_FRONTPAGE` (2002–2016) were read on 2026-10-18: none has a missing episode, and
+  every list matches the playlist here, #620–#635 and #724–#799 included. The capture headed «PLAYLIST #311
+  15.02.2003» is #310's list (a typo; the site's own #311 page is right). The site kept FMD's count into
+  «Stereo Voodoo»: its «PLAYLIST #826 15.04.2013» is Voodoo's #4, so #821 is Voodoo's #1.
 
 ## Coverage
 
