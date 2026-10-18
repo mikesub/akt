@@ -3023,8 +3023,8 @@
     "artist": "Propeller",
     "track": "Die Woche",
     "album": "Propeller",
-    "year": 1996,
-    "why": "FM Достоевский #68: the album's first edition, 1996 (discogs.com/master/2218171, Discogs' «Propeller (20)»); no other source had a year; accepted in the owner's review of Discogs years"
+    "year": 1995,
+    "why": "FM Достоевский #68: the album «Propeller» (discogs.com/master/2218171, Discogs' «Propeller (20)»), 1995, the year MusicBrainz gives «Helinalg» from the same album; Discogs' master says 1996; the owner's call"
   },
   {
     "artist": "Yma Sumac",
@@ -6144,7 +6144,7 @@
     "discogs_master_id": 234932,
     "year": 1966,
     "year_from": "discogs",
-    "why": "Музыка на Свободе #9: the film's theme, first on «Un Homme Et Une Femme / Samba Saravah» (discogs.com/release/2146754, master 234932), 1966; MusicBrainz's 1975 is a compilation's; the masters dump had matched the album «The Best Of Francis Lai» (master 3173766), which does not have it"
+    "why": "Музыка на Свободе #9: the film's theme, first on «Un Homme Et Une Femme / Samba Saravah» (discogs.com/release/2146754, master 234932), 1966; MusicBrainz's 1975 is a compilation's; the masters dump had matched the album «The Best Of Francis Lai» (master 3173766), which does not have it; 1966 confirmed by the owner"
   },
   {
     "artist": "el kinto",
@@ -6208,5 +6208,12 @@
     "album": "verdade",
     "year": 2008,
     "why": "FM Достоевский #747: track 11 of «Verdade» (discogs.com/master/2855095), 2008; MusicBrainz had 2010; the owner's review of Discogs years"
+  },
+  {
+    "artist": "The Chills",
+    "track": "Smile from a dead face",
+    "album": "Kaleidoscope World",
+    "year": 1986,
+    "why": "Записки из подполья #48: 1986, the owner's word; Discogs has it only on the 2016 expanded «Kaleidoscope World» (discogs.com/release/8893191, master 436155), not the 1986 edition; MusicBrainz had 2001"
   }
 ]
