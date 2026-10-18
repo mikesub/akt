@@ -53,8 +53,8 @@ export const OPTIONS_USAGE = `  --limit <n>        Parse at most n playlists, ne
   --discogs          Look up on Discogs every track never asked there (those parsed before
                      every track was, 2026-10-17), and the master of every release found
                      before masters were kept; a track with a master from the masters dump
-                     (bin/discogs-dump.js) is skipped: about 7,900 tracks and 750 releases
-                     on 2026-10-18, some 5 to 15 hours with DISCOGS_TOKEN in .env;
+                     or one placed from the releases dump (bin/discogs-dump.js) is skipped:
+                     about 1,600 tracks on 2026-10-18, some 1 to 3 hours with DISCOGS_TOKEN;
                      resumable. A run asks only new tracks, and those still without a year
   --only <pattern>   With --misses, --musicbrainz or --relink: only the tracks whose
                      artist, title or album matches the pattern (a regular expression)
@@ -360,8 +360,8 @@ export async function run(
    * A failed lookup is left for the next run. Discogs, at 60 requests a
    * minute with the token (25 without), is asked about the tracks of the
    * playlists parsed in this run and those without a year; the rest, parsed
-   * before it was asked about every track, only with `discogs` (some 5 to 15
-   * hours for the rest of the archive, the masters dump having placed half).
+   * before it was asked about every track, only with `discogs` (some 1 to 3
+   * hours for the rest of the archive, the dumps having placed the others).
    */
   const fresh = new Set(toParse);
   async function lookUp(name) {

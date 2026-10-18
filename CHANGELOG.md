@@ -9,6 +9,13 @@ Routine updates (a new Стереоплан episode, a single fix) are not liste
 
 ## 2026-10-18
 
+- 17,740 tracks in every program matched to a Discogs release offline, from Discogs' CC0 releases dump of
+  2026-10-01, by track title and artist (`bin/discogs-dump.js --releases`): `discogs_id` set on each (none was
+  overwritten), `discogs_master_id` on 6,492 that had none (3,265 a master, with its `discogs_genres` and
+  `discogs_styles`; 3,227 `null`, the release having no master), and on 751 releases the API had found. Years:
+  120 tracks without one got the earliest Discogs year, 152 Apple years changed to an earlier (or the same, or a
+  year later) Discogs year, 741 more Apple years now marked `discogs`; MusicBrainz's and the owner's untouched. 563
+  doubtful cases wait for the owner (a Discogs release 2+ years before MusicBrainz's year, or 2+ after Apple's).
 - **Format:** a new track field after `year`, `year_from`: where the year comes from, `musicbrainz`, `discogs`,
   `apple` or `owner` (an `overrides.json` year); absent when `year` is null. Every year has one: 17,113 MusicBrainz,
   1,666 Discogs, 1,607 Apple Music, 390 the owner's; 1,070 tracks have no year (as of this entry).

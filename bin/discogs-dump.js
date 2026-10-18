@@ -39,6 +39,20 @@ changed. Everything else worth a look goes to --review: a MusicBrainz year 2+ ye
 an Apple year 2+ years before its master's (the album is likely a later compilation), and a change the
 rule would make but for a doubtful match. A year the owner kept or set is an override (year_from owner).
 
+With --releases, matches tracks to releases instead, by title (src/releases.js): a release matches a
+track when one of its tracks has the track's title and is credited, on that track or on the release, to
+the track's artist, as the API lookup decides (src/discogs.js), but on every release in the dump (10 GB,
+read streamed, 10–20 minutes). For tracks with no discogs_id (absent, or null: not found online), and
+tracks whose release (from the API) has no master recorded yet. Without --write a dry run. With --write:
+sets discogs_id where the track has none and discogs_master_id where it has none (null: the release has
+no master, so the API backfill never asks it again), the master's genres and styles from the masters dump,
+never over an id the track has; a track with a master already gets a release only of that master. Years
+by YEAR_RANK (src/pipeline.js): the earliest year of the matching releases (a compilation's left out, a
+reissue's by its master's) fills a missing year or replaces Apple Music's, never one from MusicBrainz or
+the owner, never after the episode aired; 2+ years before a MusicBrainz year, or 2+ years after Apple's,
+it goes to --review instead. Two Discogs artists of the same name behind the matches (or one other than
+the archive's masters already name), and titles too short or generic ("Intro"), are left unmatched.
+
 Options:
   --masters <file>   The masters dump (default: ../discogs_<date>_masters.xml.gz, the newest)
   --artists <file>   The artists dump, for name variations and aliases (default: the newest beside it;
@@ -47,7 +61,10 @@ Options:
   --write            Set the masters in docs/data, then their genres and styles (see above)
   --genres           Set the genres and styles of every track's master in docs/data (see above)
   --years            Set the masters' years where the case is clear (see above)
-  --review <file>    With --years: write, as JSON, the doubtful cases for the owner to review (see above)
+  --releases         Match by title against the releases dump (see above; default: the newest beside it)
+  --matches <file>   With --releases: save the pass's matches there, or read them back if it exists
+                     (a dry run, then --write, without a second pass over the dump)
+  --review <file>    With --years or --releases: write, as JSON, the doubtful cases for the owner (see above)
   -h, --help         Show this help
 `;
 
@@ -62,6 +79,8 @@ try {
       genres: { type: 'boolean' },
       review: { type: 'string' },
       years: { type: 'boolean' },
+      releases: { type: 'boolean' },
+      matches: { type: 'string' },
       help: { type: 'boolean', short: 'h' },
     },
   });
@@ -74,7 +93,8 @@ try {
   if (!masters || !existsSync(masters)) throw new Error('no masters dump: download discogs_<date>_masters.xml.gz from data.discogs.com next to the repo, or name it with --masters');
   const artists = values.artists === 'none' ? null : (values.artists ?? newest('artists'));
   if (artists && !existsSync(artists)) throw new Error(`no artists dump at ${artists}`);
-  opts = { masters, artists, report: values.report ?? null, write: values.write ?? false, genres: (values.genres || values.write) ?? false, review: values.review ?? null, years: values.years ?? false };
+  opts = { masters, artists, report: values.report ?? null, write: values.write ?? false, genres: (values.genres || values.write) ?? false, review: values.review ?? null, years: values.years ?? false, releases: values.releases ? newest('releases') : null, matches: values.matches ?? null };
+  if (values.releases && !opts.releases) throw new Error('no releases dump: download discogs_<date>_releases.xml.gz from data.discogs.com next to the repo');
 } catch (err) {
   process.stderr.write(`${err.message}\n\n${USAGE}`);
   process.exit(2);
@@ -101,12 +121,34 @@ for (const [id, episodes] of data) {
   for (const episode of episodes) {
     const aired = episode.published_at ?? null;
     const airYear = aired ? Number(aired.slice(0, 4)) : (airedBy.get(episode.number) ?? null);
-    for (const t of episode.tracks ?? []) {
-      tracks.push({ program: id, episode: episode.number ?? episode.published_at, aired, airYear, t, lead: t.artist ? artistKey(credited(main(t.artist))[0] ?? t.artist) : '', album: t.album ? titleKey(t.album) : '' });
+    for (const [index, t] of (episode.tracks ?? []).entries()) {
+      tracks.push({ program: id, episode: episode.number ?? episode.published_at ?? episode.guid, index, aired, airYear, t, lead: t.artist ? artistKey(credited(main(t.artist))[0] ?? t.artist) : '', album: t.album ? titleKey(t.album) : '' });
     }
   }
 }
 const albumKeys = new Set(tracks.filter((x) => x.album && x.lead).map((x) => x.album));
+
+/** Writes the tracks in `changed` back to their data files, through the pipeline's own shaping (key order). */
+function save(changed) {
+  for (const [id, episodes] of data) {
+    let any = false;
+    for (const episode of episodes) {
+      if (!episode.tracks?.some((t) => changed.has(t))) continue;
+      episode.tracks = episode.tracks.map((t) => (changed.has(t) ? corrected(t) : t));
+      any = true;
+    }
+    if (!any) continue;
+    const file = join(ROOT, 'docs', 'data', `${id}.json`);
+    writeFileSync(`${file}.tmp`, `${JSON.stringify(episodes, null, 2)}\n`);
+    renameSync(`${file}.tmp`, file);
+  }
+}
+
+if (opts.releases) {
+  const { releasesMode } = await import('../src/releases-mode.js');
+  await releasesMode({ opts, tracks, save });
+  process.exit(0);
+}
 
 // ------------------------------------------------------------------ dumps, streamed
 

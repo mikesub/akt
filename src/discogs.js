@@ -79,7 +79,7 @@ const titlesOf = (release) =>
  * one when the host shortens a long title to three words or more
  * ("Звёзды всегда хороши" for "Звёзды Всегда Хороши, Особенно Ночью").
  */
-function hasTitle(release, title) {
+export function hasTitle(release, title) {
   const host = plain(title);
   const long = host.split(' ').length >= 3;
   return titlesOf(release).some(

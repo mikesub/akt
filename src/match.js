@@ -96,6 +96,8 @@ function distance(a, b) {
 export function close(a, b, ratio) {
   if (a === b) return true;
   if (Math.min(a.length, b.length) < 5) return false;
+  // The distance is at least the difference in length: no need to count when that alone is too much.
+  if (Math.abs(a.length - b.length) > Math.floor(ratio * Math.max(a.length, b.length))) return false;
   return distance(a, b) <= Math.floor(ratio * Math.max(a.length, b.length));
 }
 
@@ -169,3 +171,36 @@ export const sameArtist = (host, other) => {
   if (hosts.length === 0 || others.length === 0) return false;
   return others.some((name) => close(hosts[0], name, 0.2)) || hosts.some((name) => close(name, others[0], 0.2));
 };
+
+/** A source title's plain and counted forms, cached: the releases dump asks the same titles millions of times. */
+const formCache = new Map();
+function formsOf(title) {
+  let f = formCache.get(title);
+  if (f) return f;
+  if (formCache.size > 500_000) formCache.clear();
+  const counts = forms(title).map(counted);
+  f = { plain: plain(title), counted: counts, squashed: counts.map(squash), numbers: counts.map(numbers) };
+  formCache.set(title, f);
+  return f;
+}
+
+/**
+ * The test src/discogs.js hasTitle makes, for one host title against many
+ * source titles: sameTitle, nearTitles, or the start of a long title, with the
+ * host's forms worked out once and the sources' cached.
+ */
+export function titleTest(host) {
+  const h = counted(plain(host));
+  const hs = squash(h);
+  const hn = numbers(h);
+  const hp = plain(host);
+  const long = hp.split(' ').length >= 3;
+  return (other) => {
+    const f = formsOf(other ?? '');
+    for (let i = 0; i < f.counted.length; i++) {
+      if (f.squashed[i] === hs) return true;
+      if (f.numbers[i] === hn && close(h, f.counted[i], 0.2)) return true;
+    }
+    return long && `${f.plain} `.startsWith(`${hp} `);
+  };
+}
