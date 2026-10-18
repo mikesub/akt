@@ -9,6 +9,15 @@ Routine updates (a new Стереоплан episode, a single fix) are not liste
 
 ## 2026-10-18
 
+- Years: 449 tracks (440 `overrides.json` entries) take the year of a Discogs release that has the track, 2+ years
+  before MusicBrainz's (a later release's or compilation's), from the releases dump's track-level matches (and one,
+  Hazy Osterwald Sextet's «Kriminal Tango», the owner's 1959 already set for the band's other spelling); the
+  doubtful matches (compilations, namesakes, live, session, remix or re-recorded versions, misdated releases) wait
+  for the owner's review, and a Discogs year 2+ years after Apple's keeps Apple's. In the data from each program's
+  next run (or `node bin/countries.js --recode`).
+- **Format:** `year_from` keeps its values, but `discogs` can now also come from `overrides.json`: an override
+  sets `year_from` to `owner` unless the entry names its own source (here `discogs`, a Discogs year settled by the
+  owner's rule rather than found by the owner). Such a year, like the owner's, wins over every lookup.
 - 17,740 tracks in every program matched to a Discogs release offline, from Discogs' CC0 releases dump of
   2026-10-01, by track title and artist (`bin/discogs-dump.js --releases`): `discogs_id` set on each (none was
   overwritten), `discogs_master_id` on 6,492 that had none (3,265 a master, with its `discogs_genres` and

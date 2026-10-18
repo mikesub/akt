@@ -5,6 +5,7 @@ import { parseArgs } from 'node:util';
 import { artistKey } from '../src/artists.js';
 import { decode, discogsName, dumpDate, genresOf, newestDump, parseMaster, records } from '../src/dumps.js';
 import { credited, main } from '../src/match.js';
+import { yearOverridden } from '../src/overrides.js';
 import { corrected } from '../src/pipeline.js';
 import { programs } from '../src/playlists.js';
 
@@ -34,10 +35,11 @@ With --years, applies the masters' years where the case is clear (AGENTS.md, Yea
 discogs_master_id whose match is not doubtful (no Discogs "(n)" namesake, no compilation-like title, the
 master's year no later than the episode aired): a track whose year is Apple's (year_from apple) or that
 has none takes the master's year when it is earlier, or later by one year at most; one whose year came
-from a Discogs release takes its master's when earlier. Years from MusicBrainz or the owner are never
-changed. Everything else worth a look goes to --review: a MusicBrainz year 2+ years after its master's,
+from a Discogs release takes its master's when earlier. Years from MusicBrainz or the owner, and any year
+overrides.json sets, are never changed. Everything else worth a look goes to --review: a MusicBrainz year 2+ years after its master's,
 an Apple year 2+ years before its master's (the album is likely a later compilation), and a change the
-rule would make but for a doubtful match. A year the owner kept or set is an override (year_from owner).
+rule would make but for a doubtful match. A year the owner kept or set is an override (year_from owner,
+or discogs for a Discogs year settled by the owner's rule).
 
 With --releases, matches tracks to releases instead, by title (src/releases.js): a release matches a
 track when one of its tracks has the track's title and is credited, on that track or on the release, to
@@ -325,7 +327,8 @@ if (opts.years) {
     if (!m?.year) continue;
     const ours = x.t.year ?? null;
     const from = ours === null ? null : (x.t.year_from ?? 'apple');
-    if (from === 'owner') continue;
+    // A year an override sets (the owner's, or a Discogs year settled by hand) is never changed by a rule.
+    if (from === 'owner' || yearOverridden(x.t)) continue;
     const flags = {
       compilation_like: COMPILATION.test(m.title) || COMPILATION.test(x.t.album ?? ''),
       after_air: x.airYear !== null && m.year > x.airYear,
