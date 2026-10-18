@@ -19452,10 +19452,11 @@
         "apple_id": 720728008,
         "apple_album_id": 720727852,
         "apple_artist_id": 561287597,
+        "mb_id": "504ae2ba-a655-4009-bef8-e12441588224",
         "discogs_id": 6800085,
         "discogs_master_id": null,
         "year": 2013,
-        "year_from": "discogs"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Valerie June",

@@ -15083,6 +15083,7 @@
         "apple_id": 974110678,
         "apple_album_id": 974110373,
         "apple_artist_id": 258503648,
+        "mb_id": "0ded32aa-9b31-40f2-944f-9ca8260c941a",
         "discogs_id": 7569479,
         "discogs_master_id": 912784,
         "discogs_genres": [
@@ -15095,7 +15096,7 @@
           "Blues Rock"
         ],
         "year": 2015,
-        "year_from": "discogs"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Terakaft",
@@ -15134,8 +15135,9 @@
         "apple_id": 1472407433,
         "apple_album_id": null,
         "apple_artist_id": 1726971330,
-        "year": 1997,
-        "year_from": "apple"
+        "mb_id": "1330e555-5a21-4d69-90b2-334e60665813",
+        "year": 2002,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Martyn Bennett",
