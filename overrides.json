@@ -6198,8 +6198,15 @@
     "artist": "bader motor",
     "track": "baden sontag",
     "album": "grautag",
-    "discogs_id": null,
-    "discogs_master_id": null,
-    "why": "Stereo Voodoo #26: the masters dump had matched the album «Grautag» (master 521059), which does not have it, and so does Discogs' search by the album; nothing by the track: no Discogs record for this one"
+    "discogs_master_id": 521059,
+    "year": 2010,
+    "why": "Stereo Voodoo #26: «Bader Sontag», side C of «Grautag» (discogs.com/master/521059), 2010; MusicBrainz had 2012; the owner's review of Discogs years"
+  },
+  {
+    "artist": "Carmen Souza",
+    "track": "Vaidade Ê Leviandade",
+    "album": "verdade",
+    "year": 2008,
+    "why": "FM Достоевский #747: track 11 of «Verdade» (discogs.com/master/2855095), 2008; MusicBrainz had 2010; the owner's review of Discogs years"
   }
 ]

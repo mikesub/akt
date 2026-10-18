@@ -36474,9 +36474,18 @@
         "apple_id": null,
         "mb_id": "8a966a98-87f3-4537-8cef-53fdc2fd05cc",
         "discogs_id": null,
-        "discogs_master_id": null,
-        "year": 2012,
-        "year_from": "musicbrainz"
+        "discogs_master_id": 521059,
+        "discogs_genres": [
+          "Electronic",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Krautrock",
+          "Psychedelic Rock",
+          "Experimental"
+        ],
+        "year": 2010,
+        "year_from": "owner"
       }
     ]
   },
