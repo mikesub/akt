@@ -1,5 +1,302 @@
 [
   {
+    "guid": "2d11a99d-a354-4e1f-9b29-b43a9dd34a82",
+    "number": 90,
+    "title": "🎶 Стереоплан Троицкого* #90 - \"THE VACANT LOTS, ветераны английской \"новой волны\" и словенский фолк-рок\".",
+    "published_at": "2026-10-19T06:00:00.000Z",
+    "url": "https://stereoplantroitsky.mave.digital/ep-92",
+    "mp3_url": "https://api.mave.digital/storage/podcasts/5eb88210-d265-4315-8405-4982ead857cb/episodes/92692af4-0d00-4652-8aff-f3b79f548a8c.mp3",
+    "duration_sec": 3614,
+    "playlist_hash": "93a5574c66d0666a",
+    "tracks": [
+      {
+        "artist": "Cardiacs",
+        "track": "Lovely eyes",
+        "album": "LSD",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 1825660389,
+        "apple_album_id": 1825659802,
+        "apple_artist_id": 333656544,
+        "mb_id": "fe04f949-5e59-4c64-bb9a-66924b9d9bc4",
+        "year": 2025,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Gemma Ray & Death Bell Gang",
+        "track": "I am not who I am",
+        "album": "GEMMA RAY & THE DEATH BELL GANG",
+        "printed_country": "Germany/UK",
+        "country": [
+          "DE",
+          "GB"
+        ],
+        "apple_id": 1652763913,
+        "apple_album_id": 1652763906,
+        "apple_artist_id": null,
+        "mb_id": "7e093ea5-bd35-4e70-8b22-bd746b0fd7a3",
+        "discogs_id": 25972633,
+        "discogs_master_id": 3010964,
+        "discogs_genres": [
+          "Electronic"
+        ],
+        "discogs_styles": [
+          "Experimental"
+        ],
+        "year": 2023,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Mama Sissoko",
+        "track": "Nakana",
+        "album": "DIAMOND FINGERS",
+        "printed_country": "Mali",
+        "country": [
+          "ML"
+        ],
+        "apple_id": 1850707841,
+        "apple_album_id": 1850707823,
+        "apple_artist_id": 81175386,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
+        "year": 2026,
+        "year_from": "apple"
+      },
+      {
+        "artist": "Catrin Finch",
+        "track": "There’s always time",
+        "album": "NOTES TO SELF",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 1867853300,
+        "apple_album_id": 1867853291,
+        "apple_artist_id": 3902967,
+        "mb_id": "5b30106e-96da-4d87-b559-a46ddd5f81d7",
+        "discogs_id": 38052789,
+        "discogs_master_id": null,
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "The Vacant Lots",
+        "track": "6 AM",
+        "album": "DEPARTURE",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1278068505,
+        "apple_album_id": 1278068066,
+        "apple_artist_id": 305124665,
+        "mb_id": "f389ed27-3d43-408a-b535-ac2726d16820",
+        "discogs_id": 5832164,
+        "discogs_master_id": 702892,
+        "discogs_genres": [
+          "Electronic",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Shoegaze",
+          "Psychedelic Rock",
+          "Post-Punk"
+        ],
+        "year": 2013,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "The Vacant Lots",
+        "track": "Forgotten days",
+        "album": "ENDLESS NIGHT",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1217720471,
+        "apple_album_id": 1217720368,
+        "apple_artist_id": 305124665,
+        "mb_id": "ed61d5ed-4d60-4f21-aaa6-9781c79033d3",
+        "discogs_id": 10169967,
+        "discogs_master_id": 1168472,
+        "discogs_genres": [
+          "Electronic",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Space Rock",
+          "Rock & Roll",
+          "Punk",
+          "Psychedelic Rock",
+          "Post-Punk"
+        ],
+        "year": 2017,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "The Vacant Lots",
+        "track": "Promise me",
+        "album": "DAMAGE CONTROL",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1791407035,
+        "apple_album_id": 1791406684,
+        "apple_artist_id": 305124665,
+        "mb_id": "daaa8d97-d8d6-4b9a-adc2-232ad2b8a11a",
+        "discogs_id": 9461735,
+        "discogs_master_id": 2025808,
+        "discogs_genres": [
+          "Electronic",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Shoegaze",
+          "Psychedelic Rock",
+          "Post-Punk"
+        ],
+        "year": 2016,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "The Vacant Lots",
+        "track": "Silence",
+        "album": "DAMAGE CONTROL",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1791406692,
+        "apple_album_id": 1791406684,
+        "apple_artist_id": 305124665,
+        "mb_id": "ba994325-9fd8-431c-b57a-a5a7a1c835bc",
+        "discogs_id": 25764301,
+        "discogs_master_id": 2940022,
+        "discogs_genres": [
+          "Electronic",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Psychedelic Rock",
+          "Post-Punk",
+          "Rock & Roll"
+        ],
+        "year": 2019,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "The Vacant Lots",
+        "track": "Eyes closed",
+        "album": "CLOSURE",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1737012462,
+        "apple_album_id": 1737011957,
+        "apple_artist_id": 305124665,
+        "mb_id": "568c0740-679c-4ea3-9214-5edb96d6ecdd",
+        "discogs_id": 24962911,
+        "discogs_master_id": 2834039,
+        "discogs_genres": [
+          "Electronic",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Psychedelic Rock",
+          "Alternative Rock",
+          "Post-Punk",
+          "New Wave"
+        ],
+        "year": 2022,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "The Vacant Lots",
+        "track": "Paradise",
+        "album": "INTERIORS",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1737000305,
+        "apple_album_id": 1737000298,
+        "apple_artist_id": 305124665,
+        "mb_id": "57ead55b-ffb0-4cba-a129-f2711e03be34",
+        "discogs_id": 28676308,
+        "discogs_master_id": 3278452,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Post-Punk"
+        ],
+        "year": 2023,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Katalena",
+        "track": "Lampedusa",
+        "album": "MEJA",
+        "printed_country": "Slovenia",
+        "country": [
+          "SI"
+        ],
+        "apple_id": 1891599929,
+        "apple_album_id": 1891599928,
+        "apple_artist_id": 261271130,
+        "mb_id": null,
+        "discogs_id": 37035981,
+        "discogs_master_id": 4311813,
+        "discogs_genres": [
+          "Folk, World, & Country"
+        ],
+        "discogs_styles": [
+          "Folk"
+        ],
+        "year": 2026,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "The Go Go Cult",
+        "track": "Black is the colour of my love",
+        "album": "BLACK IS THE COLOUR OF MY LOVE",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 1782940920,
+        "apple_album_id": 1782940917,
+        "apple_artist_id": 349566053,
+        "mb_id": "88f0fee8-af39-4474-9700-b320aa023dee",
+        "discogs_id": null,
+        "discogs_master_id": null,
+        "year": 2024,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Lum",
+        "track": "Vare Vare",
+        "album": "LUM",
+        "printed_country": "Italy/Albania",
+        "country": [
+          "IT",
+          "AL"
+        ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": 37302225,
+        "discogs_master_id": null,
+        "year": 2026,
+        "year_from": "discogs"
+      }
+    ]
+  },
+  {
     "guid": "48c1cc78-1ad3-4beb-9960-3f0256178d27",
     "number": 89,
     "title": "🎶 Стереоплан Троицкого* #89 - \"Гранж из Сиэтла, культовая шведская органистка и внушительный рок из Мехико\".",

@@ -6284,5 +6284,14 @@
     "discogs_id": 3261936,
     "discogs_master_id": null,
     "why": "FM Достоевский #666: «Жизнь Веселый Карнавал» (discogs.com/release/3261936, 2009, as «Сергей Пахомов»), the owner's list"
+  },
+  {
+    "artist": "Lum",
+    "track": "Vare Vare",
+    "discogs_id": 37302225,
+    "discogs_master_id": null,
+    "year": 2026,
+    "year_from": "discogs",
+    "why": "Стереоплан #90 prints the album «LUM» as the artist: Hersi Matmuja & Jacopo Conoci, «LUM» (Maladisco ML004, Italy, 2026; discogs.com/release/37302225, track 4). Discogs' album search had matched a namesake's self-released «Lum» (Lum (4), US, 2016; discogs.com/release/10369473), which does not have it"
   }
 ]
