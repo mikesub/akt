@@ -1,7 +1,7 @@
 url: https://radar.lv/node/1038
 date: 2000-08-02
 title: FM Достоевский #178
-note: From radar.lv's archive of the program, a fans' site: its posts «FM Достоевский N от …» come from the same playlist database as the XLS.
+note: From radar.lv's archive of the program, a fans' site: its posts «FM Достоевский N от …» come from the same playlist database as the XLS. Another source differs: Tilgor Kraut's spreadsheet: 14 entries in both; only in radar.lv's «FM» post: «16 Horsepower»; only in Tilgor Kraut's spreadsheet: «sixteen horsepower».
 
 1. 16 Horsepower (USA) "Clogger" CD "Secret South" (Glitterhouse)
 2. Hybrid (UK) "If I Survive" CD "Wide Angle" (Distinctive)

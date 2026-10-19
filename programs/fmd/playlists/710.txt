@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20101031/http://finam.fm/archive-view/3254/
 date: 2010-10-31
 title: FM Достоевский #710
-note: From Финам FM's episode page (Wayback capture); Finam's №9. Финам FM's RSS feed as of Nov 2010 has the same list.
+note: From Финам FM's episode page (Wayback capture); Finam's №9. Финам FM's RSS feed as of Nov 2010 has the same list. Another source differs: Tilgor Kraut's spreadsheet: 15 entries in both; only in the Finam page: «j g thirlwell»; only in Tilgor Kraut's spreadsheet: «foetus».
 
 1. j g thirlwell (australia/usa) "fluorescent radiation" CD "manorexia: the mesopelagic waters " (tzadik)
 2. groove armada feat. bryan ferry (uk) "shameless" CD "black light" (cooking vinyl)

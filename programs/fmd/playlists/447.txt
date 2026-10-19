@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20060915162240/http://www.fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=185
 date: 2005-10-16
 title: FM Достоевский #447
-note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «unknown».
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «unknown»; Tilgor Kraut's spreadsheet: 17 entries in fmd.soyuz.ru vs 16 in Tilgor Kraut's spreadsheet; only in fmd.soyuz.ru: «unknown».
 
 1. electronicat (france) "scratch you baby bird" CD "voodoo man" (disko b)
 2. mice parade (usa) "nights wave" CD "bem-vinda vontade" (bubble core)

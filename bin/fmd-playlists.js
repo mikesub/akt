@@ -17,7 +17,8 @@ import { fileURLToPath } from 'node:url';
  * Source per episode, highest first: Финам FM's pages (and its 2010 RSS),
  * fmd.soyuz.ru's pages and #802's print page (the program's own sites) >
  * radar.lv's episode posts > the playlists in a fans' collection's mp3 tags >
- * radar.lv's CUE sheets > the XLS export of radar.lv's dead playlist database,
+ * radar.lv's CUE sheets > the XLS export of radar.lv's dead playlist database >
+ * the owner's lists, by ear > Tilgor Kraut's spreadsheet of that database,
  * unless a lower source has the complete list where the higher one is cut short.
  *
  * Usage: node bin/fmd-playlists.js
@@ -45,7 +46,8 @@ const MOVED = {
 /**
  * Air dates no source gets right, with why. fmd.soyuz.ru dates #595 and #596
  * both 2008-08-18 (a Monday); the fans' collection names them «17.08.2008» and
- * «24.08.2008», a week apart, as every other episode then. radar.lv's CUE sheet
+ * «24.08.2008», a week apart, as every other episode then. radar.lv's playlist
+ * database dates #318 2003-04-05, as it does #317 (Tilgor Kraut's spreadsheet). radar.lv's CUE sheet
  * dates #683 2010-04-24; Эхо Москвы's listing has it on 25.04.2010 at 01:08,
  * the Saturday-night slot every other episode then is dated by (Sunday's date),
  * as the fans' collection does.
@@ -54,7 +56,8 @@ const DATES = {
   595: { date: '2008-08-17', why: "2008-08-17, as the fans' collection names it («595. #595 17.08.2008.mp3»), a week after #594 and before #596; fmd.soyuz.ru gives 2008-08-18, a Monday, which it gives #596 too" },
   596: { date: '2008-08-24', why: "2008-08-24, as the fans' collection names it («596. #596 24.08.2008.mp3»), a week after #595 and before #597 (2008-08-31); fmd.soyuz.ru gives 2008-08-18, #595's" },
   683: { date: '2010-04-25', why: "2010-04-25, the Sunday it aired at 01:08 on Эхо Москвы (its program listing), as the fans' collection names it («683. #683 25.04.2010.mp3»); radar.lv's CUE sheet says 2010-04-24" },
-  666: { date: '2009-12-27', why: "2009-12-27, the Sunday between #665 (2009-12-20) and #667 (2010-01-03), the weekly slot then; the owner's list has no date" },
+  666: { date: '2009-12-27', why: "2009-12-27, the Sunday between #665 (2009-12-20) and #667 (2010-01-03), the weekly slot then, as Tilgor Kraut's spreadsheet has it; the owner's list has no date" },
+  318: { date: '2003-04-12', why: "2003-04-12, as fmd.soyuz.ru has it, a week after #317 (2003-04-05 in Tilgor Kraut's spreadsheet, the only source of #317) and before #319 (2003-04-19); radar.lv's post and CUE sheet and the XLS, all from radar.lv's playlist database, give 2003-04-05, #317's date" },
 };
 
 /** Copies left out, with why. */
@@ -133,6 +136,8 @@ function splitRunTogether(line) {
  * The playlist in a run of text lines: from the first numbered entry to the
  * last line that continues it. A number alone on its line takes the next line
  * as its entry ("1." then "artist (country) …", as Finam's №7–№8 print them).
+ * A note between two entries is skipped when the next line carries the next
+ * number («album of 2012 - I» after #816's 13th, before its 14th and 15th).
  */
 function entriesIn(lines) {
   const entries = [];
@@ -144,7 +149,11 @@ function entriesIn(lines) {
     if (NUMBERED.test(line) && LOOKS_LIKE_ENTRY.test(line)) {
       if (entries.length === 0) entries.start = i;
       entries.push(...splitRunTogether(line));
-    } else if (entries.length > 0) break;
+    } else if (entries.length > 0) {
+      const next = lines[i + 1] ?? '';
+      const last = Number(entries.at(-1).match(NUMBERED)?.[1]);
+      if (!(last && Number(next.match(NUMBERED)?.[1]) === last + 1 && LOOKS_LIKE_ENTRY.test(next))) break;
+    }
   }
   return entries;
 }
@@ -559,6 +568,44 @@ function readXls() {
   return out;
 }
 
+// ---------------------------------------------------- Tilgor Kraut's sheet
+
+/**
+ * Tilgor Kraut's spreadsheet of the program's playlists, «FMD (for all).xlsx» (2026-10-19), read from its
+ * UTF-8 CSV copy: radar.lv's playlist database again, as the XLS has it, carried on to the end (#820, then
+ * Stereo Voodoo as #821–#951, its own number in the Date column; not read here). Columns `bN7m, Date, sNum,
+ * ARTIST, Country, Song, CD, Label, Comment AKT` and two counts of plays (not wanted, nor the host's note).
+ * Lower case throughout, labels merged («warner» for «Warner Bros.»), typos fixed and a few made: not a
+ * second witness to the XLS or the later sources. Ranked last, below the owner's list: it gives the episodes
+ * nothing else has, its date only where no other source dates the episode.
+ */
+function readKraut() {
+  const [, ...rows] = parseCsv(readFileSync(join(SOURCES, 'tilgor-kraut', 'fmd-for-all.csv'), 'utf8'));
+  const byNumber = new Map();
+  for (const r of rows.filter((r) => r.length > 1).map((r) => r.map(clean))) {
+    const number = Number(r[0]);
+    if (number >= FIRST && number <= LAST) byNumber.set(number, [...(byNumber.get(number) ?? []), r]);
+  }
+  const out = new Map();
+  for (const [number, list] of byNumber) {
+    const entries = list.map(
+      ([, , n, artist, country, song, cd, label]) => `${n === '' ? '' : `${n}. `}${artist}${country ? ` (${country})` : ''} "${song}"${cd ? ` CD "${cd}"` : ''}${label ? ` (${label})` : ''}`,
+    );
+    const dates = [...new Set(list.map((r) => r[1]).filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d)))].sort();
+    out.set(number, {
+      kind: 'kraut',
+      label: "Tilgor Kraut's spreadsheet",
+      url: null,
+      date: dates[0] ?? null,
+      entries,
+      note: `from Tilgor Kraut's spreadsheet of the program's playlists (programs/fmd/sources/tilgor-kraut/FMD (for all).xlsx): radar.lv's playlist database, as the XLS has it, carried on to the program's end, in lower case throughout${
+        number >= 797 && number <= 817 ? "; its date is the spreadsheet's, a Sunday: Финам FM's own pages date the episodes either side (#797–#817) on the Friday two days before the Sunday the spreadsheet gives them" : ''
+      }`,
+    });
+  }
+  return out;
+}
+
 // ------------------------------------------------------------ cross-check
 
 const CYRILLIC = { а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', е: 'e', ё: 'e', ж: 'zh', з: 'z', и: 'i', й: 'i', к: 'k', л: 'l', м: 'm', н: 'n', о: 'o', п: 'p', р: 'r', с: 's', т: 't', у: 'u', ф: 'f', х: 'h', ц: 'c', ч: 'ch', ш: 'sh', щ: 'sch', ъ: '', ы: 'y', ь: '', э: 'e', ю: 'yu', я: 'ya', і: 'i', ї: 'i', є: 'e', ў: 'u' };
@@ -679,19 +726,21 @@ function describe(c, a, b) {
 
 const EMAIL = /[\w.+-]+@[\w-]+(?:\.[\w-]+)+/g;
 
-const RANK = { finam: 0, rss: 1, soyuz: 2, 'radar-lower': 3, radar: 4, tags: 5, cue: 6, xls: 7, owner: 8 };
-const SHORT = { finam: 'the Finam page', rss: 'the Finam RSS', soyuz: 'fmd.soyuz.ru', 'radar-lower': "radar.lv's «ФМ» post", radar: "radar.lv's «FM» post", tags: "the mp3's tags", cue: 'the CUE sheet', xls: 'the XLS', owner: "the owner's list" };
+const RANK = { finam: 0, rss: 1, soyuz: 2, 'radar-lower': 3, radar: 4, tags: 5, cue: 6, xls: 7, owner: 8, kraut: 9 };
+const SHORT = { finam: 'the Finam page', rss: 'the Finam RSS', soyuz: 'fmd.soyuz.ru', 'radar-lower': "radar.lv's «ФМ» post", radar: "radar.lv's «FM» post", tags: "the mp3's tags", cue: 'the CUE sheet', xls: 'the XLS', owner: "the owner's list", kraut: "Tilgor Kraut's spreadsheet" };
+/** Copies of radar.lv's playlist database, which can list a row twice: never counted as the longer list. */
+const DATABASE = new Set(['xls', 'kraut']);
 
 /**
  * The best source of an episode: the highest ranked, unless its list is
  * shorter than another source's by two or more, when the next complete one
- * is taken (a CUE sheet or a page can be cut short; the XLS can list a row
- * twice, so it never counts as the longer list).
+ * is taken (a CUE sheet or a page can be cut short; the XLS and Tilgor Kraut's
+ * spreadsheet can list a row twice, so they never count as the longer list).
  */
 function choose(sources) {
   const ranked = [...sources].sort((a, b) => RANK[a.kind] - RANK[b.kind]);
-  const longest = Math.max(...ranked.filter((s) => s.kind !== 'xls').map((s) => s.entries.length), 0);
-  return ranked.find((s) => s.kind === 'xls' || s.entries.length >= longest - 1) ?? ranked[0];
+  const longest = Math.max(...ranked.filter((s) => !DATABASE.has(s.kind)).map((s) => s.entries.length), 0);
+  return ranked.find((s) => DATABASE.has(s.kind) || s.entries.length >= longest - 1) ?? ranked[0];
 }
 
 /** Among several sources of one kind for one episode (#350's two pages, sheets of one recording), the fullest. */
@@ -708,6 +757,7 @@ function main() {
   const tags = readTags();
   const xls = readXls();
   const owner = readOwner();
+  const kraut = readKraut();
 
   const episodes = new Map();
   const extra = []; // findings on alternative copies of one source
@@ -753,6 +803,8 @@ function main() {
     }
     if (xls.has(number)) sources.push(xls.get(number));
     if (owner.has(number)) sources.push(owner.get(number));
+    // Its date only where no other source has one: the XLS's database again, not a second witness.
+    if (kraut.has(number)) sources.push(sources.some((s) => s.date) ? { ...kraut.get(number), date: null } : kraut.get(number));
     if (sources.length) episodes.set(number, { number, sources, best: choose(sources) });
   }
 
@@ -775,6 +827,10 @@ function main() {
     ['radar', 'xls'],
     ['radar-lower', 'xls'],
     ['cue', 'xls'],
+    ['finam', 'kraut'],
+    ['soyuz', 'kraut'],
+    ['tags', 'kraut'],
+    ['xls', 'kraut'],
   ];
   const stats = new Map(PAIRS.map(([a, b]) => [`${a}|${b}`, { a, b, episodes: [], agree: 0, count: 0, order: 0, artists: 0, titles: { same: 0, cyrillic: 0, other: 0 }, examples: [] }]));
   const differences = new Map(); // number → [line]
@@ -804,6 +860,7 @@ function main() {
   const counts = {};
   const incomplete = [];
   const dateNotes = [];
+  const krautDates = []; // where Tilgor Kraut's spreadsheet gives another date than the one used
   const lastSongs = cueLastSongs(episodes);
   const primary = new Map([...episodes.values()].map(({ number, sources, best }) => [number, best.date ?? sources.find((s) => s.date)?.date ?? null]));
   const near = (number, step) => {
@@ -826,7 +883,8 @@ function main() {
     if (best.kind === 'finam' && feed && compare(best, feed).kind === 'agree') notes.push("Финам FM's RSS feed as of Nov 2010 has the same list");
     const skipped = sources.filter((s) => RANK[s.kind] < RANK[best.kind]);
     for (const s of skipped) notes.push(`${SHORT[s.kind]} has only ${s.entries.length} entries (cut short), so this fuller list is used`);
-    for (const other of sources.filter((s) => s !== best)) {
+    // The owner's lines have no fixed layout: a title not in quotes is not missing.
+    for (const other of sources.filter((s) => s !== best && best.kind !== 'owner')) {
       for (const { entry, title } of compare(best, other).untitled) notes.push(`entry ${entry} has no title; ${SHORT[other.kind]} has «${title}»`);
     }
     const diffs = (differences.get(number) ?? []).filter(({ other }) => !skipped.includes(other));
@@ -838,6 +896,8 @@ function main() {
     if (entries.some((e, i) => e !== best.entries[i])) notes.push("a label given as the artist's e-mail address is left out");
     const { date, note: dateNote } = DATES[number] ? { date: DATES[number].date, note: `date: ${DATES[number].why}` } : dateOf(best, sources, near(number, -1), near(number, 1));
     if (dateNote) notes.push(dateNote), dateNotes.push(`#${number}: ${dateNote}`);
+    const sheetDate = kraut.get(number)?.date;
+    if (sheetDate && sheetDate !== date) krautDates.push(`#${number} (${sheetDate}; ${date} used)`);
     writeFileSync(
       join(PLAYLISTS, `${number}.txt`),
       // A source with no page of its own (the mp3 tags) links to another source's: the episode keeps its link.
@@ -849,7 +909,7 @@ function main() {
   const missing = [];
   for (let number = FIRST; number <= LAST; number++) if (!episodes.has(number)) missing.push(number);
 
-  writeFileSync(join(ROOT, 'CROSSCHECK.md'), crosscheck({ episodes, stats, differences, extra, dateNotes, xls, lastSongs }));
+  writeFileSync(join(ROOT, 'CROSSCHECK.md'), crosscheck({ episodes, stats, differences, extra, dateNotes, krautDates, xls, lastSongs }));
   writeFileSync(join(ROOT, 'MISSING.md'), missingReport({ missing, incomplete }));
 
   const total = Object.values(counts).reduce((a, b) => a + b, 0);
@@ -923,7 +983,7 @@ function dateOf(best, sources, before, after) {
 /** Why an episode's chosen list is short, if it is. */
 function incompleteReason(number, best, sources) {
   if (number === 701) return null; // complete with 5 songs: see EPISODE_NOTES
-  const others = sources.filter((s) => s !== best && s.kind !== 'xls');
+  const others = sources.filter((s) => s !== best && !DATABASE.has(s.kind));
   const longest = Math.max(0, ...others.map((s) => s.entries.length));
   if (longest >= best.entries.length + 2) return `incomplete: ${best.entries.length} entries where another source lists ${longest}`;
   if (best.entries.length < 10) return `incomplete: only ${best.entries.length} entries, where an episode usually has 13–17`;
@@ -950,11 +1010,13 @@ const NAMES = {
   'radar-lower': 'radar.lv post («ФМ Достоевский …», lower case)',
   radar: 'radar.lv post («FM Достоевский …», Title Case)',
   cue: 'CUE sheet',
+  tags: "mp3 tags (a fans' collection)",
   xls: 'XLS',
   owner: "the owner's list, by ear",
+  kraut: "Tilgor Kraut's spreadsheet",
 };
 
-function crosscheck({ episodes, stats, differences, extra, dateNotes, xls, lastSongs }) {
+function crosscheck({ episodes, stats, differences, extra, dateNotes, krautDates, xls, lastSongs }) {
   const pct = (n, d) => (d ? `${Math.round((100 * n) / d)}%` : '–');
   const out = [];
   out.push('# «FM Достоевский»: how the sources agree');
@@ -985,7 +1047,7 @@ function crosscheck({ episodes, stats, differences, extra, dateNotes, xls, lastS
   out.push('');
   for (const s of stats.values()) if (s.examples.length) out.push(`- ${NAMES[s.a]} vs ${NAMES[s.b]}: ${s.examples.slice(0, 4).join('; ')}`);
   out.push('');
-  out.push(findings(stats, xls, lastSongs));
+  out.push(findings(stats, xls, lastSongs, episodes));
   out.push('');
   for (const [file, why] of Object.entries(IGNORED)) extra.push(`${file} is left out: ${why}`);
   if (extra.length) {
@@ -1001,6 +1063,9 @@ function crosscheck({ episodes, stats, differences, extra, dateNotes, xls, lastS
   out.push('date a day or two off may be the day a list was posted rather than the day it aired.');
   out.push('');
   for (const line of dateNotes) out.push(`- ${line}`);
+  out.push('');
+  out.push("Tilgor Kraut's spreadsheet's dates are used only where no other source dates the episode. Where");
+  out.push(`it gives another date than the one used (${krautDates.length}): ${krautDates.join(', ')}.`);
   out.push('');
   out.push('## Episodes where the sources list different songs');
   out.push('');
@@ -1035,13 +1100,18 @@ function xlsCyrillic(xls) {
 }
 
 /** What the comparison says, in words, with the numbers it rests on. */
-function findings(stats, xls, lastSongs) {
+function findings(stats, xls, lastSongs, episodes) {
   const s = (a, b) => stats.get(`${a}|${b}`);
   const n = (x) => x.episodes.length;
   const sx = s('soyuz', 'xls');
   const sc = s('soyuz', 'cue');
   const rx = s('radar', 'xls');
   const sl = s('soyuz', 'radar-lower');
+  const kx = s('xls', 'kraut');
+  const ks = s('soyuz', 'kraut');
+  const kf = s('finam', 'kraut');
+  const kt = s('tags', 'kraut');
+  const onlyKraut = [...episodes.values()].filter((e) => e.best.kind === 'kraut').map((e) => e.number);
   const table = xlsCyrillic(xls)
     .map(({ from, to, cyrillic, latin }) => `| #${from}–#${to} | ${cyrillic} | ${latin} |`)
     .join('\n');
@@ -1068,6 +1138,16 @@ ${table.replace(/^/gm, '  ')}
 
   So the XLS-only episodes (#1–#128 and the few after with no other source) can be trusted for
   artists and order, less for Russian titles before about #100, which will need finding by hand.
+- **Tilgor Kraut's spreadsheet is the XLS's database again, carried on to the end.** Against the XLS
+  (${n(kx)} episodes) it has the same artists in the same order in ${kx.agree}; the rest differ by a name it spells
+  another way: it is in lower case throughout, merges labels («warner»), fixes typos («nightmares on
+  wax» for «Nightwares On Wax») and makes a few («edwin collins»), and spells some Russian names in
+  Cyrillic, mostly as \`titles.json\` restores them (once wrongly: Varnaline's «Bardust», #92, as
+  «александр ф. скляр»). Against the program's own lists it agrees in ${ks.agree} of ${n(ks)} episodes with
+  fmd.soyuz.ru, ${kf.agree} of ${n(kf)} with Finam's pages, and ${kt.agree} of ${n(kt)} with the mp3 tags; it lacks a song now and then, and
+  in #758, #760 and #766 has a 15th song that Finam's page has not. It is the only source of
+  ${range(onlyKraut)} (${onlyKraut.length} episodes). Against Finam's own pages its dates are a week early for
+  #818–#820 («PLAYLIST #820 … от 27.01.2013»), and for #797–#817 the Sunday after the Friday the pages give.
 - **CUE sheets follow the recording, not the plan.** Against fmd.soyuz.ru (${n(sc)} episodes) they agree
   in ${sc.agree} and never reorder; where they differ the sheet lacks songs the playlist has: mostly the
   last one (${lastSongs.lacking} of the ${lastSongs.compared} sheets from #484 on that a playlist covers), sometimes one in the middle, and #607's sheet
@@ -1115,8 +1195,8 @@ function MISSING_WHY(number) {
   }
   if (number >= 620) return 'Feb 2009 – Sep 2010, where radar.lv\'s CUE sheets are the only source, and there is none for it';
   if (number === 317) return 'fmd.soyuz.ru has no page for it, and the XLS and radar.lv skip it';
-  if (number >= 129) return 'not in the XLS, and radar.lv has no post or CUE sheet for it';
-  return 'not in the XLS, the only source before #129';
+  if (number >= 129) return "not in the XLS or Tilgor Kraut's spreadsheet, and radar.lv has no post or CUE sheet for it";
+  return "not in the XLS or Tilgor Kraut's spreadsheet, the only sources before #129";
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) main();

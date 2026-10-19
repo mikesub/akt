@@ -1,5 +1,5 @@
 title: FM Достоевский #53
-note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English.
+note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English. Another source differs: Tilgor Kraut's spreadsheet: 18 entries in both; only in the XLS: «Va-Banque»; only in Tilgor Kraut's spreadsheet: «ва-банкъ».
 
 1. Gold Blade (UK) "Soul On Fire" CD "Hometurf" (Ultimate)
 2. Maria Kalaniemi (Finland) "Lomasavel" CD "Iho" (Ryko)

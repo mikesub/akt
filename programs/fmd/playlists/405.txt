@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20050222033227/http://www.fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=142
 date: 2004-12-25
 title: FM Достоевский #405
-note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «mark tranmer».
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «mark tranmer»; Tilgor Kraut's spreadsheet: 17 entries in fmd.soyuz.ru vs 16 in Tilgor Kraut's spreadsheet; only in fmd.soyuz.ru: «mark tranmer».
 
 1. death from above 1979 (canada) "turn it out" CD "you're a woman, i'm a machine" (last gang)
 2. peggy honeywell (usa) "all shook up" CD "honey for dinner" (galaxia)

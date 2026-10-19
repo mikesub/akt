@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/2014/http://finam.fm/archive-view/4786/
 date: 2011-10-02
 title: FM Достоевский #758
-note: From Финам FM's episode page (Wayback capture); Finam's №57.
+note: From Финам FM's episode page (Wayback capture); Finam's №57. Another source differs: Tilgor Kraut's spreadsheet: 14 entries in the Finam page vs 15 in Tilgor Kraut's spreadsheet; only in Tilgor Kraut's spreadsheet: «bellowhead».
 
 1. devotchka (usa) "the man from san sebastian" CD "100 lovers" (anti-)
 2. pili pili (holland/south africa) "visual invisible" CD "ukaba noma unkangabi" (jaro)

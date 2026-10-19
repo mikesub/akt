@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20030718053449/http://fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=36
-date: 2003-04-05
+date: 2003-04-12
 title: FM Достоевский #318
-note: From fmd.soyuz.ru, the program's site (Wayback capture). Date: fmd.soyuz.ru says 2003-04-12, but radar.lv's «FM» post and the CUE sheet and the XLS say 2003-04-05, which is used.
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Date: 2003-04-12, as fmd.soyuz.ru has it, a week after #317 (2003-04-05 in Tilgor Kraut's spreadsheet, the only source of #317) and before #319 (2003-04-19); radar.lv's post and CUE sheet and the XLS, all from radar.lv's playlist database, give 2003-04-05, #317's date.
 
 1. ry cooder & manuel galban (usa/cuba) "monte a dentro" CD "mambo sinuendo" (perro verde/nonesuch)
 2. dawn of the replicants (australia) "sweet little nowhere blues" CD "touching the propeller" (flying sparks)

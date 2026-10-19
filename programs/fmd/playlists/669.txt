@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N669_17.01.2010.cue
 date: 2010-01-17
 title: FM Достоевский #669
-note: From the ID3 comment of a fans' collection's mp3 of the episode («669. #669 17.01.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From the ID3 comment of a fans' collection's mp3 of the episode («669. #669 17.01.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json). Another source differs: Tilgor Kraut's spreadsheet: 16 entries in both; only in the mp3's tags: «instituto mexicano del sonido»; only in Tilgor Kraut's spreadsheet: «mexican institute of sound».
 
 1. the xx (uk) "shelter" CD "the xx" (young turks)
 2. no blues (holland) "sawt (the voice)" CD "lumen" (crs)

@@ -1,7 +1,7 @@
 url: https://radar.lv/node/965
 date: 1999-08-04
 title: FM Достоевский #129
-note: From radar.lv's archive of the program, a fans' site: its posts «FM Достоевский N от …» come from the same playlist database as the XLS. Entry 3 has no title; the CUE sheet has «Jumping». Another source differs: the XLS: 12 entries in radar.lv's «FM» post vs 13 in the XLS; only in the XLS: «Ananda Shankar & Outcaste».
+note: From radar.lv's archive of the program, a fans' site: its posts «FM Достоевский N от …» come from the same playlist database as the XLS. Entry 3 has no title; the CUE sheet has «Jumping». Another source differs: the XLS: 12 entries in radar.lv's «FM» post vs 13 in the XLS; only in the XLS: «Ananda Shankar & Outcaste»; Tilgor Kraut's spreadsheet: 12 entries in radar.lv's «FM» post vs 13 in Tilgor Kraut's spreadsheet; only in Tilgor Kraut's spreadsheet: «ananda shankar & outcaste».
 
 1 Maria Salgado (Spain) "Tu" CD: "Mirandote" (Intuition)
 2 The Jon Spencer Blues Explosion (USA) "Blue Green Olga" CD: "Acme" (Mute)

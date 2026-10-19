@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20050222033244/http://www.fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=140
 date: 2004-12-11
 title: FM Достоевский #403
-note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «stendec».
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «stendec»; Tilgor Kraut's spreadsheet: 17 entries in fmd.soyuz.ru vs 16 in Tilgor Kraut's spreadsheet; only in fmd.soyuz.ru: «stendec».
 
 1. polysics (japan) "new wave jacket" CD "polysics or die!" (sur la plage)
 2. ben weaver (usa) "40 watts bulb" CD "stories under nails" (fargo)

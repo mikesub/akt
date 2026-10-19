@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20060906065938/http://www.fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=214
 date: 2006-05-07
 title: FM Достоевский #476
-note: From fmd.soyuz.ru, the program's site (Wayback capture).
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: Tilgor Kraut's spreadsheet: 17 entries in both; only in fmd.soyuz.ru: «оркестр вермишель»; only in Tilgor Kraut's spreadsheet: «вермишель orchestra».
 
 1. the white birch (norway) "your spain" CD "come up for air" (glitterhouse)
 2. peatbog faeries (uk) "scots on the rocks" CD "croftwork" (peatbog)

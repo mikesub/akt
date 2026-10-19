@@ -1,5 +1,5 @@
 title: FM Достоевский #12
-note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English.
+note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English. Another source differs: Tilgor Kraut's spreadsheet: 14 entries in both; only in the XLS: «VV», «»; only in Tilgor Kraut's spreadsheet: «воплi вiдоплясова», «secret knowledge».
 
 1. Element Of Crime (Germany) "Wer Ich Wirklich Bin" CD "Die Schonen Rosen" (Motor Music)
 2. Psycosonik (USA) "Ride" CD "Unlearn" (Wax Trax)

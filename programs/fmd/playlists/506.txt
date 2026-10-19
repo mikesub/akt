@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20080116174849/http://www.fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=245
 date: 2006-12-03
 title: FM Достоевский #506
-note: From fmd.soyuz.ru, the program's site (Wayback capture).
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: Tilgor Kraut's spreadsheet: 16 entries in both; only in fmd.soyuz.ru: «the»; only in Tilgor Kraut's spreadsheet: «the hypothetical prophets».
 
 1. black heart procession (usa) "tangled" CD "the spell" (touch & go)
 2. boban markovic orkestar (serbia) "latino" CD "the promise" (piranha)

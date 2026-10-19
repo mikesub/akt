@@ -20,21 +20,25 @@ programs/fmd/NOTES.md); where another source lists other songs, its `note:` says
 | radar.lv post («ФМ Достоевский …», lower case) vs radar.lv post («FM Достоевский …», Title Case) (#304–#352) | 15 | 15 (100%) | 0 | 0 | 0 | 100% | 0% | 0% |
 | radar.lv post («FM Достоевский …», Title Case) vs CUE sheet (#129–#353) | 163 | 154 (94%) | 8 | 1 | 0 | 100% | 0% | 0% |
 | radar.lv post («ФМ Достоевский …», lower case) vs CUE sheet (#304–#352) | 15 | 15 (100%) | 0 | 0 | 0 | 100% | 0% | 0% |
-| fmd.soyuz.ru vs undefined (#289–#619) | 284 | 280 (99%) | 2 | 2 | 0 | 100% | 0% | 0% |
-| radar.lv post («FM Достоевский …», Title Case) vs undefined (#129–#353) | 163 | 163 (100%) | 0 | 0 | 0 | 100% | 0% | 0% |
-| radar.lv post («ФМ Достоевский …», lower case) vs undefined (#304–#457) | 102 | 100 (98%) | 2 | 0 | 0 | 100% | 0% | 0% |
-| undefined vs CUE sheet (#129–#707) | 364 | 307 (84%) | 55 | 2 | 0 | 99% | 1% | 0% |
-| undefined vs XLS (#129–#499) | 288 | 278 (97%) | 9 | 0 | 1 | 100% | 0% | 0% |
+| fmd.soyuz.ru vs mp3 tags (a fans' collection) (#289–#619) | 284 | 280 (99%) | 2 | 2 | 0 | 100% | 0% | 0% |
+| radar.lv post («FM Достоевский …», Title Case) vs mp3 tags (a fans' collection) (#129–#353) | 163 | 163 (100%) | 0 | 0 | 0 | 100% | 0% | 0% |
+| radar.lv post («ФМ Достоевский …», lower case) vs mp3 tags (a fans' collection) (#304–#457) | 102 | 100 (98%) | 2 | 0 | 0 | 100% | 0% | 0% |
+| mp3 tags (a fans' collection) vs CUE sheet (#129–#707) | 364 | 307 (84%) | 55 | 2 | 0 | 99% | 1% | 0% |
+| mp3 tags (a fans' collection) vs XLS (#129–#499) | 288 | 278 (97%) | 9 | 0 | 1 | 100% | 0% | 0% |
 | radar.lv post («FM Достоевский …», Title Case) vs XLS (#129–#353) | 163 | 161 (99%) | 1 | 0 | 1 | 100% | 0% | 0% |
 | radar.lv post («ФМ Достоевский …», lower case) vs XLS (#304–#457) | 103 | 99 (96%) | 4 | 0 | 0 | 100% | 0% | 0% |
 | CUE sheet vs XLS (#129–#499) | 178 | 162 (91%) | 14 | 1 | 1 | 100% | 0% | 0% |
+| Finam page vs Tilgor Kraut's spreadsheet (#702–#820) | 87 | 82 (94%) | 3 | 1 | 1 | 100% | 0% | 0% |
+| fmd.soyuz.ru vs Tilgor Kraut's spreadsheet (#289–#316, #318–#374, #376–#619) | 329 | 317 (96%) | 6 | 5 | 1 | 100% | 0% | 0% |
+| mp3 tags (a fans' collection) vs Tilgor Kraut's spreadsheet (#129–#707) | 494 | 472 (96%) | 9 | 8 | 5 | 100% | 0% | 0% |
+| XLS vs Tilgor Kraut's spreadsheet (#1–#499) | 490 | 472 (96%) | 0 | 15 | 3 | 100% | 0% | 0% |
 
 «Titles: Russian vs Latin» counts matched entries whose title is in Cyrillic in one source and in
 Latin letters in the other: a transliteration or an English translation. «Titles: other» are
 titles that differ some other way (a typo, another song by the same artist). Some examples:
 
 - fmd.soyuz.ru vs CUE sheet: #484 «over my head» / «pull the strings»; #486 «what someone said to me» / «we will be a factory»
-- undefined vs CUE sheet: #484 «over my head» / «pull the strings»
+- mp3 tags (a fans' collection) vs CUE sheet: #484 «over my head» / «pull the strings»
 - CUE sheet vs XLS: #484 «pull the strings» / «over my head»; #486 «we will be a factory» / «what someone said to me»
 
 ## What it says
@@ -69,6 +73,16 @@ titles that differ some other way (a typo, another song by the same artist). Som
 
   So the XLS-only episodes (#1–#128 and the few after with no other source) can be trusted for
   artists and order, less for Russian titles before about #100, which will need finding by hand.
+- **Tilgor Kraut's spreadsheet is the XLS's database again, carried on to the end.** Against the XLS
+  (490 episodes) it has the same artists in the same order in 472; the rest differ by a name it spells
+  another way: it is in lower case throughout, merges labels («warner»), fixes typos («nightmares on
+  wax» for «Nightwares On Wax») and makes a few («edwin collins»), and spells some Russian names in
+  Cyrillic, mostly as `titles.json` restores them (once wrongly: Varnaline's «Bardust», #92, as
+  «александр ф. скляр»). Against the program's own lists it agrees in 317 of 329 episodes with
+  fmd.soyuz.ru, 82 of 87 with Finam's pages, and 472 of 494 with the mp3 tags; it lacks a song now and then, and
+  in #758, #760 and #766 has a 15th song that Finam's page has not. It is the only source of
+  #190–#195, #317, #715–#720, #723, #753–#754, #764, #767, #769–#771, #778, #781, #790–#796, #798, #800–#801, #803–#804, #806–#807, #809–#810 (39 episodes). Against Finam's own pages its dates are a week early for
+  #818–#820 («PLAYLIST #820 … от 27.01.2013»), and for #797–#817 the Sunday after the Friday the pages give.
 - **CUE sheets follow the recording, not the plan.** Against fmd.soyuz.ru (159 episodes) they agree
   in 124 and never reorder; where they differ the sheet lacks songs the playlist has: mostly the
   last one (29 of the 123 sheets from #484 on that a playlist covers), sometimes one in the middle, and #607's sheet
@@ -106,7 +120,7 @@ date a day or two off may be the day a list was posted rather than the day it ai
 - #289: date: fmd.soyuz.ru says 2002-10-21, but radar.lv's «FM» post and the CUE sheet and the XLS say 2002-09-21, which is used
 - #314: date: the XLS says 2003-03-15
 - #316: date: radar.lv's «FM» post and the CUE sheet and the XLS say 2003-03-29
-- #318: date: fmd.soyuz.ru says 2003-04-12, but radar.lv's «FM» post and the CUE sheet and the XLS say 2003-04-05, which is used
+- #318: date: 2003-04-12, as fmd.soyuz.ru has it, a week after #317 (2003-04-05 in Tilgor Kraut's spreadsheet, the only source of #317) and before #319 (2003-04-19); radar.lv's post and CUE sheet and the XLS, all from radar.lv's playlist database, give 2003-04-05, #317's date
 - #324: date: fmd.soyuz.ru says 2003-05-22, but radar.lv's «FM» post and the CUE sheet and the XLS say 2003-05-24, which is used
 - #326: date: the XLS says 2003-06-07
 - #383: date: fmd.soyuz.ru says 2004-08-16, out of order with the episodes either side, but the XLS says 2004-07-24; 2004-07-24 is used
@@ -114,8 +128,11 @@ date a day or two off may be the day a list was posted rather than the day it ai
 - #515: date: the CUE sheet says 2007-02-07
 - #595: date: 2008-08-17, as the fans' collection names it («595. #595 17.08.2008.mp3»), a week after #594 and before #596; fmd.soyuz.ru gives 2008-08-18, a Monday, which it gives #596 too
 - #596: date: 2008-08-24, as the fans' collection names it («596. #596 24.08.2008.mp3»), a week after #595 and before #597 (2008-08-31); fmd.soyuz.ru gives 2008-08-18, #595's
-- #666: date: 2009-12-27, the Sunday between #665 (2009-12-20) and #667 (2010-01-03), the weekly slot then; the owner's list has no date
+- #666: date: 2009-12-27, the Sunday between #665 (2009-12-20) and #667 (2010-01-03), the weekly slot then, as Tilgor Kraut's spreadsheet has it; the owner's list has no date
 - #683: date: 2010-04-25, the Sunday it aired at 01:08 on Эхо Москвы (its program listing), as the fans' collection names it («683. #683 25.04.2010.mp3»); radar.lv's CUE sheet says 2010-04-24
+
+Tilgor Kraut's spreadsheet's dates are used only where no other source dates the episode. Where
+it gives another date than the one used (20): #314 (2003-03-15; 2003-03-14 used), #316 (2003-03-29; 2003-03-28 used), #318 (2003-04-05; 2003-04-12 used), #326 (2003-06-07; 2003-06-06 used), #564 (2008-01-06; 2008-01-13 used), #797 (2012-07-01; 2012-06-29 used), #799 (2012-07-15; 2012-07-13 used), #802 (2012-09-16; 2012-09-14 used), #805 (2012-10-07; 2012-10-05 used), #808 (2012-10-28; 2012-10-26 used), #811 (2012-11-18; 2012-11-16 used), #812 (2012-11-25; 2012-11-23 used), #813 (2012-12-02; 2012-11-30 used), #814 (2012-12-09; 2012-12-07 used), #815 (2012-12-16; 2012-12-14 used), #816 (2012-12-23; 2012-12-21 used), #817 (2012-12-30; 2012-12-28 used), #818 (2013-01-06; 2013-01-13 used), #819 (2013-01-13; 2013-01-20 used), #820 (2013-01-20; 2013-01-27 used).
 
 ## Episodes where the sources list different songs
 
@@ -123,24 +140,39 @@ The source used (first named) against each source that differs materially: anoth
 entries, or an artist one has and the other has not. Differences of spelling, titles or order
 alone are not listed.
 
-- #129 (radar.lv's «FM» post): vs the XLS: 12 entries in radar.lv's «FM» post vs 13 in the XLS; only in the XLS: «Ananda Shankar & Outcaste»
+- #4 (the XLS): vs Tilgor Kraut's spreadsheet: 16 entries in both; only in the XLS: «John Parish & Polly Jean Harvey», «John Parish & Polly Jean Harvey»; only in Tilgor Kraut's spreadsheet: «p j harvey & john parish», «p j harvey & john parish»
+- #5 (the XLS): vs Tilgor Kraut's spreadsheet: 17 entries in both; only in the XLS: «V.V.»; only in Tilgor Kraut's spreadsheet: «воплi вiдоплясова»
+- #12 (the XLS): vs Tilgor Kraut's spreadsheet: 14 entries in both; only in the XLS: «VV», «»; only in Tilgor Kraut's spreadsheet: «воплi вiдоплясова», «secret knowledge»
+- #15 (the XLS): vs Tilgor Kraut's spreadsheet: 15 entries in both; only in the XLS: «Auquarium»; only in Tilgor Kraut's spreadsheet: «аквариум»
+- #21 (the XLS): vs Tilgor Kraut's spreadsheet: 18 entries in both; only in the XLS: «Black Obelisk»; only in Tilgor Kraut's spreadsheet: «черный обелиск»
+- #28 (the XLS): vs Tilgor Kraut's spreadsheet: 18 entries in both; only in the XLS: «Oedipus Complex»; only in Tilgor Kraut's spreadsheet: «эдипов комплекс»
+- #34 (the XLS): vs Tilgor Kraut's spreadsheet: 17 entries in both; only in the XLS: «V. V.»; only in Tilgor Kraut's spreadsheet: «воплi вiдоплясова»
+- #44 (the XLS): vs Tilgor Kraut's spreadsheet: 17 entries in both; only in the XLS: «16 Horsepower»; only in Tilgor Kraut's spreadsheet: «sixteen horsepower»
+- #53 (the XLS): vs Tilgor Kraut's spreadsheet: 18 entries in both; only in the XLS: «Va-Banque»; only in Tilgor Kraut's spreadsheet: «ва-банкъ»
+- #92 (the XLS): vs Tilgor Kraut's spreadsheet: 17 entries in both; only in the XLS: «Varnaline»; only in Tilgor Kraut's spreadsheet: «александр ф. скляр»
+- #94 (the XLS): vs Tilgor Kraut's spreadsheet: 17 entries in both; only in the XLS: «Александр Ф. Скляр»; only in Tilgor Kraut's spreadsheet: «а. ф. скляр»
+- #129 (radar.lv's «FM» post): vs the XLS: 12 entries in radar.lv's «FM» post vs 13 in the XLS; only in the XLS: «Ananda Shankar & Outcaste»; vs Tilgor Kraut's spreadsheet: 12 entries in radar.lv's «FM» post vs 13 in Tilgor Kraut's spreadsheet; only in Tilgor Kraut's spreadsheet: «ananda shankar & outcaste»
 - #147 (radar.lv's «FM» post): vs the CUE sheet: 14 entries in radar.lv's «FM» post vs 13 in the CUE sheet; only in radar.lv's «FM» post: «Labradford»
 - #152 (radar.lv's «FM» post): vs the CUE sheet: 13 entries in both; only in radar.lv's «FM» post: «Kandia Konyate»; only in the CUE sheet: «Дочь Монро и Кеннеди»
 - #168 (radar.lv's «FM» post): vs the CUE sheet: 14 entries in radar.lv's «FM» post vs 13 in the CUE sheet; only in radar.lv's «FM» post: «The JP's»
 - #171 (radar.lv's «FM» post): vs the CUE sheet: 14 entries in radar.lv's «FM» post vs 13 in the CUE sheet; only in radar.lv's «FM» post: «The JP's»
+- #178 (radar.lv's «FM» post): vs Tilgor Kraut's spreadsheet: 14 entries in both; only in radar.lv's «FM» post: «16 Horsepower»; only in Tilgor Kraut's spreadsheet: «sixteen horsepower»
 - #196 (radar.lv's «FM» post): vs the CUE sheet: 14 entries in radar.lv's «FM» post vs 13 in the CUE sheet; only in radar.lv's «FM» post: «Sneakster»
+- #200 (radar.lv's «FM» post): vs Tilgor Kraut's spreadsheet: 12 entries in both; only in radar.lv's «FM» post: «Саша Башлачёв»; only in Tilgor Kraut's spreadsheet: «александр башлачев»
 - #251 (radar.lv's «FM» post): vs the CUE sheet: 14 entries in radar.lv's «FM» post vs 13 in the CUE sheet; only in radar.lv's «FM» post: «La Rionda»
 - #263 (radar.lv's «FM» post): vs the CUE sheet: 15 entries in radar.lv's «FM» post vs 14 in the CUE sheet; only in radar.lv's «FM» post: «Piano Magic»
 - #308 (fmd.soyuz.ru): vs the CUE sheet: 15 entries in fmd.soyuz.ru vs 14 in the CUE sheet; only in fmd.soyuz.ru: «fan club orchestra»
-- #333 (fmd.soyuz.ru): vs radar.lv's «FM» post: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in radar.lv's «FM» post: «Dj Me Dj You»; vs the CUE sheet: 16 entries in fmd.soyuz.ru vs 15 in the CUE sheet; only in fmd.soyuz.ru: «la sega del canto»; vs the mp3's tags: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in the mp3's tags: «Dj Me Dj You»; vs the XLS: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in the XLS: «dj me dj you»
+- #333 (fmd.soyuz.ru): vs radar.lv's «FM» post: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in radar.lv's «FM» post: «Dj Me Dj You»; vs the CUE sheet: 16 entries in fmd.soyuz.ru vs 15 in the CUE sheet; only in fmd.soyuz.ru: «la sega del canto»; vs the mp3's tags: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in the mp3's tags: «Dj Me Dj You»; vs the XLS: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in the XLS: «dj me dj you»; vs Tilgor Kraut's spreadsheet: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in Tilgor Kraut's spreadsheet: «dj me dj you»
 - #402 (fmd.soyuz.ru): vs the mp3's tags: 16 entries in fmd.soyuz.ru vs 17 in the mp3's tags; only in the mp3's tags: «old dirty perverts»
-- #403 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «stendec»
-- #405 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «mark tranmer»
+- #403 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «stendec»; vs Tilgor Kraut's spreadsheet: 17 entries in fmd.soyuz.ru vs 16 in Tilgor Kraut's spreadsheet; only in fmd.soyuz.ru: «stendec»
+- #405 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «mark tranmer»; vs Tilgor Kraut's spreadsheet: 17 entries in fmd.soyuz.ru vs 16 in Tilgor Kraut's spreadsheet; only in fmd.soyuz.ru: «mark tranmer»
+- #413 (fmd.soyuz.ru): vs Tilgor Kraut's spreadsheet: 16 entries in both; only in fmd.soyuz.ru: «лубнин г»; only in Tilgor Kraut's spreadsheet: «гавриил лубнин»
 - #414 (fmd.soyuz.ru): vs the mp3's tags: 16 entries in fmd.soyuz.ru vs 17 in the mp3's tags; only in the mp3's tags: «idiots»
-- #420 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «ni ni win shwe»
-- #447 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «unknown»
-- #459 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «saing saing maw»
-- #467 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «dim dim»
+- #420 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «ni ni win shwe»; vs Tilgor Kraut's spreadsheet: 17 entries in fmd.soyuz.ru vs 16 in Tilgor Kraut's spreadsheet; only in fmd.soyuz.ru: «ni ni win shwe»
+- #447 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «unknown»; vs Tilgor Kraut's spreadsheet: 17 entries in fmd.soyuz.ru vs 16 in Tilgor Kraut's spreadsheet; only in fmd.soyuz.ru: «unknown»
+- #459 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «saing saing maw»; vs Tilgor Kraut's spreadsheet: 17 entries in fmd.soyuz.ru vs 16 in Tilgor Kraut's spreadsheet; only in fmd.soyuz.ru: «saing saing maw»
+- #467 (fmd.soyuz.ru): vs the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «dim dim»; vs Tilgor Kraut's spreadsheet: 17 entries in fmd.soyuz.ru vs 16 in Tilgor Kraut's spreadsheet; only in fmd.soyuz.ru: «dim dim»
+- #476 (fmd.soyuz.ru): vs Tilgor Kraut's spreadsheet: 17 entries in both; only in fmd.soyuz.ru: «оркестр вермишель»; only in Tilgor Kraut's spreadsheet: «вермишель orchestra»
 - #485 (fmd.soyuz.ru): vs the CUE sheet: 16 entries in fmd.soyuz.ru vs 15 in the CUE sheet; only in fmd.soyuz.ru: «the national trust»
 - #486 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «avantgarde is the french word for shit», «tony strange»; only in the CUE sheet: «super reverb»
 - #492 (fmd.soyuz.ru): vs the CUE sheet: 18 entries in fmd.soyuz.ru vs 17 in the CUE sheet; only in fmd.soyuz.ru: «extra golden»
@@ -148,6 +180,7 @@ alone are not listed.
 - #498 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 15 in the CUE sheet; only in fmd.soyuz.ru: «je m'appelle mads & bounty niller», «wechsel garland»
 - #504 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «peeping tom»
 - #505 (fmd.soyuz.ru): vs the CUE sheet: 16 entries in fmd.soyuz.ru vs 15 in the CUE sheet; only in fmd.soyuz.ru: «sheriff»
+- #506 (fmd.soyuz.ru): vs Tilgor Kraut's spreadsheet: 16 entries in both; only in fmd.soyuz.ru: «the»; only in Tilgor Kraut's spreadsheet: «the hypothetical prophets»
 - #508 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «trespassers william»
 - #511 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «etran finatawa»
 - #523 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «the low lows»
@@ -175,12 +208,15 @@ alone are not listed.
 - #605 (fmd.soyuz.ru): vs the CUE sheet: 16 entries in fmd.soyuz.ru vs 15 in the CUE sheet; only in fmd.soyuz.ru: «proyecto mirage»
 - #606 (fmd.soyuz.ru): vs the mp3's tags: 17 entries in both; only in fmd.soyuz.ru: «adam green», «the duke spirit», «haydamaky» and 14 more; only in the mp3's tags: «boozoo bajou feat.tony joe white», «gutevolk», «arctic monkeys» and 14 more
 - #607 (fmd.soyuz.ru): vs the CUE sheet: 16 entries in fmd.soyuz.ru vs 7 in the CUE sheet; only in fmd.soyuz.ru: «sun city girls», «barbara carlotti», «the spook of the thirteenth lock» and 6 more
+- #616 (fmd.soyuz.ru): vs Tilgor Kraut's spreadsheet: 17 entries in both; only in fmd.soyuz.ru: «александр ф. скляр»; only in Tilgor Kraut's spreadsheet: «а. ф. скляр»
 - #621 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «max tundra»
 - #634 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «cinkusi i teta liza»
 - #638 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «Atom Tm»
 - #642 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «La Papa Verde»
 - #643 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «alamaailman vasarat»
 - #663 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «simian mobile disco»
+- #666 (the owner's list): vs Tilgor Kraut's spreadsheet: 20 entries in both; only in the owner's list: «Наталья Путина и Ракеты»; only in Tilgor Kraut's spreadsheet: «ураганы»
+- #669 (the mp3's tags): vs Tilgor Kraut's spreadsheet: 16 entries in both; only in the mp3's tags: «instituto mexicano del sonido»; only in Tilgor Kraut's spreadsheet: «mexican institute of sound»
 - #674 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «zakopower»
 - #678 (the mp3's tags): vs the CUE sheet: 16 entries in the mp3's tags vs 15 in the CUE sheet; only in the mp3's tags: «karuna khyal»
 - #679 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 15 in the CUE sheet; only in the mp3's tags: «dial m for murder!», «nguyen le»
@@ -190,3 +226,7 @@ alone are not listed.
 - #704 (the Finam page): vs the CUE sheet: 15 entries in the Finam page vs 14 in the CUE sheet; only in the Finam page: «tempelhof»
 - #706 (the Finam page): vs the CUE sheet: 15 entries in the Finam page vs 14 in the CUE sheet; only in the Finam page: «tommy t feat. gigi»
 - #707 (the Finam page): vs the CUE sheet: 15 entries in the Finam page vs 14 in the CUE sheet; only in the Finam page: «decoder ring»
+- #710 (the Finam page): vs Tilgor Kraut's spreadsheet: 15 entries in both; only in the Finam page: «j g thirlwell»; only in Tilgor Kraut's spreadsheet: «foetus»
+- #758 (the Finam page): vs Tilgor Kraut's spreadsheet: 14 entries in the Finam page vs 15 in Tilgor Kraut's spreadsheet; only in Tilgor Kraut's spreadsheet: «bellowhead»
+- #760 (the Finam page): vs Tilgor Kraut's spreadsheet: 14 entries in the Finam page vs 15 in Tilgor Kraut's spreadsheet; only in Tilgor Kraut's spreadsheet: «sister crayon»
+- #766 (the Finam page): vs Tilgor Kraut's spreadsheet: 14 entries in the Finam page vs 15 in Tilgor Kraut's spreadsheet; only in Tilgor Kraut's spreadsheet: «click here ft leontina vaduva»

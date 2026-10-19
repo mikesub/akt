@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20050417020221/http://www.fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=150
 date: 2005-02-19
 title: FM Достоевский #413
-note: From fmd.soyuz.ru, the program's site (Wayback capture).
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: Tilgor Kraut's spreadsheet: 16 entries in both; only in fmd.soyuz.ru: «лубнин г»; only in Tilgor Kraut's spreadsheet: «гавриил лубнин».
 
 1. machine translations (australia) "simple life" CD "venus traps fly" (spunk)
 2. octet (france) "4/4 waltz" CD "cash and carry songs" (diamondtraxx)

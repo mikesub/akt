@@ -1,5 +1,5 @@
 title: FM Достоевский #94
-note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English.
+note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English. Another source differs: Tilgor Kraut's spreadsheet: 17 entries in both; only in the XLS: «Александр Ф. Скляр»; only in Tilgor Kraut's spreadsheet: «а. ф. скляр».
 
 1. Avalanche (UK) "Sarah" CD "Hangover Square" (Corrida)
 2. Tulip, Die Singende Tulpe (Germany) "Cecile" CD "Eden Auf Erden" (QDK)

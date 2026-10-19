@@ -1,7 +1,7 @@
 url: https://radar.lv/node/1065
 date: 2001-01-03
 title: FM Достоевский #200
-note: From radar.lv's archive of the program, a fans' site: its posts «FM Достоевский N от …» come from the same playlist database as the XLS.
+note: From radar.lv's archive of the program, a fans' site: its posts «FM Достоевский N от …» come from the same playlist database as the XLS. Another source differs: Tilgor Kraut's spreadsheet: 12 entries in both; only in radar.lv's «FM» post: «Саша Башлачёв»; only in Tilgor Kraut's spreadsheet: «александр башлачев».
 
 1. Screaming Jay Hawkins (USA) "Shut Your Mouth When You Sneeze" CD "Best Of Bizarre Sessions 1990-1994" (Manifesto)
 2. Alan Vega (USA) "Trinity 2007" CD "2007" (Saturn Strip)

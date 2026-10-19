@@ -1,7 +1,7 @@
 url: https://radar.lv/node/1060
 date: 2000-12-06
 title: FM Достоевский #196
-note: From radar.lv's archive of the program, a fans' site: its posts «FM Достоевский N от …» come from the same playlist database as the XLS. Entry 2 has no title; the CUE sheet has «Hey Hey, My My (Into The Black)». Another source differs: the CUE sheet of radar.lv's recording lacks «Sneakster» (not aired, or the recording is cut short).
+note: From radar.lv's archive of the program, a fans' site: its posts «FM Достоевский N от …» come from the same playlist database as the XLS. Entry 2 has no title; the CUE sheet has «Hey Hey, My My (Into The Black)». Entry 2 has no title; Tilgor Kraut's spreadsheet has «hey hey, my my (into the black)». Another source differs: the CUE sheet of radar.lv's recording lacks «Sneakster» (not aired, or the recording is cut short).
 
 1. Leila (UK) "To Win Her Love" CD "Courtesy Of Choice" (XL)
 2. Golden Watusis (USA) ""Hey Hey, My My (Into The Black)"""" CD "This Note`s For You Too" (Inbetweens)

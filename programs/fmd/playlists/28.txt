@@ -1,5 +1,5 @@
 title: FM Достоевский #28
-note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English.
+note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English. Another source differs: Tilgor Kraut's spreadsheet: 18 entries in both; only in the XLS: «Oedipus Complex»; only in Tilgor Kraut's spreadsheet: «эдипов комплекс».
 
 1. Cake (USA) "Frank Sinatra" CD "Fasion Nugget" (Capricorn)
 2. Antonina Krzyston (Poland) "Kiedy Przyjdzie Dzien" CD "Kiedy Przyjdzie Dzien" (Pomaton)

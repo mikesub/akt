@@ -7,6 +7,19 @@ added, renamed or removed; **Breaking** marks a change that can break code readi
 Routine updates (a new Стереоплан episode, a single fix) are not listed: the git history of
 `docs/data/` has every change.
 
+## 2026-10-20
+
+- «FM Достоевский»: 39 more playlists, from Tilgor Kraut's spreadsheet of the program's playlists (radar.lv's
+  playlist database, carried on to the program's end): #190–#195, #317, and 32 Финам FM episodes between #715 and
+  #810 that the Wayback Machine never captured. 575 tracks, 446 on Apple Music, 516 with a Discogs release (matched
+  offline against the releases dump of 2026-10-01 first, the API asked only about the rest), 536 with a year.
+  818 of the 820 episodes now have a playlist; #187 and #288 are still missing. #816 has its last two songs (the
+  Финам page's list was read only up to a note line), and #318 is dated 2003-04-12, as fmd.soyuz.ru has it (the
+  other sources' 2003-04-05 is #317's).
+- `countries.json`: «scotland» (GB) and «tchad» (TD). `artists.json`: 232 spellings, most for the spreadsheet's
+  lower-case names; four touch tracks already in the data («La Brass Banda» → «LaBrassBanda», «gold chains»,
+  «redondo beat», and «Amparo Sanchez» → «Amparo Sánchez» in Stereo Voodoo and Стереоплан).
+
 ## 2026-10-18
 
 - Discogs' API asked about every track the dumps left (`--discogs`, every program): of 1,610, 477 found (254 with

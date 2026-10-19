@@ -1,5 +1,5 @@
 title: FM Достоевский #4
-note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English.
+note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English. Another source differs: Tilgor Kraut's spreadsheet: 16 entries in both; only in the XLS: «John Parish & Polly Jean Harvey», «John Parish & Polly Jean Harvey»; only in Tilgor Kraut's spreadsheet: «p j harvey & john parish», «p j harvey & john parish».
 
 1. John Parish & Polly Jean Harvey (UK) "Heela" CD "Dance Hall At Louse Point" (Island)
 2. J J Cale (USA) "This Town" CD "Guitar Man" (Delabel)

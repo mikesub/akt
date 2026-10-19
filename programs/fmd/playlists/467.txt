@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20060914172338/http://www.fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=205
 date: 2006-03-05
 title: FM Достоевский #467
-note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «dim dim».
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: the XLS: 17 entries in fmd.soyuz.ru vs 16 in the XLS; only in fmd.soyuz.ru: «dim dim»; Tilgor Kraut's spreadsheet: 17 entries in fmd.soyuz.ru vs 16 in Tilgor Kraut's spreadsheet; only in fmd.soyuz.ru: «dim dim».
 
 1. helldorado (norway) "the devil's kiss" CD "the ballad of nora lee" (glitterhouse)
 2. di giusto y camerata ambigua (argentina) "huayno 1" CD "la cambiada" (manana)

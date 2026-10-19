@@ -1,5 +1,5 @@
 title: FM Достоевский #92
-note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English.
+note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English. Another source differs: Tilgor Kraut's spreadsheet: 17 entries in both; only in the XLS: «Varnaline»; only in Tilgor Kraut's spreadsheet: «александр ф. скляр».
 
 1. Arling & Cameron (Holland) "Here We Go" CD "All-In" (Drive-In)
 2. Varnaline (USA) "Bardust" CD "A Shot And A Beer"

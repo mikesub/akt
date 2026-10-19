@@ -1,5 +1,5 @@
 title: FM Достоевский #15
-note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English.
+note: From the XLS export of radar.lv's dead playlist database (programs/fmd/sources/radar.lv/fmd_up499.xls), the least trusted source: in its early years Russian names and titles are mostly transliterated or translated into English. Another source differs: Tilgor Kraut's spreadsheet: 15 entries in both; only in the XLS: «Auquarium»; only in Tilgor Kraut's spreadsheet: «аквариум».
 
 1. Royal Crown Revue (USA) "Hey Pachuco!" CD "Mugzy`s Move" (Warner)
 2. Jimi Tenor (Finland) "Take Me Baby (Finnish Bass Boy Mix)" CD "Take Me Baby" (Warp)

@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20031115095445/http://fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=56
 date: 2003-08-02
 title: FM Достоевский #333
-note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: radar.lv's «FM» post: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in radar.lv's «FM» post: «Dj Me Dj You»; the CUE sheet of radar.lv's recording lacks «la sega del canto» (not aired, or the recording is cut short); the mp3's tags: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in the mp3's tags: «Dj Me Dj You»; the XLS: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in the XLS: «dj me dj you».
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: radar.lv's «FM» post: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in radar.lv's «FM» post: «Dj Me Dj You»; the CUE sheet of radar.lv's recording lacks «la sega del canto» (not aired, or the recording is cut short); the mp3's tags: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in the mp3's tags: «Dj Me Dj You»; the XLS: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in the XLS: «dj me dj you»; Tilgor Kraut's spreadsheet: 16 entries in both; only in fmd.soyuz.ru: «la sega del canto»; only in Tilgor Kraut's spreadsheet: «dj me dj you».
 
 1. sternklang (norway) "liebling" CD "my time is yours" (dbut)
 2. the cool jerks (usa) "why can't i?.." CD "cleaned a lot of plates in memphis" (s.f.t.r.i.)

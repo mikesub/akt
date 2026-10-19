@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/2014/http://finam.fm/archive-view/4874/
 date: 2011-10-16
 title: FM Достоевский #760
-note: From Финам FM's episode page (Wayback capture); Finam's №59.
+note: From Финам FM's episode page (Wayback capture); Finam's №59. Another source differs: Tilgor Kraut's spreadsheet: 14 entries in the Finam page vs 15 in Tilgor Kraut's spreadsheet; only in Tilgor Kraut's spreadsheet: «sister crayon».
 
 1. juan carlos caceres (argentina/france) "el presente" CD "noche de carnaval" (manana)
 2. i blame coco (uk) "only love can break your heart" CD "the constant" (island)

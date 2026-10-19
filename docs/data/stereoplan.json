@@ -21,6 +21,19 @@
         "apple_album_id": 1825659802,
         "apple_artist_id": 333656544,
         "mb_id": "fe04f949-5e59-4c64-bb9a-66924b9d9bc4",
+        "discogs_id": 35111753,
+        "discogs_master_id": 3973664,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Experimental",
+          "Art Rock",
+          "Prog Rock",
+          "Post-Punk",
+          "Alternative Rock",
+          "Psychedelic Rock"
+        ],
         "year": 2025,
         "year_from": "musicbrainz"
       },
@@ -273,8 +286,14 @@
         "apple_album_id": 1782940917,
         "apple_artist_id": 349566053,
         "mb_id": "88f0fee8-af39-4474-9700-b320aa023dee",
-        "discogs_id": null,
-        "discogs_master_id": null,
+        "discogs_id": 32578836,
+        "discogs_master_id": 3720867,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Garage Rock"
+        ],
         "year": 2024,
         "year_from": "musicbrainz"
       },
@@ -24890,7 +24909,7 @@
     "playlist_hash": "dd97bc5433d8f0c3",
     "tracks": [
       {
-        "artist": "Amparo Sanchez",
+        "artist": "Amparo Sánchez",
         "track": "Plegaria",
         "album": "RITUAL SONORO",
         "printed_country": "Spain",

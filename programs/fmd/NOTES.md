@@ -3,8 +3,8 @@
 Notes for whoever picks this up. The sources are gathered in `programs/fmd/sources/` and mapped below.
 `node bin/fmd-playlists.js` rebuilds every `programs/fmd/playlists/<number>.txt` from them (offline,
 deterministic; it deletes and rewrites the whole folder), plus `programs/fmd/CROSSCHECK.md` (how the
-sources agree where they overlap) and `programs/fmd/MISSING.md` (what no source has): 779 playlist
-files, 41 episodes missing. #701 has 5 songs, the rest talk: complete (the owner listened). `node bin/playlists.js fmd` parses
+sources agree where they overlap) and `programs/fmd/MISSING.md` (what no source has): 818 playlist
+files, 2 episodes missing (#187, #288). #701 has 5 songs, the rest talk: complete (the owner listened). `node bin/playlists.js fmd` parses
 them into `docs/data/fmd.json`, like every other program's.
 
 ## Playlist files
@@ -22,10 +22,12 @@ sources disagree on, an entry without a title another source has. From each epis
 | mp3 tags | 81 | #620–#701 but #666 (#623, #624, #633 found nowhere else) |
 | the owner's list, by ear | 1 | #666 |
 | the XLS | 158 | #1–#128, and 30 within #131–#375 that nothing else has |
+| Tilgor Kraut's spreadsheet | 39 | #190–#195, #317, and the 32 Finam episodes with no list captured |
 
 Decided by hand (in the script, with why): radar.lv's post and CUE sheet titled #148 (8 Dec 1999)
 hold the XLS's #147 and are filed as #147 (the XLS's #148 is another list, 15 Dec); #675's second
-CUE sheet (`_0`) carries #674's songs and is left out. A label given as an artist's e-mail address
+CUE sheet (`_0`) carries #674's songs and is left out; #318 is dated 2003-04-12, as fmd.soyuz.ru has it
+(radar.lv's playlist database gives it 2003-04-05, which Tilgor Kraut's spreadsheet gives #317 too). A label given as an artist's e-mail address
 is left out of the entry. To add an episode found later, save its source in `programs/fmd/sources/` and
 teach the script to read it: a file written by hand in `programs/fmd/playlists/` is lost on the next rebuild.
 
@@ -39,8 +41,8 @@ listed №119 as the newest in Feb 2014: #820 is the last episode.
 ## Sources (`programs/fmd/sources/`)
 
 Trust, highest first: finam.fm and fmd.soyuz.ru pages (the program's own sites, original
-spelling) > radar.lv's episode posts > the mp3 tags > radar.lv's CUE sheets > the XLS. The XLS is used only where
-nothing else has an episode. What the cross-check found (`programs/fmd/CROSSCHECK.md`): the XLS has the same
+spelling) > radar.lv's episode posts > the mp3 tags > radar.lv's CUE sheets > the XLS > the owner's list >
+Tilgor Kraut's spreadsheet. The XLS and the spreadsheet are used only where nothing else has an episode. What the cross-check found (`programs/fmd/CROSSCHECK.md`): the XLS has the same
 songs in the same order as fmd.soyuz.ru in 202 of 209 episodes, and the same titles; its Russian
 names and titles are in Latin letters mostly before about #100, where nothing else can check it.
 
@@ -88,7 +90,28 @@ names and titles are in Latin letters mostly before about #100, where nothing el
   they wrote them: a numbered line per song (artist, title, album, country, year, in no fixed layout), each
   followed by the record's Discogs or Apple Music page or «not on discogs», which the playlist leaves out
   (its records and years went into `overrides.json`). #666 (2026-10-18, a two-hour episode, 20 songs).
-  Trusted below every other source; dated by `DATES` in the script.
+  Trusted below every other source but Tilgor Kraut's spreadsheet, whose #666 has the same 20 songs (#3 by
+  «ураганы», #11 «in the begining» CD «for 666», #16's album «третий альбом [demo]»): the owner's list is
+  kept (the owner's call), the difference noted. Dated by `DATES` in the script.
+- `tilgor-kraut/FMD (for all).xlsx`: Tilgor Kraut's spreadsheet of the program's playlists, which the
+  owner got on 2026-10-19 (credited by name at the owner's request). Sheet «the sum»: 14,753 rows, columns `bN7m, Date, sNum,
+  ARTIST, Country, Song, CD, Label, Comment AKT` and two counts of plays (the artist's, the label's). 949
+  episodes, #1–#951 (no #187, #288): #821–#951 are «Stereo Voodoo» in FMD's count (#821 is its #1), their
+  Date column its own number, the same 1,964 songs as its playlists here, so not read. The second sheet is
+  the compiler's note on their own music project: not data. It is radar.lv's playlist database again, as the XLS
+  has it (the same rows in the same order to #499, with the host's notes), carried on to the end, but
+  **in lower case throughout**, labels merged for counting («warner» for «Warner Bros.»), typos fixed
+  («nightmares on wax», «broken social scene») and a few made («edwin collins», «larry & the lefthauded»,
+  Varnaline as «александр ф. скляр» at #92), and some Russian names spelled in Cyrillic, mostly as
+  `titles.json` restores them. Not a second witness to the XLS or the later sources: ranked last, it gives
+  only the 39 episodes nothing else has, its date only where no other source dates one. Its dates are
+  weekly, but against Finam's own pages a week early for #818–#820 and, for #797–#817, the Sunday after
+  the Friday the pages give (so its Sundays for the Finam episodes in that stretch may be two days late:
+  their notes say so). In #758, #760 and #766 it has a 15th song Finam's page has not: noted, not used.
+  `fmd-for-all.csv` beside it is the sheet as UTF-8 CSV for Node (written from the XLSX by a one-off, not
+  kept: dates as YYYY-MM-DD, whole numbers without «.0»; a stray cell past the columns, #747's «cult»,
+  left out). The sheet's spreadsheet turned two titles into numbers, #598's album «33 1/3» into
+  33.333333333333336 and Voodoo #96's «5 am» into a time: both in episodes taken from elsewhere.
 - `mp3-tags/tags.json`: the playlists in a fans' collection of the program's mp3s (2026-10-17): 494
   episodes, #129–#707, each in its file's ID3 comment. Saved as number → the file's name, title, track and
   comment (the tracklist, as the file has it, with `\r\n`); the files' other tags (encoder and the like)
@@ -148,12 +171,12 @@ names and titles are in Latin letters mostly before about #100, where nothing el
 
 ## Coverage
 
-779 of the 820 episodes have a playlist in at least one source. Best source per stretch, then the rest for cross-checking:
+818 of the 820 episodes have a playlist in at least one source. Best source per stretch, then the rest for cross-checking:
 
 | Episodes | Have | Missing |
 |---|---|---|
 | #1–#128 (1997 – 1999) | XLS only | – |
-| #129–#288 (1999 – Oct 2002) | radar.lv posts and CUE sheets (original spelling), XLS | #187, #190–#195, #288 |
-| #289–#619 (Oct 2002 – 01.02.2009) | fmd.soyuz.ru; radar.lv and CUE sheets in parts; XLS to #499 | #317 |
+| #129–#288 (1999 – Oct 2002) | radar.lv posts and CUE sheets (original spelling), XLS; #190–#195 Tilgor Kraut's spreadsheet only | #187, #288 |
+| #289–#619 (Oct 2002 – 01.02.2009) | fmd.soyuz.ru; radar.lv and CUE sheets in parts; XLS to #499; #317 Tilgor Kraut's spreadsheet only | – |
 | #620–#701 (Feb 2009 – Sep 2010) | mp3 tags (with countries and labels), CUE sheets; #666 the owner's list, by ear | – |
-| #702–#820 (Finam №1–№119) | Finam pages (`finam.fm/found.json` maps № to page id), the 2010 RSS; CUE sheets to #707 | never captured: #715–#720, #723 (the program page's 2011 sidebar names them, but no page was kept), #753, #754, #764, #767, #769–#771, #778, #781, #790–#794, #796, #798, #800, #801, #803, #804, #806, #807, #809, #810; #795's only capture is broken, no list (checked by the owner); #802's page is broken too, but its print version, `6765-print.html`, has the list (16 entries); #780's list has no «PLAYLIST» line at all (checked: 15 entries) |
+| #702–#820 (Finam №1–№119) | Finam pages (`finam.fm/found.json` maps № to page id), the 2010 RSS; CUE sheets to #707; Tilgor Kraut's spreadsheet only for the 32 with no list captured: #715–#720, #723 (the program page's 2011 sidebar names them, but no page was kept), #753, #754, #764, #767, #769–#771, #778, #781, #790–#794, #796, #798, #800, #801, #803, #804, #806, #807, #809, #810, and #795, whose only capture is broken (checked by the owner). #802's page is broken too, but its print version, `6765-print.html`, has the list (16 entries); #780's list has no «PLAYLIST» line at all (checked: 15 entries); #816's 14th and 15th entries follow a note line («album of 2012 - I») | – |

@@ -1,7 +1,7 @@
 url: https://web.archive.org/web/20090211002616/http://fmd.soyuz.ru:80/?s=_ARCHIVE&id_playlist=363
 date: 2009-01-11
 title: FM Достоевский #616
-note: From fmd.soyuz.ru, the program's site (Wayback capture).
+note: From fmd.soyuz.ru, the program's site (Wayback capture). Another source differs: Tilgor Kraut's spreadsheet: 17 entries in both; only in fmd.soyuz.ru: «александр ф. скляр»; only in Tilgor Kraut's spreadsheet: «а. ф. скляр».
 
 1. chuck e. weiss (usa) "side kick" CD "the other side of town" (select)
 2. alina orlova (lithuania) "zeme, sukis greitai" CD "дикая собака динго" (снегири)
