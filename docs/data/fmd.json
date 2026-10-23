@@ -1911,6 +1911,8 @@
           "FI"
         ],
         "apple_id": 498060176,
+        "apple_album_id": null,
+        "apple_artist_id": 264466545,
         "mb_id": null,
         "discogs_id": 6685873,
         "discogs_master_id": null,
@@ -235726,6 +235728,7 @@
         "apple_id": 311836594,
         "apple_album_id": 311836375,
         "apple_artist_id": 311836512,
+        "mb_id": null,
         "year": 1999,
         "year_from": "apple"
       },
@@ -271920,8 +271923,9 @@
         "apple_id": 120987522,
         "apple_album_id": 120987801,
         "apple_artist_id": 120986979,
-        "year": 1996,
-        "year_from": "apple"
+        "mb_id": "ac0cccd8-d07c-4f47-b354-838bf0f375be",
+        "year": 1997,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kd Lang",
