@@ -1910,14 +1910,12 @@
         "country": [
           "FI"
         ],
-        "apple_id": 1526720511,
-        "apple_album_id": null,
-        "apple_artist_id": 604029,
+        "apple_id": 498060176,
         "mb_id": null,
         "discogs_id": 6685873,
         "discogs_master_id": null,
-        "year": 1995,
-        "year_from": "apple"
+        "year": 2012,
+        "year_from": "owner"
       },
       {
         "artist": "Hotel Morphila Orchester",
@@ -235718,19 +235716,16 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Jobarten-Kunda",
+        "artist": "Jobarteh-Kunda",
         "track": "Aiyo Aiyo",
         "album": "Abaraka",
         "printed_country": "Gambia",
         "country": [
-          "GM"
+          "DE"
         ],
         "apple_id": 311836594,
         "apple_album_id": 311836375,
         "apple_artist_id": 311836512,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1999,
         "year_from": "apple"
       },
@@ -271915,19 +271910,16 @@
         "year_from": "apple"
       },
       {
-        "artist": "The Yarvest Ministers",
-        "track": "Our Destinies Were Interwined",
+        "artist": "The Harvest Ministers",
+        "track": "Our Destinies Were Intertwined",
         "album": "Orbit",
         "printed_country": "USA",
         "country": [
-          "US"
+          "IE"
         ],
         "apple_id": 120987522,
         "apple_album_id": 120987801,
         "apple_artist_id": 120986979,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1996,
         "year_from": "apple"
       },

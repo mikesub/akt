@@ -1442,5 +1442,22 @@
       "artist": "Yat-Kha"
     },
     "why": "FM Достоевский #208: the band's Latin name, as the archive's other Yat-Kha tracks print it and as «Aldyn Dashka» credits it (the song's title is in Latin too); the owner's call"
+  },
+  {
+    "artist": "The Yarvest Ministers",
+    "track": "Our Destinies Were Interwined",
+    "restore": {
+      "artist": "The Harvest Ministers",
+      "track": "Our Destinies Were Intertwined"
+    },
+    "why": "FM Достоевский #43: misspelt; as on the playlist's «Orbit» (Setanta, 1996), The Harvest Ministers' «Our Destinies Were Intertwined» (Apple Music; discogs.com/artist/343307)"
+  },
+  {
+    "artist": "Jobarten-Kunda",
+    "track": "Aiyo Aiyo",
+    "restore": {
+      "artist": "Jobarteh-Kunda"
+    },
+    "why": "FM Достоевский #144: misspelt; as Apple Music credits the band on the playlist's «Abaraka» (1999), and Discogs (discogs.com/artist/2720588)"
   }
 ]
