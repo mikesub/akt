@@ -3710,12 +3710,17 @@
         "discogs_id": 5133694,
         "discogs_master_id": 556935,
         "discogs_genres": [
-          "Funk / Soul"
+          "Rock",
+          "Latin",
+          "Funk / Soul",
+          "Folk, World, & Country"
         ],
         "discogs_styles": [
-          "Soul",
+          "African",
           "Funk",
-          "African"
+          "Afrobeat",
+          "Pachanga",
+          "Rumba"
         ],
         "year": 2012,
         "year_from": "musicbrainz"
@@ -3963,8 +3968,7 @@
           "Rock"
         ],
         "discogs_styles": [
-          "Stoner Rock",
-          "Classic Rock"
+          "Garage Rock"
         ],
         "year": 2001,
         "year_from": "musicbrainz"
@@ -4127,8 +4131,8 @@
         "discogs_master_id": 425712,
         "discogs_genres": [
           "Electronic",
-          "Rock",
-          "Funk / Soul"
+          "Funk / Soul",
+          "Rock"
         ],
         "discogs_styles": [
           "Abstract",
@@ -4153,7 +4157,8 @@
         "discogs_master_id": 425712,
         "discogs_genres": [
           "Electronic",
-          "Funk / Soul"
+          "Funk / Soul",
+          "Rock"
         ],
         "discogs_styles": [
           "Abstract",
@@ -4586,7 +4591,9 @@
         ],
         "discogs_styles": [
           "Electro",
-          "Synth-pop"
+          "Synth-pop",
+          "Alt-Pop",
+          "Dubstep"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -4882,7 +4889,8 @@
           "Latin"
         ],
         "discogs_styles": [
-          "Downtempo"
+          "Breakbeat",
+          "Cumbia"
         ],
         "year": 2012,
         "year_from": "discogs"
@@ -4972,8 +4980,10 @@
           "Pop"
         ],
         "discogs_styles": [
+          "Indie Pop",
           "Synth-pop",
-          "Vocal"
+          "Nu-Disco",
+          "Electro House"
         ],
         "year": 2012,
         "year_from": "musicbrainz"
@@ -5175,9 +5185,7 @@
         "discogs_genres": [
           "Pop"
         ],
-        "discogs_styles": [
-          "Vocal"
-        ],
+        "discogs_styles": [],
         "year": 2011,
         "year_from": "musicbrainz"
       },
@@ -5226,7 +5234,8 @@
         "discogs_styles": [
           "Leftfield",
           "Dub",
-          "Experimental"
+          "Experimental",
+          "Footwork"
         ],
         "year": 2012,
         "year_from": "discogs"
@@ -5890,12 +5899,14 @@
         "discogs_master_id": 497630,
         "discogs_genres": [
           "Electronic",
-          "Latin"
+          "Reggae",
+          "Latin",
+          "Folk, World, & Country"
         ],
         "discogs_styles": [
-          "Abstract",
-          "Bossanova",
-          "MPB"
+          "Downtempo",
+          "MPB",
+          "Bossa Nova"
         ],
         "year": 2012,
         "year_from": "musicbrainz"
@@ -6187,7 +6198,6 @@
         "discogs_master_id": 360404,
         "discogs_genres": [
           "Electronic",
-          "Funk / Soul",
           "Pop"
         ],
         "discogs_styles": [
@@ -6897,17 +6907,15 @@
         "discogs_master_id": 383613,
         "discogs_genres": [
           "Electronic",
-          "Rock",
           "Pop"
         ],
         "discogs_styles": [
-          "Synth-pop",
+          "Tribal House",
           "Progressive House",
-          "IDM",
-          "Dub",
-          "Ethereal",
-          "Acid",
-          "Experimental"
+          "Downtempo",
+          "Dub Techno",
+          "Experimental",
+          "Leftfield"
         ],
         "year": 2011,
         "year_from": "discogs"
@@ -6937,11 +6945,11 @@
         "discogs_master_id": 410296,
         "discogs_genres": [
           "Electronic",
-          "Pop"
+          "Rock"
         ],
         "discogs_styles": [
-          "Pop Rock",
-          "Synth-pop"
+          "Synth-pop",
+          "Indie Rock"
         ],
         "year": 2012,
         "year_from": "musicbrainz"
@@ -7105,12 +7113,17 @@
         "discogs_id": 7192446,
         "discogs_master_id": 293679,
         "discogs_genres": [
+          "Jazz",
           "Rock",
           "Funk / Soul"
         ],
         "discogs_styles": [
           "Lounge",
-          "Funk"
+          "Funk",
+          "Psychedelic Rock",
+          "Acid Rock",
+          "Hard Rock",
+          "Jazz-Rock"
         ],
         "year": 1971,
         "year_from": "musicbrainz"
@@ -7197,9 +7210,10 @@
           "Pop"
         ],
         "discogs_styles": [
+          "Lo-Fi",
           "Dub",
-          "Hypnagogic pop",
-          "Psychedelic Rock"
+          "Experimental",
+          "Hypnagogic pop"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -7611,12 +7625,11 @@
         "discogs_master_id": 1150814,
         "discogs_genres": [
           "Electronic",
-          "Rock"
+          "Rock",
+          "Folk, World, & Country"
         ],
         "discogs_styles": [
-          "Trip Hop",
-          "Experimental",
-          "Post Rock"
+          "Alternative Rock"
         ],
         "year": 2011,
         "year_from": "discogs"
@@ -7637,12 +7650,11 @@
         "discogs_master_id": 1150814,
         "discogs_genres": [
           "Electronic",
-          "Rock"
+          "Rock",
+          "Folk, World, & Country"
         ],
         "discogs_styles": [
-          "Trip Hop",
-          "Experimental",
-          "Post Rock"
+          "Alternative Rock"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -7763,11 +7775,7 @@
         "discogs_genres": [
           "Rock"
         ],
-        "discogs_styles": [
-          "Alternative Rock",
-          "No Wave",
-          "Post-Punk"
-        ],
+        "discogs_styles": [],
         "year": 2011,
         "year_from": "musicbrainz"
       },
@@ -7902,7 +7910,10 @@
           "Blues",
           "Folk, World, & Country"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Acoustic",
+          "Folk"
+        ],
         "year": 2011,
         "year_from": "musicbrainz"
       }
@@ -8483,13 +8494,12 @@
         "discogs_id": 9062011,
         "discogs_master_id": 356425,
         "discogs_genres": [
-          "Rock"
+          "Rock",
+          "Pop"
         ],
         "discogs_styles": [
-          "Alternative Rock",
-          "Folk Rock",
-          "Pop Rock",
-          "Indie Rock"
+          "Soft Rock",
+          "Pop Rock"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -8587,8 +8597,8 @@
           "Rock"
         ],
         "discogs_styles": [
-          "Alternative Rock",
-          "Indie Rock"
+          "Indie Rock",
+          "Shoegaze"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -8846,11 +8856,12 @@
         "discogs_id": 19031137,
         "discogs_master_id": 370097,
         "discogs_genres": [
-          "Electronic"
+          "Electronic",
+          "Pop"
         ],
         "discogs_styles": [
-          "Downtempo",
-          "Trip Hop"
+          "Trip Hop",
+          "Downtempo"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -9007,6 +9018,7 @@
           "Rock"
         ],
         "discogs_styles": [
+          "Indie Rock",
           "Rockabilly",
           "Blues Rock"
         ],
@@ -9054,9 +9066,18 @@
         "discogs_id": 3570960,
         "discogs_master_id": 409015,
         "discogs_genres": [
+          "Electronic",
           "Reggae"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Dub",
+          "Reggae",
+          "Ragga",
+          "Dancehall",
+          "Post-Punk",
+          "Electro",
+          "Avantgarde"
+        ],
         "year": 2012,
         "year_from": "musicbrainz"
       },
@@ -9230,7 +9251,8 @@
         ],
         "discogs_styles": [
           "Post-Punk",
-          "Psychedelic Rock"
+          "Art Rock",
+          "Noise Rock"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -9304,8 +9326,9 @@
         ],
         "discogs_styles": [
           "Abstract",
-          "Minimal",
-          "Experimental"
+          "Noise",
+          "Experimental",
+          "Minimal"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -9792,9 +9815,9 @@
           "Pop"
         ],
         "discogs_styles": [
+          "Alternative Rock",
           "Downtempo",
           "Vocal",
-          "Indie Rock",
           "Ambient"
         ],
         "year": 2011,
@@ -9979,13 +10002,16 @@
         "discogs_id": 6034652,
         "discogs_master_id": 503074,
         "discogs_genres": [
-          "Rock"
+          "Electronic",
+          "Rock",
+          "Folk, World, & Country"
         ],
         "discogs_styles": [
-          "Psychedelic Rock",
-          "Acoustic",
+          "Alternative Rock",
           "Folk Rock",
-          "Experimental"
+          "Abstract",
+          "Folk",
+          "Neofolk"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -10186,9 +10212,13 @@
         "discogs_id": 4229225,
         "discogs_master_id": 609342,
         "discogs_genres": [
+          "Jazz",
           "Pop"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Contemporary Jazz",
+          "Easy Listening"
+        ],
         "year": 2011,
         "year_from": "discogs"
       },
@@ -10291,7 +10321,7 @@
         ],
         "discogs_styles": [
           "Krautrock",
-          "Synth-pop"
+          "Italo-Disco"
         ],
         "year": 2010,
         "year_from": "discogs"
@@ -13380,9 +13410,7 @@
           "Rock"
         ],
         "discogs_styles": [
-          "Rock & Roll",
-          "Punk",
-          "Rockabilly"
+          "Rock & Roll"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -13481,8 +13509,8 @@
           "Electronic"
         ],
         "discogs_styles": [
-          "Dubstep",
-          "Breaks"
+          "Breaks",
+          "Dubstep"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -14218,11 +14246,11 @@
         "discogs_id": 2393565,
         "discogs_master_id": 268366,
         "discogs_genres": [
-          "Electronic"
+          "Electronic",
+          "Rock"
         ],
         "discogs_styles": [
-          "Electro",
-          "Synth-pop"
+          "Ethereal"
         ],
         "year": 2010,
         "year_from": "discogs"
@@ -14284,7 +14312,8 @@
           "Rock"
         ],
         "discogs_styles": [
-          "Psychedelic Rock"
+          "Psychedelic Rock",
+          "Indie Rock"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -14308,12 +14337,16 @@
           "Rock"
         ],
         "discogs_styles": [
-          "Leftfield",
-          "Krautrock",
-          "Space Rock",
-          "Psychedelic Rock",
           "Synth-pop",
-          "Experimental"
+          "Downtempo",
+          "Lo-Fi",
+          "Leftfield",
+          "Experimental",
+          "Psychedelic Rock",
+          "Space Rock",
+          "Krautrock",
+          "Lounge",
+          "Shoegaze"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -17021,12 +17054,12 @@
         "discogs_id": 7413073,
         "discogs_master_id": 550501,
         "discogs_genres": [
-          "Electronic"
+          "Electronic",
+          "Classical"
         ],
         "discogs_styles": [
-          "Modern Classical",
-          "Experimental",
-          "Abstract"
+          "Musique Concrète",
+          "Contemporary"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -17174,7 +17207,9 @@
           "Electronic"
         ],
         "discogs_styles": [
-          "Experimental"
+          "Rhythmic Noise",
+          "Techno",
+          "Musique Concrète"
         ],
         "year": 2010,
         "year_from": "musicbrainz"
@@ -17245,6 +17280,7 @@
         "discogs_id": 7088764,
         "discogs_master_id": 1252293,
         "discogs_genres": [
+          "Pop",
           "Folk, World, & Country"
         ],
         "discogs_styles": [
@@ -17311,13 +17347,10 @@
         "discogs_id": 37057005,
         "discogs_master_id": 4194693,
         "discogs_genres": [
-          "Rock",
-          "Folk, World, & Country"
+          "Rock"
         ],
         "discogs_styles": [
-          "Antifolk",
-          "Folk",
-          "Lo-Fi"
+          "Folk Rock"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -17342,10 +17375,7 @@
         ],
         "discogs_styles": [
           "Modern Classical",
-          "Abstract",
-          "Avantgarde",
-          "Experimental",
-          "Ambient"
+          "Avantgarde"
         ],
         "year": 2010,
         "year_from": "musicbrainz"
@@ -17534,14 +17564,13 @@
         "discogs_genres": [
           "Electronic",
           "Rock",
-          "Funk / Soul",
           "Folk, World, & Country"
         ],
         "discogs_styles": [
+          "Anatolian Rock",
           "Psychedelic Rock",
-          "Free Funk",
-          "Psychedelic",
-          "Disco"
+          "Instrumental",
+          "Synth-pop"
         ],
         "year": 2010,
         "year_from": "musicbrainz"
@@ -17616,7 +17645,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [
-          "Romani"
+          "Romani",
+          "Brass Band"
         ],
         "year": 2011,
         "year_from": "musicbrainz"
@@ -18072,6 +18102,7 @@
         ],
         "discogs_styles": [
           "Instrumental",
+          "Hip Hop",
           "Experimental"
         ],
         "year": 2009,
@@ -18270,10 +18301,12 @@
         "discogs_id": 1950418,
         "discogs_master_id": 190004,
         "discogs_genres": [
-          "Electronic"
+          "Electronic",
+          "Pop"
         ],
         "discogs_styles": [
-          "House"
+          "Dance-pop",
+          "Downtempo"
         ],
         "year": 2009,
         "year_from": "musicbrainz"
@@ -19085,11 +19118,10 @@
         "discogs_id": 3439500,
         "discogs_master_id": 448044,
         "discogs_genres": [
-          "Rock"
+          "Rock",
+          "Folk, World, & Country"
         ],
-        "discogs_styles": [
-          "Folk Rock"
-        ],
+        "discogs_styles": [],
         "year": 2011,
         "year_from": "musicbrainz"
       },
@@ -19183,14 +19215,10 @@
         "discogs_id": 2708683,
         "discogs_master_id": 482483,
         "discogs_genres": [
-          "Rock",
           "Pop",
           "Folk, World, & Country"
         ],
-        "discogs_styles": [
-          "Indie Rock",
-          "Soft Rock"
-        ],
+        "discogs_styles": [],
         "year": 2010,
         "year_from": "musicbrainz"
       },
@@ -22453,7 +22481,7 @@
         ],
         "discogs_styles": [
           "Experimental",
-          "Post Rock"
+          "Alternative Rock"
         ],
         "year": 2010,
         "year_from": "musicbrainz"
@@ -22474,7 +22502,8 @@
           "Rock"
         ],
         "discogs_styles": [
-          "Experimental"
+          "Experimental",
+          "Alternative Rock"
         ],
         "year": 2010,
         "year_from": "musicbrainz"
@@ -22663,8 +22692,7 @@
         "discogs_master_id": 2627855,
         "discogs_genres": [
           "Electronic",
-          "Pop",
-          "Folk, World, & Country"
+          "Pop"
         ],
         "discogs_styles": [
           "Alt-Pop",
@@ -22846,10 +22874,12 @@
         "discogs_id": 7958807,
         "discogs_master_id": 293486,
         "discogs_genres": [
+          "Pop",
           "Folk, World, & Country"
         ],
         "discogs_styles": [
-          "Folk"
+          "Folk",
+          "Soft Rock"
         ],
         "year": 2010,
         "year_from": "musicbrainz"
@@ -22982,7 +23012,6 @@
         "discogs_id": 3104699,
         "discogs_master_id": 295500,
         "discogs_genres": [
-          "Pop",
           "Brass & Military"
         ],
         "discogs_styles": [
@@ -33061,11 +33090,7 @@
           "Electronic"
         ],
         "discogs_styles": [
-          "Progressive House",
-          "Drum n Bass",
-          "Techno",
-          "Dubstep",
-          "Downtempo"
+          "Techno"
         ],
         "year": 2010,
         "year_from": "musicbrainz"
@@ -33245,9 +33270,11 @@
         "discogs_id": 24026240,
         "discogs_master_id": 718203,
         "discogs_genres": [
-          "Pop"
+          "Electronic"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Electro"
+        ],
         "year": 2010,
         "year_from": "musicbrainz"
       },
@@ -33315,11 +33342,9 @@
         "discogs_id": 2362132,
         "discogs_master_id": 276499,
         "discogs_genres": [
-          "Electronic",
-          "Rock"
+          "Electronic"
         ],
         "discogs_styles": [
-          "New Wave",
           "Electro",
           "Synth-pop",
           "Minimal",
@@ -33362,9 +33387,7 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [
-          "Alternative Rock",
-          "Blues Rock",
-          "Folk Rock"
+          "Indie Rock"
         ],
         "year": 2010,
         "year_from": "musicbrainz"
@@ -34238,10 +34261,11 @@
         "discogs_id": 2537036,
         "discogs_master_id": 415640,
         "discogs_genres": [
-          "Rock",
-          "Classical"
+          "Rock"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Alternative Rock"
+        ],
         "year": 2010,
         "year_from": "musicbrainz"
       },
@@ -34327,9 +34351,12 @@
         "discogs_id": 3256470,
         "discogs_master_id": 400145,
         "discogs_genres": [
-          "Rock"
+          "Funk / Soul"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Rhythm & Blues",
+          "Soul"
+        ],
         "year": 2010,
         "year_from": "musicbrainz"
       },
@@ -34349,8 +34376,8 @@
         "discogs_master_id": 590277,
         "discogs_genres": [
           "Electronic",
-          "Rock",
-          "Pop"
+          "Pop",
+          "Rock"
         ],
         "discogs_styles": [
           "New Wave",
@@ -34522,11 +34549,11 @@
         "discogs_master_id": 460658,
         "discogs_genres": [
           "Rock",
-          "Stage & Screen"
+          "Pop"
         ],
         "discogs_styles": [
           "Garage Rock",
-          "Beat"
+          "Rock & Roll"
         ],
         "year": 2010,
         "year_from": "musicbrainz"
@@ -34698,8 +34725,8 @@
           "Folk, World, & Country"
         ],
         "discogs_styles": [
-          "Grime",
           "Dubstep",
+          "Grime",
           "Electro"
         ],
         "year": 2009,
@@ -34745,10 +34772,17 @@
         "discogs_id": 3019139,
         "discogs_master_id": 406822,
         "discogs_genres": [
+          "Electronic",
           "Rock",
           "Reggae"
         ],
-        "discogs_styles": [],
+        "discogs_styles": [
+          "Folk Rock",
+          "Post-Punk",
+          "Dub",
+          "Post Rock",
+          "Emo"
+        ],
         "year": 2009,
         "year_from": "musicbrainz"
       }
@@ -34934,9 +34968,11 @@
         "discogs_id": 2304560,
         "discogs_master_id": 252234,
         "discogs_genres": [
+          "Electronic",
           "Rock"
         ],
         "discogs_styles": [
+          "Krautrock",
           "Indie Rock"
         ],
         "year": 2010,
@@ -35110,13 +35146,10 @@
         "discogs_id": 2356646,
         "discogs_master_id": 194186,
         "discogs_genres": [
-          "Electronic",
-          "Rock",
-          "Stage & Screen"
+          "Rock"
         ],
         "discogs_styles": [
-          "Alternative Rock",
-          "Soundtrack"
+          "Alternative Rock"
         ],
         "year": 2009,
         "year_from": "musicbrainz"
@@ -35136,13 +35169,10 @@
         "discogs_id": 2356646,
         "discogs_master_id": 194186,
         "discogs_genres": [
-          "Electronic",
-          "Rock",
-          "Stage & Screen"
+          "Rock"
         ],
         "discogs_styles": [
-          "Alternative Rock",
-          "Soundtrack"
+          "Alternative Rock"
         ],
         "year": 2009,
         "year_from": "musicbrainz"
@@ -220444,12 +220474,10 @@
         "discogs_id": 2460599,
         "discogs_master_id": 125643,
         "discogs_genres": [
-          "Electronic",
+          "Pop",
           "Rock"
         ],
-        "discogs_styles": [
-          "Indie Rock"
-        ],
+        "discogs_styles": [],
         "year": 2000,
         "year_from": "discogs"
       }
@@ -226097,11 +226125,10 @@
         "discogs_id": 914714,
         "discogs_master_id": 322073,
         "discogs_genres": [
-          "Funk / Soul"
+          "Rock"
         ],
         "discogs_styles": [
-          "Soul",
-          "Funk"
+          "Britpop"
         ],
         "year": 1999,
         "year_from": "musicbrainz"
@@ -261088,12 +261115,12 @@
         "discogs_master_id": 563557,
         "discogs_genres": [
           "Jazz",
-          "Latin"
+          "Rock"
         ],
         "discogs_styles": [
-          "Easy Listening",
-          "Latin Jazz",
-          "Space-Age"
+          "Lounge",
+          "Smooth Jazz",
+          "Pop Rock"
         ],
         "year": 1997,
         "year_from": "musicbrainz"
@@ -268141,12 +268168,10 @@
         "discogs_id": 7115325,
         "discogs_master_id": 1349067,
         "discogs_genres": [
-          "Jazz",
           "Pop"
         ],
         "discogs_styles": [
-          "Easy Listening",
-          "Vocal"
+          "Easy Listening"
         ],
         "year": 1965,
         "year_from": "owner"
