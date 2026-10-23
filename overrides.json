@@ -4317,9 +4317,8 @@
   {
     "artist": "kurt schwitters/jaap blonk",
     "track": "scherzo",
-    "year": 1993,
-    "year_from": "discogs",
-    "why": "Discogs release 1105841 (master 230597, «Ursonate», 1993) has the track; MusicBrainz's 2003 is a later release's (Discogs releases dump, matched by track)"
+    "year": 1986,
+    "why": "FM Достоевский #380: Basta's «Ursonate» CD (2004; discogs.com/release/1105841) has two Scherzos, the 1986 studio recording (track 3) and a 2003 live one (track 7); the playlist does not say which, and Apple Music's link is the 1986 one, first on the BVHaast LP «Ursonate» as «Dritter Teil» (BVHAAST 063, 1986; discogs.com/release/1940897, master 230597). Was 1993 from the releases dump, a year no edition has"
   },
   {
     "artist": "Fred Alpi",
@@ -6307,5 +6306,163 @@
     "year": 2026,
     "year_from": "discogs",
     "why": "Стереоплан #90 prints the album «LUM» as the artist: Hersi Matmuja & Jacopo Conoci, «LUM» (Maladisco ML004, Italy, 2026; discogs.com/release/37302225, track 4). Discogs' album search had matched a namesake's self-released «Lum» (Lum (4), US, 2016; discogs.com/release/10369473), which does not have it"
+  },
+  {
+    "artist": "Aleister Crowley",
+    "track": "The Call of the First Aethyr",
+    "year": 1986,
+    "why": "Стереоплан #16: his wax cylinders of c. 1910–1914, first issued on «The Hastings Archives / The World As Power» (Goetia GOETIA 666, UK, 1986; discogs.com/release/614583, master 255295), in both its Enochian and English takes; MusicBrainz's 1999 is «The Great Beast Speaks», a later CD"
+  },
+  {
+    "artist": "Charles Wilp / 1:0:1",
+    "track": "Mad. Ave Perfume",
+    "apple_id": null,
+    "mb_id": null,
+    "discogs_id": 56581,
+    "discogs_master_id": null,
+    "year": 2000,
+    "why": "FM Достоевский #186: I:O:L's remix (printed «1:0:1»; Inga Humpe and Tommi Eckart), track 3 of «Michelangelo In Space – The Bunny Remixes» (Ata Tak WR 75, 2000; discogs.com/release/56581, no master); the Apple Music, MusicBrainz and Discogs links were the 1966 original's, and MusicBrainz's 1999 a compilation's of it; Apple Music's search finds only the original"
+  },
+  {
+    "artist": "Combustible Edison & Esquivel!",
+    "track": "Miniskirt",
+    "apple_id": null,
+    "discogs_id": 379201,
+    "discogs_master_id": 563557,
+    "why": "FM Достоевский #70: Combustible Edison's 1997 recording of Esquivel's «Mini Skirt», Esquivel adding spoken commentary, track 1 of «Lounge-A-Palooza» (Hollywood HR-62072-2, 1997; discogs.com/release/379201, master 563557), so MusicBrainz's 1997 stands; the Apple Music and Discogs links were Esquivel's own 1968 recording («1968 Esquivel!!», discogs.com/release/2582456)"
+  },
+  {
+    "artist": "Houston Wells & The Marksmen",
+    "track": "North wind",
+    "year": 1962,
+    "why": "Музыка на Свободе #77: B-side of «Shutters And Boards» (Parlophone 45-R 4980, UK, December 1962; discogs.com/release/1465888, master 1721296); MusicBrainz's 1995 is a compilation's"
+  },
+  {
+    "artist": "Paul Piot & Paul Guiot",
+    "track": "Amour, Vacances & Baroque",
+    "year": 1968,
+    "why": "FM Достоевский #270: track A2 of the library record «Dance And Mood Music Volume 4» by Paul Piot et son orchestre (Chappell DMM 304, France, 1968; discogs.com/release/3396666, master 408414); MusicBrainz's 1996 is a compilation's, as is the playlist's «Barry 7's Connectors»"
+  },
+  {
+    "artist": "Screaming Lord Sutch",
+    "track": "Till the following night",
+    "year": 1961,
+    "why": "«Песни и пляски» #31: his first single, «'Til The Following Night» / «Good Golly Miss Molly» (HMV POP 953, UK, 1961; discogs.com/release/15474393, master 670267); MusicBrainz's 1991 is EMI's compilation's"
+  },
+  {
+    "artist": "Screaming Lord Sutch & The Savages",
+    "track": "Till the Following Night",
+    "year": 1961,
+    "why": "Музыка на Свободе #77: his first single, «'Til The Following Night» / «Good Golly Miss Molly» (HMV POP 953, UK, 1961; discogs.com/release/15474393, master 670267); MusicBrainz's 1991 is EMI's compilation's"
+  },
+  {
+    "artist": "Screaming Lord Sutch & The Savages",
+    "track": "’Till the Following Night",
+    "year": 1961,
+    "why": "Стереоплан #83: his first single, «'Til The Following Night» / «Good Golly Miss Molly» (HMV POP 953, UK, 1961; discogs.com/release/15474393, master 670267); MusicBrainz's 1991 is EMI's compilation's"
+  },
+  {
+    "artist": "Steve King & The Echelons",
+    "track": "Satan Is Her Name",
+    "year": 1962,
+    "why": "Музыка на Свободе #186: B-side of «Long Lonely Road» (Mercury 72061, US, 1962; discogs.com/release/8530301, master 1009600); MusicBrainz's 1995 is a compilation's"
+  },
+  {
+    "artist": "The Barry Sisters",
+    "track": "zug es meir noch amool",
+    "year": 1959,
+    "why": "FM Достоевский #803: track A5 («Yuges Mir Noch Amool», «Zuges…» on the jacket) of «At Home With The Barry Sisters» (Roulette R-25060, US, 1959; discogs.com/release/3004170, master 524615); «Their Greatest Yiddish Hits», MusicBrainz's 1994, opens with that LP's twelve tracks in its order, this one 2:07 there and 2:08 on the playlist's «Kosher Nostra»"
+  },
+  {
+    "artist": "The Johnny Mann Singers",
+    "track": "Heart Full of Soul",
+    "discogs_id": 7115325,
+    "discogs_master_id": 1349067,
+    "year": 1965,
+    "why": "FM Достоевский #52: first on «Roses And Rainbows» (Liberty LST-7422, US; discogs.com/release/7115325, master 1349067, undated there), 1965: Liberty's LST-7419 to LST-7425 are all 1965 on Discogs, and the album's songs are 1965's hits. The Discogs link was «Heart Full Of Song» (Sunset SUS-5196, 1968), on Liberty's budget label; MusicBrainz's 1997 is Ultra-Lounge's"
+  },
+  {
+    "artist": "The Residents",
+    "track": "This is a Man's Man's Man's World",
+    "year": 1984,
+    "why": "Музыка на Свободе #73: «The White Single» (Ralph RZ 8422, US, 20 April 1984; discogs.com/release/101783, master 341440), as for Стереоплан #48; MusicBrainz's 1995 is a compilation's"
+  },
+  {
+    "artist": "Zwischenfall",
+    "track": "flucht '84",
+    "discogs_id": 241737,
+    "year": 1984,
+    "why": "FM Достоевский #743: «Flucht», the B-side of «Sandy Eyes» (Les Disques Du Crépuscule TWI 460, Belgium, 1984; discogs.com/release/241737, master 15007), «Flucht '84 (English Version)» on «Gestern Und Heute» (1995), whose notes say so; MusicBrainz's 1995 is that compilation's; the Discogs link was the 2016 digital reissue (discogs.com/release/8964382)"
+  },
+  {
+    "artist": "artur nunes vs mario caldato jr",
+    "track": "tia",
+    "mb_id": "fbb67d7b-0b48-412d-b504-eb409bdd47aa",
+    "discogs_id": 4013537,
+    "discogs_master_id": null,
+    "year": 2009,
+    "why": "FM Достоевский #669: Mario Caldato Jr.'s remix, «Tia (Rx Mario Caldato Jr)» on «Comfusões 1 – From Angola To Brasil» (Out Here OH 012, 2009; discogs.com/release/4013537, no master); the MusicBrainz and Discogs links, and MusicBrainz's 1999, were Artur Nunes's original («Mana / Tia», Rebita, Angola, 1974)"
+  },
+  {
+    "artist": "The Frank & Walters",
+    "track": "Woman",
+    "discogs_id": 914714,
+    "discogs_master_id": 322073,
+    "why": "FM Достоевский #175: track 3 of «Beauty Becomes More Than Life» (Setanta SETCD065, 1999; discogs.com/release/914714, master 322073); the Discogs link was «Woman» by The Walkers (2), 1979 (discogs.com/release/1526472, master 200623)"
+  },
+  {
+    "artist": "The Willowz",
+    "track": "shriek",
+    "year": 2005,
+    "why": "FM Достоевский #458: track 8 of «Talk In Circles» (Sympathy For The Record Industry SFTRI 753, 2005; discogs.com/release/2933967, master 348949); Apple Music dates the album 1994"
+  },
+  {
+    "artist": "The Defectors",
+    "track": "brought up as a dog",
+    "year": 2004,
+    "why": "FM Достоевский #392: track A1 of «Turn Me On» (Bad Afro AFROLP024, Denmark, 2004; discogs.com/release/2202660, master 489350); Apple Music dates the album 1996"
+  },
+  {
+    "artist": "Karen Mulder",
+    "track": "sors de moi",
+    "year": 2004,
+    "why": "FM Достоевский #391: her album «Karen Mulder» (Kmcom, France, 2004; discogs.com/release/6921766, master 1830152), and a promo single that year (discogs.com/release/15230009); Apple Music dates the album 1997"
+  },
+  {
+    "artist": "The Ipanemas",
+    "track": "certao",
+    "year": 2003,
+    "why": "FM Достоевский #332: «Sertão», track 2 of «Afro Bossa» (Far Out FARO 076CD, 2003; discogs.com/release/229514, master 271363), on no earlier record in Discogs; Apple Music dates the album 1995"
+  },
+  {
+    "artist": "Oswald Schneider",
+    "track": "Horečka",
+    "year": 2017,
+    "why": "Музыка на Свободе #111: track B4 of «Wald Schneid» (Polí5 EPP 119-1, Czech Republic, 2017; discogs.com/release/12788955, master 1679639), Apple Music's date for it now too; the 1997 was Apple Music's earlier answer"
+  },
+  {
+    "artist": "A Certain Ratio",
+    "track": "$ouls In the City",
+    "year": 2021,
+    "why": "Музыка на Свободе #264: in two parts on the EP «ACR:EPR» (Mute, 13 August 2021; discogs.com/release/19852453, master 2255743); Apple Music dates the EP 1990"
+  },
+  {
+    "artist": "Holly Golightly & The Brokeoffs",
+    "track": "indeed you do",
+    "year": 2007,
+    "why": "Stereo Voodoo #4: the duo's recording, first on «Nobody Will Be There» (2007; discogs.com/release/1555854, master 539563), MusicBrainz's year for it too; the 1997 was Holly Golightly's earlier recording on «Painted On», another recording (the aired recording's year, the owner's rule)"
+  },
+  {
+    "artist": "Flat Duo Jets",
+    "track": "mexicali baby",
+    "year": 2008,
+    "why": "FM Достоевский #626: track 16 of «Two Headed Cow» (Chicken Ranch CRR-1023, 2008; discogs.com/release/4456790, master 4087813), 3:00, another recording than the 1:49 one on «Introducing» (Norton ED-241, 1995; discogs.com/release/2112446); the 1993 was Apple Music's earlier answer (the aired recording's year, the owner's rule)"
+  },
+  {
+    "artist": "Electric Six",
+    "track": "gay bar",
+    "mb_id": "fdfe742a-cf4d-45a8-b094-855b5a94340a",
+    "year": 2003,
+    "why": "FM Достоевский #338: the «Fire» recording (XL, 2003; discogs.com/release/228121, master 32966), first released 2003-05-19 on MusicBrainz; the MusicBrainz link and its 1996 were The Wildbunch's earlier recording (a 1996 8-track, and a bonus on the 2025 deluxe «Fire»), another recording (the aired recording's year, the owner's rule)"
   }
 ]

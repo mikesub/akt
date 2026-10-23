@@ -2374,8 +2374,8 @@
           "Rock & Roll",
           "Horror Rock"
         ],
-        "year": 1991,
-        "year_from": "musicbrainz"
+        "year": 1961,
+        "year_from": "owner"
       },
       {
         "artist": "The Moontrekkers",
@@ -23181,8 +23181,8 @@
           "Spoken Word",
           "Occult"
         ],
-        "year": 1999,
-        "year_from": "musicbrainz"
+        "year": 1986,
+        "year_from": "owner"
       },
       {
         "artist": "Anton LaVey",

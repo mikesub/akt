@@ -6241,8 +6241,8 @@
         "discogs_styles": [
           "Vocal"
         ],
-        "year": 1994,
-        "year_from": "musicbrainz"
+        "year": 1959,
+        "year_from": "owner"
       }
     ]
   },
@@ -26274,7 +26274,7 @@
         "apple_album_id": null,
         "apple_artist_id": 6792452702,
         "mb_id": "ff1e583c-f0da-43e9-903a-ff8537f9b38b",
-        "discogs_id": 8964382,
+        "discogs_id": 241737,
         "discogs_master_id": 15007,
         "discogs_genres": [
           "Electronic"
@@ -26283,8 +26283,8 @@
           "Synth-pop",
           "Downtempo"
         ],
-        "year": 1995,
-        "year_from": "musicbrainz"
+        "year": 1984,
+        "year_from": "owner"
       },
       {
         "artist": "hanggai",
@@ -52668,18 +52668,11 @@
         "apple_id": 308337659,
         "apple_album_id": 308337634,
         "apple_artist_id": null,
-        "mb_id": "cd4e90f6-b78c-42b7-9e19-7239acf00202",
-        "discogs_id": 5188343,
-        "discogs_master_id": 3868657,
-        "discogs_genres": [
-          "Folk, World, & Country"
-        ],
-        "discogs_styles": [
-          "African",
-          "Rumba"
-        ],
-        "year": 1999,
-        "year_from": "musicbrainz"
+        "mb_id": "fbb67d7b-0b48-412d-b504-eb409bdd47aa",
+        "discogs_id": 4013537,
+        "discogs_master_id": null,
+        "year": 2009,
+        "year_from": "owner"
       },
       {
         "artist": "Lisa Papineau",
@@ -68898,8 +68891,8 @@
           "Rockabilly",
           "Garage Rock"
         ],
-        "year": 1993,
-        "year_from": "apple"
+        "year": 2008,
+        "year_from": "owner"
       },
       {
         "artist": "Triotresca",
@@ -132176,8 +132169,8 @@
         "discogs_styles": [
           "Alternative Rock"
         ],
-        "year": 1994,
-        "year_from": "apple"
+        "year": 2005,
+        "year_from": "owner"
       },
       {
         "artist": "abaji feat. djivan gasparyan",
@@ -156594,8 +156587,8 @@
         "discogs_styles": [
           "Garage Rock"
         ],
-        "year": 1996,
-        "year_from": "apple"
+        "year": 2004,
+        "year_from": "owner"
       },
       {
         "artist": "Simone Tassimot",
@@ -156881,8 +156874,8 @@
           "Pop"
         ],
         "discogs_styles": [],
-        "year": 1997,
-        "year_from": "apple"
+        "year": 2004,
+        "year_from": "owner"
       },
       {
         "artist": "Jonny Trunk",
@@ -160924,8 +160917,8 @@
         "discogs_styles": [
           "Sound Poetry"
         ],
-        "year": 1993,
-        "year_from": "discogs"
+        "year": 1986,
+        "year_from": "owner"
       },
       {
         "artist": "Aziza A.",
@@ -175407,7 +175400,7 @@
         "apple_id": 1028834757,
         "apple_album_id": 1028834736,
         "apple_artist_id": 3028468,
-        "mb_id": "78fb4ab9-87dc-427a-868a-347ec883cd00",
+        "mb_id": "fdfe742a-cf4d-45a8-b094-855b5a94340a",
         "discogs_id": 228121,
         "discogs_master_id": 32966,
         "discogs_genres": [
@@ -175418,8 +175411,8 @@
           "Alternative Rock",
           "Synth-pop"
         ],
-        "year": 1996,
-        "year_from": "musicbrainz"
+        "year": 2003,
+        "year_from": "owner"
       },
       {
         "artist": "Barbara Morgenstern",
@@ -177528,8 +177521,8 @@
           "Latin Jazz",
           "Samba"
         ],
-        "year": 1995,
-        "year_from": "apple"
+        "year": 2003,
+        "year_from": "owner"
       },
       {
         "artist": "Deadly Avenger",
@@ -197170,8 +197163,8 @@
           "Soul-Jazz",
           "Jazz-Funk"
         ],
-        "year": 1996,
-        "year_from": "musicbrainz"
+        "year": 1968,
+        "year_from": "owner"
       },
       {
         "artist": "Tav Falco & Panther Burns",
@@ -222753,22 +222746,12 @@
         "country": [
           "DE"
         ],
-        "apple_id": 1518090288,
-        "apple_album_id": null,
-        "apple_artist_id": null,
-        "mb_id": "a0f0e623-63eb-4ea1-b029-e70380304b53",
-        "discogs_id": 5729192,
-        "discogs_master_id": 150806,
-        "discogs_genres": [
-          "Jazz",
-          "Pop"
-        ],
-        "discogs_styles": [
-          "Space-Age",
-          "Easy Listening"
-        ],
-        "year": 1999,
-        "year_from": "musicbrainz"
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": 56581,
+        "discogs_master_id": null,
+        "year": 2000,
+        "year_from": "owner"
       },
       {
         "artist": "Carmen Gonzalez",
@@ -226111,8 +226094,8 @@
         "apple_album_id": 95527762,
         "apple_artist_id": 95526960,
         "mb_id": "1d2bc419-484c-4230-80a3-633924461f6a",
-        "discogs_id": 1526472,
-        "discogs_master_id": 200623,
+        "discogs_id": 914714,
+        "discogs_master_id": 322073,
         "discogs_genres": [
           "Funk / Soul"
         ],
@@ -261099,12 +261082,10 @@
         "country": [
           "US"
         ],
-        "apple_id": 298549700,
-        "apple_album_id": null,
-        "apple_artist_id": null,
+        "apple_id": null,
         "mb_id": "67b0e09f-c35f-49b1-a89d-72b7e4c5f939",
-        "discogs_id": 2582456,
-        "discogs_master_id": 291165,
+        "discogs_id": 379201,
+        "discogs_master_id": 563557,
         "discogs_genres": [
           "Jazz",
           "Latin"
@@ -268157,8 +268138,8 @@
         "apple_album_id": null,
         "apple_artist_id": 825144,
         "mb_id": "063132ae-f4f8-4ba0-8040-2e3681968ca0",
-        "discogs_id": 4874752,
-        "discogs_master_id": 1186832,
+        "discogs_id": 7115325,
+        "discogs_master_id": 1349067,
         "discogs_genres": [
           "Jazz",
           "Pop"
@@ -268167,8 +268148,8 @@
           "Easy Listening",
           "Vocal"
         ],
-        "year": 1997,
-        "year_from": "musicbrainz"
+        "year": 1965,
+        "year_from": "owner"
       },
       {
         "artist": "Elva Miller",
