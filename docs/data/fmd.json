@@ -33738,10 +33738,8 @@
           "US"
         ],
         "country_from": "archive",
-        "apple_id": 875163363,
-        "apple_album_id": null,
-        "apple_artist_id": null,
-        "mb_id": "181a2d40-5509-43fa-92b3-70fd03d02267",
+        "apple_id": 714572756,
+        "mb_id": "d10c9390-8161-4364-8534-1a1667d86246",
         "discogs_id": 1893267,
         "discogs_master_id": 365641,
         "discogs_genres": [
@@ -33754,8 +33752,8 @@
           "Psychedelic Rock",
           "Classic Rock"
         ],
-        "year": 1992,
-        "year_from": "musicbrainz"
+        "year": 1994,
+        "year_from": "owner"
       },
       {
         "artist": "Wovenhand",
@@ -176215,21 +176213,22 @@
         "apple_id": 931466550,
         "apple_album_id": null,
         "apple_artist_id": 120314457,
-        "mb_id": "fc30b350-cd98-4bac-816f-ac1d6609cc36",
-        "discogs_id": 1890055,
-        "discogs_master_id": 77399,
+        "mb_id": "711662cf-ad73-456f-941b-df8138bd625f",
+        "discogs_id": 2115628,
+        "discogs_master_id": 1061559,
         "discogs_genres": [
+          "Jazz",
           "Rock",
           "Blues"
         ],
         "discogs_styles": [
-          "Rhythm & Blues",
-          "Garage Rock",
-          "Psychedelic Rock",
-          "Blues Rock"
+          "Alternative Rock",
+          "Blues Rock",
+          "Jazz-Rock",
+          "Avantgarde"
         ],
-        "year": 1970,
-        "year_from": "musicbrainz"
+        "year": 2003,
+        "year_from": "owner"
       },
       {
         "artist": "Clearlake",
