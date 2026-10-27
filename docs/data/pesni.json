@@ -13705,8 +13705,8 @@
         "mb_id": "d1fbecbb-64d1-4f64-a40d-c2537bc4a306",
         "discogs_id": null,
         "discogs_master_id": null,
-        "year": 1991,
-        "year_from": "musicbrainz"
+        "year": 1962,
+        "year_from": "owner"
       },
       {
         "artist": "The Eagles",

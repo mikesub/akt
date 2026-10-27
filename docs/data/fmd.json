@@ -10452,10 +10452,18 @@
         "apple_album_id": 619833209,
         "apple_artist_id": 419534302,
         "mb_id": "2b3d9ad7-d248-4266-8f1a-02b3c3132d37",
-        "discogs_id": 3395180,
-        "discogs_master_id": null,
-        "year": 1992,
-        "year_from": "musicbrainz"
+        "discogs_id": 3533385,
+        "discogs_master_id": 436039,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Garage Rock",
+          "Blues Rock",
+          "Rock & Roll"
+        ],
+        "year": 2011,
+        "year_from": "owner"
       },
       {
         "artist": "apparat feat. soap and skin",
@@ -144060,8 +144068,8 @@
           "Art Rock",
           "Avantgarde"
         ],
-        "year": 1999,
-        "year_from": "musicbrainz"
+        "year": 2004,
+        "year_from": "owner"
       },
       {
         "artist": "Marissa Nadler",
@@ -164733,8 +164741,8 @@
         "mb_id": null,
         "discogs_id": 1229866,
         "discogs_master_id": null,
-        "year": 1992,
-        "year_from": "apple"
+        "year": 2003,
+        "year_from": "owner"
       },
       {
         "artist": "djeour cissokho&allalake",
@@ -173965,8 +173973,8 @@
         "mb_id": "fbce3566-d775-4b2a-81d6-d53c113ec7e2",
         "discogs_id": 5961106,
         "discogs_master_id": null,
-        "year": 1998,
-        "year_from": "musicbrainz"
+        "year": 2003,
+        "year_from": "owner"
       },
       {
         "artist": "Daniel Hélin",
@@ -206910,9 +206918,7 @@
         "country": [
           "AT"
         ],
-        "apple_id": 1483162617,
-        "apple_album_id": null,
-        "apple_artist_id": 184932871,
+        "apple_id": null,
         "mb_id": "cd8ffecf-885f-45d2-a3e2-0ae9887f5928",
         "discogs_id": 205738,
         "discogs_master_id": 243269,
@@ -238845,8 +238851,8 @@
         "mb_id": null,
         "discogs_id": null,
         "discogs_master_id": null,
-        "year": 1998,
-        "year_from": "apple"
+        "year": 1997,
+        "year_from": "owner"
       },
       {
         "artist": "Запрещённые Барабанщики",
@@ -248558,9 +248564,7 @@
         "country": [
           "ZA"
         ],
-        "apple_id": 1699016726,
-        "apple_album_id": null,
-        "apple_artist_id": null,
+        "apple_id": 203734641,
         "mb_id": "b5477bc3-acca-4621-a283-c2776a5cb5f6",
         "discogs_id": null,
         "discogs_master_id": null,
@@ -250793,8 +250797,8 @@
           "Soft Rock",
           "Indie Rock"
         ],
-        "year": 1999,
-        "year_from": "musicbrainz"
+        "year": 1998,
+        "year_from": "owner"
       },
       {
         "artist": "RTV Orchestra Of Bosnia",
@@ -286297,10 +286301,11 @@
         "country": [
           "DE"
         ],
-        "apple_id": null,
+        "apple_id": 1339653357,
         "mb_id": null,
         "discogs_id": null,
-        "year": null
+        "year": 1969,
+        "year_from": "owner"
       },
       {
         "artist": "Vampiros Lesbos",
