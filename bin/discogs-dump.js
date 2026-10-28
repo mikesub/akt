@@ -56,7 +56,7 @@ it goes to --review instead. Two Discogs artists of the same name behind the mat
 the archive's masters already name), and titles too short or generic ("Intro"), are left unmatched.
 
 Options:
-  --masters <file>   The masters dump (default: ../discogs_<date>_masters.xml.gz, the newest)
+  --masters <file>   The masters dump (default: ../discogs/discogs_<date>_masters.xml.gz, the newest)
   --artists <file>   The artists dump, for name variations and aliases (default: the newest beside it;
                      --artists none to leave it out)
   --report <file>    Write the report there (default: stdout)
@@ -90,13 +90,13 @@ try {
     process.stdout.write(USAGE);
     process.exit(0);
   }
-  const newest = (kind) => newestDump(join(ROOT, '..'), kind);
+  const newest = (kind) => newestDump(join(ROOT, '..', 'discogs'), kind);
   const masters = values.masters ?? newest('masters');
-  if (!masters || !existsSync(masters)) throw new Error('no masters dump: download discogs_<date>_masters.xml.gz from data.discogs.com next to the repo, or name it with --masters');
+  if (!masters || !existsSync(masters)) throw new Error('no masters dump: download discogs_<date>_masters.xml.gz from data.discogs.com into ../discogs/, or name it with --masters');
   const artists = values.artists === 'none' ? null : (values.artists ?? newest('artists'));
   if (artists && !existsSync(artists)) throw new Error(`no artists dump at ${artists}`);
   opts = { masters, artists, report: values.report ?? null, write: values.write ?? false, genres: (values.genres || values.write) ?? false, review: values.review ?? null, years: values.years ?? false, releases: values.releases ? newest('releases') : null, matches: values.matches ?? null };
-  if (values.releases && !opts.releases) throw new Error('no releases dump: download discogs_<date>_releases.xml.gz from data.discogs.com next to the repo');
+  if (values.releases && !opts.releases) throw new Error('no releases dump: download discogs_<date>_releases.xml.gz from data.discogs.com into ../discogs/');
 } catch (err) {
   process.stderr.write(`${err.message}\n\n${USAGE}`);
   process.exit(2);

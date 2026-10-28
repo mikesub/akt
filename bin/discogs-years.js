@@ -15,12 +15,12 @@ const USAGE = `Usage: discogs-years [<program>…] [options]
 List the tracks whose Discogs master (discogs_master_id) is older than their year: a master's year
 is its first edition's, so these are years that may be a reissue's or a remaster's. For the owner
 to review; writes nothing to the data. The masters' years come from Discogs' masters dump (the newest
-discogs_<date>_masters.xml.gz beside the repo), else one API request a master, at most ${API_MAX}
+discogs_<date>_masters.xml.gz in ../discogs/), else one API request a master, at most ${API_MAX}
 a run; both cached in .cache/discogs-masters.json, so a rerun asks only masters not seen before.
 Every program by default; biggest gap first.
 
 Options:
-  --masters <file>   The masters dump (default: the newest beside the repo; none: the API only)
+  --masters <file>   The masters dump (default: the newest in ../discogs/; none: the API only)
   -h, --help         Show this help
 `;
 
@@ -33,7 +33,7 @@ try {
     process.exit(0);
   }
   ids = positionals.length > 0 ? positionals : [...programs(), 'stereoplan'];
-  dump = values.masters === 'none' ? null : (values.masters ?? newestDump(join(ROOT, '..'), 'masters'));
+  dump = values.masters === 'none' ? null : (values.masters ?? newestDump(join(ROOT, '..', 'discogs'), 'masters'));
   if (dump && !existsSync(dump)) throw new Error(`no masters dump at ${dump}`);
 } catch (err) {
   process.stderr.write(`${err.message}\n\n${USAGE}`);
@@ -69,7 +69,7 @@ if (dump && masters.length > 0) {
 }
 console.log(`${rows.length} tracks with a master, ${masters.length} masters to ask Discogs about`);
 if (masters.length > API_MAX) {
-  console.log(`more than ${API_MAX}: asking none; download Discogs' masters dump beside the repo (data.discogs.com)`);
+  console.log(`more than ${API_MAX}: asking none; download Discogs' masters dump into ../discogs/ (data.discogs.com)`);
   masters = [];
 }
 let asked = 0;
