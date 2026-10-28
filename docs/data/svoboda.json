@@ -14612,6 +14612,7 @@
         "apple_id": 1649532423,
         "apple_album_id": null,
         "apple_artist_id": 1513219851,
+        "mb_id": null,
         "year": 2022,
         "year_from": "owner"
       },
@@ -33004,6 +33005,8 @@
         "country": [
           "EE"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "year": 2022,
         "year_from": "owner"
       },
@@ -33318,6 +33321,7 @@
         "apple_id": 1530621147,
         "apple_album_id": 1530621136,
         "apple_artist_id": 1001524565,
+        "mb_id": null,
         "year": 2020,
         "year_from": "apple"
       },
@@ -33604,6 +33608,7 @@
         "apple_id": 1581848127,
         "apple_album_id": 1581848118,
         "apple_artist_id": 1332333725,
+        "mb_id": null,
         "discogs_id": 20163805,
         "discogs_master_id": 2579543,
         "discogs_genres": [
@@ -36271,6 +36276,7 @@
         "apple_id": 1514036844,
         "apple_album_id": 1514036605,
         "apple_artist_id": 1514036610,
+        "mb_id": null,
         "discogs_id": 15468648,
         "discogs_master_id": null,
         "year": 2020,
@@ -38676,6 +38682,7 @@
         "apple_id": 1673188581,
         "apple_album_id": 1673188577,
         "apple_artist_id": 1332962180,
+        "mb_id": null,
         "discogs_id": 23964266,
         "discogs_master_id": null,
         "year": 2018,
@@ -39659,6 +39666,7 @@
         "apple_id": 1619143308,
         "apple_album_id": null,
         "apple_artist_id": null,
+        "mb_id": null,
         "discogs_id": 29744782,
         "discogs_master_id": null,
         "year": 2022,
@@ -39974,6 +39982,8 @@
         "country": [
           "UA"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "year": 2022,
         "year_from": "owner"
       },
@@ -46352,6 +46362,7 @@
         "apple_id": 1058047750,
         "apple_album_id": null,
         "apple_artist_id": 32404339,
+        "mb_id": null,
         "discogs_id": 1431194,
         "discogs_master_id": 201679,
         "discogs_genres": [
@@ -47541,6 +47552,8 @@
         "country": [
           "CA"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 15170256,
         "discogs_master_id": 1724503,
         "discogs_genres": [
@@ -65227,6 +65240,8 @@
         "country": [
           "GB"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 2152600,
         "discogs_master_id": 235246,
         "discogs_genres": [
@@ -65248,6 +65263,8 @@
         "country": [
           "GB"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 16046576,
         "discogs_master_id": 890698,
         "discogs_genres": [
@@ -66208,6 +66225,7 @@
         "apple_id": 1429113969,
         "apple_album_id": 1429113941,
         "apple_artist_id": 1342808978,
+        "mb_id": null,
         "discogs_id": 12718718,
         "discogs_master_id": 1466603,
         "discogs_genres": [
@@ -69320,6 +69338,8 @@
         "country": [
           "BY"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "year": 2015,
         "year_from": "owner"
       },
@@ -71725,6 +71745,7 @@
         "apple_id": 1436171728,
         "apple_album_id": 1436171520,
         "apple_artist_id": 320679933,
+        "mb_id": null,
         "discogs_id": 13470255,
         "discogs_master_id": null,
         "year": 2018,
@@ -75577,6 +75598,9 @@
         "country": [
           "GB"
         ],
+        "apple_id": 1658809526,
+        "apple_album_id": null,
+        "apple_artist_id": 84326,
         "mb_id": "9eb3d619-ffcb-40e3-b92a-fe6e0fb36f3a",
         "discogs_id": 166627,
         "discogs_master_id": 237233,
@@ -81973,6 +81997,7 @@
         "apple_id": 1410831126,
         "apple_album_id": 1410830813,
         "apple_artist_id": null,
+        "mb_id": null,
         "discogs_id": 14278139,
         "discogs_master_id": null,
         "year": 2009,
@@ -105102,6 +105127,8 @@
           "PL",
           "UA"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 9171100,
         "discogs_master_id": 1293194,
         "discogs_genres": [
@@ -106951,6 +106978,10 @@
         "country": [
           "UA"
         ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": null
       },
       {
@@ -107903,6 +107934,7 @@
         "country": [
           "AU"
         ],
+        "apple_id": null,
         "mb_id": "d77a2602-e049-4e7f-b622-54acfafb0cfa",
         "discogs_id": 7335365,
         "discogs_master_id": 1401836,
@@ -107927,6 +107959,7 @@
         "country": [
           "AU"
         ],
+        "apple_id": null,
         "mb_id": "fa429af5-d8c0-4c6c-b7cf-4b23a3732d1e",
         "discogs_id": 7335365,
         "discogs_master_id": 1401836,
@@ -109902,6 +109935,10 @@
           "US",
           "SU"
         ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": null
       },
       {
@@ -109983,6 +110020,8 @@
         "country": [
           "UA"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "year": 2022,
         "year_from": "owner"
       },
@@ -109994,6 +110033,8 @@
         "country": [
           "UA"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "year": 2022,
         "year_from": "owner"
       },
@@ -110094,6 +110135,8 @@
         "country": [
           "UA"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "year": 2022,
         "year_from": "owner"
       },
@@ -110904,6 +110947,10 @@
         "country": [
           "UA"
         ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": null
       },
       {
@@ -110914,6 +110961,10 @@
         "country": [
           "UA"
         ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": null
       },
       {
@@ -110924,6 +110975,8 @@
         "country": [
           "UA"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "year": 2018,
         "year_from": "owner"
       },
@@ -110935,6 +110988,7 @@
         "country": [
           "UA"
         ],
+        "apple_id": null,
         "mb_id": "d3869ea3-5693-46ce-b645-f2816ee26ce5",
         "discogs_id": 6649376,
         "discogs_master_id": 796979,
@@ -110974,6 +111028,7 @@
         "apple_id": 1614320673,
         "apple_album_id": null,
         "apple_artist_id": 989965127,
+        "mb_id": null,
         "year": 2022,
         "year_from": "apple"
       },
@@ -111047,6 +111102,10 @@
         "country": [
           "UA"
         ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": null
       },
       {
@@ -111061,6 +111120,7 @@
         "apple_id": 1622177553,
         "apple_album_id": null,
         "apple_artist_id": 1040180885,
+        "mb_id": null,
         "year": 2022,
         "year_from": "apple"
       },
@@ -111075,6 +111135,7 @@
         "apple_id": 1679657595,
         "apple_album_id": null,
         "apple_artist_id": 953419108,
+        "mb_id": null,
         "year": 2015,
         "year_from": "apple"
       },
@@ -111105,6 +111166,8 @@
         "country": [
           "UA"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 35022569,
         "discogs_master_id": null,
         "year": 2021,
@@ -111119,6 +111182,8 @@
           "BY",
           "UA"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 4658614,
         "discogs_master_id": 593968,
         "discogs_genres": [

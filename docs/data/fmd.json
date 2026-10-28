@@ -19142,6 +19142,7 @@
         "apple_id": 1201130871,
         "apple_album_id": 1201130806,
         "apple_artist_id": 592739925,
+        "mb_id": null,
         "discogs_id": 4670470,
         "discogs_master_id": null,
         "year": 2008,
@@ -33744,6 +33745,8 @@
         ],
         "country_from": "archive",
         "apple_id": 714572756,
+        "apple_album_id": null,
+        "apple_artist_id": null,
         "mb_id": "d10c9390-8161-4364-8534-1a1667d86246",
         "discogs_id": 1893267,
         "discogs_master_id": 365641,
@@ -63730,6 +63733,10 @@
         "country": [
           "GB"
         ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": null
       },
       {
@@ -107598,8 +107605,9 @@
         "apple_id": 156840010,
         "apple_album_id": 156839921,
         "apple_artist_id": 81311207,
+        "mb_id": "422a9bc8-571c-4b57-8f64-88a645869987",
         "year": 2005,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Motion Trio",
@@ -119779,6 +119787,8 @@
         "country": [
           "BY"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 8379451,
         "discogs_master_id": null,
         "year": 2004,
@@ -126987,6 +126997,8 @@
           "AU"
         ],
         "apple_id": 414317813,
+        "apple_album_id": null,
+        "apple_artist_id": 72834144,
         "mb_id": "b6c36030-4362-4559-9982-6f9bf686e581",
         "discogs_id": 700353,
         "discogs_master_id": 21084,
@@ -139751,6 +139763,10 @@
         "country": [
           "GB"
         ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": null
       }
     ]
@@ -148326,6 +148342,8 @@
           "X-TIBET",
           "US"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 435778,
         "discogs_master_id": 2623949,
         "discogs_genres": [
@@ -157871,8 +157889,9 @@
         "apple_id": 81311203,
         "apple_album_id": 81311270,
         "apple_artist_id": 81311207,
-        "year": 1999,
-        "year_from": "apple"
+        "mb_id": "1e9f637b-2e52-4449-b39c-6d0490d5bf8d",
+        "year": 2003,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Ale Möller Band",
@@ -161539,6 +161558,7 @@
         "apple_id": 987871943,
         "apple_album_id": null,
         "apple_artist_id": 157448204,
+        "mb_id": null,
         "year": 1999,
         "year_from": "apple"
       },
@@ -183125,8 +183145,9 @@
         "apple_id": 886544380,
         "apple_album_id": 886544357,
         "apple_artist_id": 15146411,
-        "year": 1998,
-        "year_from": "apple"
+        "mb_id": "59f983e8-3f6b-4b5c-879d-c36a3e5c0136",
+        "year": 2002,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Kim Hiorthoy",
@@ -184472,6 +184493,9 @@
         "apple_id": 3026824,
         "apple_album_id": 3026832,
         "apple_artist_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": null
       },
       {
@@ -194177,6 +194201,8 @@
           "ES"
         ],
         "apple_id": 48516171,
+        "apple_album_id": 48517136,
+        "apple_artist_id": null,
         "mb_id": "86e71f50-0923-437d-a230-adf22c752828",
         "discogs_id": 2256483,
         "discogs_master_id": 28073,
@@ -196835,8 +196861,9 @@
         "apple_id": 1095855653,
         "apple_album_id": null,
         "apple_artist_id": 152716683,
+        "mb_id": "b4b455a6-671c-4e05-b96c-9282482ddc48",
         "year": 1999,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sepiatone",
@@ -210659,6 +210686,7 @@
         "apple_id": 292630452,
         "apple_album_id": 292630342,
         "apple_artist_id": 182947073,
+        "mb_id": "68439356-80e9-4d4d-938b-12c835c741aa",
         "discogs_id": 15121321,
         "discogs_master_id": 2121961,
         "discogs_genres": [
@@ -210666,7 +210694,7 @@
         ],
         "discogs_styles": [],
         "year": 1999,
-        "year_from": "discogs"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Soul Captain Band",
@@ -216726,6 +216754,8 @@
           "GB"
         ],
         "apple_id": 3027199,
+        "apple_album_id": null,
+        "apple_artist_id": 3027184,
         "mb_id": "b507bed6-5cf1-4271-8c1a-7a3a5dda3e96",
         "discogs_id": 1576525,
         "discogs_master_id": 181533,
@@ -220562,6 +220592,7 @@
         "country": [
           "BE"
         ],
+        "apple_id": null,
         "mb_id": "113142c6-dec8-4a9f-a9b3-872d1ba4176c",
         "discogs_id": 481901,
         "discogs_master_id": null,
@@ -224173,6 +224204,7 @@
         "apple_id": 1382315270,
         "apple_album_id": 1382314860,
         "apple_artist_id": 1122068306,
+        "mb_id": null,
         "discogs_id": 27639948,
         "discogs_master_id": null,
         "year": 1998,
@@ -226134,8 +226166,9 @@
         "apple_id": 301677977,
         "apple_album_id": null,
         "apple_artist_id": 61658841,
+        "mb_id": "90812c29-2aaa-485c-9810-e8ed58404aa7",
         "year": 1998,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Wafir & La Banda Negra",
@@ -226782,6 +226815,8 @@
           "GB"
         ],
         "apple_id": 6814911500,
+        "apple_album_id": null,
+        "apple_artist_id": null,
         "mb_id": "99ef04b3-943f-44bc-a162-1b4e65530217",
         "discogs_id": 9145,
         "discogs_master_id": 123417,
@@ -227385,10 +227420,11 @@
         "apple_id": 61187319,
         "apple_album_id": 61187508,
         "apple_artist_id": 1635929393,
+        "mb_id": "3c13ddfe-f34d-4c40-821a-b77cf5e8c7e1",
         "discogs_id": 24200207,
         "discogs_master_id": null,
-        "year": 1999,
-        "year_from": "discogs"
+        "year": 2000,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Nino Fidenco",
@@ -229611,6 +229647,8 @@
           "BR"
         ],
         "apple_id": 957595811,
+        "apple_album_id": null,
+        "apple_artist_id": 314121,
         "mb_id": "79d269cf-cbcc-4242-bdff-bf17b14bd314",
         "discogs_id": 2497487,
         "discogs_master_id": 282041,
@@ -230406,6 +230444,8 @@
           "MX"
         ],
         "apple_id": 397724883,
+        "apple_album_id": null,
+        "apple_artist_id": 267781297,
         "mb_id": "137fb6e3-df99-46d7-a697-9e15e4a8bf70",
         "discogs_id": 2614580,
         "discogs_master_id": 350051,
@@ -231586,8 +231626,9 @@
         "apple_id": 1244228861,
         "apple_album_id": 1244228526,
         "apple_artist_id": 82882989,
-        "year": 1998,
-        "year_from": "apple"
+        "mb_id": "41d76860-da9d-4fae-b22a-d2c005152da2",
+        "year": 1999,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Richie Hawtin with Rhythm & Sound",
@@ -232624,8 +232665,9 @@
         "apple_id": 596454913,
         "apple_album_id": 596454365,
         "apple_artist_id": 151345633,
+        "mb_id": "f2f93b4e-e245-4a59-8412-04a19e33be22",
         "year": 1998,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Mellow",
@@ -233199,8 +233241,9 @@
         "apple_id": 1244228861,
         "apple_album_id": 1244228526,
         "apple_artist_id": 82882989,
-        "year": 1998,
-        "year_from": "apple"
+        "mb_id": "41d76860-da9d-4fae-b22a-d2c005152da2",
+        "year": 1999,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Wisdom of Harry",
@@ -234339,8 +234382,9 @@
         "apple_id": 600757896,
         "apple_album_id": 600757685,
         "apple_artist_id": 1454693781,
+        "mb_id": "94eb0349-865b-4991-aa83-c3494dcd658d",
         "year": 1997,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Новые композиторы",
@@ -235805,6 +235849,7 @@
           "US"
         ],
         "apple_id": null,
+        "mb_id": "362b7284-536e-4308-8ae0-65f5d793cfa7",
         "year": 1999,
         "year_from": "owner"
       },
@@ -237764,8 +237809,9 @@
         "apple_id": 1741039265,
         "apple_album_id": 1741039263,
         "apple_artist_id": 39883158,
+        "mb_id": "67240386-0f5d-4592-ad63-e94797d0473d",
         "year": 1999,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Edgar de L'Est",
@@ -238315,8 +238361,9 @@
         "apple_id": 265510171,
         "apple_album_id": null,
         "apple_artist_id": 35981885,
-        "year": 1999,
-        "year_from": "apple"
+        "mb_id": "4ad6121c-8cff-41c3-8027-3779993ddf4b",
+        "year": 1998,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Neotropic",
@@ -238719,8 +238766,9 @@
         "apple_id": 1665108145,
         "apple_album_id": 1665107236,
         "apple_artist_id": 6311823,
+        "mb_id": "f8a3d97a-fa84-4cca-abc7-c64d2ae59620",
         "year": 1999,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dr. Rockit",
@@ -238824,8 +238872,9 @@
         "apple_id": 1534181971,
         "apple_album_id": 1534180771,
         "apple_artist_id": 118632912,
-        "year": 1999,
-        "year_from": "apple"
+        "mb_id": "c76a54b0-121b-4c51-a137-2d5def61b9ae",
+        "year": 1998,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Hood",
@@ -238884,8 +238933,9 @@
         "apple_id": 203026670,
         "apple_album_id": 203024033,
         "apple_artist_id": 6455213,
+        "mb_id": "43caa49d-104a-429f-9c6e-35a9af3c3737",
         "year": 1999,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Cat Power",
@@ -240425,6 +240475,8 @@
           "FI"
         ],
         "apple_id": 842598868,
+        "apple_album_id": null,
+        "apple_artist_id": 47362187,
         "mb_id": "42ea3ca8-0e44-48c4-b2ad-dcafdedf075a",
         "discogs_id": 2667421,
         "discogs_master_id": 303861,
@@ -246015,8 +246067,9 @@
         "apple_id": 323513081,
         "apple_album_id": 323513049,
         "apple_artist_id": 323406918,
+        "mb_id": "b6f25a69-bb96-4ca1-a0ca-de97f9470fa6",
         "year": 1998,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Maniacs Vs Shakriat",
@@ -246195,6 +246248,8 @@
           "GB"
         ],
         "apple_id": 1198995307,
+        "apple_album_id": null,
+        "apple_artist_id": 135964833,
         "mb_id": "47681e35-94ae-4c10-a4b4-bb123e9f2524",
         "discogs_id": 1722831,
         "discogs_master_id": null,
@@ -246386,6 +246441,8 @@
           "TT"
         ],
         "apple_id": 327205793,
+        "apple_album_id": 327205602,
+        "apple_artist_id": 327205641,
         "mb_id": "d8451329-28b7-4068-a1a2-0a3b4a1a9f95",
         "discogs_id": 7816673,
         "discogs_master_id": null,
@@ -247562,6 +247619,7 @@
         "country": [
           "UA"
         ],
+        "apple_id": null,
         "mb_id": "a00eeae0-a423-4657-8939-e2f8411aa7f3",
         "year": 1998,
         "year_from": "musicbrainz"
@@ -248189,6 +248247,7 @@
         "apple_id": 1507827877,
         "apple_album_id": 1507827424,
         "apple_artist_id": 19379976,
+        "mb_id": "4bc0b1ca-7966-49d0-b167-2adb4e6cb03f",
         "discogs_id": 2137,
         "discogs_master_id": 37441,
         "discogs_genres": [
@@ -248199,7 +248258,7 @@
           "Acid"
         ],
         "year": 1998,
-        "year_from": "discogs"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Paul K",
@@ -248353,6 +248412,7 @@
         "apple_id": 1442669126,
         "apple_album_id": null,
         "apple_artist_id": 5568913,
+        "mb_id": "923ff9bf-3729-4926-a414-81ef92ca9274",
         "discogs_id": 3312,
         "discogs_master_id": 34538,
         "discogs_genres": [
@@ -248362,7 +248422,7 @@
           "Leftfield"
         ],
         "year": 1998,
-        "year_from": "discogs"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Schneider TM / High Llamas",
@@ -248414,6 +248474,8 @@
           "ZA"
         ],
         "apple_id": 203734641,
+        "apple_album_id": null,
+        "apple_artist_id": 203734044,
         "mb_id": "b5477bc3-acca-4621-a283-c2776a5cb5f6",
         "discogs_id": null,
         "discogs_master_id": null,
@@ -250349,8 +250411,9 @@
         "apple_id": 1442924797,
         "apple_album_id": 1442924495,
         "apple_artist_id": 10690,
-        "year": 1996,
-        "year_from": "apple"
+        "mb_id": "2b92aaa5-6495-4846-b7f5-96c9f100f35c",
+        "year": 1959,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "John Fahey",
@@ -250363,6 +250426,7 @@
         "apple_id": 1442450275,
         "apple_album_id": 1442449475,
         "apple_artist_id": 10690,
+        "mb_id": null,
         "year": 1968,
         "year_from": "apple"
       },
@@ -250377,8 +250441,9 @@
         "apple_id": 1442462070,
         "apple_album_id": 1442461836,
         "apple_artist_id": 10690,
+        "mb_id": "c01fc3de-901b-4a52-bcbe-701062926c29",
         "year": 1971,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "John Fahey & Cul de Sac",
@@ -251067,8 +251132,9 @@
         "apple_id": 5508330,
         "apple_album_id": 5508366,
         "apple_artist_id": 5508321,
+        "mb_id": "7900667c-eb99-4663-a008-b6b24272836f",
         "year": 1997,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Joe Arroyo",
@@ -251340,8 +251406,9 @@
         "apple_id": 311277145,
         "apple_album_id": 311277091,
         "apple_artist_id": 32885261,
-        "year": 1997,
-        "year_from": "apple"
+        "mb_id": "9c859db6-0cbc-4b9a-823a-fc8ae8319557",
+        "year": 1998,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Diamanda Galás",
@@ -251532,6 +251599,7 @@
         "apple_id": 6766245611,
         "apple_album_id": null,
         "apple_artist_id": 172306433,
+        "mb_id": null,
         "year": 1998,
         "year_from": "apple"
       },
@@ -251546,8 +251614,9 @@
         "apple_id": 1383478723,
         "apple_album_id": 1383478428,
         "apple_artist_id": 649118,
+        "mb_id": "b54db3b3-4a5f-404e-b4aa-d96c3110935a",
         "year": 1998,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Cowboy Junkies",
@@ -252463,8 +252532,9 @@
         "apple_id": 1440903455,
         "apple_album_id": 1440903312,
         "apple_artist_id": 105412,
+        "mb_id": "58a27d50-7867-465a-86a9-a0511d496124",
         "year": 1998,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Erblast",
@@ -253060,8 +253130,9 @@
         "apple_id": 402638785,
         "apple_album_id": 402638777,
         "apple_artist_id": null,
-        "year": 1996,
-        "year_from": "apple"
+        "mb_id": "49a5c076-be87-4a28-9b39-5f427142a234",
+        "year": 1994,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Let's Go Bowling",
@@ -253309,8 +253380,9 @@
         "apple_id": 388154200,
         "apple_album_id": 388153718,
         "apple_artist_id": 111192,
+        "mb_id": "0f6f4522-50b4-4b51-9797-9ae125aa6c5b",
         "year": 1997,
-        "year_from": "apple"
+        "year_from": "owner"
       },
       {
         "artist": "Олег Чехов",
@@ -253862,6 +253934,7 @@
         "apple_id": 1514150533,
         "apple_album_id": 1514150528,
         "apple_artist_id": 1450149684,
+        "mb_id": null,
         "discogs_id": 4534502,
         "discogs_master_id": 2315500,
         "discogs_genres": [
@@ -253984,8 +254057,9 @@
         "apple_id": 1786078458,
         "apple_album_id": 1786078452,
         "apple_artist_id": 74863933,
-        "year": 1997,
-        "year_from": "apple"
+        "mb_id": "e55c296d-0165-477b-bfa1-39e812c53f7c",
+        "year": 1998,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Bjorn Svin",
@@ -254452,6 +254526,7 @@
         "apple_id": 384679158,
         "apple_album_id": null,
         "apple_artist_id": 2989250,
+        "mb_id": "de1415ae-2c69-49bd-96f6-5fcb899796c0",
         "discogs_id": 28522,
         "discogs_master_id": 64701,
         "discogs_genres": [
@@ -254464,7 +254539,7 @@
           "Indie Rock"
         ],
         "year": 1998,
-        "year_from": "discogs"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Best Of Suicide",
@@ -254770,6 +254845,7 @@
         "apple_id": 312360875,
         "apple_album_id": 312360873,
         "apple_artist_id": 81174016,
+        "mb_id": null,
         "year": 1997,
         "year_from": "apple"
       },
@@ -255133,8 +255209,9 @@
         "apple_id": 74445186,
         "apple_album_id": 74445215,
         "apple_artist_id": 23878415,
+        "mb_id": "bdbec318-e64a-4f78-95a1-a7783a6e4969",
         "year": 1997,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Sharon Isbin",
@@ -255289,6 +255366,7 @@
         "apple_id": 202961217,
         "apple_album_id": null,
         "apple_artist_id": 6455213,
+        "mb_id": null,
         "year": 1997,
         "year_from": "apple"
       },
@@ -255303,8 +255381,9 @@
         "apple_id": 202961210,
         "apple_album_id": null,
         "apple_artist_id": 6455213,
+        "mb_id": "f104d0ff-270e-4f5e-8a39-1257deb773cf",
         "year": 1997,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Elektrostar",
@@ -255429,8 +255508,9 @@
         "apple_id": 74445155,
         "apple_album_id": 74445215,
         "apple_artist_id": 23878415,
+        "mb_id": "f5100df6-de11-4197-9183-7977cdc6d20a",
         "year": 1997,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       }
     ]
   },
@@ -255996,8 +256076,9 @@
         "apple_id": 659069104,
         "apple_album_id": 659068843,
         "apple_artist_id": 1436141376,
+        "mb_id": "23cfc915-f29d-4d85-abc7-d52258482ea0",
         "year": 1998,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Magoo",
@@ -256254,8 +256335,9 @@
         "apple_id": 1653927767,
         "apple_album_id": 1653927591,
         "apple_artist_id": 79279917,
+        "mb_id": "cc059169-8226-4faf-9810-1318e4cd15fb",
         "year": 1997,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Piero Montanari",
@@ -259425,6 +259507,7 @@
         "apple_id": 603349357,
         "apple_album_id": 603349150,
         "apple_artist_id": 6759357,
+        "mb_id": "3f1c5a62-3618-48cb-9965-6afc23ec80c6",
         "discogs_id": 6758796,
         "discogs_master_id": 245950,
         "discogs_genres": [
@@ -259437,7 +259520,7 @@
           "Medieval"
         ],
         "year": 1993,
-        "year_from": "discogs"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Radio Tarifa",
@@ -261688,6 +261771,7 @@
         "apple_id": 1486994455,
         "apple_album_id": null,
         "apple_artist_id": 398246,
+        "mb_id": "ade1d250-d1a5-4d5e-b1ed-d14f9b3db7f3",
         "discogs_id": 4444802,
         "discogs_master_id": 592757,
         "discogs_genres": [
@@ -261697,7 +261781,7 @@
           "Fado"
         ],
         "year": 1996,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Barry Black",
@@ -262708,6 +262792,8 @@
         "country": [
           "GB"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "discogs_id": 5226562,
         "discogs_master_id": 649681,
         "discogs_genres": [
@@ -263043,6 +263129,9 @@
         "apple_id": 724773586,
         "apple_album_id": 724773565,
         "apple_artist_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": null
       },
       {
@@ -263116,6 +263205,10 @@
         "country": [
           "US"
         ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
         "year": null
       },
       {
@@ -263169,6 +263262,9 @@
           "FR"
         ],
         "apple_id": 254396507,
+        "apple_album_id": 254396501,
+        "apple_artist_id": 254027430,
+        "mb_id": "5b00333a-a54b-491a-bb62-1f3322f4fd80",
         "year": 1996,
         "year_from": "owner"
       },
@@ -263492,6 +263588,7 @@
         "apple_id": 1752491651,
         "apple_album_id": 1752491647,
         "apple_artist_id": 27457483,
+        "mb_id": null,
         "discogs_id": 860253,
         "discogs_master_id": 23386,
         "discogs_genres": [
@@ -264986,6 +265083,7 @@
           "DZ"
         ],
         "apple_id": null,
+        "mb_id": null,
         "year": 1996,
         "year_from": "apple"
       },
@@ -266837,6 +266935,9 @@
         "country": [
           "US"
         ],
+        "apple_id": 1333055775,
+        "apple_album_id": null,
+        "apple_artist_id": 53051,
         "mb_id": "83339223-f82c-4dda-8fa6-72771adb7d1e",
         "discogs_id": 389347,
         "discogs_master_id": 142840,
@@ -268991,6 +269092,7 @@
         "apple_id": 1191753912,
         "apple_album_id": 1191753743,
         "apple_artist_id": 741110886,
+        "mb_id": "ce7c21d2-199f-4a7e-8be9-af7845bbeaf9",
         "discogs_id": 15775,
         "discogs_master_id": 23402,
         "discogs_genres": [
@@ -269003,7 +269105,7 @@
           "Field Recording"
         ],
         "year": 1997,
-        "year_from": "discogs"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Meira Asher",
@@ -269173,6 +269275,7 @@
         "apple_id": 724923008,
         "apple_album_id": 724922213,
         "apple_artist_id": null,
+        "mb_id": "a2a7c04f-a0a5-4571-9127-58acdb01715c",
         "discogs_id": 51329,
         "discogs_master_id": 21183,
         "discogs_genres": [
@@ -269185,7 +269288,7 @@
           "Experimental"
         ],
         "year": 1997,
-        "year_from": "discogs"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Die Haut",
@@ -270587,6 +270690,8 @@
           "AU"
         ],
         "apple_id": 6806302931,
+        "apple_album_id": 6806302761,
+        "apple_artist_id": 83117527,
         "mb_id": "c6a65360-0947-44ff-b42d-42a0e4e604d4",
         "discogs_id": 7251534,
         "discogs_master_id": 1106151,
@@ -271653,8 +271758,9 @@
         "apple_id": 323407221,
         "apple_album_id": 323406759,
         "apple_artist_id": 323406918,
+        "mb_id": "9cd799dd-8ba5-4b0b-9cae-79897430f537",
         "year": 1997,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Harvest Ministers",
@@ -271911,6 +272017,8 @@
           "GB"
         ],
         "apple_id": 1436127754,
+        "apple_album_id": 1436127745,
+        "apple_artist_id": 1093405,
         "mb_id": "36f321a4-4fed-41f5-8cdc-e6fa22dd8fa3",
         "discogs_master_id": 72881,
         "discogs_genres": [
@@ -272312,8 +272420,9 @@
         "apple_id": 1256342354,
         "apple_album_id": null,
         "apple_artist_id": 14145809,
+        "mb_id": "b09fdd87-843f-428d-a4ea-3e3196ef7615",
         "year": 1996,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Le Tone",
@@ -273772,6 +273881,8 @@
           "BE"
         ],
         "apple_id": 1705968238,
+        "apple_album_id": null,
+        "apple_artist_id": 153572585,
         "mb_id": "cbd47158-b092-42be-b788-5f354cd9790c",
         "discogs_id": 1758627,
         "discogs_master_id": 140371,
@@ -277258,8 +277369,9 @@
         "apple_id": 898729796,
         "apple_album_id": 898729750,
         "apple_artist_id": 78711070,
+        "mb_id": "c9ba13c0-ecd6-4cee-b312-6300d359957a",
         "year": 1996,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Faust",
@@ -278261,8 +278373,9 @@
         "apple_id": 297921079,
         "apple_album_id": 297921031,
         "apple_artist_id": 175001962,
+        "mb_id": "ab2b99e8-f221-4e80-b214-c9b406a7920c",
         "year": 1996,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Morphine",
@@ -278446,6 +278559,7 @@
         "apple_id": 1458548825,
         "apple_album_id": 1458548318,
         "apple_artist_id": 3451030,
+        "mb_id": null,
         "discogs_id": 235264,
         "discogs_master_id": 6766,
         "discogs_genres": [
@@ -278584,6 +278698,7 @@
         "apple_id": 911508646,
         "apple_album_id": 911508208,
         "apple_artist_id": 5580746,
+        "mb_id": "6bc0a4a2-1bc5-48c3-a4dc-5a3a1edad7f6",
         "discogs_id": 329797,
         "discogs_master_id": 8895,
         "discogs_genres": [
@@ -278598,7 +278713,7 @@
           "Ambient"
         ],
         "year": 1996,
-        "year_from": "discogs"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Morcheeba",
@@ -278922,6 +279037,7 @@
         "apple_id": 1442989301,
         "apple_album_id": 1442989104,
         "apple_artist_id": 130451,
+        "mb_id": "88273615-1515-439d-8a46-a6b6562d5083",
         "discogs_id": 567315,
         "discogs_master_id": 3705,
         "discogs_genres": [
@@ -278934,7 +279050,7 @@
           "Indie Pop"
         ],
         "year": 1997,
-        "year_from": "discogs"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Banana",
@@ -279524,8 +279640,9 @@
         "apple_id": 1354233586,
         "apple_album_id": null,
         "apple_artist_id": 1308196151,
+        "mb_id": "3faf030b-3c42-4a7e-a134-dbc99babccda",
         "year": 1996,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Afro Celt Sound System",
@@ -279537,6 +279654,8 @@
           "KE"
         ],
         "apple_id": 1653885259,
+        "apple_album_id": null,
+        "apple_artist_id": 4223501,
         "mb_id": "bf480b09-ba8c-4821-87d9-af84bb130ed5",
         "discogs_id": 2485058,
         "discogs_master_id": 349039,
@@ -280476,8 +280595,9 @@
         "apple_id": 761196685,
         "apple_album_id": 761196637,
         "apple_artist_id": 165411,
+        "mb_id": "50e598a9-896f-4692-bab4-977b23d35ed2",
         "year": 1996,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Johnny Clegg & Juluka",
@@ -281028,8 +281148,9 @@
         "apple_id": 1371429892,
         "apple_album_id": 1371429224,
         "apple_artist_id": 1579339,
+        "mb_id": "5d94edef-d58e-45ee-949a-5df37358523d",
         "year": 1996,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Jrzy Satanowski",
@@ -281653,8 +281774,9 @@
         "apple_id": 407909755,
         "apple_album_id": 407909736,
         "apple_artist_id": 187598,
-        "year": 1996,
-        "year_from": "apple"
+        "mb_id": "487b6799-20b9-4b7b-9900-55e78c530700",
+        "year": 1995,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Dolce & Gabbana",
@@ -283038,6 +283160,7 @@
         "country": [
           "JP"
         ],
+        "apple_id": null,
         "mb_id": "7a4369b4-859b-4e3e-b559-c8b8b397e381",
         "discogs_id": 7413177,
         "discogs_master_id": 1225708,
@@ -283130,8 +283253,9 @@
         "apple_id": 251009756,
         "apple_album_id": 251009642,
         "apple_artist_id": null,
+        "mb_id": "bd3f2a41-38c4-48e4-866b-48dfc8c9e0f6",
         "year": 1995,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Barry Adamson",
@@ -283200,8 +283324,9 @@
         "apple_id": 311382779,
         "apple_album_id": 311382766,
         "apple_artist_id": 135661121,
+        "mb_id": "9b17279d-0c93-4f55-b51f-e983a027db11",
         "year": 1995,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Терем-квартет",
@@ -284376,6 +284501,8 @@
           "DE"
         ],
         "apple_id": 413112454,
+        "apple_album_id": null,
+        "apple_artist_id": 5544454,
         "mb_id": "18d2f3ac-9cc8-4af4-8fca-4f447e3cf819",
         "discogs_id": 73605,
         "discogs_master_id": 8955,
@@ -285998,6 +286125,8 @@
           "DE"
         ],
         "apple_id": 1339653357,
+        "apple_album_id": null,
+        "apple_artist_id": null,
         "mb_id": null,
         "discogs_id": null,
         "year": 1969,
@@ -286189,8 +286318,9 @@
         "apple_id": 1860373748,
         "apple_album_id": 1860373740,
         "apple_artist_id": 26273167,
+        "mb_id": "dd159afb-c5b9-4bec-8fde-6030738327a0",
         "year": 1995,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "The Residents",
@@ -287359,8 +287489,9 @@
         "apple_id": 1444167712,
         "apple_album_id": 1444167032,
         "apple_artist_id": 16154616,
+        "mb_id": "0e384cfb-0dcb-4b51-ab61-a2dbb562cef2",
         "year": 1996,
-        "year_from": "apple"
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Cesária Evora",
