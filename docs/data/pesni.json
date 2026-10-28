@@ -2128,7 +2128,7 @@
           "Soul"
         ],
         "year": 2015,
-        "year_from": "musicbrainz"
+        "year_from": "owner"
       },
       {
         "artist": "Mojo Juju",
@@ -4723,9 +4723,9 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "ВоплI Biдоплясова",
+        "artist": "Воплі Відоплясова",
         "track": "Мана",
-        "album": "Чудовий свiт",
+        "album": "Чудовий світ",
         "printed_country": "Украина",
         "country": [
           "UA"
@@ -4746,9 +4746,9 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Аkapulko",
-        "track": "Знайома рiч",
-        "album": "Дверi в Рай",
+        "artist": "Akapulko",
+        "track": "Знайома річ",
+        "album": "Двері в Рай",
         "printed_country": "Украина",
         "country": [
           "UA"
@@ -4756,9 +4756,6 @@
         "apple_id": 1088268099,
         "apple_album_id": 1088268081,
         "apple_artist_id": 1088268083,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2014,
         "year_from": "apple"
       },
@@ -8415,13 +8412,12 @@
       },
       {
         "artist": "Vasya Club",
-        "track": "Шiдi-Рiдi",
-        "album": "Хiпан",
+        "track": "Шіді-Ріді",
+        "album": "Хіпан",
         "printed_country": "Ukraine",
         "country": [
           "UA"
         ],
-        "apple_id": null,
         "mb_id": "13a79949-6dcd-4338-9ce7-43928fcc4ecd",
         "discogs_id": 4958266,
         "discogs_master_id": 603364,
@@ -8438,12 +8434,11 @@
       {
         "artist": "Vasya Club",
         "track": "Хей, Джо",
-        "album": "Хiпан",
+        "album": "Хіпан",
         "printed_country": "Ukraine",
         "country": [
           "UA"
         ],
-        "apple_id": null,
         "mb_id": "aa36d7f2-ec73-4b56-95b7-04463fe43b15",
         "discogs_id": 4958266,
         "discogs_master_id": 603364,
@@ -8458,29 +8453,23 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Вася i Хобот",
+        "artist": "Вася і Хобот",
         "track": "Батальонный разведчик",
-        "album": "Вася i Хобот",
+        "album": "Вася і Хобот",
         "printed_country": "Ukraine",
         "country": [
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
-        "artist": "Вася i Хобот",
+        "artist": "Вася і Хобот",
         "track": "Про Пашу",
-        "album": "Вася i Хобот",
+        "album": "Вася і Хобот",
         "printed_country": "Ukraine",
         "country": [
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
@@ -16710,7 +16699,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Toni Хucla",
+        "artist": "Toni Xucla",
         "track": "Deja-Vu",
         "album": "Una Terra Sense Mapa",
         "printed_country": "Spain",

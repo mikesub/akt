@@ -2607,7 +2607,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Son оf The Velvet Rat",
+        "artist": "Son of The Velvet Rat",
         "track": "Stardust",
         "album": "SOLITARY COMPANY",
         "printed_country": "Austria/USA",
@@ -5961,7 +5961,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "LА Priest",
+        "artist": "LA Priest",
         "track": "It’s you",
         "album": "FASE LUNA",
         "printed_country": "USA",
@@ -14507,7 +14507,7 @@
       },
       {
         "artist": "Skofka",
-        "track": "Чути Гiмн",
+        "track": "Чути Гімн",
         "album": null,
         "printed_country": "Ukraine",
         "country": [
@@ -14602,7 +14602,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Квiткiс",
+        "artist": "Квіткіс",
         "track": "Привиди",
         "album": null,
         "printed_country": "Ukraine",
@@ -14612,9 +14612,6 @@
         "apple_id": 1649532423,
         "apple_album_id": null,
         "apple_artist_id": 1513219851,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2022,
         "year_from": "owner"
       },
@@ -21208,7 +21205,7 @@
       {
         "artist": "Aquaserge",
         "track": "Un Grand Sommeil Noir",
-        "album": "Vol. 46: The Possibility оf New York for Aquaserge",
+        "album": "Vol. 46: The Possibility of New York for Aquaserge",
         "printed_country": "France",
         "country": [
           "FR"
@@ -24347,7 +24344,7 @@
       },
       {
         "artist": "Blacklab",
-        "track": "Fade аnd Melt",
+        "track": "Fade and Melt",
         "album": "Abyss",
         "printed_country": "Japan",
         "country": [
@@ -24484,7 +24481,7 @@
       },
       {
         "artist": "Skullcrusher",
-        "track": "Building а Swing",
+        "track": "Building a Swing",
         "album": "Quiet The Room",
         "printed_country": "USA",
         "country": [
@@ -29772,7 +29769,7 @@
       },
       {
         "artist": "Frog Eyes",
-        "track": "A Strand оf Blue Stars",
+        "track": "A Strand of Blue Stars",
         "album": "Violet Psalms",
         "printed_country": "Canada",
         "country": [
@@ -29796,7 +29793,7 @@
       },
       {
         "artist": "Frog Eyes",
-        "track": "A Speck оf Dust",
+        "track": "A Speck of Dust",
         "album": "The Bees",
         "printed_country": "Canada",
         "country": [
@@ -30947,7 +30944,7 @@
       },
       {
         "artist": "Dax Riggs",
-        "track": "Gravedirt оn My Blue Suede Shoes",
+        "track": "Gravedirt on My Blue Suede Shoes",
         "album": "Say Goodnight to The World",
         "printed_country": "USA",
         "country": [
@@ -31277,7 +31274,7 @@
       },
       {
         "artist": "Delvon Lamarr Organ Trio",
-        "track": "Keep Оn Keepin’ On",
+        "track": "Keep On Keepin’ On",
         "album": "Cold As Weiss",
         "printed_country": "USA",
         "country": [
@@ -31329,7 +31326,7 @@
       {
         "artist": "Ghost Funk Orchestra",
         "track": "Scatter",
-        "album": "A New Kind оf Love",
+        "album": "A New Kind of Love",
         "printed_country": "USA",
         "country": [
           "US"
@@ -31433,7 +31430,7 @@
       {
         "artist": "Buffet Lunch",
         "track": "Orange Peel",
-        "album": "The Powers оf Rocks",
+        "album": "The Powers of Rocks",
         "printed_country": "UK",
         "country": [
           "GB"
@@ -32070,7 +32067,7 @@
       },
       {
         "artist": "Madlib",
-        "track": "Road оf The Lonely Ones",
+        "track": "Road of The Lonely Ones",
         "album": "Sound Ancestors",
         "printed_country": "USA",
         "country": [
@@ -32582,7 +32579,7 @@
       {
         "artist": "Manhu",
         "track": "Sani Drinking Song",
-        "album": "Voices оf The Sani",
+        "album": "Voices of The Sani",
         "printed_country": "China",
         "country": [
           "CN"
@@ -33002,22 +32999,18 @@
       {
         "artist": "ETV Tütarlastekoor",
         "track": "Slava Ukraini",
-        "album": "Elagu Ukraina/Слава Украiнi!",
+        "album": "Elagu Ukraina/Слава Украіні!",
         "printed_country": "Estonia",
         "country": [
           "EE"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2022,
         "year_from": "owner"
       },
       {
         "artist": "Vennaskond",
         "track": "Leekides On Ukraina",
-        "album": "Elagu Ukraina/Слава Украiнi!",
+        "album": "Elagu Ukraina/Слава Украіні!",
         "printed_country": "Estonia",
         "country": [
           "EE"
@@ -33246,7 +33239,7 @@
       {
         "artist": "Elizabeth King",
         "track": "I Need The Lord",
-        "album": "I Got а Love",
+        "album": "I Got a Love",
         "printed_country": "USA",
         "country": [
           "US"
@@ -33316,7 +33309,7 @@
       {
         "artist": "Dominique Dumont",
         "track": "We Almost Got Lost",
-        "album": "People оn Sunday",
+        "album": "People on Sunday",
         "printed_country": "Latvia/France",
         "country": [
           "LV",
@@ -33325,9 +33318,6 @@
         "apple_id": 1530621147,
         "apple_album_id": 1530621136,
         "apple_artist_id": 1001524565,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2020,
         "year_from": "apple"
       },
@@ -33606,7 +33596,7 @@
       {
         "artist": "Freddie Dilevi",
         "track": "Blue Hotel",
-        "album": "In The Light оf а New Day",
+        "album": "In The Light of a New Day",
         "printed_country": "Spain",
         "country": [
           "ES"
@@ -33614,7 +33604,6 @@
         "apple_id": 1581848127,
         "apple_album_id": 1581848118,
         "apple_artist_id": 1332333725,
-        "mb_id": null,
         "discogs_id": 20163805,
         "discogs_master_id": 2579543,
         "discogs_genres": [
@@ -34027,7 +34016,7 @@
       {
         "artist": "The Surfing Magazines",
         "track": "Locomotive Cheer",
-        "album": "Badgers оf Wymeswold",
+        "album": "Badgers of Wymeswold",
         "printed_country": "UK",
         "country": [
           "GB"
@@ -34415,7 +34404,7 @@
     "tracks": [
       {
         "artist": "Bodega",
-        "track": "Territorial Call оf The Female",
+        "track": "Territorial Call of The Female",
         "album": "Broken Equipment",
         "printed_country": "USA",
         "country": [
@@ -34441,7 +34430,7 @@
       {
         "artist": "Bananagun",
         "track": "Bang Go The Bongos",
-        "album": "The True Story оf Bananagun",
+        "album": "The True Story of Bananagun",
         "printed_country": "Australia",
         "country": [
           "AU"
@@ -36273,7 +36262,7 @@
       },
       {
         "artist": "Witch’n’Monk",
-        "track": "The Сage",
+        "track": "The Cage",
         "album": "Witch’n’Monk",
         "printed_country": "Germany",
         "country": [
@@ -36282,7 +36271,6 @@
         "apple_id": 1514036844,
         "apple_album_id": 1514036605,
         "apple_artist_id": 1514036610,
-        "mb_id": null,
         "discogs_id": 15468648,
         "discogs_master_id": null,
         "year": 2020,
@@ -36312,7 +36300,7 @@
       {
         "artist": "Ian Dury & The Blockheads",
         "track": "Hit Me With Your Rhythm Stick",
-        "album": "Hit Me! The Best оf Ian Dury",
+        "album": "Hit Me! The Best of Ian Dury",
         "printed_country": "UK",
         "country": [
           "GB"
@@ -36434,7 +36422,7 @@
       {
         "artist": "Seamus Fogarty",
         "track": "Old Suit",
-        "album": "A Bag оf Eyes",
+        "album": "A Bag of Eyes",
         "printed_country": "Ireland/UK",
         "country": [
           "IE",
@@ -38679,7 +38667,7 @@
       {
         "artist": "Terra Profonda",
         "track": "Dragged Into Sunlight",
-        "album": "For The Sake оf The Mountains",
+        "album": "For The Sake of The Mountains",
         "printed_country": "Hungary/Italy",
         "country": [
           "HU",
@@ -38688,7 +38676,6 @@
         "apple_id": 1673188581,
         "apple_album_id": 1673188577,
         "apple_artist_id": 1332962180,
-        "mb_id": null,
         "discogs_id": 23964266,
         "discogs_master_id": null,
         "year": 2018,
@@ -39663,7 +39650,7 @@
     "tracks": [
       {
         "artist": "Alyona Altona & Jerry Heil",
-        "track": "Рiднi моï",
+        "track": "Рідні мої",
         "album": null,
         "printed_country": "Украiна",
         "country": [
@@ -39672,7 +39659,6 @@
         "apple_id": 1619143308,
         "apple_album_id": null,
         "apple_artist_id": null,
-        "mb_id": null,
         "discogs_id": 29744782,
         "discogs_master_id": null,
         "year": 2022,
@@ -39982,16 +39968,12 @@
     "tracks": [
       {
         "artist": "Леся Никитюк",
-        "track": "Сiла Птаха",
+        "track": "Сіла Птаха",
         "album": null,
         "printed_country": "Украiна",
         "country": [
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2022,
         "year_from": "owner"
       },
@@ -40300,7 +40282,7 @@
     "tracks": [
       {
         "artist": "Океан Ельзи",
-        "track": "Miсто Марii",
+        "track": "Місто Марії",
         "album": null,
         "printed_country": "Украïна",
         "country": [
@@ -40310,8 +40292,6 @@
         "apple_album_id": null,
         "apple_artist_id": 362306254,
         "mb_id": "7f5d65fe-fa52-4e3f-9dad-008470ef430c",
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2022,
         "year_from": "musicbrainz"
       },
@@ -41230,7 +41210,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Natasha Atlas",
+        "artist": "Natacha Atlas",
         "track": "It’s A Man’s World",
         "album": "Strange Days",
         "printed_country": "UK/Egypt",
@@ -46335,7 +46315,7 @@
       {
         "artist": "The Real Tuesday Weld",
         "track": "Ruth, Roses & Revolver",
-        "album": "The London Book оf The Dead",
+        "album": "The London Book of The Dead",
         "printed_country": "UK",
         "country": [
           "GB"
@@ -46363,7 +46343,7 @@
       {
         "artist": "The Real Tuesday Weld",
         "track": "Nightingales",
-        "album": "The End оf The World",
+        "album": "The End of The World",
         "printed_country": "UK",
         "country": [
           "GB"
@@ -46371,7 +46351,6 @@
         "apple_id": 1058047750,
         "apple_album_id": null,
         "apple_artist_id": 32404339,
-        "mb_id": null,
         "discogs_id": 1431194,
         "discogs_master_id": 201679,
         "discogs_genres": [
@@ -46473,7 +46452,7 @@
       {
         "artist": "Adulkt Life",
         "track": "Jnr Showtime",
-        "album": "Book оf Curses",
+        "album": "Book of Curses",
         "printed_country": "UK",
         "country": [
           "GB"
@@ -47556,13 +47535,11 @@
       {
         "artist": "Joyfultalk",
         "track": "Liquified Then Evaporated",
-        "album": "A Separation оf Being",
+        "album": "A Separation of Being",
         "printed_country": "Canada",
         "country": [
           "CA"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 15170256,
         "discogs_master_id": 1724503,
         "discogs_genres": [
@@ -47682,7 +47659,7 @@
       },
       {
         "artist": "Sofia Bolt",
-        "track": "Get Out оf My Head",
+        "track": "Get Out of My Head",
         "album": "Waves",
         "printed_country": "USA/France",
         "country": [
@@ -47959,7 +47936,7 @@
       {
         "artist": "Edgar Jones",
         "track": "La cancoin del dia y de noche",
-        "album": "The Song оf Day & Nignt",
+        "album": "The Song of Day & Nignt",
         "printed_country": "UK",
         "country": [
           "GB"
@@ -48075,7 +48052,7 @@
       },
       {
         "artist": "Rosalie Cunningham",
-        "track": "Ride оn My Bike",
+        "track": "Ride on My Bike",
         "album": "Rosalie Cunningham",
         "printed_country": "UK",
         "country": [
@@ -48255,7 +48232,7 @@
       {
         "artist": "King Buzzo ft. Trevor Dunn",
         "track": "I’m Glad I Could Help Out",
-        "album": "Gift оf Sacrifice",
+        "album": "Gift of Sacrifice",
         "printed_country": "USA",
         "country": [
           "US"
@@ -48302,7 +48279,7 @@
       {
         "artist": "Minor Pieces",
         "track": "This House",
-        "album": "The Heavy Steps оf Dreaming",
+        "album": "The Heavy Steps of Dreaming",
         "printed_country": "Canada",
         "country": [
           "CA"
@@ -48414,7 +48391,7 @@
       {
         "artist": "Man Man",
         "track": "Sheela",
-        "album": "Dream Hunting in The Valley оf the In-Between",
+        "album": "Dream Hunting in The Valley of the In-Between",
         "printed_country": "USA",
         "country": [
           "US"
@@ -48932,7 +48909,7 @@
       {
         "artist": "Toy",
         "track": "Down On the Street",
-        "album": "Songs оf Consumption",
+        "album": "Songs of Consumption",
         "printed_country": "UK",
         "country": [
           "GB"
@@ -49614,7 +49591,7 @@
     "tracks": [
       {
         "artist": "Drab City",
-        "track": "Just Me аnd You",
+        "track": "Just Me and You",
         "album": "Good Songs For Bad People",
         "printed_country": "USA/Germany/Bosnia",
         "country": [
@@ -49680,8 +49657,8 @@
       },
       {
         "artist": "Giant Sand",
-        "track": "Body оf Water",
-        "album": "Recounting The Ballads оf Thin Line Men",
+        "track": "Body of Water",
+        "album": "Recounting The Ballads of Thin Line Men",
         "printed_country": "USA",
         "country": [
           "US"
@@ -49930,7 +49907,7 @@
       },
       {
         "artist": "Rob Burger ft. Laurie Anderson",
-        "track": "Souls оf Winter",
+        "track": "Souls of Winter",
         "album": "The Grid",
         "printed_country": "USA",
         "country": [
@@ -52342,7 +52319,7 @@
       {
         "artist": "Tim Bowness",
         "track": "It’s The World",
-        "album": "Flowers аt The Scene",
+        "album": "Flowers at The Scene",
         "printed_country": "UK",
         "country": [
           "GB"
@@ -52411,7 +52388,7 @@
       },
       {
         "artist": "Aretha Franklin",
-        "track": "I Say а Little Prayer",
+        "track": "I Say a Little Prayer",
         "album": "Jon Savage’s 1968",
         "printed_country": "USA",
         "country": [
@@ -54144,7 +54121,7 @@
       {
         "artist": "Perry Blake",
         "track": "Miracle",
-        "album": "Songs оf Praise",
+        "album": "Songs of Praise",
         "printed_country": "Ireland",
         "country": [
           "IE"
@@ -54211,7 +54188,7 @@
       {
         "artist": "The Sorcerers",
         "track": "End Credits",
-        "album": "In Search of The Lost City оf The Monkey God",
+        "album": "In Search of The Lost City of The Monkey God",
         "printed_country": "UK",
         "country": [
           "GB"
@@ -56797,7 +56774,7 @@
       {
         "artist": "Vivienne Mort",
         "track": "Вестерн",
-        "album": "Досвiд",
+        "album": "Досвід",
         "printed_country": "Украiна",
         "country": [
           "UA"
@@ -61401,7 +61378,7 @@
       {
         "artist": "Sonido Gallo Negro",
         "track": "Quien sera?",
-        "album": "Mambo Сosmico",
+        "album": "Mambo Cosmico",
         "printed_country": "Mexico",
         "country": [
           "MX"
@@ -64560,7 +64537,7 @@
       {
         "artist": "Stereo Total",
         "track": "Brezel Says",
-        "album": "Ah! Quel сinema!",
+        "album": "Ah! Quel cinema!",
         "printed_country": "Germany/France",
         "country": [
           "DE",
@@ -65244,15 +65221,13 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Revolutionary Army оf Infant Jesus",
+        "artist": "Revolutionary Army of Infant Jesus",
         "track": "Theme de l’homme",
         "album": "Mirror",
         "printed_country": "UK",
         "country": [
           "GB"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 2152600,
         "discogs_master_id": 235246,
         "discogs_genres": [
@@ -65267,15 +65242,13 @@
         "year_from": "owner"
       },
       {
-        "artist": "Revolutionary Army оf Infant Jesus",
+        "artist": "Revolutionary Army of Infant Jesus",
         "track": "Repentance",
         "album": "Beauty Will Save The World",
         "printed_country": "UK",
         "country": [
           "GB"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 16046576,
         "discogs_master_id": 890698,
         "discogs_genres": [
@@ -66226,7 +66199,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Devon Сhurch",
+        "artist": "Devon Church",
         "track": "Chamomille",
         "album": "We Are Inextricable",
         "printed_country": "USA",
@@ -66236,7 +66209,6 @@
         "apple_id": 1429113969,
         "apple_album_id": 1429113941,
         "apple_artist_id": 1342808978,
-        "mb_id": null,
         "discogs_id": 12718718,
         "discogs_master_id": 1466603,
         "discogs_genres": [
@@ -66886,7 +66858,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Susanna & The Brotherhood of Оur Lady",
+        "artist": "Susanna & The Brotherhood of Our Lady",
         "track": "Death and the Miser",
         "album": "Garden of Earthly Delights",
         "printed_country": "Norway",
@@ -66912,7 +66884,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Strand оf Oaks",
+        "artist": "Strand of Oaks",
         "track": "Moon Landing",
         "album": "Eraserland",
         "printed_country": "USA",
@@ -67357,7 +67329,7 @@
       },
       {
         "artist": "Psychedelic Porn Crumpets",
-        "track": "Hymn for а Droid",
+        "track": "Hymn for a Droid",
         "album": "And Now for Whatchmacallit",
         "printed_country": "Australia",
         "country": [
@@ -69310,7 +69282,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Троiца",
+        "artist": "Троіца",
         "track": "Ой, Маю!",
         "album": "Цар-Агонь",
         "printed_country": "Беларусь",
@@ -69342,17 +69314,13 @@
         "year_from": "owner"
       },
       {
-        "artist": "Палiна Рэспублiка",
+        "artist": "Паліна Рэспубліка",
         "track": "МЖ",
-        "album": "Бясконцы красавiк",
+        "album": "Бясконцы красавік",
         "printed_country": "Беларусь",
         "country": [
           "BY"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2015,
         "year_from": "owner"
       },
@@ -71748,7 +71716,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "BandАdriatica",
+        "artist": "BandAdriatica",
         "track": "Kalypso",
         "album": "Odissea",
         "printed_country": "Italy",
@@ -71758,7 +71726,6 @@
         "apple_id": 1436171728,
         "apple_album_id": 1436171520,
         "apple_artist_id": 320679933,
-        "mb_id": null,
         "discogs_id": 13470255,
         "discogs_master_id": null,
         "year": 2018,
@@ -75577,7 +75544,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Marianne Faithful",
+        "artist": "Marianne Faithfull",
         "track": "For Wanting You",
         "album": "Vagabond Ways",
         "printed_country": "UK",
@@ -75604,14 +75571,13 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Marianne Faithful",
+        "artist": "Marianne Faithfull",
         "track": "Love and Money",
         "album": "Kissing Time",
         "printed_country": "UK",
         "country": [
           "GB"
         ],
-        "apple_id": null,
         "mb_id": "9eb3d619-ffcb-40e3-b92a-fe6e0fb36f3a",
         "discogs_id": 166627,
         "discogs_master_id": 237233,
@@ -75627,7 +75593,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Marianne Faithful",
+        "artist": "Marianne Faithfull",
         "track": "Desperanto",
         "album": "Before the Poison",
         "printed_country": "UK",
@@ -75650,7 +75616,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Marianne Faithful",
+        "artist": "Marianne Faithfull",
         "track": "Hold On Hold On",
         "album": "Easy Come, Easy Go",
         "printed_country": "UK",
@@ -75672,7 +75638,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Marianne Faithful",
+        "artist": "Marianne Faithfull",
         "track": "Past, Present and Future",
         "album": "Horses and High Heels",
         "printed_country": "UK",
@@ -75696,7 +75662,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Marianne Faithful",
+        "artist": "Marianne Faithfull",
         "track": "Mother Wolf",
         "album": "Give my Love to London",
         "printed_country": "UK",
@@ -75723,7 +75689,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Marianne Faithful",
+        "artist": "Marianne Faithfull",
         "track": "As Tears Go By",
         "album": "Negative Capability",
         "printed_country": "UK",
@@ -81153,7 +81119,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Невидимки, cмотрящие на ботинки",
+        "artist": "Невидимки, смотрящие на ботинки",
         "track": "Канифоль",
         "album": "Канифоль",
         "printed_country": "Россия",
@@ -81164,8 +81130,6 @@
         "apple_album_id": 1550112938,
         "apple_artist_id": 790454860,
         "mb_id": "8d567321-1aff-4ac1-b5ae-377aa4e15914",
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2018,
         "year_from": "musicbrainz"
       },
@@ -82002,7 +81966,7 @@
       {
         "artist": "Yo5",
         "track": "Она идёт по жизни смеясь",
-        "album": "Yо5",
+        "album": "Yo5",
         "printed_country": "Россия",
         "country": [
           "RU"
@@ -82010,7 +81974,6 @@
         "apple_id": 1410831126,
         "apple_album_id": 1410830813,
         "apple_artist_id": null,
-        "mb_id": null,
         "discogs_id": 14278139,
         "discogs_master_id": null,
         "year": 2009,
@@ -91258,7 +91221,7 @@
       },
       {
         "artist": "The Erised",
-        "track": "In my Сar",
+        "track": "In my Car",
         "album": "Room 414",
         "printed_country": "Украiна",
         "country": [
@@ -91281,8 +91244,8 @@
       },
       {
         "artist": "5 Vymir",
-        "track": "Miнiмум",
-        "album": "Новi iмена",
+        "track": "Мінімум",
+        "album": "Нові імена",
         "printed_country": "Украiна",
         "country": [
           "UA"
@@ -91291,8 +91254,6 @@
         "apple_album_id": 1378978074,
         "apple_artist_id": 954164845,
         "mb_id": "bb71d100-52bb-41d9-bb09-bc4aba0b879f",
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2017,
         "year_from": "musicbrainz"
       },
@@ -105135,15 +105096,13 @@
       },
       {
         "artist": "Dagadana",
-        "track": "У полi береза",
+        "track": "У полі береза",
         "album": "Meridian 68",
         "printed_country": "Poland/Ukraine",
         "country": [
           "PL",
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 9171100,
         "discogs_master_id": 1293194,
         "discogs_genres": [
@@ -106963,9 +106922,9 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Воплi Вiдоплясова",
+        "artist": "Воплі Відоплясова",
         "track": "Мана",
-        "album": "Чудовий свiт",
+        "album": "Чудовий світ",
         "printed_country": "Украiна",
         "country": [
           "UA"
@@ -106987,15 +106946,12 @@
       },
       {
         "artist": "Акапулько",
-        "track": "Шаленiй свiт",
-        "album": "Дверi в Рай",
+        "track": "Шаленій світ",
+        "album": "Двері в Рай",
         "printed_country": "Украина",
         "country": [
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
@@ -107914,7 +107870,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Моjo Juju",
+        "artist": "Mojo Juju",
         "track": "I Put A Spell on You",
         "album": "Mojo Juju",
         "printed_country": "Australia",
@@ -107941,14 +107897,13 @@
         "year_from": "owner"
       },
       {
-        "artist": "Моjo Juju",
-        "track": "They Come аnd They Go",
+        "artist": "Mojo Juju",
+        "track": "They Come and They Go",
         "album": "Seeing Red/Feeling Blue",
         "printed_country": "Australia",
         "country": [
           "AU"
         ],
-        "apple_id": null,
         "mb_id": "d77a2602-e049-4e7f-b622-54acfafb0cfa",
         "discogs_id": 7335365,
         "discogs_master_id": 1401836,
@@ -107966,14 +107921,13 @@
         "year_from": "owner"
       },
       {
-        "artist": "Моjo Juju",
+        "artist": "Mojo Juju",
         "track": "Ain't gonna wait",
         "album": "Seeing Red/Feeling Blue",
         "printed_country": "Australia",
         "country": [
           "AU"
         ],
-        "apple_id": null,
         "mb_id": "fa429af5-d8c0-4c6c-b7cf-4b23a3732d1e",
         "discogs_id": 7335365,
         "discogs_master_id": 1401836,
@@ -109941,7 +109895,7 @@
         "year": null
       },
       {
-        "artist": "Антiорки",
+        "artist": "Антіорки",
         "track": "Большим п*Z***цом",
         "album": null,
         "printed_country": null,
@@ -109949,9 +109903,6 @@
           "US",
           "SU"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
@@ -110027,31 +109978,23 @@
       },
       {
         "artist": "Jerry Heil",
-        "track": "Геть з Украïни, москаль некрасiвий!",
+        "track": "Геть з України, москаль некрасівий!",
         "album": null,
         "printed_country": "Украïна",
         "country": [
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2022,
         "year_from": "owner"
       },
       {
-        "artist": "Вiктор Винник & MEPI",
+        "artist": "Віктор Винник & MEPI",
         "track": "Герой",
         "album": null,
         "printed_country": "Украïна",
         "country": [
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2022,
         "year_from": "owner"
       },
@@ -110074,7 +110017,7 @@
       },
       {
         "artist": "Скай",
-        "track": "Не вiдступати i не здаватись",
+        "track": "Не відступати і не здаватись",
         "album": null,
         "printed_country": "Украïна",
         "country": [
@@ -110146,16 +110089,12 @@
       },
       {
         "artist": "Spiv Brativ",
-        "track": "В городi Херсонi наши хлопцi гасять москалiв",
+        "track": "В городі Херсоні наши хлопці гасять москалів",
         "album": null,
         "printed_country": "Украïна",
         "country": [
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2022,
         "year_from": "owner"
       },
@@ -110960,54 +110899,43 @@
     "tracks": [
       {
         "artist": "Олег Скрипка и другие украинские артисты",
-        "track": "Гимн Украïни",
+        "track": "Гимн України",
         "album": null,
         "printed_country": null,
         "country": [
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
         "artist": "Тарас Чубай & Скрябин",
-        "track": "Нашi партизани",
+        "track": "Наші партизани",
         "album": null,
         "printed_country": null,
         "country": [
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
-        "artist": "\"Гайдамаки\" та Таня Матвiенко",
-        "track": "Ой, у лузi червона калина",
+        "artist": "\"Гайдамаки\" та Таня Матвіенко",
+        "track": "Ой, у лузі червона калина",
         "album": null,
         "printed_country": null,
         "country": [
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2018,
         "year_from": "owner"
       },
       {
         "artist": "Орест Лютий",
-        "track": "Ах, Бандеро – украïнський апостол",
+        "track": "Ах, Бандеро – український апостол",
         "album": null,
         "printed_country": null,
         "country": [
           "UA"
         ],
-        "apple_id": null,
         "mb_id": "d3869ea3-5693-46ce-b645-f2816ee26ce5",
         "discogs_id": 6649376,
         "discogs_master_id": 796979,
@@ -111020,7 +110948,7 @@
       },
       {
         "artist": "Riffmaster",
-        "track": "Тихо прийшов, тихо пiшов",
+        "track": "Тихо прийшов, тихо пішов",
         "album": null,
         "printed_country": null,
         "country": [
@@ -111038,7 +110966,7 @@
       },
       {
         "artist": "Христина Соловей",
-        "track": "Украïнська лють",
+        "track": "Українська лють",
         "album": null,
         "printed_country": null,
         "country": [
@@ -111047,9 +110975,6 @@
         "apple_id": 1614320673,
         "apple_album_id": null,
         "apple_artist_id": 989965127,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2022,
         "year_from": "apple"
       },
@@ -111116,20 +111041,17 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Анастасiя Дмитрук",
+        "artist": "Анастасія Дмитрук",
         "track": "Никогда мы не будем братьями",
         "album": null,
         "printed_country": null,
         "country": [
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
-        "artist": "Андрiй Хливнюк",
+        "artist": "Андрій Хливнюк",
         "track": "Червона калина",
         "album": null,
         "printed_country": null,
@@ -111140,15 +111062,12 @@
         "apple_id": 1622177553,
         "apple_album_id": null,
         "apple_artist_id": 1040180885,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2022,
         "year_from": "apple"
       },
       {
         "artist": "Шабля",
-        "track": "Браття украïнцï",
+        "track": "Браття українці",
         "album": null,
         "printed_country": null,
         "country": [
@@ -111157,9 +111076,6 @@
         "apple_id": 1679657595,
         "apple_album_id": null,
         "apple_artist_id": 953419108,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2015,
         "year_from": "apple"
       },
@@ -111183,15 +111099,13 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Воплi Вiдоплясова & Устим",
+        "artist": "Воплі Відоплясова & Устим",
         "track": "Ми ростем",
         "album": null,
         "printed_country": null,
         "country": [
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 35022569,
         "discogs_master_id": null,
         "year": 2021,
@@ -111199,15 +111113,13 @@
       },
       {
         "artist": "Navi Band vs. Океан Эльзи",
-        "track": "Обiйми",
+        "track": "Обійми",
         "album": null,
         "printed_country": null,
         "country": [
           "BY",
           "UA"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 4658614,
         "discogs_master_id": 593968,
         "discogs_genres": [

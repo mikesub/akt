@@ -20152,7 +20152,7 @@
       },
       {
         "artist": "//Eleven",
-        "track": "Украiна",
+        "track": "Україна",
         "album": "Течение",
         "printed_country": "РФ",
         "country": [
@@ -20161,7 +20161,6 @@
         "apple_id": 1563187568,
         "apple_album_id": 1563187226,
         "apple_artist_id": 826010429,
-        "mb_id": null,
         "discogs_id": 36657181,
         "discogs_master_id": 654187,
         "discogs_genres": [
@@ -26025,7 +26024,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "coн",
+        "artist": "сон",
         "track": "bugs build a house",
         "album": "retro zone",
         "printed_country": "russia/uk",
@@ -26033,10 +26032,7 @@
           "RU",
           "GB"
         ],
-        "apple_id": null,
         "mb_id": "04de29a6-2a08-42b5-b929-99ffa59caef3",
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2013,
         "year_from": "musicbrainz"
       }
@@ -29815,7 +29811,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "the garbage & the flower",
+        "artist": "The Garbage & the Flowers",
         "track": "catnip",
         "album": "eyes rind as if beggars",
         "printed_country": "new zealand",
@@ -41698,7 +41694,7 @@
           "Jazz-Rock"
         ],
         "year": 2012,
-        "year_from": "musicbrainz"
+        "year_from": "owner"
       },
       {
         "artist": "Pop. 1280",

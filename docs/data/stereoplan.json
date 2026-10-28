@@ -5372,16 +5372,13 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "M-ziq",
+        "artist": "µ-Ziq",
         "track": "Imperial Crescent V.I.P.",
         "album": "PLANET MU - 30",
         "printed_country": "UK",
         "country": [
           "GB"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": 2025,
         "year_from": "owner"
       },
@@ -17966,7 +17963,7 @@
           "Jazz-Rock"
         ],
         "year": 2012,
-        "year_from": "musicbrainz"
+        "year_from": "owner"
       },
       {
         "artist": "Н.О.М.",
@@ -19809,16 +19806,13 @@
         "year_from": "owner"
       },
       {
-        "artist": "Адарвiрог",
+        "artist": "Адарвірог",
         "track": "Karol",
         "album": "Чорнае Сонца",
         "printed_country": "Belarus",
         "country": [
           "BY"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": 2023,
         "year_from": "owner"
       },
@@ -25642,16 +25636,13 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Iван Кiрчук",
-        "track": "На гарэ бабы сядзелi",
-        "album": "ВАРАЖБIТ",
+        "artist": "Іван Кірчук",
+        "track": "На гарэ бабы сядзелі",
+        "album": "ВАРАЖБІТ",
         "printed_country": "Беларусь",
         "country": [
           "BY"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": 2023,
         "year_from": "owner"
       },

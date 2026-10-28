@@ -7,6 +7,19 @@ added, renamed or removed; **Breaking** marks a change that can break code readi
 Routine updates (a new Стереоплан episode, a single fix) are not listed: the git history of
 `docs/data/` has every change.
 
+## 2026-10-28
+
+- Names: 303 tracks renamed (140 artists, 143 titles, 45 albums), from a check of akt's names against Apple
+  Music's and MusicBrainz's for the songs akt links them to (on the 1,901 songs of «Час Троицкого»'s pool), and a
+  scan of every track for words mixing Latin and Cyrillic letters. `artists.json`: 104 spellings, 74 for misspelt
+  artists («Calvin Russel» → «Calvin Russell», «Marianne Faithful» → «Marianne Faithfull») or acts printed under
+  another form of their name («Sixteen Horsepower» → «16 Horsepower», «Natasha Atlas» → «Natacha Atlas»), 30 for
+  names typed with look-alike letters of the other alphabet («Моjo Juju» → «Mojo Juju», «Воплi Вiдоплясова» →
+  «Воплі Відоплясова»). `titles.json`: 179 entries, 93 for misspelt titles («Tesco Suicide» → «Tesko Suicide»),
+  86 for titles and albums with look-alike letters (a Cyrillic «о» in «оf», a Latin «i» for a Ukrainian or
+  Belarusian «і»). 40 `overrides.json` entries keyed by an old name now name the new one. The 129 renamed tracks
+  a source had not found are looked up again under their new names.
+
 ## 2026-10-20
 
 - «FM Достоевский»: 39 more playlists, from Tilgor Kraut's spreadsheet of the program's playlists (radar.lv's

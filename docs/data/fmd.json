@@ -19134,7 +19134,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "ботанiка",
+        "artist": "Ботаника",
         "track": "лучший кайф",
         "album": "казбек папирос",
         "printed_country": "рф",
@@ -19144,7 +19144,6 @@
         "apple_id": 1201130871,
         "apple_album_id": 1201130806,
         "apple_artist_id": 592739925,
-        "mb_id": null,
         "discogs_id": 4670470,
         "discogs_master_id": null,
         "year": 2008,
@@ -21766,7 +21765,7 @@
     "playlist_hash": "7b2157a9e1ec15f1",
     "tracks": [
       {
-        "artist": "Marianne Faithful",
+        "artist": "Marianne Faithfull",
         "track": "past, present and future",
         "album": "horses and high heels",
         "printed_country": "uk",
@@ -28505,7 +28504,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "johnny congos & the g-men",
+        "artist": "Johnny Kongos & The G-Men",
         "track": "900 miles",
         "album": "zulu stomp!! south africa garage beats",
         "printed_country": "south africa",
@@ -62796,7 +62795,7 @@
     "playlist_hash": "5e5d6ab34e53773b",
     "tracks": [
       {
-        "artist": "Chris Isaac",
+        "artist": "Chris Isaak",
         "track": "Summer Holiday",
         "album": "Mr.lucky",
         "printed_country": "usa",
@@ -63726,16 +63725,13 @@
         "year_from": "discogs"
       },
       {
-        "artist": "u-cef feat.natasha atlas",
+        "artist": "u-cef feat.natacha atlas",
         "track": "ouddamak",
         "album": "halalwood",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
@@ -66140,7 +66136,7 @@
     "playlist_hash": "8b5c5cb9db875f24",
     "tracks": [
       {
-        "artist": "Marianne Faithful",
+        "artist": "Marianne Faithfull",
         "track": "hold on hold on",
         "album": "easy come, easy go",
         "printed_country": "uk",
@@ -81909,7 +81905,7 @@
       },
       {
         "artist": "Sebadoh",
-        "track": "secret attention",
+        "track": "Sacred Attention",
         "album": "bubble & scrape",
         "printed_country": "usa",
         "country": [
@@ -107594,7 +107590,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "emmanuel santorromana",
+        "artist": "Emmanuel Santarromana",
         "track": "come together",
         "album": "fab 4 ever",
         "printed_country": "france",
@@ -107604,9 +107600,6 @@
         "apple_id": 156840010,
         "apple_album_id": 156839921,
         "apple_artist_id": 81311207,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 2005,
         "year_from": "apple"
       },
@@ -109550,7 +109543,7 @@
       },
       {
         "artist": "Karel Kryl",
-        "track": "morituri te salutant",
+        "track": "Morituri Te Salutant",
         "album": "bratricku, zavirej vratka!",
         "printed_country": "cssr",
         "country": [
@@ -118380,7 +118373,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "oxbow feat. marianne faithful",
+        "artist": "oxbow feat. marianne faithfull",
         "track": "insylum",
         "album": "love that's last",
         "printed_country": "usa/uk",
@@ -119782,14 +119775,12 @@
       },
       {
         "artist": "yar",
-        "track": "падружкi",
+        "track": "падружкі",
         "album": "вясна красна",
         "printed_country": "belarus",
         "country": [
           "BY"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 8379451,
         "discogs_master_id": null,
         "year": 2004,
@@ -120818,7 +120809,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Natasha Atlas",
+        "artist": "Natacha Atlas",
         "track": "ghanwan bossanova",
         "album": "mishmaoul",
         "printed_country": "uk",
@@ -129236,7 +129227,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "dakar & grinser",
+        "artist": "Dakar & Grinser",
         "track": "sick at heart",
         "album": "triumph of flesh",
         "printed_country": "germany",
@@ -139761,16 +139752,13 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "temple of sound feat.natasha atlas",
+        "artist": "temple of sound feat.natacha atlas",
         "track": "cinema eden",
         "album": "gold of the sun",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       }
     ]
@@ -143710,7 +143698,7 @@
       },
       {
         "artist": "Sir Millard Mulch",
-        "track": "the boy with the perfectrly square butthole",
+        "track": "The Boy With the Perfectly Square Butthole",
         "album": "50 intellectually stimulating themes from a cheap amusement park for robots and aliens",
         "printed_country": "usa",
         "country": [
@@ -148338,7 +148326,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Choying Drolma & Steve Tibbets",
+        "artist": "Choying Drolma & Steve Tibbetts",
         "track": "podmakara",
         "album": "selwa",
         "printed_country": "tibet/usa",
@@ -148346,8 +148334,6 @@
           "X-TIBET",
           "US"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 435778,
         "discogs_master_id": 2623949,
         "discogs_genres": [
@@ -150688,7 +150674,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "romano drom",
+        "artist": "Romano Drom",
         "track": "o milaj",
         "album": "ande lindri",
         "printed_country": "hungary",
@@ -152629,7 +152615,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Marianne Faithful",
+        "artist": "Marianne Faithfull",
         "track": "desperanto",
         "album": "before the poison",
         "printed_country": "uk",
@@ -157883,7 +157869,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "emmanuel santorromana",
+        "artist": "Emmanuel Santarromana",
         "track": "trocadero",
         "album": "metropolitain",
         "printed_country": "france",
@@ -157893,9 +157879,6 @@
         "apple_id": 81311203,
         "apple_album_id": 81311270,
         "apple_artist_id": 81311207,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1999,
         "year_from": "apple"
       },
@@ -161555,7 +161538,7 @@
       },
       {
         "artist": "Jil Jilala",
-        "track": "yadonia ya kitab",
+        "track": "Ya dounia ya kitab",
         "album": "al-andalus",
         "printed_country": "marocco",
         "country": [
@@ -161564,9 +161547,6 @@
         "apple_id": 987871943,
         "apple_album_id": null,
         "apple_artist_id": 157448204,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1999,
         "year_from": "apple"
       },
@@ -176317,7 +176297,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Natasha Atlas",
+        "artist": "Natacha Atlas",
         "track": "daymalhum",
         "album": "something dangerous",
         "printed_country": "uk",
@@ -183145,7 +183125,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "i am the world trade centre",
+        "artist": "I Am the World Trade Center",
         "track": "call me",
         "album": "the tight connection",
         "printed_country": "usa",
@@ -183155,9 +183135,6 @@
         "apple_id": 886544380,
         "apple_album_id": 886544357,
         "apple_artist_id": 15146411,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1998,
         "year_from": "apple"
       },
@@ -184495,7 +184472,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "the natasha atlas&marc eagleton project",
+        "artist": "the natacha atlas&marc eagleton project",
         "track": "damascus",
         "album": "foretold in the language of dreams",
         "printed_country": "uk",
@@ -184505,8 +184482,6 @@
         "apple_id": 3026824,
         "apple_album_id": 3026832,
         "apple_artist_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
@@ -188449,7 +188424,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Sixteen Horsepower",
+        "artist": "16 Horsepower",
         "track": "beyond the pale",
         "album": "folklore",
         "printed_country": "usa",
@@ -196862,7 +196837,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Romano Drum",
+        "artist": "Romano Drom",
         "track": "Pujari Szomasz",
         "album": "Ando Foro",
         "printed_country": "Hungary",
@@ -196872,9 +196847,6 @@
         "apple_id": 1095855653,
         "apple_album_id": null,
         "apple_artist_id": 152716683,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1999,
         "year_from": "apple"
       },
@@ -200993,7 +200965,7 @@
       },
       {
         "artist": "Arthur H",
-        "track": "Insperables Mais…",
+        "track": "Inséparables mais…",
         "album": "Pour Madame X",
         "printed_country": "France",
         "country": [
@@ -204321,7 +204293,7 @@
       },
       {
         "artist": "Sezen Aksu",
-        "track": "Sadi Odalar",
+        "track": "Sarı Odalar",
         "album": "Deliveren",
         "printed_country": "Turkey",
         "country": [
@@ -210703,7 +210675,7 @@
       },
       {
         "artist": "L'Attirail",
-        "track": "Ouzery Dabanonghi",
+        "track": "Ouzeri Dabanonghy",
         "album": "Cinema Ambulant",
         "printed_country": "France",
         "country": [
@@ -210712,7 +210684,6 @@
         "apple_id": 292630452,
         "apple_album_id": 292630342,
         "apple_artist_id": 182947073,
-        "mb_id": null,
         "discogs_id": 15121321,
         "discogs_master_id": 2121961,
         "discogs_genres": [
@@ -210760,7 +210731,7 @@
       },
       {
         "artist": "Arsen Dedic",
-        "track": "Tvoje Tijevo – Moja Kuca",
+        "track": "Tvoje tijelo - moja kuća",
         "album": "Ministarstvo Straha",
         "printed_country": "Croatia",
         "country": [
@@ -212125,7 +212096,7 @@
       },
       {
         "artist": "The Montgolfier Brothers",
-        "track": "Une Chanson Du Crepescule",
+        "track": "Une chanson du crépuscule",
         "album": "Seventeen Stars",
         "printed_country": "UK",
         "country": [
@@ -213234,7 +213205,7 @@
       },
       {
         "artist": "Mr. Bungle",
-        "track": "The Air-Conditioned Nightware",
+        "track": "The Air-Conditioned Nightmare",
         "album": "California",
         "printed_country": "USA",
         "country": [
@@ -215299,7 +215270,7 @@
       },
       {
         "artist": "Brigitte Kaandorp",
-        "track": "Radiografisch Bestnurbare Zeilboot",
+        "track": "Radiografisch bestuurbare zeilboot",
         "album": "Kaandorp Zingt",
         "printed_country": "Holland",
         "country": [
@@ -216118,7 +216089,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Henri Dikongue",
+        "artist": "Henri Dikongué",
         "track": "Ndolo",
         "album": "N`Oublie Jamais",
         "printed_country": "Congo/France",
@@ -219623,7 +219594,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Dakar & Gringer",
+        "artist": "Dakar & Grinser",
         "track": "Jam The Suckers In",
         "album": "Are You Really Satisfied Now",
         "printed_country": "Germany",
@@ -220617,14 +220588,13 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "48 сameras",
+        "artist": "48 cameras",
         "track": "our spy in the house of love",
         "album": "three weeks with my dog",
         "printed_country": "belgium",
         "country": [
           "BE"
         ],
-        "apple_id": null,
         "mb_id": "113142c6-dec8-4a9f-a9b3-872d1ba4176c",
         "discogs_id": 481901,
         "discogs_master_id": null,
@@ -221829,8 +221799,8 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "sue garner & rich brown",
-        "track": "i like the name alive",
+        "artist": "Sue Garner & Rick Brown",
+        "track": "I Like the Name Alice",
         "album": "still",
         "printed_country": "usa",
         "country": [
@@ -224227,7 +224197,7 @@
       },
       {
         "artist": "Juan Manuel",
-        "track": "Pare Que Me Mate Un Hombre Que Me Mate Una Mujer",
+        "track": "Para Que Me Mate un Hombre Que Me Mate una Mujer",
         "album": "Corazon De Bachata",
         "printed_country": "Dominican Republic",
         "country": [
@@ -224236,7 +224206,6 @@
         "apple_id": 1382315270,
         "apple_album_id": 1382314860,
         "apple_artist_id": 1122068306,
-        "mb_id": null,
         "discogs_id": 27639948,
         "discogs_master_id": null,
         "year": 1998,
@@ -225410,7 +225379,7 @@
       },
       {
         "artist": "Carola",
-        "track": "I Wonder As I Wonder",
+        "track": "I Wonder as I Wander",
         "album": "Jal I Bethlehem",
         "printed_country": "Norway",
         "country": [
@@ -225880,7 +225849,7 @@
       },
       {
         "artist": "Lena Franca",
-        "track": "Menina Di Bila",
+        "track": "Minina Di Bila",
         "album": "Amornado",
         "printed_country": "Cabo Verde",
         "country": [
@@ -226192,7 +226161,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Scaruella",
+        "artist": "Scarnella",
         "track": "The Most Useless Thing",
         "album": "Scaruella",
         "printed_country": "USA",
@@ -226202,9 +226171,6 @@
         "apple_id": 301677977,
         "apple_album_id": null,
         "apple_artist_id": 61658841,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1998,
         "year_from": "apple"
       },
@@ -226228,7 +226194,7 @@
       },
       {
         "artist": "Pierre Bastien",
-        "track": "Eloj Du Piquenpe",
+        "track": "Eloj du piqueupe",
         "album": "Musiques Paralloidres",
         "printed_country": "France",
         "country": [
@@ -226441,7 +226407,7 @@
       },
       {
         "artist": "Nara",
-        "track": "Har Dansar Ja Ma Maina Gambla Skour",
+        "track": "Här dansar jag mä mäinä gamblä skour",
         "album": "Nora",
         "printed_country": "Sweden",
         "country": [
@@ -227449,7 +227415,7 @@
       },
       {
         "artist": "Ramses",
-        "track": "Dernier Danse",
+        "track": "Dernière danse",
         "album": "Genoux A Terre",
         "printed_country": "France",
         "country": [
@@ -227458,7 +227424,6 @@
         "apple_id": 61187319,
         "apple_album_id": 61187508,
         "apple_artist_id": 1635929393,
-        "mb_id": null,
         "discogs_id": 24200207,
         "discogs_master_id": null,
         "year": 1999,
@@ -227596,7 +227561,7 @@
       },
       {
         "artist": "Alberto Iglesias",
-        "track": "No Me Gusto Que Escribas Sobre Mi",
+        "track": "No me gusta que escribas sobre mí",
         "album": "Todo Sobre Mi Madre",
         "printed_country": "Spain",
         "country": [
@@ -227667,7 +227632,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Spade Cooley & The Western Swing Dance Gong",
+        "artist": "Spade Cooley & The Western Swing Dance Gang",
         "track": "I Found A New Baby",
         "album": "Shame On You",
         "printed_country": "USA",
@@ -230302,9 +230267,9 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Воплi Вiдоплясова",
-        "track": "Були на селi",
-        "album": "Хвилi Амура",
+        "artist": "Воплі Відоплясова",
+        "track": "Були на селі",
+        "album": "Хвилі Амура",
         "printed_country": "Ukraine",
         "country": [
           "UA"
@@ -230474,7 +230439,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Cafe Tacuba",
+        "artist": "Café Tacvba",
         "track": "Muerte Chiquita",
         "album": "Yosoy/Reves",
         "printed_country": "Mexico",
@@ -230629,7 +230594,7 @@
     "playlist_hash": "67481b834e5c5e81",
     "tracks": [
       {
-        "artist": "The Tiger Lilies",
+        "artist": "The Tiger Lillies",
         "track": "Snip Snip",
         "album": "Shockheaded Peter",
         "printed_country": "UK",
@@ -230640,8 +230605,6 @@
         "apple_album_id": null,
         "apple_artist_id": 41260721,
         "mb_id": "ffbedb8f-9dec-4338-84cb-5bda520ab294",
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1995,
         "year_from": "musicbrainz"
       },
@@ -231658,7 +231621,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Kandia Konyate",
+        "artist": "Kandia Kouyate",
         "track": "Kandali",
         "album": "Kita Kan",
         "printed_country": "Mali",
@@ -231668,9 +231631,6 @@
         "apple_id": 1244228861,
         "apple_album_id": 1244228526,
         "apple_artist_id": 82882989,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1998,
         "year_from": "apple"
       },
@@ -232440,7 +232400,7 @@
       },
       {
         "artist": "Rachel`s",
-        "track": "Cuts The Metal Gold",
+        "track": "Cuts the Metal Cold",
         "album": "Selenography",
         "printed_country": "USA",
         "country": [
@@ -232699,7 +232659,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Maria Saldago",
+        "artist": "María Salgado",
         "track": "A La Medianoche",
         "album": "Siete Modos De Guisar Las Berenjenas",
         "printed_country": "Spain",
@@ -232709,9 +232669,6 @@
         "apple_id": 596454913,
         "apple_album_id": 596454365,
         "apple_artist_id": 151345633,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1998,
         "year_from": "apple"
       },
@@ -233277,7 +233234,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Kandia Konyate",
+        "artist": "Kandia Kouyate",
         "track": "Kandali",
         "album": "Kita Kan",
         "printed_country": "Mali",
@@ -233287,9 +233244,6 @@
         "apple_id": 1244228861,
         "apple_album_id": 1244228526,
         "apple_artist_id": 82882989,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1998,
         "year_from": "apple"
       },
@@ -234398,7 +234352,7 @@
       },
       {
         "artist": "Penthouse",
-        "track": "The Pool At Blood Gally",
+        "track": "The Pool at Blood Gulley",
         "album": "My Idle Hands",
         "printed_country": "UK",
         "country": [
@@ -234421,7 +234375,7 @@
       },
       {
         "artist": "Rasha",
-        "track": "N`na Dan Un Beijo",
+        "track": "N'na Dau Un Beijo",
         "album": "La Sal De La Vida",
         "printed_country": "Sudan",
         "country": [
@@ -234430,9 +234384,6 @@
         "apple_id": 600757896,
         "apple_album_id": 600757685,
         "apple_artist_id": 1454693781,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "apple"
       },
@@ -235390,7 +235341,7 @@
       },
       {
         "artist": "Ultra Bra",
-        "track": "Hei Kunle Suomi",
+        "track": "Hei kuule Suomi",
         "album": "Kalifornia",
         "printed_country": "Finland",
         "country": [
@@ -235562,7 +235513,7 @@
     "playlist_hash": "f072247d631cfa6d",
     "tracks": [
       {
-        "artist": "Marianne Faithful",
+        "artist": "Marianne Faithfull",
         "track": "Great Expectations",
         "album": "Vagabond Ways",
         "printed_country": "UK",
@@ -235638,7 +235589,7 @@
       },
       {
         "artist": "Faust",
-        "track": "Caroused II",
+        "track": "Carousel II",
         "album": "Ravvivando",
         "printed_country": "Germany",
         "country": [
@@ -235891,7 +235842,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Innerzone Orchesstra",
+        "artist": "Innerzone Orchestra",
         "track": "Bug In The Bass Bin",
         "album": "Programmed",
         "printed_country": "USA",
@@ -235901,9 +235852,6 @@
         "apple_id": 1753071900,
         "apple_album_id": null,
         "apple_artist_id": 14451577,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1992,
         "year_from": "apple"
       },
@@ -236407,7 +236355,7 @@
       },
       {
         "artist": "Robyn Hitchcock",
-        "track": "Elisabeth Jade",
+        "track": "Elizabeth Jade",
         "album": "Jewels For Sophia",
         "printed_country": "UK",
         "country": [
@@ -237176,7 +237124,7 @@
       },
       {
         "artist": "Grandaddy",
-        "track": "Away Birdies With Special Sound",
+        "track": "Away Birdies With Special Sounds",
         "album": "The Broken Down Comforter Collection",
         "printed_country": "USA",
         "country": [
@@ -237857,7 +237805,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Nightwares On Wax",
+        "artist": "Nightmares On Wax",
         "track": "Les Nuits",
         "album": "Carboot Soul",
         "printed_country": "UK",
@@ -237867,9 +237815,6 @@
         "apple_id": 1741039265,
         "apple_album_id": 1741039263,
         "apple_artist_id": 39883158,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1999,
         "year_from": "apple"
       },
@@ -238388,7 +238333,7 @@
       },
       {
         "artist": "The Flaming Lips",
-        "track": "Suddenly Everything Has Change",
+        "track": "Suddenly Everything Has Changed",
         "album": "The Soft Bulleting",
         "printed_country": "USA",
         "country": [
@@ -238413,8 +238358,8 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Luti-Illimani",
-        "track": "Autes De Amar De Nuevo",
+        "artist": "Inti-Illimani",
+        "track": "Antes de Amar de Nuevo",
         "album": "Amar De Nuevo",
         "printed_country": "Chile",
         "country": [
@@ -238423,9 +238368,6 @@
         "apple_id": 265510171,
         "apple_album_id": null,
         "apple_artist_id": 35981885,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1999,
         "year_from": "apple"
       },
@@ -238820,7 +238762,7 @@
     "playlist_hash": "4efd95f1888770a5",
     "tracks": [
       {
-        "artist": "Willard Graut Conspiracy",
+        "artist": "Willard Grant Conspiracy",
         "track": "Cat Nap In the Boom Boom Room",
         "album": "Mojave",
         "printed_country": "USA",
@@ -238830,9 +238772,6 @@
         "apple_id": 1665108145,
         "apple_album_id": 1665107236,
         "apple_artist_id": 6311823,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1999,
         "year_from": "apple"
       },
@@ -238928,7 +238867,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Samla Mambas Manna",
+        "artist": "Samla Mammas Manna",
         "track": "Satori",
         "album": "KaKa",
         "printed_country": "Sweden",
@@ -238938,9 +238877,6 @@
         "apple_id": 1534181971,
         "apple_album_id": 1534180771,
         "apple_artist_id": 118632912,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1999,
         "year_from": "apple"
       },
@@ -238991,7 +238927,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Danerfisch",
+        "artist": "Dauerfisch",
         "track": "Etchi Na Fruutsu Sarada",
         "album": "Crime Of The Century",
         "printed_country": "Germany",
@@ -239001,9 +238937,6 @@
         "apple_id": 203026670,
         "apple_album_id": 203024033,
         "apple_artist_id": 6455213,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1999,
         "year_from": "apple"
       },
@@ -239307,7 +239240,7 @@
       },
       {
         "artist": "Ignatus",
-        "track": "Fait Divers",
+        "track": "Faits divers",
         "album": "L`Air Est Different",
         "printed_country": "France",
         "country": [
@@ -239731,7 +239664,7 @@
       },
       {
         "artist": "Future Bible Heroes",
-        "track": "You Pretend To Be Moon",
+        "track": "You Pretend to Be the Moon",
         "album": "Memories Of Love",
         "printed_country": "UK",
         "country": [
@@ -239789,7 +239722,7 @@
       },
       {
         "artist": "Momus",
-        "track": "Mss X, An Ex-Lover",
+        "track": "Miss X, an Ex-Lover",
         "album": "Little Red Songbook",
         "printed_country": "UK",
         "country": [
@@ -240540,7 +240473,7 @@
       },
       {
         "artist": "Eläkeläiset",
-        "track": "Humpaa, saatanat!",
+        "track": "Humppaa, saatanat!",
         "album": "Verbung, Baby",
         "printed_country": "Finland",
         "country": [
@@ -241748,7 +241681,7 @@
       },
       {
         "artist": "Mr. Neveux",
-        "track": "Malcour s'eclate a Oswald Twistle",
+        "track": "Malcor s'éclate à Oswald Twistle",
         "album": "Tuba",
         "printed_country": "France",
         "country": [
@@ -242110,7 +242043,7 @@
       },
       {
         "artist": "Earl Brutus & Alan Vega",
-        "track": "On Me No In Me",
+        "track": "On Me Not in Me",
         "album": "Deceptive Fifty",
         "printed_country": "USA/UK",
         "country": [
@@ -242848,7 +242781,7 @@
       },
       {
         "artist": "Perry Blake",
-        "track": "Genevieve (The Pilot Of Your Things)",
+        "track": "Genevieve (The Pilot of Your Thighs)",
         "album": "Perry Blake",
         "printed_country": "UK",
         "country": [
@@ -243007,7 +242940,7 @@
       },
       {
         "artist": "Oh' Penelope",
-        "track": "Lait Au Mill",
+        "track": "Lait au miel",
         "album": "Sushi 4004",
         "printed_country": "Japan",
         "country": [
@@ -243770,7 +243703,7 @@
       },
       {
         "artist": "Hal Willner",
-        "track": "Hal sings 'The Fatal of Beer' while Ralph honks",
+        "track": "Hal Sings 'The Fatal Glass of Beer' While Ralph Honks",
         "album": "Whoops, I'm An Indian",
         "printed_country": "USA",
         "country": [
@@ -243915,7 +243848,7 @@
       },
       {
         "artist": "Сергей Курёхин",
-        "track": "Стыпан да Дывчiна",
+        "track": "Стыпан да дывчина",
         "album": "Детский Альбом",
         "printed_country": "Russia",
         "country": [
@@ -244239,7 +244172,7 @@
       },
       {
         "artist": "Hugo Race & The True Spirit",
-        "track": "Blood From the Stone",
+        "track": "Blood From a Stone",
         "album": "Chemical Wedding",
         "printed_country": "Australia/Germany",
         "country": [
@@ -244264,7 +244197,7 @@
       },
       {
         "artist": "Muzsikas",
-        "track": "Furesi Ritka Magyar (Lad's Demo From F…)",
+        "track": "Füzesi Ritka Magyar (Lads' Dance from Fuzes)",
         "album": "The Bartok Album",
         "printed_country": "Hungary",
         "country": [
@@ -244349,7 +244282,7 @@
       },
       {
         "artist": "Le Tone",
-        "track": "Joll Dragon",
+        "track": "Joli dragon",
         "album": "Le Petit Nabab",
         "printed_country": "France",
         "country": [
@@ -244388,7 +244321,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Victoria Tolstoy",
+        "artist": "Viktoria Tolstoy",
         "track": "Venus & Mars",
         "album": "White Russian",
         "printed_country": "Sweden",
@@ -244771,7 +244704,7 @@
       },
       {
         "artist": "Csókolom",
-        "track": "Amari, Sri, Amari",
+        "track": "Amari Szi, Amari",
         "album": "May I Kiss Your Hand",
         "printed_country": "Holland",
         "country": [
@@ -245665,7 +245598,7 @@
       },
       {
         "artist": "Di Naye Kapelye",
-        "track": "Shlamke's Russian Dance",
+        "track": "Shloimke's Russian Dance",
         "album": "Di Naye Kapelye",
         "printed_country": "USA",
         "country": [
@@ -246138,7 +246071,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Malka Spiegel",
+        "artist": "Malka Spigel",
         "track": "The Fishes & the Shining Sea",
         "album": "My Pet Fish",
         "printed_country": "Israel/UK",
@@ -246149,9 +246082,6 @@
         "apple_id": 323513081,
         "apple_album_id": 323513049,
         "apple_artist_id": 323406918,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1998,
         "year_from": "apple"
       },
@@ -246188,7 +246118,7 @@
       },
       {
         "artist": "Kahimi Karie",
-        "track": "The Way You Close Youe Eyes",
+        "track": "When You Close Your Eyes",
         "album": "Kahimi Karie",
         "printed_country": "Japan",
         "country": [
@@ -246462,7 +246392,7 @@
       },
       {
         "artist": "Ajala",
-        "track": "Bring Down The Rythm",
+        "track": "Bring Down the Rhythm",
         "album": "Rituals Of Trinidad Carnival",
         "printed_country": "Trinidad",
         "country": [
@@ -246472,8 +246402,6 @@
         "apple_album_id": null,
         "apple_artist_id": 1516875836,
         "mb_id": "b620c55b-4247-4ba5-81d7-52a3f1ad5296",
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "musicbrainz"
       },
@@ -247078,7 +247006,7 @@
       },
       {
         "artist": "The Tragically Hip",
-        "track": "Tompson Girl",
+        "track": "Thompson Girl",
         "album": "Phantom Power",
         "printed_country": "Canada",
         "country": [
@@ -247700,17 +247628,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Скрябiн",
+        "artist": "Скрябін",
         "track": "Behind The Wheel",
         "album": "Депеша для Depeche Mode",
         "printed_country": "Ukraine",
         "country": [
           "UA"
         ],
-        "apple_id": null,
         "mb_id": "a00eeae0-a423-4657-8939-e2f8411aa7f3",
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1998,
         "year_from": "musicbrainz"
       },
@@ -247971,7 +247896,7 @@
       },
       {
         "artist": "Susan McKeown",
-        "track": "A Mhaire Bhruineall",
+        "track": "A Mhaire Bhruinneall",
         "album": "Bushes & Briars",
         "printed_country": "USA",
         "country": [
@@ -248259,7 +248184,7 @@
       },
       {
         "artist": "Die Goldenen Zitronen",
-        "track": "Ice Berthold Brecht",
+        "track": "ICE Bertholt Brecht",
         "album": "Dead School Hamburg",
         "printed_country": "Germany",
         "country": [
@@ -248328,7 +248253,7 @@
       },
       {
         "artist": "Plastikman",
-        "track": "Coutain",
+        "track": "Contain",
         "album": "Consumed",
         "printed_country": "Canada",
         "country": [
@@ -248337,7 +248262,6 @@
         "apple_id": 1507827877,
         "apple_album_id": 1507827424,
         "apple_artist_id": 19379976,
-        "mb_id": null,
         "discogs_id": 2137,
         "discogs_master_id": 37441,
         "discogs_genres": [
@@ -248493,7 +248417,7 @@
       },
       {
         "artist": "The High Llamas",
-        "track": "Milting Tindmills",
+        "track": "Tilting Windmills",
         "album": "Lollo Rosso",
         "printed_country": "UK",
         "country": [
@@ -248502,7 +248426,6 @@
         "apple_id": 1442669126,
         "apple_album_id": null,
         "apple_artist_id": 5568913,
-        "mb_id": null,
         "discogs_id": 3312,
         "discogs_master_id": 34538,
         "discogs_genres": [
@@ -248916,7 +248839,7 @@
       },
       {
         "artist": "Stony Sleep",
-        "track": "Christman On Mars",
+        "track": "Christmas on Mars",
         "album": "A Slack Romance",
         "printed_country": "UK",
         "country": [
@@ -249499,7 +249422,7 @@
     "tracks": [
       {
         "artist": "Combustible Edison",
-        "track": "Mr. Pushkin Came To Shore",
+        "track": "Mr. Pushkin Came to Shove",
         "album": "The Impossible World",
         "printed_country": "USA",
         "country": [
@@ -249936,7 +249859,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Chris Isaac",
+        "artist": "Chris Isaak",
         "track": "Black Flowers",
         "album": "Speak Of The Devil",
         "printed_country": "USA",
@@ -250001,7 +249924,7 @@
       },
       {
         "artist": "Hooverphonic",
-        "track": "Club Montepuleiano",
+        "track": "Club Montepulciano",
         "album": "Blue Wonder Power Milk",
         "printed_country": "Belgium",
         "country": [
@@ -250329,7 +250252,7 @@
       },
       {
         "artist": "Maalesh",
-        "track": "Wassi Wassa",
+        "track": "Wassi Wassi",
         "album": "Decouvertes Afrique",
         "printed_country": "Comores",
         "country": [
@@ -250489,7 +250412,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "John Fakey",
+        "artist": "John Fahey",
         "track": "West Coast Blues",
         "album": "The Legend Of Blind Joe Death",
         "printed_country": "USA",
@@ -250499,14 +250422,11 @@
         "apple_id": 1442924797,
         "apple_album_id": 1442924495,
         "apple_artist_id": 10690,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1996,
         "year_from": "apple"
       },
       {
-        "artist": "John Fakey",
+        "artist": "John Fahey",
         "track": "The Story Of Dorothy Gooch",
         "album": "The Voice Of the Turtle",
         "printed_country": "USA",
@@ -250516,14 +250436,11 @@
         "apple_id": 1442450275,
         "apple_album_id": 1442449475,
         "apple_artist_id": 10690,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1968,
         "year_from": "apple"
       },
       {
-        "artist": "John Fakey",
+        "artist": "John Fahey",
         "track": "The Waltz That Carried Us Away And Than A Mosquito Came And Ate Up My Sweatheart",
         "album": "America",
         "printed_country": "USA",
@@ -250533,14 +250450,11 @@
         "apple_id": 1442462070,
         "apple_album_id": 1442461836,
         "apple_artist_id": 10690,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1971,
         "year_from": "apple"
       },
       {
-        "artist": "John Fakey & Cul De Sac",
+        "artist": "John Fahey & Cul de Sac",
         "track": "The New red Pony",
         "album": "The Epiphany Of Glenn Jones",
         "printed_country": "USA",
@@ -251216,8 +251130,8 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "The Lonegome Organist",
-        "track": "Ratt Advance On The Windsor Dec",
+        "artist": "The Lonesome Organist",
+        "track": "Ratt Advance on the Windsor Deluxe",
         "album": "Collector Of Cactus Echo Bags",
         "printed_country": "USA",
         "country": [
@@ -251226,9 +251140,6 @@
         "apple_id": 5508330,
         "apple_album_id": 5508366,
         "apple_artist_id": 5508321,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "apple"
       },
@@ -251333,7 +251244,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "The Jesus And Mary Ckain",
+        "artist": "The Jesus and Mary Chain",
         "track": "Perfume",
         "album": "Munki",
         "printed_country": "UK",
@@ -251492,7 +251403,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "The Brian Johnstone Massacre",
+        "artist": "The Brian Jonestown Massacre",
         "track": "Let’s Pretend It’s Summer",
         "album": "Strung Out In Heaven",
         "printed_country": "USA",
@@ -251502,9 +251413,6 @@
         "apple_id": 311277145,
         "apple_album_id": 311277091,
         "apple_artist_id": 32885261,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "apple"
       },
@@ -251687,7 +251595,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Candan Ersetin",
+        "artist": "Candan Erçetin",
         "track": "Oyalama Artik",
         "album": "Oyalama Artik",
         "printed_country": "Turkey",
@@ -251697,14 +251605,11 @@
         "apple_id": 6766245611,
         "apple_album_id": null,
         "apple_artist_id": 172306433,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1998,
         "year_from": "apple"
       },
       {
-        "artist": "Gomes",
+        "artist": "Gomez",
         "track": "Get Myself Arrested",
         "album": "Bring It On",
         "printed_country": "UK",
@@ -251714,9 +251619,6 @@
         "apple_id": 1383478723,
         "apple_album_id": 1383478428,
         "apple_artist_id": 649118,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1998,
         "year_from": "apple"
       },
@@ -252420,7 +252322,7 @@
       },
       {
         "artist": "Nidi D'Arac",
-        "track": "Qualche fiata с'ha pensare",
+        "track": "Qualche fiata c'ha pensare",
         "album": "Mmacarie",
         "printed_country": "Italy",
         "country": [
@@ -252624,7 +252526,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "The Brian Setzer Orchesra",
+        "artist": "The Brian Setzer Orchestra",
         "track": "Nosey Joe",
         "album": "The Dirty Boogie",
         "printed_country": "USA",
@@ -252634,9 +252536,6 @@
         "apple_id": 1440903455,
         "apple_album_id": 1440903312,
         "apple_artist_id": 105412,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1998,
         "year_from": "apple"
       },
@@ -253224,7 +253123,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Timna Braner",
+        "artist": "Timna Brauer",
         "track": "Sei Yona",
         "album": "Jewish Spirituals",
         "printed_country": "Israel",
@@ -253234,9 +253133,6 @@
         "apple_id": 402638785,
         "apple_album_id": 402638777,
         "apple_artist_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1996,
         "year_from": "apple"
       },
@@ -253476,7 +253372,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Sarah McLahlan",
+        "artist": "Sarah McLachlan",
         "track": "Sweet Surrender",
         "album": "Surfacing",
         "printed_country": "USA",
@@ -253486,9 +253382,6 @@
         "apple_id": 388154200,
         "apple_album_id": 388153718,
         "apple_artist_id": 111192,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "apple"
       },
@@ -254032,7 +253925,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Туманный cтон",
+        "artist": "Туманный стон",
         "track": "Море",
         "album": "Zorro",
         "printed_country": "Russia",
@@ -254042,7 +253935,6 @@
         "apple_id": 1514150533,
         "apple_album_id": 1514150528,
         "apple_artist_id": 1450149684,
-        "mb_id": null,
         "discogs_id": 4534502,
         "discogs_master_id": 2315500,
         "discogs_genres": [
@@ -254155,8 +254047,8 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Rebecca Pigeon",
-        "track": "MacDougal`s Men",
+        "artist": "Rebecca Pidgeon",
+        "track": "MacDougall's Men",
         "album": "Four Marys",
         "printed_country": "USA",
         "country": [
@@ -254165,9 +254057,6 @@
         "apple_id": 1786078458,
         "apple_album_id": 1786078452,
         "apple_artist_id": 74863933,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "apple"
       },
@@ -254627,7 +254516,7 @@
       },
       {
         "artist": "Arab Strap",
-        "track": "Afterwords",
+        "track": "Afterwards",
         "album": "Phylophobia",
         "printed_country": "UK",
         "country": [
@@ -254636,7 +254525,6 @@
         "apple_id": 384679158,
         "apple_album_id": null,
         "apple_artist_id": 2989250,
-        "mb_id": null,
         "discogs_id": 28522,
         "discogs_master_id": 64701,
         "discogs_genres": [
@@ -254702,7 +254590,7 @@
         "year": null
       },
       {
-        "artist": "Funky Porcini",
+        "artist": "Funki Porcini",
         "track": "River Of Smack",
         "album": "Ninja Cuts",
         "printed_country": "UK",
@@ -254713,8 +254601,6 @@
         "apple_album_id": null,
         "apple_artist_id": 3629731,
         "mb_id": "49e8289a-ceb7-4fde-b07d-cee4812f0069",
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1998,
         "year_from": "musicbrainz"
       },
@@ -254875,7 +254761,7 @@
       },
       {
         "artist": "Dragon Blue",
-        "track": "In Convultion",
+        "track": "In Convolution",
         "album": "Hades Park",
         "printed_country": "Japan",
         "country": [
@@ -254947,7 +254833,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Henri Dikonge",
+        "artist": "Henri Dikongué",
         "track": "Ndol` Asu",
         "album": "C`est La Vie",
         "printed_country": "Cameroun",
@@ -254957,9 +254843,6 @@
         "apple_id": 312360875,
         "apple_album_id": 312360873,
         "apple_artist_id": 81174016,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "apple"
       },
@@ -255027,7 +254910,7 @@
       },
       {
         "artist": "Taraf de Haïdouks",
-        "track": "Sus La Pare Dientre Vii",
+        "track": "Sus la paru dintre vii",
         "album": "Dumbala Dumba",
         "printed_country": "Romania",
         "country": [
@@ -255313,7 +255196,7 @@
     "playlist_hash": "2f39c5c433262d87",
     "tracks": [
       {
-        "artist": "The Great Crusadas",
+        "artist": "The Great Crusades",
         "track": "How Can You Believe In Me?",
         "album": "The First Spilled Drink Of the Evening",
         "printed_country": "USA",
@@ -255323,9 +255206,6 @@
         "apple_id": 74445186,
         "apple_album_id": 74445215,
         "apple_artist_id": 23878415,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "apple"
       },
@@ -255472,7 +255352,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Dauerfirsh",
+        "artist": "Dauerfisch",
         "track": "HiHiHiHaHaHa",
         "album": "Tausen Gauz Legale Steuetricks",
         "printed_country": "Germany",
@@ -255482,15 +255362,12 @@
         "apple_id": 202961217,
         "apple_album_id": null,
         "apple_artist_id": 6455213,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "apple"
       },
       {
-        "artist": "Dauerfirsh",
-        "track": "Bitte Geken Sie Weiter",
+        "artist": "Dauerfisch",
+        "track": "Bitte gehen sie weiter",
         "album": "Tausen Gauz Legale Steuetricks",
         "printed_country": "Germany",
         "country": [
@@ -255499,9 +255376,6 @@
         "apple_id": 202961210,
         "apple_album_id": null,
         "apple_artist_id": 6455213,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "apple"
       },
@@ -255620,8 +255494,8 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "The Great Crusadas",
-        "track": "When the Stars Have Run Out Souls",
+        "artist": "The Great Crusades",
+        "track": "When the Stars Have Run Out of Souls",
         "album": "The First Spilled Drink Of the Evening",
         "printed_country": "USA",
         "country": [
@@ -255630,9 +255504,6 @@
         "apple_id": 74445155,
         "apple_album_id": 74445215,
         "apple_artist_id": 23878415,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "apple"
       }
@@ -256190,7 +256061,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "James Graut",
+        "artist": "James Grant",
         "track": "Sawdust In My Veins",
         "album": "Sawdust In My Veins",
         "printed_country": "UK",
@@ -256200,9 +256071,6 @@
         "apple_id": 659069104,
         "apple_album_id": 659068843,
         "apple_artist_id": 1436141376,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1998,
         "year_from": "apple"
       },
@@ -256453,8 +256321,8 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Larla O’lionaird",
-        "track": "Aoibhinn Cronau",
+        "artist": "Iarla Ó Lionáird",
+        "track": "Aoibhinn Cronan",
         "album": "The Seven Steps to Mercy",
         "printed_country": "Ireland",
         "country": [
@@ -256463,9 +256331,6 @@
         "apple_id": 1653927767,
         "apple_album_id": 1653927591,
         "apple_artist_id": 79279917,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "apple"
       },
@@ -256515,7 +256380,7 @@
       },
       {
         "artist": "Kate St. John",
-        "track": "Songs And Silhonettes",
+        "track": "Songs and Silhouettes",
         "album": "Second Sight",
         "printed_country": "UK",
         "country": [
@@ -256554,7 +256419,7 @@
       },
       {
         "artist": "Count Basic",
-        "track": "Speechliss Drum & Bass",
+        "track": "Speechless Drum & Bass",
         "album": "The Eclectic Sound Of Vienna",
         "printed_country": "Austria",
         "country": [
@@ -256907,7 +256772,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Fay Lovsky & La Bande Dessince",
+        "artist": "Fay Lovsky & La Bande Dessinée",
         "track": "Food Is the Enemy",
         "album": "Numbers",
         "printed_country": "Holland",
@@ -256928,7 +256793,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Fay Lovsky & La Bande Dessince",
+        "artist": "Fay Lovsky & La Bande Dessinée",
         "track": "Funny Bizniz",
         "album": "Numbers",
         "printed_country": "Holland",
@@ -257114,7 +256979,7 @@
       },
       {
         "artist": "Carpet People",
-        "track": "Vampire Lodge",
+        "track": "Vampire Lounge",
         "album": "Assemble a Plug",
         "printed_country": "Sweden",
         "country": [
@@ -257472,7 +257337,7 @@
     "playlist_hash": "e2e47ce0e8a82066",
     "tracks": [
       {
-        "artist": "Larry & the Lefthauded",
+        "artist": "Larry & The Lefthanded",
         "track": "Dance Me Me",
         "album": "Quantum Rider",
         "printed_country": "Finland",
@@ -257837,7 +257702,7 @@
         "year": null
       },
       {
-        "artist": "Larry & the Lefthauded",
+        "artist": "Larry & The Lefthanded",
         "track": "Dagger Of Love",
         "album": "Quantum Rider",
         "printed_country": "Finland",
@@ -258239,7 +258104,7 @@
       },
       {
         "artist": "Susana Baca",
-        "track": "Tu Mirada Y Mi Vos",
+        "track": "Tu mirada y mi voz",
         "album": "Susana Baca",
         "printed_country": "Peru",
         "country": [
@@ -258350,7 +258215,7 @@
       },
       {
         "artist": "Mísia",
-        "track": "Misterio Do Fado",
+        "track": "Mistérios do fado",
         "album": "Tauto Menos Tauto Mais",
         "printed_country": "Portugal",
         "country": [
@@ -258967,7 +258832,7 @@
       },
       {
         "artist": "Björn Olsson",
-        "track": "MelankolinsLanga Arm",
+        "track": "Melankolins långa arm",
         "album": "Bjorn Olsson",
         "printed_country": "Sweden",
         "country": [
@@ -259634,7 +259499,7 @@
       },
       {
         "artist": "Radio Tarifa",
-        "track": "Mauana",
+        "track": "Mañana",
         "album": "Rumba Argelina",
         "printed_country": "Spain",
         "country": [
@@ -259643,7 +259508,6 @@
         "apple_id": 603349357,
         "apple_album_id": 603349150,
         "apple_artist_id": 6759357,
-        "mb_id": null,
         "discogs_id": 6758796,
         "discogs_master_id": 245950,
         "discogs_genres": [
@@ -259990,7 +259854,7 @@
       },
       {
         "artist": "Sielun Veljet",
-        "track": "Onnelinnen Paiva",
+        "track": "Onnellinen päivä",
         "album": "Alangolla",
         "printed_country": "Finland",
         "country": [
@@ -260633,7 +260497,7 @@
       },
       {
         "artist": "Kristin Hersh",
-        "track": "Garebo Tree",
+        "track": "Gazebo Tree",
         "album": "Strange Angels",
         "printed_country": "USA",
         "country": [
@@ -260783,7 +260647,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Choying Drolma & Steve Tibbets",
+        "artist": "Choying Drolma & Steve Tibbetts",
         "track": "Om Pana Phem",
         "album": "Cho",
         "printed_country": "UK/Tibet",
@@ -261491,7 +261355,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Natasha Atlas",
+        "artist": "Natacha Atlas",
         "track": "From Russia With Love",
         "album": "Shaken And Stirred",
         "printed_country": "UK",
@@ -261897,7 +261761,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Dolce Pontes",
+        "artist": "Dulce Pontes",
         "track": "Lela",
         "album": "Cancoes De Amor",
         "printed_country": "Portugal",
@@ -261907,7 +261771,6 @@
         "apple_id": 1486994455,
         "apple_album_id": null,
         "apple_artist_id": 398246,
-        "mb_id": null,
         "discogs_id": 4444802,
         "discogs_master_id": 592757,
         "discogs_genres": [
@@ -262160,7 +262023,7 @@
       },
       {
         "artist": "Brother JT",
-        "track": "On Mother",
+        "track": "Oh Mother",
         "album": "Rainy Day Fun",
         "printed_country": "USA",
         "country": [
@@ -262745,7 +262608,7 @@
       {
         "artist": "Air",
         "track": "Sexy Boy",
-        "album": "Мооn Safari",
+        "album": "Moon Safari",
         "printed_country": "France",
         "country": [
           "FR"
@@ -262924,14 +262787,12 @@
       },
       {
         "artist": "The Orchestre Murphy",
-        "track": "Pour Cole Рortег On It",
+        "track": "Pour Cole Porter On It",
         "album": "Bogtrotting",
         "printed_country": "UK",
         "country": [
           "GB"
         ],
-        "apple_id": null,
-        "mb_id": null,
         "discogs_id": 5226562,
         "discogs_master_id": 649681,
         "discogs_genres": [
@@ -263258,7 +263119,7 @@
       },
       {
         "artist": "Jacky Terrasson&Cassandra Wilson",
-        "track": "Old Devil Мооn",
+        "track": "Old Devil Moon",
         "album": "Rendezvous",
         "printed_country": "USA",
         "country": [
@@ -263267,8 +263128,6 @@
         "apple_id": 724773586,
         "apple_album_id": 724773565,
         "apple_artist_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
@@ -263336,15 +263195,12 @@
       },
       {
         "artist": "Sun Ra&Solar Infinity Arkestra",
-        "track": "Blues Оn Planet Mars",
+        "track": "Blues On Planet Mars",
         "album": "Sun Ra: The Singles",
         "printed_country": "USA",
         "country": [
           "US"
         ],
-        "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
         "year": null
       },
       {
@@ -263390,7 +263246,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Etienue De Crecy",
+        "artist": "Etienne de Crécy",
         "track": "Le Patron Est Devenu Fou",
         "album": "Super Discount",
         "printed_country": "France",
@@ -263400,9 +263256,6 @@
         "apple_id": 254034711,
         "apple_album_id": null,
         "apple_artist_id": 254027430,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1998,
         "year_from": "apple"
       },
@@ -263659,7 +263512,7 @@
       },
       {
         "artist": "Spaceheads",
-        "track": "Whatever Happened to Billy His Comedian?",
+        "track": "Whatever Happened to Billy the Comedian?",
         "album": "Spaceheads",
         "printed_country": "UK",
         "country": [
@@ -263717,7 +263570,7 @@
       },
       {
         "artist": "Spaceheads",
-        "track": "Shoot The Bass",
+        "track": "Shoot the Boss",
         "album": "Round The Outside",
         "printed_country": "UK",
         "country": [
@@ -263726,7 +263579,6 @@
         "apple_id": 1752491651,
         "apple_album_id": 1752491647,
         "apple_artist_id": 27457483,
-        "mb_id": null,
         "discogs_id": 860253,
         "discogs_master_id": 23386,
         "discogs_genres": [
@@ -263869,7 +263721,7 @@
     "tracks": [
       {
         "artist": "Jim White",
-        "track": "Book Of Angles",
+        "track": "Book of Angels",
         "album": "Wrong-Eyed Jesus",
         "printed_country": "USA",
         "country": [
@@ -264304,7 +264156,7 @@
       },
       {
         "artist": "Faze Action",
-        "track": "Original Disco Motoin",
+        "track": "Original Disco Motion",
         "album": "Plans & Designs",
         "printed_country": "UK",
         "country": [
@@ -264884,7 +264736,7 @@
       },
       {
         "artist": "Trancendental",
-        "track": "Istambul Uyurken",
+        "track": "İstanbul Uyurken",
         "album": "Il Bagno Turco",
         "printed_country": "Italy",
         "country": [
@@ -265215,7 +265067,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Bellemon Messaoud",
+        "artist": "Bellemou Messaoud",
         "track": "Zina",
         "album": "Wahran",
         "printed_country": "Algeria",
@@ -265225,9 +265077,6 @@
         "apple_id": 1805829275,
         "apple_album_id": null,
         "apple_artist_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1996,
         "year_from": "apple"
       },
@@ -265805,7 +265654,7 @@
       },
       {
         "artist": "David Shea",
-        "track": "Initiates B.B.",
+        "track": "Initials B.B.",
         "album": null,
         "printed_country": "USA",
         "country": [
@@ -265815,8 +265664,6 @@
         "apple_album_id": null,
         "apple_artist_id": 96845164,
         "mb_id": "d80a5175-6a2c-4a82-92ae-d5e416970b64",
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "musicbrainz"
       },
@@ -265863,7 +265710,7 @@
       },
       {
         "artist": "Simentera",
-        "track": "Dia e'tchuva bem",
+        "track": "Dia C'Tchuva Bem",
         "album": "Music From Cape Verde",
         "printed_country": "Cabo Verde",
         "country": [
@@ -266461,7 +266308,7 @@
       },
       {
         "artist": "RinneRadio",
-        "track": "Tamily Man",
+        "track": "Family Man",
         "album": "Unik",
         "printed_country": "Finland",
         "country": [
@@ -266599,7 +266446,7 @@
       },
       {
         "artist": "Lida Husik",
-        "track": "Tade Sister Cool",
+        "track": "Fade Sister Cool",
         "album": "Fly Stereophonic",
         "printed_country": "USA",
         "country": [
@@ -267078,14 +266925,13 @@
     "playlist_hash": "9914e22b610461d8",
     "tracks": [
       {
-        "artist": "Sixteen Horsepower",
+        "artist": "16 Horsepower",
         "track": "Dead Run",
         "album": "Low Estate",
         "printed_country": "USA",
         "country": [
           "US"
         ],
-        "apple_id": null,
         "mb_id": "83339223-f82c-4dda-8fa6-72771adb7d1e",
         "discogs_id": 389347,
         "discogs_master_id": 142840,
@@ -267101,7 +266947,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Natasha Atlas",
+        "artist": "Natacha Atlas",
         "track": "Moustahil",
         "album": "Halim",
         "printed_country": "UK",
@@ -267491,7 +267337,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Sixteen Horsepower",
+        "artist": "16 Horsepower",
         "track": "Sac Of Religion",
         "album": "Low Estate",
         "printed_country": "USA",
@@ -269231,7 +269077,7 @@
       },
       {
         "artist": "Biosphere",
-        "track": "Autennarea",
+        "track": "Antennaria",
         "album": "Substrata",
         "printed_country": "Norway",
         "country": [
@@ -269240,7 +269086,6 @@
         "apple_id": 1191753912,
         "apple_album_id": 1191753743,
         "apple_artist_id": 741110886,
-        "mb_id": null,
         "discogs_id": 15775,
         "discogs_master_id": 23402,
         "discogs_genres": [
@@ -269413,7 +269258,7 @@
         "year": null
       },
       {
-        "artist": "M-ziq",
+        "artist": "µ-Ziq",
         "track": "Mushroom Compost",
         "album": "Lunatic Harness",
         "printed_country": "USA",
@@ -269423,7 +269268,6 @@
         "apple_id": 724923008,
         "apple_album_id": 724922213,
         "apple_artist_id": null,
-        "mb_id": null,
         "discogs_id": 51329,
         "discogs_master_id": 21183,
         "discogs_genres": [
@@ -270856,7 +270700,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Spiritualised",
+        "artist": "Spiritualized",
         "track": "Come Together",
         "album": "Ladies And Gentlemen We Are Floating In Space",
         "printed_country": "UK",
@@ -270995,8 +270839,8 @@
       },
       {
         "artist": "Einstürzende Neubauten",
-        "track": "Zeichungen Des Patienten О. Т.",
-        "album": "Drawings Of Patient О. Т.",
+        "track": "Zeichungen Des Patienten O. T.",
+        "album": "Drawings Of Patient O. T.",
         "printed_country": "Germany",
         "country": [
           "DE"
@@ -271332,7 +271176,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Mark Almond & PJ Proby",
+        "artist": "Marc Almond & PJ Proby",
         "track": "Yesterday Has Gone (Balearico Mix)",
         "album": "Yesterday Has Gone",
         "printed_country": "USA/UK",
@@ -271855,7 +271699,7 @@
       },
       {
         "artist": "Amon Tobin",
-        "track": "One Dae In My Garden",
+        "track": "One Day in My Garden",
         "album": "Bricolage",
         "printed_country": "UK/Brasil",
         "country": [
@@ -271897,7 +271741,7 @@
         "year": null
       },
       {
-        "artist": "Malka Spiegel",
+        "artist": "Malka Spigel",
         "track": "Returning Wheel",
         "album": "Hide",
         "printed_country": "UK/Israel",
@@ -271908,9 +271752,6 @@
         "apple_id": 323407221,
         "apple_album_id": 323406759,
         "apple_artist_id": 323406918,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1997,
         "year_from": "apple"
       },
@@ -272183,7 +272024,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Calvin Russel",
+        "artist": "Calvin Russell",
         "track": "I Should Have Been Home",
         "album": "A Crack In Time",
         "printed_country": "USA",
@@ -272208,7 +272049,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Calvin Russel",
+        "artist": "Calvin Russell",
         "track": "Nothin’",
         "album": "A Crack In Time",
         "printed_country": "USA",
@@ -272233,7 +272074,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Calvin Russel",
+        "artist": "Calvin Russell",
         "track": "Little Stars",
         "album": "A Crack In Time",
         "printed_country": "USA",
@@ -272258,7 +272099,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Calvin Russel",
+        "artist": "Calvin Russell",
         "track": "My Love Is So",
         "album": "Calvin Russel",
         "printed_country": "USA",
@@ -272562,7 +272403,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Jean-Luis Murat",
+        "artist": "Jean-Louis Murat",
         "track": "Fort Alamo",
         "album": "La Yellow Collection",
         "printed_country": "France",
@@ -272572,9 +272413,6 @@
         "apple_id": 1256342354,
         "apple_album_id": null,
         "apple_artist_id": 14145809,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1996,
         "year_from": "apple"
       },
@@ -273191,7 +273029,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Barrence Whitfeld & The Savages",
+        "artist": "Barrence Whitfield & The Savages",
         "track": "Caveman",
         "album": "Ritual Of The Savages",
         "printed_country": "USA",
@@ -273324,7 +273162,7 @@
       },
       {
         "artist": "Sneaker Pimps",
-        "track": "Tesco Suicide",
+        "track": "Tesko Suicide",
         "album": "Becoming X",
         "printed_country": "USA",
         "country": [
@@ -274028,7 +273866,7 @@
       },
       {
         "artist": "Die Anarchistische Abendunterhaltung",
-        "track": "ler Drieslagstelsel",
+        "track": "Ie Drieslagstelsel",
         "album": "Magisches Theater",
         "printed_country": "Belgium",
         "country": [
@@ -274427,7 +274265,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "John Mayal",
+        "artist": "John Mayall",
         "track": "Stone Cold Deal",
         "album": "Blues For The Lost Days",
         "printed_country": "UK",
@@ -276375,7 +276213,7 @@
     "tracks": [
       {
         "artist": "Cesária Evora",
-        "track": "Quern Bo E",
+        "track": "Quem bô ê",
         "album": "Cabo Verde",
         "printed_country": "Cabo Verde",
         "country": [
@@ -277515,7 +277353,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Antonina Krzyston",
+        "artist": "Antonina Krzysztoń",
         "track": "Kiedy Przyjdzie Dzien",
         "album": "Kiedy Przyjdzie Dzien",
         "printed_country": "Poland",
@@ -277525,9 +277363,6 @@
         "apple_id": 898729796,
         "apple_album_id": 898729750,
         "apple_artist_id": 78711070,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1996,
         "year_from": "apple"
       },
@@ -278341,7 +278176,7 @@
       },
       {
         "artist": "Negu Gorriak",
-        "track": "Hiri Guerrilaren Dantza",
+        "track": "Hiri gerrilaren dantza",
         "album": "Ustelkeria",
         "printed_country": "Spain",
         "country": [
@@ -278479,7 +278314,7 @@
       },
       {
         "artist": "Tenores Di Bitti",
-        "track": "Cauta A Ballu Seriu",
+        "track": "Cantu a ballu seriu",
         "album": "Intonos",
         "printed_country": "Italy",
         "country": [
@@ -278521,7 +278356,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Batterfly Garden",
+        "artist": "Butterfly Garden",
         "track": "Unlucky In Love",
         "album": "For You",
         "printed_country": "Norway",
@@ -278531,9 +278366,6 @@
         "apple_id": 297921079,
         "apple_album_id": 297921031,
         "apple_artist_id": 175001962,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1996,
         "year_from": "apple"
       },
@@ -278710,7 +278542,7 @@
       },
       {
         "artist": "Diamanda Galás",
-        "track": "Нее Shock Die",
+        "track": "Hee Shock Die",
         "album": "Schrei X",
         "printed_country": "USA",
         "country": [
@@ -278719,7 +278551,6 @@
         "apple_id": 1458548825,
         "apple_album_id": 1458548318,
         "apple_artist_id": 3451030,
-        "mb_id": null,
         "discogs_id": 235264,
         "discogs_master_id": 6766,
         "discogs_genres": [
@@ -278849,7 +278680,7 @@
       },
       {
         "artist": "Swans",
-        "track": "Emphathy",
+        "track": "Empathy",
         "album": "Soundtracks For The Blind",
         "printed_country": "USA",
         "country": [
@@ -278858,7 +278689,6 @@
         "apple_id": 911508646,
         "apple_album_id": 911508208,
         "apple_artist_id": 5580746,
-        "mb_id": null,
         "discogs_id": 329797,
         "discogs_master_id": 8895,
         "discogs_genres": [
@@ -278916,7 +278746,7 @@
       },
       {
         "artist": "Tranquility Bass",
-        "track": "Never Gouna End",
+        "track": "Never Gonna End",
         "album": "Let The FReak Flag Fly",
         "printed_country": "USA",
         "country": [
@@ -279050,7 +278880,7 @@
       },
       {
         "artist": "Karel Kryl",
-        "track": "Morituri Те Salutant",
+        "track": "Morituri Te Salutant",
         "album": "To Nejlepsi",
         "printed_country": "Czech Republic",
         "country": [
@@ -279188,7 +279018,7 @@
       },
       {
         "artist": "James",
-        "track": "Waltzing Alone",
+        "track": "Waltzing Along",
         "album": "Whiplash",
         "printed_country": "UK",
         "country": [
@@ -279197,7 +279027,6 @@
         "apple_id": 1442989301,
         "apple_album_id": 1442989104,
         "apple_artist_id": 130451,
-        "mb_id": null,
         "discogs_id": 567315,
         "discogs_master_id": 3705,
         "discogs_genres": [
@@ -279790,7 +279619,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Le Pat",
+        "artist": "La Pat",
         "track": "Tristesse",
         "album": "Tristesse",
         "printed_country": "Holland",
@@ -279800,9 +279629,6 @@
         "apple_id": 1354233586,
         "apple_album_id": null,
         "apple_artist_id": 1308196151,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1996,
         "year_from": "apple"
       },
@@ -280747,7 +280573,7 @@
         "year": null
       },
       {
-        "artist": "Harold Butt",
+        "artist": "Harold Budd",
         "track": "Steven Brown",
         "album": "Luxa",
         "printed_country": "UK",
@@ -280757,9 +280583,6 @@
         "apple_id": 761196685,
         "apple_album_id": 761196637,
         "apple_artist_id": 165411,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1996,
         "year_from": "apple"
       },
@@ -281302,7 +281125,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Gilliam Welch",
+        "artist": "Gillian Welch",
         "track": "Pass You By",
         "album": "Revival",
         "printed_country": "USA",
@@ -281312,9 +281135,6 @@
         "apple_id": 1371429892,
         "apple_album_id": 1371429224,
         "apple_artist_id": 1579339,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1996,
         "year_from": "apple"
       },
@@ -281929,7 +281749,7 @@
         "year": null
       },
       {
-        "artist": "Ivan Krai",
+        "artist": "Ivan Kral",
         "track": "Winner Takes All",
         "album": "Nostalgia",
         "printed_country": "USA/Czech Republic",
@@ -281940,9 +281760,6 @@
         "apple_id": 407909755,
         "apple_album_id": 407909736,
         "apple_artist_id": 187598,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1996,
         "year_from": "apple"
       },
@@ -282444,7 +282261,7 @@
       },
       {
         "artist": "Jah Wobble",
-        "track": "Songs Of Innosence",
+        "track": "Songs of Innocence",
         "album": "The Inspiration Of William Blake",
         "printed_country": "UK",
         "country": [
@@ -283223,7 +283040,7 @@
       },
       {
         "artist": "Man or Astro-Man?",
-        "track": "Televisin Fission",
+        "track": "Television Fission",
         "album": "Experiment Zero",
         "printed_country": "USA",
         "country": [
@@ -283324,13 +283141,12 @@
       },
       {
         "artist": "Tokyo`s Coolest Combo",
-        "track": "Comment Те Dire Adieu",
+        "track": "Comment Te Dire Adieu",
         "album": "Sushi 3003: A Spectacular Collection Of Japanese Clubpop",
         "printed_country": "Japan",
         "country": [
           "JP"
         ],
-        "apple_id": null,
         "mb_id": "7a4369b4-859b-4e3e-b559-c8b8b397e381",
         "discogs_id": 7413177,
         "discogs_master_id": 1225708,
@@ -283413,7 +283229,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Shirley Ann Hoffman",
+        "artist": "Shirley Anne Hofmann",
         "track": "The Genius",
         "album": "From The Depths",
         "printed_country": "Switzerland",
@@ -283423,9 +283239,6 @@
         "apple_id": 251009756,
         "apple_album_id": 251009642,
         "apple_artist_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1995,
         "year_from": "apple"
       },
@@ -283486,7 +283299,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Psycosonik",
+        "artist": "Psykosonik",
         "track": "Ride",
         "album": "Unlearn",
         "printed_country": "USA",
@@ -283496,9 +283309,6 @@
         "apple_id": 311382779,
         "apple_album_id": 311382766,
         "apple_artist_id": 135661121,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1995,
         "year_from": "apple"
       },
@@ -284038,7 +283848,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Neon Judgment",
+        "artist": "The Neon Judgement",
         "track": "Johnny",
         "album": "We`re All Frankies",
         "printed_country": "Belgium",
@@ -285832,7 +285642,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Les Claypool & The Holly Mackerel",
+        "artist": "Les Claypool and The Holy Mackerel",
         "track": "Granny's Little Yard Gnome",
         "album": "High Ball With The Devil",
         "printed_country": "USA",
@@ -286482,7 +286292,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Casino Royal",
+        "artist": "Casino Royale",
         "track": "Ogni Singolo Giorno",
         "album": "Sempre Piu` Vicini",
         "printed_country": "Italy",
@@ -286492,9 +286302,6 @@
         "apple_id": 1860373748,
         "apple_album_id": 1860373740,
         "apple_artist_id": 26273167,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1995,
         "year_from": "apple"
       },
@@ -287657,7 +287464,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Howie В",
+        "artist": "Howie B",
         "track": "Away Again",
         "album": "Music For Babies",
         "printed_country": "UK",
@@ -287667,9 +287474,6 @@
         "apple_id": 1444167712,
         "apple_album_id": 1444167032,
         "apple_artist_id": 16154616,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
         "year": 1996,
         "year_from": "apple"
       },
