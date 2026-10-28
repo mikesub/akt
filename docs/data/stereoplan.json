@@ -1,5 +1,292 @@
 [
   {
+    "guid": "c63508d8-2cdf-47f5-aacc-57692fb94d47",
+    "number": 91,
+    "title": "🎶 Стереоплан Троицкого* #91 - \"Серьезные\" музыканты, повлиявшие на The Beatles, чешский софт-рок и свежий трек Peaches\".",
+    "published_at": "2026-10-26T06:00:00.000Z",
+    "url": "https://stereoplantroitsky.mave.digital/ep-93",
+    "mp3_url": "https://api.mave.digital/storage/podcasts/5eb88210-d265-4315-8405-4982ead857cb/episodes/819cfc2c-2138-45a9-9d57-b46a57a75ec3.mp3",
+    "duration_sec": 3886,
+    "playlist_hash": "78e4b5592e52e449",
+    "tracks": [
+      {
+        "artist": "Peaches",
+        "track": "Take it",
+        "album": "NO LUBE, SO RUDE",
+        "printed_country": "Canada",
+        "country": [
+          "CA"
+        ],
+        "apple_id": 1856065388,
+        "apple_album_id": 1856064995,
+        "apple_artist_id": 3028600,
+        "mb_id": "c52761fb-0d0a-4a27-870f-f8384e3ccc05",
+        "discogs_id": 36426532,
+        "discogs_master_id": 4135879,
+        "discogs_genres": [
+          "Electronic",
+          "Rock",
+          "Pop"
+        ],
+        "discogs_styles": [
+          "Industrial",
+          "Electroclash",
+          "Synth-pop",
+          "Punk"
+        ],
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Damask Rose",
+        "track": "In your arms",
+        "album": "ALL THAT HAS NOT YET BEEN LOST",
+        "printed_country": "Czechia/UK",
+        "country": [
+          "CZ",
+          "GB"
+        ],
+        "apple_id": 1850720515,
+        "apple_album_id": 1850720168,
+        "apple_artist_id": 1517163341,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
+        "year": 2025,
+        "year_from": "apple"
+      },
+      {
+        "artist": "Fluke",
+        "track": "Atom bomb",
+        "album": "GOING OUT OF MY HEAD: ADVENTURES ON THE INDIE DANCEFLOOR 1995-1999",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 716170499,
+        "apple_album_id": null,
+        "apple_artist_id": 15152248,
+        "mb_id": "4c17f7da-eedc-45dd-80de-1c02c77e9a18",
+        "discogs_id": 62242,
+        "discogs_master_id": 116432,
+        "discogs_genres": [
+          "Electronic"
+        ],
+        "discogs_styles": [
+          "Breakbeat",
+          "House"
+        ],
+        "year": 1996,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Hooverphonic",
+        "track": "2Wicky",
+        "album": "GOING OUT OF MY HEAD: ADVENTURES ON THE INDIE DANCEFLOOR 1995-1999",
+        "printed_country": "Belgium",
+        "country": [
+          "BE"
+        ],
+        "apple_id": 171177844,
+        "apple_album_id": null,
+        "apple_artist_id": 475672,
+        "mb_id": "8b8adaf1-910f-4a07-9b48-0aafc452aca9",
+        "discogs_id": 9388418,
+        "discogs_master_id": 321532,
+        "discogs_genres": [
+          "Electronic"
+        ],
+        "discogs_styles": [
+          "Breakbeat",
+          "Downtempo"
+        ],
+        "year": 1996,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Moloko",
+        "track": "Fun for me",
+        "album": "GOING OUT OF MY HEAD: ADVENTURES ON THE INDIE DANCEFLOOR 1995-1999",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 1436533483,
+        "apple_album_id": null,
+        "apple_artist_id": 3979359,
+        "mb_id": "12b91652-e0b7-46b1-a226-ff2c495bbb49",
+        "discogs_id": 14244299,
+        "discogs_master_id": 59904,
+        "discogs_genres": [
+          "Electronic"
+        ],
+        "discogs_styles": [
+          "House"
+        ],
+        "year": 1995,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Bernard Herrmann",
+        "track": "Psycho: The Prelude",
+        "album": "ART MUSIC AND THE BEATLES",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
+        "year": null
+      },
+      {
+        "artist": "Johann Sebastian Bach",
+        "track": "The Brandenburg Concerto #2 in F major",
+        "album": "ART MUSIC AND THE BEATLES",
+        "printed_country": "Germany",
+        "country": [
+          "DE"
+        ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": 10979767,
+        "discogs_master_id": 4233696,
+        "discogs_genres": [
+          "Classical"
+        ],
+        "discogs_styles": [
+          "Baroque"
+        ],
+        "year": 1970,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "Iannis Xenakis",
+        "track": "Metastasis",
+        "album": "ART MUSIC AND THE BEATLES",
+        "printed_country": "Greece",
+        "country": [
+          "GR"
+        ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": 4074137,
+        "discogs_master_id": 64359,
+        "discogs_genres": [
+          "Classical"
+        ],
+        "discogs_styles": [
+          "Contemporary"
+        ],
+        "year": 1966,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "Jean Sibelius",
+        "track": "Symphony #7 in C major",
+        "album": "ART MUSIC AND THE BEATLES",
+        "printed_country": "Finland",
+        "country": [
+          "FI"
+        ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": 27770427,
+        "discogs_master_id": 752374,
+        "discogs_genres": [
+          "Classical"
+        ],
+        "discogs_styles": [
+          "Romantic"
+        ],
+        "year": 1956,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "Ravi Shankar",
+        "track": "Raga Mawra",
+        "album": "ART MUSIC AND THE BEATLES",
+        "printed_country": "India",
+        "country": [
+          "IN"
+        ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": null,
+        "discogs_master_id": null,
+        "year": null
+      },
+      {
+        "artist": "Nadine Shah",
+        "track": "Even light",
+        "album": "FILTHY UNDERNEATH",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 1712726475,
+        "apple_album_id": 1712726473,
+        "apple_artist_id": 334723473,
+        "mb_id": "a4a18bd1-62b8-476f-81ff-79aa64976c9d",
+        "discogs_id": 33152136,
+        "discogs_master_id": 3404521,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Alternative Rock",
+          "Indie Rock"
+        ],
+        "year": 2024,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Hugo Race & Gianni Maroccolo",
+        "track": "Phoenix",
+        "album": "THE VIGIL",
+        "printed_country": "Australia/Italy",
+        "country": [
+          "AU",
+          "IT"
+        ],
+        "apple_id": 1803001444,
+        "apple_album_id": 1803001442,
+        "apple_artist_id": null,
+        "mb_id": "a5a0a775-2a26-4a28-a588-98081f53f0ac",
+        "discogs_id": 33850581,
+        "discogs_master_id": 3831657,
+        "discogs_genres": [
+          "Blues",
+          "Pop"
+        ],
+        "discogs_styles": [
+          "Ballad",
+          "Electric Blues"
+        ],
+        "year": 2025,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Los Straightjackets",
+        "track": "Cry for a Beatle",
+        "album": "SOMOS LOS STRAIGHTJACKETS",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1809265905,
+        "apple_album_id": null,
+        "apple_artist_id": 2641611,
+        "mb_id": "c528b126-94d4-444a-8096-5c1cae5b67dd",
+        "discogs_id": null,
+        "discogs_master_id": null,
+        "year": 2025,
+        "year_from": "musicbrainz"
+      }
+    ]
+  },
+  {
     "guid": "2d11a99d-a354-4e1f-9b29-b43a9dd34a82",
     "number": 90,
     "title": "🎶 Стереоплан Троицкого* #90 - \"THE VACANT LOTS, ветераны английской \"новой волны\" и словенский фолк-рок\".",
@@ -5379,6 +5666,8 @@
         "country": [
           "GB"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "year": 2025,
         "year_from": "owner"
       },
@@ -19813,6 +20102,8 @@
         "country": [
           "BY"
         ],
+        "apple_id": null,
+        "mb_id": null,
         "year": 2023,
         "year_from": "owner"
       },
@@ -25643,6 +25934,10 @@
         "country": [
           "BY"
         ],
+        "apple_id": 1683295890,
+        "apple_album_id": 1683295886,
+        "apple_artist_id": 1683101491,
+        "mb_id": "4a908036-1f90-4995-a5e1-ef6e5a34c269",
         "year": 2023,
         "year_from": "owner"
       },
