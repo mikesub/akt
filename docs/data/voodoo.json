@@ -17866,17 +17866,10 @@
         "apple_album_id": 1090224388,
         "apple_artist_id": 25511209,
         "mb_id": "ff634bf1-586e-4442-815f-81d1ddd7138a",
-        "discogs_id": 2175372,
-        "discogs_master_id": 684255,
-        "discogs_genres": [
-          "Folk, World, & Country"
-        ],
-        "discogs_styles": [
-          "Brass Band",
-          "Romani"
-        ],
-        "year": 1999,
-        "year_from": "musicbrainz"
+        "discogs_id": 4702943,
+        "discogs_master_id": null,
+        "year": 2013,
+        "year_from": "owner"
       },
       {
         "artist": "Rio En Medio",
@@ -21190,10 +21183,10 @@
         "apple_album_id": 1753765119,
         "apple_artist_id": 108231420,
         "mb_id": "63d93a66-1e93-4a32-ac52-a4cb20515720",
-        "discogs_id": 2430076,
+        "discogs_id": 6804401,
         "discogs_master_id": null,
-        "year": 1995,
-        "year_from": "discogs"
+        "year": 2013,
+        "year_from": "owner"
       }
     ]
   },

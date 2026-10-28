@@ -4566,13 +4566,6 @@
     "why": "Discogs release 5391629 (master 743876, «Feel The Pulse Of Africa», 1988) has the track; MusicBrainz's 2000 is a later release's (Discogs releases dump, matched by track)"
   },
   {
-    "artist": "Brigitte Kaandorp",
-    "track": "Radiografisch bestuurbare zeilboot",
-    "year": 1991,
-    "year_from": "discogs",
-    "why": "Discogs release 7411883 (master 878276, «Kouwe Drukte», 1991) has the track; MusicBrainz's 2000 is a later release's (Discogs releases dump, matched by track)"
-  },
-  {
     "artist": "Alemayehu Eshete",
     "track": "Yelben Betayiw",
     "year": 1971,
@@ -5875,13 +5868,6 @@
     "why": "Discogs release 2220682 (master 363921, «Barefoot Rock With Rainer And Das Combo», 1986) has the track; MusicBrainz's 2013 is a later release's (Discogs releases dump, matched by track)"
   },
   {
-    "artist": "Bengt Berger",
-    "track": "Djupet",
-    "year": 1995,
-    "year_from": "discogs",
-    "why": "Discogs release 2430076 («Tarang», 1995) has the track; MusicBrainz's 2013 is a later release's (Discogs releases dump, matched by track)"
-  },
-  {
     "artist": "Iara Renno feat. Tom Ze",
     "track": "Conversa",
     "year": 2008,
@@ -6620,5 +6606,601 @@
     "track": "Possible",
     "country": ["SE"],
     "why": "FM Достоевский #102 prints the band as \"USA\", the country of its label, Maverick (#339 prints it as \"Sweden\"): the Swedish trio of Nina (now Nino) Ramsby, Ricky Tillblad and Carl-Michael Herlöfsson (Wikipedia; discogs.com/artist/24011); Sweden, the owner's word"
+  },
+  {
+    "artist": "Die Anarchistische Abendunterhaltung",
+    "track": "Ie Drieslagstelsel",
+    "apple_id": 1705968238,
+    "why": "FM Достоевский #37: «Ie Drieslagstelsel» (9:23), track 5 of the band's 1996 debut, on Apple Music its 2023 reissue «#1», as MusicBrainz's recording (9:21); the link was «Ve Drieslagstelsel», another part of the suite"
+  },
+  {
+    "artist": "Fat Boy Slim",
+    "track": "Song For Lindy",
+    "apple_id": 1436127754,
+    "why": "FM Достоевский #42: «Song for Lindy» (4:54) on «Better Living Through Chemistry» (1996), the album printed; the link was Sem Jacobs' remix of 2026, on the album's 30th anniversary edition"
+  },
+  {
+    "artist": "Etienne de Crécy",
+    "track": "Le Patron Est Devenu Fou",
+    "apple_id": 254396507,
+    "year": 1996,
+    "why": "FM Достоевский #64: «Le patron est devenu fou ! (with Minos)» (10:08) on «Super Discount», the album printed, first released as a 12\" of the Super Discount series, 1996-09-18 (discogs.com/release/1768268); the link, and Apple Music's 1998, were Charles Webster's remix on «Le patron est devenu fou ! (Remixes)»"
+  },
+  {
+    "artist": "Café Tacvba",
+    "track": "Muerte Chiquita",
+    "apple_id": 397724883,
+    "why": "FM Достоевский #161: «La Muerte Chiquita» (2:52) on «Tiempo Transcurrido» (2001), MusicBrainz's recording of «Revés/Yo soy» (1999, 2:53), the album printed, which Apple Music (nl) does not have; the link was the 2019 MTV Unplugged take"
+  },
+  {
+    "artist": "Afro Celt Sound System",
+    "track": "Sure-As-Not (Radio Mix)",
+    "apple_id": 1653885259,
+    "why": "FM Достоевский #22: «Sure-As-Not (Radio Edit)» (3:34) on «Whirl-Y-Reel: EP», the radio version printed; the link was the same EP's «Full Whack Dub» (6:51)"
+  },
+  {
+    "artist": "Mungal Patasar & Pantar",
+    "track": "Nirvana",
+    "apple_id": 327205793,
+    "why": "FM Достоевский #108: «Nirvana» (4:17) on «Nirvana», the album printed; the link was its «Nirvana (Reprise)»"
+  },
+  {
+    "artist": "Brassy",
+    "track": "I Can`t Wait",
+    "apple_id": 3027199,
+    "why": "FM Достоевский #207: «I Can't Wait» (2:54) on «Got It Made» (1999), the song with its vocals, as MusicBrainz's recording (2:55); the link was Rob Swift's instrumental on «Play Some D - EP»"
+  },
+  {
+    "artist": "KMFDM",
+    "track": "Son Of A Gun (Overhauled By Sascha Konietzko And Chris Shepard)",
+    "apple_id": 413112454,
+    "why": "FM Достоевский #9: «Son of a Gun (Overhauled Mix)» (3:41) on «EXTRA, Vol. 3», the mix printed (3:40 on MusicBrainz, on «Rules»); the link was the album take on «Xtort»"
+  },
+  {
+    "artist": "Swans",
+    "track": "Love of life (long version)",
+    "apple_id": 1054669212,
+    "why": "«Записки из подполья» #27: «Love of Life (Long)» (6:07) on «Love of Life», the long version printed; the link was the same EP's «Love of Life (Short)»"
+  },
+  {
+    "artist": "Primal Scream / The Chemical Brothers",
+    "track": "Swastika Eyes",
+    "apple_id": 6814911500,
+    "why": "FM Достоевский #173: «Swastika Eyes (Chemical Brothers Mix)» (6:33) on «XTRMNTR» (1999), the album printed, in its 2026 remaster (Apple Music (nl) does not play the 1999 edition); the link was the take on «Black to Comm» (2011)"
+  },
+  {
+    "artist": "Melys",
+    "track": "Ambulance Chaser",
+    "apple_id": 1198995307,
+    "why": "FM Достоевский #108: «Ambulance Chaser» (5:11) on «Rumours and Curses» (1998), the album printed, as MusicBrainz's recording (5:10); the link was the single (4:04)"
+  },
+  {
+    "artist": "Snog",
+    "track": "the ballad",
+    "apple_id": 414317813,
+    "why": "FM Достоевский #472: «The Ballad» (4:00) on «Buy Me... I'll Change Your Life» (1997), MusicBrainz's recording; the album printed, «Sixteen Easy Tunes For The End Times» (2006; discogs.com/release/700353), has it at 3:29, likely an edit; the link was Atom Heart's remix on «The Human Germ»"
+  },
+  {
+    "artist": "Lenine",
+    "track": "Relampiano",
+    "apple_id": 957595811,
+    "why": "FM Достоевский #164: «Relampiano» (4:39) on «Na Pressão» (1999), the album printed («Na Pressaor»), as MusicBrainz's recording; the link was the duet with Moska on «Nova Bis: Moska» (1997)"
+  },
+  {
+    "artist": "Lisa Miller",
+    "track": "False Waltz",
+    "apple_id": 6806302931,
+    "why": "FM Достоевский #45: «False Waltz» (4:05) on «Quiet Girl With A Credit Card» (1996), the album printed, as MusicBrainz's recording; the link was the take on «Meet the Misses» (2012)"
+  },
+  {
+    "artist": "Uzgin Uver",
+    "track": "II",
+    "apple_id": 827087001,
+    "year": 1999,
+    "why": "«Песни и пляски» #7: «II» (8:36) on «Úzgin Űver '99» (1999), the album printed («99»), as MusicBrainz's recording (8:35); the link and the year were the 1995 album's «II» (4:14)"
+  },
+  {
+    "artist": "Eläkeläiset",
+    "track": "Humppaa, saatanat!",
+    "apple_id": 842598868,
+    "why": "FM Достоевский #127: «Humppaa, saatanat!» (2:18) on «Werbung, Baby» (printed «Verbung, Baby»), as MusicBrainz's recording; the link was the take on «Humppakonsertto» (2007)"
+  },
+  {
+    "artist": "Faust Vs. Trillian",
+    "track": "Carousel II",
+    "apple_id": 48516171,
+    "year": 2001,
+    "why": "FM Достоевский #279: Trillian's remix, as printed: «Carousel II (Trillian Remix)» (4:27) on «Freispiel» (2002), first released on the promo «Ravvivando Remixes» (Klangbad, 2001; discogs.com/release/2256483); the link was Dan Miller & Gareth Jones' remix, and MusicBrainz's 1999 «Ravvivando»'s original"
+  },
+  {
+    "artist": "Closterkeller",
+    "track": "Wladza",
+    "apple_id": null,
+    "why": "FM Достоевский #2: «Władza» on «Cyan» (1996; 4:24 on Discogs and MusicBrainz), the album printed, which Apple Music (nl) does not have; the link was the 2026 re-recording on «reCYAN» (3:58)"
+  },
+  {
+    "artist": "Third Man",
+    "track": "Ho Allah Ho Akbar",
+    "apple_id": null,
+    "why": "FM Достоевский #116: «Ho Allah Ho Akhbar» (3:53) on «Dream On» (1998; discogs.com/release/1861950), the album printed, which Apple Music (nl) does not have; the link was «Tu Hi Allah Ho Akbar» on «One to One», another song"
+  },
+  {
+    "artist": "Innerzone Orchestra",
+    "track": "Bug In The Bass Bin",
+    "apple_id": null,
+    "year": 1999,
+    "why": "FM Достоевский #143: «Bug in the Bass Bin» on «Programmed» (1999), the album printed, a new recording (5:36 on MusicBrainz), which Apple Music (nl) does not have; the link (11:00, on «Sessions») and its 1992 were the first version's"
+  },
+  {
+    "artist": "Spiritualized",
+    "track": "Come Together",
+    "apple_id": null,
+    "why": "FM Достоевский #45: «Come Together» (4:40 on MusicBrainz) on «Ladies and Gentlemen We Are Floating in Space» (1997), the album printed, which Apple Music (nl) does not have; the link was a 3:22 version on «The Complete Works, Vol. 2»"
+  },
+  {
+    "artist": "The Neon Judgement",
+    "track": "Johnny",
+    "apple_id": null,
+    "why": "FM Достоевский #11: «Johnny» on «We're All Frankies» (1996, a Suicide tribute), the album printed, 5:05 on MusicBrainz; Apple Music (nl) has only a 3:01 take, on «Mixing 9ties» (2006), the link"
+  },
+  {
+    "artist": "Trancendental",
+    "track": "İstanbul Uyurken",
+    "apple_id": null,
+    "why": "FM Достоевский #60: «Istanbul Uyurken» on «Hamam - Il Bagno Turco» (1997), the soundtrack printed, 6:39 (its «Trance Version» 5:44; discogs.com/release/7124211); Apple Music (nl) has neither, the link was a 5:23 take on «Il Decamerone»"
+  },
+  {
+    "artist": "Willy De Ville",
+    "track": "Bacon Fat",
+    "apple_id": null,
+    "why": "FM Достоевский #137: aired 1999-09-29 from «Horse of a Different Colour» (1999), the studio album printed; Apple Music (nl) has only live takes, the link «Live in the Lowlands»'"
+  },
+  {
+    "artist": "The Tiger Lillies",
+    "track": "Snip Snip",
+    "apple_id": null,
+    "why": "FM Достоевский #160: «Snip Snip» on «Shockheaded Peter», the album printed; Apple Music (nl) has only the live take on «Live At the New Players Theatre», the link"
+  },
+  {
+    "artist": "Bellemou Messaoud",
+    "track": "Zina",
+    "apple_id": null,
+    "why": "FM Достоевский #59: «Zina» on «Wahran», the album printed; Apple Music (nl) has only live takes with Cheikh Mazouzi, the link one of them"
+  },
+  {
+    "artist": "Davie Allan & Phantom Surfers",
+    "track": "Extrasensory Deception",
+    "apple_id": null,
+    "why": "FM Достоевский #106: the Phantom Surfers' «Extrasensory Deception» (2:05 on MusicBrainz) on «Halloween Hootenanny» (1998), the album printed; Apple Music (nl) has only Davie Allan & The Arrows' recordings, the link one of them («Retrophonic», 2009)"
+  },
+  {
+    "artist": "Brigitte Kaandorp",
+    "track": "Radiografisch bestuurbare zeilboot",
+    "apple_id": null,
+    "discogs_id": 2038426,
+    "discogs_master_id": 878263,
+    "year": 1990,
+    "why": "FM Достоевский #212: aired from «Kaandorp Zingt» (2000), the album printed, whose «Radiografisch Bestuurbare Zeilboot» (2:45) is from her CD «2» (1990, «Zeilboot» 2:41; discogs.com/release/2038426, master 878263), as its notes say (discogs.com/release/2038541); Apple Music (nl) has neither; the link and the Discogs year were «Kouwe Drukte»'s live take of 1989 (4:28)"
+  },
+  {
+    "artist": "And One",
+    "track": "Mirror In Your Heart",
+    "apple_id": null,
+    "why": "FM Достоевский #33: «Mirror in Your Heart» on «Nordhausen» (1997), the album printed; Apple Music (nl) has only «Mirror in Your Heart (Live 2010)» on «Zerstörer», the link"
+  },
+  {
+    "artist": "Friends of Dean Martinez",
+    "track": "Ethchlorvynol",
+    "apple_id": null,
+    "why": "FM Достоевский #140: «Ethchlorvynol» on «Atardecer» (1999; 2:15 on MusicBrainz), the album printed; Apple Music (nl) has only the live take on «Live at Club 2» (2005), the link"
+  },
+  {
+    "artist": "Kali",
+    "track": "Kreyol",
+    "apple_id": null,
+    "why": "FM Достоевский #129: «Kreyol» on «Francofaune» (3:32 on MusicBrainz), the album printed; Apple Music (nl) has only the live take on «Kali Live en Espagne», the link"
+  },
+  {
+    "artist": "Brandi Ifgray",
+    "track": "Bones",
+    "apple_id": null,
+    "why": "FM Достоевский #135: «Bones» on «Stargazer» (1999; 4:27 on MusicBrainz), the album printed; Apple Music (nl) has only «Bones (Mixed)» on the DJ mix «Bill Brewster: Praxis», the link"
+  },
+  {
+    "artist": "Nicola Piovani",
+    "track": "La Vita E Bella",
+    "apple_id": null,
+    "why": "FM Достоевский #117: «La vita è bella» on the film's soundtrack (2:49 on MusicBrainz), the album printed; Apple Music (nl) has only a quintet's take on «In Quintetto» (2011), the link"
+  },
+  {
+    "artist": "Stock, Hausen & Walkman",
+    "track": "Weedy",
+    "apple_id": null,
+    "why": "FM Достоевский #80: «Weedy» on «Oh My Bag!» (2:35 on MusicBrainz), the album printed; Apple Music (nl) has only the festival take on «Angelica 1997», the link"
+  },
+  {
+    "artist": "Traci Lords",
+    "track": "Fallen Angel",
+    "apple_id": null,
+    "why": "FM Достоевский #16: «Fallen Angel» on «1000 Fires» (4:58 on Discogs), the album printed; Apple Music (nl) has only the remix on «Roadkill Remix, Vol. 2.12», the link"
+  },
+  {
+    "artist": "Venus",
+    "track": "Royalsucker",
+    "apple_id": null,
+    "why": "FM Достоевский #177: «Royalsucker» on «Welcome To The Modern Dance Hall» (2:05), the album printed; Apple Music (nl) has only the 6:54 take on «The Man Who Was Already Dead» (2000), the link"
+  },
+  {
+    "artist": "Mucca Macca",
+    "track": "Sneaking Beauty",
+    "apple_id": null,
+    "why": "FM Достоевский #180: «Sneaking Beauty» of «Mucca Macca» (1998), which has the song and a remix (discogs.com/release/1174806), MusicBrainz's recording the song (3:02); Apple Music (nl) has only Leo Cesari's remix, the link"
+  },
+  {
+    "artist": "Quarks",
+    "track": "Gut (Besser)",
+    "apple_id": null,
+    "discogs_id": 320525,
+    "discogs_master_id": null,
+    "year": 2000,
+    "why": "FM Достоевский #251: aired from «Rehmix» (2000), the album printed: «Gut (Besser) (Milch Und Mandel Mix)» (3:23; discogs.com/release/320525), as MusicBrainz's recording; Apple Music (nl) has only the original on «Königin» (1999), the link"
+  },
+  {
+    "artist": "Pere Ubu",
+    "track": "Silent Spring",
+    "apple_id": null,
+    "why": "FM Достоевский #81: «Pennsylvania» (1998), the album printed; Apple Music (nl) has it only as «(2021 Remix & Remaster)», a new mix, the link (no link to a recording that did not air, the owner's call)"
+  },
+  {
+    "artist": "Pere Ubu",
+    "track": "Fly’s Eye",
+    "apple_id": null,
+    "why": "FM Достоевский #81: «Pennsylvania» (1998), the album printed; Apple Music (nl) has it only as «(2021 Remix & Remaster)», a new mix, the link (no link to a recording that did not air, the owner's call)"
+  },
+  {
+    "artist": "Pizzicato Five",
+    "track": "Tout, Tout Pour Ma Cherie",
+    "apple_id": null,
+    "why": "FM Достоевский #199: 4:57 on the «Darlin' Of Discothèque E.P.» (1999; discogs.com/release/448062) and 4:54 on «The Fifth Release From Matador», the album printed; Apple Music (nl) has only a 3:59 take, on «PIZZICATO FIVE On Demand» (2021), the link"
+  },
+  {
+    "artist": "Pizzicato Five",
+    "track": "Such A Beautiful Girl Like You",
+    "apple_id": null,
+    "why": "FM Достоевский #116: 4:00 on «The International Playboy & Playgirl Record» (Discogs, MusicBrainz), the album printed; Apple Music (nl) has only a 4:28 take, on «The Band of 20th Century» (2004), the link"
+  },
+  {
+    "artist": "Perry Blake",
+    "track": "Genevieve (The Pilot of Your Thighs)",
+    "apple_id": null,
+    "why": "FM Достоевский #119: 4:21 on «Perry Blake» (Discogs, MusicBrainz), the album printed; Apple Music (nl) has only «Broken Statues»' take (2001, 5:06), the link"
+  },
+  {
+    "artist": "I Monster",
+    "track": "Daydream In Blue",
+    "apple_id": null,
+    "why": "FM Достоевский #244: 3:14 on «These Are Our Children» (Discogs; 3:13 on MusicBrainz), the album printed; Apple Music (nl) has only «Neveroddoreven»'s take (3:40), the link"
+  },
+  {
+    "artist": "Tom Waits",
+    "track": "Little Drop OF Poison",
+    "apple_id": null,
+    "why": "FM Достоевский #56: on the soundtrack of «The End of Violence» (1997), the album printed (4:03 on MusicBrainz, 3:55 on «Tales From The Underground 3»); Apple Music (nl) has only the 3:09–3:11 take of «Orphans» and «Shrek 2» (2004), the link"
+  },
+  {
+    "artist": "Headrillaz",
+    "track": "If I Let You Live",
+    "apple_id": null,
+    "why": "FM Достоевский #66: 4:00 on «Coldharbour Rocks» (Discogs, MusicBrainz), the album printed; Apple Music (nl) has only «Pussy Galore»'s take (5:26), the link"
+  },
+  {
+    "artist": "The Transistors",
+    "track": "spyderotica",
+    "apple_id": null,
+    "why": "FM Достоевский #345: the original on «Atelier», the album printed (3:22 as «Original Ver.» on the 12\" «Spyderotica», 2002); Apple Music (nl) has only Gak Sato's remix (3:28), the link"
+  },
+  {
+    "artist": "Runaways",
+    "track": "Finders Kreepers",
+    "apple_id": null,
+    "why": "FM Достоевский #56: 3:56 on MusicBrainz («Creative Trip Hop», 1997); Apple Music (nl) has only «Finders Keepers» on «Highway & Landscape 3» (2001, 4:24), the link"
+  },
+  {
+    "artist": "DJ Cam",
+    "track": "Hip Hop Opera",
+    "apple_id": null,
+    "why": "FM Достоевский #112: on «The Mighty Bop Meet DJ Cam Et La Funk Mob» (1995; 8:01 on MusicBrainz); Apple Music (nl) has only the live take on «Underground Live Act» (5:04), the link"
+  },
+  {
+    "artist": "Dick Dale",
+    "track": "The Eliminator",
+    "apple_id": null,
+    "year": 2001,
+    "why": "FM Достоевский #270: «The Eliminator» of «Spacial Disorientation» (2001; discogs.com/release/1357045; 3:08 on MusicBrainz), the album printed; the link and MusicBrainz's 1993 were «Tribal Thunder»'s take (2:25), Apple Music (nl) having no other"
+  },
+  {
+    "artist": "Michael Nyman Band",
+    "track": "An Eye For Optical Theory",
+    "album": "The Essential Michael Nyman Band",
+    "apple_id": null,
+    "why": "FM Достоевский #82: the album printed, «The Essential Michael Nyman Band» (1992; discogs.com/release/550289), has the band's re-recording (4:18), which Apple Music (nl) does not have; the link was the 1982 soundtrack's (5:13)"
+  },
+  {
+    "artist": "Jeans Team",
+    "track": "Hi Fans",
+    "album": "Ro 3003",
+    "apple_id": null,
+    "why": "FM Достоевский #85: aired before «Ding Dong» (2000): the band's debut 7\" «Hi Fans» (1998-09; discogs.com/release/265058) is 1:29, as «Ding Dong»'s special edition has it; Apple Music (nl) has only «Ding Dong»'s (2:40), the link"
+  },
+  {
+    "artist": "Arthur H",
+    "track": "Inséparables mais…",
+    "year": 2000,
+    "why": "FM Достоевский #257: «Pour Madame X» (France, 2000-09; discogs.com/release/654008), the album printed; MusicBrainz's earliest dated release of it is of 2001-10"
+  },
+  {
+    "artist": "Arthur H",
+    "track": "Inseparables, mais",
+    "year": 2000,
+    "why": "«Музыка на Свободе» #343: «Pour Madame X» (France, 2000-09; discogs.com/release/654008), the album printed; MusicBrainz's earliest dated release of it is of 2001-10"
+  },
+  {
+    "artist": "Sezen Aksu",
+    "track": "Sarı Odalar",
+    "year": 1999,
+    "why": "FM Достоевский #247: first released on the maxi-single «Sarı Odalar (Ben Seni Çok Sevdim Oğlum)» (1999-09-05; discogs.com/release/2477490), whose «Full Version» (5:50) is the take on «Deliveren» (2000, 5:47), the album printed; MusicBrainz now says 2000"
+  },
+  {
+    "artist": "Sue Garner & Rick Brown",
+    "track": "I Like the Name Alice",
+    "year": 2000,
+    "why": "FM Достоевский #190: «Still» (2000; Apple Music 2000-01-18, MusicBrainz's US release 2000-01), the album printed; MusicBrainz's 1990 is a Japanese release dated 1990-12-22, likely for 2000"
+  },
+  {
+    "artist": "Henri Dikongué",
+    "track": "Ndolo",
+    "year": 2000,
+    "why": "FM Достоевский #209: «N'Dolo» (5:04) on «N'Oublie Jamais» (2000; discogs.com/release/7852136), the album printed and Apple Music's link; MusicBrainz's 1999 is «Wa»'s take (1995, 3:34–3:39), another recording"
+  },
+  {
+    "artist": "Johnny Kongos & The G-Men",
+    "track": "900 miles",
+    "year": 1964,
+    "why": "FM Достоевский #737: «900 Miles» on «Oh Boy!» (RCA Victor, South Africa, 1964; discogs.com/release/2873381); MusicBrainz's 1999 is a German reissue («It's All Happening / Oh Boy!»)"
+  },
+  {
+    "artist": "Abandoned Pools",
+    "track": "ruin your life",
+    "year": 2001,
+    "why": "FM Достоевский #325: «Humanistic» (2001-09-25; discogs.com/release/446171), the album printed, its first release"
+  },
+  {
+    "artist": "Alan Vega & Marc Hurtado",
+    "track": "sacrifice",
+    "year": 2010,
+    "discogs_id": 2539002,
+    "discogs_master_id": 320146,
+    "why": "FM Достоевский #796: «Sacrifice» (4:05), track 9 of Marc Hurtado & Alan Vega's «Sniper» (Le Son Du Maquis, 2010-11-12; discogs.com/release/2539002, master 320146), the album printed; the Discogs link and MusicBrainz's 1995 were Alan Vega's «Dujang Prang» (1995), whose «Sacrifice» (5:39) is another recording"
+  },
+  {
+    "artist": "Marc Hurtado/Alan Vega",
+    "track": "Sacrifice",
+    "year": 2010,
+    "discogs_id": 2539002,
+    "discogs_master_id": 320146,
+    "why": "«Музыка на Свободе» #171: «Sacrifice» (4:05), track 9 of Marc Hurtado & Alan Vega's «Sniper» (Le Son Du Maquis, 2010-11-12; discogs.com/release/2539002, master 320146), the album printed («Snoper-3»); the Discogs link and MusicBrainz's 1995 were Alan Vega's «Dujang Prang» (1995), whose «Sacrifice» (5:39) is another recording"
+  },
+  {
+    "artist": "Alejandro Escovedo",
+    "track": "Bury me",
+    "year": 2024,
+    "why": "«Музыка на Свободе» #349: «Echo Dancing» (2024), the album printed, his songs recorded anew; «Bury Me» first came out on «Gravity» (1992, 5:24), another recording"
+  },
+  {
+    "artist": "Amparanoia",
+    "track": "moreno",
+    "year": 2008,
+    "why": "FM Достоевский #608: «Moreno (Remixes y rarezas)» on «Seguiré caminando» (2008), the album printed and Apple Music's link, MusicBrainz's recording only there (2008-06-06); «El Poder De Machín»'s «Moreno» (1997, 3:45) is another recording"
+  },
+  {
+    "artist": "Bengt Berger",
+    "track": "Djupet",
+    "year": 2013,
+    "discogs_id": 6804401,
+    "discogs_master_id": null,
+    "why": "Stereo Voodoo #70: «Djupet» (3:22) on «Beches Brew Big» (Country & Eastern, 2013; discogs.com/release/6804401), the album printed, recorded live in Stockholm and Gothenburg in September 2012; the Discogs link was «Tarang» (1995), whose «Djupet» (3:17) is another recording"
+  },
+  {
+    "artist": "Boubacar Traoré",
+    "track": "mouso teke soma ye",
+    "year": 2002,
+    "why": "FM Достоевский #374: «Mouso Teke Soma Ye» (4:29) on «Je Chanterai Pour Toi» (2002; discogs.com/release/7142816), the album printed; «Sa Golo»'s (1997, 6:14) is another recording"
+  },
+  {
+    "artist": "Coldplay",
+    "track": "Don`t Panic",
+    "year": 2000,
+    "why": "FM Достоевский #182: «Don't Panic» (2:17) on «Parachutes» (2000-07-10), the album printed; «The Blue Room EP» (1999; discogs.com/master/26670) has an earlier recording (2:35–2:38)"
+  },
+  {
+    "artist": "Jarabe de Palo",
+    "track": "el lado oscuro",
+    "year": 2009,
+    "why": "FM Достоевский #656: «El Lado Oscuro» (4:07) on «Orquesta Reciclando» (2009), the album printed and Apple Music's link, the band's songs recorded anew; «La Flaca»'s (1996, 4:44) is another recording"
+  },
+  {
+    "artist": "Jeans Team",
+    "track": "Hi Fans",
+    "album": "Ding Dong",
+    "year": 2000,
+    "why": "FM Достоевский #203: «Hi Fans» (2:40) on «Ding Dong» (Kitty-Yo, 2000-06-30; discogs.com/release/122764), the album printed; the band's debut 7\" «Hi Fans» (1998) is an earlier recording (1:29, on «Ding Dong»'s special edition's second disc)"
+  },
+  {
+    "artist": "Juno Reactor",
+    "track": "Pistolero",
+    "year": 1999,
+    "why": "FM Достоевский #236: «Pistolero» of «Shango» (6:13), the album printed, first released as the «Juno Reactor Mix» (6:16) of the single «Pistolero» (Blue Room Released, 1999-09-06; discogs.com/release/76396)"
+  },
+  {
+    "artist": "Lambchop",
+    "track": "The Distance From Her To There",
+    "year": 2000,
+    "why": "FM Достоевский #170: «Nixon» (2000; discogs.com/master/35062), the album printed, its first release"
+  },
+  {
+    "artist": "Momus",
+    "track": "Mistaken Memories Of Medieval Manhattan",
+    "year": 2001,
+    "why": "FM Достоевский #240: «Folktronic» (2001; discogs.com/release/397000), the album printed, recorded June to September 2000; the take on the EP «Journey To The Centre Of Me» (2000-04, 4:32) is an earlier recording"
+  },
+  {
+    "artist": "Mostar Sevdah Reunion",
+    "track": "Djaurko mila",
+    "year": 2013,
+    "discogs_id": 4702943,
+    "discogs_master_id": null,
+    "why": "Stereo Voodoo #79: «Djaurko Mila» (6:50), track 6 of «Tales From A Forgotten City» (Snail Records, 2013; discogs.com/release/4702943), the album printed; the Discogs link and MusicBrainz's 1999 were the band's 1999 album, which has no such song"
+  },
+  {
+    "artist": "Nagisa Ni Te",
+    "track": "anxiety",
+    "year": 2004,
+    "discogs_id": 1114320,
+    "discogs_master_id": 137185,
+    "why": "FM Достоевский #444: «Anxiety» (4:31) on «Dream Sounds» (P-Vine, Japan, 2004; discogs.com/release/1114320, master 137185), the album printed, which re-recorded four songs of earlier albums; the Discogs link was «The True World» (1999), whose «Anxiety» (6:44) is the earlier recording"
+  },
+  {
+    "artist": "Radian",
+    "track": "transistor",
+    "year": 2004,
+    "why": "FM Достоевский #427: «Juxtaposition» (2004; discogs.com/master/144740), the album printed; the 1998 EP «Radian»'s «Transistor» (5:44) is a live recording"
+  },
+  {
+    "artist": "RinneRadio",
+    "track": "untitled",
+    "year": 2007,
+    "why": "FM Достоевский #560: «On» (2007-09-05; discogs.com/release/1109223), the album printed; MusicBrainz's 1992 is «Joik»'s «Untitled» (7:42), another piece"
+  },
+  {
+    "artist": "Robert Wyatt",
+    "track": "del mondo",
+    "year": 2007,
+    "why": "FM Достоевский #558: «Del Mondo» (3:29) on «Comicopera» (Domino, 2007; discogs.com/master/23571), the album printed, recorded for it"
+  },
+  {
+    "artist": "Rocket from the Tombs",
+    "track": "Sonic reducer",
+    "year": 2015,
+    "why": "«Записки из подполья» #19: «Black Record» (2015), the album printed, the band's new recording; its 1975 recordings came out in 1996 and 2002"
+  },
+  {
+    "artist": "Silver Apples",
+    "track": "Susie",
+    "year": 2016,
+    "why": "«Записки из подполья» #47: «Clinging To A Dream» (2016-09-02; discogs.com/release/8990057), the album printed, its first release"
+  },
+  {
+    "artist": "Squirrel Nut Zippers",
+    "track": "fat cat keeps getting fatter",
+    "album": "lost at sea",
+    "year": 2009,
+    "why": "FM Достоевский #708: «Fat Cat Keeps Getting Fatter» (3:49) on «Lost at Sea» (2009), the album printed and Apple Music's link; «Perennial Favorites»' (1998, 2:47) is another recording"
+  },
+  {
+    "artist": "Stella Chiweshe",
+    "track": "kudara kwangu",
+    "year": 2006,
+    "discogs_id": 6766232,
+    "discogs_master_id": null,
+    "why": "FM Достоевский #488: «Kudara Kwangu (Greatest Hits Version 2006)» (2:53) on «Double Check» (2006; discogs.com/release/6766232), the album printed and Apple Music's link; the Discogs link was «Chisi» (1991), whose «Kudara Kwangu» (1:45) is another recording"
+  },
+  {
+    "artist": "Superheroes",
+    "track": "Miami",
+    "year": 2000,
+    "why": "FM Достоевский #227: «Igloo» (2000; discogs.com/release/338308), the album printed; the 1999 EP «Johnny And I» has a «Synth Version», another"
+  },
+  {
+    "artist": "Swans",
+    "track": "Amnesia",
+    "year": 2019,
+    "why": "«Музыка на Свободе» #155: «Leaving Meaning.» (2019), the album printed, the band's new recording; «Amnesia» of 1991–92 is another"
+  },
+  {
+    "artist": "The Residents",
+    "track": "Intro",
+    "year": 2018,
+    "why": "«Музыка на Свободе» #140: «I Am a Resident!» (2018), the album printed; MusicBrainz's 1993 is another «Intro»"
+  },
+  {
+    "artist": "Totó La Momposina",
+    "track": "El Pescador",
+    "year": 2015,
+    "why": "«Песни и пляски» #14: «Tambolero» (Real World, 2015), the album printed, MusicBrainz's recording only there; «La Candela Viva» (1993) has an earlier recording"
+  },
+  {
+    "artist": "Totó La Momposina",
+    "track": "La sombra negra",
+    "year": 2015,
+    "why": "«Музыка на Свободе» #23: «Tambolero» (Real World, 2015), the album printed, MusicBrainz's recording only there; «La Candela Viva» (1993) has an earlier recording"
+  },
+  {
+    "artist": "The Tremolo Beer Gut",
+    "track": "Gangster surf",
+    "year": 2015,
+    "why": "«Записки из подполья» #28: «Live, Beyond Our Means» (2015; discogs.com/release/8037021), the album printed, recorded live at Tambourine Studios, Malmö, on 2015-04-18; the 1999 studio take is another recording"
+  },
+  {
+    "artist": "Vitor Ramil",
+    "track": "nao e ceu",
+    "year": 2000,
+    "why": "FM Достоевский #445: «Não É Céu» (5:00) on «Tambong» (2000; discogs.com/release/4452960) and Apple Music's link; MusicBrainz's 1995 is «À Beça»'s take (4:20), another recording; the album printed, «ramilonga», is neither"
+  },
+  {
+    "artist": "Yello",
+    "track": "Liquid Lies",
+    "year": 2010,
+    "discogs_id": 2530337,
+    "discogs_master_id": 336777,
+    "why": "«Музыка на Свободе» #218: «Liquid Lies (feat. Heidi Happy) [2010]» on «Yello 40 Years», the album printed and Apple Music's link, first released as «Liquid Lies (2010)» (3:43) on «By Yello. The Anthology» (2010-11-05; discogs.com/release/2530337); «Motion Picture»'s (1999, 3:15) is the earlier recording"
+  },
+  {
+    "artist": "Muzsikas",
+    "track": "Füzesi Ritka Magyar (Lads' Dance from Fuzes)",
+    "year": 1998,
+    "why": "FM Достоевский #114: «Füzesi Ritka Magyar» on the «Bartók Album» (Hungary, 1998; discogs.com/release/1863851), the album printed; MusicBrainz's 1996 is «Hazafelé»'s «Füzesi Lakodalmas», another piece"
+  },
+  {
+    "artist": "Arthur H",
+    "track": "La Télé",
+    "year": 1996,
+    "why": "«Музыка на Свободе» #343: «Trouble-Fête» (1996-09-09; discogs.com/release/1323836), the studio album printed and Apple Music's link; MusicBrainz's 1993 is the live take on «Au Magic Mirrors» (4:40)"
+  },
+  {
+    "artist": "Blues Company",
+    "track": "Red Blood",
+    "year": 1997,
+    "why": "FM Достоевский #69: «Red Blood» (4:42) on «... Blues, Ballads & Assorted Love Songs» (1997-08-01; discogs.com/release/3140670), the album printed; «Public Relations»' (1993, 3:58) is another recording"
+  },
+  {
+    "artist": "Calvin Russell",
+    "track": "My Love Is So",
+    "year": 1997,
+    "discogs_id": 8374828,
+    "discogs_master_id": 392543,
+    "why": "FM Достоевский #42: «My Love Is So» (3:19) on «Calvin Russell» (1997; discogs.com/release/8374828, master 392543), the album printed («Calvin Russel»); the Discogs link and MusicBrainz's 1992 were the EP «This Is Your World»'s take (2:37), another recording"
+  },
+  {
+    "artist": "Diamanda Galás",
+    "track": "Gloomy Sunday",
+    "album": "Malediction And Prayer",
+    "year": 1998,
+    "why": "FM Достоевский #95: «Gloomy Sunday» (3:52) on the live «Malediction And Prayer» (1998; discogs.com/master/6744), the album printed; MusicBrainz's 1992 is «The Singer»'s studio take (2:59)"
+  },
+  {
+    "artist": "Värttinä",
+    "track": "Vihmax",
+    "year": 1998,
+    "why": "FM Достоевский #101: «Vihmax (Vihma Remix)» (3:32) on «Vihma» (1998; discogs.com/release/1480918), the album printed; Apple Music's 1990 is of no release of it"
   }
 ]

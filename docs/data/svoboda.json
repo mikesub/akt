@@ -4038,8 +4038,8 @@
           "Folk Rock",
           "Country Rock"
         ],
-        "year": 1992,
-        "year_from": "musicbrainz"
+        "year": 2024,
+        "year_from": "owner"
       },
       {
         "artist": "Ekiti Sound",
@@ -6087,8 +6087,8 @@
           "Downtempo",
           "Avantgarde"
         ],
-        "year": 1993,
-        "year_from": "musicbrainz"
+        "year": 1996,
+        "year_from": "owner"
       },
       {
         "artist": "Arthur H",
@@ -6114,8 +6114,8 @@
           "Art Rock",
           "Downtempo"
         ],
-        "year": 2001,
-        "year_from": "musicbrainz"
+        "year": 2000,
+        "year_from": "owner"
       },
       {
         "artist": "Arthur H",
@@ -44013,18 +44013,19 @@
         "apple_album_id": 1556880392,
         "apple_artist_id": 78582,
         "mb_id": "89d287fb-7c6b-44a0-8451-8e993f932617",
-        "discogs_id": 144923,
-        "discogs_master_id": 38028,
+        "discogs_id": 2530337,
+        "discogs_master_id": 336777,
         "discogs_genres": [
           "Electronic"
         ],
         "discogs_styles": [
-          "Synth-pop",
-          "Downtempo",
-          "Ambient"
+          "Electro",
+          "Future Jazz",
+          "Experimental",
+          "Synth-pop"
         ],
-        "year": 1999,
-        "year_from": "musicbrainz"
+        "year": 2010,
+        "year_from": "owner"
       },
       {
         "artist": "Yello",
@@ -58945,18 +58946,16 @@
         "apple_album_id": null,
         "apple_artist_id": null,
         "mb_id": "a2bbff8b-e2ae-43ba-ba13-5e45ad75e2c1",
-        "discogs_id": 197724,
-        "discogs_master_id": 99095,
+        "discogs_id": 2539002,
+        "discogs_master_id": 320146,
         "discogs_genres": [
-          "Electronic",
           "Rock"
         ],
         "discogs_styles": [
-          "Electro",
-          "Industrial"
+          "Experimental"
         ],
-        "year": 1995,
-        "year_from": "musicbrainz"
+        "year": 2010,
+        "year_from": "owner"
       },
       {
         "artist": "Fatamorgana",
@@ -64232,8 +64231,8 @@
         "discogs_styles": [
           "Experimental"
         ],
-        "year": 1992,
-        "year_from": "musicbrainz"
+        "year": 2019,
+        "year_from": "owner"
       },
       {
         "artist": "Stealing Sheep",
@@ -68634,8 +68633,8 @@
           "Avantgarde",
           "Experimental"
         ],
-        "year": 1993,
-        "year_from": "musicbrainz"
+        "year": 2018,
+        "year_from": "owner"
       },
       {
         "artist": "The Zverstvo",
@@ -103540,8 +103539,8 @@
         "discogs_styles": [
           "Cumbia"
         ],
-        "year": 1993,
-        "year_from": "musicbrainz"
+        "year": 2015,
+        "year_from": "owner"
       },
       {
         "artist": "Lila Downs",

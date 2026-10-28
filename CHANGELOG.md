@@ -9,6 +9,13 @@ Routine updates (a new Стереоплан episode, a single fix) are not liste
 
 ## 2026-10-28
 
+- Links and years: 94 `overrides.json` entries from the same check, each checked again against Discogs' releases
+  dump (2026-10-01), Apple Music and MusicBrainz. 17 Apple Music links moved to the take that aired (a remix, a
+  live take, an edit or another part of a suite was linked); 35 dropped (`apple_id` `null`) where Apple Music (nl)
+  has only another recording (the owner's call: no link to a recording that did not air); 49 years set, a
+  re-recording, live take or remix dated by its own first release, and first releases the lookups missed; 10
+  Discogs releases replaced, theirs being other recordings. Two `year_from: discogs` overrides from the releases
+  dump (Brigitte Kaandorp, Bengt Berger) removed: their matches were other recordings.
 - Names: 303 tracks renamed (140 artists, 143 titles, 45 albums), from a check of akt's names against Apple
   Music's and MusicBrainz's for the songs akt links them to (on the 1,901 songs of «Час Троицкого»'s pool), and a
   scan of every track for words mixing Latin and Cyrillic letters. `artists.json`: 104 spellings, 74 for misspelt

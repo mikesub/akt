@@ -6075,8 +6075,8 @@
           "Leftfield",
           "Experimental"
         ],
-        "year": 1997,
-        "year_from": "musicbrainz"
+        "year": 2016,
+        "year_from": "owner"
       },
       {
         "artist": "Claudia Brücken",
@@ -11861,8 +11861,8 @@
           "Surf",
           "Rock & Roll"
         ],
-        "year": 1999,
-        "year_from": "musicbrainz"
+        "year": 2015,
+        "year_from": "owner"
       },
       {
         "artist": "Aidan Walsh",
@@ -12244,9 +12244,7 @@
         "country": [
           "US"
         ],
-        "apple_id": 1054669203,
-        "apple_album_id": null,
-        "apple_artist_id": 5580746,
+        "apple_id": 1054669212,
         "mb_id": "b807791d-c1b0-475e-8047-ed4da130bd2b",
         "discogs_id": 388060,
         "discogs_master_id": 20347,
@@ -14553,8 +14551,8 @@
           "Rock & Roll",
           "Hard Rock"
         ],
-        "year": 1996,
-        "year_from": "musicbrainz"
+        "year": 2015,
+        "year_from": "owner"
       },
       {
         "artist": "September Girls",

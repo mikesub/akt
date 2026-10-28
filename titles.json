@@ -2954,5 +2954,13 @@
       "album": "ВАРАЖБІТ"
     },
     "why": "«Стереоплан Троицкого» #8: printed with the Latin «i», «I» for the Cyrillic «і», «І»"
+  },
+  {
+    "artist": "Jeans Team",
+    "track": "Hi, Faus!",
+    "restore": {
+      "track": "Hi Fans"
+    },
+    "why": "FM Достоевский #85: misspelt; the band’s debut 7\" «Hi Fans» (1998; discogs.com/release/265058), the Discogs release the track links, and Apple Music’s «Hi Fans» on «Ding Dong»"
   }
 ]

@@ -13775,8 +13775,8 @@
         "discogs_styles": [
           "Cumbia"
         ],
-        "year": 1993,
-        "year_from": "musicbrainz"
+        "year": 2015,
+        "year_from": "owner"
       }
     ]
   },
@@ -15565,9 +15565,7 @@
         "country": [
           "HU"
         ],
-        "apple_id": 821961107,
-        "apple_album_id": null,
-        "apple_artist_id": 593254470,
+        "apple_id": 827087001,
         "mb_id": "d96b4320-6f5d-4034-bcac-08fe65dfd817",
         "discogs_master_id": 792765,
         "discogs_genres": [
@@ -15577,8 +15575,8 @@
         "discogs_styles": [
           "Neofolk"
         ],
-        "year": 1995,
-        "year_from": "musicbrainz"
+        "year": 1999,
+        "year_from": "owner"
       }
     ]
   },
