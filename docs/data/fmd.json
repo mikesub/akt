@@ -96399,8 +96399,8 @@
         "discogs_styles": [
           "Garage Rock"
         ],
-        "year": 2003,
-        "year_from": "musicbrainz"
+        "year": 2007,
+        "year_from": "owner"
       },
       {
         "artist": "Shawn Lee's Ping Pong Orchestra",
@@ -128017,8 +128017,8 @@
           "Breakbeat",
           "French House"
         ],
-        "year": 1984,
-        "year_from": "musicbrainz"
+        "year": 2005,
+        "year_from": "owner"
       }
     ]
   },
