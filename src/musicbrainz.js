@@ -62,14 +62,29 @@ async function findArtists(name) {
   const key = lead(name);
   if (!artistIds.has(key)) {
     const found = (await mb('artist', { query: `artist:${phrase(name)} OR alias:${phrase(name)}`, limit: '10' }))?.artists ?? [];
-    const ids = found.filter((a) => namesOf(a).some((n) => close(key, lead(n), 0.2))).map((a) => a.id);
+    const ids = found.filter((a) => isNamed(a, key)).map((a) => a.id);
     artistIds.set(key, ids.slice(0, 3));
   }
   return artistIds.get(key);
 }
 
-/** An artist's own name and aliases. */
-const namesOf = (artist) => [artist?.name, ...(artist?.aliases ?? []).map((a) => a.name)].filter(Boolean);
+/**
+ * An alias as a name: one in sort order, the end of the artist's name first
+ * («Jackson, Wanda» for Wanda Jackson, «Van Halen, Eddie»), read in natural
+ * order, so that it is not taken for an artist called Jackson (as "Jackson
+ * and His Computer Band" leads); any other as it is, a list («Chris Eckman,
+ * Hugo Race, Chris Brokaw» for Dirtmusic) or «Tav Falco & The Unapproachable
+ * Panther Burns», which leads with Tav Falco.
+ */
+function aliasName(alias, artist) {
+  const [, last, first] = alias.match(/^([^,]+),\s*([^,]+)$/) ?? [];
+  return last && ` ${plain(artist.name ?? '')}`.endsWith(` ${plain(last)}`) ? `${first} ${last}` : alias;
+}
+
+/** Whether an artist is named `key` (a first credited name, as lead gives it): by the first name its own name or one of its aliases credits. */
+const isNamed = (artist, key) =>
+  (artist?.name && close(key, lead(artist.name), 0.2)) ||
+  (artist?.aliases ?? []).some((a) => a.name && close(key, lead(aliasName(a.name, artist)), 0.2));
 
 /**
  * The credited artist ({id, name}) that is the host's, or null: the host's
@@ -80,7 +95,7 @@ const namesOf = (artist) => [artist?.name, ...(artist?.aliases ?? []).map((a) =>
 function hostArtist(host, recording) {
   const credits = recording['artist-credit'] ?? [];
   const want = lead(host);
-  const named = credits.find((c) => [c.name, ...namesOf(c.artist)].some((n) => close(want, lead(n), 0.2)));
+  const named = credits.find((c) => (c.name && close(want, lead(c.name), 0.2)) || isNamed(c.artist, want));
   if (named) return named.artist;
   const joined = credits.map((c) => c.name + (c.joinphrase ?? '')).join('');
   return sameArtist(host, joined) ? credits[0]?.artist ?? null : null;
