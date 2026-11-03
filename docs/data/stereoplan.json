@@ -1,5 +1,348 @@
 [
   {
+    "guid": "904452a3-9e8f-4850-acc4-ababc7a3ecf7",
+    "number": 92,
+    "title": "🎶 Стереоплан Троицкого* #92 - \"Hipbone Slim, румынская этно-электроника и пост-панк из Мичигана\".",
+    "published_at": "2026-11-02T06:00:00.000Z",
+    "url": "https://stereoplantroitsky.mave.digital/ep-94",
+    "mp3_url": "https://api.mave.digital/storage/podcasts/5eb88210-d265-4315-8405-4982ead857cb/episodes/bc5fa391-3973-4ebf-bd1f-913fe765298b.mp3",
+    "duration_sec": 3108,
+    "playlist_hash": "165b6b4adf2bcbf3",
+    "tracks": [
+      {
+        "artist": "Foetus",
+        "track": "Dead to me",
+        "album": "HALT",
+        "printed_country": "Australia/USA",
+        "country": [
+          "AU",
+          "US"
+        ],
+        "apple_id": 6792914202,
+        "apple_album_id": 6792913873,
+        "apple_artist_id": 44172043,
+        "mb_id": "db5544c0-1c02-45b6-b0b8-98e988f6040f",
+        "discogs_id": 36521938,
+        "discogs_master_id": 4081411,
+        "discogs_genres": [
+          "Electronic",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Experimental"
+        ],
+        "year": 2025,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Would-Be-Goods",
+        "track": "Don’t come crying to me",
+        "album": "TEARS BEFORE BEDTIME",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 1844848175,
+        "apple_album_id": 1844848046,
+        "apple_artist_id": 49278914,
+        "mb_id": "1abe2e0a-1f0b-4713-a425-1bf80859ce91",
+        "discogs_id": 36450765,
+        "discogs_master_id": 4130422,
+        "discogs_genres": [
+          "Rock",
+          "Pop"
+        ],
+        "discogs_styles": [
+          "Alt-Pop",
+          "Indie Pop"
+        ],
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Would-Be-Goods",
+        "track": "The bride wore black",
+        "album": "TEARS BEFORE BEDTIME",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 1844848180,
+        "apple_album_id": 1844848046,
+        "apple_artist_id": 49278914,
+        "mb_id": "060cf597-94a6-4da8-9f2e-cb10897471e6",
+        "discogs_id": 36450765,
+        "discogs_master_id": 4130422,
+        "discogs_genres": [
+          "Rock",
+          "Pop"
+        ],
+        "discogs_styles": [
+          "Alt-Pop",
+          "Indie Pop"
+        ],
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Balkan Taksim",
+        "track": "Ludilo",
+        "album": "ACIDE BALKANIQUE",
+        "printed_country": "Romania",
+        "country": [
+          "RO"
+        ],
+        "apple_id": 1834520513,
+        "apple_album_id": 1834520146,
+        "apple_artist_id": 1306831209,
+        "mb_id": "c352f2b5-e0c6-40a2-aeb2-ef3b2cad64fb",
+        "discogs_id": 35547433,
+        "discogs_master_id": 4216836,
+        "discogs_genres": [
+          "Folk, World, & Country"
+        ],
+        "discogs_styles": [],
+        "year": 2025,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Karoline Wallace",
+        "track": "Bittelille Meg",
+        "album": "EON",
+        "printed_country": "Norway",
+        "country": [
+          "NO"
+        ],
+        "apple_id": 1863457143,
+        "apple_album_id": 1863457138,
+        "apple_artist_id": 453737650,
+        "mb_id": "c1318d3b-631c-4202-b0fb-7864e923c211",
+        "discogs_id": 37490241,
+        "discogs_master_id": 4241772,
+        "discogs_genres": [
+          "Jazz"
+        ],
+        "discogs_styles": [
+          "Avant-garde Jazz",
+          "Contemporary Jazz"
+        ],
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Hipbone Slim & The Kneetremblers",
+        "track": "Tombstone Rock",
+        "album": "TREMBLIN’",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 1777397368,
+        "apple_album_id": 1777397333,
+        "apple_artist_id": null,
+        "mb_id": "ebce17e9-7e8b-4ea1-8dfe-375fa2ba08cf",
+        "discogs_id": 9463532,
+        "discogs_master_id": null,
+        "year": 2016,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "Hipbone Slim & The Kneetremblers",
+        "track": "Bad dumplings",
+        "album": "AIN’T GOT A LEG TO STAND ON",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 1777397336,
+        "apple_album_id": null,
+        "apple_artist_id": null,
+        "mb_id": "541fe06d-aa52-4b31-8b82-b6c84b8b282e",
+        "discogs_id": 13221829,
+        "discogs_master_id": null,
+        "year": 2018,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "Hipbone Slim & The Kneejerks",
+        "track": "She wants my blood",
+        "album": "YOU’VE BEEN RUMBLED!",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 1659546137,
+        "apple_album_id": null,
+        "apple_artist_id": null,
+        "mb_id": "8b6d08f0-6ab4-4d17-b37d-ddd1e3cb895e",
+        "discogs_id": 25485565,
+        "discogs_master_id": 2906719,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Garage Rock",
+          "Beat",
+          "Rock & Roll",
+          "Surf"
+        ],
+        "year": 2022,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Hipbone Slim & The Kneejerks",
+        "track": "Where you gone?",
+        "album": "GONE TO THE DOGS",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 1713476511,
+        "apple_album_id": null,
+        "apple_artist_id": 1713476509,
+        "mb_id": "38d42147-cdec-4667-a92c-252ae33f73eb",
+        "discogs_id": 25485442,
+        "discogs_master_id": 2906713,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Garage Rock",
+          "Beat",
+          "Rock & Roll",
+          "Surf"
+        ],
+        "year": 2022,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Hipbone Slim & The Kneejerks",
+        "track": "When Push comes to Shove",
+        "album": "GET A MOVE ON!",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 1802888784,
+        "apple_album_id": 1802888539,
+        "apple_artist_id": 1713476509,
+        "mb_id": "6174d120-a538-4523-aea5-26ee98e12d53",
+        "discogs_id": 33797265,
+        "discogs_master_id": null,
+        "year": 2025,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Sir Bald Y Los Hairies",
+        "track": "The hairy surfer",
+        "album": "ESCAPED FROM THE ZOO",
+        "printed_country": "UK/Portugal",
+        "country": [
+          "GB",
+          "PT"
+        ],
+        "apple_id": 1697173124,
+        "apple_album_id": 1697173119,
+        "apple_artist_id": 1697172342,
+        "mb_id": null,
+        "discogs_id": 26902679,
+        "discogs_master_id": 3156537,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Surf",
+          "Garage Rock"
+        ],
+        "year": 2023,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "Fauna",
+        "track": "Dunans Torka",
+        "album": "TAIGA TRANS",
+        "printed_country": "Sweden",
+        "country": [
+          "SE"
+        ],
+        "apple_id": 1874962810,
+        "apple_album_id": 1874962553,
+        "apple_artist_id": 1675484660,
+        "mb_id": "055b3525-1c71-43ac-9e08-4cef215181da",
+        "discogs_id": 37654788,
+        "discogs_master_id": 4214439,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Psychedelic Rock"
+        ],
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Prostitute",
+        "track": "Body meat",
+        "album": "ATTEMPTED MARTYR",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1847981280,
+        "apple_album_id": 1847980988,
+        "apple_artist_id": 1665389936,
+        "mb_id": "c16c7fde-aece-46cb-adb1-49fcb601272d",
+        "discogs_id": 32738877,
+        "discogs_master_id": 3834720,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Post-Punk",
+          "Noise Rock"
+        ],
+        "year": 2024,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Divka",
+        "track": "Rusalka",
+        "album": "FOLK FATALE",
+        "printed_country": "Canada/Ukraine",
+        "country": [
+          "CA",
+          "UA"
+        ],
+        "apple_id": 1882915540,
+        "apple_album_id": 1882915537,
+        "apple_artist_id": 1832948354,
+        "mb_id": null,
+        "discogs_id": 38399787,
+        "discogs_master_id": null,
+        "year": 2026,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "Robinson Khoury",
+        "track": "Pensées irréeles",
+        "album": "TRANSARA",
+        "printed_country": "France/Lebanon",
+        "country": [
+          "FR",
+          "LB"
+        ],
+        "apple_id": 1881611944,
+        "apple_album_id": 1881611563,
+        "apple_artist_id": 987868147,
+        "mb_id": "628b6b9c-bda9-44e9-b2aa-4702ab1cc0ad",
+        "discogs_id": null,
+        "discogs_master_id": null,
+        "year": 2026,
+        "year_from": "musicbrainz"
+      }
+    ]
+  },
+  {
     "guid": "c63508d8-2cdf-47f5-aacc-57692fb94d47",
     "number": 91,
     "title": "🎶 Стереоплан Троицкого* #91 - \"Серьезные\" музыканты, повлиявшие на The Beatles, чешский софт-рок и свежий трек Peaches\".",
