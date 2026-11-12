@@ -15,9 +15,11 @@ Routine updates (a new Стереоплан episode, a single fix) are not liste
   («Self-released», «Artist release», «самиздат»), or no label known. A track whose playlist prints none takes its
   Discogs release's labels, with `label_from: "discogs"`. `discogs_labels`: the Discogs release's labels as Discogs
   names them (beside `discogs_id`; for a track with a master only, its main release's), from the releases dump of
-  2026-10-01. 21,831 of 22,509 tracks have a label (3,074 from Discogs, most of them «Музыка на Свободе»'s, whose
-  playlists printed labels only from mid-2022), 6,767 labels in all. The page's CSV has a `label` column ("; "
-  between two).
+  2026-10-01. 21,830 of 22,509 tracks have a label (3,074 from Discogs, most of them «Музыка на Свободе»'s, whose
+  playlists printed labels only from mid-2022), 6,506 labels in all: one name per label, typos («City Stang»,
+  «Cland Estine»), abbreviations («WMN» → «World Music Network»), a generic extra word («Crammed Discs» →
+  «Crammed») and both alphabets («Soyuz Music» → «Союз») joined. The page's CSV has a `label` column ("; " between
+  two).
 
 ## 2026-10-28
 

@@ -60,11 +60,16 @@ export function printedSpellings(printed) {
   return spellings.has(whole) || notALabel(whole) ? [whole] : whole.split(/\s*\/\s*/).map(tidy).filter(Boolean);
 }
 
-/** A spelling's names: labels.json's, else itself; none for what is not a label. */
-function namesOf(spelling) {
-  if (spellings.has(spelling)) {
+/**
+ * A spelling's names: labels.json's, else itself; none for what is not a label. A name labels.json maps on
+ * is followed ("crammed" → "Crammed" → "Crammed Discs"), so one entry renames a label for all its spellings.
+ */
+function namesOf(spelling, seen = new Set()) {
+  if (spellings.has(spelling) && !seen.has(spelling)) {
     const to = spellings.get(spelling);
-    return to === null ? [] : Array.isArray(to) ? to : [to];
+    if (to === null) return [];
+    seen.add(spelling);
+    return (Array.isArray(to) ? to : [to]).flatMap((name) => (name === spelling ? [name] : namesOf(name, seen)));
   }
   return notALabel(spelling) ? [] : [spelling];
 }
@@ -77,7 +82,7 @@ function once(names) {
 }
 
 /** The labels a printed label names, each once, under its spelling (labels.json); empty for none (a self-release). */
-export const labelNames = (printed) => once(printedSpellings(printed).flatMap(namesOf));
+export const labelNames = (printed) => once(printedSpellings(printed).flatMap((s) => namesOf(s)));
 
 /** Discogs' names of a release's labels, without its "(2)" namesake marks and its "Not On Label" placeholders. */
 export const discogsLabelNames = (names) =>
@@ -93,7 +98,7 @@ export function labelled(track) {
   if (printed === undefined) return track;
   const names = labelNames(printed);
   if (names.length > 0 || (printed && !placeholder(printed))) return { ...track, label: names.length ? names : null, label_from: undefined };
-  const discogs = once(discogsLabelNames(track.discogs_labels).flatMap(namesOf));
+  const discogs = once(discogsLabelNames(track.discogs_labels).flatMap((s) => namesOf(s)));
   if (discogs.length > 0) return { ...track, label: discogs, label_from: 'discogs' };
   return { ...track, label: null, label_from: undefined };
 }

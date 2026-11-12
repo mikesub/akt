@@ -103,6 +103,7 @@
   /* Labels: too many for chips, so the picked ones are chips and the rest are found by typing. */
   .label-pick { position: relative; width: min(100%, 320px); margin-top: 6px; }
   #label .chips:empty { display: none; }
+  .facet-note { margin: 0 0 6px; font-size: 13px; color: var(--muted); }
   .label-pick input {
     font: inherit; font-size: 13px; padding: 4px 8px; width: 100%;
     border: 1px solid var(--line); border-radius: 6px; background: var(--chip); color: var(--fg);
@@ -245,10 +246,11 @@
 
 <details class="facet" id="label">
   <summary><h2>Лейбл</h2><span class="picked"></span></summary>
+  <p class="facet-note" id="label-total"></p>
   <div class="chips"></div>
   <div class="label-pick">
     <input type="text" id="label-input" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="label-options"
-      placeholder="Начните вводить название лейбла" aria-label="Найти лейбл" autocomplete="off" spellcheck="false">
+      placeholder="Название лейбла" aria-label="Найти лейбл" autocomplete="off" spellcheck="false">
     <ul id="label-options" role="listbox" aria-label="Лейблы" hidden></ul>
   </div>
 </details>
@@ -930,6 +932,10 @@
     }
   }
   let labelCounts = new Map(); // each label's tracks under the other filters, as the last render counted them
+  // How many labels the archive has, «Без лейбла» not one of them.
+  const labelTotal = [...labelFold.keys()].filter((name) => name !== NO_LABEL).length;
+  document.getElementById('label-total').textContent =
+    `Всего ${labelTotal.toLocaleString('ru-RU')} ${plural(labelTotal, 'лейбл', 'лейбла', 'лейблов')}`;
   let suggested = [];
   let active = -1;
   function suggestLabels() {

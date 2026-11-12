@@ -258,10 +258,22 @@ async function proposeSpellings() {
   };
   function chosen(key, g) {
     if (g.printed.size === 0) return commonest(tally(g.discogs)) ?? null;
-    const caps = tally([...g.printed].filter(([s]) => capital(s)));
+    const printedCaps = tally([...g.printed].filter(([s]) => capital(s)));
+    const caps = new Map(printedCaps);
     // The tracks' own Discogs releases vote for the printed spelling they share ("World Village" over "World village").
-    for (const [d, n] of tally(g.discogs, (d) => d.replace(SUFFIX, ''))) if (caps.has(d)) caps.set(d, caps.get(d) + n);
-    if (caps.size > 0) return commonest(caps);
+    const theirs = tally([...g.discogs].filter(([d]) => capital(d) && labelKey(d.replace(SUFFIX, '')) === key), (d) => d.replace(SUFFIX, ''));
+    for (const [d, n] of theirs) if (caps.has(d)) caps.set(d, caps.get(d) + n);
+    const best = commonest(caps);
+    if (best) {
+      // A spelling printed once or twice that splits or joins the words otherwise than the tracks' releases, as
+      // often, is a typo ("Cland Estine": "Clandestine", "Hear Wego": "Hear We Go"); case and punctuation stay as printed.
+      const own = tally([...g.discogs].filter(([d]) => capital(d) && labelKey(d.replace(SUFFIX, '')) === key), (d) => (SUFFIX.test(best) ? d : d.replace(SUFFIX, '')));
+      const discogs = commonest(own);
+      // Words as joined or split, without "The" before them and with "&" for "and".
+      const split = (x) => words(x).replace(/^the /, '').replace(/ & /g, ' and ');
+      if (discogs && split(discogs) !== split(best) && printedCaps.get(best) <= 2 && own.get(discogs) >= printedCaps.get(best)) return discogs;
+      return best;
+    }
     // Printed only in lower case: Discogs' capitals for it (the group shares its key), without a "Records" the
     // playlist leaves out; a track's own release's first, else any Discogs label's of that name.
     const printed = commonest(tally(g.printed));
