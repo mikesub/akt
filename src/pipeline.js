@@ -6,6 +6,7 @@ import { restoreArtist } from './artists.js';
 import { discogsStats, findMaster, findOnDiscogs } from './discogs.js';
 import { findOnMusicBrainz, mbStats } from './musicbrainz.js';
 import { countryCodes, vague } from './countries.js';
+import { labelled } from './labels.js';
 import { applyOverrides } from './overrides.js';
 import { parsePlaylist } from './parse.js';
 import { keyOf, readPlaylists } from './playlists.js';
@@ -96,9 +97,9 @@ function aired(episode, year) {
   return year !== null && latest > 0 && year > latest ? null : year;
 }
 
-/** A track with the codes of the country its playlist prints (countries.json), under its restored names (titles.json) and its artist's spelling (artists.json), then with its hand fixes (overrides.json). */
+/** A track with the codes of the country its playlist prints (countries.json), under its restored names (titles.json) and its artist's spelling (artists.json), with its labels (src/labels.js, labels.json), then with its hand fixes (overrides.json). */
 // Shaped again after the overrides, so that a field one adds (a discogs_id) takes its place in the key order.
-export const corrected = (track) => shape(applyOverrides(shape(restoreArtist(restoreTitle(coded(track))))));
+export const corrected = (track) => shape(applyOverrides(shape(labelled(restoreArtist(restoreTitle(coded(track)))))));
 
 /**
  * A track's country codes, from its printed country whenever it has one, the
@@ -115,26 +116,31 @@ const coded = (track) => {
   return { ...track, country: printed ? countryCodes(printed) : (track.country ?? null) };
 };
 
-/** What the parse gives a track: its names and its printed country, with that country's codes. */
-const parsed = ({ artist, track, album, printed_country, country, country_from }) => ({ artist, track, album, printed_country, country, country_from });
+/** What the parse gives a track: its names, its printed country, with that country's codes, and its printed label (its labels follow from it, src/labels.js). */
+const parsed = ({ artist, track, album, printed_country, country, country_from, printed_label }) => ({ artist, track, album, printed_country, country, country_from, printed_label });
 
 /**
  * A track's fields in their stored order; each source's id is left out until
  * that source has been asked, and the country until the playlist was read
  * for it (bin/countries.js for tracks parsed before the parse read it).
  */
-const shape = ({ artist, track, album, printed_country, country, country_from, apple_id, apple_album_id, apple_artist_id, mb_id, discogs_id, discogs_master_id, discogs_genres, discogs_styles, year, year_from }) => ({
+const shape = ({ artist, track, album, printed_country, country, country_from, printed_label, label, label_from, apple_id, apple_album_id, apple_artist_id, mb_id, discogs_id, discogs_master_id, discogs_labels, discogs_genres, discogs_styles, year, year_from }) => ({
   artist,
   track,
   album,
   ...(printed_country !== undefined && { printed_country, country: country ?? null }),
   ...(country_from !== undefined && { country_from }),
+  // The label, as printed, and the labels shown (src/labels.js), once the playlist was read for it (bin/labels.js).
+  ...(printed_label !== undefined && { printed_label, label: label ?? null }),
+  ...(printed_label !== undefined && label != null && label_from !== undefined && { label_from }),
   ...(apple_id !== undefined && { apple_id }),
   ...(apple_album_id !== undefined && { apple_album_id }),
   ...(apple_artist_id !== undefined && { apple_artist_id }),
   ...(mb_id !== undefined && { mb_id }),
   ...(discogs_id !== undefined && { discogs_id }),
   ...(discogs_master_id !== undefined && { discogs_master_id }),
+  // The Discogs release's labels (a master's alone: its main release's), only beside the one they are of.
+  ...((discogs_id || discogs_master_id) && discogs_labels !== undefined && { discogs_labels }),
   // The master's genres and styles (album-level): only beside a master, so they go when it goes.
   ...(discogs_master_id && discogs_genres !== undefined && { discogs_genres }),
   ...(discogs_master_id && discogs_styles !== undefined && { discogs_styles }),
@@ -199,11 +205,11 @@ const sources = {
   },
 };
 
-/** A track without the genres and styles of a master it may no longer have: a new answer brings its own. */
-const withoutGenres = ({ discogs_genres, discogs_styles, ...rest }) => rest;
+/** A track without the genres, styles and labels of a release or master it may no longer have: a new answer brings its own. */
+const withoutGenres = ({ discogs_genres, discogs_styles, discogs_labels, ...rest }) => rest;
 
 /** What the sources answered for a track: the lookups search by its artist, title and album alone. */
-const LOOKED_UP = ['apple_id', 'apple_album_id', 'apple_artist_id', 'mb_id', 'discogs_id', 'discogs_master_id', 'discogs_genres', 'discogs_styles', 'year', 'year_from'];
+const LOOKED_UP = ['apple_id', 'apple_album_id', 'apple_artist_id', 'mb_id', 'discogs_id', 'discogs_master_id', 'discogs_labels', 'discogs_genres', 'discogs_styles', 'year', 'year_from'];
 const sameNames = (t) => JSON.stringify([t.artist, t.track, t.album]);
 
 /**
@@ -231,7 +237,7 @@ function keepLookups(before, tracks) {
  */
 function forget(track, { misses, musicbrainz, relink }) {
   if (relink) return { ...parsed(track), year: null };
-  const { apple_id, mb_id, discogs_id, discogs_master_id, ...rest } = track;
+  const { apple_id, mb_id, discogs_id, discogs_master_id, discogs_labels, ...rest } = track;
   const keepDiscogs = !((misses && (discogs_id ?? null) === null) || musicbrainz);
   // A master with no release beside it came from the masters dump, not a lookup: kept.
   const keepMaster = keepDiscogs || (discogs_master_id != null && (discogs_id ?? null) === null);
@@ -241,6 +247,8 @@ function forget(track, { misses, musicbrainz, relink }) {
     // Discogs is asked again with MusicBrainz; the master goes with its release.
     ...(keepDiscogs && { discogs_id }),
     ...(keepMaster && discogs_master_id !== undefined && { discogs_master_id }),
+    // The labels go with the release, or the master, they are of.
+    ...((keepDiscogs || (keepMaster && !discogs_id)) && discogs_labels !== undefined && { discogs_labels }),
   };
   return { ...rest, ...keep };
 }
@@ -389,7 +397,7 @@ export async function run(
         const update = await ask(tracks[i], episode);
         // Dropped if the playlist was parsed again meanwhile.
         if (episode.tracks === tracks) {
-          tracks[i] = shape(applyOverrides(shape(update(tracks[i]))));
+          tracks[i] = shape(applyOverrides(shape(labelled(update(tracks[i])))));
           save(episodes);
         }
       } catch (err) {

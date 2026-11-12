@@ -53,6 +53,12 @@ export function genresOf(rec) {
   return { genres: list('genre'), styles: list('style') };
 }
 
+/** A release record's labels by name, as Discogs names them (a "(2)" namesake mark and all), each once, in its order. */
+export function labelsOf(rec) {
+  const block = rec.match(/<labels>([\s\S]*?)<\/labels>/)?.[1] ?? '';
+  return [...new Set([...block.matchAll(/<label\b[^>]*\bname="([^"]*)"/g)].map(([, n]) => decode(n).trim()).filter(Boolean))];
+}
+
 /** A master record's fields: id, main release, year, title, artists ({ id, name, anv }), genres, styles, video titles. */
 export function parseMaster(rec) {
   const head = rec.replace(/<videos>[\s\S]*<\/videos>/, '');

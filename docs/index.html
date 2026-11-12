@@ -100,6 +100,22 @@
   .chip.flag { padding: 2px 8px; }
   .chip.flag .emoji { font-size: 16px; line-height: 1; vertical-align: -1px; }
   td.flags { white-space: nowrap; font-size: 16px; line-height: 1.2; }
+  /* Labels: too many for chips, so the picked ones are chips and the rest are found by typing. */
+  .label-pick { position: relative; width: min(100%, 320px); margin-top: 6px; }
+  #label .chips:empty { display: none; }
+  .label-pick input {
+    font: inherit; font-size: 13px; padding: 4px 8px; width: 100%;
+    border: 1px solid var(--line); border-radius: 6px; background: var(--chip); color: var(--fg);
+  }
+  .label-pick ul {
+    position: absolute; z-index: 2; left: 0; right: 0; top: calc(100% + 2px); margin: 0; padding: 4px 0; list-style: none;
+    max-height: min(50vh, 360px); overflow-y: auto; background: var(--bg); border: 1px solid var(--line); border-radius: 6px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / .15);
+  }
+  .label-pick li { display: flex; justify-content: space-between; gap: 12px; padding: 4px 10px; font-size: 13px; cursor: pointer; }
+  .label-pick li span { color: var(--muted); }
+  .label-pick li[aria-selected="true"] { background: var(--chip); }
+  #label .chip .remove { color: inherit; opacity: .7; }
   td.flags span + span { margin-left: 2px; }
   .summary { margin: 4px 0 0; color: var(--muted); }
   /* A program to a row: its name and its episode menu; on a phone, one under the other. */
@@ -163,6 +179,7 @@
    *   artist  flags year
    *   track      episode
    *   album
+   *   label
    * and the column heads are a line of sort buttons above the list.
    */
   @media (max-width: 640px) {
@@ -171,16 +188,17 @@
     thead th { display: block; padding: 0; border: 0; }
     #rows tr {
       display: grid; grid-template-columns: minmax(0, 1fr) auto auto; column-gap: 0;
-      grid-template-areas: "artist flags year" "track episode episode" "album album album";
+      grid-template-areas: "artist flags year" "track episode episode" "album album album" "label label label";
       padding: 8px 0; border-bottom: 1px solid var(--line);
     }
     #rows td { padding: 0; border: 0; min-width: 0; }
     #rows td:nth-child(1) { grid-area: artist; font-weight: 600; }
     #rows td:nth-child(2) { grid-area: track; }
     #rows td:nth-child(3) { grid-area: album; font-size: 13px; color: var(--muted); }
-    #rows td:nth-child(4) { grid-area: year; text-align: right; color: var(--muted); padding-left: 8px; }
-    #rows td:nth-child(5) { grid-area: flags; text-align: right; font-size: 15px; padding-left: 12px; }
-    #rows td:nth-child(6) { grid-area: episode; text-align: right; font-size: 13px; padding-left: 12px; }
+    #rows td:nth-child(4) { grid-area: label; font-size: 13px; color: var(--muted); }
+    #rows td:nth-child(5) { grid-area: year; text-align: right; color: var(--muted); padding-left: 8px; }
+    #rows td:nth-child(6) { grid-area: flags; text-align: right; font-size: 15px; padding-left: 12px; }
+    #rows td:nth-child(7) { grid-area: episode; text-align: right; font-size: 13px; padding-left: 12px; }
   }
   footer { margin: 24px 0 8px; font-size: 12px; color: var(--muted); }
   /* Until the data is in: the title, a line in the middle of the screen, the footer; nothing empty in between. */
@@ -225,9 +243,19 @@
   <div class="chips"></div>
 </details>
 
+<details class="facet" id="label">
+  <summary><h2>Лейбл</h2><span class="picked"></span></summary>
+  <div class="chips"></div>
+  <div class="label-pick">
+    <input type="text" id="label-input" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="label-options"
+      placeholder="Начните вводить название лейбла" aria-label="Найти лейбл" autocomplete="off" spellcheck="false">
+    <ul id="label-options" role="listbox" aria-label="Лейблы" hidden></ul>
+  </div>
+</details>
+
 <div class="search">
   <span class="search-box">
-    <input type="search" id="search" placeholder="Поиск: артист, трек, альбом, год" aria-label="Поиск по трекам" autocomplete="off">
+    <input type="search" id="search" placeholder="Поиск: артист, трек, альбом, лейбл, год" aria-label="Поиск по трекам" autocomplete="off">
     <button id="search-clear" aria-label="Очистить поиск" hidden>×</button>
   </span>
 </div>
@@ -247,6 +275,7 @@
         <th><button class="sort" data-sort="artist">Артист</button></th>
         <th><button class="sort" data-sort="track">Трек</button></th>
         <th><button class="sort" data-sort="album">Альбом</button></th>
+        <th><button class="sort" data-sort="label">Лейбл</button></th>
         <th><button class="sort" data-sort="year">Год</button></th>
         <th><button class="sort" data-sort="country">Страна</button></th>
         <th><button class="sort" data-sort="episode">Эпизод</button></th>
@@ -262,7 +291,8 @@
 <footer>
   Нашли ошибку или хотите помочь с недостающими плейлистами? Пишите на <a href="mailto:akt@mksb.me">akt@mksb.me</a>, <a href="https://bsky.app/profile/mikesub.net">bsky</a>.<br>
   Годы выпуска — по данным <a href="https://musicbrainz.org">MusicBrainz</a>, <a href="https://www.discogs.com">Discogs</a> и Apple Music;
-  страны — из плейлистов, а где их там нет — из других выпусков и MusicBrainz.
+  страны — из плейлистов, а где их там нет — из других выпусков и MusicBrainz;
+  лейблы — из плейлистов, а где их там нет — из Discogs.
   Плейлисты составлены Артемием Троицким; остальные данные — <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru">CC BY-NC-SA 4.0</a>.<br>
   Огромное спасибо авторам <a href="https://radar.lv/fmd">radar.lv/fmd</a> и <a href="https://sl.onerpm.com/7676294572">Tilgor Kraut</a>: значительная часть архива «FM Достоевского» держится на их многолетней работе.<br>
   Исходный код (<a href="https://github.com/mikesub/akt/blob/main/LICENSE">MIT</a>) и <a href="https://github.com/mikesub/akt/tree/main/docs/data">данные в JSON</a> — на <a href="https://github.com/mikesub/akt">GitHub</a>; пулл-реквесты приветствуются.<br>
@@ -272,6 +302,8 @@
 <script type="module">
   const UNKNOWN = 'Год пока не определён';
   const NO_COUNTRY = 'unknown'; // the country facet's value, and its URL's, for a track with none
+  const NO_LABEL = 'unknown'; // the label facet's value, and its URL's, for a track with none (a self-release; none known)
+  const labelName = (name) => (name === NO_LABEL ? 'Без лейбла' : name);
 
   /**
    * A country's Russian name and flag, by its code (countries.json): the browser's own names, but for
@@ -369,6 +401,7 @@
         decade: track.year ? `${Math.floor(track.year / 10) * 10}-е` : UNKNOWN,
         countries: track.country?.length ? track.country : [NO_COUNTRY],
         countryChips: chipsOf(track.country),
+        labels: track.label?.length ? track.label : [NO_LABEL],
       }));
     });
   const rows = PROGRAMS.flatMap(({ id }) => tracksOf(data[id], id));
@@ -376,7 +409,7 @@
   /** Text as search compares it: lower case, accents dropped ("Gültekin" is found by "gultekin", "ё" by "е"). */
   const fold = (text) => text.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
   // Each row's searchable columns, apart so that a query never matches across two of them.
-  for (const row of rows) row.search = fold([row.artist, row.track, row.album, row.year].filter(Boolean).join('\n'));
+  for (const row of rows) row.search = fold([row.artist, row.track, row.album, row.year, ...(row.label ?? [])].filter(Boolean).join('\n'));
 
   // Dates as "25 мар 2013": three-letter months, no dots ("май", not "мая").
   const MONTHS = ['янв', 'фев', 'мар', 'апр', 'май', 'июн', 'июл', 'авг', 'сен', 'окт', 'ноя', 'дек'];
@@ -470,6 +503,7 @@
     artist: { compare: byArtist, missing: (row) => !row.artist },
     track: { compare: (a, b) => collator.compare(a.track, b.track), missing: (row) => !row.track },
     album: { compare: (a, b) => collator.compare(a.album, b.album), missing: (row) => !row.album },
+    label: { compare: (a, b) => collator.compare(a.labels[0], b.labels[0]), missing: (row) => row.labels[0] === NO_LABEL },
     year: { compare: (a, b) => a.year - b.year, missing: (row) => !row.year },
     country: { compare: (a, b) => collator.compare(countryName(a.countries[0]), countryName(b.countries[0])), missing: (row) => row.countries[0] === NO_COUNTRY },
     episode: { compare: (a, b) => collator.compare(a.episode, b.episode), missing: () => false },
@@ -483,9 +517,10 @@
 
   /**
    * Each facet: the row's values it filters on (a track can have several
-   * countries) and how its choices are ordered: chips for the decade and the
-   * country, a menu for each program's episodes. One value at a time per
-   * facet (`selected`, null for all), but for the country, which takes
+   * countries, several labels) and how its choices are ordered: chips for the decade and the
+   * country, a menu for each program's episodes, a field to type in for the label (thousands of them,
+   * the picked ones as chips). One value at a time per
+   * facet (`selected`, null for all), but for the country and the label, which take
    * several (`multi`: `selected` a list, null for all); a row matches when
    * one of its values is picked. A program's episode facet has no value for
    * the other programs' rows, so picking an episode shows that episode alone
@@ -520,6 +555,7 @@
       values: (row) => row.countryChips,
       order: (a, b) => (a.name === NO_COUNTRY) - (b.name === NO_COUNTRY) || countryTotals.get(b.name) - countryTotals.get(a.name),
     },
+    label: { multi: true, values: (row) => row.labels, order: (a, b) => b.count - a.count || collator.compare(a.name, b.name) },
     ...Object.fromEntries(
       PROGRAMS.map(({ id, running }) => [
         id,
@@ -557,17 +593,18 @@
   }
 
   /**
-   * The view in the URL, to share: ?q=cohen&decade=1980&country=GB&pesni=12&link=1&sort=-year (a special
-   * by its date, svoboda=2022-03-10; decade=unknown for no year, country=unknown for no country; sort left
-   * out when by artist, A to Z).
+   * The view in the URL, to share: ?q=cohen&decade=1980&country=GB&label=Mute&label=Domino&pesni=12&link=1&sort=-year
+   * (a special by its date, svoboda=2022-03-10; decade=unknown for no year, country=unknown for no country,
+   * label=unknown for no label; a label once per key, its name may hold a comma; sort left out when by artist, A to Z).
    */
-  const URL_KEYS = ['q', 'decade', 'country', ...Object.keys(info), 'link', 'sort'];
+  const URL_KEYS = ['q', 'decade', 'country', 'label', ...Object.keys(info), 'link', 'sort'];
   function viewFromUrl() {
     const params = new URLSearchParams(location.search);
     const decade = params.get('decade');
     const selected = {
       decade: decade === 'unknown' ? UNKNOWN : /^\d{4}$/.test(decade ?? '') ? `${decade}-е` : null,
       country: params.get('country')?.split(',').map(chipOf) ?? null, // SU, a link from before the chips merged, is RU's
+      label: params.getAll('label'),
     };
     for (const id of Object.keys(info)) {
       const value = params.get(id);
@@ -587,13 +624,14 @@
     const decade = facets.decade.selected;
     if (decade) params.set('decade', decade === UNKNOWN ? 'unknown' : decade.replace(/-е$/, ''));
     if (facets.country.selected) params.set('country', facets.country.selected.join(','));
+    for (const label of facets.label.selected ?? []) params.append('label', label);
     for (const id of Object.keys(info)) {
       const episode = facets[id].selected;
       if (episode) params.set(id, episode.replace(/^#/, ''));
     }
     if (appleOnly) params.set('link', '1');
     if (sort.key !== 'artist' || sort.dir !== 1) params.set('sort', `${sort.dir < 0 ? '-' : ''}${sort.key}`);
-    // Commas are fine in a query: ?country=GB,US, not GB%2CUS.
+    // Commas are fine in a query: ?country=GB,US, not GB%2CUS (a label's own comma too: it has a key to itself).
     const string = params.toString().replaceAll('%2C', ',');
     return string ? `?${string}` : '';
   }
@@ -685,6 +723,23 @@
           .join('');
       return;
     }
+    if (key === 'label') {
+      // Folded until opened, and opened by a link that picks one; folded, it still names the ones picked.
+      if (facet.selected !== null) section.open = true;
+      const picked = facet.selected ?? [];
+      const names = picked.map(labelName);
+      section.querySelector('.picked').textContent = names.length > 3 ? `${names.slice(0, 2).join(', ')} и ещё ${names.length - 2}` : names.join(', ');
+      section.querySelector('.chips').innerHTML = picked
+        .map((name) => {
+          const count = counts.get(name) ?? 0;
+          return `<button class="chip" data-value="${escape(name)}" aria-pressed="true" aria-label="${escape(`Убрать ${labelName(name)}: ${count}`)}">` +
+            `${escape(labelName(name))}<span>${count}</span><span class="remove" aria-hidden="true">×</span></button>`;
+        })
+        .join('');
+      labelCounts = counts;
+      if (document.activeElement === labelInput) suggestLabels();
+      return;
+    }
     if (key === 'country') {
       // Folded until opened, and opened by a link that picks one; folded, it still shows the one picked.
       if (facet.selected !== null) section.open = true;
@@ -733,8 +788,11 @@
     const flags = [...byFlag]
       .map(([emoji, names]) => `<span title="${escape(names.join(' / ') + (from ? ` · ${from}` : ''))}" role="img" aria-label="${escape(names.join(' / '))}">${emoji}</span>`)
       .join('');
+    // A label not printed in the playlist is its Discogs release's: said on hover.
+    const labels = (row.label ?? []).join(' / ');
+    const label = labels && row.label_from === 'discogs' ? `<span title="по данным Discogs">${escape(labels)}</span>` : escape(labels);
     return `<tr><td>${apple('artist', row.apple_artist_id, row.artist)}</td><td>${title}</td><td>${apple('album', row.apple_album_id, row.album)}</td>` +
-      `<td class="num">${escape(row.year)}</td><td class="flags">${flags}</td><td class="num">${episode}</td></tr>`;
+      `<td>${label}</td><td class="num">${escape(row.year)}</td><td class="flags">${flags}</td><td class="num">${episode}</td></tr>`;
   }
 
   // The table is drawn PAGE rows at a time, the next ones as its end nears the screen:
@@ -853,6 +911,99 @@
       render();
     });
   }
+  /**
+   * The label field: as one types, the labels whose name has the text (those it starts, then a word of
+   * theirs starts, then the rest), most tracks first under the other filters, a label with none left out;
+   * focused and empty, the labels with most tracks. Arrows move, Enter picks, Escape closes, Backspace in
+   * the empty field takes off the last one picked.
+   */
+  const labelInput = document.getElementById('label-input');
+  const labelOptions = document.getElementById('label-options');
+  const LABEL_OPTIONS = 15;
+  // Each label's name folded, and its words after a space, so that one starting a word is found with a test.
+  const labelFold = new Map();
+  for (const row of rows) {
+    for (const name of row.labels) {
+      if (labelFold.has(name)) continue;
+      const folded = fold(labelName(name));
+      labelFold.set(name, { folded, words: ` ${folded.replace(/[^\p{L}\p{N}]+/gu, ' ')}` });
+    }
+  }
+  let labelCounts = new Map(); // each label's tracks under the other filters, as the last render counted them
+  let suggested = [];
+  let active = -1;
+  function suggestLabels() {
+    const text = fold(labelInput.value.trim());
+    const picked = facets.label.selected ?? [];
+    const found = [];
+    for (const [name, count] of labelCounts) {
+      if (count === 0 || picked.includes(name)) continue;
+      const { folded, words } = labelFold.get(name);
+      const rank = !text || folded.startsWith(text) ? 0 : words.includes(` ${text}`) ? 1 : folded.includes(text) ? 2 : -1;
+      if (rank >= 0) found.push({ name, count, rank });
+    }
+    // «Без лейбла» goes last, a choice to find rather than to be shown first.
+    found.sort((a, b) => (a.name === NO_LABEL) - (b.name === NO_LABEL) || a.rank - b.rank || b.count - a.count || collator.compare(a.name, b.name));
+    suggested = found.slice(0, LABEL_OPTIONS);
+    active = text && suggested.length > 0 ? 0 : -1;
+    drawLabelOptions();
+  }
+  function drawLabelOptions() {
+    labelOptions.innerHTML = suggested
+      .map((o, i) => `<li role="option" id="label-option-${i}" data-value="${escape(o.name)}" aria-selected="${i === active}">${escape(labelName(o.name))}<span>${o.count}</span></li>`)
+      .join('');
+    const open = suggested.length > 0 && document.activeElement === labelInput;
+    labelOptions.hidden = !open;
+    labelInput.setAttribute('aria-expanded', String(open));
+    if (open && active >= 0) {
+      labelInput.setAttribute('aria-activedescendant', `label-option-${active}`);
+      labelOptions.children[active]?.scrollIntoView({ block: 'nearest' });
+    } else labelInput.removeAttribute('aria-activedescendant');
+  }
+  function closeLabelOptions() {
+    suggested = [];
+    active = -1;
+    drawLabelOptions();
+  }
+  function pickLabel(name) {
+    facets.label.selected = [...(facets.label.selected ?? []), name];
+    labelInput.value = '';
+    render();
+    labelInput.focus();
+    suggestLabels();
+  }
+  labelInput.addEventListener('input', suggestLabels);
+  labelInput.addEventListener('focus', suggestLabels);
+  labelInput.addEventListener('blur', closeLabelOptions);
+  labelInput.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+      if (suggested.length === 0) suggestLabels();
+      if (suggested.length === 0) return;
+      event.preventDefault();
+      const step = event.key === 'ArrowDown' ? 1 : -1;
+      active = active < 0 ? (step > 0 ? 0 : suggested.length - 1) : (active + step + suggested.length) % suggested.length;
+      drawLabelOptions();
+    } else if (event.key === 'Enter') {
+      if (active < 0) return;
+      event.preventDefault();
+      pickLabel(suggested[active].name);
+    } else if (event.key === 'Escape') {
+      if (suggested.length === 0) return;
+      event.preventDefault();
+      closeLabelOptions();
+    } else if (event.key === 'Backspace' && labelInput.value === '' && facets.label.selected) {
+      facets.label.selected = facets.label.selected.slice(0, -1);
+      if (facets.label.selected.length === 0) facets.label.selected = null;
+      render();
+    }
+  });
+  // A press on an option keeps the focus in the field, so the list is not closed before the click picks.
+  labelOptions.addEventListener('mousedown', (event) => event.preventDefault());
+  labelOptions.addEventListener('click', (event) => {
+    const option = event.target.closest('li');
+    if (option) pickLabel(option.dataset.value);
+  });
+
   search.addEventListener('input', () => {
     query = fold(search.value.trim());
     searchClear.hidden = search.value === '';
@@ -894,6 +1045,8 @@
     ['album', (row) => row.album],
     ['year', (row) => row.year],
     ['country', (row) => (row.country ?? []).join(' ')],
+    // Labels may hold spaces and slashes ("V/Vm Test"): a semicolon between two.
+    ['label', (row) => (row.label ?? []).join('; ')],
     ['apple_music_url', (row) => link('https://music.apple.com/song/', row.apple_id)],
     ['apple_album_url', (row) => link('https://music.apple.com/album/', row.apple_album_id)],
     ['apple_artist_url', (row) => link('https://music.apple.com/artist/', row.apple_artist_id)],

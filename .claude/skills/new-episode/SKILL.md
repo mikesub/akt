@@ -49,7 +49,7 @@ console.log(item.description.replace(/<[^>]+>/g, '\n').replace(/\n{2,}/g, '\n'))
 jq '.[] | select(.number == 89) | .tracks' docs/data/stereoplan.json
 ```
 
-`claude` copies values exactly as written, typos included; that is intended. What would be wrong: a missing or invented entry, a merged pair, the country left in the artist, the label left in the album.
+`claude` copies values exactly as written, typos included; that is intended. What would be wrong: a missing or invented entry, a merged pair, the country left in the artist, the label left in the album, a `printed_label` that is not the entry's parenthesised label.
 
 **Apple Music misses:**
 
@@ -59,7 +59,7 @@ jq -r '.[] | select(.number == 89) | .tracks[] | select(.apple_id == null) | "\(
 
 Misses are normal (about 14% overall): songs not in the Dutch store, or names Apple writes differently. List them in the report; don't fix them by hand.
 
-Do not edit `stereoplan.json` by hand. If the parse is wrong, report it and stop: the fix belongs in `src/`, followed by `node bin/stereoplan.js --episode <number>`. A wrong year (Apple only has a reissue) is fixed in `overrides.json` with its source in `why`, then `node bin/stereoplan.js` applies it. A new artist printed in another spelling than the archive's: `node bin/artists.js` proposes it in `artists.json` (review its list of changes beyond case), then `node bin/stereoplan.js` applies it.
+Do not edit `stereoplan.json` by hand. If the parse is wrong, report it and stop: the fix belongs in `src/`, followed by `node bin/stereoplan.js --episode <number>`. A wrong year (Apple only has a reissue) is fixed in `overrides.json` with its source in `why`, then `node bin/stereoplan.js` applies it. A new artist printed in another spelling than the archive's: `node bin/artists.js` proposes it in `artists.json` (review its list of changes beyond case), then `node bin/stereoplan.js` applies it. Likewise a label printed in another spelling than the archive's ("Mute Records" beside "Mute"): `node bin/labels.js --spellings` proposes it in `labels.json` (review its list of changes beyond case) and applies it.
 
 ## 4. Commit, push, confirm the site
 

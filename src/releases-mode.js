@@ -76,6 +76,7 @@ export async function releasesMode({ opts, tracks, save }) {
     r.masterOnly.push(x);
     if (opts.write) {
       x.t.discogs_master_id = rel.master;
+      if (rel.labels && !('discogs_labels' in x.t)) x.t.discogs_labels = rel.labels;
       const m = rel.master && masters.get(rel.master);
       if (m) Object.assign(x.t, { discogs_genres: m.genres, discogs_styles: m.styles });
       changed.add(x.t);
@@ -146,6 +147,8 @@ export async function releasesMode({ opts, tracks, save }) {
 
     if (opts.write) {
       x.t.discogs_id = release.id;
+      // The release's labels: a master-only track's, its main release's, give way to its own release's.
+      if (release.labels) x.t.discogs_labels = release.labels;
       if (!master) {
         x.t.discogs_master_id = release.master;
         const m = release.master && masters.get(release.master);

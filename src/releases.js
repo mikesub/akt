@@ -1,4 +1,4 @@
-import { decode, discogsName, genresOf, parseMaster, records } from './dumps.js';
+import { decode, discogsName, genresOf, labelsOf, parseMaster, records } from './dumps.js';
 import { bare, close, credited, main, plain, titleTest } from './match.js';
 
 /**
@@ -83,6 +83,7 @@ function parseRelease(rec) {
     reissue: descriptions.some((d) => /^(Reissue|Repress|Remastered)$/.test(d)),
     unofficial: descriptions.includes('Unofficial Release'),
     country: decode(rec.match(/<country>([\s\S]*?)<\/country>/)?.[1] ?? ''),
+    labels: labelsOf(rec),
     ...genresOf(rec),
     tracks: tracksOf(rec),
   };
@@ -176,7 +177,7 @@ export async function matchReleases({ releasesFile, artistsFile, wanted, byRelea
     parsed++;
     const release = parseRelease(rec);
     // Copied out (a JSON round trip): a substring would keep the whole record, and the dump's buffer, alive.
-    if (asked) releasesById.set(id, JSON.parse(JSON.stringify({ id, master: release.master, genres: release.genres, styles: release.styles, year: release.year })));
+    if (asked) releasesById.set(id, JSON.parse(JSON.stringify({ id, master: release.master, labels: release.labels, genres: release.genres, styles: release.styles, year: release.year })));
     let kept = null;
     for (const x of candidates) {
       const ids = idsOf.get(x) ?? new Set();
@@ -186,7 +187,7 @@ export async function matchReleases({ releasesFile, artistsFile, wanted, byRelea
         const test = tests.get(x);
         if (!entry.titles.some((title) => title.split(/\s+=\s+/).some(test))) continue;
         if (!sameArtistOn(x.t.artist, performersHere, ids)) continue;
-        kept ??= JSON.parse(JSON.stringify({ id: release.id, title: release.title, artists: release.artists.map(({ id, name }) => ({ id, name })), year: release.year, master: release.master, compilation: release.compilation, reissue: release.reissue, unofficial: release.unofficial }));
+        kept ??= JSON.parse(JSON.stringify({ id: release.id, title: release.title, artists: release.artists.map(({ id, name }) => ({ id, name })), year: release.year, master: release.master, labels: release.labels, compilation: release.compilation, reissue: release.reissue, unofficial: release.unofficial }));
         const list = matches.get(x) ?? [];
         list.push({ release: kept, entryArtists: JSON.parse(JSON.stringify(performersHere.map(({ id, name, anv }) => ({ id, name, anv })))) });
         matches.set(x, list);

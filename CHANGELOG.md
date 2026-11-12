@@ -7,6 +7,18 @@ added, renamed or removed; **Breaking** marks a change that can break code readi
 Routine updates (a new Стереоплан episode, a single fix) are not listed: the git history of
 `docs/data/` has every change.
 
+## 2026-11-12
+
+- **Format**: record labels on every track. `printed_label`: the label the playlist prints, as printed (`null` for
+  none), read by `claude` from every playlist. `label`: the labels shown, a list (a printed «Sub Pop / Bungalow» is
+  two), each under one spelling (`labels.json`, new: «mute», «Mute Records» → «Mute»), or `null`: a self-release
+  («Self-released», «Artist release», «самиздат»), or no label known. A track whose playlist prints none takes its
+  Discogs release's labels, with `label_from: "discogs"`. `discogs_labels`: the Discogs release's labels as Discogs
+  names them (beside `discogs_id`; for a track with a master only, its main release's), from the releases dump of
+  2026-10-01. 21,831 of 22,509 tracks have a label (3,074 from Discogs, most of them «Музыка на Свободе»'s, whose
+  playlists printed labels only from mid-2022), 6,767 labels in all. The page's CSV has a `label` column ("; "
+  between two).
+
 ## 2026-10-28
 
 - Links and years: 94 `overrides.json` entries from the same check, each checked again against Discogs' releases

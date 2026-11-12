@@ -55,6 +55,11 @@ the owner, never after the episode aired; 2+ years before a MusicBrainz year, or
 it goes to --review instead. Two Discogs artists of the same name behind the matches (or one other than
 the archive's masters already name), and titles too short or generic ("Intro"), are left unmatched.
 
+With --labels, sets discogs_labels on every track with a release, from the releases dump: its release's
+labels, as Discogs names them; for a track with a master and no release, the master's main release's
+(src/labels-mode.js). A track shows them only when its playlist prints no label (src/labels.js). One pass
+over the releases dump. Without --write a dry run. Run it again after a new dump.
+
 Options:
   --masters <file>   The masters dump (default: ../discogs/discogs_<date>_masters.xml.gz, the newest)
   --artists <file>   The artists dump, for name variations and aliases (default: the newest beside it;
@@ -64,8 +69,9 @@ Options:
   --genres           Set the genres and styles of every track's master in docs/data (see above)
   --years            Set the masters' years where the case is clear (see above)
   --releases         Match by title against the releases dump (see above; default: the newest beside it)
-  --matches <file>   With --releases: save the pass's matches there, or read them back if it exists
-                     (a dry run, then --write, without a second pass over the dump)
+  --labels           Set every track's Discogs release's labels from the releases dump (see above)
+  --matches <file>   With --releases or --labels: save the pass's matches there, or read them back if it
+                     exists (a dry run, then --write, without a second pass over the dump)
   --review <file>    With --years or --releases: write, as JSON, the doubtful cases for the owner (see above)
   -h, --help         Show this help
 `;
@@ -82,6 +88,7 @@ try {
       review: { type: 'string' },
       years: { type: 'boolean' },
       releases: { type: 'boolean' },
+      labels: { type: 'boolean' },
       matches: { type: 'string' },
       help: { type: 'boolean', short: 'h' },
     },
@@ -95,8 +102,9 @@ try {
   if (!masters || !existsSync(masters)) throw new Error('no masters dump: download discogs_<date>_masters.xml.gz from data.discogs.com into ../discogs/, or name it with --masters');
   const artists = values.artists === 'none' ? null : (values.artists ?? newest('artists'));
   if (artists && !existsSync(artists)) throw new Error(`no artists dump at ${artists}`);
-  opts = { masters, artists, report: values.report ?? null, write: values.write ?? false, genres: (values.genres || values.write) ?? false, review: values.review ?? null, years: values.years ?? false, releases: values.releases ? newest('releases') : null, matches: values.matches ?? null };
-  if (values.releases && !opts.releases) throw new Error('no releases dump: download discogs_<date>_releases.xml.gz from data.discogs.com into ../discogs/');
+  opts = { masters, artists, report: values.report ?? null, write: values.write ?? false, genres: (values.genres || values.write) ?? false, review: values.review ?? null, years: values.years ?? false, releases: values.releases || values.labels ? newest('releases') : null, labels: values.labels ?? false, matches: values.matches ?? null };
+  if (values.releases && values.labels) throw new Error('--releases and --labels are two passes: one at a time');
+  if ((values.releases || values.labels) && !opts.releases) throw new Error('no releases dump: download discogs_<date>_releases.xml.gz from data.discogs.com into ../discogs/');
 } catch (err) {
   process.stderr.write(`${err.message}\n\n${USAGE}`);
   process.exit(2);
@@ -144,6 +152,12 @@ function save(changed) {
     writeFileSync(`${file}.tmp`, `${JSON.stringify(episodes, null, 2)}\n`);
     renameSync(`${file}.tmp`, file);
   }
+}
+
+if (opts.labels) {
+  const { labelsMode } = await import('../src/labels-mode.js');
+  await labelsMode({ opts, tracks, save });
+  process.exit(0);
 }
 
 if (opts.releases) {
