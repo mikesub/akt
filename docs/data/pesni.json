@@ -9624,6 +9624,197 @@
     ]
   },
   {
+    "number": 29,
+    "title": null,
+    "published_at": "2016-10-08",
+    "url": null,
+    "playlist_hash": "da2f7a70afe4ae22",
+    "tracks": [
+      {
+        "artist": "Sidestepper",
+        "track": "Fuego que te llama",
+        "album": "Supernatural Love",
+        "printed_country": "Colombia/UK",
+        "country": [
+          "CO",
+          "GB"
+        ],
+        "apple_id": 1654123568,
+        "apple_album_id": 1654123552,
+        "apple_artist_id": 2581038,
+        "mb_id": "eafe1f06-f927-4405-afef-474c529fee8f",
+        "year": 2015,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Kevin Morby",
+        "track": "Singing saw",
+        "album": "Singing saw",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1075331802,
+        "apple_album_id": 1075329613,
+        "apple_artist_id": 708517315,
+        "mb_id": "94bf5f23-d429-4c7e-9659-2f18324a8765",
+        "year": 2016,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Vincent Rouard",
+        "track": "Melankolia",
+        "album": "Strada",
+        "printed_country": "Belgium",
+        "country": [
+          "BE"
+        ],
+        "apple_id": 962518901,
+        "apple_album_id": 962518255,
+        "apple_artist_id": 401258630,
+        "mb_id": "cea21b2f-2033-4c6b-948a-cc944a15b2df",
+        "year": 2014,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Tokame",
+        "track": "No te meta con migo",
+        "album": "Eres la tierra mas linda",
+        "printed_country": "Cuba/UK",
+        "country": [
+          "CU",
+          "GB"
+        ],
+        "apple_id": 1096059131,
+        "apple_album_id": 1096058899,
+        "apple_artist_id": 416425214,
+        "mb_id": null,
+        "year": 2016,
+        "year_from": "apple"
+      },
+      {
+        "artist": "Ostrobothnian Folk Orchestra",
+        "track": "Intro",
+        "album": "OFO",
+        "printed_country": "Finland",
+        "country": [
+          "FI"
+        ],
+        "apple_id": 1116627504,
+        "apple_album_id": null,
+        "apple_artist_id": 1116627494,
+        "mb_id": "25fcd78c-848f-45b2-8f8b-94b510d551ad",
+        "year": 2016,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Ostrobothnian Folk Orchestra",
+        "track": "Metsalämpi",
+        "album": "OFO",
+        "printed_country": "Finland",
+        "country": [
+          "FI"
+        ],
+        "apple_id": 1116627515,
+        "apple_album_id": null,
+        "apple_artist_id": 1116627494,
+        "mb_id": "5c8ad00f-a7d7-47ee-b7b0-1ff6a51b543f",
+        "year": 2016,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Ana Alcaide",
+        "track": "Sono",
+        "album": "Gotrasawala",
+        "printed_country": "Spain",
+        "country": [
+          "ES"
+        ],
+        "apple_id": 1813681173,
+        "apple_album_id": 1813681169,
+        "apple_artist_id": 290941117,
+        "mb_id": "ca79025b-98b4-4a33-b752-3ca709ef76c9",
+        "year": 2015,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Ana Alcaide",
+        "track": "Goyong",
+        "album": "Gotrasawala",
+        "printed_country": "Spain",
+        "country": [
+          "ES"
+        ],
+        "apple_id": 1813681179,
+        "apple_album_id": 1813681169,
+        "apple_artist_id": 290941117,
+        "mb_id": "b9f66cea-53f3-492d-8b52-00550070ba50",
+        "year": 2015,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Ana Alcaide",
+        "track": "Diosa Luolaien",
+        "album": "Leyenda",
+        "printed_country": "Spain",
+        "country": [
+          "ES"
+        ],
+        "apple_id": 1809910924,
+        "apple_album_id": 1809910921,
+        "apple_artist_id": 290941117,
+        "mb_id": "4f151e0c-0405-440b-820e-992244d90e8f",
+        "year": 2016,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Ana Alcaide",
+        "track": "El puente de San Martin",
+        "album": "Leyenda",
+        "printed_country": "Spain",
+        "country": [
+          "ES"
+        ],
+        "apple_id": 1809910930,
+        "apple_album_id": 1809910921,
+        "apple_artist_id": 290941117,
+        "mb_id": "5890d5cd-6142-4c57-8c5c-09582c413941",
+        "year": 2016,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Tomaccos",
+        "track": "I like you",
+        "album": "Easyhill TN",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1087126483,
+        "apple_album_id": 1087125733,
+        "apple_artist_id": 1087126182,
+        "mb_id": null,
+        "year": 2016,
+        "year_from": "apple"
+      },
+      {
+        "artist": "Mou Brasil",
+        "track": "Dorival",
+        "album": "Farol",
+        "printed_country": "Brazil",
+        "country": [
+          "BR"
+        ],
+        "apple_id": 1667296032,
+        "apple_album_id": 1667296023,
+        "apple_artist_id": 277971046,
+        "mb_id": null,
+        "year": 2013,
+        "year_from": "apple"
+      }
+    ]
+  },
+  {
     "number": 28,
     "title": "Dagadana, Aziza Brahim и другие в \"Песнях и Плясках\". (028)",
     "published_at": "2016-10-02",

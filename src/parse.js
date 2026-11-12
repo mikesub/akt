@@ -51,7 +51,7 @@ FORMAT is LP, CD, EP, SP, MLP, single or the like (also in Cyrillic letters); th
 - track: the title, without quotes around it. The country is the parenthesised part right after the artist; one after the title is either the label (when there is no album) or part of the title, such as a subtitle or version ("Be Ki Don(Cockpit Dub)").
 - album: without the format before it, the quotes or the word "альбом" before or around it, and the parenthesised label after it.
 - A line with only "FORMAT Album (Label)" continues the entry above it: it is that entry's album, not a new entry.
-- "Ibid" (also "ibid.", "Там же") in the artist or album position means "same as the previous entry": copy the previous entry's artist (and its country) or album. An entry that starts with "Ibid" followed directly by the title has the previous entry's artist.
+- "Ibid" (also "ibid.", "Там же", "Same") in the artist or album position means "same as the previous entry": copy the previous entry's artist (and its country) or album; "Same (Same)" is the previous entry's artist and country. An entry that starts with "Ibid" followed directly by the title has the previous entry's artist. A title "Same" is a title.
 - Copy every value exactly as written: keep the language, spelling and capitals (lowercase stays lowercase), translate nothing, correct nothing; only trim spaces and stray quotes at either end. Use null for anything the entry does not contain or only holds a place for ("...", "?").
 - Ignore any header line and every line that is not an entry: a heading, a comment, a promo or subscription line. When the entries are numbered, a line without a number is either such a line or the continuation of the entry above it.
 
