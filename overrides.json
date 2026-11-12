@@ -7248,5 +7248,25 @@
     "year": 2018,
     "year_from": "discogs",
     "why": "Стереоплан #92: from the LP «Ain't Got A Leg To Stand On» (Beast, 2018; discogs.com/release/13221829, track 2), as the host says; MusicBrainz’s 2021 is «Tremblin’» (Dirty Water), a 40-track CD compilation (discogs.com/release/20112130)"
+  },
+  {
+    "artist": "Golden Earring",
+    "track": "Radar Love",
+    "year": 1973,
+    "why": "Стереоплан #93: from «Moontan» (Polydor, 1973), the first release of the recording MusicBrainz links (f64ccf29-a374-40b0-863d-4616a480094e, 1973-07-01) and the year of the Discogs masters of the single and the album (104226, 62380), as the host says; MusicBrainz’s 1971 is its «Radar Love (single version)» recording (69506c5c-54c6-45d4-9445-7eb1fae353f7), first on «The Best of Golden Earring», a compilation misdated 1971"
+  },
+  {
+    "artist": "Q 65",
+    "track": "So high I’ve been, so down I must fall",
+    "year": 1967,
+    "year_from": "discogs",
+    "why": "Стереоплан #93: first the B-side of the 7\" single «Where Is The Key» (Decca AT 10286, Netherlands, 1967; discogs.com/release/598583), as the host says (1967); MusicBrainz’s 1969 is the LP «Revival» (Decca, 1969; discogs.com/release/606387)"
+  },
+  {
+    "artist": "Shocking Blue",
+    "track": "Love Buzz",
+    "discogs_id": 545496,
+    "discogs_master_id": 102957,
+    "why": "Стереоплан #93: the host plays it from «At Home» (Pink Elephant 888.001, 1969; discogs.com/release/545496, master 102957, track B3); the lookup found a New Zealand «Venus» EP (discogs.com/release/3471717) under the «Venus» single master (1005020)"
   }
 ]

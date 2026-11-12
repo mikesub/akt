@@ -1,12 +1,286 @@
 [
   {
+    "guid": "d777bf75-82f6-46b6-9df1-2286e188b6cf",
+    "number": 93,
+    "title": "🎶 Стереоплан Троицкого* #93 - \"Голландские группы 60–70-х, импро-фолк и словенские концептуалисты\".",
+    "published_at": "2026-11-09T08:07:00.000Z",
+    "url": "https://stereoplantroitsky.mave.digital/ep-95",
+    "mp3_url": "https://api.mave.digital/storage/podcasts/5eb88210-d265-4315-8405-4982ead857cb/episodes/e6c3541e-9e9a-4083-8769-be2142a5e4ce.mp3",
+    "duration_sec": 3452,
+    "playlist_hash": "7f0f92bdba19ceca",
+    "tracks": [
+      {
+        "artist": "Laibach",
+        "track": "AllGoRhythm",
+        "album": "MUSICK",
+        "printed_country": "Slovenia",
+        "country": [
+          "SI"
+        ],
+        "apple_id": 1869100263,
+        "apple_album_id": 1869099366,
+        "apple_artist_id": 19515616,
+        "mb_id": "97652136-ab84-4f19-8940-4182dcb74d5c",
+        "discogs_id": 36558742,
+        "discogs_master_id": null,
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Kathryn Mohr",
+        "track": "Elevator",
+        "album": "WAITING ROOM",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1777111090,
+        "apple_album_id": 1777111084,
+        "apple_artist_id": 1546578726,
+        "mb_id": "b7736609-3905-4103-8953-e987f956bcdd",
+        "discogs_id": 33046146,
+        "discogs_master_id": 3733293,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Experimental",
+          "Indie Rock"
+        ],
+        "year": 2025,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Kathryn Mohr",
+        "track": "Doorway",
+        "album": "CARVE",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1872712174,
+        "apple_album_id": 1872712172,
+        "apple_artist_id": 1546578726,
+        "mb_id": "438fce8d-b43a-41c9-9039-5357bdab82a4",
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Dub Colossus",
+        "track": "Dub conquers all",
+        "album": "DUB WILL KEEP US TOGETHER",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "apple_id": 1861910514,
+        "apple_album_id": 1861910180,
+        "apple_artist_id": 268793127,
+        "mb_id": "694efad3-6a9c-4d11-911b-6db01def0f54",
+        "discogs_id": 38310006,
+        "discogs_master_id": null,
+        "year": 2020,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Q 65",
+        "track": "So high I’ve been, so down I must fall",
+        "album": "SO HIGH I’VE BEEN: A EUROPEAN ROCK ANTHOLOGY 1967-1973",
+        "printed_country": "Holland",
+        "country": [
+          "NL"
+        ],
+        "apple_id": 576199452,
+        "apple_album_id": null,
+        "apple_artist_id": 510362403,
+        "mb_id": "ddc48090-da2f-48f7-ad59-23cfe55eabf9",
+        "discogs_id": null,
+        "discogs_master_id": null,
+        "year": 1967,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "Groep 1850",
+        "track": "Mother No-Head",
+        "album": "SO HIGH I’VE BEEN: A EUROPEAN ROCK ANTHOLOGY 1967-1973",
+        "printed_country": "Holland",
+        "country": [
+          "NL"
+        ],
+        "apple_id": 1675416153,
+        "apple_album_id": null,
+        "apple_artist_id": 358108159,
+        "mb_id": "c8a6779e-01da-4bbd-b72a-6d31e616542b",
+        "discogs_id": null,
+        "discogs_master_id": null,
+        "year": 1967,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "Ekseption",
+        "track": "Sabre Dance",
+        "album": "EKSEPTION",
+        "printed_country": "Holland",
+        "country": [
+          "NL"
+        ],
+        "apple_id": 1692925711,
+        "apple_album_id": 1692925704,
+        "apple_artist_id": 13439764,
+        "mb_id": "4da5ddbf-167b-4a48-9ea6-165225a81754",
+        "year": 1969,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Shocking Blue",
+        "track": "Love Buzz",
+        "album": "AT HOME",
+        "printed_country": "Holland",
+        "country": [
+          "NL"
+        ],
+        "apple_id": 293336489,
+        "apple_album_id": 293336477,
+        "apple_artist_id": 81489350,
+        "mb_id": "48e3dde5-8192-4284-a05a-cef3c8584cd2",
+        "discogs_id": 545496,
+        "discogs_master_id": 102957,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Pop Rock",
+          "Psychedelic Rock"
+        ],
+        "year": 1969,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Focus",
+        "track": "Sylvia",
+        "album": "FOCUS 3",
+        "printed_country": "Holland",
+        "country": [
+          "NL"
+        ],
+        "apple_id": 1573577761,
+        "apple_album_id": 1573577757,
+        "apple_artist_id": 27054064,
+        "mb_id": "ba2b7730-3467-402e-975c-840d008ea494",
+        "discogs_id": 2714996,
+        "discogs_master_id": 121733,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Prog Rock",
+          "Classic Rock"
+        ],
+        "year": 1972,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Golden Earring",
+        "track": "Radar Love",
+        "album": "MOONTAN",
+        "printed_country": "Holland",
+        "country": [
+          "NL"
+        ],
+        "apple_id": 81667968,
+        "apple_album_id": 81668043,
+        "apple_artist_id": 97096,
+        "mb_id": "f64ccf29-a374-40b0-863d-4616a480094e",
+        "discogs_id": 11312240,
+        "discogs_master_id": 104226,
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Hard Rock",
+          "Rock & Roll",
+          "Pop Rock"
+        ],
+        "year": 1973,
+        "year_from": "owner"
+      },
+      {
+        "artist": "Haylie Davis",
+        "track": "I was wrong",
+        "album": "WANDERING STAR",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "apple_id": 1861805266,
+        "apple_album_id": 1861805093,
+        "apple_artist_id": 1770757934,
+        "mb_id": "365e275b-b2ef-4e43-a2b9-b558545d0cf3",
+        "discogs_id": 37609581,
+        "discogs_master_id": 4249485,
+        "discogs_genres": [
+          "Folk, World, & Country"
+        ],
+        "discogs_styles": [
+          "Folk",
+          "Country",
+          "Country Rock",
+          "Ballad"
+        ],
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "N’Faly Kouyate",
+        "track": "Yeke Yeke",
+        "album": "FINISHING",
+        "printed_country": "Guinea/Belgium",
+        "country": [
+          "GN",
+          "BE"
+        ],
+        "apple_id": 1833633743,
+        "apple_album_id": 1833633660,
+        "apple_artist_id": 153046264,
+        "mb_id": null,
+        "year": 2025,
+        "year_from": "apple"
+      },
+      {
+        "artist": "ZÖJ",
+        "track": "Woe to the ear",
+        "album": "MAY THE DEVIL’S EAR BE DEAF",
+        "printed_country": "Australia",
+        "country": [
+          "AU"
+        ],
+        "apple_id": 6774523470,
+        "apple_album_id": 6774523347,
+        "apple_artist_id": null,
+        "mb_id": "f5d1957a-0533-4c26-b318-d8ce813ea5af",
+        "discogs_id": 38355450,
+        "discogs_master_id": 4337172,
+        "discogs_genres": [
+          "Jazz",
+          "Folk, World, & Country"
+        ],
+        "discogs_styles": [
+          "Folk",
+          "Free Improvisation"
+        ],
+        "year": 2026,
+        "year_from": "musicbrainz"
+      }
+    ]
+  },
+  {
     "guid": "904452a3-9e8f-4850-acc4-ababc7a3ecf7",
     "number": 92,
     "title": "🎶 Стереоплан Троицкого* #92 - \"Hipbone Slim, румынская этно-электроника и пост-панк из Мичигана\".",
     "published_at": "2026-11-02T06:00:00.000Z",
     "url": "https://stereoplantroitsky.mave.digital/ep-94",
     "mp3_url": "https://api.mave.digital/storage/podcasts/5eb88210-d265-4315-8405-4982ead857cb/episodes/bc5fa391-3973-4ebf-bd1f-913fe765298b.mp3",
-    "duration_sec": 3108,
+    "duration_sec": 3465,
     "playlist_hash": "165b6b4adf2bcbf3",
     "tracks": [
       {
@@ -252,7 +526,8 @@
         ],
         "discogs_styles": [
           "Surf",
-          "Garage Rock"
+          "Garage Rock",
+          "Rock & Roll"
         ],
         "year": 2023,
         "year_from": "discogs"
@@ -413,11 +688,14 @@
         "discogs_id": 62242,
         "discogs_master_id": 116432,
         "discogs_genres": [
-          "Electronic"
+          "Electronic",
+          "Stage & Screen"
         ],
         "discogs_styles": [
           "Breakbeat",
-          "House"
+          "Techno",
+          "Big Beat",
+          "Video Game Music"
         ],
         "year": 1996,
         "year_from": "musicbrainz"
@@ -440,8 +718,7 @@
           "Electronic"
         ],
         "discogs_styles": [
-          "Breakbeat",
-          "Downtempo"
+          "Drum n Bass"
         ],
         "year": 1996,
         "year_from": "musicbrainz"
@@ -464,7 +741,7 @@
           "Electronic"
         ],
         "discogs_styles": [
-          "House"
+          "Synth-pop"
         ],
         "year": 1995,
         "year_from": "musicbrainz"
@@ -575,11 +852,12 @@
         "discogs_id": 33152136,
         "discogs_master_id": 3404521,
         "discogs_genres": [
+          "Electronic",
           "Rock"
         ],
         "discogs_styles": [
           "Alternative Rock",
-          "Indie Rock"
+          "Synth-pop"
         ],
         "year": 2024,
         "year_from": "musicbrainz"
