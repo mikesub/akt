@@ -290998,7 +290998,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Isabelle Autena",
+        "artist": "Isabelle Antena",
         "track": "Photos Souvenirs",
         "album": "De l'amour et des Hommes - vol.2",
         "printed_country": "Belgium",
@@ -291010,10 +291010,9 @@
           "Crepuscule"
         ],
         "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "discogs_master_id": null,
-        "year": null
+        "mb_id": "685920a6-e9fe-4422-94de-3d10b1f57055",
+        "year": 1999,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "Piano Magic",
@@ -291157,7 +291156,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Die Knodel",
+        "artist": "Die Knödel",
         "track": "Finalala",
         "album": "Non Lo So, Polo",
         "printed_country": "Austria",
@@ -330335,7 +330334,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Isabelle Autena",
+        "artist": "Isabelle Antena",
         "track": "La Mediterranee chante",
         "album": "Mediterranean Songs",
         "printed_country": "Belgium",
@@ -330347,9 +330346,9 @@
           "Harlem Moon"
         ],
         "apple_id": null,
-        "mb_id": null,
-        "discogs_id": null,
-        "year": null
+        "mb_id": "29c08fad-c66a-4d8c-aced-df13602e31d0",
+        "year": 1997,
+        "year_from": "musicbrainz"
       },
       {
         "artist": "And Also The Trees",
@@ -370806,7 +370805,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Die Knodel",
+        "artist": "Die Knödel",
         "track": "Ein Walzerle fur die Knodel",
         "album": "Panorama",
         "printed_country": "Austria",
