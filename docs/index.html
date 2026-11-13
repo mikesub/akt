@@ -51,6 +51,7 @@
     --chip-on: #1b1b1b;
     --chip-on-fg: #fff;
     --link: #0b57d0;
+    --radius: 6px; /* every control: tags, the select, the fields, the buttons */
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -85,7 +86,7 @@
   .facet h2 { margin-bottom: 6px; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; }
   .chip {
-    font: inherit; font-size: 13px; padding: 3px 10px; border: 0; border-radius: 999px;
+    font: inherit; font-size: 13px; padding: 3px 10px; border: 0; border-radius: var(--radius);
     background: var(--chip); color: var(--fg); cursor: pointer;
   }
   .chip span { color: var(--muted); margin-left: 4px; }
@@ -106,11 +107,11 @@
   .facet-note { margin: 0 0 6px; font-size: 13px; color: var(--muted); }
   .label-pick input {
     font: inherit; font-size: 13px; padding: 4px 8px; width: 100%;
-    border: 1px solid var(--line); border-radius: 6px; background: var(--chip); color: var(--fg);
+    border: 1px solid var(--line); border-radius: var(--radius); background: var(--chip); color: var(--fg);
   }
   .label-pick ul {
     position: absolute; z-index: 2; left: 0; right: 0; top: calc(100% + 2px); margin: 0; padding: 4px 0; list-style: none;
-    max-height: min(50vh, 360px); overflow-y: auto; background: var(--bg); border: 1px solid var(--line); border-radius: 6px;
+    max-height: min(50vh, 360px); overflow-y: auto; background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius);
     box-shadow: 0 4px 12px rgb(0 0 0 / .15);
   }
   .label-pick li { display: flex; justify-content: space-between; gap: 12px; padding: 4px 10px; font-size: 13px; cursor: pointer; }
@@ -146,7 +147,7 @@
   .pick button.off { visibility: hidden; }
   .program select {
     font: inherit; font-size: 13px; padding: 4px 8px; width: 100%; min-width: 0;
-    border: 1px solid var(--line); border-radius: 6px; background: var(--chip); color: var(--fg);
+    border: 1px solid var(--line); border-radius: var(--radius); background: var(--chip); color: var(--fg);
   }
   .link-button { font: inherit; font-size: 13px; background: none; border: 0; padding: 0; color: var(--link); cursor: pointer; }
   .status { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: center; margin: 0 0 8px; }
@@ -156,7 +157,7 @@
   .count { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; margin: 0 0 4px; }
   .search input {
     font: inherit; font-size: 13px; padding: 4px 8px;
-    border: 1px solid var(--line); border-radius: 6px; background: var(--chip); color: var(--fg);
+    border: 1px solid var(--line); border-radius: var(--radius); background: var(--chip); color: var(--fg);
   }
   /* The browser's own clear button only shows on hover and takes the accent colour: ours always shows, in the text's. */
   .search-box { position: relative; display: flex; width: 50%; min-width: min(100%, 320px); }
@@ -209,7 +210,7 @@
   /* Back to the top, once the page is scrolled past its first screen. */
   #to-top {
     position: fixed; top: 12px; right: 16px; z-index: 1;
-    font: inherit; font-size: 13px; padding: 6px 12px; border: 0; border-radius: 999px; cursor: pointer;
+    font: inherit; font-size: 13px; padding: 6px 12px; border: 0; border-radius: var(--radius); cursor: pointer;
     background: var(--chip-on); color: var(--chip-on-fg); box-shadow: 0 2px 8px rgb(0 0 0 / .2);
     opacity: 0; visibility: hidden; transform: translateY(-4px); transition: opacity .2s, transform .2s, visibility .2s;
   }
