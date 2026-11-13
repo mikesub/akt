@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N637_2009.06.07.cue
 date: 2009-06-07
 title: FM Достоевский #637
-note: From the ID3 comment of a fans' collection's mp3 of the episode («637. #637 07.06.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N637.html).
 
 1. telepathe (usa) "so fine" CD "dancemother" (v2)
 2. movie star junkies (italy) "eleanor" CD "melville" (voodoo rhythm)

@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N657_2009.10.25.cue
 date: 2009-10-25
 title: FM Достоевский #657
-note: From the ID3 comment of a fans' collection's mp3 of the episode («657. #657 25.10.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N657.html).
 
 1. polysics (japan) "dry or wet" CD "we ate the machine" (okami)
 2. fania (senegal) "niar = 2" CD "silmakha" (passion music)

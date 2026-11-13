@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N644_2009.07.26.cue
 date: 2009-07-26
 title: FM Достоевский #644
-note: From the ID3 comment of a fans' collection's mp3 of the episode («644. #644 26.07.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N644.html).
 
 1. iggy pop (usa) "i want to go to the beach" CD "preliminaires" (virgin)
 2. coconami (japan/germany) "taiyo ni koishita" CD "coconami" (trikont)

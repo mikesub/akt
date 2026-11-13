@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N652_2009.09.20.cue
 date: 2009-09-20
 title: FM Достоевский #652
-note: From the ID3 comment of a fans' collection's mp3 of the episode («652. #652 20.09.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N652.html).
 
 1. the decemberists (usa) "the hazards of love 3 (revenge!)" CD "the hazards of love " (rough trade)
 2. elakelaiset (finland) "jaahyvaiset jenkalle" CD "jenkalle!" (stupido)

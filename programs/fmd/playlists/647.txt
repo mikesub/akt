@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N647_2009.08.16.cue
 date: 2009-08-16
 title: FM Достоевский #647
-note: From the ID3 comment of a fans' collection's mp3 of the episode («647. #647 16.08.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N647.html).
 
 1. jarvis cocker (uk) "angela" CD "further complications" (rough trade)
 2. dva (czech rep.) "harom kerom" CD "fonok" (indies scope)

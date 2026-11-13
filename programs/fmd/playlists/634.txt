@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N634_2009.05.17.cue
 date: 2009-05-17
 title: FM Достоевский #634
-note: From the ID3 comment of a fans' collection's mp3 of the episode («634. #634 17.05.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json). Another source differs: the CUE sheet of radar.lv's recording lacks «cinkusi i teta liza» (not aired, or the recording is cut short).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N634.html). Another source differs: the CUE sheet of radar.lv's recording lacks «cinkusi i teta liza» (not aired, or the recording is cut short).
 
 1. al deloner (norway) "long time ago" CD "mountains on the moon" (playground)
 2. melora creager (usa) "itinerant airship" CD "perplexions" (filthy bonnet)

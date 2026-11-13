@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N650_2009.09.06.cue
 date: 2009-09-06
 title: FM Достоевский #650
-note: From the ID3 comment of a fans' collection's mp3 of the episode («650. #650 06.09.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N650.html).
 
 1. phillip boa & the voodooclub (germany) "the race is over" CD "diamonds fall" (constrictor)
 2. sasha (india) "manmat maarve miyan" CD "tappa journey" (sense)

@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N655_2009.10.11.cue
 date: 2009-10-11
 title: FM Достоевский #655
-note: From the ID3 comment of a fans' collection's mp3 of the episode («655. #655 11.10.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N655.html).
 
 1. peaches (canada) "i feel cream" CD "i feel cream" (xl)
 2. circus devils (usa) "i-razors" CD "ataxia" (happy jack)

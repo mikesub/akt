@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N645_2009.08.02.cue
 date: 2009-08-02
 title: FM Достоевский #645
-note: From the ID3 comment of a fans' collection's mp3 of the episode («645. #645 02.08.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N645.html).
 
 1. instant flight (europe) "vanishing" CD "endless journey" (headspin/clearspot)
 2. portmaneau (germany) "fat cat" CD "akja" (biegen&brecken)

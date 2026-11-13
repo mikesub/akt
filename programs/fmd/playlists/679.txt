@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N679_2010.03.28.cue
 date: 2010-03-28
 title: FM Достоевский #679
-note: From the ID3 comment of a fans' collection's mp3 of the episode («679. #679 28.03.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json). Another source differs: the CUE sheet of radar.lv's recording lacks «dial m for murder!», «nguyen le» (not aired, or the recording is cut short).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N679.html). Another source differs: the CUE sheet of radar.lv's recording lacks «dial m for murder!», «nguyen le» (not aired, or the recording is cut short).
 
 1. devendra banhart (usa) "16th & valencia roxy music" CD "what will we be" (warner bros)
 2. es (finland) "haamut sun sydamesta" CD "kesamaan lapset" (fonal)

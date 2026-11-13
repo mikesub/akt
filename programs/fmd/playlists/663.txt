@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N663_2009.12.06.cue
 date: 2009-12-06
 title: FM Достоевский #663
-note: From the ID3 comment of a fans' collection's mp3 of the episode («663. #663 06.12.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json). Another source differs: the CUE sheet of radar.lv's recording lacks «simian mobile disco» (not aired, or the recording is cut short).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N663.html). Another source differs: the CUE sheet of radar.lv's recording lacks «simian mobile disco» (not aired, or the recording is cut short).
 
 1. arctic monkeys (uk) "my propeller" CD "humbug" (domino)
 2. sara tavares (portugal) "di alma" CD "xinti" (world connection)

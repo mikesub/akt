@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N687_23.05.2010.cue
 date: 2010-05-23
 title: FM Достоевский #687
-note: From the ID3 comment of a fans' collection's mp3 of the episode («687. #687 23.05.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N687.html).
 
 1. tindersticks (uk) "she rode me down" CD "falling down the mountain" (4ad)
 2. mahala rai banda (romania) "ding deng dong" CD "ghetto blasters" (asphalt tango)

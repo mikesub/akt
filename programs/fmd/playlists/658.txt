@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N658_01.11.2009.cue
 date: 2009-11-01
 title: FM Достоевский #658
-note: From the ID3 comment of a fans' collection's mp3 of the episode («658. #658 01.11.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N658.html).
 
 1. bat for lashes (uk) "big sleep" CD "two suns" (echo)
 2. di naye kapelye (usa/hungary) "traktorist" CD "traktorist: carpathian klezmer" (oriente)

@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N656_2009.10.18.cue
 date: 2009-10-18
 title: FM Достоевский #656
-note: From the ID3 comment of a fans' collection's mp3 of the episode («656. #656 18.10.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N656.html).
 
 1. god help the girl (uk) "musician, please take heed" CD "god help the girl" (rough trade)
 2. omfo (germany/russia) "tipsy djinn" CD "omnipresence" (essay)

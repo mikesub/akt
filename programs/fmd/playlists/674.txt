@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N674_21.02.2010.cue
 date: 2010-02-21
 title: FM Достоевский #674
-note: From the ID3 comment of a fans' collection's mp3 of the episode («674. #674 21.02.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json). radar.lv's second sheet for #675 (FM_Dostoevsky_N675_2010.02.28_0.cue) names these same 16 songs and a 17th after them, «zakopower "kiebys ty"»: perhaps this episode's last song, which this sheet lacks. Another source differs: the CUE sheet of radar.lv's recording lacks «zakopower» (not aired, or the recording is cut short).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N674.html). radar.lv's second sheet for #675 (FM_Dostoevsky_N675_2010.02.28_0.cue) names these same 16 songs and a 17th after them, «zakopower "kiebys ty"»: perhaps this episode's last song, which this sheet lacks. Another source differs: the CUE sheet of radar.lv's recording lacks «zakopower» (not aired, or the recording is cut short).
 
 1. ceu (brazil) "comadi" CD "vagarosa" (urban jungle/six degrees)
 2. ceu (brazil) "cangote" CD "vagarosa" (urban jungle/six degrees)

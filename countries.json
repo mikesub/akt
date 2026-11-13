@@ -7,6 +7,7 @@
   "uk": ["GB"],
   "u.k.": ["GB"],
   "uk(?": ["GB"],
+  "uk(?)": ["GB"],
   "gb": ["GB"],
   "uk feat.foetus": ["GB"],
   "wales": ["GB-WLS"],

@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N660_2009.11.15.cue
 date: 2009-11-15
 title: FM Достоевский #660
-note: From the ID3 comment of a fans' collection's mp3 of the episode («660. #660 15.11.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N660.html).
 
 1. current 93 (uk) "invocation of almost" CD "aleph at hallucinatory mountain" (coptic cat)
 2. marta gomez (usa/mexico) "carnavaliando" CD "musiquita" (aluna)

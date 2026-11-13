@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N643_2009.07.19.cue
 date: 2009-07-19
 title: FM Достоевский #643
-note: From the ID3 comment of a fans' collection's mp3 of the episode («643. #643 19.07.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json). Another source differs: the CUE sheet of radar.lv's recording lacks «alamaailman vasarat» (not aired, or the recording is cut short).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N643.html). Another source differs: the CUE sheet of radar.lv's recording lacks «alamaailman vasarat» (not aired, or the recording is cut short).
 
 1. flipron (uk) "tropical disease" CD "gravity calling" (tiny dog)
 2. ramona rey (poland) "skarb" CD "2" (arana)

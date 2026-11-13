@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N641_2009.07.05.cue
 date: 2009-07-05
 title: FM Достоевский #641
-note: From the ID3 comment of a fans' collection's mp3 of the episode («641. #641 05.07.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N641.html).
 
-1. Tipsy (usa) "Midnight Party" CD "Buzzz" (Ipecac)
-2. Patrizia Laquidara (italy) "Se Qualcuno" CD "Funambola" (Ponderosa)
-3. Ba Cissoco (guinea) "Nina" CD "Seno" (Stern's)
-4. Beast (france) "Ashtray" CD "Beast" (Avalanche/verve Forecast)
-5. Various Productions/gerry Mitchell (uk) "Semi-important Parasiters" CD "The Invisible Lodger" (Fire)
-6. Emily Jane White (usa) "Hole In The Middle" CD "Dark Undercoat" (Talitres/double Negative)
-7. Aavikko (finland) "Syntaksis" CD "Novo Atlantis" (Muysic For Peoples/stupido)
-8. Fatima Spar & The Freedom Fries (austria) "Trust" CD "Trust" (Hazelwood)
-9. Chris Eckman (usa) "Who Will Light Your Path?" CD "The Last Side Of The Mountain" (Glitterhouse)
-10. La Brass Banda (germany) "Natalie" CD "Habediehre" (Trikont)
-11. Monty's Loco (sweden) "Criminal" CD "Farewell Mr.happy" (Nons)
-12. Bogo (mexico) "Junky" CD "Nuovo Corpo" (P&p)
-13. Blackfilm (uk(?) "Untitled" CD "Blackfilm" (Spectraliquid)
-14. Headless Heroes (usa) "The North Wind Blew South" CD "The Silence Of Love" (Fargo)
-15. Shira U'tfila (serbia) "Ya Basha La Novya" CD "Sephardic Songs From The Balkans" (Orange World)
-16. Mia Vigar (uk) "I Dare You" CD "True Adventures Happen Inside Your Head" (Hungry Audio)
+1. tipsy (usa) "midnight party" CD "buzzz" (ipecac)
+2. patrizia laquidara (italy) "se qualcuno" CD "funambola" (ponderosa)
+3. ba cissoco (guinea) "nina" CD "seno" (stern's)
+4. beast (france) "ashtray" CD "beast" (avalanche/verve forecast)
+5. various productions/gerry mitchell (uk) "semi-important parasiters" CD "the invisible lodger" (fire)
+6. emily jane white (usa) "hole in the middle" CD "dark undercoat" (talitres/double negative)
+7. aavikko (finland) "syntaksis" CD "novo atlantis" (muysic for peoples/stupido)
+8. fatima spar & the freedom fries (austria) "trust" CD "trust" (hazelwood)
+9. chris eckman (usa) "who will light your path?" CD "the last side of the mountain" (glitterhouse)
+10. la brass banda (germany) "natalie" CD "habediehre" (trikont)
+11. monty's loco (sweden) "criminal" CD "farewell mr.happy" (nons)
+12. bogo (mexico) "junky" CD "nuovo corpo" (p&p)
+13. blackfilm (uk(?)) "untitled" CD "blackfilm" (spectraliquid)
+14. headless heroes (usa) "the north wind blew south" CD "the silence of love" (fargo)
+15. shira u'tfila (serbia) "ya basha la novya" CD "sephardic songs from the balkans" (orange world)
+16. mia vigar (uk) "i dare you" CD "true adventures happen inside your head" (hungry audio)

@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N653_27.09.2009.cue
 date: 2009-09-27
 title: FM Достоевский #653
-note: From the ID3 comment of a fans' collection's mp3 of the episode («653. #653 27.09.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N653.html).
 
 1. glen johnson (uk) "my horror mask" CD "details not recorded" (make mine music)
 2. kira lynn cain (usa) "view of nowhere" CD "the ideal hunter" (evangeline)

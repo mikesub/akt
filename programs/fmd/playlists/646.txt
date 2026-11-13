@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N646_2009.08.09.cue
 date: 2009-08-09
 title: FM Достоевский #646
-note: From the ID3 comment of a fans' collection's mp3 of the episode («646. #646 09.08.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N646.html).
 
 1. john zorn (usa) "tarot" CD "filmworks XXII - the last supper" (tzadik)
 2. the decomposers (russia) "hammer girl" CD "double penetration" (decomposers)

@@ -1,22 +1,22 @@
 url: https://radar.lv/files/FM_Dostoevsky_N665_2009.12.20.cue
 date: 2009-12-20
 title: FM Достоевский #665
-note: From the ID3 comment of a fans' collection's mp3 of the episode («665. #665 20.12.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N665.html).
 
-1. Jonsi & Alex (iceland) "Boy 1904" CD "Riceboy Sleeps" (Parlophone)
-2. Baaba Maal (senegal) "Dakar Moon" CD "Television" (Palm Pictures)
-3. Au Revoir Simone (usa) "All Or Nothing" CD "Still Night, Still Light" (Our Secret)
-4. Broken Records (uk) "If The News Makes You Sad, Don't Watch It" CD "Until The Earth Begins To Part" (4 Ad)
-5. Bliss (denmark) "The Hope" CD "No One Built This Moment" (Music For Dreams)
-6. Arcade Fire (canada) "Lenin" CD "Dark Was The Night" (Red Hot)
-7. My Brightest Diamond (usa) "Feeling Good" CD "Dark Was The Night" (Red Hot)
-8. Orquesta Aragon (cuba) "Me Bote De Guano" CD "The Lusafrica Years" (Lusafrica)
-9. Spiral Stairs (usa) "Subiaco Shuffle" CD "The Real Feel" (Domino)
-10. Mynta (sweden) "Vietnamese Reggae" CD "Meetings In India" (Prophone)
-11. Dark Dark Dark (usa) "A Spell For Letting Go" CD "The Snow Magic" (Supply And Demand)
-12. Dark Dark Dark (usa) "Junk Bones" CD "The Snow Magic" (Supply And Demand)
-13. Pablo Dacal Y La Orquesta De Salon (argentina) "La Guitarra Y El Bolson" CD "La Era Del Sonido" (Ojo!)
-14. Dotschy Reinhardt (germany) "Last Tango In Paris" CD "Suni" (Galileo)
-15. Ном (рф) "Гниды" CD "Превыше Всего" (Зенит)
-16. Ном (рф) "Энтузиасты" CD "Превыше Всего" (Зенит)
-17. The Mike Summes Singers (uk) "Oh Jesus I Have Promised" CD "Hymns A'swining" (Trunk) #666 special ouverture
+1. jonsi & alex (iceland) "boy 1904" CD "riceboy sleeps" (parlophone)
+2. baaba maal (senegal) "dakar moon" CD "television" (palm pictures)
+3. au revoir simone (usa) "all or nothing" CD "still night, still light" (our secret)
+4. broken records (uk) "if the news makes you sad, don't watch it" CD "until the earth begins to part" (4 ad)
+5. bliss (denmark) "the hope" CD "no one built this moment" (music for dreams)
+6. arcade fire (canada) "lenin" CD "dark was the night" (red hot)
+7. my brightest diamond (usa) "feeling good" CD "dark was the night" (red hot)
+8. orquesta aragon (cuba) "me bote de guano" CD "the lusafrica years" (lusafrica)
+9. spiral stairs (usa) "subiaco shuffle" CD "the real feel" (domino)
+10. mynta (sweden) "vietnamese reggae" CD "meetings in india" (prophone)
+11. dark dark dark (usa) "a spell for letting go" CD "the snow magic" (supply and demand)
+12. dark dark dark (usa) "junk bones" CD "the snow magic" (supply and demand)
+13. pablo dacal y la orquesta de salon (argentina) "la guitarra y el bolson" CD "la era del sonido" (ojo!)
+14. dotschy reinhardt (germany) "last tango in paris" CD "suni" (galileo)
+15. ном (рф) "гниды" CD "превыше всего" (зенит)
+16. ном (рф) "энтузиасты" CD "превыше всего" (зенит)
+17. the mike summes singers (uk) "oh jesus i have promised" CD "hymns a'swining" (trunk)

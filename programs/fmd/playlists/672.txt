@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N672_2010.02.07.cue
 date: 2010-02-07
 title: FM Достоевский #672
-note: From the ID3 comment of a fans' collection's mp3 of the episode («672. #672 07.02.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N672.html).
 
 1. 2raumwohnung (germany) "der letzte abend auf der welt" CD "lasso" (it-sounds)
 2. les triaboliques (uk) "gulaguajira" CD "rivermudtwilight" (world village)

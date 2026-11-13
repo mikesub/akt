@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N662_2009.11.29.cue
 date: 2009-11-29
 title: FM Достоевский #662
-note: From the ID3 comment of a fans' collection's mp3 of the episode («662. #662 29.11.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N662.html).
 
 1. shantel (germany) "bucovina original" CD "planet paprika" (essay/crammed)
 2. yello (switzerland) "out of dawn" CD "touch" (polydor)

@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N640_2009.06.28.cue
 date: 2009-06-28
 title: FM Достоевский #640
-note: From the ID3 comment of a fans' collection's mp3 of the episode («640. #640 28.06.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N640.html).
 
 1. ismo alanko teholla (finland) "paastanko irti" CD "blanco spirituals" (fullsteam)
 2. jarboe (usa) "overthrown" CD "mahakali" (the end)

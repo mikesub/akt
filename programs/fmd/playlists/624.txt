@@ -1,6 +1,6 @@
 date: 2009-03-08
 title: FM Достоевский #624
-note: From the ID3 comment of a fans' collection's mp3 of the episode («624. #624 08.03.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N624.html).
 
 1. tv on the radio (usa) "stork & owl" CD "dear science" (touch&go/4ad)
 2. myra davies (usa/germany) "burroughs' bunker" CD "cities & girls" (moabit)

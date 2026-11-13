@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N677_14.03.2010.cue
 date: 2010-03-14
 title: FM Достоевский #677
-note: From the ID3 comment of a fans' collection's mp3 of the episode («677. #677 14.03.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N677.html).
 
 1. kurt vile (usa) "space forklift" CD "constant hitmaker" (gulcher)
 2. айархаан (рф) "урунг кыталык" CD "этно-группа айархаан" (бичик)

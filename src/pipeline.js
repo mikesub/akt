@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto';
 import { mkdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { appleStats, doubtLink, findAppleLinks, findOnApple, lookupSongs } from './apple.js';
-import { restoreArtist } from './artists.js';
+import { artistKey, restoreArtist } from './artists.js';
 import { discogsStats, findMaster, findOnDiscogs } from './discogs.js';
 import { findOnMusicBrainz, mbStats } from './musicbrainz.js';
 import { countryCodes, vague } from './countries.js';
@@ -210,11 +210,15 @@ const withoutGenres = ({ discogs_genres, discogs_styles, discogs_labels, ...rest
 
 /** What the sources answered for a track: the lookups search by its artist, title and album alone. */
 const LOOKED_UP = ['apple_id', 'apple_album_id', 'apple_artist_id', 'mb_id', 'discogs_id', 'discogs_master_id', 'discogs_labels', 'discogs_genres', 'discogs_styles', 'year', 'year_from'];
-const sameNames = (t) => JSON.stringify([t.artist, t.track, t.album]);
+/**
+ * Names the sources' searches cannot tell apart: the artist by artistKey (case, accents, punctuation: the spellings
+ * artists.json joins), title and album but for case (a playlist re-cased by a better source).
+ */
+const sameNames = (t) => JSON.stringify([t.artist && artistKey(t.artist), t.track?.toLowerCase() ?? null, t.album?.toLowerCase() ?? null]);
 
 /**
  * A playlist parsed again (its text changed: a fuller source, a fix) keeps the sources' answers for every track
- * whose artist, title and album are unchanged, so only what is new is looked up; and, for one that prints no
+ * whose artist, title and album are unchanged (sameNames), so only what is new is looked up; and, for one that prints no
  * country, the country inferred for it (bin/countries.js).
  */
 function keepLookups(before, tracks) {

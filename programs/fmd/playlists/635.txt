@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N635_2009.05.24.cue
 date: 2009-05-24
 title: FM Достоевский #635
-note: From the ID3 comment of a fans' collection's mp3 of the episode («635. #635 24.05.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N635.html).
 
 1. the dresden dolls (usa) "lonesome organist rapes page-turner" CD "no, virginia" (roadrunner)
 2. moses hazy (finland) "flow of life" CD "the incredible flow of life show" (gashopper)

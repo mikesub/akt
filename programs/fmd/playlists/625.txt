@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N625_2009.03.15.cue
 date: 2009-03-15
 title: FM Достоевский #625
-note: From the ID3 comment of a fans' collection's mp3 of the episode («625. #625 15.03.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N625.html).
 
 1. amanda palmer (usa) "guitar hero" CD "who killed amanda palmer" (roadrunner)
 2. monkey (uk/china) "the dragon king" CD "journey to the west" (xl)

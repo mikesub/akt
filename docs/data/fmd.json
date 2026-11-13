@@ -2462,7 +2462,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "las chicas del tango",
+        "artist": "Las Chicas Del Tango",
         "track": "oye",
         "album": "de norte a sur",
         "printed_country": "finland",
@@ -51270,7 +51270,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "hipbone slim & the kneetremblers",
+        "artist": "Hipbone Slim & The Kneetremblers",
         "track": "dig that grave!",
         "album": "the kneeanderthal sounds of...",
         "printed_country": "uk",
@@ -60319,7 +60319,7 @@
         "year_from": "discogs"
       },
       {
-        "artist": "son of the velvet rat",
+        "artist": "Son of the Velvet Rat",
         "track": "same monkey (in a different zoo)",
         "album": "animals",
         "printed_country": "austria",
@@ -70534,17 +70534,17 @@
     "title": "FM Достоевский #665",
     "published_at": "2009-12-20",
     "url": "https://radar.lv/files/FM_Dostoevsky_N665_2009.12.20.cue",
-    "playlist_hash": "54c72ff93f758aef",
+    "playlist_hash": "b7932f650cbcc57c",
     "tracks": [
       {
-        "artist": "Jonsi & Alex",
-        "track": "Boy 1904",
-        "album": "Riceboy Sleeps",
+        "artist": "jonsi & alex",
+        "track": "boy 1904",
+        "album": "riceboy sleeps",
         "printed_country": "iceland",
         "country": [
           "IS"
         ],
-        "printed_label": "Parlophone",
+        "printed_label": "parlophone",
         "label": [
           "Parlophone"
         ],
@@ -70570,13 +70570,13 @@
       },
       {
         "artist": "Baaba Maal",
-        "track": "Dakar Moon",
-        "album": "Television",
+        "track": "dakar moon",
+        "album": "television",
         "printed_country": "senegal",
         "country": [
           "SN"
         ],
-        "printed_label": "Palm Pictures",
+        "printed_label": "palm pictures",
         "label": [
           "Palm Pictures"
         ],
@@ -70599,15 +70599,15 @@
       },
       {
         "artist": "Au Revoir Simone",
-        "track": "All Or Nothing",
-        "album": "Still Night, Still Light",
+        "track": "all or nothing",
+        "album": "still night, still light",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Our Secret",
+        "printed_label": "our secret",
         "label": [
-          "Our Secret"
+          "our secret"
         ],
         "apple_id": 1713631398,
         "apple_album_id": 1713631063,
@@ -70635,15 +70635,15 @@
       },
       {
         "artist": "Broken Records",
-        "track": "If The News Makes You Sad, Don't Watch It",
-        "album": "Until The Earth Begins To Part",
+        "track": "if the news makes you sad, don't watch it",
+        "album": "until the earth begins to part",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "4 Ad",
+        "printed_label": "4 ad",
         "label": [
-          "4 Ad"
+          "4 ad"
         ],
         "apple_id": 315789067,
         "apple_album_id": 315788936,
@@ -70664,13 +70664,13 @@
       },
       {
         "artist": "Bliss",
-        "track": "The Hope",
-        "album": "No One Built This Moment",
+        "track": "the hope",
+        "album": "no one built this moment",
         "printed_country": "denmark",
         "country": [
           "DK"
         ],
-        "printed_label": "Music For Dreams",
+        "printed_label": "music for dreams",
         "label": [
           "Music For Dreams"
         ],
@@ -70694,13 +70694,13 @@
       },
       {
         "artist": "Arcade Fire",
-        "track": "Lenin",
-        "album": "Dark Was The Night",
+        "track": "lenin",
+        "album": "dark was the night",
         "printed_country": "canada",
         "country": [
           "CA"
         ],
-        "printed_label": "Red Hot",
+        "printed_label": "red hot",
         "label": [
           "Red Hot"
         ],
@@ -70715,13 +70715,13 @@
       },
       {
         "artist": "My Brightest Diamond",
-        "track": "Feeling Good",
-        "album": "Dark Was The Night",
+        "track": "feeling good",
+        "album": "dark was the night",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Red Hot",
+        "printed_label": "red hot",
         "label": [
           "Red Hot"
         ],
@@ -70735,14 +70735,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Orquesta Aragon",
-        "track": "Me Bote De Guano",
-        "album": "The Lusafrica Years",
+        "artist": "Orquesta Aragón",
+        "track": "me bote de guano",
+        "album": "the lusafrica years",
         "printed_country": "cuba",
         "country": [
           "CU"
         ],
-        "printed_label": "Lusafrica",
+        "printed_label": "lusafrica",
         "label": [
           "Lusafrica"
         ],
@@ -70771,13 +70771,13 @@
       },
       {
         "artist": "Spiral Stairs",
-        "track": "Subiaco Shuffle",
-        "album": "The Real Feel",
+        "track": "subiaco shuffle",
+        "album": "the real feel",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Domino",
+        "printed_label": "domino",
         "label": [
           "Domino"
         ],
@@ -70803,13 +70803,13 @@
       },
       {
         "artist": "Mynta",
-        "track": "Vietnamese Reggae",
-        "album": "Meetings In India",
+        "track": "vietnamese reggae",
+        "album": "meetings in india",
         "printed_country": "sweden",
         "country": [
           "SE"
         ],
-        "printed_label": "Prophone",
+        "printed_label": "prophone",
         "label": [
           "Prophone"
         ],
@@ -70832,15 +70832,15 @@
       },
       {
         "artist": "Dark Dark Dark",
-        "track": "A Spell For Letting Go",
-        "album": "The Snow Magic",
+        "track": "a spell for letting go",
+        "album": "the snow magic",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Supply And Demand",
+        "printed_label": "supply and demand",
         "label": [
-          "Supply And Demand"
+          "Supply & demanD"
         ],
         "apple_id": 1888461308,
         "apple_album_id": 1888460819,
@@ -70863,15 +70863,15 @@
       },
       {
         "artist": "Dark Dark Dark",
-        "track": "Junk Bones",
-        "album": "The Snow Magic",
+        "track": "junk bones",
+        "album": "the snow magic",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Supply And Demand",
+        "printed_label": "supply and demand",
         "label": [
-          "Supply And Demand"
+          "Supply & demanD"
         ],
         "apple_id": 1888461306,
         "apple_album_id": 1888460819,
@@ -70893,14 +70893,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Pablo Dacal Y La Orquesta De Salon",
-        "track": "La Guitarra Y El Bolson",
-        "album": "La Era Del Sonido",
+        "artist": "pablo dacal y la orquesta de salon",
+        "track": "la guitarra y el bolson",
+        "album": "la era del sonido",
         "printed_country": "argentina",
         "country": [
           "AR"
         ],
-        "printed_label": "Ojo!",
+        "printed_label": "ojo!",
         "label": [
           "Ojo!"
         ],
@@ -70918,13 +70918,13 @@
       },
       {
         "artist": "Dotschy Reinhardt",
-        "track": "Last Tango In Paris",
-        "album": "Suni",
+        "track": "last tango in paris",
+        "album": "suni",
         "printed_country": "germany",
         "country": [
           "DE"
         ],
-        "printed_label": "Galileo",
+        "printed_label": "galileo",
         "label": [
           "Galileo"
         ],
@@ -70948,13 +70948,13 @@
       },
       {
         "artist": "Ном",
-        "track": "Гниды",
-        "album": "Превыше Всего",
+        "track": "гниды",
+        "album": "превыше всего",
         "printed_country": "рф",
         "country": [
           "RU"
         ],
-        "printed_label": "Зенит",
+        "printed_label": "зенит",
         "label": [
           "Зенит"
         ],
@@ -70979,13 +70979,13 @@
       },
       {
         "artist": "Ном",
-        "track": "Энтузиасты",
-        "album": "Превыше Всего",
+        "track": "энтузиасты",
+        "album": "превыше всего",
         "printed_country": "рф",
         "country": [
           "RU"
         ],
-        "printed_label": "Зенит",
+        "printed_label": "зенит",
         "label": [
           "Зенит"
         ],
@@ -71009,14 +71009,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "The Mike Summes Singers",
-        "track": "Oh Jesus I Have Promised",
-        "album": "Hymns A'swining",
+        "artist": "the mike summes singers",
+        "track": "oh jesus i have promised",
+        "album": "hymns a'swining",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Trunk",
+        "printed_label": "trunk",
         "label": [
           "Trunk"
         ],
@@ -71032,17 +71032,17 @@
     "title": "FM Достоевский #664",
     "published_at": "2009-12-13",
     "url": "https://radar.lv/files/FM_Dostoevsky_N664_2009.12.13.cue",
-    "playlist_hash": "adfe4c29fdd8a922",
+    "playlist_hash": "5c319310a74ce5bc",
     "tracks": [
       {
         "artist": "Yo La Tengo",
-        "track": "Here To Fall",
-        "album": "Popular Songs",
+        "track": "here to fall",
+        "album": "popular songs",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Matador",
+        "printed_label": "matador",
         "label": [
           "Matador"
         ],
@@ -71065,15 +71065,15 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Ghalia Benali & Bert Cornelis",
-        "track": "Chand",
-        "album": "Al Palna",
+        "artist": "ghalia benali & bert cornelis",
+        "track": "chand",
+        "album": "al palna",
         "printed_country": "belgium/india",
         "country": [
           "BE",
           "IN"
         ],
-        "printed_label": "Zimbraz/music&words",
+        "printed_label": "zimbraz/music&words",
         "label": [
           "Zimbraz",
           "Music & Words"
@@ -71089,14 +71089,14 @@
         "year_from": "discogs"
       },
       {
-        "artist": "My Favourite Sideburns Orchestra",
-        "track": "The Skatalan Logicofobism",
-        "album": "Assemblage De Pieces Comeladiennes Du Plus Belle Effet",
+        "artist": "my favourite sideburns orchestra",
+        "track": "the skatalan logicofobism",
+        "album": "assemblage de pieces comeladiennes du plus belle effet",
         "printed_country": "france",
         "country": [
           "FR"
         ],
-        "printed_label": "Gazul",
+        "printed_label": "gazul",
         "label": [
           "Gazul"
         ],
@@ -71111,13 +71111,13 @@
       },
       {
         "artist": "Kawaii",
-        "track": "I Wanna Be Your Dog",
-        "album": "Assemblage De Pieces Comeladiennes Du Plus Belle Effet",
+        "track": "i wanna be your dog",
+        "album": "assemblage de pieces comeladiennes du plus belle effet",
         "printed_country": "france",
         "country": [
           "FR"
         ],
-        "printed_label": "Gazul",
+        "printed_label": "gazul",
         "label": [
           "Gazul"
         ],
@@ -71132,13 +71132,13 @@
       },
       {
         "artist": "Wild Beasts",
-        "track": "When I'm Sleepy",
-        "album": "Two Dancers",
+        "track": "when i'm sleepy",
+        "album": "two dancers",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Domino",
+        "printed_label": "domino",
         "label": [
           "Domino"
         ],
@@ -71162,13 +71162,13 @@
       },
       {
         "artist": "Sister Fa",
-        "track": "Amy Jotna",
-        "album": "Sarabah",
+        "track": "amy jotna",
+        "album": "sarabah",
         "printed_country": "senegal",
         "country": [
           "SN"
         ],
-        "printed_label": "Piranha",
+        "printed_label": "piranha",
         "label": [
           "Piranha"
         ],
@@ -71191,14 +71191,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Tupolev",
-        "track": "Rnd2",
-        "album": "Aume",
+        "artist": "tupolev",
+        "track": "rnd2",
+        "album": "aume",
         "printed_country": "austria",
         "country": [
           "AT"
         ],
-        "printed_label": "Valeot",
+        "printed_label": "valeot",
         "label": [
           "Valeot"
         ],
@@ -71224,13 +71224,13 @@
       },
       {
         "artist": "Sneaky Sound System",
-        "track": "Pictures",
-        "album": "Sneaky Sound System",
+        "track": "pictures",
+        "album": "sneaky sound system",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Elmlowe/whack",
+        "printed_label": "elmlowe/whack",
         "label": [
           "Elmlowe",
           "Whack"
@@ -71257,13 +71257,13 @@
       },
       {
         "artist": "Владимир Щукин",
-        "track": "Жираф",
-        "album": "Песни На Стихи Поэтов Серебряного Века",
+        "track": "жираф",
+        "album": "песни на стихи поэтов серебряного века",
         "printed_country": "рф",
         "country": [
           "RU"
         ],
-        "printed_label": "Союз",
+        "printed_label": "союз",
         "label": [
           "Союз"
         ],
@@ -71282,13 +71282,13 @@
       },
       {
         "artist": "Lancy Falta Gypsy Stream",
-        "track": "O Letschdo Gurgo",
-        "album": "In The Fields",
+        "track": "o letschdo gurgo",
+        "album": "in the fields",
         "printed_country": "germany",
         "country": [
           "DE"
         ],
-        "printed_label": "Bayla",
+        "printed_label": "bayla",
         "label": [
           "Bayla"
         ],
@@ -71303,13 +71303,13 @@
       },
       {
         "artist": "Grizzly Bear",
-        "track": "Southern Point",
-        "album": "Vechatimest",
+        "track": "southern point",
+        "album": "vechatimest",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Warp",
+        "printed_label": "warp",
         "label": [
           "Warp"
         ],
@@ -71336,13 +71336,13 @@
       },
       {
         "artist": "Evil Madness",
-        "track": "L'agonia Del Controlo Della Mente",
-        "album": "Demoni Paradiso",
+        "track": "l'agonia del controlo della mente",
+        "album": "demoni paradiso",
         "printed_country": "iceland",
         "country": [
           "IS"
         ],
-        "printed_label": "12 Tonar",
+        "printed_label": "12 tonar",
         "label": [
           "12 Tónar"
         ],
@@ -71359,14 +71359,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "African Fiesta",
-        "track": "Eh Bien Mon Ami",
-        "album": "Cazumbi: African Sixties Garage",
+        "artist": "african fiesta",
+        "track": "eh bien mon ami",
+        "album": "cazumbi: african sixties garage",
         "printed_country": "congo",
         "country": [
           "CD"
         ],
-        "printed_label": "No Smoke",
+        "printed_label": "no smoke",
         "label": [
           "No Smoke"
         ],
@@ -71379,13 +71379,13 @@
       },
       {
         "artist": "Conjunto De Oliveira Muge",
-        "track": "Sospesa Ad Un Filo",
-        "album": "Cazumbi: African Sixties Garage",
+        "track": "sospesa ad un filo",
+        "album": "cazumbi: african sixties garage",
         "printed_country": "mozambique",
         "country": [
           "MZ"
         ],
-        "printed_label": "No Smoke",
+        "printed_label": "no smoke",
         "label": [
           "No Smoke"
         ],
@@ -71403,13 +71403,13 @@
       },
       {
         "artist": "Mascott",
-        "track": "Live Again",
-        "album": "Art Project",
+        "track": "live again",
+        "album": "art project",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Red Panda",
+        "printed_label": "red panda",
         "label": [
           "Red Panda"
         ],
@@ -71427,13 +71427,13 @@
       },
       {
         "artist": "Valderrama",
-        "track": "Los Pajarillos",
-        "album": "Moderna Tradicion",
+        "track": "los pajarillos",
+        "album": "moderna tradicion",
         "printed_country": "spain",
         "country": [
           "ES"
         ],
-        "printed_label": "Kompetencia",
+        "printed_label": "kompetencia",
         "label": [
           "Kompetencia"
         ],
@@ -72484,17 +72484,17 @@
     "title": "FM Достоевский #661",
     "published_at": "2009-11-22",
     "url": "https://radar.lv/files/FM_Dostoevsky_N661_2009.11.22.cue",
-    "playlist_hash": "2e7ba8f98521fcd7",
+    "playlist_hash": "8e539b88726245b0",
     "tracks": [
       {
         "artist": "Bonga",
-        "track": "Bilukanje",
-        "album": "Bairro",
+        "track": "bilukanje",
+        "album": "bairro",
         "printed_country": "angola",
         "country": [
           "AO"
         ],
-        "printed_label": "Lusafrica",
+        "printed_label": "lusafrica",
         "label": [
           "Lusafrica"
         ],
@@ -72511,14 +72511,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "The Priscillas",
-        "track": "Fly In My Drink",
-        "album": "10.000 Volts",
+        "artist": "the priscillas",
+        "track": "fly in my drink",
+        "album": "10.000 volts",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Nag's Head",
+        "printed_label": "nag's head",
         "label": [
           "Nag's Head"
         ],
@@ -72540,13 +72540,13 @@
       },
       {
         "artist": "Audionom",
-        "track": "Imposter",
-        "album": "Superior",
+        "track": "imposter",
+        "album": "superior",
         "printed_country": "sweden",
         "country": [
           "SE"
         ],
-        "printed_label": "Ideal",
+        "printed_label": "ideal",
         "label": [
           "Ideal"
         ],
@@ -72563,15 +72563,15 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Simon Lenski & Bo Wiget",
-        "track": "Trottinette",
-        "album": "Die Vogelein Schweigen Im Walde",
+        "artist": "simon lenski & bo wiget",
+        "track": "trottinette",
+        "album": "die vogelein schweigen im walde",
         "printed_country": "germany/belgium",
         "country": [
           "DE",
           "BE"
         ],
-        "printed_label": "Radical Duke",
+        "printed_label": "radical duke",
         "label": [
           "Radical Duke"
         ],
@@ -72588,13 +72588,13 @@
       },
       {
         "artist": "Dan Zimmerman",
-        "track": "Secret Name",
-        "album": "Cosmic Patriot",
+        "track": "secret name",
+        "album": "cosmic patriot",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Sounds Familyre",
+        "printed_label": "sounds familyre",
         "label": [
           "Sounds Familyre"
         ],
@@ -72616,13 +72616,13 @@
       },
       {
         "artist": "Dan Zimmerman",
-        "track": "Silence Is A Golden Mountain",
-        "album": "Cosmic Patriot",
+        "track": "silence is a golden mountain",
+        "album": "cosmic patriot",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Sounds Familyre",
+        "printed_label": "sounds familyre",
         "label": [
           "Sounds Familyre"
         ],
@@ -72644,15 +72644,15 @@
       },
       {
         "artist": "Calypso Rose",
-        "track": "Calypso Blues",
-        "album": "Calypso Rose",
+        "track": "calypso blues",
+        "album": "calypso rose",
         "printed_country": "trinidad y tobago",
         "country": [
           "TT"
         ],
-        "printed_label": "Maturity/world Village",
+        "printed_label": "maturity/world village",
         "label": [
-          "Maturity",
+          "maturity",
           "World Village"
         ],
         "apple_id": 1345343782,
@@ -72676,13 +72676,13 @@
       },
       {
         "artist": "Shogun Kunitoki",
-        "track": "Nebulus",
-        "album": "Vinonaamakasio",
+        "track": "nebulus",
+        "album": "vinonaamakasio",
         "printed_country": "finland",
         "country": [
           "FI"
         ],
-        "printed_label": "Fonal",
+        "printed_label": "fonal",
         "label": [
           "Fonal"
         ],
@@ -72709,13 +72709,13 @@
       },
       {
         "artist": "Fitness Forever",
-        "track": "Se Come Te",
-        "album": "Personal Train",
+        "track": "se come te",
+        "album": "personal train",
         "printed_country": "italy",
         "country": [
           "IT"
         ],
-        "printed_label": "Elefant",
+        "printed_label": "elefant",
         "label": [
           "Elefant"
         ],
@@ -72743,13 +72743,13 @@
       },
       {
         "artist": "Keelhaul",
-        "track": "Glorious Car Activities",
-        "album": "Triumphant Return To Obscurity",
+        "track": "glorious car activities",
+        "album": "triumphant return to obscurity",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Hydra Head",
+        "printed_label": "hydra head",
         "label": [
           "Hydra Head"
         ],
@@ -72774,13 +72774,13 @@
       },
       {
         "artist": "Keelhaul",
-        "track": "Waiting For The Moon To Speak",
-        "album": "Triumphant Return To Obscurity",
+        "track": "waiting for the moon to speak",
+        "album": "triumphant return to obscurity",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Hydra Head",
+        "printed_label": "hydra head",
         "label": [
           "Hydra Head"
         ],
@@ -72805,13 +72805,13 @@
       },
       {
         "artist": "Helder Moutinho",
-        "track": "Esta Voz",
-        "album": "Que Fado E Este Que Trago?",
+        "track": "esta voz",
+        "album": "que fado e este que trago?",
         "printed_country": "portugal",
         "country": [
           "PT"
         ],
-        "printed_label": "Farol",
+        "printed_label": "farol",
         "label": [
           "Farol"
         ],
@@ -72835,13 +72835,13 @@
       },
       {
         "artist": "Astrid Williamson",
-        "track": "Eve",
-        "album": "Here Come The Vikings",
+        "track": "eve",
+        "album": "here come the vikings",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Incarnation",
+        "printed_label": "incarnation",
         "label": [
           "Incarnation"
         ],
@@ -72866,13 +72866,13 @@
       },
       {
         "artist": "Crystal Antlers",
-        "track": "Time Erased",
-        "album": "Tentacles",
+        "track": "time erased",
+        "album": "tentacles",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Touch & Go",
+        "printed_label": "touch & go",
         "label": [
           "Touch & Go"
         ],
@@ -72896,13 +72896,13 @@
       },
       {
         "artist": "Hjaltalín",
-        "track": "Trailer Music",
-        "album": "Sleepdrunk Seasons",
+        "track": "trailer music",
+        "album": "sleepdrunk seasons",
         "printed_country": "iceland",
         "country": [
           "IS"
         ],
-        "printed_label": "Excelsior",
+        "printed_label": "excelsior",
         "label": [
           "Excelsior"
         ],
@@ -72927,14 +72927,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Stonephace",
-        "track": "Wedgehead Gets Lucky",
-        "album": "Stonephace",
+        "artist": "stonephace",
+        "track": "wedgehead gets lucky",
+        "album": "stonephace",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Tru Thoughts",
+        "printed_label": "tru thoughts",
         "label": [
           "Tru Thoughts"
         ],
@@ -81856,17 +81856,17 @@
     "title": "FM Достоевский #642",
     "published_at": "2009-07-12",
     "url": "https://radar.lv/files/FM_Dostoevsky_N642_2009.07.12.cue",
-    "playlist_hash": "5e5d6ab34e53773b",
+    "playlist_hash": "dcf46f9529cfef35",
     "tracks": [
       {
         "artist": "Chris Isaak",
-        "track": "Summer Holiday",
-        "album": "Mr.lucky",
+        "track": "summer holiday",
+        "album": "mr.lucky",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Reprise",
+        "printed_label": "reprise",
         "label": [
           "Reprise"
         ],
@@ -81894,13 +81894,13 @@
       },
       {
         "artist": "The Pack a.d.",
-        "track": "June",
-        "album": "Funeral Mixtape",
+        "track": "june",
+        "album": "funeral mixtape",
         "printed_country": "canada",
         "country": [
           "CA"
         ],
-        "printed_label": "Mint",
+        "printed_label": "mint",
         "label": [
           "Mint"
         ],
@@ -81926,13 +81926,13 @@
       },
       {
         "artist": "Tobacco",
-        "track": "Grease Wizard",
-        "album": "Fucked Up Friends",
+        "track": "grease wizard",
+        "album": "fucked up friends",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Anticon",
+        "printed_label": "anticon",
         "label": [
           "Anticon"
         ],
@@ -81961,13 +81961,13 @@
       },
       {
         "artist": "Celia Mara",
-        "track": "Ilegal Na Geladeira",
-        "album": "Santa Rebeldia",
+        "track": "ilegal na geladeira",
+        "album": "santa rebeldia",
         "printed_country": "brazil",
         "country": [
           "BR"
         ],
-        "printed_label": "Globalista",
+        "printed_label": "globalista",
         "label": [
           "Globalista"
         ],
@@ -81995,13 +81995,13 @@
       },
       {
         "artist": "Паперный Т.А.М.",
-        "track": "Розы",
-        "album": "Весна",
+        "track": "розы",
+        "album": "весна",
         "printed_country": "рф",
         "country": [
           "RU"
         ],
-        "printed_label": "Выргород /улитка",
+        "printed_label": "выргород /улитка",
         "label": [
           "Выргород",
           "Улитка"
@@ -82020,13 +82020,13 @@
       },
       {
         "artist": "Quintron",
-        "track": "Freedom",
-        "album": "Too Thirsty 4 Love",
+        "track": "freedom",
+        "album": "too thirsty 4 love",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Rhinestone/goner",
+        "printed_label": "rhinestone/goner",
         "label": [
           "Rhinestone",
           "Goner"
@@ -82056,14 +82056,14 @@
       },
       {
         "artist": "Nine Rain",
-        "track": "1000 Pots & A Pie",
+        "track": "1000 pots & a pie",
         "album": "VI",
         "printed_country": "mexico/usa",
         "country": [
           "MX",
           "US"
         ],
-        "printed_label": "Nine Rain",
+        "printed_label": "nine rain",
         "label": [
           "Nine Rain"
         ],
@@ -82082,13 +82082,13 @@
       },
       {
         "artist": "British Sea Power",
-        "track": "Come Wander With Me",
-        "album": "Man Of Aran",
+        "track": "come wander with me",
+        "album": "man of aran",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Rough Trade",
+        "printed_label": "rough trade",
         "label": [
           "Rough Trade"
         ],
@@ -82115,14 +82115,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Orchestre Poly-rythmo De Cotonou",
-        "track": "Se Tche We Djo Mon",
-        "album": "The Vodoun Effect",
+        "artist": "Orchestre Poly-Rythmo de Cotonou",
+        "track": "se tche we djo mon",
+        "album": "the vodoun effect",
         "printed_country": "benin",
         "country": [
           "BJ"
         ],
-        "printed_label": "Analog Africa",
+        "printed_label": "analog africa",
         "label": [
           "Analog Africa"
         ],
@@ -82147,13 +82147,13 @@
       },
       {
         "artist": "Nidi D'Arac",
-        "track": "Aremo Rindineddha",
-        "album": "Salenta Senza Tempo",
+        "track": "aremo rindineddha",
+        "album": "salenta senza tempo",
         "printed_country": "italy",
         "country": [
           "IT"
         ],
-        "printed_label": "Tarantulae",
+        "printed_label": "tarantulae",
         "label": [
           "Tarantulae"
         ],
@@ -82174,14 +82174,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Aquaturbia",
-        "track": "Erotica",
-        "album": "Chilean Psychedelic Music",
+        "artist": "aquaturbia",
+        "track": "erotica",
+        "album": "chilean psychedelic music",
         "printed_country": "chile",
         "country": [
           "CL"
         ],
-        "printed_label": "Normal",
+        "printed_label": "normal",
         "label": [
           "Normal"
         ],
@@ -82196,13 +82196,13 @@
       },
       {
         "artist": "Megapuss",
-        "track": "Adam & Steve",
-        "album": "Surfing",
+        "track": "adam & steve",
+        "album": "surfing",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Vapor",
+        "printed_label": "vapor",
         "label": [
           "Vapor"
         ],
@@ -82230,13 +82230,13 @@
       },
       {
         "artist": "Katharina Nuttall",
-        "track": "Sorrow Is The Colour",
-        "album": "Cherry Flavour Substitute",
+        "track": "sorrow is the colour",
+        "album": "cherry flavour substitute",
         "printed_country": "sweden",
         "country": [
           "SE"
         ],
-        "printed_label": "Frances",
+        "printed_label": "frances",
         "label": [
           "Frances"
         ],
@@ -82260,14 +82260,14 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Beatnik Filmstars",
-        "track": "Rats",
-        "album": "The Purple Fez 72 Club Social",
+        "artist": "beatnik filmstars",
+        "track": "rats",
+        "album": "the purple fez 72 club social",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Satisfied",
+        "printed_label": "satisfied",
         "label": [
           "Satisfied"
         ],
@@ -82282,14 +82282,14 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Larkin Grimm",
-        "track": "Ride That Cyclone",
-        "album": "Parplar",
+        "artist": "larkin grimm",
+        "track": "ride that cyclone",
+        "album": "parplar",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Young God",
+        "printed_label": "young god",
         "label": [
           "Young God"
         ],
@@ -82311,13 +82311,13 @@
       },
       {
         "artist": "La Papa Verde",
-        "track": "Endlose Strasse",
-        "album": "Ich Verstehen Nicht Kann",
+        "track": "endlose strasse",
+        "album": "ich verstehen nicht kann",
         "printed_country": "germany",
         "country": [
           "DE"
         ],
-        "printed_label": "Bayla",
+        "printed_label": "bayla",
         "label": [
           "Bayla"
         ],
@@ -82344,13 +82344,13 @@
       },
       {
         "artist": "Gerard Quintana",
-        "track": "Wilma",
-        "album": "Treu Banya",
+        "track": "wilma",
+        "album": "treu banya",
         "printed_country": "spain",
         "country": [
           "ES"
         ],
-        "printed_label": "Musica Global",
+        "printed_label": "musica global",
         "label": [
           "Musica Global"
         ],
@@ -82373,17 +82373,17 @@
     "title": "FM Достоевский #641",
     "published_at": "2009-07-05",
     "url": "https://radar.lv/files/FM_Dostoevsky_N641_2009.07.05.cue",
-    "playlist_hash": "8a0b8406e95e48e1",
+    "playlist_hash": "122483302b96f59a",
     "tracks": [
       {
         "artist": "Tipsy",
-        "track": "Midnight Party",
-        "album": "Buzzz",
+        "track": "midnight party",
+        "album": "buzzz",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Ipecac",
+        "printed_label": "ipecac",
         "label": [
           "Ipecac"
         ],
@@ -82408,13 +82408,13 @@
       },
       {
         "artist": "Patrizia Laquidara",
-        "track": "Se Qualcuno",
-        "album": "Funambola",
+        "track": "se qualcuno",
+        "album": "funambola",
         "printed_country": "italy",
         "country": [
           "IT"
         ],
-        "printed_label": "Ponderosa",
+        "printed_label": "ponderosa",
         "label": [
           "Ponderosa"
         ],
@@ -82431,14 +82431,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Ba Cissoco",
-        "track": "Nina",
-        "album": "Seno",
+        "artist": "ba cissoco",
+        "track": "nina",
+        "album": "seno",
         "printed_country": "guinea",
         "country": [
           "GN"
         ],
-        "printed_label": "Stern's",
+        "printed_label": "stern's",
         "label": [
           "Stern's"
         ],
@@ -82452,14 +82452,14 @@
         "year_from": "apple"
       },
       {
-        "artist": "Beast",
-        "track": "Ashtray",
-        "album": "Beast",
+        "artist": "beast",
+        "track": "ashtray",
+        "album": "beast",
         "printed_country": "france",
         "country": [
           "FR"
         ],
-        "printed_label": "Avalanche/verve Forecast",
+        "printed_label": "avalanche/verve forecast",
         "label": [
           "Avalanche",
           "verve Forecast"
@@ -82485,14 +82485,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Various Productions/gerry Mitchell",
-        "track": "Semi-important Parasiters",
-        "album": "The Invisible Lodger",
+        "artist": "various productions/gerry mitchell",
+        "track": "semi-important parasiters",
+        "album": "the invisible lodger",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Fire",
+        "printed_label": "fire",
         "label": [
           "Fire"
         ],
@@ -82516,13 +82516,13 @@
       },
       {
         "artist": "Emily Jane White",
-        "track": "Hole In The Middle",
-        "album": "Dark Undercoat",
+        "track": "hole in the middle",
+        "album": "dark undercoat",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Talitres/double Negative",
+        "printed_label": "talitres/double negative",
         "label": [
           "Talitres",
           "double Negative"
@@ -82548,13 +82548,13 @@
       },
       {
         "artist": "Aavikko",
-        "track": "Syntaksis",
-        "album": "Novo Atlantis",
+        "track": "syntaksis",
+        "album": "novo atlantis",
         "printed_country": "finland",
         "country": [
           "FI"
         ],
-        "printed_label": "Muysic For Peoples/stupido",
+        "printed_label": "muysic for peoples/stupido",
         "label": [
           "Muysic For Peoples",
           "Stupido"
@@ -82584,13 +82584,13 @@
       },
       {
         "artist": "Fatima Spar & The Freedom Fries",
-        "track": "Trust",
-        "album": "Trust",
+        "track": "trust",
+        "album": "trust",
         "printed_country": "austria",
         "country": [
           "AT"
         ],
-        "printed_label": "Hazelwood",
+        "printed_label": "hazelwood",
         "label": [
           "Hazelwood"
         ],
@@ -82615,13 +82615,13 @@
       },
       {
         "artist": "Chris Eckman",
-        "track": "Who Will Light Your Path?",
-        "album": "The Last Side Of The Mountain",
+        "track": "who will light your path?",
+        "album": "the last side of the mountain",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Glitterhouse",
+        "printed_label": "glitterhouse",
         "label": [
           "Glitterhouse"
         ],
@@ -82646,13 +82646,13 @@
       },
       {
         "artist": "LaBrassBanda",
-        "track": "Natalie",
-        "album": "Habediehre",
+        "track": "natalie",
+        "album": "habediehre",
         "printed_country": "germany",
         "country": [
           "DE"
         ],
-        "printed_label": "Trikont",
+        "printed_label": "trikont",
         "label": [
           "Trikont"
         ],
@@ -82676,13 +82676,13 @@
       },
       {
         "artist": "Montys Loco",
-        "track": "Criminal",
-        "album": "Farewell Mr.happy",
+        "track": "criminal",
+        "album": "farewell mr.happy",
         "printed_country": "sweden",
         "country": [
           "SE"
         ],
-        "printed_label": "Nons",
+        "printed_label": "nons",
         "label": [
           "North Of No South"
         ],
@@ -82699,14 +82699,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Bogo",
-        "track": "Junky",
-        "album": "Nuovo Corpo",
+        "artist": "bogo",
+        "track": "junky",
+        "album": "nuovo corpo",
         "printed_country": "mexico",
         "country": [
           "MX"
         ],
-        "printed_label": "P&p",
+        "printed_label": "p&p",
         "label": [
           "P&p"
         ],
@@ -82723,13 +82723,13 @@
       },
       {
         "artist": "Blackfilm",
-        "track": "Untitled",
-        "album": "Blackfilm",
-        "printed_country": "uk(?",
+        "track": "untitled",
+        "album": "blackfilm",
+        "printed_country": "uk(?)",
         "country": [
           "GB"
         ],
-        "printed_label": "Spectraliquid",
+        "printed_label": "spectraliquid",
         "label": [
           "Spectraliquid"
         ],
@@ -82755,13 +82755,13 @@
       },
       {
         "artist": "Headless Heroes",
-        "track": "The North Wind Blew South",
-        "album": "The Silence Of Love",
+        "track": "the north wind blew south",
+        "album": "the silence of love",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Fargo",
+        "printed_label": "fargo",
         "label": [
           "Fargo"
         ],
@@ -82785,14 +82785,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Shira U'tfila",
-        "track": "Ya Basha La Novya",
-        "album": "Sephardic Songs From The Balkans",
+        "artist": "Shira Utfila",
+        "track": "ya basha la novya",
+        "album": "sephardic songs from the balkans",
         "printed_country": "serbia",
         "country": [
           "RS"
         ],
-        "printed_label": "Orange World",
+        "printed_label": "orange world",
         "label": [
           "Orange World"
         ],
@@ -82810,13 +82810,13 @@
       },
       {
         "artist": "Mia Vigar",
-        "track": "I Dare You",
-        "album": "True Adventures Happen Inside Your Head",
+        "track": "i dare you",
+        "album": "true adventures happen inside your head",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Hungry Audio",
+        "printed_label": "hungry audio",
         "label": [
           "Hungry Audio"
         ],
@@ -83312,17 +83312,17 @@
     "title": "FM Достоевский #639",
     "published_at": "2009-06-21",
     "url": "https://radar.lv/files/FM_Dostoevsky_N639_2009.06.21.cue",
-    "playlist_hash": "276ec38672bb6e8a",
+    "playlist_hash": "3ce30b7149221faf",
     "tracks": [
       {
         "artist": "J.J. Cale",
-        "track": "Fonda-lina",
-        "album": "Roll On",
+        "track": "fonda-lina",
+        "album": "roll on",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Rounder",
+        "printed_label": "rounder",
         "label": [
           "Rounder"
         ],
@@ -83346,14 +83346,14 @@
       },
       {
         "artist": "Miss Platnum",
-        "track": "Life",
-        "album": "Chefa",
+        "track": "life",
+        "album": "chefa",
         "printed_country": "romania/germany",
         "country": [
           "RO",
           "DE"
         ],
-        "printed_label": "Four Music",
+        "printed_label": "four music",
         "label": [
           "Four Music"
         ],
@@ -83381,14 +83381,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "D.a.f.",
-        "track": "Als War Das Letzte Mal",
-        "album": "Das Beste Von D.a.f.",
+        "artist": "d.a.f.",
+        "track": "als war das letzte mal",
+        "album": "das beste von d.a.f.",
         "printed_country": "germany",
         "country": [
           "DE"
         ],
-        "printed_label": "The Grey Area/mute",
+        "printed_label": "the grey area/mute",
         "label": [
           "The Grey Area",
           "Mute"
@@ -83413,13 +83413,13 @@
       },
       {
         "artist": "Kazumasa Hashimoto",
-        "track": "Main Theme B",
-        "album": "Tokyo Sonata",
+        "track": "main theme b",
+        "album": "tokyo sonata",
         "printed_country": "japan",
         "country": [
           "JP"
         ],
-        "printed_label": "Noble",
+        "printed_label": "noble",
         "label": [
           "Noble"
         ],
@@ -83450,13 +83450,13 @@
       },
       {
         "artist": "Chris & Carla",
-        "track": "Love Sleeps Late",
-        "album": "Fly High Brave Dreamers",
+        "track": "love sleeps late",
+        "album": "fly high brave dreamers",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Glitterhouse",
+        "printed_label": "glitterhouse",
         "label": [
           "Glitterhouse"
         ],
@@ -83484,13 +83484,13 @@
       },
       {
         "artist": "The Revellions",
-        "track": "Have It All",
-        "album": "The Revellions",
+        "track": "have it all",
+        "album": "the revellions",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Dirty Water",
+        "printed_label": "dirty water",
         "label": [
           "Dirty Water"
         ],
@@ -83514,16 +83514,16 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "La Banda Del Surdo",
-        "track": "Dosa Dupla Del Funk",
-        "album": "Dukkun",
+        "artist": "La Banda del Surdo",
+        "track": "dosa dupla del funk",
+        "album": "dukkun",
         "printed_country": "spain",
         "country": [
           "ES"
         ],
-        "printed_label": "Lbs",
+        "printed_label": "lbs",
         "label": [
-          "Lbs"
+          "LBS"
         ],
         "apple_id": 416304370,
         "apple_album_id": 416304368,
@@ -83535,14 +83535,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "P J Harvey & John Parish",
-        "track": "The Chair",
-        "album": "A Woman A Man Walked By",
+        "artist": "PJ Harvey & John Parish",
+        "track": "the chair",
+        "album": "a woman a man walked by",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Island",
+        "printed_label": "island",
         "label": [
           "Island"
         ],
@@ -83567,13 +83567,13 @@
       },
       {
         "artist": "Kosmikud",
-        "track": "Traagika",
-        "album": "Ainus, Mis Jaab, On Beat",
+        "track": "traagika",
+        "album": "ainus, mis jaab, on beat",
         "printed_country": "estonia",
         "country": [
           "EE"
         ],
-        "printed_label": "Viska Mulda",
+        "printed_label": "viska mulda",
         "label": [
           "Viska Mulda"
         ],
@@ -83591,13 +83591,13 @@
       },
       {
         "artist": "Ursula 1000",
-        "track": "This Magick",
-        "album": "Mystics",
+        "track": "this magick",
+        "album": "mystics",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Esl",
+        "printed_label": "esl",
         "label": [
           "Esl"
         ],
@@ -83624,14 +83624,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Michel Ongaro",
-        "track": "Ardhi",
-        "album": "Senta Lain",
+        "artist": "michel ongaro",
+        "track": "ardhi",
+        "album": "senta lain",
         "printed_country": "kenya",
         "country": [
           "KE"
         ],
-        "printed_label": "Hippo",
+        "printed_label": "hippo",
         "label": [
           "Hippo"
         ],
@@ -83647,13 +83647,13 @@
       },
       {
         "artist": "Inga Juuso",
-        "track": "Nils Juhan",
-        "album": "Vaimmu Ivnnit",
+        "track": "nils juhan",
+        "album": "vaimmu ivnnit",
         "printed_country": "finland",
         "country": [
           "FI"
         ],
-        "printed_label": "Dat",
+        "printed_label": "dat",
         "label": [
           "DAT"
         ],
@@ -83671,13 +83671,13 @@
       },
       {
         "artist": "Leighton Craig",
-        "track": "Circle Of Thoughts",
-        "album": "11 Easy Pieces",
+        "track": "circle of thoughts",
+        "album": "11 easy pieces",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Room 40",
+        "printed_label": "room 40",
         "label": [
           "Room 40"
         ],
@@ -83695,13 +83695,13 @@
       },
       {
         "artist": "Andrew Bird",
-        "track": "Not A Robot, But A Ghost",
-        "album": "Noble Beast",
+        "track": "not a robot, but a ghost",
+        "album": "noble beast",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Wegawam/fat Possum",
+        "printed_label": "wegawam/fat possum",
         "label": [
           "Wegawam",
           "Fat Possum"
@@ -83727,15 +83727,15 @@
       },
       {
         "artist": "Imam Baildi",
-        "track": "I Zoi Mas Ine Ligi",
-        "album": "Imam Baildi",
+        "track": "i zoi mas ine ligi",
+        "album": "imam baildi",
         "printed_country": "greece",
         "country": [
           "GR"
         ],
-        "printed_label": "Kukin",
+        "printed_label": "kukin",
         "label": [
-          "Kukin"
+          "kukin"
         ],
         "apple_id": 715942460,
         "apple_album_id": 715942346,
@@ -83758,13 +83758,13 @@
       },
       {
         "artist": "Beaujolais",
-        "track": "Contemptual You",
-        "album": "Love At Thirty",
+        "track": "contemptual you",
+        "album": "love at thirty",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Parasol",
+        "printed_label": "parasol",
         "label": [
           "Parasol"
         ],
@@ -83782,13 +83782,13 @@
       },
       {
         "artist": "Titi Robin",
-        "track": "La Terre Cet Animal",
-        "album": "Kali Sultana",
+        "track": "la terre cet animal",
+        "album": "kali sultana",
         "printed_country": "france",
         "country": [
           "FR"
         ],
-        "printed_label": "Naive",
+        "printed_label": "naive",
         "label": [
           "Naïve"
         ],
@@ -83815,18 +83815,18 @@
     "title": "FM Достоевский #638",
     "published_at": "2009-06-14",
     "url": "https://radar.lv/files/FM_Dostoevsky_N638_2009.06.14.cue",
-    "playlist_hash": "00b4a4133673cfd6",
+    "playlist_hash": "0327fef916ea65a0",
     "tracks": [
       {
         "artist": "A Camp",
-        "track": "It's Not Easy To Be Human",
-        "album": "Colonia",
+        "track": "it's not easy to be human",
+        "album": "colonia",
         "printed_country": "sweden/usa",
         "country": [
           "SE",
           "US"
         ],
-        "printed_label": "Wigpowder/nettwerk",
+        "printed_label": "wigpowder/nettwerk",
         "label": [
           "Wigpowder",
           "Nettwerk"
@@ -83851,13 +83851,13 @@
       },
       {
         "artist": "Центр",
-        "track": "Тургенев",
-        "album": "Сделано В Париже",
+        "track": "тургенев",
+        "album": "сделано в париже",
         "printed_country": "ссср",
         "country": [
           "SU"
         ],
-        "printed_label": "Зенит",
+        "printed_label": "зенит",
         "label": [
           "Зенит"
         ],
@@ -83879,13 +83879,13 @@
       },
       {
         "artist": "Zomes",
-        "track": "Black Magic Band",
-        "album": "Zomes",
+        "track": "black magic band",
+        "album": "zomes",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Holy Mountain",
+        "printed_label": "holy mountain",
         "label": [
           "Holy Mountain"
         ],
@@ -83912,13 +83912,13 @@
       },
       {
         "artist": "Rökkurró",
-        "track": "Ringulreid",
-        "album": "Pad Kolnar I Kvold",
+        "track": "ringulreid",
+        "album": "pad kolnar i kvold",
         "printed_country": "iceland",
         "country": [
           "IS"
         ],
-        "printed_label": "12 Tonar",
+        "printed_label": "12 tonar",
         "label": [
           "12 Tónar"
         ],
@@ -83945,13 +83945,13 @@
       },
       {
         "artist": "Elvis Perkins",
-        "track": "All The Night Without Love",
-        "album": "Ash Wednesday",
+        "track": "all the night without love",
+        "album": "ash wednesday",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Xl",
+        "printed_label": "xl",
         "label": [
           "XL"
         ],
@@ -83975,14 +83975,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Nostalgia 77/julie Tippets",
-        "track": "Film Blues",
-        "album": "Sessions Feat.keith&julie Tippets",
+        "artist": "nostalgia 77/julie tippets",
+        "track": "film blues",
+        "album": "sessions feat.keith&julie tippets",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Tru Thoughts",
+        "printed_label": "tru thoughts",
         "label": [
           "Tru Thoughts"
         ],
@@ -83997,14 +83997,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Atom Tm",
-        "track": "Track 3",
-        "album": "Liedgut",
+        "artist": "Atom™",
+        "track": "track 3",
+        "album": "liedgut",
         "printed_country": "germany",
         "country": [
           "DE"
         ],
-        "printed_label": "Raster-noton",
+        "printed_label": "raster-noton",
         "label": [
           "Raster Noton"
         ],
@@ -84027,14 +84027,14 @@
       },
       {
         "artist": "Troica",
-        "track": "Batraneti, Haini Reli",
-        "album": "Dar",
+        "track": "batraneti, haini reli",
+        "album": "dar",
         "printed_country": "austria/romania",
         "country": [
           "AT",
           "RO"
         ],
-        "printed_label": "3504 Productions",
+        "printed_label": "3504 productions",
         "label": [
           "3504 Productions"
         ],
@@ -84051,14 +84051,14 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Gable",
-        "track": "Puree Hip Hop",
-        "album": "7 Guitars With A Cloud Of Milk",
+        "artist": "Gablé",
+        "track": "puree hip hop",
+        "album": "7 guitars with a cloud of milk",
         "printed_country": "france",
         "country": [
           "FR"
         ],
-        "printed_label": "Loaf",
+        "printed_label": "loaf",
         "label": [
           "Loaf"
         ],
@@ -84086,14 +84086,14 @@
       },
       {
         "artist": "The French Impressionists",
-        "track": "Sui Comingolo Riposa La Notte",
-        "album": "Amelia Rosselli",
+        "track": "sui comingolo riposa la notte",
+        "album": "amelia rosselli",
         "printed_country": "uk/italy",
         "country": [
           "GB",
           "IT"
         ],
-        "printed_label": "Ltm",
+        "printed_label": "ltm",
         "label": [
           "Ltm"
         ],
@@ -84110,15 +84110,15 @@
         "year_from": "discogs"
       },
       {
-        "artist": "Saite An Seite",
-        "track": "Gitme",
-        "album": "Gitme",
+        "artist": "saite an seite",
+        "track": "gitme",
+        "album": "gitme",
         "printed_country": "germany/turkey",
         "country": [
           "DE",
           "TR"
         ],
-        "printed_label": "Wonderland",
+        "printed_label": "wonderland",
         "label": [
           "Wonderland"
         ],
@@ -84134,13 +84134,13 @@
       },
       {
         "artist": "Puerto Muerto",
-        "track": "Hello Moscow",
-        "album": "I Was A Swallow",
+        "track": "hello moscow",
+        "album": "i was a swallow",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Fire",
+        "printed_label": "fire",
         "label": [
           "Fire"
         ],
@@ -84155,17 +84155,17 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Taj Weekes & Adowa",
-        "track": "Propaganda War",
-        "album": "Deidem",
+        "artist": "taj weekes & adowa",
+        "track": "propaganda war",
+        "album": "deidem",
         "printed_country": "jamaica",
         "country": [
           "JM"
         ],
-        "printed_label": "Jatta/culture Taxi",
+        "printed_label": "jatta/culture taxi",
         "label": [
           "Jatta",
-          "culture Taxi"
+          "Culture Taxi"
         ],
         "apple_id": null,
         "mb_id": "4a327bf2-023c-4c93-9456-49b462183e1d",
@@ -84185,14 +84185,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "M.i.s.",
-        "track": "Lennin Y Maccarthur",
-        "album": "Mejico Maxico",
+        "artist": "m.i.s.",
+        "track": "lennin y maccarthur",
+        "album": "mejico maxico",
         "printed_country": "mexico",
         "country": [
           "MX"
         ],
-        "printed_label": "Cooking Vinyl",
+        "printed_label": "cooking vinyl",
         "label": [
           "Cooking Vinyl"
         ],
@@ -84219,15 +84219,15 @@
       },
       {
         "artist": "Mariza",
-        "track": "Beijo De Saudade",
-        "album": "Terra",
+        "track": "beijo de saudade",
+        "album": "terra",
         "printed_country": "portugal",
         "country": [
           "PT"
         ],
-        "printed_label": "Emi Portugal",
+        "printed_label": "emi portugal",
         "label": [
-          "Emi Portugal"
+          "emi portugal"
         ],
         "apple_id": 693452032,
         "apple_album_id": 693451927,
@@ -84250,13 +84250,13 @@
       },
       {
         "artist": "Viarosa",
-        "track": "Righteous Path",
-        "album": "Send For The Sea",
+        "track": "righteous path",
+        "album": "send for the sea",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Tarnished",
+        "printed_label": "tarnished",
         "label": [
           "Tarnished"
         ],
@@ -84281,13 +84281,13 @@
       },
       {
         "artist": "Venetian Snares",
-        "track": "Deep Dicking",
-        "album": "Filth",
+        "track": "deep dicking",
+        "album": "filth",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Planet Mu",
+        "printed_label": "planet mu",
         "label": [
           "Planet Mu"
         ],
@@ -86721,17 +86721,17 @@
     "title": "FM Достоевский #632",
     "published_at": "2009-05-03",
     "url": "https://radar.lv/files/FM_Dostoevsky_N632_2009.05.03.cue",
-    "playlist_hash": "63426d4e12beacb6",
+    "playlist_hash": "63df8176c84f3def",
     "tracks": [
       {
         "artist": "Wovenhand",
-        "track": "Quiet Nights Of Quiet Stars",
-        "album": "Ten Stones",
+        "track": "quiet nights of quiet stars",
+        "album": "ten stones",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Sounds Familyre",
+        "printed_label": "sounds familyre",
         "label": [
           "Sounds Familyre"
         ],
@@ -86759,13 +86759,13 @@
       },
       {
         "artist": "Hot Chip",
-        "track": "Out At The Pictures",
-        "album": "Made In The Dark",
+        "track": "out at the pictures",
+        "album": "made in the dark",
         "printed_country": "uk",
         "country": [
           "GB"
         ],
-        "printed_label": "Emi",
+        "printed_label": "emi",
         "label": [
           "EMI"
         ],
@@ -86788,13 +86788,13 @@
       },
       {
         "artist": "Barbara Buchholz",
-        "track": "Stein",
-        "album": "Moonstruck",
+        "track": "stein",
+        "album": "moonstruck",
         "printed_country": "germany",
         "country": [
           "DE"
         ],
-        "printed_label": "Intuition",
+        "printed_label": "intuition",
         "label": [
           "Intuition"
         ],
@@ -86809,14 +86809,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Kati Kovacs",
-        "track": "Add Mar Uram Az Esot!",
-        "album": "Well Hung",
+        "artist": "Kati Kovács",
+        "track": "add mar uram az esot!",
+        "album": "well hung",
         "printed_country": "hungary",
         "country": [
           "HU"
         ],
-        "printed_label": "Finders Keepers",
+        "printed_label": "finders keepers",
         "label": [
           "Finders Keepers"
         ],
@@ -86842,8 +86842,8 @@
       },
       {
         "artist": "Deerhunter",
-        "track": "Never Stops",
-        "album": "Microcastle",
+        "track": "never stops",
+        "album": "microcastle",
         "printed_country": "usa",
         "country": [
           "US"
@@ -86874,14 +86874,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Flux & Gabriela Vega",
-        "track": "Menundencia",
-        "album": "Toltecnica",
+        "artist": "flux & gabriela vega",
+        "track": "menundencia",
+        "album": "toltecnica",
         "printed_country": "mexico",
         "country": [
           "MX"
         ],
-        "printed_label": "Arteria",
+        "printed_label": "arteria",
         "label": [
           "Arteria"
         ],
@@ -86904,14 +86904,14 @@
       },
       {
         "artist": "Akim El Sikameya",
-        "track": "Ya Waadi",
-        "album": "Introducing",
+        "track": "ya waadi",
+        "album": "introducing",
         "printed_country": "algeria/france",
         "country": [
           "DZ",
           "FR"
         ],
-        "printed_label": "Wmn",
+        "printed_label": "wmn",
         "label": [
           "World Music Network"
         ],
@@ -86929,15 +86929,15 @@
       },
       {
         "artist": "Zofka",
-        "track": "Smilla",
-        "album": "Chocolat",
+        "track": "smilla",
+        "album": "chocolat",
         "printed_country": "switzerland",
         "country": [
           "CH"
         ],
-        "printed_label": "Pink Pepper",
+        "printed_label": "pink pepper",
         "label": [
-          "Pink Pepper"
+          "pink pepper"
         ],
         "apple_id": 292991349,
         "apple_album_id": 292991319,
@@ -86962,13 +86962,13 @@
       },
       {
         "artist": "Seu Jorge",
-        "track": "Eterna Busca",
-        "album": "America Brasil - O Disco",
+        "track": "eterna busca",
+        "album": "america brasil - o disco",
         "printed_country": "brazil",
         "country": [
           "BR"
         ],
-        "printed_label": "Cafune",
+        "printed_label": "cafune",
         "label": [
           "Cafune"
         ],
@@ -86997,13 +86997,13 @@
       },
       {
         "artist": "Ponytail",
-        "track": "G-shock",
-        "album": "Ice Cream Spirituals",
+        "track": "g-shock",
+        "album": "ice cream spirituals",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "We Are Free",
+        "printed_label": "we are free",
         "label": [
           "We Are Free"
         ],
@@ -87028,14 +87028,14 @@
       },
       {
         "artist": "Paul Roland",
-        "track": "Eight Little Whores",
-        "album": "Nevermore",
+        "track": "eight little whores",
+        "album": "nevermore",
         "printed_country": "uk/germany",
         "country": [
           "GB",
           "DE"
         ],
-        "printed_label": "Gaslight/syborgmusic",
+        "printed_label": "gaslight/syborgmusic",
         "label": [
           "Gaslight",
           "Syborgmusic"
@@ -87061,14 +87061,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Marc Collin Feat. Dea Li",
-        "track": "Cat People (putting On Fire)",
-        "album": "Hollywood, Mon Amour",
+        "artist": "marc collin feat. dea li",
+        "track": "cat people (putting on fire)",
+        "album": "hollywood, mon amour",
         "printed_country": "france",
         "country": [
           "FR"
         ],
-        "printed_label": "The Perfect Kiss/pias",
+        "printed_label": "the perfect kiss/pias",
         "label": [
           "The Perfect Kiss",
           "PIAS"
@@ -87084,13 +87084,13 @@
       },
       {
         "artist": "Точка Невозврата",
-        "track": "Русские Не Паникуют",
-        "album": "Моё Богатство - Люди",
+        "track": "русские не паникуют",
+        "album": "моё богатство - люди",
         "printed_country": "рф",
         "country": [
           "RU"
         ],
-        "printed_label": "Pinatri Lepka",
+        "printed_label": "pinatri lepka",
         "label": [
           "Pinatri Lepka"
         ],
@@ -87108,13 +87108,13 @@
       },
       {
         "artist": "Mary Coughlan",
-        "track": "Moon In A Taxi Car",
-        "album": "The House Of Ill Repute",
+        "track": "moon in a taxi car",
+        "album": "the house of ill repute",
         "printed_country": "ireland",
         "country": [
           "IE"
         ],
-        "printed_label": "Westpark",
+        "printed_label": "westpark",
         "label": [
           "Westpark"
         ],
@@ -87139,14 +87139,14 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Arrington De Dionyso",
-        "track": "All Is On!",
-        "album": "I See Beyond The Black Sun",
+        "artist": "arrington de dionyso",
+        "track": "all is on!",
+        "album": "i see beyond the black sun",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "K",
+        "printed_label": "k",
         "label": [
           "K"
         ],
@@ -87174,14 +87174,14 @@
       },
       {
         "artist": "La Cherga",
-        "track": "Cooking Dub",
-        "album": "Fake No More",
+        "track": "cooking dub",
+        "album": "fake no more",
         "printed_country": "yugoslavia/austria",
         "country": [
           "YU",
           "AT"
         ],
-        "printed_label": "Asphalt Tango",
+        "printed_label": "asphalt tango",
         "label": [
           "Asphalt Tango"
         ],
@@ -87199,13 +87199,13 @@
       },
       {
         "artist": "Jim White",
-        "track": "Stranger Candy",
-        "album": "A Funny Little Cross To Bear",
+        "track": "stranger candy",
+        "album": "a funny little cross to bear",
         "printed_country": "usa",
         "country": [
           "US"
         ],
-        "printed_label": "Luaka Bop",
+        "printed_label": "luaka bop",
         "label": [
           "Luaka Bop"
         ],
@@ -89599,7 +89599,7 @@
     "title": "FM Достоевский #626",
     "published_at": "2009-03-22",
     "url": "https://radar.lv/files/FM_Dostoevsky_N626_2009.03.22.cue",
-    "playlist_hash": "9e0c61b62487dd6a",
+    "playlist_hash": "d3fa8dd0165a8cb9",
     "tracks": [
       {
         "artist": "Low Motion Disco",
@@ -143323,7 +143323,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "groep 1850",
+        "artist": "Groep 1850",
         "track": "mother no-head",
         "album": "nederbeat '63 - '69",
         "printed_country": "holland",
@@ -268549,7 +268549,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Orquesta Aragon",
+        "artist": "Orquesta Aragón",
         "track": "Cha Cuba",
         "album": "En Route",
         "printed_country": "Cuba",
@@ -304043,7 +304043,7 @@
         "year": null
       },
       {
-        "artist": "Orquesta Aragon",
+        "artist": "Orquesta Aragón",
         "track": "Siboney",
         "album": "La Charauga Eterna",
         "printed_country": "Cuba",
@@ -331283,7 +331283,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "Orquesta Aragon",
+        "artist": "Orquesta Aragón",
         "track": "Cubita Cubera",
         "album": "Quien Sabe Sabe",
         "printed_country": "Cuba",

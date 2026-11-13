@@ -296,7 +296,7 @@
         "year_from": "musicbrainz"
       },
       {
-        "artist": "N’Faly Kouyate",
+        "artist": "N'Faly Kouyaté",
         "track": "Yeke Yeke",
         "album": "FINISHING",
         "printed_country": "Guinea/Belgium",
@@ -311,7 +311,6 @@
         "apple_id": 1833633743,
         "apple_album_id": 1833633660,
         "apple_artist_id": 153046264,
-        "mb_id": null,
         "year": 2025,
         "year_from": "apple"
       },

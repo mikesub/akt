@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N654_04.10.2009.cue
 date: 2009-10-04
 title: FM Достоевский #654
-note: From the ID3 comment of a fans' collection's mp3 of the episode («654. #654 04.10.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N654.html).
 
 1. sonic youth (usa) "calming the snake" CD "the eternal" (matador)
 2. tranh sao bao (vietnam) "ly con sao" CD "hoatau - tranh sao bao - tau khuc" (kim loi)

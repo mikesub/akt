@@ -19,9 +19,9 @@ sources disagree on, an entry without a title another source has. From each epis
 | Source | Files | Episodes |
 |---|---|---|
 | Finam pages (one from #802's print page) | 87 | #702–#820 but the 32 with no list captured; №1–№12 agree with the 2010 RSS |
-| fmd.soyuz.ru | 329 | #289–#619 but #317, #375 |
+| fmd.soyuz.ru | 398 | #289–#689 but #317, #375, #666 (Wayback captures to #619, saved pages from #620) |
 | radar.lv posts | 123 | within #129–#288 |
-| mp3 tags | 81 | #620–#701 but #666 (#623, #624, #633 found nowhere else) |
+| mp3 tags | 12 | #690–#701 |
 | the owner's list, by ear | 1 | #666 |
 | Fuzz magazine, by hand | 1 | #187 |
 | the XLS | 158 | #1–#128, and 30 within #131–#375 that nothing else has |
@@ -74,7 +74,7 @@ names and titles are in Latin letters mostly before about #100, where nothing el
   playlist file's note quotes it. The script reads them with code.
 - `radar.lv/cue/`: CUE sheets radar.lv keeps beside its episode recordings (`https://radar.lv/files/`,
   listed in its sitemap; `urls.txt` is that list): 377 sheets, 5,754 songs, for 366 episodes from #129 to #707,
-  including #620–#701 but for #623, #624, #633 and #666 (the only source for that stretch). Each
+  including #620–#701 but for #623, #624, #633 and #666 (the only source for that stretch before the mp3 tags and the site's saved pages). Each
   song is a track with `PERFORMER`, `TITLE` and `REM FMDALBUM <album>` (from #604; #484–#603 have
   no album; the sheets to #353 put album and label in the performer, «Artist [Album, Label]»); the
   tracks titled «(Track 03)» are the host talking, between songs. Structured, so read them with code, not
@@ -101,7 +101,10 @@ names and titles are in Latin letters mostly before about #100, where nothing el
   (its records and years went into `overrides.json`). #666 (2026-10-18, a two-hour episode, 20 songs).
   Trusted below every other source but Tilgor Kraut's spreadsheet, whose #666 has the same 20 songs (#3 by
   «ураганы», #11 «in the begining» CD «for 666», #16's album «третий альбом [demo]»): the owner's list is
-  kept (the owner's call), the difference noted. Dated by `DATES` in the script.
+  kept (the owner's call), the difference noted. fmd.soyuz.ru's saved page of #666 (below) has the planned list, 19
+  songs: #3 by «ураганы», Thomas Truax's «audrey's dance» after his «i put a spell on you» where the owner heard
+  Surfin' Nanorobots, and no Барто. The owner's list is kept over it too, as what aired (the owner's call,
+  2026-11-13; `PREFER` in the script), the differences in the note. Dated by the site's page (27.12.2009).
 - `tilgor-kraut/FMD (for all).xlsx`: Tilgor Kraut's spreadsheet of the program's playlists, which the
   owner got on 2026-10-19 (credited by name at the owner's request). Sheet «the sum»: 14,753 rows, columns `bN7m, Date, sNum,
   ARTIST, Country, Song, CD, Label, Comment AKT` and two counts of plays (the artist's, the label's). 949
@@ -134,12 +137,16 @@ names and titles are in Latin letters mostly before about #100, where nothing el
   Ranked between radar.lv's posts and the CUE sheets. **The names slip**: the leading number is the
   episode's, not the title's «#…» («209. #206 07.03.2001.mp3» is #209; «441. #414 03.08.2005» is #441), and
   a few dates are off («#417 19.03.2006» for 2005), so their date is used only where no other source dates
-  the episode (#623, #624, #633). Twice they are right where the others are not, set by hand in `DATES` in
+  the episode (#623, #624, #633 until the site's saved pages dated them). Twice they are right where the others are not, set by hand in `DATES` in
   `bin/fmd-playlists.js`: «#595 17.08.2008» and «#596 24.08.2008», which fmd.soyuz.ru dates both 2008-08-18,
   and «#683 25.04.2010», as Эхо Москвы's listing has it, a day after the CUE sheet. #606's comment holds
   another list than fmd.soyuz.ru's (17 songs, none in common but one): the CROSSCHECK notes it, the site's is
   kept. Such a source has no page: an episode taken from it keeps its link to another source's
-  (the CUE sheet's).
+  (the CUE sheet's). Since fmd.soyuz.ru's saved pages of #620–#689 came in (2026-11-13), the tags give only
+  #690–#701: for the 69 episodes they share (no #666 here) they have the site's songs in the site's order,
+  in Title Case where the site prints lower case in 8 (#632, #638, #639, #641, #642, #661, #664, #665), the
+  host's note glued to the entry in 2 («…(planet mu)dubstep comp.», #626; «#666 special ouverture», #665), and
+  a bracket lost in #641 («(uk(?)»).
 - `fmd.soyuz.ru/`: the program's old site, captured by the Wayback Machine: 331 pages
   `/?s=_ARCHIVE&id_playlist=<id>`, saved as `<id>.html` (raw bytes, re-fetched 2026-10-14) with
   `index.json` mapping each id to its episode. **The id is not the episode number.** They cover
@@ -152,6 +159,11 @@ names and titles are in Latin letters mostly before about #100, where nothing el
   script takes the other sources' date there and says so. Their header
   says the program then aired on «Эхо Москвы» 91.2 FM. Each entry is four lines: number; artist; `(country) "track" CD
   "album" (label)`; the host's one-line note (drop it). Header: `PLAYLIST #369 17.04.2004.`
+  `saved/FM_Dostoevsky_N<number>.html`: the site's pages of #620–#689 (08.02.2009 to 06.06.2010), 70 of them,
+  which the owner got on 2026-11-13: saved copies, not Wayback captures, with no page id or capture date, so
+  an episode taken from one keeps its link to the CUE sheet. cp1251, the captures' layout, the host's note
+  in `<i>` («dubstep comp.»). They fill the stretch the Wayback list stops before; #666's is not used (see
+  `owner/`).
 - `finam.fm/`: Финам FM's pages, captured by the Wayback Machine.
   - `rss-2010.xml`: the program's feed as of Nov 2010, №1–№12 with full playlists in the item
     descriptions (№4–№6 lay them out differently: check).
@@ -187,5 +199,5 @@ names and titles are in Latin letters mostly before about #100, where nothing el
 | #1–#128 (1997 – 1999) | XLS only | – |
 | #129–#288 (1999 – Oct 2002) | radar.lv posts and CUE sheets (original spelling), XLS; #190–#195 Tilgor Kraut's spreadsheet only; #187 Fuzz magazine only | #288 |
 | #289–#619 (Oct 2002 – 01.02.2009) | fmd.soyuz.ru; radar.lv and CUE sheets in parts; XLS to #499; #317 Tilgor Kraut's spreadsheet only | – |
-| #620–#701 (Feb 2009 – Sep 2010) | mp3 tags (with countries and labels), CUE sheets; #666 the owner's list, by ear | – |
+| #620–#701 (Feb 2009 – Sep 2010) | fmd.soyuz.ru's saved pages to #689, mp3 tags, CUE sheets; #666 the owner's list, by ear | – |
 | #702–#820 (Finam №1–№119) | Finam pages (`finam.fm/found.json` maps № to page id), the 2010 RSS; CUE sheets to #707; Tilgor Kraut's spreadsheet only for the 32 with no list captured: #715–#720, #723 (the program page's 2011 sidebar names them, but no page was kept), #753, #754, #764, #767, #769–#771, #778, #781, #790–#794, #796, #798, #800, #801, #803, #804, #806, #807, #809, #810, and #795, whose only capture is broken (checked by the owner). #802's page is broken too, but its print version, `6765-print.html`, has the list (16 entries); #780's list has no «PLAYLIST» line at all (checked: 15 entries); #816's 14th and 15th entries follow a note line («album of 2012 - I») | – |

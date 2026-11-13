@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N630_2009.04.19.cue
 date: 2009-04-19
 title: FM Достоевский #630
-note: From the ID3 comment of a fans' collection's mp3 of the episode («630. #630 19.04.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N630.html).
 
 1. de kift (holland) "alleenstaande" CD "hoofdkaas" (v2)
 2. de kift (holland) "heisa-ho" CD "hoofdkaas" (v2)

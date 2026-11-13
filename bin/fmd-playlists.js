@@ -19,7 +19,8 @@ import { fileURLToPath } from 'node:url';
  * radar.lv's episode posts > the playlists in a fans' collection's mp3 tags >
  * radar.lv's CUE sheets > the XLS export of radar.lv's dead playlist database >
  * the owner's lists, by ear > Tilgor Kraut's spreadsheet of that database,
- * unless a lower source has the complete list where the higher one is cut short.
+ * unless a lower source has the complete list where the higher one is cut short,
+ * or PREFER names it (#666: the owner's list, what aired, over the site's plan).
  *
  * Usage: node bin/fmd-playlists.js
  */
@@ -56,8 +57,15 @@ const DATES = {
   595: { date: '2008-08-17', why: "2008-08-17, as the fans' collection names it («595. #595 17.08.2008.mp3»), a week after #594 and before #596; fmd.soyuz.ru gives 2008-08-18, a Monday, which it gives #596 too" },
   596: { date: '2008-08-24', why: "2008-08-24, as the fans' collection names it («596. #596 24.08.2008.mp3»), a week after #595 and before #597 (2008-08-31); fmd.soyuz.ru gives 2008-08-18, #595's" },
   683: { date: '2010-04-25', why: "2010-04-25, the Sunday it aired at 01:08 on Эхо Москвы (its program listing), as the fans' collection names it («683. #683 25.04.2010.mp3»); radar.lv's CUE sheet says 2010-04-24" },
-  666: { date: '2009-12-27', why: "2009-12-27, the Sunday between #665 (2009-12-20) and #667 (2010-01-03), the weekly slot then, as Tilgor Kraut's spreadsheet has it; the owner's list has no date" },
   318: { date: '2003-04-12', why: "2003-04-12, as fmd.soyuz.ru has it, a week after #317 (2003-04-05 in Tilgor Kraut's spreadsheet, the only source of #317) and before #319 (2003-04-19); radar.lv's post and CUE sheet and the XLS, all from radar.lv's playlist database, give 2003-04-05, #317's date" },
+};
+
+/**
+ * Episodes whose list comes from a lower-ranked source than the rank would pick, with why. #666: the owner
+ * wrote down what aired, by ear; fmd.soyuz.ru's page (19 songs) is the plan, its differences in the note.
+ */
+const PREFER = {
+  666: { kind: 'owner', why: "kept over fmd.soyuz.ru's page, the planned list, as what aired (the owner's call, 2026-11-13): the page's 3rd song is by «ураганы», its 11th Thomas Truax's «audrey's dance» where the owner heard Surfin' Nanorobots, and it has no Барто (the owner's 16th)" },
 };
 
 /** Copies left out, with why. */
@@ -271,34 +279,53 @@ function decodeRussian(bytes) {
   return score(b) > score(a) ? { text: b, encoding: 'cp866' } : { text: a, encoding: 'cp1251' };
 }
 
-/** fmd.soyuz.ru's playlist pages: number → [source] (#350 is on two pages). */
+/** A page's header («PLAYLIST #620 08.02.2009.») and its entries, one per row: the cell's first line (the host's note follows in <i>). */
+function soyuzPage(file, number) {
+  const { text: html, encoding } = decodeRussian(readFileSync(file));
+  const header = html.match(/PLAYLIST\s*#?\s*(\d+)\s+([\d.]+)/);
+  if (!header || Number(header[1]) !== number) throw new Error(`${file}: header ${header?.[0]} is not #${number}`);
+  const entries = [];
+  const rows = /<td nowrap>[\s\S]*?<b>\s*(\d+)\s*<\/b>[\s\S]*?<\/td>\s*<td width=100%>([\s\S]*?)<\/td>/gi;
+  for (const [, n, cell] of html.matchAll(rows)) {
+    const entry = clean(decode(cell.replace(/<!--[\s\S]*?-->/g, '').split(/<br\b[^>]*>|<i>/i)[0].replace(/<[^>]+>/g, ' ')));
+    if (entry) entries.push(`${n}. ${entry}`);
+  }
+  return { date: isoDate(header[2]), entries, encoding };
+}
+
+/**
+ * fmd.soyuz.ru's playlist pages: number → [source] (#350 is on two pages). The Wayback Machine's captures
+ * (`<id>.html`, #289–#619) link their capture; the saved copies of #620–#689 (`saved/`, the site's own
+ * pages with no page id or capture date) have no page online, so their episode keeps another source's link.
+ */
 function readSoyuz() {
   const cdx = readJson('web.archive.org', 'fmd.soyuz.ru-cdx.json');
   const out = new Map();
+  const add = (number, source) => out.set(number, [...(out.get(number) ?? []), source]);
   for (const { id, ts, number } of readJson('fmd.soyuz.ru', 'index.json')) {
     if (number === null) continue;
-    const { text: html, encoding } = decodeRussian(readFileSync(join(SOURCES, 'fmd.soyuz.ru', `${id}.html`)));
-    const header = html.match(/PLAYLIST\s*#?\s*(\d+)\s+([\d.]+)/);
-    if (!header || Number(header[1]) !== number) throw new Error(`fmd.soyuz.ru ${id}.html: header ${header?.[0]} is not #${number}`);
-    const entries = [];
-    const rows = /<td nowrap>[\s\S]*?<b>\s*(\d+)\s*<\/b>[\s\S]*?<\/td>\s*<td width=100%>([\s\S]*?)<\/td>/gi;
-    for (const [, n, cell] of html.matchAll(rows)) {
-      // The entry is the cell's first line; the host's note follows in <i>.
-      const entry = clean(decode(cell.replace(/<!--[\s\S]*?-->/g, '').split(/<br\b[^>]*>|<i>/i)[0].replace(/<[^>]+>/g, ' ')));
-      if (entry) entries.push(`${n}. ${entry}`);
-    }
+    const page = soyuzPage(join(SOURCES, 'fmd.soyuz.ru', `${id}.html`), number);
     const original = cdx.find(([t, url]) => t === ts && new RegExp(`id_playlist=${id}$`).test(url))?.[1].replace(/&amp;/g, '&');
-    const source = {
+    add(number, {
       kind: 'soyuz',
       label: `fmd.soyuz.ru (page id ${id})`,
       id,
       url: `https://web.archive.org/web/${ts}/${original ?? `http://fmd.soyuz.ru/?s=_ARCHIVE&id_playlist=${id}`}`,
-      date: isoDate(header[2]),
-      entries,
-      encoding,
+      ...page,
       note: 'from fmd.soyuz.ru, the program\'s site (Wayback capture)',
-    };
-    out.set(number, [...(out.get(number) ?? []), source]);
+    });
+  }
+  const saved = join(SOURCES, 'fmd.soyuz.ru', 'saved');
+  for (const file of readdirSync(saved).filter((f) => /^FM_Dostoevsky_N\d+\.html$/.test(f)).sort()) {
+    const number = Number(file.match(/\d+/)[0]);
+    add(number, {
+      kind: 'soyuz',
+      label: `fmd.soyuz.ru (saved page ${file})`,
+      id: file,
+      url: null,
+      ...soyuzPage(join(saved, file), number),
+      note: `from fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/${file})`,
+    });
   }
   return out;
 }
@@ -805,7 +832,7 @@ function main() {
     if (owner.has(number)) sources.push(owner.get(number));
     // Its date only where no other source has one: the XLS's database again, not a second witness.
     if (kraut.has(number)) sources.push(sources.some((s) => s.date) ? { ...kraut.get(number), date: null } : kraut.get(number));
-    if (sources.length) episodes.set(number, { number, sources, best: choose(sources) });
+    if (sources.length) episodes.set(number, { number, sources, best: PREFER[number] ? sources.find((s) => s.kind === PREFER[number].kind) : choose(sources) });
   }
 
   // Cross-check: the chosen list against every other source, and every pair the summary reports on.
@@ -879,9 +906,10 @@ function main() {
     if (best.ps?.length) notes.push(`the post adds: «${best.ps.join(' ')}»`);
     for (const s of sources) if (s.moved) notes.push(s === best ? s.moved.why : `${SHORT[s.kind]}: ${s.moved.why}`);
     if (EPISODE_NOTES[number]) notes.push(EPISODE_NOTES[number]);
+    if (PREFER[number]) notes.push(PREFER[number].why);
     const feed = sources.find((s) => s.kind === 'rss');
     if (best.kind === 'finam' && feed && compare(best, feed).kind === 'agree') notes.push("Финам FM's RSS feed as of Nov 2010 has the same list");
-    const skipped = sources.filter((s) => RANK[s.kind] < RANK[best.kind]);
+    const skipped = PREFER[number] ? [] : sources.filter((s) => RANK[s.kind] < RANK[best.kind]);
     for (const s of skipped) notes.push(`${SHORT[s.kind]} has only ${s.entries.length} entries (cut short), so this fuller list is used`);
     // The owner's lines have no fixed layout: a title not in quotes is not missing.
     for (const other of sources.filter((s) => s !== best && best.kind !== 'owner')) {

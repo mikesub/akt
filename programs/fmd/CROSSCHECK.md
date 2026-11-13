@@ -15,12 +15,12 @@ programs/fmd/NOTES.md); where another source lists other songs, its `note:` says
 | Finam page vs CUE sheet (#702, #704–#707) | 5 | 2 (40%) | 3 | 0 | 0 | 100% | 0% | 0% |
 | fmd.soyuz.ru vs radar.lv post («ФМ Достоевский …», lower case) (#304–#457) | 103 | 103 (100%) | 0 | 0 | 0 | 100% | 0% | 0% |
 | fmd.soyuz.ru vs radar.lv post («FM Достоевский …», Title Case) (#289–#353) | 40 | 39 (98%) | 0 | 1 | 0 | 100% | 0% | 0% |
-| fmd.soyuz.ru vs CUE sheet (#289–#619) | 159 | 124 (78%) | 35 | 0 | 0 | 99% | 1% | 0% |
+| fmd.soyuz.ru vs CUE sheet (#289–#689) | 225 | 179 (80%) | 46 | 0 | 0 | 99% | 1% | 0% |
 | fmd.soyuz.ru vs XLS (#289–#316, #318–#374, #376–#499) | 209 | 202 (97%) | 6 | 1 | 0 | 100% | 0% | 0% |
 | radar.lv post («ФМ Достоевский …», lower case) vs radar.lv post («FM Достоевский …», Title Case) (#304–#352) | 15 | 15 (100%) | 0 | 0 | 0 | 100% | 0% | 0% |
 | radar.lv post («FM Достоевский …», Title Case) vs CUE sheet (#129–#353) | 163 | 154 (94%) | 8 | 1 | 0 | 100% | 0% | 0% |
 | radar.lv post («ФМ Достоевский …», lower case) vs CUE sheet (#304–#352) | 15 | 15 (100%) | 0 | 0 | 0 | 100% | 0% | 0% |
-| fmd.soyuz.ru vs mp3 tags (a fans' collection) (#289–#619) | 284 | 280 (99%) | 2 | 2 | 0 | 100% | 0% | 0% |
+| fmd.soyuz.ru vs mp3 tags (a fans' collection) (#289–#689) | 353 | 349 (99%) | 2 | 2 | 0 | 100% | 0% | 0% |
 | radar.lv post («FM Достоевский …», Title Case) vs mp3 tags (a fans' collection) (#129–#353) | 163 | 163 (100%) | 0 | 0 | 0 | 100% | 0% | 0% |
 | radar.lv post («ФМ Достоевский …», lower case) vs mp3 tags (a fans' collection) (#304–#457) | 102 | 100 (98%) | 2 | 0 | 0 | 100% | 0% | 0% |
 | mp3 tags (a fans' collection) vs CUE sheet (#129–#707) | 364 | 307 (84%) | 55 | 2 | 0 | 99% | 1% | 0% |
@@ -29,7 +29,7 @@ programs/fmd/NOTES.md); where another source lists other songs, its `note:` says
 | radar.lv post («ФМ Достоевский …», lower case) vs XLS (#304–#457) | 103 | 99 (96%) | 4 | 0 | 0 | 100% | 0% | 0% |
 | CUE sheet vs XLS (#129–#499) | 178 | 162 (91%) | 14 | 1 | 1 | 100% | 0% | 0% |
 | Finam page vs Tilgor Kraut's spreadsheet (#702–#820) | 87 | 82 (94%) | 3 | 1 | 1 | 100% | 0% | 0% |
-| fmd.soyuz.ru vs Tilgor Kraut's spreadsheet (#289–#316, #318–#374, #376–#619) | 329 | 317 (96%) | 6 | 5 | 1 | 100% | 0% | 0% |
+| fmd.soyuz.ru vs Tilgor Kraut's spreadsheet (#289–#316, #318–#374, #376–#689) | 399 | 382 (96%) | 7 | 6 | 4 | 100% | 0% | 0% |
 | mp3 tags (a fans' collection) vs Tilgor Kraut's spreadsheet (#129–#707) | 494 | 472 (96%) | 9 | 8 | 5 | 100% | 0% | 0% |
 | XLS vs Tilgor Kraut's spreadsheet (#1–#499) | 490 | 472 (96%) | 0 | 15 | 3 | 100% | 0% | 0% |
 
@@ -78,14 +78,14 @@ titles that differ some other way (a typo, another song by the same artist). Som
   another way: it is in lower case throughout, merges labels («warner»), fixes typos («nightmares on
   wax» for «Nightwares On Wax») and makes a few («edwin collins»), and spells some Russian names in
   Cyrillic, mostly as `titles.json` restores them (once wrongly: Varnaline's «Bardust», #92, as
-  «александр ф. скляр»). Against the program's own lists it agrees in 317 of 329 episodes with
+  «александр ф. скляр»). Against the program's own lists it agrees in 382 of 399 episodes with
   fmd.soyuz.ru, 82 of 87 with Finam's pages, and 472 of 494 with the mp3 tags; it lacks a song now and then, and
   in #758, #760 and #766 has a 15th song that Finam's page has not. It is the only source of
   #190–#195, #317, #715–#720, #723, #753–#754, #764, #767, #769–#771, #778, #781, #790–#796, #798, #800–#801, #803–#804, #806–#807, #809–#810 (39 episodes). Against Finam's own pages its dates are a week early for
   #818–#820 («PLAYLIST #820 … от 27.01.2013»), and for #797–#817 the Sunday after the Friday the pages give.
-- **CUE sheets follow the recording, not the plan.** Against fmd.soyuz.ru (159 episodes) they agree
-  in 124 and never reorder; where they differ the sheet lacks songs the playlist has: mostly the
-  last one (29 of the 123 sheets from #484 on that a playlist covers), sometimes one in the middle, and #607's sheet
+- **CUE sheets follow the recording, not the plan.** Against fmd.soyuz.ru (225 episodes) they agree
+  in 179 and never reorder; where they differ the sheet lacks songs the playlist has: mostly the
+  last one (37 of the 189 sheets from #484 on that a playlist covers), sometimes one in the middle, and #607's sheet
   stops after 7 songs. Two radar.lv posts say why: «13 трэк АКТ из программы "выкинул"» (#171) and
   «Вместо заявленного в плейлисте 7 трека звучит на самом деле группа "Дочь Монро и Кеннеди"» (#152),
   both as the CUE sheets have it. So a playlist names what was planned; a song it has and the sheet
@@ -128,7 +128,6 @@ date a day or two off may be the day a list was posted rather than the day it ai
 - #515: date: the CUE sheet says 2007-02-07
 - #595: date: 2008-08-17, as the fans' collection names it («595. #595 17.08.2008.mp3»), a week after #594 and before #596; fmd.soyuz.ru gives 2008-08-18, a Monday, which it gives #596 too
 - #596: date: 2008-08-24, as the fans' collection names it («596. #596 24.08.2008.mp3»), a week after #595 and before #597 (2008-08-31); fmd.soyuz.ru gives 2008-08-18, #595's
-- #666: date: 2009-12-27, the Sunday between #665 (2009-12-20) and #667 (2010-01-03), the weekly slot then, as Tilgor Kraut's spreadsheet has it; the owner's list has no date
 - #683: date: 2010-04-25, the Sunday it aired at 01:08 on Эхо Москвы (its program listing), as the fans' collection names it («683. #683 25.04.2010.mp3»); radar.lv's CUE sheet says 2010-04-24
 
 Tilgor Kraut's spreadsheet's dates are used only where no other source dates the episode. Where
@@ -209,19 +208,19 @@ alone are not listed.
 - #606 (fmd.soyuz.ru): vs the mp3's tags: 17 entries in both; only in fmd.soyuz.ru: «adam green», «the duke spirit», «haydamaky» and 14 more; only in the mp3's tags: «boozoo bajou feat.tony joe white», «gutevolk», «arctic monkeys» and 14 more
 - #607 (fmd.soyuz.ru): vs the CUE sheet: 16 entries in fmd.soyuz.ru vs 7 in the CUE sheet; only in fmd.soyuz.ru: «sun city girls», «barbara carlotti», «the spook of the thirteenth lock» and 6 more
 - #616 (fmd.soyuz.ru): vs Tilgor Kraut's spreadsheet: 17 entries in both; only in fmd.soyuz.ru: «александр ф. скляр»; only in Tilgor Kraut's spreadsheet: «а. ф. скляр»
-- #621 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «max tundra»
-- #634 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «cinkusi i teta liza»
-- #638 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «Atom Tm»
-- #642 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «La Papa Verde»
-- #643 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «alamaailman vasarat»
-- #663 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «simian mobile disco»
-- #666 (the owner's list): vs Tilgor Kraut's spreadsheet: 20 entries in both; only in the owner's list: «Наталья Путина и Ракеты»; only in Tilgor Kraut's spreadsheet: «ураганы»
-- #669 (the mp3's tags): vs Tilgor Kraut's spreadsheet: 16 entries in both; only in the mp3's tags: «instituto mexicano del sonido»; only in Tilgor Kraut's spreadsheet: «mexican institute of sound»
-- #674 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «zakopower»
-- #678 (the mp3's tags): vs the CUE sheet: 16 entries in the mp3's tags vs 15 in the CUE sheet; only in the mp3's tags: «karuna khyal»
-- #679 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 15 in the CUE sheet; only in the mp3's tags: «dial m for murder!», «nguyen le»
-- #681 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «riserva moac»
-- #683 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «the vampires of dartmore»
+- #621 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «max tundra»
+- #634 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «cinkusi i teta liza»
+- #638 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «atom tm»
+- #642 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «la papa verde»
+- #643 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «alamaailman vasarat»
+- #663 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «simian mobile disco»
+- #666 (the owner's list): vs fmd.soyuz.ru: 20 entries in the owner's list vs 19 in fmd.soyuz.ru; only in the owner's list: «Наталья Путина и Ракеты», «Surfin' Nanorobots», «Барто»; only in fmd.soyuz.ru: «ураганы», «thomas truax»; vs Tilgor Kraut's spreadsheet: 20 entries in both; only in the owner's list: «Наталья Путина и Ракеты»; only in Tilgor Kraut's spreadsheet: «ураганы»
+- #669 (fmd.soyuz.ru): vs Tilgor Kraut's spreadsheet: 16 entries in both; only in fmd.soyuz.ru: «instituto mexicano del sonido»; only in Tilgor Kraut's spreadsheet: «mexican institute of sound»
+- #674 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «zakopower»
+- #678 (fmd.soyuz.ru): vs the CUE sheet: 16 entries in fmd.soyuz.ru vs 15 in the CUE sheet; only in fmd.soyuz.ru: «karuna khyal»
+- #679 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 15 in the CUE sheet; only in fmd.soyuz.ru: «dial m for murder!», «nguyen le»
+- #681 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «riserva moac»
+- #683 (fmd.soyuz.ru): vs the CUE sheet: 17 entries in fmd.soyuz.ru vs 16 in the CUE sheet; only in fmd.soyuz.ru: «the vampires of dartmore»
 - #690 (the mp3's tags): vs the CUE sheet: 17 entries in the mp3's tags vs 16 in the CUE sheet; only in the mp3's tags: «crimson butterfly»
 - #704 (the Finam page): vs the CUE sheet: 15 entries in the Finam page vs 14 in the CUE sheet; only in the Finam page: «tempelhof»
 - #706 (the Finam page): vs the CUE sheet: 15 entries in the Finam page vs 14 in the CUE sheet; only in the Finam page: «tommy t feat. gigi»

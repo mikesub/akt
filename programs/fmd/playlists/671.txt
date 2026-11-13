@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N671_31.01.2010.cue
 date: 2010-01-31
 title: FM Достоевский #671
-note: From the ID3 comment of a fans' collection's mp3 of the episode («671. #671 31.01.2010.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N671.html).
 
 1. the aliens (uk) "dove returning" CD "luna" (pet rock)
 2. tam 'echo' tam (belgium) "yvan" CD "dawn" (jaro)

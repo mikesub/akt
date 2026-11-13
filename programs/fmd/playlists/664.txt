@@ -1,21 +1,21 @@
 url: https://radar.lv/files/FM_Dostoevsky_N664_2009.12.13.cue
 date: 2009-12-13
 title: FM Достоевский #664
-note: From the ID3 comment of a fans' collection's mp3 of the episode («664. #664 13.12.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N664.html).
 
-1. Yo La Tengo (usa) "Here To Fall" CD "Popular Songs" (Matador)
-2. Ghalia Benali & Bert Cornelis (belgium/india) "Chand" CD "Al Palna" (Zimbraz/music&words)
-3. My Favourite Sideburns Orchestra (france) "The Skatalan Logicofobism" CD "Assemblage De Pieces Comeladiennes Du Plus Belle Effet" (Gazul)
-4. Kawaii (france) "I Wanna Be Your Dog" CD "Assemblage De Pieces Comeladiennes Du Plus Belle Effet" (Gazul)
-5. Wild Beasts (uk) "When I'm Sleepy" CD "Two Dancers" (Domino)
-6. Sister Fa (senegal) "Amy Jotna" CD "Sarabah" (Piranha)
-7. Tupolev (austria) "Rnd2" CD "Aume" (Valeot)
-8. Sneaky Sound System (uk) "Pictures" CD "Sneaky Sound System" (Elmlowe/whack)
-9. Владимир Щукин (рф) "Жираф" CD "Песни На Стихи Поэтов Серебряного Века" (Союз)
-10. Lancy Falta Gypsy Stream (germany) "O Letschdo Gurgo" CD "In The Fields" (Bayla)
-11. Grizzly Bear (usa) "Southern Point" CD "Vechatimest" (Warp)
-12. Evil Madness (iceland) "L'agonia Del Controlo Della Mente" CD "Demoni Paradiso" (12 Tonar)
-13. African Fiesta (congo) "Eh Bien Mon Ami" CD "Cazumbi: African Sixties Garage" (No Smoke)
-14. Conjunto De Oliveira Muge (mozambique) "Sospesa Ad Un Filo" CD "Cazumbi: African Sixties Garage" (No Smoke)
-15. Mascott (usa) "Live Again" CD "Art Project" (Red Panda)
-16. Valderrama (spain) "Los Pajarillos" CD "Moderna Tradicion" (Kompetencia)
+1. yo la tengo (usa) "here to fall" CD "popular songs" (matador)
+2. ghalia benali & bert cornelis (belgium/india) "chand" CD "al palna" (zimbraz/music&words)
+3. my favourite sideburns orchestra (france) "the skatalan logicofobism" CD "assemblage de pieces comeladiennes du plus belle effet" (gazul)
+4. kawaii (france) "i wanna be your dog" CD "assemblage de pieces comeladiennes du plus belle effet" (gazul)
+5. wild beasts (uk) "when i'm sleepy" CD "two dancers" (domino)
+6. sister fa (senegal) "amy jotna" CD "sarabah" (piranha)
+7. tupolev (austria) "rnd2" CD "aume" (valeot)
+8. sneaky sound system (uk) "pictures" CD "sneaky sound system" (elmlowe/whack)
+9. владимир щукин (рф) "жираф" CD "песни на стихи поэтов серебряного века" (союз)
+10. lancy falta gypsy stream (germany) "o letschdo gurgo" CD "in the fields" (bayla)
+11. grizzly bear (usa) "southern point" CD "vechatimest" (warp)
+12. evil madness (iceland) "l'agonia del controlo della mente" CD "demoni paradiso" (12 tonar)
+13. african fiesta (congo) "eh bien mon ami" CD "cazumbi: african sixties garage" (no smoke)
+14. conjunto de oliveira muge (mozambique) "sospesa ad un filo" CD "cazumbi: african sixties garage" (no smoke)
+15. mascott (usa) "live again" CD "art project" (red panda)
+16. valderrama (spain) "los pajarillos" CD "moderna tradicion" (kompetencia)

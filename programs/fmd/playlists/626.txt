@@ -1,12 +1,12 @@
 url: https://radar.lv/files/FM_Dostoevsky_N626_2009.03.22.cue
 date: 2009-03-22
 title: FM Достоевский #626
-note: From the ID3 comment of a fans' collection's mp3 of the episode («626. #626 22.03.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N626.html).
 
 1. low motion disco (belgium) "born on the low wind" CD "keep it slow" (eskimo)
 2. федул жадный (рф) "стрекозёл" CD "бытопись" (cd land)
 3. over the rhine (usa) "don't wait for tom" CD "the trumpet child" (gsd/red eye)
-4. vex'd (uk) "fire" CD "10 tons heavy" (planet mu)dubstep comp.
+4. vex'd (uk) "fire" CD "10 tons heavy" (planet mu)
 5. beata palya (hungary/france) "lovas dal" CD "adieu lex complexes" (naive)
 6. howling hex (usa) "big chief big wheel" CD "earth junk" (drag city)
 7. marcela mangabeira (brazil) "os grilos" CD "simples" (brazilian music connection)

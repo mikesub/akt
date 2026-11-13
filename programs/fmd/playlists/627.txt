@@ -1,7 +1,7 @@
 url: https://radar.lv/files/FM_Dostoevsky_N627_2009.03.29.cue
 date: 2009-03-29
 title: FM Достоевский #627
-note: From the ID3 comment of a fans' collection's mp3 of the episode («627. #627 29.03.2009.mp3»; programs/fmd/sources/mp3-tags/tags.json).
+note: From fmd.soyuz.ru, the program's site (a saved copy of its page, programs/fmd/sources/fmd.soyuz.ru/saved/FM_Dostoevsky_N627.html).
 
 1. gare du nord (belgium/france) "are you coming with me?" CD "club gare du nord" (pias)
 2. pontiak (usa) "shell skull" CD "sun on sun" (fireproof/thrill jockey)
