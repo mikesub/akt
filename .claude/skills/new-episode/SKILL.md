@@ -59,6 +59,14 @@ jq -r '.[] | select(.number == 89) | .tracks[] | select(.apple_id == null) | "\(
 
 Misses are normal (about 14% overall): songs not in the Dutch store, or names Apple writes differently. List them in the report; don't fix them by hand.
 
+**Tracks from 1989–1999 on Apple Music**, after any year fixes below:
+
+```sh
+jq -r '.[] | select(.number == 89) | .tracks[] | select(.apple_id != null and .year != null and .year >= 1989 and .year <= 1999) | "\(.artist) — \(.track) (\(.year))"' docs/data/stereoplan.json
+```
+
+The report names them, or says there are none.
+
 Do not edit `stereoplan.json` by hand. If the parse is wrong, report it and stop: the fix belongs in `src/`, followed by `node bin/stereoplan.js --episode <number>`. A wrong year (Apple only has a reissue) is fixed in `overrides.json` with its source in `why`, then `node bin/stereoplan.js` applies it. A new artist printed in another spelling than the archive's: `node bin/artists.js` proposes it in `artists.json` (review its list of changes beyond case), then `node bin/stereoplan.js` applies it. Likewise a label printed in another spelling than the archive's ("Mute Records" beside "Mute"): `node bin/labels.js --spellings` proposes it in `labels.json` (review its list of changes beyond case) and applies it.
 
 ## 4. Commit, push, confirm the site
@@ -69,7 +77,7 @@ git commit -m "Episode #89: 13 tracks, 11 on Apple Music"
 git push
 ```
 
-One episode per line in the message if several were ingested; name any episode re-parsed because its description was edited. End the message with the attribution line the session asks for.
+One episode per line in the message if several were ingested; name any episode re-parsed because its description was edited. Add an attribution line (`Co-Authored-By: …`) only if a system message supplies one; otherwise add none.
 
 Then wait for the Pages build of that commit and check the site:
 
@@ -80,4 +88,4 @@ curl -s https://akt.mksb.me/data/stereoplan.json | jq 'map(select(.number == 89)
 
 ## 5. Report
 
-A few lines: which episodes, track counts, how many on Apple Music, the misses by name, anything odd from step 3, and the commit hash once the site serves it.
+A few lines: which episodes, track counts, how many on Apple Music, the misses by name, the tracks from 1989–1999 on Apple Music (or none), anything odd from step 3, and the commit hash once the site serves it.
