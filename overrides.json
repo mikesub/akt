@@ -7268,5 +7268,17 @@
     "discogs_id": 545496,
     "discogs_master_id": 102957,
     "why": "Стереоплан #93: the host plays it from «At Home» (Pink Elephant 888.001, 1969; discogs.com/release/545496, master 102957, track B3); the lookup found a New Zealand «Venus» EP (discogs.com/release/3471717) under the «Venus» single master (1005020)"
+  },
+  {
+    "artist": "Guru Guru",
+    "track": "Next time see you at the Dalai Lama",
+    "year": 1970,
+    "why": "Стереоплан #94: from Guru Guru’s debut «UFO» (Ohr, 1970), as the host says; Apple’s «Ufo» is dated 1970-10-06 and the lookup found Discogs master 3403; MusicBrainz’s 2026 is a recording (786bb0e3-2b98-45c0-92e9-ca70d63d1def) only on «So High I’ve Been: A European Rock Anthology 1967–1973» (2026-01-16)"
+  },
+  {
+    "artist": "The Rattles",
+    "track": "The Witch",
+    "apple_id": 1677683123,
+    "why": "Стереоплан #94: the 1969 hit, as the host says, on Apple’s «The Witch - Single» (1970); the link was the remake «The Witch (feat. Tone-Loc)» on «50 Jahre The Rattles»"
   }
 ]

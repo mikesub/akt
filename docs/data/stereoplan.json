@@ -1,5 +1,842 @@
 [
   {
+    "guid": "c928e1ae-ec15-4ac1-989b-db6a68d21aab",
+    "number": 95,
+    "title": "🎶 Стереоплан Троицкого* #95 - \"Итальянский рок, киномузыка и один из лучших африканских альбомов года\".",
+    "published_at": "2026-11-23T06:00:00.000Z",
+    "url": "https://stereoplantroitsky.mave.digital/ep-97",
+    "mp3_url": "https://api.mave.digital/storage/podcasts/5eb88210-d265-4315-8405-4982ead857cb/episodes/ba536226-fd62-4369-85a1-f4fe320203f2.mp3",
+    "duration_sec": 3575,
+    "playlist_hash": "0169b620a40fed41",
+    "tracks": [
+      {
+        "artist": "Saint Etienne",
+        "track": "Dancing heart",
+        "album": "INTERNATIONAL",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "printed_label": "Heavenly",
+        "label": [
+          "Heavenly"
+        ],
+        "apple_id": 1812943564,
+        "apple_album_id": 1812943332,
+        "apple_artist_id": 3266404,
+        "mb_id": "9b166df9-8203-4be9-838e-45e766ad5898",
+        "discogs_id": 35011931,
+        "discogs_master_id": 3960284,
+        "discogs_labels": [
+          "Heavenly"
+        ],
+        "discogs_genres": [
+          "Electronic",
+          "Pop"
+        ],
+        "discogs_styles": [
+          "Dance-pop",
+          "Indie Pop"
+        ],
+        "year": 2025,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Saint Etienne",
+        "track": "Pale movie",
+        "album": "TIGER BAY",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "printed_label": "Heavenly",
+        "label": [
+          "Heavenly"
+        ],
+        "apple_id": 1237425780,
+        "apple_album_id": 1237425552,
+        "apple_artist_id": 3266404,
+        "mb_id": "11b59b58-81b7-4fbf-b4dc-4abb1afdc60b",
+        "discogs_id": 60274,
+        "discogs_master_id": 32770,
+        "discogs_labels": [
+          "Heavenly"
+        ],
+        "discogs_genres": [
+          "Electronic",
+          "Pop"
+        ],
+        "discogs_styles": [
+          "Dance-pop",
+          "House",
+          "Progressive House",
+          "Downtempo"
+        ],
+        "year": 1994,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Bill Callahan",
+        "track": "The man I’m supposed to be",
+        "album": "MY DAYS OF ‘58",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "printed_label": "Drag City",
+        "label": [
+          "Drag City"
+        ],
+        "apple_id": 1846471023,
+        "apple_album_id": 1846471021,
+        "apple_artist_id": 1965909,
+        "mb_id": "d1b19625-45f5-4f52-ae80-a5048fbb2dd5",
+        "year": 2025,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Kareyce Fotso",
+        "track": "Gue Wô",
+        "album": "GWA",
+        "printed_country": "Cameroun",
+        "country": [
+          "CM"
+        ],
+        "printed_label": "Contre Jour",
+        "label": [
+          "Contre-Jour"
+        ],
+        "apple_id": 1890230203,
+        "apple_album_id": 1890230198,
+        "apple_artist_id": 379780054,
+        "mb_id": "e9a867ca-de5c-45e4-8743-135187f246b2",
+        "discogs_id": null,
+        "discogs_master_id": null,
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Equipe 84",
+        "track": "Per un attimo di tempo",
+        "album": "SO HIGH I’VE BEEN: A EUROPEAN ROCK ANTHOLOGY 1967-1973",
+        "printed_country": "Italy",
+        "country": [
+          "IT"
+        ],
+        "printed_label": "Grapefruit",
+        "label": [
+          "Grapefruit"
+        ],
+        "apple_id": null,
+        "mb_id": "9ec28772-e143-429f-8438-358716417f67",
+        "discogs_id": 17580979,
+        "discogs_master_id": 431005,
+        "discogs_labels": [
+          "Ricordi"
+        ],
+        "discogs_genres": [
+          "Rock",
+          "Pop"
+        ],
+        "discogs_styles": [
+          "Beat",
+          "Pop Rock",
+          "Ballad",
+          "Vocal"
+        ],
+        "year": 1968,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Circus 2000",
+        "track": "I am the witch",
+        "album": "SO HIGH I’VE BEEN: A EUROPEAN ROCK ANTHOLOGY 1967-1973",
+        "printed_country": "Italy",
+        "country": [
+          "IT"
+        ],
+        "printed_label": null,
+        "label": [
+          "Explosion"
+        ],
+        "label_from": "discogs",
+        "apple_id": 1612435112,
+        "apple_album_id": null,
+        "apple_artist_id": 463317662,
+        "mb_id": "a384d60d-bb5b-4a1f-bf46-e8106e734747",
+        "discogs_id": 10832880,
+        "discogs_master_id": null,
+        "discogs_labels": [
+          "Explosion (5)"
+        ],
+        "year": 1970,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Le Orme",
+        "track": "Era inverno",
+        "album": "SO HIGH I’VE BEEN: A EUROPEAN ROCK ANTHOLOGY 1967-1973",
+        "printed_country": "Italy",
+        "country": [
+          "IT"
+        ],
+        "printed_label": null,
+        "label": [
+          "Philips"
+        ],
+        "label_from": "discogs",
+        "apple_id": 1547198208,
+        "apple_album_id": null,
+        "apple_artist_id": 446849478,
+        "mb_id": "d7f6ecde-6b83-4ae8-ac1b-d2a81699354b",
+        "discogs_id": 1290280,
+        "discogs_master_id": 9077,
+        "discogs_labels": [
+          "Philips"
+        ],
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Prog Rock"
+        ],
+        "year": 1971,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Banco del Mutuo Soccorso",
+        "track": "R.I.P.",
+        "album": "SO HIGH I’VE BEEN: A EUROPEAN ROCK ANTHOLOGY 1967-1973",
+        "printed_country": "Italy",
+        "country": [
+          "IT"
+        ],
+        "printed_label": null,
+        "label": null,
+        "apple_id": 1004987781,
+        "apple_album_id": null,
+        "apple_artist_id": 16540790,
+        "mb_id": "6af8b6d4-1bb3-44e1-8fa8-109af8f387f7",
+        "year": 1972,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Il Balletto Di Bronzo",
+        "track": "Primo incontro",
+        "album": "SO HIGH I’VE BEEN: A EUROPEAN ROCK ANTHOLOGY 1967-1973",
+        "printed_country": "Italy",
+        "country": [
+          "IT"
+        ],
+        "printed_label": null,
+        "label": null,
+        "apple_id": 1541807876,
+        "apple_album_id": null,
+        "apple_artist_id": 33463625,
+        "mb_id": "ddbaa364-9fb5-4c93-8392-f0d4cfae0d6f",
+        "year": 1972,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Analogy",
+        "track": "Analogy",
+        "album": "SO HIGH I’VE BEEN: A EUROPEAN ROCK ANTHOLOGY 1967-1973",
+        "printed_country": "Italy/Germany",
+        "country": [
+          "IT",
+          "DE"
+        ],
+        "printed_label": null,
+        "label": [
+          "Dischi Produzioni Ventotto"
+        ],
+        "label_from": "discogs",
+        "apple_id": 990988815,
+        "apple_album_id": null,
+        "apple_artist_id": 1448281741,
+        "mb_id": "adca38e3-983b-4eda-a67b-915944aa1cf6",
+        "discogs_id": 4335601,
+        "discogs_master_id": 30426,
+        "discogs_labels": [
+          "Dischi Produzioni Ventotto"
+        ],
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Krautrock",
+          "Prog Rock"
+        ],
+        "year": 1972,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Premiata Forneria Marconi",
+        "track": "Celebration",
+        "album": "SO HIGH I’VE BEEN: A EUROPEAN ROCK ANTHOLOGY 1967-1973",
+        "printed_country": "Italy",
+        "country": [
+          "IT"
+        ],
+        "printed_label": null,
+        "label": [
+          "Manticore"
+        ],
+        "label_from": "discogs",
+        "apple_id": 254143562,
+        "apple_album_id": null,
+        "apple_artist_id": 931070961,
+        "mb_id": "15961872-815f-49fb-9349-b9b367cf030a",
+        "discogs_id": 7041177,
+        "discogs_master_id": 38976,
+        "discogs_labels": [
+          "Manticore"
+        ],
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Prog Rock"
+        ],
+        "year": 1973,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Austra",
+        "track": "Math equation",
+        "album": "CHIN UP BUTTERCUP",
+        "printed_country": "Canada",
+        "country": [
+          "CA"
+        ],
+        "printed_label": "Domino",
+        "label": [
+          "Domino"
+        ],
+        "apple_id": 1827455457,
+        "apple_album_id": 1827455455,
+        "apple_artist_id": 409876334,
+        "mb_id": "0ee97c83-fa62-4b59-9ae7-429a521e8632",
+        "discogs_id": 34936274,
+        "discogs_master_id": null,
+        "discogs_labels": [
+          "Domino"
+        ],
+        "year": 2025,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Leroi Conroy",
+        "track": "Shere’s Theme",
+        "album": "A TIGER’S TALE",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "printed_label": "Colemine",
+        "label": [
+          "Colemine"
+        ],
+        "apple_id": 1805225324,
+        "apple_album_id": 1805225315,
+        "apple_artist_id": 1054703608,
+        "mb_id": "3b08bc54-d3cc-4746-892d-d6ccbb1fd181",
+        "discogs_id": 33898146,
+        "discogs_master_id": 3898111,
+        "discogs_labels": [
+          "Colemine Records"
+        ],
+        "discogs_genres": [
+          "Hip Hop",
+          "Jazz",
+          "Funk / Soul"
+        ],
+        "discogs_styles": [
+          "Funk",
+          "Jazz-Funk",
+          "Instrumental"
+        ],
+        "year": 2025,
+        "year_from": "musicbrainz"
+      }
+    ]
+  },
+  {
+    "guid": "c557f66e-cb65-47cc-adea-e0f108f4ecc5",
+    "number": 94,
+    "title": "🎶 Стереоплан Троицкого* #94 - \"Немецкие рок-группы 60-х, фолк-готика и волновой шансон\".",
+    "published_at": "2026-11-16T06:00:00.000Z",
+    "url": "https://stereoplantroitsky.mave.digital/ep-96",
+    "mp3_url": "https://api.mave.digital/storage/podcasts/5eb88210-d265-4315-8405-4982ead857cb/episodes/29af02c8-a62e-4269-9497-19e4c6197488.mp3",
+    "duration_sec": 3613,
+    "playlist_hash": "f766fecdd346550b",
+    "tracks": [
+      {
+        "artist": "Marissa Nadler",
+        "track": "Bad dreams Summertime",
+        "album": "NEW RADIATIONS",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "printed_label": "Sacred Bones",
+        "label": [
+          "Sacred Bones"
+        ],
+        "apple_id": 1815479416,
+        "apple_album_id": 1815479402,
+        "apple_artist_id": 147817240,
+        "mb_id": "4ba2c1f8-462d-4c54-82ea-254ad63e4f41",
+        "discogs_id": 34971980,
+        "discogs_master_id": 3940541,
+        "discogs_labels": [
+          "Bella Union"
+        ],
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Folk Rock",
+          "Indie Rock",
+          "Alternative Rock"
+        ],
+        "year": 2025,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "The Guy Hamper Trio ft James Taylor",
+        "track": "Bo Pug",
+        "album": "THE GODDESS TREE",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "printed_label": "Spinout Nuggets",
+        "label": [
+          "Spinout Nuggets"
+        ],
+        "apple_id": 1792906127,
+        "apple_album_id": 1792906124,
+        "apple_artist_id": 1453124130,
+        "mb_id": null,
+        "discogs_id": 33335459,
+        "discogs_master_id": 3773075,
+        "discogs_labels": [
+          "Spinout Nuggets"
+        ],
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Garage Rock",
+          "Mod"
+        ],
+        "year": 2025,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "The Guy Hamper Trio",
+        "track": "5 miles to Jerome",
+        "album": "5 MILES TO JEROME",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "printed_label": "Spinout Nuggets",
+        "label": [
+          "Spinout Nuggets"
+        ],
+        "apple_id": 1880705540,
+        "apple_album_id": 1880705527,
+        "apple_artist_id": 1453124130,
+        "mb_id": "683b2f9a-a9c0-435c-a17b-d4faf77a1e6d",
+        "discogs_id": 36659716,
+        "discogs_master_id": null,
+        "discogs_labels": [
+          "Spinout Nuggets"
+        ],
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "New Orthodox",
+        "track": "Waves of fear",
+        "album": "BULL MARKET ON CORN",
+        "printed_country": "USA",
+        "country": [
+          "US"
+        ],
+        "printed_label": "Joyful Noise",
+        "label": [
+          "Joyful Noise"
+        ],
+        "apple_id": 1776620023,
+        "apple_album_id": 1776619203,
+        "apple_artist_id": 1763091244,
+        "mb_id": "e4545359-4aa0-4465-9eda-77f589003a08",
+        "discogs_id": 33087027,
+        "discogs_master_id": 3753672,
+        "discogs_labels": [
+          "Joyful Noise Recordings"
+        ],
+        "discogs_genres": [
+          "Electronic",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Experimental"
+        ],
+        "year": 2025,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Maria Usbeck",
+        "track": "Garza azul",
+        "album": "NATURALEZA",
+        "printed_country": "Ecuador/USA",
+        "country": [
+          "EC",
+          "US"
+        ],
+        "printed_label": "Cascine",
+        "label": [
+          "Cascine"
+        ],
+        "apple_id": 1791211629,
+        "apple_album_id": 1791211619,
+        "apple_artist_id": 516359147,
+        "mb_id": "0d53be84-00cb-4246-95e7-1538268d97e5",
+        "discogs_id": 34196446,
+        "discogs_master_id": null,
+        "discogs_labels": [
+          "Cascine"
+        ],
+        "year": 2025,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "The Ones",
+        "track": "Lady Greengrass",
+        "album": "SO HIGH I’VE BEEN: A EUROPEAN ROCK ANTHOLOGY 1967-1973",
+        "printed_country": "Germany",
+        "country": [
+          "DE"
+        ],
+        "printed_label": "Grapefruit",
+        "label": [
+          "Grapefruit"
+        ],
+        "apple_id": 1162868544,
+        "apple_album_id": null,
+        "apple_artist_id": 5610526,
+        "mb_id": "e23d71d2-1dec-427b-914f-62d2f108c88c",
+        "discogs_id": 592621,
+        "discogs_master_id": 272711,
+        "discogs_labels": [
+          "Star-Club Records"
+        ],
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Psychedelic Rock"
+        ],
+        "year": 1967,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "The Rattles",
+        "track": "The Witch",
+        "album": "SO HIGH I’VE BEEN: A EUROPEAN ROCK ANTHOLOGY 1967-1973",
+        "printed_country": "Germany",
+        "country": [
+          "DE"
+        ],
+        "printed_label": null,
+        "label": [
+          "Juggy Sound Studio"
+        ],
+        "label_from": "discogs",
+        "apple_id": 1677683123,
+        "apple_album_id": null,
+        "apple_artist_id": 115746366,
+        "mb_id": "35ff5f03-bb9b-4df1-ae5b-a5d9faea70a2",
+        "discogs_id": 26707481,
+        "discogs_master_id": 254313,
+        "discogs_labels": [
+          "Juggy Sound Studio"
+        ],
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Prog Rock"
+        ],
+        "year": 1969,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Tangerine Dream",
+        "track": "Asche zu asche",
+        "album": "ELECTRIC MEDITATION",
+        "printed_country": "Germany",
+        "country": [
+          "DE"
+        ],
+        "printed_label": "Ohr",
+        "label": [
+          "Ohr"
+        ],
+        "apple_id": null,
+        "mb_id": null,
+        "discogs_id": 2468699,
+        "discogs_master_id": 13809,
+        "discogs_labels": [
+          "Ohr"
+        ],
+        "discogs_genres": [
+          "Electronic",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Krautrock",
+          "Avantgarde",
+          "Experimental"
+        ],
+        "year": 1970,
+        "year_from": "discogs"
+      },
+      {
+        "artist": "Guru Guru",
+        "track": "Next time see you at the Dalai Lama",
+        "album": "UFO",
+        "printed_country": "Germany/Switzerland",
+        "country": [
+          "DE",
+          "CH"
+        ],
+        "printed_label": "OMM",
+        "label": [
+          "OMM"
+        ],
+        "apple_id": 1537031700,
+        "apple_album_id": 1537031696,
+        "apple_artist_id": 14410341,
+        "mb_id": "786bb0e3-2b98-45c0-92e9-ca70d63d1def",
+        "discogs_id": 1237247,
+        "discogs_master_id": 3403,
+        "discogs_labels": [
+          "Cleopatra"
+        ],
+        "discogs_genres": [
+          "Electronic"
+        ],
+        "discogs_styles": [
+          "Krautrock",
+          "Ambient"
+        ],
+        "year": 1970,
+        "year_from": "owner"
+      },
+      {
+        "artist": "Necronomicon",
+        "track": "In Memoriam",
+        "album": "TIPS ZUM SELBSTMORD",
+        "printed_country": "Germany",
+        "country": [
+          "DE"
+        ],
+        "printed_label": "Best Prihodi",
+        "label": [
+          "Best Prihodi"
+        ],
+        "apple_id": 1652469459,
+        "apple_album_id": 1652469100,
+        "apple_artist_id": 152587227,
+        "mb_id": "4fe47c9c-ff60-46c1-a4d2-31af091d32d3",
+        "discogs_id": 747025,
+        "discogs_master_id": 24842,
+        "discogs_labels": [
+          "Best Prehodi"
+        ],
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Krautrock",
+          "Hard Rock"
+        ],
+        "year": 1972,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Faust",
+        "track": "It’s a rainy day, Sunshine Girl",
+        "album": "SO FAR",
+        "printed_country": "Germany",
+        "country": [
+          "DE"
+        ],
+        "printed_label": "Polydor",
+        "label": [
+          "Polydor"
+        ],
+        "apple_id": 1443279360,
+        "apple_album_id": 1443279357,
+        "apple_artist_id": 14138999,
+        "mb_id": "4b2701bb-9a22-494f-afef-cdb017ae1168",
+        "discogs_id": 1994894,
+        "discogs_master_id": 28068,
+        "discogs_labels": [
+          "Polydor",
+          "Deutsche Grammophon Gesellschaft Pressing Plant",
+          "Gerhard Kaiser GmbH",
+          "Intersong",
+          "Wümme"
+        ],
+        "discogs_genres": [
+          "Electronic",
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Krautrock",
+          "Psychedelic Rock",
+          "Experimental"
+        ],
+        "year": 1972,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Anna Calvi ft Iggy Pop",
+        "track": "God’s lonely man",
+        "album": "IS THIS ALL THERE IS?",
+        "printed_country": "UK/USA",
+        "country": [
+          "GB",
+          "US"
+        ],
+        "printed_label": "Domino",
+        "label": [
+          "Domino"
+        ],
+        "apple_id": 1858372891,
+        "apple_album_id": 1858372890,
+        "apple_artist_id": 395970545,
+        "mb_id": "30e5dfc3-8982-44bc-8caa-829f4c7f3bf6",
+        "discogs_id": 36818695,
+        "discogs_master_id": 4169977,
+        "discogs_labels": [
+          "Domino"
+        ],
+        "discogs_genres": [
+          "Rock"
+        ],
+        "discogs_styles": [
+          "Alternative Rock",
+          "Indie Rock"
+        ],
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Julien Gasc",
+        "track": "Chez Martine",
+        "album": "PERLES, CORAUX & REQUINS",
+        "printed_country": "France",
+        "country": [
+          "FR"
+        ],
+        "printed_label": "Kuroneko",
+        "label": [
+          "Kuroneko"
+        ],
+        "apple_id": 1891706678,
+        "apple_album_id": 1891706673,
+        "apple_artist_id": 435476289,
+        "mb_id": "b15cf5df-f7de-4a47-ac45-c8f4fe320548",
+        "discogs_id": 35357038,
+        "discogs_master_id": 4304946,
+        "discogs_labels": [
+          "Not On Label"
+        ],
+        "discogs_genres": [
+          "Jazz",
+          "Rock",
+          "Pop"
+        ],
+        "discogs_styles": [
+          "Chanson"
+        ],
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Memorials",
+        "track": "Dropped down the well",
+        "album": "ALL CLOUDS BRING NOT RAIN",
+        "printed_country": "UK",
+        "country": [
+          "GB"
+        ],
+        "printed_label": "Fire",
+        "label": [
+          "Fire"
+        ],
+        "apple_id": 1858234569,
+        "apple_album_id": 1858234337,
+        "apple_artist_id": 1456280733,
+        "mb_id": "f648676f-b258-4bba-84ac-23a25c491e9f",
+        "discogs_id": 37048689,
+        "discogs_master_id": 4176943,
+        "discogs_labels": [
+          "Fire Records"
+        ],
+        "discogs_genres": [
+          "Rock",
+          "Pop"
+        ],
+        "discogs_styles": [
+          "Indie Pop",
+          "Experimental",
+          "Psychedelic Rock",
+          "Indie Rock"
+        ],
+        "year": 2026,
+        "year_from": "musicbrainz"
+      },
+      {
+        "artist": "Mahan Mirarab",
+        "track": "First idea",
+        "album": "UNSPOKEN",
+        "printed_country": "Austria/Iran",
+        "country": [
+          "AT",
+          "IR"
+        ],
+        "printed_label": "ACT",
+        "label": [
+          "ACT"
+        ],
+        "apple_id": 1884662429,
+        "apple_album_id": 1884662428,
+        "apple_artist_id": 421440908,
+        "mb_id": "349f0fff-27a4-486a-9988-1e6d7e85fd46",
+        "discogs_id": 38403177,
+        "discogs_master_id": 4342296,
+        "discogs_labels": [
+          "ACT (4)"
+        ],
+        "discogs_genres": [
+          "Jazz",
+          "Folk, World, & Country"
+        ],
+        "discogs_styles": [],
+        "year": 2026,
+        "year_from": "musicbrainz"
+      }
+    ]
+  },
+  {
     "guid": "d777bf75-82f6-46b6-9df1-2286e188b6cf",
     "number": 93,
     "title": "🎶 Стереоплан Троицкого* #93 - \"Голландские группы 60–70-х, импро-фолк и словенские концептуалисты\".",
@@ -311,6 +1148,7 @@
         "apple_id": 1833633743,
         "apple_album_id": 1833633660,
         "apple_artist_id": 153046264,
+        "mb_id": null,
         "year": 2025,
         "year_from": "apple"
       },
