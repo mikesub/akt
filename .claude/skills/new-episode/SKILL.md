@@ -15,7 +15,7 @@ This is for «Стереоплан Троицкого» (`bin/stereoplan.js`), t
 git pull --ff-only && git status --short
 ```
 
-Stop and ask if the tree has uncommitted changes: they are not yours to commit.
+Stop and ask if the tree has uncommitted changes: they are not yours to commit. The one exception: changes to `docs/data/stereoplan.json` and `programs/stereoplan/descriptions/` alone are a scheduled run's (it runs step 2 and never commits). Keep them and go on: step 2 then finishes what that run left.
 
 ## 2. Run the pipeline
 
@@ -33,7 +33,7 @@ It fetches the feed, saves each episode's description in `programs/stereoplan/de
 - `discogs: 12 by the track, 0 by the album, 1 not found`: the same for Discogs, asked about every new track.
 - Anything on stderr (`#90 musicbrainz: … HTTP 503`, `retrying in …`, `N failed; run again to retry them`) is a failure or throttling. A failed parse keeps the episode's old tracks and a failed lookup is left for the next run: run the command again; if it fails again, stop and report.
 
-If it says `0 to parse` and nothing to look up, there is nothing new: say so and stop.
+If it says `0 to parse` and nothing to look up, and `git status --short` shows no change to those files, there is nothing new: say so and stop. With changes there (a scheduled run's), go on to step 3 with the episodes they hold.
 
 ## 3. Check the result
 
